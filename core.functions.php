@@ -713,7 +713,7 @@ function rem_render_property_search_fields($field, $display = 'widget'){
 					?>
 			</select>
 		<?php } else { ?>
-			<input class="form-control" type="text" placeholder="<?php echo $field['title']; ?>" name="<?php echo $field['key']; ?>" id="<?php echo $field['key']; ?>" value="<?php echo (isset($_GET[$field['key']])) ? $_GET[$field['key']] : '' ; ?>"/>
+			<input class="form-control" type="text" placeholder="<?php echo $field['title']; ?>" name="<?php echo $field['key']; ?>" id="<?php echo $field['key']; ?>" value="<?php echo (isset($_GET[$field['key']])) ? esc_attr($_GET[$field['key']]) : '' ; ?>"/>
 		<?php }		
 	} elseif ($field['key'] == '') { ?>
 		
@@ -732,7 +732,7 @@ function rem_render_property_search_fields($field, $display = 'widget'){
 					?>
 			</select>
 		<?php } else { ?>
-			<input placeholder="<?php echo $field['title']; ?>" class="form-control" type="<?php echo $field['type']; ?>" name="<?php echo $field['key']; ?>" id="<?php echo $field['key']; ?>" value="<?php echo (isset($_GET[$field['key']])) ? $_GET[$field['key']] : '' ; ?>"/>
+			<input placeholder="<?php echo $field['title']; ?>" class="form-control" type="<?php echo $field['type']; ?>" name="<?php echo $field['key']; ?>" id="<?php echo $field['key']; ?>" value="<?php echo (isset($_GET[$field['key']])) ? esc_attr($_GET[$field['key']]) : '' ; ?>"/>
 		<?php }
 	}
 }
@@ -759,9 +759,9 @@ function rem_render_price_range_field($display = 'widget'){
 			<label><?php _e( 'Price', 'real-estate-manager' ); ?></label>
 		<?php } ?>
 	<div class="row">
-		<div class="col-xs-5"><input type="text" class="form-control" name="price_min" placeholder="<?php _e( 'Min', 'real-estate-manager' ); ?>" value="<?php echo (isset($_GET['price_min'])) ? $_GET['price_min'] : '' ; ?>"></div>
+		<div class="col-xs-5"><input type="text" class="form-control" name="price_min" placeholder="<?php _e( 'Min', 'real-estate-manager' ); ?>" value="<?php echo (isset($_GET['price_min'])) ? esc_attr($_GET['price_min']) : '' ; ?>"></div>
 		<div class="col-xs-2 text-center"><strong class="price-sep"><?php echo $price_symbol; ?></strong></div>
-		<div class="col-xs-5"><input type="text" class="form-control" name="price_max" placeholder="<?php _e( 'Max', 'real-estate-manager' ); ?>" value="<?php echo (isset($_GET['price_max'])) ? $_GET['price_max'] : '' ; ?>"></div>
+		<div class="col-xs-5"><input type="text" class="form-control" name="price_max" placeholder="<?php _e( 'Max', 'real-estate-manager' ); ?>" value="<?php echo (isset($_GET['price_max'])) ? esc_attr($_GET['price_max']) : '' ; ?>"></div>
 	</div>
 	<?php } ?>
 <?php }

@@ -70,7 +70,7 @@ class REM_Search_Property_Widget extends WP_Widget {
 					<form method="get" action="<?php echo get_permalink( $result_page ); ?>">
 						<?php if(isset($search_field)){ ?>
 							<div class="col-md-12 space-div">
-								<input class="form-control" value="<?php echo (isset($_GET['search_property'])) ? $_GET['search_property'] : '' ; ?>" type="text" name="search_property" id="keywords" placeholder="<?php _e( 'Keywords','real-estate-manager' ); ?>" />
+								<input class="form-control" value="<?php echo (isset($_GET['search_property'])) ? esc_attr($_GET['search_property']) : '' ; ?>" type="text" name="search_property" id="keywords" placeholder="<?php _e( 'Keywords','real-estate-manager' ); ?>" />
 							</div>
 						<?php } else {
 							echo '<input value="" type="hidden" name="search_property" />';

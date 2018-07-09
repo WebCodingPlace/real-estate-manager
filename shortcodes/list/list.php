@@ -6,7 +6,7 @@ if ( $the_query->have_posts() ) {
 	<div class="row rem-topbar">
 		<form method="GET" action="#">
 		<div class="col-sm-3 col-xs-8">
-			<input type="hidden" name="list_style" value="<?php echo (isset($_GET['list_style'])) ? $_GET['list_style'] : '' ; ?>">
+			<input type="hidden" name="list_style" value="<?php echo (isset($_GET['list_style'])) ? esc_attr($_GET['list_style']) : '' ; ?>">
 			<select class="form-control" name="sort_by" onchange="this.form.submit()">
 				<?php
 					$sorting_options = $this->lists_sorting_options();
