@@ -874,6 +874,8 @@ function rem_get_search_query($data){
 
     /**
      * Searching for Features
+     * details_cbs is array with keys feature names. The results
+     * contain properties that have _ANY_ specified feature.
      */
     if (isset($data['detail_cbs']) && $data['detail_cbs'] != '') {
 
@@ -886,6 +888,23 @@ function rem_get_search_query($data){
                 ),
             );
         }
+    }
+    /*
+     * Search for features (a simple comma-separated list of feature names)
+     * The results contains properties with _ALL_ specified features present.
+     * jQueryUI search widget uses this API.
+     */
+    if (isset($data['features']) && $data['features'] != '') {
+        $features = array_intersect(preg_split('/,\s*/', $data['features']),
+                                    $rem_ob->get_all_property_features());
+        $q = array();
+        foreach ($features as $feature)
+            $q[] = array(
+                'key'     => 'rem_property_detail_cbs',
+                'compare' => 'LIKE',
+                'value'   => $feature,
+            );
+        $args['meta_query'][] = $q;
     }
 
     return $args;

@@ -19,6 +19,7 @@ require_once( REM_PATH.'/classes/hooks.class.php');
 require_once( REM_PATH.'/classes/emails.class.php');
 require_once( REM_PATH.'/classes/widgets/mortgage-calculator.php');
 require_once( REM_PATH.'/classes/widgets/search-properties.php');
+require_once( REM_PATH.'/classes/widgets/search-properties2.php');
 require_once( REM_PATH.'/classes/widgets/tags-cloud.php');
 
 /**
