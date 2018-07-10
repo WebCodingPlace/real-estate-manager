@@ -1,0 +1,4535 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2018-06-28 14:19+0500\n"
+"PO-Revision-Date: 2018-06-28 14:40+0500\n"
+"Language-Team: rameez7759@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pl\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/emails.class.php:36
+#, fuzzy
+msgid "New Agent Registered "
+msgstr "Nowy Agent zarejestrowany"
+
+#: classes/emails.class.php:47
+#, fuzzy
+msgid "Registration Successfull "
+msgstr "Rejestracja powiodła się"
+
+#: classes/emails.class.php:63
+msgid "Approved "
+msgstr "Zatwierdzone"
+
+#: classes/emails.class.php:79
+msgid "Rejected "
+msgstr "Odrzucono"
+
+#: classes/emails.class.php:101
+#, fuzzy
+msgid "New Property Submitted "
+msgstr "Nieruchomość zgłoszona."
+
+#: classes/emails.class.php:107
+#, fuzzy
+msgid "Property Submitted "
+msgstr "Nieruchomość zgłoszona."
+
+#: classes/emails.class.php:120
+#, fuzzy
+msgid "Property Approved "
+msgstr "Właściwość zatwierdzona"
+
+#: classes/hooks.class.php:167
+msgid "Beds"
+msgstr "Pokoje"
+
+#: classes/hooks.class.php:172
+msgid "Baths"
+msgstr "Łazienki"
+
+#: classes/hooks.class.php:177 inc/arrays/property-fields.php:135
+msgid "Area"
+msgstr "Powierzchnia"
+
+#: classes/hooks.class.php:411
+msgid "Features"
+msgstr "Funkcje"
+
+#: classes/hooks.class.php:436
+msgid "Attachments"
+msgstr "Załączniki"
+
+#: classes/hooks.class.php:468 core.functions.php:553
+msgid "Video"
+msgstr "Wideo"
+
+#: classes/hooks.class.php:487 shortcodes/create-property.php:65
+#: shortcodes/divi-settings.php:61 shortcodes/edit-property.php:86
+#: shortcodes/vc-settings.php:794
+msgid "Tags"
+msgstr "Tagi"
+
+#: classes/hooks.class.php:521 inc/admin/register-property.php:14
+#: shortcodes/vc-settings.php:149
+msgid "Edit Property"
+msgstr "Edytuj nieruchomość"
+
+#: classes/hooks.class.php:527
+msgid "Find on Map"
+msgstr "Znajdź(adres)"
+
+#: classes/hooks.class.php:538 inc/menu/page-agents.php:83
+#: inc/menu/page-agents.php:125 templates/property/style1.php:51
+#: templates/property/style2.php:18 templates/property/style3.php:19
+#: templates/property/style4.php:14 templates/property/style5.php:16
+msgid "Details"
+msgstr "Szczegóły"
+
+#: classes/hooks.class.php:731
+msgid "Name"
+msgstr "Nazwa"
+
+#: classes/hooks.class.php:734 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:65 inc/menu/page-agents.php:107
+msgid "Email"
+msgstr "Email"
+
+#: classes/hooks.class.php:737
+msgid "Subject"
+msgstr "Temat"
+
+#: classes/hooks.class.php:740
+msgid "Your Message"
+msgstr "Wiadomość"
+
+#: classes/hooks.class.php:746
+msgid "SEND MESSAGE"
+msgstr "WYŚLIJ WIADOMOŚĆ"
+
+#: classes/hooks.class.php:753 inc/sidebar-agent-contact.php:45
+#, fuzzy
+msgid "Sending Email, Please Wait..."
+msgstr "Wysyłam e-mail, proszę czekać ..."
+
+#: classes/hooks.class.php:776
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:777
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:785
+msgid "Tag:"
+msgstr "Tag:"
+
+#: classes/hooks.class.php:788
+msgid "Properties:"
+msgstr "Właściwości:"
+
+#: classes/hooks.class.php:807 classes/setup.class.php:534
+#: shortcodes/vc-settings.php:477 shortcodes/vc-settings.php:484
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/hooks.class.php:808
+#, fuzzy
+msgid "Request for Customize"
+msgstr "Prośba o dostosowanie"
+
+#: classes/hooks.class.php:931
+#, fuzzy
+msgid "You can add more features"
+msgstr "Możesz dodać więcej funkcji"
+
+#: classes/hooks.class.php:932 inc/menu/admin-settings-arr.php:494
+#: inc/menu/admin-settings-arr.php:500 inc/menu/admin-settings-arr.php:605
+msgid "here"
+msgstr "tutaj"
+
+#: classes/hooks.class.php:938 classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:182 core.functions.php:664
+#: shortcodes/vc-settings.php:13 shortcodes/vc-settings.php:173
+msgid "Property ID"
+msgstr "Numer oferty"
+
+#: classes/hooks.class.php:939
+msgid "Featured Image"
+msgstr "Wyróżniony obrazek"
+
+#: classes/setup.class.php:96
+msgid "Property Information"
+msgstr "Informacje o nieruchomości"
+
+#: classes/setup.class.php:97
+msgid "Location on Map"
+msgstr "Położenie na mapie"
+
+#: classes/setup.class.php:98
+msgid "Gallery Images"
+msgstr "Obrazy galerii"
+
+#: classes/setup.class.php:334 classes/setup.class.php:603
+#: shortcodes/divi-settings.php:30
+#, fuzzy
+msgid "Property Agent"
+msgstr "Agent nieruchomości"
+
+#: classes/setup.class.php:397
+msgid "Attic"
+msgstr "Poddasze"
+
+#: classes/setup.class.php:398
+#, fuzzy
+msgid "Gas Heat"
+msgstr "Ciepło gazowe"
+
+#: classes/setup.class.php:399
+msgid "Balcony"
+msgstr "Balkon"
+
+#: classes/setup.class.php:400
+#, fuzzy
+msgid "Wine Cellar"
+msgstr "Piwnica win"
+
+#: classes/setup.class.php:401
+#, fuzzy
+msgid "Basketball Court"
+msgstr "Boisko"
+
+#: classes/setup.class.php:402
+#, fuzzy
+msgid "Trash Compactors"
+msgstr "Zagęszczarki śmieci"
+
+#: classes/setup.class.php:403
+msgid "Fireplace"
+msgstr "Kominek"
+
+#: classes/setup.class.php:404
+msgid "Pool"
+msgstr "Basen"
+
+#: classes/setup.class.php:405
+#, fuzzy
+msgid "Lake View"
+msgstr "Widok na jezioro"
+
+#: classes/setup.class.php:406
+#, fuzzy
+msgid "Solar Heat"
+msgstr "Energia słoneczna"
+
+#: classes/setup.class.php:407
+#, fuzzy
+msgid "Separate Shower"
+msgstr "Oddzielny prysznic"
+
+#: classes/setup.class.php:408
+#, fuzzy
+msgid "Wet Bar"
+msgstr "Barek"
+
+#: classes/setup.class.php:409
+msgid "Remodeled"
+msgstr "Renowacja"
+
+#: classes/setup.class.php:410
+msgid "Skylights"
+msgstr "Świetliki"
+
+#: classes/setup.class.php:411
+#, fuzzy
+msgid "Stone Surfaces"
+msgstr "Powierzchni kamienia"
+
+#: classes/setup.class.php:412
+#, fuzzy
+msgid "Golf Course"
+msgstr "Pole golfowe"
+
+#: classes/setup.class.php:413
+#, fuzzy
+msgid "Health Club"
+msgstr "Siłownia"
+
+#: classes/setup.class.php:414
+#, fuzzy
+msgid "Backyard"
+msgstr "Podworko"
+
+#: classes/setup.class.php:415
+#, fuzzy
+msgid "Pet Allowed"
+msgstr "Zwierzęta mile widziane"
+
+#: classes/setup.class.php:416
+#, fuzzy
+msgid "Office/Den"
+msgstr "Biuro/Den"
+
+#: classes/setup.class.php:417
+msgid "Laundry"
+msgstr "Pranie"
+
+#: classes/setup.class.php:430
+msgid "Duplex"
+msgstr "Duplex"
+
+#: classes/setup.class.php:431
+msgid "House"
+msgstr "Dom"
+
+#: classes/setup.class.php:432
+msgid "Office"
+msgstr "Biuro"
+
+#: classes/setup.class.php:433
+msgid "Retail"
+msgstr "Sprzedaż Detaliczna"
+
+#: classes/setup.class.php:434
+#, fuzzy
+msgid "Vila"
+msgstr "Vila"
+
+#: classes/setup.class.php:447
+msgid "Rent"
+msgstr "Wynajmę"
+
+#: classes/setup.class.php:448
+msgid "Sell"
+msgstr "Sprzedam"
+
+#: classes/setup.class.php:461
+msgid "Normal"
+msgstr "Normalny"
+
+#: classes/setup.class.php:462
+msgid "Available"
+msgstr "Dostępne"
+
+#: classes/setup.class.php:463
+msgid "Not Available"
+msgstr "Niedostępne"
+
+#: classes/setup.class.php:464
+msgid "Sold"
+msgstr "Sprzedany"
+
+#: classes/setup.class.php:465
+msgid "Open House"
+msgstr "Drzwi otwarte"
+
+#: classes/setup.class.php:480 classes/shortcodes.class.php:1193
+#, fuzzy
+msgid "Please check the captcha form."
+msgstr "Sprawdź captche."
+
+#: classes/setup.class.php:489
+#, fuzzy
+msgid "There was an error. Please try again after reloading page"
+msgstr "Wystąpił błąd. Proszę spróbować ponownie po przeładunku stronę"
+
+#: classes/setup.class.php:522
+#, fuzzy
+msgid "Email Sent Successfully"
+msgstr "Poprawnie wysłano e-mail"
+
+#: classes/setup.class.php:524
+#, fuzzy
+msgid "There is some problem, please try later"
+msgstr "Wystąpił błąd ,spróbuj ponownie później."
+
+#: classes/setup.class.php:532
+msgid "Agents"
+msgstr "Agenci"
+
+#: classes/setup.class.php:533
+msgid "Custom Fields"
+msgstr "Dodatkowe pola"
+
+#: classes/setup.class.php:535
+#, fuzzy
+msgid "Help/Support"
+msgstr "Pomoc & Wsparcie"
+
+#: classes/setup.class.php:681 classes/setup.class.php:695
+msgid "Settings Saved"
+msgstr "Ustawienia zapisano"
+
+#: classes/setup.class.php:697
+#, fuzzy
+msgid "Error, please try again"
+msgstr "Błąd - spróbuj ponownie."
+
+#: classes/setup.class.php:717 classes/setup.class.php:720
+#, fuzzy
+msgid "Property updated."
+msgstr "Nieruchomość zaktualizowana."
+
+#: classes/setup.class.php:718
+msgid "Custom field updated."
+msgstr "Pole niestandardowe zaktualizowane."
+
+#: classes/setup.class.php:719
+msgid "Custom field deleted."
+msgstr "Pola niestandardowe usunięte."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:722
+#, fuzzy
+msgid "Property restored to revision"
+msgstr "Ofertę przywrócono do wersji z %s"
+
+#: classes/setup.class.php:723
+#, fuzzy
+msgid "Property published."
+msgstr "Właściwość opublikowane."
+
+#: classes/setup.class.php:724
+#, fuzzy
+msgid "Property saved."
+msgstr "Zapisano na obiekt."
+
+#: classes/setup.class.php:725
+#, fuzzy
+msgid "Property submitted."
+msgstr "Nieruchomość zgłoszona."
+
+#: classes/setup.class.php:727
+#, fuzzy
+msgid "Property scheduled."
+msgstr "Właściwość zaplanowane."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:729
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/setup.class.php:731
+#, fuzzy
+msgid "Property draft updated."
+msgstr "Właściwość projektu Aktualizacja."
+
+#: classes/setup.class.php:737 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "Zobacz nieruchomość"
+
+#: classes/setup.class.php:743
+#, fuzzy
+msgid "Preview Property"
+msgstr "Podgląd Właściwości"
+
+#: classes/setup.class.php:808
+#, fuzzy
+msgid "Property Page Base"
+msgstr "Strona obiektu"
+
+#: classes/setup.class.php:833 shortcodes/my-properties.php:9
+msgid "Type"
+msgstr "Typ"
+
+#: classes/setup.class.php:834 inc/arrays/property-fields.php:91
+#: shortcodes/my-properties.php:11
+msgid "Purpose"
+msgstr "Cel"
+
+#: classes/setup.class.php:835 inc/arrays/property-fields.php:102
+#: shortcodes/my-properties.php:12
+msgid "Status"
+msgstr "Status"
+
+#: classes/setup.class.php:860
+msgid "All Types"
+msgstr "Wszystkie typy"
+
+#: classes/setup.class.php:872
+#, fuzzy
+msgid "All Purpose"
+msgstr "uniwersalny"
+
+#: classes/setup.class.php:883
+msgid "All Status"
+msgstr "Rynek"
+
+#: classes/shortcodes.class.php:89 classes/widgets/search-properties.php:103
+msgid "Search"
+msgstr "Szukaj"
+
+#: classes/shortcodes.class.php:90
+msgid "More Filters"
+msgstr "Więcej filtrów"
+
+#: classes/shortcodes.class.php:894 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "Wyloguj"
+
+#: classes/shortcodes.class.php:1157
+#, fuzzy
+msgid "Changes Saved!"
+msgstr "Zmiany zostały zapisane."
+
+#: classes/shortcodes.class.php:1202
+#, fuzzy
+msgid "There was an error. Please try again after reloading page."
+msgstr "Wystąpił błąd. Spróbuj ponownie po ponownie wczytać stronę."
+
+#: classes/shortcodes.class.php:1210 classes/shortcodes.class.php:1220
+#, fuzzy
+msgid "Username or Email already exists"
+msgstr "Nazwa użytkownika lub adres E-mail już istnieje"
+
+#: classes/shortcodes.class.php:1233
+#, fuzzy
+msgid "Registered Successfully, please wait until admin approves."
+msgstr ""
+"Zarejestrowała się pomyślnie, proszę poczekać, aż administrator zatwierdza."
+
+#: classes/shortcodes.class.php:1235
+#, fuzzy
+msgid "Error, please try later"
+msgstr "Błąd, spróbuj ponownie później"
+
+#: classes/shortcodes.class.php:1296
+msgid "Choose Picture"
+msgstr "Wybierz zdjęcie"
+
+#: classes/shortcodes.class.php:1296 classes/shortcodes.class.php:1330
+#: core.functions.php:625
+msgid "Add"
+msgstr "Dodaj"
+
+#: classes/shortcodes.class.php:1330 core.functions.php:625
+#, fuzzy
+msgid "Select attachments for property"
+msgstr "Zaznacz załączniki dla Właściwość"
+
+#: classes/shortcodes.class.php:1330 core.functions.php:625
+msgid "Upload"
+msgstr "Prześlij"
+
+#: classes/shortcodes.class.php:1392
+msgid "Sort By Date"
+msgstr "Sortuj według daty"
+
+#: classes/shortcodes.class.php:1396
+#, fuzzy
+msgid "Sort By Title"
+msgstr "Według tytułu"
+
+#: classes/shortcodes.class.php:1400
+#, fuzzy
+msgid "Sort By Price : High to Low"
+msgstr "Sortuj wg ceny: od najwyższej"
+
+#: classes/shortcodes.class.php:1404
+#, fuzzy
+msgid "Sort By Price : Low to High"
+msgstr "Sortuj wg ceny: od najniższej"
+
+#: classes/widgets/mortgage-calculator.php:13
+#, fuzzy
+msgid "REM - Mortgage Calculator"
+msgstr "Kalkulator kredytowy"
+
+#: classes/widgets/mortgage-calculator.php:14
+#, fuzzy
+msgid "Displays Mortgage Calculator"
+msgstr "Kalkulator kredytowy wyświetla"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "Cena promocyjna"
+
+#: classes/widgets/mortgage-calculator.php:45
+msgid "Down payment"
+msgstr "Zadatek"
+
+#: classes/widgets/mortgage-calculator.php:49
+msgid "Interest Rate"
+msgstr "Stopa Procentowa"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Term"
+msgstr "Warunek"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "years"
+msgstr "lat"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "Oblicz"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:120 classes/widgets/tags-cloud.php:34
+#: core.functions.php:669 shortcodes/my-properties.php:8
+msgid "Title"
+msgstr "Tytuł"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "Szukaj obiektu"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "Szukaj ofert"
+
+#: classes/widgets/search-properties.php:73 shortcodes/search-property.php:39
+msgid "Keywords"
+msgstr "Słowa kluczowe"
+
+#: classes/widgets/search-properties.php:85
+#: classes/widgets/search-properties.php:155 core.functions.php:658
+#: shortcodes/divi-settings.php:16 shortcodes/vc-settings.php:10
+#: shortcodes/vc-settings.php:123 shortcodes/vc-settings.php:188
+#: shortcodes/vc-settings.php:384 shortcodes/vc-settings.php:720
+#: shortcodes/vc-settings.php:753
+msgid "Order"
+msgstr "Zamówienie"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:164 core.functions.php:668
+#: shortcodes/divi-settings.php:25 shortcodes/vc-settings.php:11
+#: shortcodes/vc-settings.php:133 shortcodes/vc-settings.php:198
+#: shortcodes/vc-settings.php:398 shortcodes/vc-settings.php:730
+#: shortcodes/vc-settings.php:763
+msgid "Order By"
+msgstr "Sortuj wg"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:173 core.functions.php:676
+#: shortcodes/vc-settings.php:12 shortcodes/vc-settings.php:202
+#: shortcodes/vc-settings.php:274 shortcodes/vc-settings.php:340
+#: shortcodes/vc-settings.php:402 shortcodes/vc-settings.php:469
+#: shortcodes/vc-settings.php:734 shortcodes/vc-settings.php:767
+#: shortcodes/vc-settings.php:806
+msgid "Agent"
+msgstr "Agent"
+
+#: classes/widgets/search-properties.php:135 shortcodes/vc-settings.php:5
+msgid "Search Field"
+msgstr "Szukaj pola"
+
+#: classes/widgets/search-properties.php:185
+msgid "Search Results Page"
+msgstr "Strona wyników wyszukiwania"
+
+#: classes/widgets/search-properties.php:206
+#: inc/menu/render-admin-settings.php:125
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "Nie znaleziono żadnej strony"
+
+#: classes/widgets/search-properties.php:209
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr "Wklej następujące wada w wybranej strony, aby wyświetlić wyniki"
+
+#: classes/widgets/tags-cloud.php:13
+#, fuzzy
+msgid "REM - Tags Cloud"
+msgstr "REM - Tagi Cloud"
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "Wyświetla właściwości Tagi Cloud"
+
+#: core.functions.php:116
+msgid "United Arab Emirates dirham"
+msgstr "Dirham Zjednoczonych Emiratów Arabskich"
+
+#: core.functions.php:117
+msgid "Afghan afghani"
+msgstr "Afgani Afgański"
+
+#: core.functions.php:118
+msgid "Albanian lek"
+msgstr "Lek Albański"
+
+#: core.functions.php:119
+#, fuzzy
+msgid "Armenian dram"
+msgstr "Dram"
+
+#: core.functions.php:120
+msgid "Netherlands Antillean guilder"
+msgstr "Gulden Antyli Holenderskich"
+
+#: core.functions.php:121
+#, fuzzy
+msgid "Angolan kwanza"
+msgstr "Kwanza"
+
+#: core.functions.php:122
+#, fuzzy
+msgid "Argentine peso"
+msgstr "Peso argentyńskie"
+
+#: core.functions.php:123
+msgid "Australian dollar"
+msgstr "Dolar australijski"
+
+#: core.functions.php:124
+#, fuzzy
+msgid "Aruban florin"
+msgstr "Florin arubański"
+
+#: core.functions.php:125
+#, fuzzy
+msgid "Azerbaijani manat"
+msgstr "Manat azerski"
+
+#: core.functions.php:126
+#, fuzzy
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Marka wymienialna (Bośnia i Hercegowina) Name"
+
+#: core.functions.php:127
+msgid "Barbadian dollar"
+msgstr "Dolar Barbadosu"
+
+#: core.functions.php:128
+msgid "Bangladeshi taka"
+msgstr "Taka Bangladeska"
+
+#: core.functions.php:129
+msgid "Bulgarian lev"
+msgstr "Lew bułgarski"
+
+#: core.functions.php:130
+msgid "Bahraini dinar"
+msgstr "Dinar Bahrański"
+
+#: core.functions.php:131
+#, fuzzy
+msgid "Burundian franc"
+msgstr "Frank burundyjski"
+
+#: core.functions.php:132
+#, fuzzy
+msgid "Bermudian dollar"
+msgstr "Dolar bermudzki"
+
+#: core.functions.php:133
+msgid "Brunei dollar"
+msgstr "Dolar Brunei"
+
+#: core.functions.php:134
+msgid "Bolivian boliviano"
+msgstr "Boliviano boliwijskie"
+
+#: core.functions.php:135
+msgid "Brazilian real"
+msgstr "Real brazylijski"
+
+#: core.functions.php:136
+msgid "Bahamian dollar"
+msgstr "Dolar bahamski"
+
+#: core.functions.php:137
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: core.functions.php:138
+#, fuzzy
+msgid "Bhutanese ngultrum"
+msgstr "Ngultrum"
+
+#: core.functions.php:139
+msgid "Botswana pula"
+msgstr "Pula Botswańska"
+
+#: core.functions.php:140
+msgid "Belarusian ruble"
+msgstr "Rubel białoruski"
+
+#: core.functions.php:141
+msgid "Belize dollar"
+msgstr "Dolar belize"
+
+#: core.functions.php:142
+msgid "Canadian dollar"
+msgstr "Dolar kanadyjski"
+
+#: core.functions.php:143
+#, fuzzy
+msgid "Congolese franc"
+msgstr "Frank kongijski"
+
+#: core.functions.php:144
+msgid "Swiss franc"
+msgstr "Frank szwajcarski"
+
+#: core.functions.php:145
+#, fuzzy
+msgid "Chilean peso"
+msgstr "Chilijskie peso"
+
+#: core.functions.php:146
+msgid "Chinese yuan"
+msgstr "Yuan chiński"
+
+#: core.functions.php:147
+#, fuzzy
+msgid "Colombian peso"
+msgstr "Kolumbijskie peso"
+
+#: core.functions.php:148
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa Rican colón"
+
+#: core.functions.php:149
+msgid "Cuban convertible peso"
+msgstr "Wymienialne peso kubańskie"
+
+#: core.functions.php:150
+#, fuzzy
+msgid "Cuban peso"
+msgstr "Peso kubańskie"
+
+#: core.functions.php:151
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "Republika Zielonego Przylądka escudo"
+
+#: core.functions.php:152
+msgid "Czech koruna"
+msgstr "Korona czeska"
+
+#: core.functions.php:153
+#, fuzzy
+msgid "Djiboutian franc"
+msgstr "Frank dżibutyjski"
+
+#: core.functions.php:154
+msgid "Danish krone"
+msgstr "Korona duńska"
+
+#: core.functions.php:155
+#, fuzzy
+msgid "Dominican peso"
+msgstr "Peso dominikańskie"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Algerian dinar"
+msgstr "Dinar algierski"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Egyptian pound"
+msgstr "Funt egipski"
+
+#: core.functions.php:158
+msgid "Eritrean nakfa"
+msgstr "Nakfa Erytrei"
+
+#: core.functions.php:159
+#, fuzzy
+msgid "Ethiopian birr"
+msgstr "Birr"
+
+#: core.functions.php:160
+msgid "Euro"
+msgstr "Euro"
+
+#: core.functions.php:161
+#, fuzzy
+msgid "Fijian dollar"
+msgstr "Dolar (Fidżi) Name"
+
+#: core.functions.php:162
+#, fuzzy
+msgid "Falkland Islands pound"
+msgstr "Funt falklandzki"
+
+#: core.functions.php:163
+msgid "Pound sterling"
+msgstr "funt szterling"
+
+#: core.functions.php:164
+#, fuzzy
+msgid "Georgian lari"
+msgstr "Lari"
+
+#: core.functions.php:165
+#, fuzzy
+msgid "Guernsey pound"
+msgstr "Funt Guernsey"
+
+#: core.functions.php:166
+msgid "Ghana cedi"
+msgstr "Cedi ghańskie"
+
+#: core.functions.php:167
+#, fuzzy
+msgid "Gibraltar pound"
+msgstr "Funt gibraltarski"
+
+#: core.functions.php:168
+#, fuzzy
+msgid "Gambian dalasi"
+msgstr "Dalasi"
+
+#: core.functions.php:169
+#, fuzzy
+msgid "Guinean franc"
+msgstr "Frank gwinejski"
+
+#: core.functions.php:170
+#, fuzzy
+msgid "Guatemalan quetzal"
+msgstr "Quetzal"
+
+#: core.functions.php:171
+msgid "Guyanese dollar"
+msgstr "Dolar gujański"
+
+#: core.functions.php:172
+#, fuzzy
+msgid "Hong Kong dollar"
+msgstr "Dolar hongkoński"
+
+#: core.functions.php:173
+msgid "Honduran lempira"
+msgstr "Lempira honduraska"
+
+#: core.functions.php:174
+msgid "Croatian kuna"
+msgstr "Kuna chorwacka"
+
+#: core.functions.php:175
+#, fuzzy
+msgid "Haitian gourde"
+msgstr "Gourde"
+
+#: core.functions.php:176
+msgid "Hungarian forint"
+msgstr "Forint węgierski"
+
+#: core.functions.php:177
+msgid "Indonesian rupiah"
+msgstr "Rupia indonezyjska"
+
+#: core.functions.php:178
+#, fuzzy
+msgid "Israeli new shekel"
+msgstr "Szekel"
+
+#: core.functions.php:179
+msgid "Manx pound"
+msgstr "Funt Manx"
+
+#: core.functions.php:180
+msgid "Indian rupee"
+msgstr "Rupia indyjska"
+
+#: core.functions.php:181
+#, fuzzy
+msgid "Iraqi dinar"
+msgstr "Dinar iracki"
+
+#: core.functions.php:182
+msgid "Iranian rial"
+msgstr "Rial irański"
+
+#: core.functions.php:183
+#, fuzzy
+msgid "Icelandic kr&oacute;na"
+msgstr "Korona islandzka"
+
+#: core.functions.php:184
+msgid "Jersey pound"
+msgstr "Funt Jersey"
+
+#: core.functions.php:185
+#, fuzzy
+msgid "Jamaican dollar"
+msgstr "Dolar jamajski"
+
+#: core.functions.php:186
+#, fuzzy
+msgid "Jordanian dinar"
+msgstr "Dinar jordański"
+
+#: core.functions.php:187
+msgid "Japanese yen"
+msgstr "Jen japoński"
+
+#: core.functions.php:188
+#, fuzzy
+msgid "Kenyan shilling"
+msgstr "Szyling kenijski"
+
+#: core.functions.php:189
+msgid "Kyrgyzstani som"
+msgstr "Som kirgiski"
+
+#: core.functions.php:190
+#, fuzzy
+msgid "Cambodian riel"
+msgstr "Riel"
+
+#: core.functions.php:191
+msgid "Comorian franc"
+msgstr "Frank komoryjski"
+
+#: core.functions.php:192
+#, fuzzy
+msgid "North Korean won"
+msgstr "Won północnokoreański"
+
+#: core.functions.php:193
+msgid "South Korean won"
+msgstr "Won południowokoreański"
+
+#: core.functions.php:194
+#, fuzzy
+msgid "Kuwaiti dinar"
+msgstr "Dinar kuwejcki"
+
+#: core.functions.php:195
+#, fuzzy
+msgid "Cayman Islands dollar"
+msgstr "Dolar kajmański"
+
+#: core.functions.php:196
+msgid "Kazakhstani tenge"
+msgstr "Tenge"
+
+#: core.functions.php:197
+#, fuzzy
+msgid "Lao kip"
+msgstr "Kip"
+
+#: core.functions.php:198
+#, fuzzy
+msgid "Lebanese pound"
+msgstr "Funt (Liban)"
+
+#: core.functions.php:199
+msgid "Sri Lankan rupee"
+msgstr "Rupia lankijska"
+
+#: core.functions.php:200
+#, fuzzy
+msgid "Liberian dollar"
+msgstr "Dolar liberyjski"
+
+#: core.functions.php:201
+#, fuzzy
+msgid "Lesotho loti"
+msgstr "Loti"
+
+#: core.functions.php:202
+#, fuzzy
+msgid "Libyan dinar"
+msgstr "Dinar libijski"
+
+#: core.functions.php:203
+#, fuzzy
+msgid "Moroccan dirham"
+msgstr "Dirham marokański"
+
+#: core.functions.php:204
+#, fuzzy
+msgid "Moldovan leu"
+msgstr "Lej mołdawski"
+
+#: core.functions.php:205
+#, fuzzy
+msgid "Malagasy ariary"
+msgstr "Ariary"
+
+#: core.functions.php:206
+msgid "Macedonian denar"
+msgstr "Denar macedoński"
+
+#: core.functions.php:207
+msgid "Burmese kyat"
+msgstr "Kyat birmański"
+
+#: core.functions.php:208
+#, fuzzy
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolski tögrög"
+
+#: core.functions.php:209
+#, fuzzy
+msgid "Macanese pataca"
+msgstr "Pataca"
+
+#: core.functions.php:210
+#, fuzzy
+msgid "Mauritanian ouguiya"
+msgstr "Ugija"
+
+#: core.functions.php:211
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "Rupia maurytyjska"
+
+#: core.functions.php:212
+msgid "Maldivian rufiyaa"
+msgstr "Rupia malediwska"
+
+#: core.functions.php:213
+#, fuzzy
+msgid "Malawian kwacha"
+msgstr "Kwacha malawijska"
+
+#: core.functions.php:214
+msgid "Mexican peso"
+msgstr "Peso meksykańskie"
+
+#: core.functions.php:215
+msgid "Malaysian ringgit"
+msgstr "Ringgit"
+
+#: core.functions.php:216
+#, fuzzy
+msgid "Mozambican metical"
+msgstr "Metical"
+
+#: core.functions.php:217
+#, fuzzy
+msgid "Namibian dollar"
+msgstr "Dolar namibijski"
+
+#: core.functions.php:218
+#, fuzzy
+msgid "Nigerian naira"
+msgstr "Naira"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nikaragui córdoba"
+
+#: core.functions.php:220
+msgid "Norwegian krone"
+msgstr "Korona Norweska"
+
+#: core.functions.php:221
+msgid "Nepalese rupee"
+msgstr "Rupia nepalska"
+
+#: core.functions.php:222
+msgid "New Zealand dollar"
+msgstr "Dolar nowozelandzki"
+
+#: core.functions.php:223
+#, fuzzy
+msgid "Omani rial"
+msgstr "Rial omański"
+
+#: core.functions.php:224
+#, fuzzy
+msgid "Panamanian balboa"
+msgstr "Balboa"
+
+#: core.functions.php:225
+#, fuzzy
+msgid "Peruvian nuevo sol"
+msgstr "Nowy sol Peru"
+
+#: core.functions.php:226
+msgid "Papua New Guinean kina"
+msgstr "Kina"
+
+#: core.functions.php:227
+msgid "Philippine peso"
+msgstr "Peso filipińskie"
+
+#: core.functions.php:228
+#, fuzzy
+msgid "Pakistani rupee"
+msgstr "Rupia pakistańska"
+
+#: core.functions.php:229
+#, fuzzy
+msgid "Polish z&#x142;oty"
+msgstr "Polski z &#x142; oty"
+
+#: core.functions.php:230
+#, fuzzy
+msgid "Transnistrian ruble"
+msgstr "Rubel Naddniestrza"
+
+#: core.functions.php:231
+#, fuzzy
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paragwajski Guarani"
+
+#: core.functions.php:232
+msgid "Qatari riyal"
+msgstr "Rial katarski"
+
+#: core.functions.php:233
+msgid "Romanian leu"
+msgstr "lej rumuński"
+
+#: core.functions.php:234
+#, fuzzy
+msgid "Serbian dinar"
+msgstr "Dinar serbskiName"
+
+#: core.functions.php:235
+#, fuzzy
+msgid "Russian ruble"
+msgstr "Rosyjski Rubel"
+
+#: core.functions.php:236
+#, fuzzy
+msgid "Rwandan franc"
+msgstr "Frank rwandyjski"
+
+#: core.functions.php:237
+#, fuzzy
+msgid "Saudi riyal"
+msgstr "Rial saudyjski"
+
+#: core.functions.php:238
+msgid "Solomon Islands dollar"
+msgstr "Dolar (Wyspy Salomona)"
+
+#: core.functions.php:239
+#, fuzzy
+msgid "Seychellois rupee"
+msgstr "Rupia seszelskaName"
+
+#: core.functions.php:240
+#, fuzzy
+msgid "Sudanese pound"
+msgstr "Funt sudański"
+
+#: core.functions.php:241
+msgid "Swedish krona"
+msgstr "Korona szwedzka"
+
+#: core.functions.php:242
+msgid "Singapore dollar"
+msgstr "Dolar singapurski"
+
+#: core.functions.php:243
+msgid "Saint Helena pound"
+msgstr "Funt (Święta Helena)"
+
+#: core.functions.php:244
+#, fuzzy
+msgid "Sierra Leonean leone"
+msgstr "Leone"
+
+#: core.functions.php:245
+#, fuzzy
+msgid "Somali shilling"
+msgstr "Szyling somalijski"
+
+#: core.functions.php:246
+msgid "Surinamese dollar"
+msgstr "Dolar surinamski"
+
+#: core.functions.php:247
+#, fuzzy
+msgid "South Sudanese pound"
+msgstr "Funt południowo sudański"
+
+#: core.functions.php:248
+#, fuzzy
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Wyspy Świętego Tomasza i Książęca dobra"
+
+#: core.functions.php:249
+#, fuzzy
+msgid "Syrian pound"
+msgstr "Funt syryjski"
+
+#: core.functions.php:250
+#, fuzzy
+msgid "Swazi lilangeni"
+msgstr "Lilangeni"
+
+#: core.functions.php:251
+msgid "Thai baht"
+msgstr "Baht"
+
+#: core.functions.php:252
+#, fuzzy
+msgid "Tajikistani somoni"
+msgstr "Somoni"
+
+#: core.functions.php:253
+msgid "Turkmenistan manat"
+msgstr "Manat turkmeński"
+
+#: core.functions.php:254
+#, fuzzy
+msgid "Tunisian dinar"
+msgstr "Dinar tunezyjski"
+
+#: core.functions.php:255
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Pa&#x2bb;anga tongijska"
+
+#: core.functions.php:256
+#, fuzzy
+msgid "Turkish lira"
+msgstr "Lira turecka"
+
+#: core.functions.php:257
+msgid "Trinidad and Tobago dollar"
+msgstr "Dolar (Trynidad i Tobago)"
+
+#: core.functions.php:258
+#, fuzzy
+msgid "New Taiwan dollar"
+msgstr "Nowy dolar tajwański"
+
+#: core.functions.php:259
+#, fuzzy
+msgid "Tanzanian shilling"
+msgstr "Szyling tanzański"
+
+#: core.functions.php:260
+msgid "Ukrainian hryvnia"
+msgstr "Hrywna ukraińska"
+
+#: core.functions.php:261
+#, fuzzy
+msgid "Ugandan shilling"
+msgstr "Szyling ugandyjski"
+
+#: core.functions.php:262
+msgid "United States dollar"
+msgstr "Dolar amerykański"
+
+#: core.functions.php:263
+#, fuzzy
+msgid "Uruguayan peso"
+msgstr "Peso urugwajskie"
+
+#: core.functions.php:264
+#, fuzzy
+msgid "Uzbekistani som"
+msgstr "Som uzbecki"
+
+#: core.functions.php:265
+msgid "Venezuelan bol&iacute;var"
+msgstr "Wenezuelski bol&iacute;var"
+
+#: core.functions.php:266
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "&#x111;&#x1ed3;ng wietnamski"
+
+#: core.functions.php:267
+msgid "Vanuatu vatu"
+msgstr "Vanuatu Vatu"
+
+#: core.functions.php:268
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoański t&#x101;l&#x101;"
+
+#: core.functions.php:269
+msgid "Central African CFA franc"
+msgstr "Frank CFA Afryki Centralnej"
+
+#: core.functions.php:270
+#, fuzzy
+msgid "East Caribbean dollar"
+msgstr "Dolar wschodniokaraibski"
+
+#: core.functions.php:271
+msgid "West African CFA franc"
+msgstr "Frank zachodnioafrykański CFA"
+
+#: core.functions.php:272
+#, fuzzy
+msgid "CFP franc"
+msgstr "Frank CFP"
+
+#: core.functions.php:273
+#, fuzzy
+msgid "Yemeni rial"
+msgstr "Rial jemeński"
+
+#: core.functions.php:274
+msgid "South African rand"
+msgstr "Rand południowoafrykański"
+
+#: core.functions.php:275
+#, fuzzy
+msgid "Zambian kwacha"
+msgstr "Kwacha zambijska"
+
+#: core.functions.php:549
+msgid "General Settings"
+msgstr "Ustawienia główne"
+
+#: core.functions.php:550
+#, fuzzy
+msgid "Internal Structure"
+msgstr "STRUKTURA WEWNĘTRZNA"
+
+#: core.functions.php:551 inc/menu/admin-settings-arr.php:82
+msgid "Property Features"
+msgstr "Cechy"
+
+#: core.functions.php:552 inc/arrays/property-fields.php:68
+msgid "File Attachments"
+msgstr "Załączniki pliku"
+
+#: core.functions.php:554
+#, fuzzy
+msgid "Private Fields"
+msgstr "Prywatne pola"
+
+#: core.functions.php:566
+msgid "Personal Info"
+msgstr "Dane Osobowe"
+
+#: core.functions.php:567
+msgid "Social Profiles"
+msgstr "Profile Społecznościowe"
+
+#: core.functions.php:568
+msgid "Skills"
+msgstr "Umiejętności"
+
+#: core.functions.php:584
+#, fuzzy
+msgid "Style 1 - Inline"
+msgstr "Styl 1 - Inline"
+
+#: core.functions.php:585
+#, fuzzy
+msgid "Style 2 - Static Box"
+msgstr "Styl 2 - pole statyczne"
+
+#: core.functions.php:586
+#, fuzzy
+msgid "Style 3 - Hover Box"
+msgstr "Styl 3 - pole Hover"
+
+#: core.functions.php:587
+#, fuzzy
+msgid "Style 4 - Mini Box"
+msgstr "Stylu 4 - Mini Box"
+
+#: core.functions.php:588
+#, fuzzy
+msgid "Style 5 - Full Box"
+msgstr "Stylu 5 - pełne pole"
+
+#: core.functions.php:589
+#, fuzzy
+msgid "Style 6 - Fade Thumbnails"
+msgstr "Stylu 6 - miniaturki zanikanie"
+
+#: core.functions.php:590
+#, fuzzy
+msgid "Style 7 - Map Box"
+msgstr "Styl 7 - mapę pola"
+
+#: core.functions.php:643
+msgid "NO"
+msgstr "NIE"
+
+#: core.functions.php:643
+msgid "YES"
+msgstr "TAK"
+
+#: core.functions.php:659 shortcodes/divi-settings.php:20
+#: shortcodes/vc-settings.php:127 shortcodes/vc-settings.php:192
+#: shortcodes/vc-settings.php:388 shortcodes/vc-settings.php:724
+#: shortcodes/vc-settings.php:757
+msgid "Descending"
+msgstr "Malejąco"
+
+#: core.functions.php:660 shortcodes/divi-settings.php:19
+#: shortcodes/vc-settings.php:126 shortcodes/vc-settings.php:191
+#: shortcodes/vc-settings.php:387 shortcodes/vc-settings.php:723
+#: shortcodes/vc-settings.php:756
+msgid "Ascending"
+msgstr "Rosnąco"
+
+#: core.functions.php:670 shortcodes/vc-settings.php:201
+#: shortcodes/vc-settings.php:401 shortcodes/vc-settings.php:733
+#: shortcodes/vc-settings.php:766
+msgid "Date"
+msgstr "Data"
+
+#: core.functions.php:671 core.functions.php:748 core.functions.php:760
+#: inc/arrays/property-fields.php:8 shortcodes/vc-settings.php:204
+#: shortcodes/vc-settings.php:737
+msgid "Price"
+msgstr "Cena"
+
+#: core.functions.php:704 core.functions.php:724
+msgid "Any"
+msgstr "Dowolny"
+
+#: core.functions.php:763
+msgid "Min"
+msgstr "Min"
+
+#: core.functions.php:765
+msgid "Max"
+msgstr "Maks"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+#, fuzzy
+msgid "Select images for property gallery"
+msgstr "Wybierz obrazy do galerii Właściwość"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr "Wstaw"
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "Prześlij zdjęcia"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:80
+#: shortcodes/edit-property.php:105
+#, fuzzy
+msgid "Type to Search..."
+msgstr "Wpisz aby wyszukać ..."
+
+#: inc/admin/property-location-map.php:12
+#, fuzzy
+msgid "Search the address on search bar. "
+msgstr "Szukaj adresu na pasku wyszukiwania."
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:85
+#: shortcodes/edit-property.php:109
+#, fuzzy
+msgid "Drag the pin to the location on the map"
+msgstr "Przeciągnij pinezkę lokalizacji na mapie"
+
+#: inc/admin/register-property.php:3 shortcodes/vc-settings.php:19
+#: shortcodes/vc-settings.php:40 shortcodes/vc-settings.php:55
+#: shortcodes/vc-settings.php:82 shortcodes/vc-settings.php:97
+#: shortcodes/vc-settings.php:151 shortcodes/vc-settings.php:166
+#: shortcodes/vc-settings.php:181 shortcodes/vc-settings.php:318
+#: shortcodes/vc-settings.php:333 shortcodes/vc-settings.php:349
+#: shortcodes/vc-settings.php:357 shortcodes/vc-settings.php:652
+#: shortcodes/vc-settings.php:746
+#, fuzzy
+msgid "Real Estate Manager"
+msgstr "Menedżer nieruchomości"
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:110
+msgid "Properties"
+msgstr "Nieruchomości"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "Nieruchomość"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Dodaj nową nieruchomość"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "Dodaj nową nieruchomość"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "Nowa nieruchomość"
+
+#: inc/admin/register-property.php:17 shortcodes/vc-settings.php:650
+msgid "Search Property"
+msgstr "Szukaj nieruchomości"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "Nie znaleziono Nieruchomości"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "Nie znaleziono Nieruchomości w Koszu"
+
+#: inc/admin/register-property.php:20
+#, fuzzy
+msgid "Parent Property:"
+msgstr "Nadrzędna nieruchomość"
+
+#: inc/admin/register-property.php:70
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Tagi nieruchomości"
+
+#: inc/admin/register-property.php:71
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Tag"
+
+#: inc/admin/register-property.php:72
+msgid "Search Property Tags"
+msgstr "﻿Szukaj tagi nieruchomości"
+
+#: inc/admin/register-property.php:73
+msgid "Popular Tags"
+msgstr "Popularne tagi"
+
+#: inc/admin/register-property.php:74
+msgid "All Tags"
+msgstr "Wszystkie tagi"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+msgid "Parent Tag"
+msgstr "Tag nadrzędny"
+
+#: inc/admin/register-property.php:77
+msgid "Edit Tag"
+msgstr "Edytuj tag"
+
+#: inc/admin/register-property.php:78
+msgid "Update Tag"
+msgstr "Aktualizuj tag"
+
+#: inc/admin/register-property.php:79
+msgid "Add New Tag"
+msgstr "Dodaj nowy tag"
+
+#: inc/admin/register-property.php:80
+msgid "New Tag Name"
+msgstr "Nazwa nowego Tagu"
+
+#: inc/admin/register-property.php:81
+#, fuzzy
+msgid "Add or remove Tags"
+msgstr "Dodaj lub usuń tagi"
+
+#: inc/admin/register-property.php:82
+#, fuzzy
+msgid "Choose from most used tags"
+msgstr "Wybierz spośród najczęściej używanych tagów"
+
+#: inc/admin/register-property.php:83
+msgid " Tags"
+msgstr "Tagi"
+
+#: inc/admin/single-property-fields.php:14
+#, fuzzy
+msgid "Check if property have this option"
+msgstr "Sprawdź, czy właściwość ma tej opcji"
+
+#: inc/ajax/search-property-ajax.php:11 shortcodes/vc-settings.php:347
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+#: shortcodes/search-results.php:30
+#, fuzzy
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "Przepraszamy! Nie znaleziono obiektów. Spróbuj wyszukać ponownie."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:66
+#: inc/menu/page-agents.php:108
+msgid "First Name"
+msgstr "Imię"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:67
+#: inc/menu/page-agents.php:109
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:64
+#: inc/menu/page-agents.php:106 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:16
+msgid "Password"
+msgstr "Hasło"
+
+#: inc/arrays/agent-fields.php:52
+#, fuzzy
+msgid "Pepeat Password"
+msgstr "Hasło Pepeat"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "Bio"
+
+#: inc/arrays/agent-fields.php:70
+#, fuzzy
+msgid "Picture of Agent"
+msgstr "Obraz z agenta"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+msgid "Upload an additional image for your profile"
+msgstr "Dodać dodatkowe obraz profilu"
+
+#: inc/arrays/agent-fields.php:80
+msgid "Profile Url"
+msgstr "URL profilu"
+
+#: inc/arrays/agent-fields.php:81
+#, fuzzy
+msgid "Provide url for agent profile"
+msgstr "Podać adres url profilu agenta"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "Profil Facebook"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "Profil Twitter"
+
+#: inc/arrays/agent-fields.php:113
+#, fuzzy
+msgid "Google+ Profile"
+msgstr "Profil Google+"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "Profil Linkedln"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "Strona Facebook"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+#, fuzzy
+msgid "User Tagline"
+msgstr "Tagline użytkownika"
+
+#: inc/arrays/agent-fields.php:153
+#, fuzzy
+msgid "Will display under username"
+msgstr "Będzie wyświetlana pod nazwą użytkownika"
+
+#: inc/arrays/agent-fields.php:160
+#, fuzzy
+msgid "Skills Level"
+msgstr "Poziom umiejętności"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr ""
+"Umiejętności nazwa z wartości w każdym wierszu, np: właściwości sprzedawane, "
+"185"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "Shortcode Contact Form 7"
+
+#: inc/arrays/agent-fields.php:168
+#, fuzzy
+msgid "Leave blank for default contact form"
+msgstr "Pozostaw puste dla domyślnego formularza kontaktowego"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "Cena Regularna Właściwość"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+msgid "After Price"
+msgstr "Za ceną"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "Tekst do wyświetlenia po cenie, np .: / Miesiąc"
+
+#: inc/arrays/property-fields.php:28
+msgid "Sale Price"
+msgstr "Cena promocyjna"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "Cena sprzedaży nieruchomości"
+
+#: inc/arrays/property-fields.php:38
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+#: inc/arrays/property-fields.php:39
+#, fuzzy
+msgid "Latitude of property, will use for map"
+msgstr "Szerokość geograficzna właściwości, będzie używana dla mapy"
+
+#: inc/arrays/property-fields.php:48
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: inc/arrays/property-fields.php:49
+#, fuzzy
+msgid "Longitude of property, will use for map"
+msgstr "Długość geograficzna właściwości, będzie używana dla mapy"
+
+#: inc/arrays/property-fields.php:58
+msgid "Video URL"
+msgstr "Adres URL do dokumentu video (opcjonalne)"
+
+#: inc/arrays/property-fields.php:59
+#, fuzzy
+msgid "Provide video URL"
+msgstr "Podaj adres URL filmu"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "One file ID per line"
+msgstr "Jeden identyfikator pliku w linii"
+
+#: inc/arrays/property-fields.php:79 shortcodes/vc-settings.php:254
+msgid "Property Type"
+msgstr "Rodzaj nieruchomości"
+
+#: inc/arrays/property-fields.php:80
+#, fuzzy
+msgid "Choose type of property"
+msgstr "Wybierz typ nieruchomości"
+
+#: inc/arrays/property-fields.php:92
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "Wybierz cel nieruchomości"
+
+#: inc/arrays/property-fields.php:103
+#, fuzzy
+msgid "Choose status of property"
+msgstr "Wybierz status nieruchomości"
+
+#: inc/arrays/property-fields.php:113
+msgid "Bedrooms"
+msgstr "Sypialnie"
+
+#: inc/arrays/property-fields.php:114
+msgid "Number of bedrooms"
+msgstr "Liczba pomieszczeń sypialnych"
+
+#: inc/arrays/property-fields.php:124
+msgid "Bathrooms"
+msgstr "Łazienki"
+
+#: inc/arrays/property-fields.php:125
+#, fuzzy
+msgid "Number of bathrooms"
+msgstr "Ilość łazienek"
+
+#: inc/arrays/property-fields.php:136
+#, fuzzy
+msgid "Size - "
+msgstr "Rozmiar"
+
+#: inc/arrays/property-fields.php:146
+msgid "Address"
+msgstr "Adres"
+
+#: inc/arrays/property-fields.php:147
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"Jeśli pola szerokości i długości geograficznej są puste, ten adres będzie "
+"używany do renderowania mapy"
+
+#: inc/arrays/property-fields.php:157 inc/arrays/property-fields.php:158
+msgid "State"
+msgstr "Województwo"
+
+#: inc/arrays/property-fields.php:168
+msgid "Zip Code"
+msgstr "Kod pocztowy"
+
+#: inc/arrays/property-fields.php:169
+msgid "Zipcode"
+msgstr "Kod Pocztowy"
+
+#: inc/arrays/property-fields.php:179 inc/arrays/property-fields.php:180
+msgid "City"
+msgstr "Miasto"
+
+#: inc/arrays/property-fields.php:190 inc/arrays/property-fields.php:191
+msgid "Country"
+msgstr "Kraj"
+
+#: inc/arrays/property-fields.php:201
+msgid "Rooms"
+msgstr "Pokoje"
+
+#: inc/arrays/property-fields.php:202
+msgid "Number of rooms"
+msgstr "Ilość pokoi"
+
+#: inc/arrays/property-fields.php:212
+msgid "Featured Property"
+msgstr "Wyróżniona nieruchomość"
+
+#: inc/arrays/property-fields.php:213
+#, fuzzy
+msgid "Make it featured"
+msgstr "Oznacz jako rekomendowany post"
+
+#: inc/arrays/property-fields.php:215
+msgid "No"
+msgstr "Nie"
+
+#: inc/arrays/property-fields.php:216
+msgid "Yes"
+msgstr "Tak"
+
+#: inc/menu/admin-settings-arr.php:6
+msgid "Currency Options"
+msgstr "Ustawienia waluty"
+
+#: inc/menu/admin-settings-arr.php:14
+msgid "Currency"
+msgstr "Waluta"
+
+#: inc/menu/admin-settings-arr.php:15
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "Symbol waluty dla właściwości"
+
+#: inc/menu/admin-settings-arr.php:22
+msgid "Currency Position"
+msgstr "Wybierz Pozycję"
+
+#: inc/menu/admin-settings-arr.php:24
+msgid "Left"
+msgstr "Lewa"
+
+#: inc/menu/admin-settings-arr.php:25
+msgid "Right"
+msgstr "Prawa"
+
+#: inc/menu/admin-settings-arr.php:26
+#, fuzzy
+msgid "Left with Space"
+msgstr "Lewa ze spacją"
+
+#: inc/menu/admin-settings-arr.php:27
+#, fuzzy
+msgid "Right with Space"
+msgstr "Prawa ze spacją"
+
+#: inc/menu/admin-settings-arr.php:29
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "Położenie symbolu waluty"
+
+#: inc/menu/admin-settings-arr.php:35
+msgid "Thousand Separator"
+msgstr "Seperator tysięcy"
+
+#: inc/menu/admin-settings-arr.php:36
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "Separator tysięcy wyświetlania ceny"
+
+#: inc/menu/admin-settings-arr.php:43
+msgid "Decimal Separator"
+msgstr "Separator liczb dziesiętnych"
+
+#: inc/menu/admin-settings-arr.php:44
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "Separator dziesiętny wyświetlania ceny"
+
+#: inc/menu/admin-settings-arr.php:51
+msgid "Number of Decimals"
+msgstr "Liczba miejsc po przecinku"
+
+#: inc/menu/admin-settings-arr.php:52
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "Liczbę miejsc dziesiętnych w wyświetlacz cena"
+
+#: inc/menu/admin-settings-arr.php:60
+msgid "Property Settings"
+msgstr "Właściwości nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:68
+msgid "Area Unit"
+msgstr "Jednostka powierzchni"
+
+#: inc/menu/admin-settings-arr.php:69
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Podać jednostkę powierzchni Eg: stopy kwadratowe"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Excerpt Length"
+msgstr "Długość zajawki"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "Liczba słów, które mają być wyświetlane z fragment właściwość. Np: 15"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"Jeden na wiersz. Spowoduje to dodanie pola wyboru nieruchomości edytować "
+"stronę do wyboru. Pozostaw puste, aby użyć domyślnego"
+
+#: inc/menu/admin-settings-arr.php:89
+msgid "Properties Per Page"
+msgstr "Nieruchomości na stronie"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"Liczba obiektów, które chcesz wyświetlać na stronach archiwum. (tagi itp)"
+
+#: inc/menu/admin-settings-arr.php:98
+msgid "Templates Settings"
+msgstr "Ustawienia szablonów"
+
+#: inc/menu/admin-settings-arr.php:105
+#, fuzzy
+msgid "Property Page Template"
+msgstr "Szablon strony właściwości"
+
+#: inc/menu/admin-settings-arr.php:106
+#, fuzzy
+msgid "Choose single property display layout"
+msgstr "Wybierz układ wyświetlania pojedynczy obiekt"
+
+#: inc/menu/admin-settings-arr.php:108
+msgid "Default"
+msgstr "Domyślny"
+
+#: inc/menu/admin-settings-arr.php:109
+msgid "Full Width"
+msgstr "Pełna szerokość"
+
+#: inc/menu/admin-settings-arr.php:110
+msgid "Left Sidebar"
+msgstr "Lewy pasek boczny"
+
+#: inc/menu/admin-settings-arr.php:111 inc/menu/admin-settings-arr.php:121
+#: inc/menu/admin-settings-arr.php:131
+#, fuzzy
+msgid "From Theme"
+msgstr "Motyw"
+
+#: inc/menu/admin-settings-arr.php:117
+#, fuzzy
+msgid "Archive Page Template"
+msgstr "Szablon strony Archiwum"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+msgid "Choose tags and archive properties display layout"
+msgstr "Wybierz znaczniki i układ wyświetlania właściwości Archiwum"
+
+#: inc/menu/admin-settings-arr.php:120 inc/menu/admin-settings-arr.php:130
+#, fuzzy
+msgid "From Plugin"
+msgstr "Plugin"
+
+#: inc/menu/admin-settings-arr.php:127
+#, fuzzy
+msgid "Agent Page Template"
+msgstr "Szablon strony agenta"
+
+#: inc/menu/admin-settings-arr.php:128
+#, fuzzy
+msgid "Choose agent page display layout"
+msgstr "Wybierz agenta wyświetlanie strony układu"
+
+#: inc/menu/admin-settings-arr.php:137
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "Maksymalna szerokość pojemnika"
+
+#: inc/menu/admin-settings-arr.php:138
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Zapewnia kontener max szerokość w px, np: 1140px"
+
+#: inc/menu/admin-settings-arr.php:144
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "Agenta Strona Sidebar karty"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Włączyć lub wyłączyć domyślny agent karty i formularz kontaktowy na stronę "
+"jednego agenta"
+
+#: inc/menu/admin-settings-arr.php:147 inc/menu/admin-settings-arr.php:157
+#: inc/menu/admin-settings-arr.php:188 inc/menu/admin-settings-arr.php:198
+#: inc/menu/admin-settings-arr.php:241 inc/menu/admin-settings-arr.php:779
+#: inc/menu/admin-settings-arr.php:789 inc/menu/render-admin-settings.php:193
+#: shortcodes/divi-settings.php:69 shortcodes/divi-settings.php:79
+#: shortcodes/divi-settings.php:88 shortcodes/vc-settings.php:235
+#: shortcodes/vc-settings.php:290 shortcodes/vc-settings.php:300
+#: shortcodes/vc-settings.php:309 shortcodes/vc-settings.php:437
+#: shortcodes/vc-settings.php:457 shortcodes/vc-settings.php:816
+#: shortcodes/vc-settings.php:848 shortcodes/vc-settings.php:866
+#: shortcodes/vc-settings.php:877
+msgid "Enable"
+msgstr "Włącz"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/admin-settings-arr.php:158
+#: inc/menu/admin-settings-arr.php:189 inc/menu/admin-settings-arr.php:199
+#: inc/menu/admin-settings-arr.php:242 inc/menu/admin-settings-arr.php:780
+#: inc/menu/admin-settings-arr.php:790 inc/menu/render-admin-settings.php:84
+#: shortcodes/divi-settings.php:70 shortcodes/divi-settings.php:78
+#: shortcodes/divi-settings.php:87 shortcodes/vc-settings.php:234
+#: shortcodes/vc-settings.php:289 shortcodes/vc-settings.php:299
+#: shortcodes/vc-settings.php:310 shortcodes/vc-settings.php:436
+#: shortcodes/vc-settings.php:456 shortcodes/vc-settings.php:815
+#: shortcodes/vc-settings.php:847 shortcodes/vc-settings.php:865
+#: shortcodes/vc-settings.php:876
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: inc/menu/admin-settings-arr.php:154
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "Formularz kontaktowy Agenta"
+
+#: inc/menu/admin-settings-arr.php:155
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr "Włączyć lub wyłączyć formularz kontaktowy na stronie agenta"
+
+#: inc/menu/admin-settings-arr.php:164
+#, fuzzy
+msgid "Agent Page Sidebar"
+msgstr "Agenta Strona Sidebar"
+
+#: inc/menu/admin-settings-arr.php:165
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "Wybierz pasek boczny na stronę Szczegóły agenta"
+
+#: inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "Strona Edytuj właściwości"
+
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "Paste shortcode [rem_edit_property] on selected page"
+msgstr "Wklej krótki kod [rem_edit_property] na wybranej stronie"
+
+#: inc/menu/admin-settings-arr.php:178
+msgid "Single Property Page"
+msgstr "Pojedyńcza strona nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:185
+msgid "Map"
+msgstr "Mapa"
+
+#: inc/menu/admin-settings-arr.php:186
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr "Pokaż lub Ukryj mapę właściwość na stronie właściwości pojedynczego"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "Karta Strona Sidebar Właściwość"
+
+#: inc/menu/admin-settings-arr.php:196
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Włączyć lub wyłączyć domyślny agent karty i formularz kontaktowy na stronę "
+"jedną właściwość"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "Właściwość Strona Sidebar"
+
+#: inc/menu/admin-settings-arr.php:206
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "Wybierz pasek boczny dla pojedynczej właściwości strony"
+
+#: inc/menu/admin-settings-arr.php:211
+#, fuzzy
+msgid "Gallery Slider Width"
+msgstr "Galerię suwak Szerokość"
+
+#: inc/menu/admin-settings-arr.php:212
+#, fuzzy
+msgid "Slider width with unit. Eg: "
+msgstr "Suwak szerokość z jednostki. Np:"
+
+#: inc/menu/admin-settings-arr.php:218
+#, fuzzy
+msgid "Gallery Slider Height"
+msgstr "Wysokość suwak Galeria"
+
+#: inc/menu/admin-settings-arr.php:219
+#, fuzzy
+msgid "Slider height with unit. Eg: "
+msgstr "Suwak wysokość z jednostki. Np:"
+
+#: inc/menu/admin-settings-arr.php:225
+#, fuzzy
+msgid "Gallery Slider Fit"
+msgstr "Slajder galerii"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+msgid "How to fit an image into slider"
+msgstr "Jak zamontować obraz na suwak"
+
+#: inc/menu/admin-settings-arr.php:228
+msgid "Cover"
+msgstr "Okładka"
+
+#: inc/menu/admin-settings-arr.php:229
+msgid "Contain"
+msgstr "Zawiera"
+
+#: inc/menu/admin-settings-arr.php:230
+msgid "Scale Down"
+msgstr "Pomniejszyć"
+
+#: inc/menu/admin-settings-arr.php:231
+msgid "None"
+msgstr "Brak"
+
+#: inc/menu/admin-settings-arr.php:238
+#, fuzzy
+msgid "Gallery Featured Image"
+msgstr "Galerii obraz"
+
+#: inc/menu/admin-settings-arr.php:239
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "Włącz wyświetlanie obrazu Rekomendowane w suwak"
+
+#: inc/menu/admin-settings-arr.php:249
+#, fuzzy
+msgid "Property Settings Tabs"
+msgstr "Właściwości nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:250
+#, fuzzy
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"Przewidują dodatkowe panelu nagłówków stron pojedynczej właściwości i "
+"ustawień administratora, każdy na linii"
+
+#: inc/menu/admin-settings-arr.php:257
+msgid "Listings"
+msgstr "Oferty"
+
+#: inc/menu/admin-settings-arr.php:264
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "Pola wbudowane właściwości Bar"
+
+#: inc/menu/admin-settings-arr.php:265
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"Zapewnić, że każdy na linii do wyświetlania na górnym pasku inline "
+"Właściwość stylu wyświetlania nazwy pól"
+
+#: inc/menu/admin-settings-arr.php:270
+#, fuzzy
+msgid "Listing Features Type"
+msgstr "Opis"
+
+#: inc/menu/admin-settings-arr.php:271
+#, fuzzy
+msgid "Features are displayed on property listings"
+msgstr "Funkcje są wyświetlane na nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:273
+#, fuzzy
+msgid "Icons and Data"
+msgstr "Ikony i danych"
+
+#: inc/menu/admin-settings-arr.php:274
+#, fuzzy
+msgid "Labels and Data"
+msgstr "Etykiety i danych"
+
+#: inc/menu/admin-settings-arr.php:275
+#, fuzzy
+msgid "Icons, Labels and Data"
+msgstr "Ikony i etykiety danych"
+
+#: inc/menu/admin-settings-arr.php:281
+#, fuzzy
+msgid "Custom Listing Features"
+msgstr "Funkcje niestandardowe aukcji"
+
+#: inc/menu/admin-settings-arr.php:282
+#, fuzzy
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+"Wyświetlanie właściwości niestandardowych funkcji. (Etykieta, nazwa pola, "
+"Font Awesome klasy) każdy na linię. Przykład:"
+
+#: inc/menu/admin-settings-arr.php:289
+msgid "Search Settings"
+msgstr "Ustawienia wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:296 shortcodes/divi-settings.php:43
+#: shortcodes/vc-settings.php:782
+msgid "Total Properties"
+msgstr "Ogółem Nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:297
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr ""
+"Liczba Nieruchomości do wyświetlenia na stronie rezultatów wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:302
+#, fuzzy
+msgid "Search Price Range Selector"
+msgstr "Przedział cenowy wyszukiwania selektora"
+
+#: inc/menu/admin-settings-arr.php:303
+#, fuzzy
+msgid "Choose price ranges input option for searching"
+msgstr "Wybrać, że cena Zakresy wejściowe opcji wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:305 inc/menu/admin-settings-arr.php:375
+#, fuzzy
+msgid "Price Slider"
+msgstr "Cena"
+
+#: inc/menu/admin-settings-arr.php:306
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "Min Max pól"
+
+#: inc/menu/admin-settings-arr.php:312
+#, fuzzy
+msgid "Search Results Style"
+msgstr "Styl wyników wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:313
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "Wybierz styl dla wyników wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:320
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "Kolumny wyników wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "Wybierz kolumny w wierszu pole stylów"
+
+#: inc/menu/admin-settings-arr.php:323 shortcodes/divi-settings.php:51
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:324 shortcodes/divi-settings.php:52
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:325 shortcodes/divi-settings.php:53
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:326 shortcodes/divi-settings.php:54
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:327 shortcodes/divi-settings.php:55
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:334
+#, fuzzy
+msgid "Search Area Options"
+msgstr "Opcje obszaru wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:335
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Podać obszar zasięgu na linię, aby wyświetlić listy rozwijanej zakresów "
+"obszaru zamiast pola wejściowego, podczas wyszukiwania."
+
+#: inc/menu/admin-settings-arr.php:341
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "Opcje wyszukiwania sypialnie"
+
+#: inc/menu/admin-settings-arr.php:342
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Zapewnić sypialni zasięg na linię, aby wyświetlić listy rozwijanej zakresów "
+"sypialni zamiast pola wejściowego, podczas wyszukiwania."
+
+#: inc/menu/admin-settings-arr.php:348
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "Opcje wyszukiwania łazienki"
+
+#: inc/menu/admin-settings-arr.php:349
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Zapewniają łazienki zakres na linię, aby wyświetlić listy rozwijanej "
+"zakresów łazienka zamiast pola wejściowego, podczas wyszukiwania."
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "Element docelowy linku wyniki wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:356
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"Cel łącza należy przewidzieć wyniki formularza. _blank, aby otworzyć w nowej "
+"karcie"
+
+#: inc/menu/admin-settings-arr.php:358
+msgid "New Tab"
+msgstr "Nowa zakładka"
+
+#: inc/menu/admin-settings-arr.php:359
+msgid "Same Tab"
+msgstr "Ta sama zakładka"
+
+#: inc/menu/admin-settings-arr.php:366
+#, fuzzy
+msgid "Simple Search Method"
+msgstr "Metoda prostego wyszukiwania"
+
+#: inc/menu/admin-settings-arr.php:367
+#, fuzzy
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+"Zawierają tekst, nazwa_pola, is_number, wartość każdej linii (małe litery)"
+
+#: inc/menu/admin-settings-arr.php:367 inc/menu/admin-settings-arr.php:688
+msgid "Help"
+msgstr "Pomoc"
+
+#: inc/menu/admin-settings-arr.php:382
+msgid "Minimum Price"
+msgstr "Minimalna Cena"
+
+#: inc/menu/admin-settings-arr.php:383
+#, fuzzy
+msgid "Minimum price for price slider"
+msgstr "Cena minimalna cena suwak"
+
+#: inc/menu/admin-settings-arr.php:389
+msgid "Maximum Price"
+msgstr "cena maksymalna"
+
+#: inc/menu/admin-settings-arr.php:390
+#, fuzzy
+msgid "Maximum price for price slider"
+msgstr "Maksymalna cena za cenę suwak"
+
+#: inc/menu/admin-settings-arr.php:396
+msgid "Step"
+msgstr "Krok"
+
+#: inc/menu/admin-settings-arr.php:397
+#, fuzzy
+msgid "Step or interval for price slider"
+msgstr "Krok lub interwał dla suwak ceny"
+
+#: inc/menu/admin-settings-arr.php:403
+#, fuzzy
+msgid "Default Minimum Price"
+msgstr "Domyślna cena minimalna"
+
+#: inc/menu/admin-settings-arr.php:404
+#, fuzzy
+msgid "Default Minimum price for price slider"
+msgstr "Domyślna cena minimalna cena suwaka"
+
+#: inc/menu/admin-settings-arr.php:410
+#, fuzzy
+msgid "Default Maximum Price"
+msgstr "Domyślna maksymalna cena"
+
+#: inc/menu/admin-settings-arr.php:411
+#, fuzzy
+msgid "Default Maximum price for price slider"
+msgstr "Domyślna maksymalna cena cena suwaka"
+
+#: inc/menu/admin-settings-arr.php:420
+#, fuzzy
+msgid "Email Messages"
+msgstr "wiadomości e-mail"
+
+#: inc/menu/admin-settings-arr.php:427
+#, fuzzy
+msgid "Agent Registered"
+msgstr "Agent Zarejestrowany"
+
+#: inc/menu/admin-settings-arr.php:428
+#, fuzzy
+msgid "This message will sent to "
+msgstr "Ta wiadomość zostanie wysłana do"
+
+#: inc/menu/admin-settings-arr.php:428
+#, fuzzy
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"po zarejestrowaniu nowego agenta. Możesz użyć% username% i% email%, aby "
+"uzyskać szczegółowe informacje"
+
+#: inc/menu/admin-settings-arr.php:434
+#, fuzzy
+msgid "Agent Pending"
+msgstr "Agent oczekujący"
+
+#: inc/menu/admin-settings-arr.php:435
+#, fuzzy
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"Wiadomość e-mail dla agenta, gdy nowy agent jest zarejestrowany, ale status "
+"oczekuje. Możesz użyć% username% i% email%, aby uzyskać szczegółowe "
+"informacje"
+
+#: inc/menu/admin-settings-arr.php:441
+#, fuzzy
+msgid "Agent Approved"
+msgstr "Agent zatwierdzony"
+
+#: inc/menu/admin-settings-arr.php:442
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Wiadomość e-mail dla agenta po zatwierdzeniu zarejestrowanego agenta. Możesz "
+"użyć% username% i% email%, aby uzyskać szczegółowe informacje"
+
+#: inc/menu/admin-settings-arr.php:448
+#, fuzzy
+msgid "Agent Rejected"
+msgstr "Odrzucony agent"
+
+#: inc/menu/admin-settings-arr.php:449
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Wiadomość e-mail dla agenta, gdy zarejestrowany agent jest odrzucony. Możesz "
+"użyć% username% i% email%, aby uzyskać szczegółowe informacje"
+
+#: inc/menu/admin-settings-arr.php:455
+#, fuzzy
+msgid "Property Submission"
+msgstr "Przesyłanie nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:456
+#, fuzzy
+msgid "This message will be sent to "
+msgstr "Ta wiadomość zostanie wysłana na adres"
+
+#: inc/menu/admin-settings-arr.php:456
+#, fuzzy
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"po przesłaniu nowej nieruchomości. Możesz użyć zmiennych% username%% "
+"approve_url% and% email%, aby uzyskać szczegółowe informacje"
+
+#: inc/menu/admin-settings-arr.php:462
+#, fuzzy
+msgid "Property Submission Message for Agent"
+msgstr "Komunikat przesłania nieruchomości dla agenta"
+
+#: inc/menu/admin-settings-arr.php:463
+#, fuzzy
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+"Ta wiadomość zostanie wysłana do agenta po przesłaniu nowej właściwości."
+
+#: inc/menu/admin-settings-arr.php:469
+#, fuzzy
+msgid "Property Approved Message for Agent"
+msgstr "Właściwość Zatwierdzona wiadomość dla agenta"
+
+#: inc/menu/admin-settings-arr.php:470
+#, fuzzy
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+"Ta wiadomość zostanie wysłana do agenta po zatwierdzeniu nowej właściwości."
+
+#: inc/menu/admin-settings-arr.php:476
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "Adres e-mail"
+
+#: inc/menu/admin-settings-arr.php:477
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Zapewniają, że adresy E-mail dodatkowych, każdy na linię do cc poczty, gdy "
+"użytkownik wypełnia formularz kontaktowy agenta."
+
+#: inc/menu/admin-settings-arr.php:486
+#, fuzzy
+msgid "reCAPTCHA V2"
+msgstr "reCAPTCHA"
+
+#: inc/menu/admin-settings-arr.php:493
+msgid "Site key"
+msgstr "Klucz strony(Site key)"
+
+#: inc/menu/admin-settings-arr.php:494
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Dostarczyć Google reCAPTCHA V2 witryny klucz. Można utworzyć klucz witryny"
+
+#: inc/menu/admin-settings-arr.php:499
+msgid "Secret key"
+msgstr "Twój sekretny klucz(Secret key)"
+
+#: inc/menu/admin-settings-arr.php:500
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr "Dostarczyć Google reCAPTCHA V2 klucz tajny. Można utworzyć klucz tajny"
+
+#: inc/menu/admin-settings-arr.php:505
+#, fuzzy
+msgid "Agent Registration"
+msgstr "Agent rejestracji"
+
+#: inc/menu/admin-settings-arr.php:506
+#, fuzzy
+msgid "Check to enable captcha on new agent registration."
+msgstr "Odhacz, aby włączyć captcha na nowego agenta rejestracji."
+
+#: inc/menu/admin-settings-arr.php:511
+msgid "Contact Agent"
+msgstr "Kontakt z Agentem"
+
+#: inc/menu/admin-settings-arr.php:512
+#, fuzzy
+msgid "Check to enable captcha on agent contact form."
+msgstr "Odhacz, aby włączyć captcha w formularzu kontaktu agenta."
+
+#: inc/menu/admin-settings-arr.php:521
+#, fuzzy
+msgid "Labels and Headings"
+msgstr "Etykiety i nagłówki"
+
+#: inc/menu/admin-settings-arr.php:528 inc/menu/admin-settings-arr.php:535
+#, fuzzy
+msgid "Features Heading"
+msgstr "Funkcje działu"
+
+#: inc/menu/admin-settings-arr.php:529 inc/menu/admin-settings-arr.php:536
+#, fuzzy
+msgid "Provide heading text for property features on property pages"
+msgstr "Zawierają tekst nagłówka Właściwość funkcje na stronach właściwości"
+
+#: inc/menu/admin-settings-arr.php:542
+#, fuzzy
+msgid "Video Heading"
+msgstr "Pozycją wideo"
+
+#: inc/menu/admin-settings-arr.php:543
+#, fuzzy
+msgid "Provide heading text for property video on property pages"
+msgstr "Podać tekst nagłówka właściwości wideo na stronach właściwość"
+
+#: inc/menu/admin-settings-arr.php:549
+#, fuzzy
+msgid "Maps Heading"
+msgstr "Mapuje pozycji"
+
+#: inc/menu/admin-settings-arr.php:550
+#, fuzzy
+msgid "Provide heading text for maps on property pages"
+msgstr "Zawierają tekst nagłówka dla map na stronach właściwość"
+
+#: inc/menu/admin-settings-arr.php:556
+#, fuzzy
+msgid "Tags Heading"
+msgstr "Znaczniki pozycji"
+
+#: inc/menu/admin-settings-arr.php:557
+#, fuzzy
+msgid "Provide heading text for tags on property pages"
+msgstr "Przewidują Tagi na stronach właściwości tekst nagłówka"
+
+#: inc/menu/admin-settings-arr.php:563
+#, fuzzy
+msgid "Attachments Heading"
+msgstr "Załączniki nagłówek"
+
+#: inc/menu/admin-settings-arr.php:564
+#, fuzzy
+msgid "Provide heading text for attachments on property pages"
+msgstr "Zawierają tekst nagłówka dla załączników na stronach właściwość"
+
+#: inc/menu/admin-settings-arr.php:570
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "Znaczniki pozycji dla strony Archiwum"
+
+#: inc/menu/admin-settings-arr.php:571
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "Można użyć tag % dla nazwa tagu"
+
+#: inc/menu/admin-settings-arr.php:577
+#, fuzzy
+msgid "Heading for Properties Page"
+msgstr "Nagłówek na stronie właściwości"
+
+#: inc/menu/admin-settings-arr.php:578
+#, fuzzy
+msgid "Provide heading for properties archive"
+msgstr "Zapewnienia pozycji dla właściwości Archiwum"
+
+#: inc/menu/admin-settings-arr.php:586
+#, fuzzy
+msgid "Maps Settings"
+msgstr "Ustawienia mapy"
+
+#: inc/menu/admin-settings-arr.php:593
+#, fuzzy
+msgid "Use Map From"
+msgstr "Użyj mapy z"
+
+#: inc/menu/admin-settings-arr.php:595
+msgid "Leaflet"
+msgstr "Listek"
+
+#: inc/menu/admin-settings-arr.php:596
+msgid "Google Maps"
+msgstr "Mapy Google"
+
+#: inc/menu/admin-settings-arr.php:598
+#, fuzzy
+msgid "Choose map provider"
+msgstr "Wybierz dostawca mapę"
+
+#: inc/menu/admin-settings-arr.php:604
+msgid "Google Maps API Key"
+msgstr "Klucz API Map Google"
+
+#: inc/menu/admin-settings-arr.php:605
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr "Podaj klucz API Map Google tutaj. Można utworzyć klucz API"
+
+#: inc/menu/admin-settings-arr.php:611
+msgid "Map Type"
+msgstr "Typ Mapy"
+
+#: inc/menu/admin-settings-arr.php:613
+msgid "Road Map"
+msgstr "Mapa drogowa"
+
+#: inc/menu/admin-settings-arr.php:614
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:615
+msgid "Hybrid"
+msgstr "Hybrydowa"
+
+#: inc/menu/admin-settings-arr.php:616
+msgid "Terrain"
+msgstr "Teren"
+
+#: inc/menu/admin-settings-arr.php:618
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "Wybierz domyślny typ mapy tutaj"
+
+#: inc/menu/admin-settings-arr.php:624
+msgid "Map Zoom Level"
+msgstr "Poziom powiększenia mapy"
+
+#: inc/menu/admin-settings-arr.php:625
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr ""
+"Zapewniają poziom powiększenia między 0 i 21 + dla pojedynczej właściwości "
+"mapy"
+
+#: inc/menu/admin-settings-arr.php:631
+#, fuzzy
+msgid "Drag Icon URL"
+msgstr "Przeciągnij ikonę URL"
+
+#: inc/menu/admin-settings-arr.php:632
+#, fuzzy
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Wgraj ikonę niestandardową dla przeciąganie na mapie miasta podczas "
+"tworzenia nowej właściwości. Zalecany rozmiar: 72 x 60"
+
+#: inc/menu/admin-settings-arr.php:638
+#, fuzzy
+msgid "Location Icon URL"
+msgstr "Lokalizacja URL ikony"
+
+#: inc/menu/admin-settings-arr.php:639
+#, fuzzy
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Odwiedzając stronę właściwości, należy przesłać ikonę niestandardową dla "
+"lokalizacji na mapie. Zalecany rozmiar: 72 x 60"
+
+#: inc/menu/admin-settings-arr.php:645
+#, fuzzy
+msgid "Property Icon URL"
+msgstr "Właściwość URL ikony"
+
+#: inc/menu/admin-settings-arr.php:646
+#, fuzzy
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+"Wgraj ikonę niestandardową dla Właściwość znacznik lokalizacji na dużej "
+"mapie."
+
+#: inc/menu/admin-settings-arr.php:652
+#, fuzzy
+msgid "Property Icon URL (Hover)"
+msgstr "Właściwość URL ikony (Hover)"
+
+#: inc/menu/admin-settings-arr.php:653
+#, fuzzy
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"Wgraj ikonę niestandardową dla Właściwość znacznik lokalizacji na dużej "
+"mapie wskaźnikiem stanu."
+
+#: inc/menu/admin-settings-arr.php:659
+#, fuzzy
+msgid "Circle Icon URL"
+msgstr "Okrągła ikona"
+
+#: inc/menu/admin-settings-arr.php:660
+#, fuzzy
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr "Wgraj ikonę niestandardową dla znacznika licznik koło na dużej mapie."
+
+#: inc/menu/admin-settings-arr.php:666
+#, fuzzy
+msgid "My Location Icon URL"
+msgstr "Moja lokalizacja URL ikony"
+
+#: inc/menu/admin-settings-arr.php:667
+#, fuzzy
+msgid "Upload custom icon for my location marker on large map."
+msgstr ""
+"Wgraj ikonę niestandardową dla mojej lokalizacji markerem na dużej mapie."
+
+#: inc/menu/admin-settings-arr.php:673
+msgid "Default Latitude"
+msgstr "Domyślna szerokość geograficzna"
+
+#: inc/menu/admin-settings-arr.php:674
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Przewidują szerokości geograficznej lokalizacji domyślnej mapy na tworzenie "
+"strony właściwości"
+
+#: inc/menu/admin-settings-arr.php:680
+#, fuzzy
+msgid "Default Longitude"
+msgstr "Domyślna długość geograficzną"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"Długość geograficzna przewidują domyślnej lokalizacji na mapie na tworzenie "
+"strony właściwości"
+
+#: inc/menu/admin-settings-arr.php:687
+#, fuzzy
+msgid "Map Styles Object"
+msgstr "Obiekt style mapy"
+
+#: inc/menu/admin-settings-arr.php:688
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "Zapewnić Odwzorowanie stylów tutaj."
+
+#: inc/menu/admin-settings-arr.php:697
+#, fuzzy
+msgid "Colors and CSS"
+msgstr "Kolory i CSS"
+
+#: inc/menu/admin-settings-arr.php:704
+#, fuzzy
+msgid "Headings Underline"
+msgstr "Podkreślenie nagłówki"
+
+#: inc/menu/admin-settings-arr.php:706
+#, fuzzy
+msgid "Choose bottom border color for headings area"
+msgstr "Wybierz kolor obramowania dole dla obszaru nagłówki"
+
+#: inc/menu/admin-settings-arr.php:712
+#, fuzzy
+msgid "Headings Underline Active"
+msgstr "Nagłówków podkreślenie aktywny"
+
+#: inc/menu/admin-settings-arr.php:714
+#, fuzzy
+msgid "Choose bottom border color for headings active area"
+msgstr "Wybierz kolor obramowania DNA dla nagłówków obszar aktywny"
+
+#: inc/menu/admin-settings-arr.php:720
+#, fuzzy
+msgid "Buttons Background"
+msgstr "Tła przycisków"
+
+#: inc/menu/admin-settings-arr.php:722
+#, fuzzy
+msgid "Choose background color for buttons"
+msgstr "Wybierz kolor tła dla przycisków"
+
+#: inc/menu/admin-settings-arr.php:728
+msgid "Buttons Text"
+msgstr "Tekst przycisków"
+
+#: inc/menu/admin-settings-arr.php:730 inc/menu/admin-settings-arr.php:746
+#, fuzzy
+msgid "Choose text color for buttons"
+msgstr "Wybierz kolor tekstu dla przycisków"
+
+#: inc/menu/admin-settings-arr.php:736
+#, fuzzy
+msgid "Buttons Background - Hover"
+msgstr "Tła przycisków - Hover"
+
+#: inc/menu/admin-settings-arr.php:738
+#, fuzzy
+msgid "Choose background color for buttons on hover state"
+msgstr "Wybierz kolor tła dla przycisków w stanie aktywowania"
+
+#: inc/menu/admin-settings-arr.php:744
+#, fuzzy
+msgid "Buttons Text - Hover"
+msgstr "Przyciski tekst - Hover"
+
+#: inc/menu/admin-settings-arr.php:752
+#, fuzzy
+msgid "Theme Main Color"
+msgstr "Motyw główny kolor"
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+msgid "Choose main theme color for templates"
+msgstr "Wybierz główny motyw kolorów dla szablonów"
+
+#: inc/menu/admin-settings-arr.php:760
+#, fuzzy
+msgid "Custom CSS Code"
+msgstr "Niestandardowy CSS"
+
+#: inc/menu/admin-settings-arr.php:762
+#, fuzzy
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Wklej kod niestandardowe css, można prefiks z"
+
+#: inc/menu/admin-settings-arr.php:770
+msgid "Advanced Settings"
+msgstr "Zaawansowane ustawienia"
+
+#: inc/menu/admin-settings-arr.php:777
+#, fuzzy
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#: inc/menu/admin-settings-arr.php:782
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr "Wyłącz go, Jeśli Twój temat ładuje własną bootstrap 3 style"
+
+#: inc/menu/admin-settings-arr.php:787
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: inc/menu/admin-settings-arr.php:792
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+"Wyłącz go, Jeśli Twój temat ładuje swoje własne czcionki niesamowite ikony"
+
+#: inc/menu/admin-settings-arr.php:797
+#, fuzzy
+msgid "Property Submission Mode"
+msgstr "Tryb składania Właściwość"
+
+#: inc/menu/admin-settings-arr.php:799
+#, fuzzy
+msgid "Publish Right Away"
+msgstr "Od razu opublikować"
+
+#: inc/menu/admin-settings-arr.php:800
+#, fuzzy
+msgid "Approve by Administrator"
+msgstr "Zatwierdzania przez administratora"
+
+#: inc/menu/admin-settings-arr.php:802
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "Ustaw uprawnienia dla agentów do tworzenia nowej właściwości"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "Przekierować po utworzeniu Właściwość"
+
+#: inc/menu/admin-settings-arr.php:808
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "Podaj adres URL przekierowania po utworzeniu właściwości z frontendu"
+
+#: inc/menu/admin-settings-arr.php:813
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "Przekieruj po edycji właściwości"
+
+#: inc/menu/admin-settings-arr.php:814
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr "Podaj adres URL przekierowania po edycji właściwości z frontendu"
+
+#: inc/menu/admin-settings-arr.php:820
+#, fuzzy
+msgid "Listing Ribbons"
+msgstr "Lista wstążek"
+
+#: inc/menu/admin-settings-arr.php:826
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "Tekst praw autorskich stopki"
+
+#: inc/menu/admin-settings-arr.php:827
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"Wyświetla się po ustaleniu ceny sprzedaży nieruchomości, pozostaw puste, aby "
+"go wyłączyć"
+
+#: inc/menu/admin-settings-arr.php:832
+#, fuzzy
+msgid "Rented Properties"
+msgstr "Nieruchomości sprzedane / wynajęte"
+
+#: inc/menu/admin-settings-arr.php:833
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"Wyświetla się, gdy cel nieruchomości jest ustawiony na wynajem, pozostaw "
+"puste, aby go wyłączyć"
+
+#: inc/menu/admin-settings-arr.php:838
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "Właściwości sprzedaży"
+
+#: inc/menu/admin-settings-arr.php:839
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"Wyświetla ustawienie przeznaczenie nieruchomości na sprzedaż, pozostaw "
+"puste, aby go wyłączyć"
+
+#: inc/menu/admin-settings-arr.php:844
+#, fuzzy
+msgid "Sold Properties"
+msgstr "Właściwości"
+
+#: inc/menu/admin-settings-arr.php:845
+#, fuzzy
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"Wyświetla się, gdy status nieruchomości jest ustawiony na sprzedany, "
+"pozostaw puste, aby go wyłączyć"
+
+#: inc/menu/admin-settings-arr.php:850
+msgid "Featured Properties"
+msgstr "Promowane nieruchomości"
+
+#: inc/menu/admin-settings-arr.php:851
+#, fuzzy
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"Wyświetla gdy Rekomendowane opcja jest ustawiona na tak, pozostaw puste, aby "
+"go wyłączyć"
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+msgid "Custom Ribbon"
+msgstr "Niestandardowa wstążka"
+
+#: inc/menu/admin-settings-arr.php:857
+#, fuzzy
+msgid "Provide key with value. Eg: property_type=House"
+msgstr "Podaj klucz wartości. Np: property_type = dom"
+
+#: inc/menu/admin-settings-arr.php:862
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "Tekst niestandardowy wstążki"
+
+#: inc/menu/admin-settings-arr.php:863
+#, fuzzy
+msgid "Provide text to display for custom ribbon"
+msgstr "Zawierają tekst wyświetlany dla niestandardowych wstążki"
+
+#: inc/menu/agent-profile-fields.php:3
+msgid "Agent Details"
+msgstr "Szczegóły agenta/pośrednika"
+
+#: inc/menu/agent-profile-fields.php:26
+msgid "Upload Image"
+msgstr "Załaduj obrazek"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "Builder pola niestandardowe"
+
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "Pole tekstowe"
+
+#: inc/menu/custom-fields/custom-fields-page.php:7
+#, fuzzy
+msgid "Number Field"
+msgstr "Pole numeryczne"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+#, fuzzy
+msgid "DropDown Field"
+msgstr "Pole listy rozwijanej"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+msgid "Date Field"
+msgstr "Pole daty"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+#, fuzzy
+msgid "Upload Field"
+msgstr "Pole przesyłania pliku"
+
+#: inc/menu/custom-fields/custom-fields-page.php:62
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr "Proszę przeciągać i upuszczać pola powyżej obszaru z lewym panelu"
+
+#: inc/menu/custom-fields/custom-fields-page.php:64
+#, fuzzy
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"Jeśli nazwa danych zawiera całe słowo \"obszar\", jednostka wybrany obszar "
+"pojawi się po wartość."
+
+#: inc/menu/custom-fields/custom-fields-page.php:70
+#, fuzzy
+msgid "Reset Fields"
+msgstr "Zresetuj pola"
+
+#: inc/menu/custom-fields/custom-fields-page.php:71
+#: inc/menu/page-settings.php:64
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+msgid "Label"
+msgstr "Etykieta"
+
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "Nazwa danych (małymi literami, bez spacji)"
+
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "Domyślnie zaznaczony"
+
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "Opcje (każdy na linię)"
+
+#: inc/menu/custom-fields/fields/select.php:40
+#: inc/menu/custom-fields/fields/text.php:27
+#, fuzzy
+msgid "Help Text"
+msgstr "Tekst pomocy"
+
+#: inc/menu/custom-fields/fields/select.php:46
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "Ustawienia administratora"
+
+#: inc/menu/custom-fields/fields/select.php:60
+#: inc/menu/custom-fields/fields/text.php:47
+msgid "Accessibility"
+msgstr "Dostęp"
+
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:61
+msgid "Delete"
+msgstr "Usuń"
+
+#: inc/menu/custom-fields/fields/text.php:21
+msgid "Default Value"
+msgstr "domyślna wartość"
+
+#: inc/menu/page-agents.php:57
+#, fuzzy
+msgid "Pending Agents"
+msgstr "Oczekujące agentów"
+
+#: inc/menu/page-agents.php:68
+msgid "Date of Registration"
+msgstr "Data rejestracji"
+
+#: inc/menu/page-agents.php:69
+msgid "Action"
+msgstr "Akcja"
+
+#: inc/menu/page-agents.php:81
+msgid "Deny"
+msgstr "Odrzuć"
+
+#: inc/menu/page-agents.php:82
+msgid "Approve"
+msgstr "Zatwierdź"
+
+#: inc/menu/page-agents.php:91
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "Nie masz żadnych oczekujących agentów."
+
+#: inc/menu/page-agents.php:99
+#, fuzzy
+msgid "Registered Agents"
+msgstr "Zarejestrowanych agentów"
+
+#: inc/menu/page-agents.php:111
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/menu/page-agents.php:124
+msgid "View Profile"
+msgstr "Zobacz Profil"
+
+#: inc/menu/page-agents.php:133
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "Nie ma żadnych zarejestrowanych agentów."
+
+#: inc/menu/page-agents.php:139
+#, fuzzy
+msgid "Register New Agent"
+msgstr "Zarejestruj nowego agenta"
+
+#: inc/menu/page-settings.php:2
+#, fuzzy
+msgid "Real Estate Manager - Settings"
+msgstr "Menedżer nieruchomości - ustawienia"
+
+#: inc/menu/page-settings.php:15
+#, fuzzy
+msgid "If 404 Page is displaying"
+msgstr "Jeśli wyświetlanie strony 404"
+
+#: inc/menu/page-settings.php:17
+#, fuzzy
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr "Przejdź do Ustawienia-> Permalinks i kliknij przycisk Zapisz zmiany."
+
+#: inc/menu/page-settings.php:21
+#, fuzzy
+msgid "If Maps not displaying"
+msgstr "Jeśli mapy nie wyświetla"
+
+#: inc/menu/page-settings.php:23
+#, fuzzy
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+"Tworzenie interfejsu API Map Google przy użyciu google i wkleić go w pole "
+"interfejsu API map."
+
+#: inc/menu/page-settings.php:27
+#, fuzzy
+msgid "Change Property Page Design"
+msgstr "Zmienić właściwości strony projektu"
+
+#: inc/menu/page-settings.php:29
+#, fuzzy
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "Skopiuj następujący plik i wkleić go do głównego motywu"
+
+#: inc/menu/page-settings.php:31
+#, fuzzy
+msgid "Now change its name to"
+msgstr "Teraz zmienić jego nazwę, aby"
+
+#: inc/menu/page-settings.php:33
+#, fuzzy
+msgid "Then change Property Page Template option to From Theme"
+msgstr "Następnie Zmień szablon strony właściwości opcji od tematu"
+
+#: inc/menu/page-settings.php:34
+#, fuzzy
+msgid "Now you can make changes in this template file."
+msgstr "Teraz można wprowadzić zmiany w tym pliku szablonu."
+
+#: inc/menu/page-settings.php:38
+#, fuzzy
+msgid "Need Help? Any Suggestions?"
+msgstr "Potrzebujesz pomocy? Jakieś sugestie?"
+
+#: inc/menu/page-settings.php:40
+#, fuzzy
+msgid "Please contact us"
+msgstr "Prosimy o kontakt."
+
+#: inc/menu/page-settings.php:41
+msgid "HERE"
+msgstr "TUTAJ"
+
+#: inc/menu/page-settings.php:42
+msgid "for assistance."
+msgstr "Instytutu Badawczego http://www.ciop.pl oraz pracy."
+
+#: inc/menu/page-settings.php:63
+msgid "Please Wait..."
+msgstr "Proszę czekać…"
+
+#: inc/menu/render-admin-settings.php:138
+#: inc/menu/render-admin-settings.php:139
+msgid "Choose a currency&hellip;"
+msgstr "Wybierz walutę&hellip;"
+
+#: inc/menu/render-admin-settings.php:175
+msgid "Image"
+msgstr "Obraz"
+
+#: inc/menu/render-admin-settings.php:176
+msgid "Select"
+msgstr "Wybierz"
+
+#: inc/menu/render-admin-settings.php:177
+msgid "Media"
+msgstr "Media"
+
+#: inc/sidebar-agent-contact.php:31
+msgid "Your Name"
+msgstr "Twoje imię"
+
+#: inc/sidebar-agent-contact.php:34
+msgid "Your Email"
+msgstr "Twój email"
+
+#: inc/sidebar-agent-contact.php:37
+msgid "Message"
+msgstr "Wiadomość"
+
+#: inc/sidebar-agent-contact.php:40
+msgid "Send Message"
+msgstr "Wyślij wiadomość"
+
+#: shortcodes/agent-profile.php:90 shortcodes/vc-settings.php:316
+#: templates/agent.php:94
+msgid "My Properties"
+msgstr "Moje Nieruchomości"
+
+#: shortcodes/carousel/carousel.php:13 shortcodes/list/list.php:51
+msgid "No Properties Found!"
+msgstr "Nie znaleziono nieruchomości!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "Informacje podstawowe"
+
+#: shortcodes/create-property.php:13 shortcodes/divi-settings.php:31
+#: shortcodes/edit-property.php:18
+msgid "Property Title"
+msgstr "Nazwa nieruchomości"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "Opis nieruchomości"
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "Zdjęcia"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+#, fuzzy
+msgid "Click here to Upload Images"
+msgstr "Kliknij tutaj, aby przesłać swoje zdjęcia."
+
+#: shortcodes/create-property.php:69 shortcodes/edit-property.php:90
+#, fuzzy
+msgid "Each tag separated by comma"
+msgstr "Każdy tag oddzielone przecinkami"
+
+#: shortcodes/create-property.php:77 shortcodes/edit-property.php:102
+#, fuzzy
+msgid "Place on Map"
+msgstr "Miejsce na mapie"
+
+#: shortcodes/create-property.php:88 shortcodes/vc-settings.php:80
+msgid "Create Property"
+msgstr "Stwórz"
+
+#: shortcodes/create-property.php:93
+#, fuzzy
+msgid "Please wait! your porperty is being created..."
+msgstr "Czekaj! tworzony jest Twój porperty..."
+
+#: shortcodes/divi-settings.php:9 shortcodes/vc-settings.php:179
+#, fuzzy
+msgid "List Properties"
+msgstr "Właściwości"
+
+#: shortcodes/divi-settings.php:22
+#, fuzzy
+msgid "Order of properties you want to display."
+msgstr "Kolejność obiektów, które chcesz wyświetlić."
+
+#: shortcodes/divi-settings.php:28
+msgid "Date Created"
+msgstr "Data utworzenia"
+
+#: shortcodes/divi-settings.php:29
+msgid "ID"
+msgstr "ID"
+
+#: shortcodes/divi-settings.php:32 shortcodes/vc-settings.php:205
+#: shortcodes/vc-settings.php:736 shortcodes/vc-settings.php:769
+msgid "Random"
+msgstr "Losowo"
+
+#: shortcodes/divi-settings.php:34
+#, fuzzy
+msgid "Sort retrieved properties by specific parameter."
+msgstr "Sortowania źródło obiektów przez określony parametr."
+
+#: shortcodes/divi-settings.php:37 shortcodes/vc-settings.php:211
+#: shortcodes/vc-settings.php:775
+#, fuzzy
+msgid "Property Style"
+msgstr "Właściwość stylu"
+
+#: shortcodes/divi-settings.php:40
+#, fuzzy
+msgid "Choose property style."
+msgstr "Wybierz właściwości stylu."
+
+#: shortcodes/divi-settings.php:45
+#, fuzzy
+msgid "Number of properties to display at time."
+msgstr "Liczba wyświetlanych nieruchomości:"
+
+#: shortcodes/divi-settings.php:48 shortcodes/vc-settings.php:110
+#: shortcodes/vc-settings.php:218 shortcodes/vc-settings.php:666
+msgid "Columns"
+msgstr "Kolumny"
+
+#: shortcodes/divi-settings.php:56
+msgid "6"
+msgstr "6"
+
+#: shortcodes/divi-settings.php:58
+#, fuzzy
+msgid "Number of properties in a row."
+msgstr "Wiele właściwości w wierszu."
+
+#: shortcodes/divi-settings.php:63
+#, fuzzy
+msgid "Comma separated list of tags to display tag specific properties."
+msgstr ""
+"Oddzielone przecinkami lista znaczniki, aby wyświetlić właściwości "
+"konkretnego znacznika."
+
+#: shortcodes/divi-settings.php:66 shortcodes/vc-settings.php:306
+msgid "Pagination"
+msgstr "Paginacja"
+
+#: shortcodes/divi-settings.php:72
+#, fuzzy
+msgid "Display pagination if there are more properties."
+msgstr "Jeśli istnieje więcej obiektów, należy wyświetlić podział na strony."
+
+#: shortcodes/divi-settings.php:75
+msgid "Masonry Grid"
+msgstr "Styl Pinterest i Siatka"
+
+#: shortcodes/divi-settings.php:81
+#, fuzzy
+msgid "Activates Justified Grid mode."
+msgstr "Aktywuje tryb siatki uzasadnione."
+
+#: shortcodes/divi-settings.php:84
+#, fuzzy
+msgid "Prefer Near Properties"
+msgstr "Wolą w pobliżu obiektów"
+
+#: shortcodes/divi-settings.php:90
+#, fuzzy
+msgid "It will enable Geo Location service. Needs SSL to work properly"
+msgstr "Umożliwi to Geo lokalizacji usługi. Wymaga protokołu SSL do poprawnego"
+
+#: shortcodes/divi-settings.php:93
+#, fuzzy
+msgid "Meta Filtration"
+msgstr "filtracja"
+
+#: shortcodes/divi-settings.php:95
+#, fuzzy
+msgid "Please see details here"
+msgstr "Zobacz szczegóły tutaj"
+
+#: shortcodes/divi-settings.php:95
+msgid "Shortcodes"
+msgstr "Shortcody"
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:113
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "Zapisywanie zmian"
+
+#: shortcodes/edit-property.php:118
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "Czekaj! Twój porperty jest modyfikowany..."
+
+#: shortcodes/login.php:12
+msgid "Username or email"
+msgstr "Nazwa użytkownika lub e-mail"
+
+#: shortcodes/login.php:20
+msgid "Keep me signed in"
+msgstr "Zapamiętaj mnie jako zalogowanego"
+
+#: shortcodes/login.php:21
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: shortcodes/map/map.php:100 shortcodes/map/nearby.php:93
+msgid "Found"
+msgstr "Znaleziono"
+
+#: shortcodes/my-properties.php:7
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: shortcodes/my-properties.php:10
+msgid "Added"
+msgstr "Dodano"
+
+#: shortcodes/my-properties.php:13
+msgid "Actions"
+msgstr "Akcje"
+
+#: shortcodes/register-agent.php:35
+msgid "Sign up"
+msgstr "Zarejestruj się"
+
+#: shortcodes/search-property.php:99
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: shortcodes/vc-settings.php:17
+msgid "Register Agent"
+msgstr "Zarejestrowany przedstawiciel"
+
+#: shortcodes/vc-settings.php:21
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "Renderuje formularz, aby zarejestrować nowy agent"
+
+#: shortcodes/vc-settings.php:26 shortcodes/vc-settings.php:68
+msgid "Redirect"
+msgstr "Przekierowanie"
+
+#: shortcodes/vc-settings.php:27
+#, fuzzy
+msgid "Provide URL to redirect after successfull registration"
+msgstr "Podać adres URL przekierowania po pomyślnej rejestracji"
+
+#: shortcodes/vc-settings.php:32 shortcodes/vc-settings.php:74
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "Ta treść jest przeznaczona dla zalogowanych użytkowników."
+
+#: shortcodes/vc-settings.php:33 shortcodes/vc-settings.php:75
+#, fuzzy
+msgid "Provide content for already logged in users"
+msgstr "Dostarczać treści dla już zalogowani użytkownicy"
+
+#: shortcodes/vc-settings.php:38
+#, fuzzy
+msgid "Edit Agent Profile"
+msgstr "Edytuj profil Agent"
+
+#: shortcodes/vc-settings.php:42
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "Renderuje formularz do edycji rejestrowane w profilu agenta"
+
+#: shortcodes/vc-settings.php:47 shortcodes/vc-settings.php:89
+#: shortcodes/vc-settings.php:158 shortcodes/vc-settings.php:325
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "Zawartość dla użytkowników innych niż zarejestrowane w"
+
+#: shortcodes/vc-settings.php:48
+#, fuzzy
+msgid "Provide content for non logged in users"
+msgstr "Dostarczać treści dla nie zalogowanych użytkowników"
+
+#: shortcodes/vc-settings.php:53
+#, fuzzy
+msgid "Login Agent"
+msgstr "Agent logowania"
+
+#: shortcodes/vc-settings.php:57
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "Rendery, AJAX oparte formularz logowania"
+
+#: shortcodes/vc-settings.php:62
+msgid "Heading"
+msgstr "Nagłówek"
+
+#: shortcodes/vc-settings.php:63
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "Powyżej formularza logowania zostanie wyświetlony nagłówek"
+
+#: shortcodes/vc-settings.php:69
+#, fuzzy
+msgid "Provide URL to redirect after successfull login"
+msgstr "Podać adres URL przekierowania po pomyślnym zalogowaniu"
+
+#: shortcodes/vc-settings.php:84
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "Renderuje formularz, aby utworzyć właściwość"
+
+#: shortcodes/vc-settings.php:90 shortcodes/vc-settings.php:159
+#: shortcodes/vc-settings.php:326
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr ""
+"Dostarczyć zawartość, aby wyświetlić, jeśli użytkownik nie jest zalogowany"
+
+#: shortcodes/vc-settings.php:95
+msgid "List Agents"
+msgstr "Lista partnerów"
+
+#: shortcodes/vc-settings.php:99
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "Wyświetla listę agentów"
+
+#: shortcodes/vc-settings.php:104
+msgid "IDS"
+msgstr "IDS"
+
+#: shortcodes/vc-settings.php:105
+#, fuzzy
+msgid "Comma separated ids of agents for specific listing"
+msgstr "Identyfikatorów rozdzielone przecinkami agentów dla konkretnych aukcji"
+
+#: shortcodes/vc-settings.php:111
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "Numer kolumny w wierszu"
+
+#: shortcodes/vc-settings.php:113 shortcodes/vc-settings.php:221
+msgid "1 Columns"
+msgstr "1 Kolumna"
+
+#: shortcodes/vc-settings.php:114 shortcodes/vc-settings.php:222
+#: shortcodes/vc-settings.php:669
+msgid "2 Columns"
+msgstr "2 kolumny"
+
+#: shortcodes/vc-settings.php:115 shortcodes/vc-settings.php:223
+#: shortcodes/vc-settings.php:670
+msgid "3 Columns"
+msgstr "3 kolumny"
+
+#: shortcodes/vc-settings.php:116 shortcodes/vc-settings.php:224
+#: shortcodes/vc-settings.php:671
+msgid "4 Columns"
+msgstr "4 kolumny"
+
+#: shortcodes/vc-settings.php:117 shortcodes/vc-settings.php:225
+msgid "5 Columns"
+msgstr "5 Kolumn"
+
+#: shortcodes/vc-settings.php:124
+#, fuzzy
+msgid "Ascending or Descending"
+msgstr "Rosnąco lub Malejąco"
+
+#: shortcodes/vc-settings.php:134
+#, fuzzy
+msgid "How you want to order agents"
+msgstr "Jak chcesz zamawiać agentów"
+
+#: shortcodes/vc-settings.php:139
+msgid "Masonry"
+msgstr "Masonry"
+
+#: shortcodes/vc-settings.php:140
+#, fuzzy
+msgid "Justified Layout"
+msgstr "Układ wyjustowany"
+
+#: shortcodes/vc-settings.php:142
+msgid "enable"
+msgstr "Załączony"
+
+#: shortcodes/vc-settings.php:143
+msgid "disable"
+msgstr "wyłącz"
+
+#: shortcodes/vc-settings.php:153
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "Renderuje formularz do edycji właściwości"
+
+#: shortcodes/vc-settings.php:164
+#, fuzzy
+msgid "Single Property"
+msgstr "Pojedyńcza strona obiektu"
+
+#: shortcodes/vc-settings.php:168
+#, fuzzy
+msgid "Display a single property"
+msgstr "Wyświetl pojedynczą właściwość"
+
+#: shortcodes/vc-settings.php:174
+#, fuzzy
+msgid "Provide property id here"
+msgstr "Podaj tutaj identyfikator właściwości"
+
+#: shortcodes/vc-settings.php:183
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "Wyświetla właściwości zgodnie z ustawieniami"
+
+#: shortcodes/vc-settings.php:189 shortcodes/vc-settings.php:385
+#: shortcodes/vc-settings.php:754
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "Wybierz zamówienie, aby wyświetlić właściwości"
+
+#: shortcodes/vc-settings.php:199 shortcodes/vc-settings.php:399
+#: shortcodes/vc-settings.php:764
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "Wybierz zamówienie, aby wyświetlić właściwości"
+
+#: shortcodes/vc-settings.php:203 shortcodes/vc-settings.php:403
+#: shortcodes/vc-settings.php:735 shortcodes/vc-settings.php:768
+msgid "Property Name"
+msgstr "Nazwa obiektu"
+
+#: shortcodes/vc-settings.php:212 shortcodes/vc-settings.php:776
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "Wybrać styl wyświetlania obiektów"
+
+#: shortcodes/vc-settings.php:219
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "Liczba właściwości z rzędu"
+
+#: shortcodes/vc-settings.php:231
+msgid "Top Bar"
+msgstr "Górny pasek"
+
+#: shortcodes/vc-settings.php:232
+#, fuzzy
+msgid "Top bar to sort or change layout"
+msgstr "Górny pasek do sortowania lub zmiany układu"
+
+#: shortcodes/vc-settings.php:241
+#, fuzzy
+msgid "Number of Properties in a Page"
+msgstr "Liczba obiektów na stronie"
+
+#: shortcodes/vc-settings.php:242
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Podaj całkowitą liczbę właściwości do wyświetlenia, po wyświetleniu strony "
+"paginacji"
+
+#: shortcodes/vc-settings.php:247
+#, fuzzy
+msgid "Property Purpose"
+msgstr "Cel nieruchomości"
+
+#: shortcodes/vc-settings.php:248
+#, fuzzy
+msgid "Choose to display properties of specific purpose"
+msgstr "Wybrać, aby wyświetlić właściwości określonego celu"
+
+#: shortcodes/vc-settings.php:255
+#, fuzzy
+msgid "Choose to display properties of specific type"
+msgstr "Wybierz, aby wyświetlić właściwości określonego typu"
+
+#: shortcodes/vc-settings.php:261
+msgid "Property Status"
+msgstr "Status Nieruchomości"
+
+#: shortcodes/vc-settings.php:262
+#, fuzzy
+msgid "Choose to display properties of specific status"
+msgstr "Wybierz, aby wyświetlić właściwości o określonym statusie"
+
+#: shortcodes/vc-settings.php:268
+msgid "Property Tags"
+msgstr "Tagi nieruchomości"
+
+#: shortcodes/vc-settings.php:269
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr "Rozdzielane przecinkami listę tagów do filtrowania obiektów"
+
+#: shortcodes/vc-settings.php:275 shortcodes/vc-settings.php:807
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr ""
+"Identyfikator agenta lub przecinek oddzielone identyfikatorów, aby "
+"wyświetlić ich właściwości"
+
+#: shortcodes/vc-settings.php:280 shortcodes/vc-settings.php:423
+#: shortcodes/vc-settings.php:788
+#, fuzzy
+msgid "Filter Properties"
+msgstr "Właściwości filtra"
+
+#: shortcodes/vc-settings.php:281 shortcodes/vc-settings.php:424
+#: shortcodes/vc-settings.php:789
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Zapewnić meta klucz i wartość w każdym wierszu do filtrowania. Np: "
+"property_status | normalne"
+
+#: shortcodes/vc-settings.php:286 shortcodes/vc-settings.php:453
+#: shortcodes/vc-settings.php:812
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "Wolą najbliższe obiekty"
+
+#: shortcodes/vc-settings.php:287 shortcodes/vc-settings.php:454
+#: shortcodes/vc-settings.php:813
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"To umożliwi Geo lokalizacji Trackor do śledzenia odwiedzający lokalizacji i "
+"będzie wyświetlać właściwości w ich pobliżu"
+
+#: shortcodes/vc-settings.php:296
+#, fuzzy
+msgid "Justified Grid (Masonry)"
+msgstr "Uzasadnionych siatki (murowane)"
+
+#: shortcodes/vc-settings.php:297
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "Umożliwi to murarskie siatki właściwości"
+
+#: shortcodes/vc-settings.php:307
+#, fuzzy
+msgid "Enable or Disable Pagination"
+msgstr "Włącz/Wyłącz podział stron"
+
+#: shortcodes/vc-settings.php:320
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "Wyświetla właściwości Current rejestrowane w agenta"
+
+#: shortcodes/vc-settings.php:331
+#, fuzzy
+msgid "Agent Profile"
+msgstr "Profil agenta"
+
+#: shortcodes/vc-settings.php:335
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "Umożliwia wyświetlenie profilu konkretnego agenta"
+
+#: shortcodes/vc-settings.php:341
+#, fuzzy
+msgid "Choose agent who's profile you want to display"
+msgstr "Wybierz agenta, którego profil chcesz wyświetlić"
+
+#: shortcodes/vc-settings.php:351
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr "Wyświetla wyniki wyszukiwania, jeśli wyszukiwane w widżecie"
+
+#: shortcodes/vc-settings.php:355
+#, fuzzy
+msgid "Properties Map"
+msgstr "Mapy obiektów"
+
+#: shortcodes/vc-settings.php:359
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "Wyświetla właściwości na dużej mapie"
+
+#: shortcodes/vc-settings.php:364
+msgid "Display Properties"
+msgstr "Wyświetl właściwości"
+
+#: shortcodes/vc-settings.php:365
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "Jak chcesz wyświetlić obiekty na mapie"
+
+#: shortcodes/vc-settings.php:367
+#, fuzzy
+msgid "Properties by IDs"
+msgstr "Oferty"
+
+#: shortcodes/vc-settings.php:368
+#, fuzzy
+msgid "Use Property Query"
+msgstr "Status nieruchomości"
+
+#: shortcodes/vc-settings.php:374 shortcodes/vc-settings.php:800
+#, fuzzy
+msgid "Property IDs"
+msgstr "Obiekt"
+
+#: shortcodes/vc-settings.php:375
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "Właściwość Identyfikator każdego na linii do wyświetlania na mapie"
+
+#: shortcodes/vc-settings.php:413
+msgid "Number of Properties"
+msgstr "Liczba ofert"
+
+#: shortcodes/vc-settings.php:414
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "Podać całkowitą liczbę właściwości, aby pokazać. -1 dla wszystkich"
+
+#: shortcodes/vc-settings.php:433
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "Właściwość typ filtrowania"
+
+#: shortcodes/vc-settings.php:434
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"Włącz, aby wyświetlić typ właściwości, przyciski poniżej mapki do filtra"
+
+#: shortcodes/vc-settings.php:443
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "Filtruj według tagów"
+
+#: shortcodes/vc-settings.php:444
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "Zapewniają jeden tag w każdym wierszu do filtrowania."
+
+#: shortcodes/vc-settings.php:463
+msgid "Map Height"
+msgstr "Wysokość Mapy"
+
+#: shortcodes/vc-settings.php:464
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "Dostarczyć mapę wysokość Eg: 550px"
+
+#: shortcodes/vc-settings.php:470
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr "Podaj identyfikator agenta na konkretne oferty"
+
+#: shortcodes/vc-settings.php:475
+#, fuzzy
+msgid "Loading Heading"
+msgstr "Pozycją załadunku"
+
+#: shortcodes/vc-settings.php:476
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "Zawierają tekst nagłówka ładowania mapy"
+
+#: shortcodes/vc-settings.php:482
+#, fuzzy
+msgid "Loading Description"
+msgstr "Opis załadunku"
+
+#: shortcodes/vc-settings.php:483
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "Podać opis tekstowy ładowania mapy"
+
+#: shortcodes/vc-settings.php:489 shortcodes/vc-settings.php:567
+msgid "Buttons Background Color"
+msgstr "Kolor tła dla przycisków"
+
+#: shortcodes/vc-settings.php:490
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "Wybierz kolor tła dla przycisków mapy"
+
+#: shortcodes/vc-settings.php:491 shortcodes/vc-settings.php:498
+#: shortcodes/vc-settings.php:505 shortcodes/vc-settings.php:512
+#: shortcodes/vc-settings.php:519
+msgid "Colors"
+msgstr "Kolory"
+
+#: shortcodes/vc-settings.php:496 shortcodes/vc-settings.php:578
+msgid "Buttons Text Color"
+msgstr "﻿Kolor tekstu przycisków"
+
+#: shortcodes/vc-settings.php:497
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "Wybierz kolor tekstu dla przycisków mapy"
+
+#: shortcodes/vc-settings.php:503 shortcodes/vc-settings.php:589
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "Kolor tła przycisków - Hover"
+
+#: shortcodes/vc-settings.php:504
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "Wybierz kolor tła aktywowania przyciski map"
+
+#: shortcodes/vc-settings.php:510 shortcodes/vc-settings.php:600
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "Kolor tekstu przycisków - Hover"
+
+#: shortcodes/vc-settings.php:511
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "Wybierz kolor aktywowania tekst dla przycisków mapy"
+
+#: shortcodes/vc-settings.php:517
+#, fuzzy
+msgid "Loader Color"
+msgstr "Kolor modułu ładującego"
+
+#: shortcodes/vc-settings.php:518
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "Wybierz kolor dla map loader pole"
+
+#: shortcodes/vc-settings.php:525
+#, fuzzy
+msgid "Water Color"
+msgstr "Kolor wody"
+
+#: shortcodes/vc-settings.php:526
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "Wybierz kolor wody w mapę"
+
+#: shortcodes/vc-settings.php:527 shortcodes/vc-settings.php:534
+#: shortcodes/vc-settings.php:541 shortcodes/vc-settings.php:548
+#: shortcodes/vc-settings.php:555 shortcodes/vc-settings.php:562
+#, fuzzy
+msgid "Map Colors"
+msgstr "Kolory mapy"
+
+#: shortcodes/vc-settings.php:532
+msgid "Fill Color"
+msgstr "Kolor wypełnienia"
+
+#: shortcodes/vc-settings.php:533
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "Wybierz kolor wypełnienia naturalnego w mapę"
+
+#: shortcodes/vc-settings.php:539
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "Punkty zainteresowania koloru"
+
+#: shortcodes/vc-settings.php:540
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "Wybierz kolor UM na mapie"
+
+#: shortcodes/vc-settings.php:546
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "Punkty zainteresowania odcienia koloru"
+
+#: shortcodes/vc-settings.php:547
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "Wybierz kolor odcień UM na mapie"
+
+#: shortcodes/vc-settings.php:553
+#, fuzzy
+msgid "Road Lightness"
+msgstr "Lekkość Road"
+
+#: shortcodes/vc-settings.php:554
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "Wybierz drogi lekkość w mapę, domyślna: 100"
+
+#: shortcodes/vc-settings.php:560
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "Lekkości linii"
+
+#: shortcodes/vc-settings.php:561
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Wybierz linia lekkość w mapę, domyślne: 700"
+
+#: shortcodes/vc-settings.php:568
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "Kolor tła na dole przyciski"
+
+#: shortcodes/vc-settings.php:569 shortcodes/vc-settings.php:580
+#: shortcodes/vc-settings.php:591 shortcodes/vc-settings.php:602
+#: shortcodes/vc-settings.php:613
+msgid "Filter Options"
+msgstr "Opcje filtrów"
+
+#: shortcodes/vc-settings.php:579
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "Kolor tekstu na dole przyciski"
+
+#: shortcodes/vc-settings.php:590
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "Kolor tła na dole przyciski przy aktywowaniu"
+
+#: shortcodes/vc-settings.php:601
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "Kolor tekstu na dole przyciski przy aktywowaniu"
+
+#: shortcodes/vc-settings.php:611
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "Kolor tła przycisków - aktywny"
+
+#: shortcodes/vc-settings.php:612
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "Kolor tła na dole przyciski na aktywne"
+
+#: shortcodes/vc-settings.php:622
+#, fuzzy
+msgid "Field Name for Icons"
+msgstr "Nazwa pola dla ikony"
+
+#: shortcodes/vc-settings.php:623
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr "Podać nazwę pola danych, aby filtr ikony przez. Np: property_type"
+
+#: shortcodes/vc-settings.php:624 shortcodes/vc-settings.php:631
+#: shortcodes/vc-settings.php:638 shortcodes/vc-settings.php:645
+#, fuzzy
+msgid "Custom Icons"
+msgstr "Użyj ikon użytkownika"
+
+#: shortcodes/vc-settings.php:629
+#, fuzzy
+msgid "Icon URLs"
+msgstr "Adresy URL ikony"
+
+#: shortcodes/vc-settings.php:630
+#, fuzzy
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"Podaj adresy URL meta, statyczny i dymek z ikonami ze znakiem potoku. Np .: "
+"house | some_image.png | some_image_hover.png"
+
+#: shortcodes/vc-settings.php:636
+#, fuzzy
+msgid "My Location Icon Url"
+msgstr "Moja lokalizacja Url ikony"
+
+#: shortcodes/vc-settings.php:637
+#, fuzzy
+msgid "Provide icon url for my location pin"
+msgstr "Podać adres url ikona pin lokalizacji"
+
+#: shortcodes/vc-settings.php:643
+#, fuzzy
+msgid "Circle Icon Url"
+msgstr "Okrągła ikona"
+
+#: shortcodes/vc-settings.php:644
+#, fuzzy
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "Podaj adres url ikony dla wielu obiektów. Rozmiar 55 x 55"
+
+#: shortcodes/vc-settings.php:654
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "Renderuje formularz do wyszukiwania obiektów przez AJAX"
+
+#: shortcodes/vc-settings.php:659
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "Sprawdź pola do wyświetlania"
+
+#: shortcodes/vc-settings.php:660
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "Zaznacz wymagane pola dla menu wyszukiwania"
+
+#: shortcodes/vc-settings.php:667
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "Wybierz liczbę pól w każdym wierszu"
+
+#: shortcodes/vc-settings.php:672
+msgid "6 Columns"
+msgstr "6 kolumn"
+
+#: shortcodes/vc-settings.php:678
+#, fuzzy
+msgid "Search Button Title"
+msgstr "Tytuł przycisk Szukaj"
+
+#: shortcodes/vc-settings.php:679
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "Podaj tekst do przycisku wyszukiwania"
+
+#: shortcodes/vc-settings.php:684
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "Tytuł przycisk Filtr"
+
+#: shortcodes/vc-settings.php:685
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "Podać tekst dla przycisku więcej filtrów"
+
+#: shortcodes/vc-settings.php:690
+#, fuzzy
+msgid "Results Page"
+msgstr "Strona wyników"
+
+#: shortcodes/vc-settings.php:691
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"Podaj adres url, to będzie wyłączyć wyszukiwania AJAX i będzie otwarcie tej "
+"strony, aby wyświetlić wyniki. Upewnij się wkleić [rem_search_results] "
+"shortcode na podanej stronie do wyświetlania wyników."
+
+#: shortcodes/vc-settings.php:696
+#, fuzzy
+msgid "Result Selector"
+msgstr "Selektor wyników"
+
+#: shortcodes/vc-settings.php:697
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"Selektor HTML, jeśli chcesz wyświetlać wyniki w innym miejscu na bieżącej "
+"stronie"
+
+#: shortcodes/vc-settings.php:702
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "Naprawiono pola"
+
+#: shortcodes/vc-settings.php:703
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Dostarczają danych dla pola stałe w każdym wierszu. Np: property_status | "
+"normalne"
+
+#: shortcodes/vc-settings.php:708
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "Twardy kodowane treści"
+
+#: shortcodes/vc-settings.php:709
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"Możesz wkleić tutaj krótki kod, aby wyświetlić niektóre domyślne właściwości"
+
+#: shortcodes/vc-settings.php:714
+msgid "Agent ID"
+msgstr "Agent ID"
+
+#: shortcodes/vc-settings.php:715
+#, fuzzy
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr ""
+"Identyfikator agenta lub identyfikatory oddzielone przecinkami dla "
+"wyszukiwania specyficznego dla agenta"
+
+#: shortcodes/vc-settings.php:721
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "Wybierz kolejność wyświetlania wyników"
+
+#: shortcodes/vc-settings.php:731
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "Wybierz zamówienie, aby wyświetlić wyniki"
+
+#: shortcodes/vc-settings.php:744
+#, fuzzy
+msgid "Touch Carousel"
+msgstr "Dotknij opcji Karuzela"
+
+#: shortcodes/vc-settings.php:748
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "Renderuje responsywną karuzelę właściwości"
+
+#: shortcodes/vc-settings.php:783
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "Podaj całkowitą liczbę właściwości do wyświetlenia"
+
+#: shortcodes/vc-settings.php:795
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr "Podać tagi na linię, aby wyświetlić określone właściwości"
+
+#: shortcodes/vc-settings.php:801
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"Zapewniają identyfikatorów, jeśli chcesz wyświetlić określone właściwości, "
+"każdy na linii"
+
+#: shortcodes/vc-settings.php:823
+#, fuzzy
+msgid "Properties in Row"
+msgstr "Obiekty w wierszu"
+
+#: shortcodes/vc-settings.php:824
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr "Zapewnia wiele właściwości, które chcesz pokazać w czasie"
+
+#: shortcodes/vc-settings.php:830
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "Właściwości do przewijania"
+
+#: shortcodes/vc-settings.php:831
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "Zapewnia wiele właściwości, które chcesz przewijać naraz"
+
+#: shortcodes/vc-settings.php:837
+msgid "Speed"
+msgstr "Szybkość"
+
+#: shortcodes/vc-settings.php:838
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Prędkość w ms np: 2000"
+
+#: shortcodes/vc-settings.php:844
+msgid "Auto Play"
+msgstr "Odtwarzaj automatycznie"
+
+#: shortcodes/vc-settings.php:845
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "Włącz wyświetlanie automatyczne obracanie obiektów"
+
+#: shortcodes/vc-settings.php:855
+#, fuzzy
+msgid "Auto Play Speed"
+msgstr "Szybkość odtwarzania"
+
+#: shortcodes/vc-settings.php:856
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Auto grać prędkość w ms Eg: 2000"
+
+#: shortcodes/vc-settings.php:862
+msgid "Arrows"
+msgstr "Strzałki"
+
+#: shortcodes/vc-settings.php:863
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "Włączyć do wyświetlania strzałki do nawigacji"
+
+#: shortcodes/vc-settings.php:873
+msgid "Dots"
+msgstr "Kropki"
+
+#: shortcodes/vc-settings.php:874
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "Włącz, aby wyświetlać kropki dolnej do nawigacji"
+
+#: templates/property/style6.php:29
+msgid "Detail"
+msgstr "Szczegóły"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "Zaawansowany menedżer nieruchomości"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/Real-Estate-Manager-WordPress-Plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "Kompletne rozwiązanie do zarządzania nieruchomości"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"

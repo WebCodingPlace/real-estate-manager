@@ -1,0 +1,85 @@
+/* 4.16 SIGN-IN
+================================== */
+#login-page,
+#signin-page {
+  padding: 0;
+}
+#login-page input,
+#signin-page input {
+  padding-left: 44px !important;
+}
+#login-page .form-group,
+#signin-page .form-group,
+#login-page .field,
+#signin-page .field {
+  margin-top: 20px;
+  position: relative;
+}
+#login-page .field i,
+#signin-page .field i {
+  border-right: 1px solid #e5e5e5;
+  color: #ddd;
+  font-size: 20px;
+  padding-right: 8px;
+  position: absolute !important;
+  top: auto;
+  right: auto;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+#login-page .field i.user,
+#signin-page .field i.user {
+  font-size: 14px;
+  padding: 3px 10px 3px 3px;
+}
+#login-page .form-group i,
+#signin-page .form-group i {
+  border-right: 1px solid #e5e5e5;
+  color: #ddd;
+  font-size: 20px;
+  padding-right: 8px;
+  position: absolute !important;
+  top: auto;
+  right: auto;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+#login-page .footer-form,
+#signin-page .footer-form {
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 0;
+  position: relative;
+}
+#login-page .footer-form .remember,
+#signin-page .footer-form .remember {
+  font-size: 14px;
+  position: absolute !important;
+  top: 26px;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  z-index: 1;
+}
+#login-page .footer-form .button-form,
+#signin-page .footer-form .button-form {
+  padding: 6px 26px;
+}
+/* #login-page, #signin-page */
+#login-page .title {
+  margin-top: 5px;
+}
+/* #login-page */
+#signin-page .title {
+  margin-top: 20px;
+}
+#signin-page .text-desclaimer {
+  padding-left: 30px;
+  border-left: 1px dotted #CCC;
+}
+#signin-page .form-group,
+#signin-page .field {
+  margin-top: 20px;
+  position: relative;
+}

@@ -1,0 +1,10 @@
+<wpml-config>
+  <admin-texts>
+    <key name="rem_all_settings">
+      <key name="*"/>
+    </key>
+    <key name="rem_property_fields">
+      <key name="*"/>
+    </key>
+  </admin-texts>
+</wpml-config>

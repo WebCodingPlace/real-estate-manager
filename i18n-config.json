@@ -1,0 +1,14 @@
+{"vendor":{"plugins/real-estate-manager-pro":"10.4.0"},
+"admin-config": {
+"post":{
+	"pages":{"edit.php?post_type=rem_property&page=rem_settings":""},
+	"forms":{
+		"panel":{
+			"fields":{
+				"thousand_separator":{}
+			}
+		}
+	}
+}
+}
+}

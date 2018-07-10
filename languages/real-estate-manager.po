@@ -1,0 +1,3701 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid " Tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid " when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "1"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "2"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "2 Columns"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "3"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "3 Columns"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "4"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "4 Columns"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "6 Columns"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:19
+msgid "Action"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/my-properties.php:13
+msgid "Actions"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Add New Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Add New Tag"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Add or remove Tags"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/my-properties.php:10
+msgid "Added"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/create-property.php:22
+msgid "Address"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:32
+#: real-estate-manager-pro/custom-fields/fields/select.php:44
+#: real-estate-manager-pro/custom-fields/fields/text.php:32
+msgid "Admin Settings Tab"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Advanced Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Afghan afghani"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "After Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Agent"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Approved"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Contact Email Addresses"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:2
+msgid "Agent Details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Page Sidebar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Page Sidebar Card"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Page Template"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Pending"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Registered"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:13
+msgid "Agent Registration Form"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Agent Rejected"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Agents"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Albanian lek"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Algerian dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "All Tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Angolan kwanza"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:202
+msgid "Any"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:165
+#: real-estate-manager-pro/shortcodes/create-property.php:47
+msgid "Any Purpose"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:181
+#: real-estate-manager-pro/shortcodes/create-property.php:67
+msgid "Any Status"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:149
+#: real-estate-manager-pro/shortcodes/create-property.php:57
+msgid "Any Type"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:33
+msgid "Approve"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "Approved "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Archive Page Template"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Area"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Area Unit"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Argentine peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Armenian dram"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Arrows"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Aruban florin"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Ascending"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:544
+msgid "Attachments"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Attachments Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Attic"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Australian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Auto Play"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Auto Play Speed"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Auto play speed in ms Eg: 2000"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Available"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Azerbaijani manat"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Background color for bottom buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Background color for bottom buttons on active"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Background color for bottom buttons on hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Backyard"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bahamian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bahraini dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Balcony"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bangladeshi taka"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Barbadian dollar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:15
+msgid "Basic Information"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Basketball Court"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/create-property.php:76
+msgid "Bathrooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "Baths"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/create-property.php:79
+msgid "Bedrooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "Beds"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Belarusian ruble"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Belize dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bermudian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:46
+#: real-estate-manager-pro/shortcodes/register-agent.php:40
+msgid "Biographical Info"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bitcoin"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bolivian boliviano"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Bootstrap CSS"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Botswana pula"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Box Style 1"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Box Style 2"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Box Style 3"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Box Style 4"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Brazilian real"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Brunei dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Bulgarian lev"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Burmese kyat"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Burundian franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Buttons Background"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Buttons Background - Hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Buttons Background Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Buttons Background Color - Active"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Buttons Background Color - Hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Buttons Text"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Buttons Text - Hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Buttons Text Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Buttons Text Color - Hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "CFP franc"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:51
+msgid "Calculate"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Cambodian riel"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Canadian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Central African CFA franc"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:43
+msgid "Change Property Page Design"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Changes Saved!"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Check Fields to Display"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Check if property have this option"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Check the required fields for search menu"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Chilean peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Chinese yuan"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/render-admin-settings.php:103
+#: real-estate-manager-pro/inc/render-admin-settings.php:104
+msgid "Choose a currency&hellip;"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose agent page display layout"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose background color for buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose background color for buttons on hover state"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose background color for map buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose bottom border color for headings active area"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose bottom border color for headings area"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose color for maps loader box"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose columns in a row for box styles"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose default map type here"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Choose from most used tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose hover background color for map buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose how you want to load map in single property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose line lightness in map, Default: 700"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose main theme color for templates"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose natural fill color in map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose number of fields in each row"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose order by to display properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose order to display properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose poi color in map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose poi hue color in map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose properties display style"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose road lightness in map, Default: 100"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose sidebar for agent details page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose sidebar for single property page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose single property display layout"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose style for search results"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose tags and archive properties display layout"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Choose text color for buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose text color for map buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose text hover color for map buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Choose water color in map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "City"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:94
+msgid "Click here to Upload Images"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Colombian peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Colors"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Colors and CSS"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Columns"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Comorian franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Congolese franc"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:48
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Container Maximum Width"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Content for Logged In Users"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Country"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:214
+msgid "Create Property"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:19
+msgid "Create Property Form"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:39
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Croatian kuna"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Cuban convertible peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Cuban peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Currency"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Currency Options"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Currency Position"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Currency Symbol for Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Custom CSS Code"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Custom Fields"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/custom-fields-page.php:2
+msgid "Custom Fields Builder"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Custom field deleted."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Custom field updated."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Czech koruna"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Danish krone"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:14
+#: real-estate-manager-pro/custom-fields/fields/select.php:14
+#: real-estate-manager-pro/custom-fields/fields/text.php:14
+msgid "Data Name (lowercase without spaces)"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Date"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:18
+msgid "Date of Registration"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Decimal Separator"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Decimal separator of display price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Latitude"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Longitude"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Maximum Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Maximum price for price slider"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Minimum Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Default Minimum price for price slider"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/select.php:20
+msgid "Default Selected"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:20
+#: real-estate-manager-pro/custom-fields/fields/text.php:20
+msgid "Default Value"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:47
+#: real-estate-manager-pro/custom-fields/fields/select.php:59
+#: real-estate-manager-pro/custom-fields/fields/text.php:47
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:32
+msgid "Deny"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Descending"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/templates/property/style6.php:34
+msgid "Detail"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:544
+#: real-estate-manager-pro/inc/page-docs.php:8
+#: real-estate-manager-pro/templates/property/style1.php:33
+#: real-estate-manager-pro/templates/property/style2.php:13
+#: real-estate-manager-pro/templates/property/style3.php:14
+#: real-estate-manager-pro/templates/property/style4.php:14
+#: real-estate-manager-pro/templates/property/style5.php:15
+msgid "Details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Details Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Disable"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:103
+msgid "Display Agent Profile"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Display Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/widgets.php:1
+msgid "Displays Mortgage Calculator"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Displays properties on a large map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Displays search results if searched from widget"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Djiboutian franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Dominican peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Dots"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:40
+msgid "Down payment"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Drag Icon URL"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:211
+msgid "Drag the pin to the location on the map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Duplex"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:52
+msgid "Each skill per line with value"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:125
+msgid "Each tag separated by comma"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "East Caribbean dollar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:109
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Edit Agent Profile"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Edit Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Edit Tag"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Egyptian pound"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:47
+#: real-estate-manager-pro/shortcodes/agent-profile.php:85
+#: real-estate-manager-pro/shortcodes/edit-agent.php:36
+#: real-estate-manager-pro/shortcodes/register-agent.php:24
+#: real-estate-manager-pro/templates/agent.php:90
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Email Message for agent when new agent is registered but status is pending. You can use %username% and %email% for details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Email Message for agent when registered agent is approved. You can use %username% and %email% for details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Email Message for agent when registered agent is rejected. You can use %username% and %email% for details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Email Messages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Email Sent Successfully"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+#: real-estate-manager-pro/inc/render-admin-settings.php:158
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Enable"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Enable or disable default agent card and contact form on single property page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Enable to display arrows for navigation"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Enable to display auto rotation of properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Enable to display bottom dots for navigation"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Eritrean nakfa"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Error, please try again"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Error, please try later"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Ethiopian birr"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Euro"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Excerpt Length"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Facebook Page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Facebook Profile"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:51
+msgid "Facebook URL"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Falkland Islands pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:607
+#: real-estate-manager-pro/shortcodes/create-property.php:107
+msgid "Features"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Features Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Fijian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "File Attachments"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Fill Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Filter Options"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Filter Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Filter by Tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:495
+msgid "Find on Map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Fireplace"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:16
+#: real-estate-manager-pro/inc/page-agents.php:48
+#: real-estate-manager-pro/shortcodes/edit-agent.php:21
+#: real-estate-manager-pro/shortcodes/register-agent.php:12
+msgid "First Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Fixed Fields"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Font Awesome"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "From Plugin"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "From Theme"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Full Box"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Full Width"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Gambian dalasi"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Gas Heat"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "General Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Georgian lari"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Ghana cedi"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Gibraltar pound"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:33
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Golf Course"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Google Earth"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Google Maps API Key"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Google+ Profile"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:59
+msgid "Google+ URL"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Grid 1"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Grid 2"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Grid 3"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Grid 4"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Guernsey pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Guinean franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Guyanese dollar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:57
+msgid "HERE"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Haitian gourde"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Hard Coded Contents"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Headings Underline"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Headings Underline Active"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Health Club"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:26
+#: real-estate-manager-pro/custom-fields/fields/select.php:38
+#: real-estate-manager-pro/custom-fields/fields/text.php:26
+msgid "Help Text"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Honduran lempira"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Hong Kong dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "House"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "How you want to display properties on map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Hungarian forint"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Hybrid"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:31
+msgid "If 404 Page is displaying"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:37
+msgid "If Maps not displaying"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/render-admin-settings.php:140
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:89
+msgid "Images"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Indian rupee"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Indonesian rupiah"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Inline"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Instagram"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:44
+msgid "Interest Rate"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Internal Structure"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Iranian rial"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Iraqi dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Israeli new shekel"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:118
+msgid "It displays a single property by id."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:100
+msgid "It displays multiple  properties on a map."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:106
+msgid "It displays profile of a single agent."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:65
+msgid "It displays search results of properties searched from widget."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:112
+msgid "It renders a form to edit current users profile."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:139
+msgid "It renders slider of selected properties based on settings."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "It will enable Geo Location Trackor to track visitors location and will display properties near them"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:22
+msgid "It will render a form to create a property."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:28
+msgid "It will render a form to login an agent."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:16
+msgid "It will render a form to register new agent"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:40
+msgid "It will render a form to search properties via AJAX."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:34
+msgid "It will render a list of properties of current logged in user."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:59
+msgid "It will render a list of properties."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Jamaican dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Japanese yen"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Jersey pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Jordanian dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/login.php:20
+msgid "Keep me signed in"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Kenyan shilling"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:134
+#: real-estate-manager-pro/shortcodes/search-property.php:37
+msgid "Keywords"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:8
+#: real-estate-manager-pro/custom-fields/fields/select.php:8
+#: real-estate-manager-pro/custom-fields/fields/text.php:8
+msgid "Label"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Labels and Headings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Lake View"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Lao kip"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:49
+#: real-estate-manager-pro/shortcodes/edit-agent.php:26
+#: real-estate-manager-pro/shortcodes/register-agent.php:16
+msgid "Last Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Latitude"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Latitude Longitude"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Latitude of property, will use for map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Laundry"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:51
+msgid "Leave blank for default contact form"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Lebanese pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Left"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Left with Space"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Lesotho loti"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Liberian dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Libyan dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Lines Lightness"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "LinkedIn Profile"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:63
+msgid "LinkedIn URL"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "List"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:31
+msgid "List My Properties"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:43
+msgid "List Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Load Map Using"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Loader Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Loading Description"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Loading Heading"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/search-property.php:151
+msgid "Loading..."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Location Icon URL"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/login.php:21
+msgid "Login"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:25
+msgid "Login Form"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Longitude"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Longitude of property, will use for map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Macanese pataca"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Macedonian denar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Malagasy ariary"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Malawian kwacha"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Malaysian ringgit"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Manx pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Map Colors"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Map Height"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Map Type"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Map Zoom Level"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Maps Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Maps Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Mauritian rupee"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Maximum Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Maximum price for price slider"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/render-admin-settings.php:142
+msgid "Media"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/sidebar-agent-contact.php:39
+msgid "Message"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Mexican peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Minimum Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Minimum price for price slider"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Moldovan leu"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/search-property.php:136
+msgid "More filters"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Moroccan dirham"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Mozambican metical"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:68
+msgid "Multiple Properties on Map"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/agent-profile.php:120
+#: real-estate-manager-pro/templates/agent.php:125
+msgid "My Properties"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/agent-profile.php:82
+#: real-estate-manager-pro/templates/agent.php:87
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Namibian dollar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:54
+msgid "Need Help? Any Suggestions?"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Nepalese rupee"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "New Agent Registered "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "New Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "New Tag Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "New Taiwan dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "New Zealand dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:31
+msgid "Nickname"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Nigerian naira"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/widgets.php:297
+msgid "No Pages Found!"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/carousel/carousel.php:12
+#: real-estate-manager-pro/shortcodes/list/list.php:1
+msgid "No Properties Found!"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "No Property found"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "No Property found in Trash"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Normal"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "North Korean won"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Norwegian krone"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Not Available"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:47
+msgid "Now change its name to"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:50
+msgid "Now you can make changes in this template file."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/number.php:2
+msgid "Number Field"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Number of Decimals"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Number of Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Number of bathrooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Number of bedrooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Number of decimal points shown in display price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Number of properties you want to display on search results and archive pages."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Number of rooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Office"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Office/Den"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Omani rial"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "One per line. This will add checkboxes to your property edit page for you to select. Leave blank to use default"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "One per line. This will add property purposes to select from when entering properties. Leave blank to use default"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "One per line. This will add property status to select from when entering properties. Leave blank to use default"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "One per line. This will add property types to select from when entering properties. Leave blank to use default"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Open House"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/select.php:26
+msgid "Options (each per line)"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Order"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Order By"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Pakistani rupee"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Panamanian balboa"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Parent Property:"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Parent Tag"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/login.php:16
+#: real-estate-manager-pro/shortcodes/register-agent.php:28
+msgid "Password"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:306
+msgid "Paste following shortcode in selected page to display results"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Paste your custom css code here, you can prefix with"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:9
+msgid "Pending Agents"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:32
+msgid "Pepeat Password"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:12
+#: real-estate-manager-pro/shortcodes/register-agent.php:8
+msgid "Personal Info"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Pet Allowed"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Philippine peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Phone Number"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:6
+msgid "Picture of Agent"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:133
+msgid "Place on Map"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/custom-fields-page.php:43
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:24
+msgid "Please Wait..."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:56
+msgid "Please contact us"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:219
+msgid "Please wait! your porperty is being created..."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Points of Interest Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Points of Interest Hue Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Pool"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Popular Tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Position of the Currency Symbol"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:7
+msgid "Possible Attributes"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Pound sterling"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Prefer Nearest Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Preview Property"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:223
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Price Slider"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:37
+msgid "Price in"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:51
+msgid "Profile"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Profile Url"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:50
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Properties Map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Properties Per Page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Properties by IDs"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Properties in Row"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Properties to Scroll"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property Address"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property Agent"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:83
+msgid "Property Area - "
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:43
+msgid "Property City"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:40
+msgid "Property Country"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/create-property.php:25
+msgid "Property Description"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Details"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:607
+msgid "Property ID"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Property ID each per line to display on map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Property IDs"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Property Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property Page Base"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Page Sidebar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Page Sidebar Card"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Page Template"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Purposes"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Statuses"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Property Style"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:19
+msgid "Property Title"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property Type"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Property Type Filtering"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Property Types"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property draft updated."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property published."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property restored to revision from %s"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property saved."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property submitted."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Property updated."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide Additional Email addresses each per line to cc mail when visitor fills the contact agent form."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide URL to redirect after successfull registration"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide container max width in px, eg: 1140px"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide content for already logged in users"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Provide custom url for agent profile, write disable to hide info icon"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for attachments on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for maps on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for property details on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for property features on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for property video on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide heading text for tags on property pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide map height Eg: 550px"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide map loading text description"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide map loading text heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide number of properties you want to scroll at a time"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide number of properties you want to show at a time"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide single tag on each line to filter."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide tags each per line to display specific properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide total number of properties to show"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Provide total number of properties to show. -1 for all"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Provide unit of area Eg: Square Feet"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Provide video URL"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/my-properties.php:11
+msgid "Purpose"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Purpose of property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Qatari riyal"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/widgets.php:1
+msgid "REM - Mortgage Calculator"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/widgets.php:309
+msgid "REM - Search Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Random"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Real Estate Manager"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:2
+msgid "Real Estate Manager - Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Redirect"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Register Agent"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:41
+msgid "Registered Agents"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Registered Successfully, please wait until admin approves."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "Registration Successfull "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+msgid "Rejected "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Remodeled"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Renders a form to register new agent"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Renders a form to search properties via AJAX"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Renders responsive carousel of properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Rent"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/custom-fields-page.php:49
+msgid "Reset Fields"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Retail"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Right"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Right with Space"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Road Lightness"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Road Map"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Romanian leu"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Rooms"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Russian ruble"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Rwandan franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/agent-profile.php:94
+#: real-estate-manager-pro/templates/agent.php:99
+msgid "SEND MESSAGE"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Saint Helena pound"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:36
+msgid "Sale price"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Saudi riyal"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:75
+msgid "Save Changes"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/custom-fields-page.php:50
+#: real-estate-manager-pro/inc/page-settings.php:25
+msgid "Save Settings"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:77
+msgid "Saving Changes..."
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:235
+#: real-estate-manager-pro/shortcodes/search-property.php:139
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:268
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Search Field"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/widgets.php:309
+msgid "Search Properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Search Property"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:37
+msgid "Search Property Form"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Search Property Tags"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/search-property-ajax.php:76
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Search Results"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Search Results Columns"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:62
+#: real-estate-manager-pro/inc/widgets.php:282
+msgid "Search Results Page"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Search Results Style"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Search Settings"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/render-admin-settings.php:141
+msgid "Select"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/select.php:2
+msgid "Select Box"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Sell"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/sidebar-agent-contact.php:41
+msgid "Send Message"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/sidebar-agent-contact.php:46
+#: real-estate-manager-pro/shortcodes/agent-profile.php:101
+#: real-estate-manager-pro/templates/agent.php:106
+msgid "Sending Email, Please Wait..."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Separate Shower"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Serbian dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Settings"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Settings Saved"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Seychellois rupee"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:6
+msgid "Shortcode"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Shortcodes"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:81
+msgid "Sign up"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Singapore dollar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:115
+msgid "Single Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Size - "
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:43
+#: real-estate-manager-pro/shortcodes/register-agent.php:76
+msgid "Skill name with percentage value on each line, eg: Speaking, 85"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:50
+#: real-estate-manager-pro/shortcodes/register-agent.php:69
+#: real-estate-manager-pro/shortcodes/register-agent.php:73
+msgid "Skills"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:40
+msgid "Skills Level"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Skylights"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/edit-agent.php:56
+msgid "Social Networks"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:47
+msgid "Social Profiles"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Solar Heat"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Sold"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Somali shilling"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Some Area, City"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/search-property-ajax.php:96
+#: real-estate-manager-pro/shortcodes/search-results.php:78
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "South African rand"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "South Korean won"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "South Sudanese pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Speed"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Speed in ms Eg: 2000"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "State"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:1
+#: real-estate-manager-pro/inc/widgets.php:179
+#: real-estate-manager-pro/plugin.class.php:1
+#: real-estate-manager-pro/shortcodes/my-properties.php:12
+msgid "Status"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Status of property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Step"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Step or interval for price slider"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Stone Surfaces"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/agent-profile.php:88
+#: real-estate-manager-pro/templates/agent.php:93
+msgid "Subject"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Sudanese pound"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:32
+msgid "Summary"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Surinamese dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Swazi lilangeni"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Swedish krona"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Swiss franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Syrian pound"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:607
+msgid "Tag:"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:36
+msgid "Tagline"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:544
+#: real-estate-manager-pro/shortcodes/create-property.php:121
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Tags Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Tags Heading for Archive Pages"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Tajikistani somoni"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Tanzanian shilling"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Templates Settings"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:48
+msgid "Term"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Terrain"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/custom-fields/fields/text.php:2
+msgid "Text Field"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Text color for bottom buttons"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Text color for bottom buttons on hover"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Text to display after price, Eg: / Month"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Thai baht"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Theme Main Color"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:49
+msgid "Then change Property Page Template option to From Theme"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "There is some problem, please try later"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "This message will sent to "
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Thousand Separator"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Thousand separator of display price"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/my-properties.php:7
+msgid "Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:5
+#: real-estate-manager-pro/inc/widgets.php:253
+#: real-estate-manager-pro/shortcodes/my-properties.php:8
+msgid "Title"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Total Properties"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-docs.php:121
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Touch Carousel"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Transnistrian ruble"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Trash Compactors"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Tunisian dinar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Turkish lira"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Turkmenistan manat"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Twitter Profile"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/register-agent.php:55
+msgid "Twitter URL"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/my-properties.php:9
+msgid "Type"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Type of Property"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/create-property.php:135
+msgid "Type to Search..."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Ugandan shilling"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "United States dollar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+msgid "Update Tag"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/single-property-fields.php:98
+msgid "Upload"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:15
+msgid "Upload Image"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:16
+msgid "Upload an additional image for your profile."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Upload custom icon for dragging on map while creating new property. Recommended size: 72x60"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Upload custom icon for location on map when visiting property page. Recommended size: 72x60"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Upload files here"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Uruguayan peso"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Use Property Query"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:32
+#: real-estate-manager-pro/shortcodes/edit-agent.php:41
+msgid "User Tagline"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:46
+#: real-estate-manager-pro/shortcodes/edit-agent.php:17
+#: real-estate-manager-pro/shortcodes/register-agent.php:20
+msgid "Username"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Username or Email already exists"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/login.php:12
+msgid "Username or email"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Uzbekistani som"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Vanuatu vatu"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+#: real-estate-manager-pro/hooks.class.php:425
+msgid "Video"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "Video Heading"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/single-property-fields.php:1
+msgid "Video URL"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-agents.php:64
+msgid "View Profile"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/register-property.php:1
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "View Property"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Vila"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "Water Color"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "West African CFA franc"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Wet Bar"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/agent-profile-fields.php:35
+msgid "Will display under username"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Wine Cellar"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Yemeni rial"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/shortcodes/vc-settings.php:1
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "You can use %tag% for tag name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "YouTube"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/sidebar-agent-contact.php:36
+msgid "Your Email"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/shortcodes/agent-profile.php:91
+#: real-estate-manager-pro/templates/agent.php:96
+msgid "Your Message"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/sidebar-agent-contact.php:33
+msgid "Your Name"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/core.functions.php:1
+msgid "Zambian kwacha"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Zip Code"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/plugin.class.php:1
+msgid "Zipcode"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/page-settings.php:58
+msgid "for assistance."
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/inc/admin-settings-arr.php:1
+msgid "here"
+msgstr ""
+
+#. Text in echo
+#: real-estate-manager-pro/inc/widgets.php:48
+msgid "years"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:607
+msgid "«"
+msgstr ""
+
+#. Text in function
+#: real-estate-manager-pro/hooks.class.php:607
+msgid "»"
+msgstr ""

@@ -1,0 +1,75 @@
+.skillbar.ext-text{
+	margin-bottom: 33px;
+}
+
+.skillbar.ext-text .skill-bar-percent,
+.skillbar.ext-text .skillbar-title {
+	top: 23px;
+	left: 31px;
+	background: none;
+	color: #333;
+	margin-left: 0;
+}
+
+.skillbar.ext-text .skill-bar-percent {
+	left: 0;
+	border-right: 1px dotted #bbb;
+	width: 32px;
+}
+
+/* STANDARD SKILL BARS */
+
+.skillbar {
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	background: #eee;
+	height: 20px;
+
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 11px;
+	color: #FFF;
+	background: rgba(5, 180, 160, 0.9);
+	text-transform: uppercase;
+}
+
+.skillbar-title span {
+	display: block;
+	padding: 0 8px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.skillbar-bar {
+	height: 20px;
+	width: 0;
+	background: rgba(5, 180, 160, 0.5);
+}
+
+.skill-bar-percent {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+	color: #FFF;
+	color: rgba(0, 0, 0, 0.6);
+}

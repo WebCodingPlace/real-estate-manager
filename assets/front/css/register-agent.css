@@ -1,0 +1,218 @@
+.edit-agent-profile input, .edit-agent-profile textarea {
+  border: none;
+  font-size: 14px;
+  padding: 0;  
+}
+.edit-agent-profile .fa-lock {
+  color: #000 !important;
+}
+#rem-agent-page .signin-button {
+  margin-top: 30px;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+#rem-agent-page .section-title .icon {
+  position: absolute !important;
+  top: 10px;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  cursor: pointer;
+  color: #777;
+}
+#rem-agent-page .section-title .icon:hover {
+  color: #333;
+}
+#rem-agent-page form {
+  padding: 10px 16px 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #F1F1F1;
+  margin-bottom: 30px;
+}
+#rem-agent-page form .text {
+  font-size: 15px;
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+#rem-agent-page .grey-box input {
+  margin-bottom: 20px;
+}
+#rem-agent-page .profile {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /* > li */
+  /* &.create */
+}
+#rem-agent-page .profile > li {
+  position: relative;
+  font-weight: 300;
+  padding: 10px 30px 10px 150px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px dotted #E5E5E5;
+  text-align: justify;
+}
+#rem-agent-page .profile > li.disable {
+  color: #aaa;
+}
+#rem-agent-page .profile > li .set-privacy,
+#rem-agent-page .profile > li .icon {
+  position: absolute !important;
+  top: 16px;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  color: #CCC;
+  font-size: 13px;
+  cursor: pointer;
+}
+#rem-agent-page .profile > li .set-privacy {
+  color: #CCC;
+  right: 20px;
+  color: #777;
+}
+#rem-agent-page .profile > li .set-privacy:hover {
+  color: #333;
+}
+#rem-agent-page .profile > li .icon:hover {
+  color: #333;
+}
+#rem-agent-page .profile > li > span {
+  display: inline-block;
+  font-weight: 100;
+  color: #555 !important;
+  font-size: 15px;
+  position: absolute !important;
+  top: 10px;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  z-index: 1;
+}
+#rem-agent-page .profile > li.title {
+  font-size: 18px;
+  color: #999;
+  padding: 6px 0;
+  margin-bottom: 6px;
+  border-bottom: 1px dotted #ccc;
+}
+#rem-agent-page .profile.create > li {
+  padding: 14px 0 14px 170px;
+}
+#rem-agent-page .profile.create table tr td {
+  padding-right: 14px;
+}
+#rem-agent-page .profile.create .dropdown {
+  min-width: 110px;
+}
+#rem-agent-page .agent-box-card {
+  margin: 0;
+}
+#rem-agent-page .agent-box-card .info-agent {
+  padding-bottom: 47px;
+}
+#rem-agent-page .agent-box-card .info-agent .name {
+  font-size: 20px;
+}
+#rem-agent-page .logo-agency {
+  margin: 10px 20px 0 0;
+  float: left;
+}
+#rem-agent-page .logs .button {
+  width: 100%;
+}
+#rem-agent-page .logs > .data {
+  display: block;
+  height: 13px;
+  border-bottom: 1px dotted #E5E5E5;
+  margin-bottom: 20px;
+}
+#rem-agent-page .logs > .data > span {
+  display: inline-block;
+  background-color: #FFF;
+  padding: 2px 12px 2px 0;
+  font-size: 13px;
+  color: #999;
+}
+#rem-agent-page .log {
+  background-color: #FBFBFB;
+  border: 1px dotted #E5E5E5;
+  position: relative;
+  padding: 6px;
+  min-height: 76px;
+  padding-left: 72px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+}
+#rem-agent-page .log:hover {
+  background-color: #F8F8F8;
+}
+#rem-agent-page .log .image {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute !important;
+  top: 10px;
+  left: 10px;
+}
+#rem-agent-page .log a {
+  display: block;
+  position: absolute !important;
+  top: 3px;
+  right: 6px;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  font-size: 12px;
+  color: #aaa;
+}
+#rem-agent-page .log .text > img {
+  float: left;
+  padding-bottom: 8px;
+  margin: 8px 8px 0 0;
+}
+#rem-agent-page .log .data {
+  font-size: 12px;
+  color: #aaa;
+  display: block;
+  clear: both;
+}
+#rem-agent-page ul li {
+  margin: 0;
+}
+#agent-profile-form {
+  padding: 0 !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+  border: none !important;
+}
+#agent-profile-form .description {
+  border-top: 1px dotted #ccc;
+  padding-top: 5px;
+}
+.rem-res {
+  display: none;
+  margin-top: 10px;
+}
+@media (max-width: 480px){
+  #rem-agent-page .profile.create > li {
+    /*padding: 12px 0 10px;*/
+  }
+  #rem-agent-page .profile > li > span {
+    display: block;
+    position: relative !important;
+    padding-bottom: 4px;
+    top: 0;
+  }
+  #rem-agent-page .profile.create > li,
+  #agent-profile-form .profile > li {
+    padding-left: 0;
+  }  
+}
+#agent-profile-form ul li input {width: 100%;}

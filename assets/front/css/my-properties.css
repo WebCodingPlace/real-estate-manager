@@ -1,0 +1,61 @@
+/* 4.10 MY PROPERTY
+================================== */
+#user-profile {
+  /* .property-list */
+}
+#user-profile .property-list {
+  /* table */
+}
+#user-profile .property-list table {
+  width: 100%;
+  font-size: 14px;
+}
+#user-profile .property-list table thead {
+  background-color: #1fb7a6;
+}
+#user-profile .property-list table thead th {
+  padding: 10px 4px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#user-profile .property-list table thead th {
+  background-color: #20c0ae;
+}
+#user-profile .property-list .img-wrap img {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+#user-profile .property-list table a {
+  font-size: 17px;
+  display: block;
+  font-weight: 400;
+}
+#user-profile .property-list table thead tr td,
+#user-profile .property-list table tbody tr td {
+  padding: 10px;
+  border-bottom: 1px solid #E8E8E8;
+  vertical-align: middle;
+}
+#user-profile .property-list table tbody tr th {
+  border-bottom: 1px solid #E8E8E8;
+  max-width: 38px;
+}
+#user-profile .property-list table tbody tr th label {
+  margin-left: 20px;
+}
+#user-profile .property-list table .dashicons {
+  font-size: 24px;
+}
+#user-profile .property-list table a:hover {
+  text-decoration: none;
+}
+#user-profile .property-list .dashicons-trash {
+  color: #ea5247;
+}
+#user-profile .property-list .dashicons-edit {
+  color: #2196F3;
+}
+#user-profile .pagination-content {
+  margin: 20px 0 0;
+}

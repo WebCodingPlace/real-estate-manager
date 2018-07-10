@@ -1,0 +1,176 @@
+.thumbs-prev div {
+	position: relative;
+	width: 60px;
+	height: 60px;
+    /*overflow: hidden;*/
+	float: left;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px solid #e3e3e3;
+    background: #f7f7f7;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;	
+	cursor: all-scroll;
+}
+.thumbs-prev div img {
+    width: 100%;
+}
+.thumbs-prev div span {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	color: red;
+	cursor: pointer;
+}
+.ui-accordion .ui-accordion-header {
+  cursor: pointer;
+  position: relative;
+  margin-top: 1px;
+  zoom: 1;
+}
+#accordion .ui-accordion-content {
+    max-width: 100%;
+    background-color: #ffffff;
+    color: #777;
+    padding: 10px;
+}
+#accordion .ui-accordion-content p {
+    margin: 0;
+}
+#accordion .ui-accordion-header {
+    background-color: #ccc;
+    margin: 0px;
+	padding: 10px 20px;
+	color: #ffffff;
+	outline: none;
+}
+#accordion .ui-accordion-header a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-indent: 10px;
+}
+#accordion .ui-accordion-header {
+    background-color: #389abe;
+    background-image: -moz-linear-gradient(top,  #389abe 0%, #2a7b99 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#389abe), color-stop(100%,#2a7b99)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* IE10+ */
+    background-image: linear-gradient(to bottom,  #389abe 0%,#2a7b99 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#389abe', endColorstr='#2a7b99',GradientType=0 ); /* IE6-9 */
+}
+#accordion .ui-accordion-header a {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(250, 250, 250, .2);
+}
+.pull-right {
+	float: right;
+	cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+button span {
+	vertical-align: text-bottom !important;
+}
+.btndelete span {
+	color: red;
+}
+.btnadd span {
+	color: green;
+}
+.wcp-shortc {
+    float: right;
+    padding: 5px;
+    margin: 0;
+    min-width: 300px;
+    text-align: right;
+}
+.ui-state-highlight {
+    /* background-color: yellow;
+    height: 150px; */
+}
+#property_images_meta_box .button-secondary {
+    display: block;
+    margin: 0 auto;
+}
+#property_images_meta_box br {
+    display: none;
+}
+#rem-settings-form .ui-icon {
+    display: inline-block;
+    text-indent: initial;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.ich-settings-main-wrap .panel {
+    margin-bottom: 10px;
+}
+
+.rem-settings-box .nav-tabs a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.onoffswitch {
+    position: relative; width: 80px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch .onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFFF; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: attr(data-on);
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: attr(data-off);
+    padding-right: 10px;
+    background-color: #B33D62; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 46px;
+    border: 2px solid #FFFFFF; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    height: 22px;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 7px; 
+}
+#property_details .help-block {
+    display: none;
+}
+
+.rem-settings-box label.col-sm-3.control-label {
+    margin-top: 6px;
+}

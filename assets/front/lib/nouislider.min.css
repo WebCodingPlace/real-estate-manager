@@ -1,0 +1,284 @@
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,
+.noUi-target * {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-ms-touch-action: none;
+-ms-user-select: none;
+-moz-user-select: none;
+-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.noUi-target {
+	position: relative;
+	direction: ltr;
+}
+.noUi-base {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.noUi-origin {
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.noUi-handle {
+	position: relative;
+	z-index: 1;
+}
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+	z-index: 10;
+}
+.noUi-stacking + .noUi-origin {
+/* Fix stacking order in IE7, which incorrectly
+   creates a new context for the origins. */
+	*z-index: -1;
+}
+.noUi-state-tap .noUi-origin {
+-webkit-transition: left 0.3s, top 0.3s;
+	transition: left 0.3s, top 0.3s;
+}
+.noUi-state-drag * {
+	cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+	height: 14px;
+}
+
+.noUi-horizontal .noUi-handle {
+    background-color: #277E70;
+    cursor: pointer;
+    height: 14px;
+    left: -14px;
+    top: -1px;
+    width: 14px;
+
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+/*
+	width: 24px;
+	height: 24px;
+	left: -14px;
+	top: -6px;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+*/
+}
+
+.noUi-vertical {
+	width: 18px;
+}
+
+.noUi-vertical .noUi-handle {
+	width: 28px;
+	height: 28px;
+	left: -6px;
+	top: -14px;
+/*
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+*/
+	cursor: pointer;
+}
+
+/* Styling;
+ */
+.noUi-background {
+	background: #FAFAFA;
+	/*box-shadow: inset 0 1px 1px #F0F0F0;*/
+/*
+	box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+	-webkit-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+	-moz-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+*/
+}
+
+.noUi-connect {
+	background: #50C8B4;
+	/*box-shadow: inset 0 0 3px rgba(51,51,51,0.45);*/
+	-webkit-transition: background 450ms;
+	transition: background 450ms;
+}
+
+.noUi-origin {
+/*
+	-webkit-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-o-border-radius: 1px;
+	border-radius: 1px;
+*/
+}
+
+.noUi-target {
+/*
+	-webkit-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-o-border-radius: 1px;
+	border-radius: 1px;
+	box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+*/
+
+	border: 1px solid #D3D3D3;
+
+	box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+	-webkit-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+	-moz-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
+
+}
+
+.noUi-target.noUi-connect {
+	/*box-shadow: inset 0 0 3px rgba(51,51,51,0.45), 0 3px 6px -5px #BBB;*/
+}
+
+/* Handles and cursors;
+ */
+.noUi-dragable {
+	cursor: w-resize;
+}
+
+.noUi-vertical .noUi-dragable {
+	cursor: n-resize;
+}
+
+.noUi-handle {
+	/*border: 1px solid #D3D3D3;*/
+	background: #FFF;
+	cursor: default;
+/*
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+*/
+}
+
+.noUi-active {
+
+}
+
+/* Handle stripes;
+ */
+.noUi-handle:after {
+/*
+    background-color: #38b49e;
+    content: "";
+    display: block;
+    height: 10px;
+    left: 50%;
+    margin-left: -9px;
+    position: absolute;
+    top: 6px;
+    width: 10px;
+
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+*/
+}
+
+.noUi-handle:after {
+	left: 15px;
+}
+
+.noUi-vertical .noUi-handle:before,
+.noUi-vertical .noUi-handle:after {
+	width: 14px;
+	height: 1px;
+	left: 6px;
+	top: 14px;
+}
+
+.noUi-vertical .noUi-handle:after {
+	top: 17px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
+	background: #B8B8B8;
+}
+
+[disabled] .noUi-handle {
+	cursor: not-allowed;
+}
+
+.price-slider.price {
+	text-align: center;
+}
+
+.price-slider.price #price-value-min,
+.price-slider.price #price-value-max {
+	margin-top: 10px;
+	font-size: 12px;
+	background-color: #50c8b4;
+	position: relative;
+	color: #FFF;
+	display: inline-block;
+	padding: 1px 6px;
+
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.price-slider.price #price-value-min:after,
+.price-slider.price #price-value-max:after {
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #50c8b4;
+    border-top: 6px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -6px;
+    top: 3px;
+    width: 0;
+}
+
+.price-slider.price #price-value-max:after {
+    border-left: none;
+    border-right: 6px solid #50c8b4;
+    left: -6px;
+	right: auto;
+}
+
+.price-slider.price .separator {
+    margin: 0 8px;
+	font-weight: 400;
+}

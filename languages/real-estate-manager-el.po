@@ -1,0 +1,4703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2018-06-28 14:19+0500\n"
+"PO-Revision-Date: 2018-06-28 14:22+0500\n"
+"Last-Translator: \n"
+"Language-Team: rameez7759@gmail.com\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/emails.class.php:36
+msgid "New Agent Registered "
+msgstr "Νέα Agent Εγγεγραμμένοι"
+
+#: classes/emails.class.php:47
+msgid "Registration Successfull "
+msgstr "Επιτυχής Εγγραφή"
+
+#: classes/emails.class.php:63
+msgid "Approved "
+msgstr "Εγκρίθηκε"
+
+#: classes/emails.class.php:79
+msgid "Rejected "
+msgstr "Απορρίφθηκε"
+
+#: classes/emails.class.php:101
+#, fuzzy
+#| msgid "Property submitted."
+msgid "New Property Submitted "
+msgstr "υποβάλλονται ακινήτου."
+
+#: classes/emails.class.php:107
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submitted "
+msgstr "υποβάλλονται ακινήτου."
+
+#: classes/emails.class.php:120
+#, fuzzy
+msgid "Property Approved "
+msgstr "ΠΕΡΙΟΧΗ ΑΚΙΝΗΤΟΥ "
+
+#: classes/hooks.class.php:167
+msgid "Beds"
+msgstr "κρεβάτια"
+
+#: classes/hooks.class.php:172
+msgid "Baths"
+msgstr "λουτρά"
+
+#: classes/hooks.class.php:177 inc/arrays/property-fields.php:135
+msgid "Area"
+msgstr "Περιοχή"
+
+#: classes/hooks.class.php:411
+msgid "Features"
+msgstr "Χαρακτηριστικά"
+
+#: classes/hooks.class.php:436
+msgid "Attachments"
+msgstr "Επισυναπτόμενα"
+
+#: classes/hooks.class.php:468 core.functions.php:553
+msgid "Video"
+msgstr "βίντεο"
+
+#: classes/hooks.class.php:487 shortcodes/create-property.php:65
+#: shortcodes/divi-settings.php:61 shortcodes/edit-property.php:86
+#: shortcodes/vc-settings.php:794
+msgid "Tags"
+msgstr "ετικέτες"
+
+#: classes/hooks.class.php:521 inc/admin/register-property.php:14
+#: shortcodes/vc-settings.php:149
+msgid "Edit Property"
+msgstr "Επεξεργασία Ακίνητα"
+
+#: classes/hooks.class.php:527
+msgid "Find on Map"
+msgstr "Ευρεση στον Χαρτη"
+
+#: classes/hooks.class.php:538 inc/menu/page-agents.php:83
+#: inc/menu/page-agents.php:125 templates/property/style1.php:51
+#: templates/property/style2.php:18 templates/property/style3.php:19
+#: templates/property/style4.php:14 templates/property/style5.php:16
+msgid "Details"
+msgstr "Λεπτομέριες"
+
+#: classes/hooks.class.php:731
+msgid "Name"
+msgstr "Ονομα"
+
+#: classes/hooks.class.php:734 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:65 inc/menu/page-agents.php:107
+msgid "Email"
+msgstr "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ"
+
+#: classes/hooks.class.php:737
+msgid "Subject"
+msgstr "Θέμα"
+
+#: classes/hooks.class.php:740
+msgid "Your Message"
+msgstr "Το μήνυμά σου"
+
+#: classes/hooks.class.php:746
+msgid "SEND MESSAGE"
+msgstr "ΝΑ ΣΤΕΙΛΕΤΕ ΜΗΝΥΜΑ"
+
+#: classes/hooks.class.php:753 inc/sidebar-agent-contact.php:45
+msgid "Sending Email, Please Wait..."
+msgstr "Αποστολή E-mail, παρακαλώ περιμένετε ..."
+
+#: classes/hooks.class.php:776
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:777
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:785
+msgid "Tag:"
+msgstr "Ετικέτα:"
+
+#: classes/hooks.class.php:788
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties:"
+msgstr "Ιδιότητες"
+
+#: classes/hooks.class.php:807 classes/setup.class.php:534
+#: shortcodes/vc-settings.php:477 shortcodes/vc-settings.php:484
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: classes/hooks.class.php:808
+msgid "Request for Customize"
+msgstr "Αίτημα για Προσαρμογή"
+
+#: classes/hooks.class.php:931
+msgid "You can add more features"
+msgstr ""
+
+#: classes/hooks.class.php:932 inc/menu/admin-settings-arr.php:494
+#: inc/menu/admin-settings-arr.php:500 inc/menu/admin-settings-arr.php:605
+#, fuzzy
+msgid "here"
+msgstr "ΕΔΩ"
+
+#: classes/hooks.class.php:938 classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:182 core.functions.php:664
+#: shortcodes/vc-settings.php:13 shortcodes/vc-settings.php:173
+msgid "Property ID"
+msgstr "Κωδικός ακινήτου"
+
+#: classes/hooks.class.php:939
+msgid "Featured Image"
+msgstr "Επιλεγμένη Εικόνα"
+
+#: classes/setup.class.php:96
+msgid "Property Information"
+msgstr "Πληροφορίες Ακινήτου"
+
+#: classes/setup.class.php:97
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "Location on Map"
+msgstr "Τοποθεσία Εικονίδιο URL"
+
+#: classes/setup.class.php:98
+msgid "Gallery Images"
+msgstr "Γκαλερί Εικόνων"
+
+#: classes/setup.class.php:334 classes/setup.class.php:603
+#: shortcodes/divi-settings.php:30
+#, fuzzy
+msgid "Property Agent"
+msgstr "Ακίνητα"
+
+#: classes/setup.class.php:397
+msgid "Attic"
+msgstr "fragm."
+
+#: classes/setup.class.php:398
+msgid "Gas Heat"
+msgstr "Αέριο"
+
+#: classes/setup.class.php:399
+msgid "Balcony"
+msgstr "Μπαλκόνι"
+
+#: classes/setup.class.php:400
+msgid "Wine Cellar"
+msgstr "οιναποθήκη"
+
+#: classes/setup.class.php:401
+msgid "Basketball Court"
+msgstr "Γήπεδο καλαθοσφαίρισης"
+
+#: classes/setup.class.php:402
+msgid "Trash Compactors"
+msgstr "Συμπιεστές απορριμμάτων"
+
+#: classes/setup.class.php:403
+msgid "Fireplace"
+msgstr "Τζάκι"
+
+#: classes/setup.class.php:404
+msgid "Pool"
+msgstr "Δεξαμενή"
+
+#: classes/setup.class.php:405
+msgid "Lake View"
+msgstr "Θέα στη Λίμνη"
+
+#: classes/setup.class.php:406
+#, fuzzy
+msgid "Solar Heat"
+msgstr "θερμική επιβάρυνση από την ακτινοβολία"
+
+#: classes/setup.class.php:407
+msgid "Separate Shower"
+msgstr "Ξεχωριστό ντους"
+
+#: classes/setup.class.php:408
+msgid "Wet Bar"
+msgstr "ράβδος"
+
+#: classes/setup.class.php:409
+#, fuzzy
+msgid "Remodeled"
+msgstr "Επανατοποθετείται"
+
+#: classes/setup.class.php:410
+msgid "Skylights"
+msgstr "Φεγγίτες"
+
+#: classes/setup.class.php:411
+#, fuzzy
+msgid "Stone Surfaces"
+msgstr "Πέτρινες επιφάνειες"
+
+#: classes/setup.class.php:412
+#, fuzzy
+msgid "Golf Course"
+msgstr "Γήπεδο γκολφ"
+
+#: classes/setup.class.php:413
+#, fuzzy
+msgid "Health Club"
+msgstr "Health Club"
+
+#: classes/setup.class.php:414
+#, fuzzy
+msgid "Backyard"
+msgstr "Πισω αυλη"
+
+#: classes/setup.class.php:415
+#, fuzzy
+msgid "Pet Allowed"
+msgstr "Επιτρέπονται κατοικίδια"
+
+#: classes/setup.class.php:416
+#, fuzzy
+msgid "Office/Den"
+msgstr "Γραφείο / Den"
+
+#: classes/setup.class.php:417
+msgid "Laundry"
+msgstr "Μπουγάδα"
+
+#: classes/setup.class.php:430
+msgid "Duplex"
+msgstr "Διπλό"
+
+#: classes/setup.class.php:431
+msgid "House"
+msgstr "Κατοικία"
+
+#: classes/setup.class.php:432
+msgid "Office"
+msgstr "Έδρα"
+
+#: classes/setup.class.php:433
+msgid "Retail"
+msgstr "Λιανεμποριο"
+
+#: classes/setup.class.php:434
+#, fuzzy
+msgid "Vila"
+msgstr "Vila"
+
+#: classes/setup.class.php:447
+msgid "Rent"
+msgstr "Ενοικίαση"
+
+#: classes/setup.class.php:448
+msgid "Sell"
+msgstr "Πώληση"
+
+#: classes/setup.class.php:461
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: classes/setup.class.php:462
+msgid "Available"
+msgstr "Διαθέσιμα"
+
+#: classes/setup.class.php:463
+#, fuzzy
+msgid "Not Available"
+msgstr "Διαθέσιμα"
+
+#: classes/setup.class.php:464
+msgid "Sold"
+msgstr "Πουλήθηκε"
+
+#: classes/setup.class.php:465
+#, fuzzy
+msgid "Open House"
+msgstr ""
+"ανοιχτό σπίτι, έκθεση κατοικίας, εκστρατεία ενημέρωσης, ξενάγηση ανοιχτή στο "
+"κοινό"
+
+#: classes/setup.class.php:480 classes/shortcodes.class.php:1193
+msgid "Please check the captcha form."
+msgstr ""
+
+#: classes/setup.class.php:489
+msgid "There was an error. Please try again after reloading page"
+msgstr ""
+
+#: classes/setup.class.php:522
+msgid "Email Sent Successfully"
+msgstr "Email εστάλη με επιτυχία"
+
+#: classes/setup.class.php:524
+msgid "There is some problem, please try later"
+msgstr "Υπάρχει κάποιο πρόβλημα, δοκιμάστε αργότερα"
+
+#: classes/setup.class.php:532
+msgid "Agents"
+msgstr "πράκτορες"
+
+#: classes/setup.class.php:533
+msgid "Custom Fields"
+msgstr "Προσαρμοσμένα πεδία"
+
+#: classes/setup.class.php:535
+msgid "Help/Support"
+msgstr ""
+
+#: classes/setup.class.php:681 classes/setup.class.php:695
+msgid "Settings Saved"
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν"
+
+#: classes/setup.class.php:697
+#, fuzzy
+msgid "Error, please try again"
+msgstr "Σφάλμα, δοκιμάστε ξανά αργότερα"
+
+#: classes/setup.class.php:717 classes/setup.class.php:720
+msgid "Property updated."
+msgstr "ενημέρωση ακινήτου."
+
+#: classes/setup.class.php:718
+msgid "Custom field updated."
+msgstr "Προσαρμοσμένο πεδίο ενημέρωση."
+
+#: classes/setup.class.php:719
+msgid "Custom field deleted."
+msgstr "Προσαρμοσμένο πεδίο διαγράφεται."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:722
+#, fuzzy
+#| msgid "Property restored to revision from %s"
+msgid "Property restored to revision"
+msgstr "Ακίνητα αποκατασταθεί αναθεώρηση από% s"
+
+#: classes/setup.class.php:723
+msgid "Property published."
+msgstr "Ακίνητα δημοσιεύονται."
+
+#: classes/setup.class.php:724
+msgid "Property saved."
+msgstr "αποθηκεύονται ακινήτου."
+
+#: classes/setup.class.php:725
+msgid "Property submitted."
+msgstr "υποβάλλονται ακινήτου."
+
+#: classes/setup.class.php:727
+#, fuzzy
+#| msgid "Property saved."
+msgid "Property scheduled."
+msgstr "αποθηκεύονται ακινήτου."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:729
+msgid "M j, Y @ G:i"
+msgstr "Μ ι, Υ @ G: i"
+
+#: classes/setup.class.php:731
+msgid "Property draft updated."
+msgstr "σχέδιο Ακινήτου ενημέρωση."
+
+#: classes/setup.class.php:737 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "Προβολή Ακινήτου"
+
+#: classes/setup.class.php:743
+msgid "Preview Property"
+msgstr "Προβολή Ακινήτου"
+
+#: classes/setup.class.php:808
+#, fuzzy
+msgid "Property Page Base"
+msgstr "ΣΕΛΙΔΑ ΑΚΙΝΗΤΩΝ"
+
+#: classes/setup.class.php:833 shortcodes/my-properties.php:9
+msgid "Type"
+msgstr "Τύπος"
+
+#: classes/setup.class.php:834 inc/arrays/property-fields.php:91
+#: shortcodes/my-properties.php:11
+msgid "Purpose"
+msgstr "Σκοπός"
+
+#: classes/setup.class.php:835 inc/arrays/property-fields.php:102
+#: shortcodes/my-properties.php:12
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: classes/setup.class.php:860
+#, fuzzy
+#| msgid "Any Type"
+msgid "All Types"
+msgstr "Οποιοσδήποτε τύπος"
+
+#: classes/setup.class.php:872
+#, fuzzy
+#| msgid "Any Purpose"
+msgid "All Purpose"
+msgstr "Κάθε Σκοπός"
+
+#: classes/setup.class.php:883
+#, fuzzy
+#| msgid "Any Status"
+msgid "All Status"
+msgstr "Κάθε Κατάσταση"
+
+#: classes/shortcodes.class.php:89 classes/widgets/search-properties.php:103
+msgid "Search"
+msgstr "Ψάξιμο"
+
+#: classes/shortcodes.class.php:90
+#, fuzzy
+msgid "More Filters"
+msgstr "Περισσότερα φίλτρα"
+
+#: classes/shortcodes.class.php:894 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "注销"
+
+#: classes/shortcodes.class.php:1157
+#, fuzzy
+msgid "Changes Saved!"
+msgstr "Οι αλλαγές αποθηκεύτηκαν"
+
+#: classes/shortcodes.class.php:1202
+msgid "There was an error. Please try again after reloading page."
+msgstr ""
+
+#: classes/shortcodes.class.php:1210 classes/shortcodes.class.php:1220
+msgid "Username or Email already exists"
+msgstr "Όνομα Χρήστη ή email υπάρχει ήδη"
+
+#: classes/shortcodes.class.php:1233
+msgid "Registered Successfully, please wait until admin approves."
+msgstr ""
+"Με επιτυχία την εγγραφή, παρακαλούμε να περιμένετε μέχρι να εγκρίνει το "
+"admin."
+
+#: classes/shortcodes.class.php:1235
+msgid "Error, please try later"
+msgstr "Σφάλμα, δοκιμάστε αργότερα"
+
+#: classes/shortcodes.class.php:1296
+msgid "Choose Picture"
+msgstr ""
+
+#: classes/shortcodes.class.php:1296 classes/shortcodes.class.php:1330
+#: core.functions.php:625
+#, fuzzy
+#| msgid "Added"
+msgid "Add"
+msgstr "Προστέθηκε"
+
+#: classes/shortcodes.class.php:1330 core.functions.php:625
+#, fuzzy
+msgid "Select attachments for property"
+msgstr "Παρέχετε κείμενο επικεφαλίδας για συνημμένα στις σελίδες ιδιοτήτων"
+
+#: classes/shortcodes.class.php:1330 core.functions.php:625
+#, fuzzy
+msgid "Upload"
+msgstr "Κάντε κλικ εδώ για να φορτώσετε τις εικόνες"
+
+#: classes/shortcodes.class.php:1392
+msgid "Sort By Date"
+msgstr ""
+
+#: classes/shortcodes.class.php:1396
+#, fuzzy
+#| msgid "Property Title"
+msgid "Sort By Title"
+msgstr "Τίτλος Ιδιοκτησίας"
+
+#: classes/shortcodes.class.php:1400
+msgid "Sort By Price : High to Low"
+msgstr ""
+
+#: classes/shortcodes.class.php:1404
+msgid "Sort By Price : Low to High"
+msgstr ""
+
+#: classes/widgets/mortgage-calculator.php:13
+#, fuzzy
+msgid "REM - Mortgage Calculator"
+msgstr "ΥΠΟΛΟΓΙΣΤΗΣ ΔΑΝΕΙΟΥ"
+
+#: classes/widgets/mortgage-calculator.php:14
+#, fuzzy
+msgid "Displays Mortgage Calculator"
+msgstr "Εμφανίζει Υπολογιστής Δανείου"
+
+#: classes/widgets/mortgage-calculator.php:41
+#, fuzzy
+msgid "Sale price"
+msgstr "Τιμή Πώλησης"
+
+#: classes/widgets/mortgage-calculator.php:45
+#, fuzzy
+msgid "Down payment"
+msgstr "Προκαταβολή"
+
+#: classes/widgets/mortgage-calculator.php:49
+#, fuzzy
+msgid "Interest Rate"
+msgstr "Επιτόκιο"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Term"
+msgstr "Όρος"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "years"
+msgstr "έτη"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "Υπολογισμός"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:120 classes/widgets/tags-cloud.php:34
+#: core.functions.php:669 shortcodes/my-properties.php:8
+msgid "Title"
+msgstr "Τίτλος"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "REM - ιδιότητες αναζήτησης"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "Αναζήτηση ακινήτων"
+
+#: classes/widgets/search-properties.php:73 shortcodes/search-property.php:39
+msgid "Keywords"
+msgstr "Λέξεις-κλειδιά"
+
+#: classes/widgets/search-properties.php:85
+#: classes/widgets/search-properties.php:155 core.functions.php:658
+#: shortcodes/divi-settings.php:16 shortcodes/vc-settings.php:10
+#: shortcodes/vc-settings.php:123 shortcodes/vc-settings.php:188
+#: shortcodes/vc-settings.php:384 shortcodes/vc-settings.php:720
+#: shortcodes/vc-settings.php:753
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:164 core.functions.php:668
+#: shortcodes/divi-settings.php:25 shortcodes/vc-settings.php:11
+#: shortcodes/vc-settings.php:133 shortcodes/vc-settings.php:198
+#: shortcodes/vc-settings.php:398 shortcodes/vc-settings.php:730
+#: shortcodes/vc-settings.php:763
+msgid "Order By"
+msgstr "Ταξινόμηση κατά"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:173 core.functions.php:676
+#: shortcodes/vc-settings.php:12 shortcodes/vc-settings.php:202
+#: shortcodes/vc-settings.php:274 shortcodes/vc-settings.php:340
+#: shortcodes/vc-settings.php:402 shortcodes/vc-settings.php:469
+#: shortcodes/vc-settings.php:734 shortcodes/vc-settings.php:767
+#: shortcodes/vc-settings.php:806
+#, fuzzy
+msgid "Agent"
+msgstr "Νέα Agent Εγγεγραμμένοι"
+
+#: classes/widgets/search-properties.php:135 shortcodes/vc-settings.php:5
+msgid "Search Field"
+msgstr "Πεδίο Αναζήτησης"
+
+#: classes/widgets/search-properties.php:185
+msgid "Search Results Page"
+msgstr "Σελίδα Αναζήτησης Αποτελεσμάτων"
+
+#: classes/widgets/search-properties.php:206
+#: inc/menu/render-admin-settings.php:125
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "Δεν βρέθηκαν Σελίδες"
+
+#: classes/widgets/search-properties.php:209
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr ""
+"Επικολλήστε το παρακάτω shortcode σε επιλεγμένη σελίδα για να εμφανίσετε τα "
+"αποτελέσματα"
+
+#: classes/widgets/tags-cloud.php:13
+msgid "REM - Tags Cloud"
+msgstr ""
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "Εμφάνιση ιδιοτήτων"
+
+#: core.functions.php:116
+#, fuzzy
+msgid "United Arab Emirates dirham"
+msgstr "Ντίρχαμ Ηνωμένων Αραβικών ΕμιράτωνName"
+
+#: core.functions.php:117
+msgid "Afghan afghani"
+msgstr "Αφγάνι"
+
+#: core.functions.php:118
+msgid "Albanian lek"
+msgstr "Λεκ"
+
+#: core.functions.php:119
+#, fuzzy
+msgid "Armenian dram"
+msgstr "Ντραμ Αρμενίας"
+
+#: core.functions.php:120
+#, fuzzy
+msgid "Netherlands Antillean guilder"
+msgstr "Σουλτανάτο του Μπρουνέι"
+
+#: core.functions.php:121
+#, fuzzy
+msgid "Angolan kwanza"
+msgstr "Κουάνζα ΑνγκόλαςName"
+
+#: core.functions.php:122
+#, fuzzy
+msgid "Argentine peso"
+msgstr "Πέσο Αργεντινής"
+
+#: core.functions.php:123
+msgid "Australian dollar"
+msgstr "δολλάριο Αυστραλίας"
+
+#: core.functions.php:124
+#, fuzzy
+msgid "Aruban florin"
+msgstr "Γκίλντερ Αρούμπας"
+
+#: core.functions.php:125
+msgid "Azerbaijani manat"
+msgstr "Μανάτ του Αζερμπαϊτζάν"
+
+#: core.functions.php:126
+#, fuzzy
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Μετατρέψιμο Μάρκο Βοσνίας και ΕρζεγοβίνηςName"
+
+#: core.functions.php:127
+#, fuzzy
+msgid "Barbadian dollar"
+msgstr "Δολάριο Μπαρμπάντος"
+
+#: core.functions.php:128
+#, fuzzy
+msgid "Bangladeshi taka"
+msgstr "Τάκα ΜπαγκλαντέςName"
+
+#: core.functions.php:129
+msgid "Bulgarian lev"
+msgstr "Λεβ"
+
+#: core.functions.php:130
+#, fuzzy
+msgid "Bahraini dinar"
+msgstr "Δηνάριο Μπαχρέιν"
+
+#: core.functions.php:131
+#, fuzzy
+msgid "Burundian franc"
+msgstr "Φράγκο ΜπουρουντίName"
+
+#: core.functions.php:132
+#, fuzzy
+msgid "Bermudian dollar"
+msgstr "Δολάριο Βερμούδων"
+
+#: core.functions.php:133
+msgid "Brunei dollar"
+msgstr "δολάριο Μπρουνέι"
+
+#: core.functions.php:134
+#, fuzzy
+msgid "Bolivian boliviano"
+msgstr "Μπολιβιάνο ΒολιβίαςName"
+
+#: core.functions.php:135
+#, fuzzy
+msgid "Brazilian real"
+msgstr "Βραζιλία ρεάλ"
+
+#: core.functions.php:136
+msgid "Bahamian dollar"
+msgstr "BSD"
+
+#: core.functions.php:137
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: core.functions.php:138
+msgid "Bhutanese ngultrum"
+msgstr "Νγκούλτρουμ"
+
+#: core.functions.php:139
+#, fuzzy
+msgid "Botswana pula"
+msgstr "Πούλα ΜποτσουάναςName"
+
+#: core.functions.php:140
+#, fuzzy
+msgid "Belarusian ruble"
+msgstr "Ρούβλι Λευκορωσίας"
+
+#: core.functions.php:141
+msgid "Belize dollar"
+msgstr "δολάριο της Μπελίζ"
+
+#: core.functions.php:142
+#, fuzzy
+msgid "Canadian dollar"
+msgstr "Καναδικό δολάριο"
+
+#: core.functions.php:143
+#, fuzzy
+msgid "Congolese franc"
+msgstr "Φράγκο ComorianName"
+
+#: core.functions.php:144
+msgid "Swiss franc"
+msgstr "CHF"
+
+#: core.functions.php:145
+msgid "Chilean peso"
+msgstr "πέσο Χιλής"
+
+#: core.functions.php:146
+#, fuzzy
+msgid "Chinese yuan"
+msgstr "Κινέζικο γιουάν"
+
+#: core.functions.php:147
+#, fuzzy
+msgid "Colombian peso"
+msgstr "Πέσο Κολομβίας"
+
+#: core.functions.php:148
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "Κόστα Ρίκα"
+
+#: core.functions.php:149
+#, fuzzy
+msgid "Cuban convertible peso"
+msgstr "Μετατρέψιμα πέσο ΚούβαςName"
+
+#: core.functions.php:150
+msgid "Cuban peso"
+msgstr "πέσο Κούβας"
+
+#: core.functions.php:151
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "Πράσινο escudo του Πράσινου Ακρωτηρίου"
+
+#: core.functions.php:152
+msgid "Czech koruna"
+msgstr "Τσεχικές κορώνες"
+
+#: core.functions.php:153
+#, fuzzy
+msgid "Djiboutian franc"
+msgstr "Φράγκο Τζιμπουτί"
+
+#: core.functions.php:154
+msgid "Danish krone"
+msgstr "Δανικές κορώνες"
+
+#: core.functions.php:155
+#, fuzzy
+msgid "Dominican peso"
+msgstr "Πέσο Δομινικανής Δημοκρατίας"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Algerian dinar"
+msgstr "Δηνάριο Αλγερίας"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Egyptian pound"
+msgstr "Λίρα Αιγύπτου"
+
+#: core.functions.php:158
+#, fuzzy
+msgid "Eritrean nakfa"
+msgstr "Νάκφα ΕρυθραίαςName"
+
+#: core.functions.php:159
+msgid "Ethiopian birr"
+msgstr "μπίρ"
+
+#: core.functions.php:160
+msgid "Euro"
+msgstr "Ευρώ"
+
+#: core.functions.php:161
+#, fuzzy
+msgid "Fijian dollar"
+msgstr "Δολάριο FijianName"
+
+#: core.functions.php:162
+#, fuzzy
+msgid "Falkland Islands pound"
+msgstr "Λίρα Νήσων Φώκλαντ"
+
+#: core.functions.php:163
+msgid "Pound sterling"
+msgstr "Λίρες στερλίνες"
+
+#: core.functions.php:164
+#, fuzzy
+msgid "Georgian lari"
+msgstr "Λάρι ΓεωργίαςName"
+
+#: core.functions.php:165
+#, fuzzy
+msgid "Guernsey pound"
+msgstr "Guernsey λίβρα"
+
+#: core.functions.php:166
+#, fuzzy
+msgid "Ghana cedi"
+msgstr "Σέντι ΓκάναςName"
+
+#: core.functions.php:167
+#, fuzzy
+msgid "Gibraltar pound"
+msgstr "Λίρα Γιβραλτάρ"
+
+#: core.functions.php:168
+#, fuzzy
+msgid "Gambian dalasi"
+msgstr "Νταλάσι ΓκάμπιαςName"
+
+#: core.functions.php:169
+#, fuzzy
+msgid "Guinean franc"
+msgstr "Φράγκο ΓουινέαςName"
+
+#: core.functions.php:170
+#, fuzzy
+msgid "Guatemalan quetzal"
+msgstr "Κουετσάλ ΓουατεμάλαςName"
+
+#: core.functions.php:171
+#, fuzzy
+msgid "Guyanese dollar"
+msgstr "Δολάριο GuyaneseName"
+
+#: core.functions.php:172
+#, fuzzy
+msgid "Hong Kong dollar"
+msgstr "Δολάριο Χονγκ Κονγκ"
+
+#: core.functions.php:173
+#, fuzzy
+msgid "Honduran lempira"
+msgstr "Λεμπίρα ΟνδούραςName"
+
+#: core.functions.php:174
+msgid "Croatian kuna"
+msgstr "Κούνα Κροατίας"
+
+#: core.functions.php:175
+msgid "Haitian gourde"
+msgstr "Γκουρντ"
+
+#: core.functions.php:176
+msgid "Hungarian forint"
+msgstr "Ουγγρικά φιορίνια"
+
+#: core.functions.php:177
+#, fuzzy
+msgid "Indonesian rupiah"
+msgstr "Ινδονησία ρούπια"
+
+#: core.functions.php:178
+#, fuzzy
+msgid "Israeli new shekel"
+msgstr "Ισραηλινό νέο σίκλο"
+
+#: core.functions.php:179
+#, fuzzy
+msgid "Manx pound"
+msgstr "Manx λίβρα"
+
+#: core.functions.php:180
+msgid "Indian rupee"
+msgstr "INR"
+
+#: core.functions.php:181
+msgid "Iraqi dinar"
+msgstr "IQD"
+
+#: core.functions.php:182
+#, fuzzy
+msgid "Iranian rial"
+msgstr "Ριάλ Ιράν"
+
+#: core.functions.php:183
+#, fuzzy
+msgid "Icelandic kr&oacute;na"
+msgstr "Ισλανδική króna"
+
+#: core.functions.php:184
+#, fuzzy
+msgid "Jersey pound"
+msgstr "Jersey λίρα"
+
+#: core.functions.php:185
+msgid "Jamaican dollar"
+msgstr "JMD"
+
+#: core.functions.php:186
+#, fuzzy
+msgid "Jordanian dinar"
+msgstr "Δηνάριο Ιορδανίας"
+
+#: core.functions.php:187
+msgid "Japanese yen"
+msgstr "Γιεν"
+
+#: core.functions.php:188
+#, fuzzy
+msgid "Kenyan shilling"
+msgstr "Σελίνι Κένυας"
+
+#: core.functions.php:189
+#, fuzzy
+msgid "Kyrgyzstani som"
+msgstr "Σομ ΚιργιζιστάνName"
+
+#: core.functions.php:190
+msgid "Cambodian riel"
+msgstr "Ριέλ Καμπότζης"
+
+#: core.functions.php:191
+msgid "Comorian franc"
+msgstr "φράγκο Κομορών"
+
+#: core.functions.php:192
+#, fuzzy
+msgid "North Korean won"
+msgstr "Ουόν Βόρειας Κορέας"
+
+#: core.functions.php:193
+#, fuzzy
+msgid "South Korean won"
+msgstr "Γουόν Νότιας Kopéuç"
+
+#: core.functions.php:194
+msgid "Kuwaiti dinar"
+msgstr "KWD"
+
+#: core.functions.php:195
+#, fuzzy
+msgid "Cayman Islands dollar"
+msgstr "Δολάριο Νήσων Κάυμαν"
+
+#: core.functions.php:196
+msgid "Kazakhstani tenge"
+msgstr "Τένγκε"
+
+#: core.functions.php:197
+msgid "Lao kip"
+msgstr "Κιπ"
+
+#: core.functions.php:198
+#, fuzzy
+msgid "Lebanese pound"
+msgstr "Μαλδίβες"
+
+#: core.functions.php:199
+#, fuzzy
+msgid "Sri Lankan rupee"
+msgstr "Σρι Λάνκα ρούπε"
+
+#: core.functions.php:200
+msgid "Liberian dollar"
+msgstr "LRD"
+
+#: core.functions.php:201
+#, fuzzy
+msgid "Lesotho loti"
+msgstr "Λότι ΛεσόθοName"
+
+#: core.functions.php:202
+msgid "Libyan dinar"
+msgstr "LYD"
+
+#: core.functions.php:203
+msgid "Moroccan dirham"
+msgstr "MAD"
+
+#: core.functions.php:204
+#, fuzzy
+msgid "Moldovan leu"
+msgstr "Λέι Μολδαβίας"
+
+#: core.functions.php:205
+#, fuzzy
+msgid "Malagasy ariary"
+msgstr "Αριάρι ΜαδαγασκάρηςName"
+
+#: core.functions.php:206
+#, fuzzy
+msgid "Macedonian denar"
+msgstr "Δηνάριο ΣκόπιαName"
+
+#: core.functions.php:207
+#, fuzzy
+msgid "Burmese kyat"
+msgstr "Βιρμανίας kyat"
+
+#: core.functions.php:208
+#, fuzzy
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Μογγολικά tögrög"
+
+#: core.functions.php:209
+#, fuzzy
+msgid "Macanese pataca"
+msgstr "Πατάκκα ΜακανίσηςName"
+
+#: core.functions.php:210
+#, fuzzy
+msgid "Mauritanian ouguiya"
+msgstr "Ουγκουίγια ΜαυριτανίαςName"
+
+#: core.functions.php:211
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "Ρουπία του Μαυρικίου"
+
+#: core.functions.php:212
+#, fuzzy
+msgid "Maldivian rufiyaa"
+msgstr "Ρουφίγια ΜαλδίβωνName"
+
+#: core.functions.php:213
+#, fuzzy
+msgid "Malawian kwacha"
+msgstr "Κουάτσα ΜαλάουιName"
+
+#: core.functions.php:214
+#, fuzzy
+msgid "Mexican peso"
+msgstr "Μεξικάνικο πέσο"
+
+#: core.functions.php:215
+msgid "Malaysian ringgit"
+msgstr "MYR"
+
+#: core.functions.php:216
+msgid "Mozambican metical"
+msgstr "Μετικάλ"
+
+#: core.functions.php:217
+#, fuzzy
+msgid "Namibian dollar"
+msgstr "Δολάριο ΝαμίμπιαςName"
+
+#: core.functions.php:218
+#, fuzzy
+msgid "Nigerian naira"
+msgstr "Νάιρα ΝιγηρίαςName"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Νικαραγουανή Κόρδοβα"
+
+#: core.functions.php:220
+msgid "Norwegian krone"
+msgstr "νορβηγική κορόνα"
+
+#: core.functions.php:221
+msgid "Nepalese rupee"
+msgstr "Ρουπία Νεπάλ"
+
+#: core.functions.php:222
+#, fuzzy
+msgid "New Zealand dollar"
+msgstr "(') ΕΕ C 172 της 1.7.1988."
+
+#: core.functions.php:223
+#, fuzzy
+msgid "Omani rial"
+msgstr "Ριάλ ΟμάνName"
+
+#: core.functions.php:224
+#, fuzzy
+msgid "Panamanian balboa"
+msgstr "Μπαλμπόα ΠαναμάName"
+
+#: core.functions.php:225
+#, fuzzy
+msgid "Peruvian nuevo sol"
+msgstr "Νέο σολName"
+
+#: core.functions.php:226
+msgid "Papua New Guinean kina"
+msgstr "Κίνα Παπούα-Νέας Γουινέας"
+
+#: core.functions.php:227
+msgid "Philippine peso"
+msgstr "PHP"
+
+#: core.functions.php:228
+#, fuzzy
+msgid "Pakistani rupee"
+msgstr "Πακιστανική ριππή"
+
+#: core.functions.php:229
+#, fuzzy
+msgid "Polish z&#x142;oty"
+msgstr "Πολωνικά Z&#x142;oty"
+
+#: core.functions.php:230
+#, fuzzy
+msgid "Transnistrian ruble"
+msgstr "Το ρουμπλ της Υπερδνειστερίας"
+
+#: core.functions.php:231
+#, fuzzy
+msgid "Paraguayan guaran&iacute;"
+msgstr "Παραγουάη εγγυώνται"
+
+#: core.functions.php:232
+msgid "Qatari riyal"
+msgstr "QAR"
+
+#: core.functions.php:233
+msgid "Romanian leu"
+msgstr "Λέου Ρουμανίας"
+
+#: core.functions.php:234
+#, fuzzy
+msgid "Serbian dinar"
+msgstr "Δινάριο ΣερβίαςName"
+
+#: core.functions.php:235
+#, fuzzy
+msgid "Russian ruble"
+msgstr "Ρούβλι Ρωσίας"
+
+#: core.functions.php:236
+#, fuzzy
+msgid "Rwandan franc"
+msgstr "Φράγκο ΡουάνταName"
+
+#: core.functions.php:237
+#, fuzzy
+msgid "Saudi riyal"
+msgstr "Ριάλ Σαουδικής Αραβίας"
+
+#: core.functions.php:238
+msgid "Solomon Islands dollar"
+msgstr "SBD"
+
+#: core.functions.php:239
+#, fuzzy
+msgid "Seychellois rupee"
+msgstr "Ρούπι ΣεϋχέλλεςName"
+
+#: core.functions.php:240
+msgid "Sudanese pound"
+msgstr "SDP"
+
+#: core.functions.php:241
+msgid "Swedish krona"
+msgstr "Σουηδικές κορώνες"
+
+#: core.functions.php:242
+#, fuzzy
+msgid "Singapore dollar"
+msgstr "Σινγκαπούρη δολάριο"
+
+#: core.functions.php:243
+#, fuzzy
+msgid "Saint Helena pound"
+msgstr "Λίρα Αγίας Ελένης"
+
+#: core.functions.php:244
+#, fuzzy
+msgid "Sierra Leonean leone"
+msgstr "Λεόνε Σιέρας ΛεόνεName"
+
+#: core.functions.php:245
+msgid "Somali shilling"
+msgstr "SOS"
+
+#: core.functions.php:246
+msgid "Surinamese dollar"
+msgstr "Δολάριο Σουρινάμ"
+
+#: core.functions.php:247
+#, fuzzy
+msgid "South Sudanese pound"
+msgstr "Νότια Σουδάν λίβρα"
+
+#: core.functions.php:248
+#, fuzzy
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Σάο Τομέ και Πρίνσιπε καλή"
+
+#: core.functions.php:249
+msgid "Syrian pound"
+msgstr "SYP"
+
+#: core.functions.php:250
+#, fuzzy
+msgid "Swazi lilangeni"
+msgstr "Λιλανγκένι ΣουαζιλάνδηςName"
+
+#: core.functions.php:251
+msgid "Thai baht"
+msgstr "Μπατ"
+
+#: core.functions.php:252
+msgid "Tajikistani somoni"
+msgstr "Σομόνι"
+
+#: core.functions.php:253
+#, fuzzy
+msgid "Turkmenistan manat"
+msgstr "Τουρκμενιστάν manat"
+
+#: core.functions.php:254
+msgid "Tunisian dinar"
+msgstr "TND"
+
+#: core.functions.php:255
+#, fuzzy
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongan pa'anga"
+
+#: core.functions.php:256
+#, fuzzy
+msgid "Turkish lira"
+msgstr "Λίρα Τουρκίας"
+
+#: core.functions.php:257
+msgid "Trinidad and Tobago dollar"
+msgstr "TTD"
+
+#: core.functions.php:258
+#, fuzzy
+msgid "New Taiwan dollar"
+msgstr "TWD"
+
+#: core.functions.php:259
+msgid "Tanzanian shilling"
+msgstr "TZS"
+
+#: core.functions.php:260
+#, fuzzy
+msgid "Ukrainian hryvnia"
+msgstr "Hryvnia ΟυκρανίαςName"
+
+#: core.functions.php:261
+#, fuzzy
+msgid "Ugandan shilling"
+msgstr "Σελίνι ΟυγκάνταςName"
+
+#: core.functions.php:262
+#, fuzzy
+msgid "United States dollar"
+msgstr "2,71620 Ο 2,70178 (4) 2,68749 (!)"
+
+#: core.functions.php:263
+msgid "Uruguayan peso"
+msgstr "UYP"
+
+#: core.functions.php:264
+#, fuzzy
+msgid "Uzbekistani som"
+msgstr "Ουζμπεκιστάν som"
+
+#: core.functions.php:265
+#, fuzzy
+msgid "Venezuelan bol&iacute;var"
+msgstr "Βενεζουέλας"
+
+#: core.functions.php:266
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Βιετνάμ &#x111;&#x1ed3;ng"
+
+#: core.functions.php:267
+#, fuzzy
+msgid "Vanuatu vatu"
+msgstr "Vanuatu Vatu"
+
+#: core.functions.php:268
+#, fuzzy
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoan tālā"
+
+#: core.functions.php:269
+#, fuzzy
+msgid "Central African CFA franc"
+msgstr "Δημοκρατία Κεντρικής ΑφρικήςName"
+
+#: core.functions.php:270
+#, fuzzy
+msgid "East Caribbean dollar"
+msgstr "Δολάριο ανατολικής Καραϊβικής"
+
+#: core.functions.php:271
+#, fuzzy
+msgid "West African CFA franc"
+msgstr "Name"
+
+#: core.functions.php:272
+msgid "CFP franc"
+msgstr "Φράγκο Γαλλικών Αποικιών Ειρηνικού"
+
+#: core.functions.php:273
+#, fuzzy
+msgid "Yemeni rial"
+msgstr "Ριάλ Υεμένης"
+
+#: core.functions.php:274
+#, fuzzy
+msgid "South African rand"
+msgstr "Puvr Νότιης Αφρικής"
+
+#: core.functions.php:275
+#, fuzzy
+msgid "Zambian kwacha"
+msgstr "κουάτσα Ζάμπιας"
+
+#: core.functions.php:549
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: core.functions.php:550
+msgid "Internal Structure"
+msgstr "Εσωτερική δομή"
+
+#: core.functions.php:551 inc/menu/admin-settings-arr.php:82
+msgid "Property Features"
+msgstr "Προτάσεις"
+
+#: core.functions.php:552 inc/arrays/property-fields.php:68
+#, fuzzy
+msgid "File Attachments"
+msgstr "Συνημμένα Αρχεία"
+
+#: core.functions.php:554
+#, fuzzy
+msgid "Private Fields"
+msgstr "Σταθερά πεδία"
+
+#: core.functions.php:566
+msgid "Personal Info"
+msgstr "Προσωπικές πληροφορίες"
+
+#: core.functions.php:567
+msgid "Social Profiles"
+msgstr "Κοινωνικό προφίλ"
+
+#: core.functions.php:568
+msgid "Skills"
+msgstr "Ικανότητες"
+
+#: core.functions.php:584
+msgid "Style 1 - Inline"
+msgstr ""
+
+#: core.functions.php:585
+msgid "Style 2 - Static Box"
+msgstr ""
+
+#: core.functions.php:586
+msgid "Style 3 - Hover Box"
+msgstr ""
+
+#: core.functions.php:587
+msgid "Style 4 - Mini Box"
+msgstr ""
+
+#: core.functions.php:588
+#, fuzzy
+msgid "Style 5 - Full Box"
+msgstr "Γεμάτο κουτί"
+
+#: core.functions.php:589
+msgid "Style 6 - Fade Thumbnails"
+msgstr ""
+
+#: core.functions.php:590
+#, fuzzy
+msgid "Style 7 - Map Box"
+msgstr "Γεμάτο κουτί"
+
+#: core.functions.php:643
+msgid "NO"
+msgstr "ΟΧΙ"
+
+#: core.functions.php:643
+msgid "YES"
+msgstr "ΝΑΙ"
+
+#: core.functions.php:659 shortcodes/divi-settings.php:20
+#: shortcodes/vc-settings.php:127 shortcodes/vc-settings.php:192
+#: shortcodes/vc-settings.php:388 shortcodes/vc-settings.php:724
+#: shortcodes/vc-settings.php:757
+msgid "Descending"
+msgstr "Φθίνων Σειρά"
+
+#: core.functions.php:660 shortcodes/divi-settings.php:19
+#: shortcodes/vc-settings.php:126 shortcodes/vc-settings.php:191
+#: shortcodes/vc-settings.php:387 shortcodes/vc-settings.php:723
+#: shortcodes/vc-settings.php:756
+msgid "Ascending"
+msgstr "Αύξουσα Σειρά"
+
+#: core.functions.php:670 shortcodes/vc-settings.php:201
+#: shortcodes/vc-settings.php:401 shortcodes/vc-settings.php:733
+#: shortcodes/vc-settings.php:766
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: core.functions.php:671 core.functions.php:748 core.functions.php:760
+#: inc/arrays/property-fields.php:8 shortcodes/vc-settings.php:204
+#: shortcodes/vc-settings.php:737
+msgid "Price"
+msgstr "Τιμή"
+
+#: core.functions.php:704 core.functions.php:724
+#, fuzzy
+msgid "Any"
+msgstr "Χρειαζεται βοήθεια? Οποιεσδήποτε προτάσεις?"
+
+#: core.functions.php:763
+msgid "Min"
+msgstr ""
+
+#: core.functions.php:765
+msgid "Max"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Select images for property gallery"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "Μεταφόρτωση Εικόνες"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:80
+#: shortcodes/edit-property.php:105
+#, fuzzy
+msgid "Type to Search..."
+msgstr "Πληκτρολογήστε για αναζήτηση..."
+
+#: inc/admin/property-location-map.php:12
+msgid "Search the address on search bar. "
+msgstr ""
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:85
+#: shortcodes/edit-property.php:109
+msgid "Drag the pin to the location on the map"
+msgstr "Σύρετε την καρφίτσα για να την τοποθεσία στον χάρτη"
+
+#: inc/admin/register-property.php:3 shortcodes/vc-settings.php:19
+#: shortcodes/vc-settings.php:40 shortcodes/vc-settings.php:55
+#: shortcodes/vc-settings.php:82 shortcodes/vc-settings.php:97
+#: shortcodes/vc-settings.php:151 shortcodes/vc-settings.php:166
+#: shortcodes/vc-settings.php:181 shortcodes/vc-settings.php:318
+#: shortcodes/vc-settings.php:333 shortcodes/vc-settings.php:349
+#: shortcodes/vc-settings.php:357 shortcodes/vc-settings.php:652
+#: shortcodes/vc-settings.php:746
+msgid "Real Estate Manager"
+msgstr "Διαχείριση Ακινήτων"
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:110
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "Ιδιοκτησία"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Προσθήκη νέου ακινήτου"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "Προσθήκη νέου ακινήτου"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "νέα Ακίνητα"
+
+#: inc/admin/register-property.php:17 shortcodes/vc-settings.php:650
+msgid "Search Property"
+msgstr "Αναζήτηση Ακινήτων"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "Δεν βρέθηκε κανένας Ακίνητα"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "Δεν βρέθηκε σε κάδο απορριμμάτων Ακίνητα"
+
+#: inc/admin/register-property.php:20
+msgid "Parent Property:"
+msgstr "Μητρική Ακινήτου:"
+
+#: inc/admin/register-property.php:70
+#, fuzzy
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Αναζήτηση Ετικέτες Ακίνητα"
+
+#: inc/admin/register-property.php:71
+#, fuzzy
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Προσθήκη νέων ετικετών"
+
+#: inc/admin/register-property.php:72
+msgid "Search Property Tags"
+msgstr "Αναζήτηση Ετικέτες Ακίνητα"
+
+#: inc/admin/register-property.php:73
+msgid "Popular Tags"
+msgstr "Δημοφιλή Tags"
+
+#: inc/admin/register-property.php:74
+msgid "All Tags"
+msgstr "Όλες οι Ετικέτες"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+msgid "Parent Tag"
+msgstr "μητρική ετικέτα"
+
+#: inc/admin/register-property.php:77
+msgid "Edit Tag"
+msgstr "Επεξεργασία ετικετών"
+
+#: inc/admin/register-property.php:78
+msgid "Update Tag"
+msgstr "Ενημέρωση ετικετών"
+
+#: inc/admin/register-property.php:79
+msgid "Add New Tag"
+msgstr "Προσθήκη νέων ετικετών"
+
+#: inc/admin/register-property.php:80
+msgid "New Tag Name"
+msgstr "Νέο όνομα ετικέτας"
+
+#: inc/admin/register-property.php:81
+msgid "Add or remove Tags"
+msgstr "Προσθήκη ή κατάργηση Ετικέτες"
+
+#: inc/admin/register-property.php:82
+msgid "Choose from most used tags"
+msgstr "Επιλέξτε από τα πιο χρησιμοποιούνται ετικέτες"
+
+#: inc/admin/register-property.php:83
+#, fuzzy
+msgid " Tags"
+msgstr "ετικέτες"
+
+#: inc/admin/single-property-fields.php:14
+msgid "Check if property have this option"
+msgstr "Ελέγξτε αν το ξενοδοχείο έχουν αυτή την επιλογή"
+
+#: inc/ajax/search-property-ajax.php:11 shortcodes/vc-settings.php:347
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+#: shortcodes/search-results.php:30
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "Συγνώμη! Δεν Ακίνητα που βρέθηκαν. Επαναλάβετε την αναζήτηση."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:66
+#: inc/menu/page-agents.php:108
+msgid "First Name"
+msgstr "Ονομα"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:67
+#: inc/menu/page-agents.php:109
+msgid "Last Name"
+msgstr "Επίθετο"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:64
+#: inc/menu/page-agents.php:106 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:16
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: inc/arrays/agent-fields.php:52
+msgid "Pepeat Password"
+msgstr "Επαναλάβετε τον κωδικό"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "Πληροφορίες βιογραφικά"
+
+#: inc/arrays/agent-fields.php:70
+msgid "Picture of Agent"
+msgstr "Εικόνα του Agent"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+#| msgid "Upload an additional image for your profile."
+msgid "Upload an additional image for your profile"
+msgstr "Ανεβάστε μια επιπλέον εικόνα για το προφίλ σας."
+
+#: inc/arrays/agent-fields.php:80
+msgid "Profile Url"
+msgstr "Διεύθυνση Url του προφίλ"
+
+#: inc/arrays/agent-fields.php:81
+msgid "Provide url for agent profile"
+msgstr ""
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Αριθμός τηλεφώνου"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "Προφίλ Facebook"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "Twitter Προφίλ"
+
+#: inc/arrays/agent-fields.php:113
+msgid "Google+ Profile"
+msgstr "Προφίλ Google+"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "LinkedIn προφίλ"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "Σελίδα στο Facebook"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+msgid "User Tagline"
+msgstr "Σλόγκαν χρήστη"
+
+#: inc/arrays/agent-fields.php:153
+msgid "Will display under username"
+msgstr "Θα εμφανιστεί κάτω από το όνομα χρήστη"
+
+#: inc/arrays/agent-fields.php:160
+msgid "Skills Level"
+msgstr "Επίπεδο δεξιότητες"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+#| msgid "Skill name with percentage value on each line, eg: Speaking, 85"
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr ""
+"Το όνομά δεξιοτήτων με ποσοστιαία τιμή σε κάθε γραμμή, όπως: Μιλώντας, 85"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "Φόρμα Επικοινωνίας Σύντομος"
+
+#: inc/arrays/agent-fields.php:168
+msgid "Leave blank for default contact form"
+msgstr "Αφήστε κενό για την προεπιλεγμένη φόρμα επικοινωνίας"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "Λιανική τιμή του ακινήτου"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+msgid "After Price"
+msgstr "Μετά την Τιμή"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "Κείμενο που εμφανίζεται μετά την τιμή, π.χ: / Μήνας"
+
+#: inc/arrays/property-fields.php:28
+msgid "Sale Price"
+msgstr "Τιμή"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "Τιμή πώλησης του ακινήτου"
+
+#: inc/arrays/property-fields.php:38
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: inc/arrays/property-fields.php:39
+msgid "Latitude of property, will use for map"
+msgstr "Γεωγραφικό πλάτος της ιδιοκτησίας, θα χρησιμοποιήσει για χάρτη"
+
+#: inc/arrays/property-fields.php:48
+msgid "Longitude"
+msgstr "Γεωγραφικό μήκος"
+
+#: inc/arrays/property-fields.php:49
+msgid "Longitude of property, will use for map"
+msgstr "Μήκος της ιδιοκτησίας, θα χρησιμοποιήσει για χάρτη"
+
+#: inc/arrays/property-fields.php:58
+msgid "Video URL"
+msgstr "URL βίντεο"
+
+#: inc/arrays/property-fields.php:59
+msgid "Provide video URL"
+msgstr "Δώστε τη διεύθυνση URL βίντεο"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "One file ID per line"
+msgstr "Ένα αρχείο ID ανά γραμμή"
+
+#: inc/arrays/property-fields.php:79 shortcodes/vc-settings.php:254
+msgid "Property Type"
+msgstr "Τύπος Ακινήτου"
+
+#: inc/arrays/property-fields.php:80
+#, fuzzy
+msgid "Choose type of property"
+msgstr "Επιλέξτε είδος ακινήτου. Μπορείτε να προσθέσετε το δικό σας"
+
+#: inc/arrays/property-fields.php:92
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "Επιλέξτε το σκοπό της ιδιοκτησίας. Μπορείτε να προσθέσετε το δικό σας"
+
+#: inc/arrays/property-fields.php:103
+#, fuzzy
+msgid "Choose status of property"
+msgstr "Επιλέξτε κατάσταση του ακινήτου. Μπορείτε να προσθέσετε το δικό σας"
+
+#: inc/arrays/property-fields.php:113
+msgid "Bedrooms"
+msgstr "υπνοδωμάτια"
+
+#: inc/arrays/property-fields.php:114
+msgid "Number of bedrooms"
+msgstr "Αριθμός υπνοδωματίων"
+
+#: inc/arrays/property-fields.php:124
+msgid "Bathrooms"
+msgstr "Μπάνια"
+
+#: inc/arrays/property-fields.php:125
+msgid "Number of bathrooms"
+msgstr "Μπάνια"
+
+#: inc/arrays/property-fields.php:136
+#, fuzzy
+msgid "Size - "
+msgstr "Μέγεθος"
+
+#: inc/arrays/property-fields.php:146
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: inc/arrays/property-fields.php:147
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"Αν το γεωγραφικό πλάτος και μήκος πεδία είναι κενά, αυτή η διεύθυνση θα "
+"χρησιμοποιηθεί για την απόδοση χάρτη"
+
+#: inc/arrays/property-fields.php:157 inc/arrays/property-fields.php:158
+msgid "State"
+msgstr "Κατάσταση"
+
+#: inc/arrays/property-fields.php:168
+msgid "Zip Code"
+msgstr "ΤΚ"
+
+#: inc/arrays/property-fields.php:169
+msgid "Zipcode"
+msgstr "Τ.Κ."
+
+#: inc/arrays/property-fields.php:179 inc/arrays/property-fields.php:180
+msgid "City"
+msgstr "Πόλη"
+
+#: inc/arrays/property-fields.php:190 inc/arrays/property-fields.php:191
+msgid "Country"
+msgstr "Χώρα"
+
+#: inc/arrays/property-fields.php:201
+msgid "Rooms"
+msgstr "Δωμάτια"
+
+#: inc/arrays/property-fields.php:202
+msgid "Number of rooms"
+msgstr "Αριθμός Δωματίων"
+
+#: inc/arrays/property-fields.php:212
+#, fuzzy
+#| msgid "Create Property"
+msgid "Featured Property"
+msgstr "Δημιουργία Ακίνητα"
+
+#: inc/arrays/property-fields.php:213
+msgid "Make it featured"
+msgstr ""
+
+#: inc/arrays/property-fields.php:215
+msgid "No"
+msgstr ""
+
+#: inc/arrays/property-fields.php:216
+msgid "Yes"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:6
+msgid "Currency Options"
+msgstr "Επιλογές Νομίσματος"
+
+#: inc/menu/admin-settings-arr.php:14
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: inc/menu/admin-settings-arr.php:15
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "Σύμβολο νομίσματος για ιδιότητες"
+
+#: inc/menu/admin-settings-arr.php:22
+msgid "Currency Position"
+msgstr "Θέση συμβόλου Νομίσματος"
+
+#: inc/menu/admin-settings-arr.php:24
+msgid "Left"
+msgstr "Αριστερά"
+
+#: inc/menu/admin-settings-arr.php:25
+msgid "Right"
+msgstr "Δεξιά"
+
+#: inc/menu/admin-settings-arr.php:26
+#, fuzzy
+msgid "Left with Space"
+msgstr "Αριστερά με το διάστημα"
+
+#: inc/menu/admin-settings-arr.php:27
+#, fuzzy
+msgid "Right with Space"
+msgstr "Δεξιά με κενό (%s)"
+
+#: inc/menu/admin-settings-arr.php:29
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "Η θέση του του σύμβολου νομισματικής μονάδας."
+
+#: inc/menu/admin-settings-arr.php:35
+msgid "Thousand Separator"
+msgstr "Διαχωριστής Χιλιοστών"
+
+#: inc/menu/admin-settings-arr.php:36
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "Χιλιάδες διαχωριστικό της τιμής προβολής"
+
+#: inc/menu/admin-settings-arr.php:43
+msgid "Decimal Separator"
+msgstr "Διαχωριστής Δεκαδικών"
+
+#: inc/menu/admin-settings-arr.php:44
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "Δεκαδικός διαχωριστής της τιμής προβολής"
+
+#: inc/menu/admin-settings-arr.php:51
+msgid "Number of Decimals"
+msgstr "Αριθμός Δεκαδικών"
+
+#: inc/menu/admin-settings-arr.php:52
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "Αριθμός δεκαδικών σημείων που εμφανίζονται στην τιμή προβολής"
+
+#: inc/menu/admin-settings-arr.php:60
+msgid "Property Settings"
+msgstr "Ρυθμίσεις Ακίνητα"
+
+#: inc/menu/admin-settings-arr.php:68
+msgid "Area Unit"
+msgstr "Μονάδα Εμβαδού"
+
+#: inc/menu/admin-settings-arr.php:69
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Παρέχετε μονάδα της περιοχής Π.χ. τετράγωνα πόδια"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Excerpt Length"
+msgstr "Μήκος Αποσπάσματος"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "Αριθμός λέξεων που εμφανίζονται από το απόσπασμα περιουσίας. Π.χ.: 15"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"Ένας ανά γραμμή. Αυτό θα προσθέσει πλαίσια ελέγχου στη σελίδα επεξεργασίας "
+"ιδιοκτησίας για να επιλέξετε. Αφήστε κενό για να χρησιμοποιήσετε προεπιλογή"
+
+#: inc/menu/admin-settings-arr.php:89
+#, fuzzy
+msgid "Properties Per Page"
+msgstr "Ιδιότητες ανά σελίδα"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"Αριθμός ιδιοτήτων που θέλετε να εμφανίζονται στα αποτελέσματα αναζήτησης και "
+"στις σελίδες αρχειοθέτησης."
+
+#: inc/menu/admin-settings-arr.php:98
+msgid "Templates Settings"
+msgstr "Ρυθμίσεις προτύπων"
+
+#: inc/menu/admin-settings-arr.php:105
+msgid "Property Page Template"
+msgstr "Πρότυπο Ακίνητα Σελίδα"
+
+#: inc/menu/admin-settings-arr.php:106
+msgid "Choose single property display layout"
+msgstr "Επιλέξτε τη διάταξη της οθόνης ενιαίο ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:108
+msgid "Default"
+msgstr "Προκαθορισμένο"
+
+#: inc/menu/admin-settings-arr.php:109
+msgid "Full Width"
+msgstr "Πλήρες πλάτος"
+
+#: inc/menu/admin-settings-arr.php:110
+msgid "Left Sidebar"
+msgstr "αριστερά Sidebar"
+
+#: inc/menu/admin-settings-arr.php:111 inc/menu/admin-settings-arr.php:121
+#: inc/menu/admin-settings-arr.php:131
+msgid "From Theme"
+msgstr "από το θέμα"
+
+#: inc/menu/admin-settings-arr.php:117
+msgid "Archive Page Template"
+msgstr "Πρότυπο Αρχείο Σελίδα"
+
+#: inc/menu/admin-settings-arr.php:118
+msgid "Choose tags and archive properties display layout"
+msgstr "Επιλέξτε τις ετικέτες και τις ιδιότητες του αρχείου εμφανιστεί διάταξη"
+
+#: inc/menu/admin-settings-arr.php:120 inc/menu/admin-settings-arr.php:130
+msgid "From Plugin"
+msgstr "από Plugin"
+
+#: inc/menu/admin-settings-arr.php:127
+msgid "Agent Page Template"
+msgstr "Πρότυπο Agent Σελίδα"
+
+#: inc/menu/admin-settings-arr.php:128
+msgid "Choose agent page display layout"
+msgstr "Επιλέξτε παράγοντας διάταξης της οθόνης σελίδα"
+
+#: inc/menu/admin-settings-arr.php:137
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "Μέγιστο πλάτος δοχείο"
+
+#: inc/menu/admin-settings-arr.php:138
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Παρέχουν δοχείο μέγιστο πλάτος σε px, π.χ.: 1140px"
+
+#: inc/menu/admin-settings-arr.php:144
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "Παράγοντα σελίδα Sidebar κάρτα"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Ενεργοποιήσετε ή να απενεργοποιήσετε την κάρτα προεπιλεγμένο παράγοντα και "
+"φόρμα επικοινωνίας στην σελίδα μεμονωμένο παράγοντα"
+
+#: inc/menu/admin-settings-arr.php:147 inc/menu/admin-settings-arr.php:157
+#: inc/menu/admin-settings-arr.php:188 inc/menu/admin-settings-arr.php:198
+#: inc/menu/admin-settings-arr.php:241 inc/menu/admin-settings-arr.php:779
+#: inc/menu/admin-settings-arr.php:789 inc/menu/render-admin-settings.php:193
+#: shortcodes/divi-settings.php:69 shortcodes/divi-settings.php:79
+#: shortcodes/divi-settings.php:88 shortcodes/vc-settings.php:235
+#: shortcodes/vc-settings.php:290 shortcodes/vc-settings.php:300
+#: shortcodes/vc-settings.php:309 shortcodes/vc-settings.php:437
+#: shortcodes/vc-settings.php:457 shortcodes/vc-settings.php:816
+#: shortcodes/vc-settings.php:848 shortcodes/vc-settings.php:866
+#: shortcodes/vc-settings.php:877
+msgid "Enable"
+msgstr "επιτρέπω"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/admin-settings-arr.php:158
+#: inc/menu/admin-settings-arr.php:189 inc/menu/admin-settings-arr.php:199
+#: inc/menu/admin-settings-arr.php:242 inc/menu/admin-settings-arr.php:780
+#: inc/menu/admin-settings-arr.php:790 inc/menu/render-admin-settings.php:84
+#: shortcodes/divi-settings.php:70 shortcodes/divi-settings.php:78
+#: shortcodes/divi-settings.php:87 shortcodes/vc-settings.php:234
+#: shortcodes/vc-settings.php:289 shortcodes/vc-settings.php:299
+#: shortcodes/vc-settings.php:310 shortcodes/vc-settings.php:436
+#: shortcodes/vc-settings.php:456 shortcodes/vc-settings.php:815
+#: shortcodes/vc-settings.php:847 shortcodes/vc-settings.php:865
+#: shortcodes/vc-settings.php:876
+msgid "Disable"
+msgstr "Απενεργοποιήση"
+
+#: inc/menu/admin-settings-arr.php:154
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "Φόρμα εγγραφής πράκτορα"
+
+#: inc/menu/admin-settings-arr.php:155
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr ""
+"Ενεργοποιήσετε ή να απενεργοποιήσετε την κάρτα προεπιλεγμένο παράγοντα και "
+"φόρμα επικοινωνίας στην σελίδα μεμονωμένο παράγοντα"
+
+#: inc/menu/admin-settings-arr.php:164
+#, fuzzy
+msgid "Agent Page Sidebar"
+msgstr "Παράγοντα σελίδα Sidebar"
+
+#: inc/menu/admin-settings-arr.php:165
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "Επιλέξτε sidebar για λεπτομέρειες σελίδα παράγοντα"
+
+#: inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "Σελίδα Επεξεργασία ιδιοτήτων"
+
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "Paste shortcode [rem_edit_property] on selected page"
+msgstr "Επικολλήστε το shortcode [rem_edit_property] στην επιλεγμένη σελίδα"
+
+#: inc/menu/admin-settings-arr.php:178
+#, fuzzy
+msgid "Single Property Page"
+msgstr "ε.τ.α.κ."
+
+#: inc/menu/admin-settings-arr.php:185
+msgid "Map"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:186
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr "Επιλέξτε sidebar για ενιαία ιδιοκτησία σελίδα"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "Το κατάλυμα σελίδα Sidebar κάρτα"
+
+#: inc/menu/admin-settings-arr.php:196
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Ενεργοποιήσετε ή να απενεργοποιήσετε την κάρτα προεπιλεγμένο παράγοντα και "
+"να επικοινωνήσετε με την φόρμα στην σελίδα ενιαία ιδιοκτησία"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "Το κατάλυμα σελίδα Sidebar"
+
+#: inc/menu/admin-settings-arr.php:206
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "Επιλέξτε sidebar για ενιαία ιδιοκτησία σελίδα"
+
+#: inc/menu/admin-settings-arr.php:211
+msgid "Gallery Slider Width"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:212
+msgid "Slider width with unit. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:218
+msgid "Gallery Slider Height"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:219
+msgid "Slider height with unit. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:225
+msgid "Gallery Slider Fit"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:226
+msgid "How to fit an image into slider"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:228
+msgid "Cover"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:229
+#, fuzzy
+msgid "Contain"
+msgstr "Είσοδος Agent"
+
+#: inc/menu/admin-settings-arr.php:230
+msgid "Scale Down"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:231
+msgid "None"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:238
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Gallery Featured Image"
+msgstr "Επιλεγμένη Εικόνα"
+
+#: inc/menu/admin-settings-arr.php:239
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "Επιτρέπουν να εμφανίσετε αυτόματη περιστροφή των ιδιοτήτων"
+
+#: inc/menu/admin-settings-arr.php:249
+#, fuzzy
+#| msgid "Property Settings"
+msgid "Property Settings Tabs"
+msgstr "Ρυθμίσεις Ακίνητα"
+
+#: inc/menu/admin-settings-arr.php:250
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:257
+#, fuzzy
+#| msgid "List"
+msgid "Listings"
+msgstr "Λιστα"
+
+#: inc/menu/admin-settings-arr.php:264
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "Μπαρ ιδιοκτησίας inline πεδία"
+
+#: inc/menu/admin-settings-arr.php:265
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"Παρέχουν πεδίο ονόματα ανά γραμμή για να εμφανιστεί στην επάνω γραμμή του "
+"λίστα στυλ inline ακινήτων"
+
+#: inc/menu/admin-settings-arr.php:270
+msgid "Listing Features Type"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:271
+msgid "Features are displayed on property listings"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:273
+msgid "Icons and Data"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:274
+#, fuzzy
+#| msgid "Labels and Headings"
+msgid "Labels and Data"
+msgstr "Ετικέτες και επικεφαλίδες"
+
+#: inc/menu/admin-settings-arr.php:275
+msgid "Icons, Labels and Data"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:281
+msgid "Custom Listing Features"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:282
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:289
+msgid "Search Settings"
+msgstr "Ρυθμίσεις Αναζήτησης"
+
+#: inc/menu/admin-settings-arr.php:296 shortcodes/divi-settings.php:43
+#: shortcodes/vc-settings.php:782
+#, fuzzy
+msgid "Total Properties"
+msgstr "Συνολικό καταλύματα"
+
+#: inc/menu/admin-settings-arr.php:297
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr ""
+"Αριθμός ιδιοτήτων που θέλετε να εμφανίζονται στα αποτελέσματα αναζήτησης και "
+"στις σελίδες αρχειοθέτησης."
+
+#: inc/menu/admin-settings-arr.php:302
+msgid "Search Price Range Selector"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:303
+msgid "Choose price ranges input option for searching"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:305 inc/menu/admin-settings-arr.php:375
+msgid "Price Slider"
+msgstr "Τιμή Slider"
+
+#: inc/menu/admin-settings-arr.php:306
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "Σταθερά πεδία"
+
+#: inc/menu/admin-settings-arr.php:312
+#, fuzzy
+msgid "Search Results Style"
+msgstr "Στυλ αποτελεσμάτων αναζήτησης"
+
+#: inc/menu/admin-settings-arr.php:313
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "Επιλέξτε στυλ για τα αποτελέσματα αναζήτησης"
+
+#: inc/menu/admin-settings-arr.php:320
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "Στήλες αποτελεσμάτων αναζήτησης"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "Επιλέξτε στήλες στη σειρά για στυλ πλαισίου"
+
+#: inc/menu/admin-settings-arr.php:323 shortcodes/divi-settings.php:51
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:324 shortcodes/divi-settings.php:52
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:325 shortcodes/divi-settings.php:53
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:326 shortcodes/divi-settings.php:54
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:327 shortcodes/divi-settings.php:55
+msgid "5"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:334
+#, fuzzy
+msgid "Search Area Options"
+msgstr "Περιοχή επιλογές αναζήτησης"
+
+#: inc/menu/admin-settings-arr.php:335
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Παρέχουν εύρος ζώνης κάθε ανά γραμμή, για να εμφανίσετε το αναπτυσσόμενο "
+"χώρο κυμαίνεται αντί για πεδίο εισαγωγής κατά την αναζήτηση."
+
+#: inc/menu/admin-settings-arr.php:341
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "Επιλογές αναζήτησης υπνοδωμάτια"
+
+#: inc/menu/admin-settings-arr.php:342
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Παρέχουν κρεβατοκάμαρες σειρά κάθε ανά γραμμή, για να εμφανίσετε το "
+"αναπτυσσόμενο μενού των υπνοδωματίων κυμαίνεται αντί για πεδίο εισαγωγής "
+"κατά την αναζήτηση."
+
+#: inc/menu/admin-settings-arr.php:348
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "Επιλογές αναζήτησης μπάνια"
+
+#: inc/menu/admin-settings-arr.php:349
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Παρέχουν μπάνιο φάσμα κάθε ανά γραμμή, για να εμφανίσετε το αναπτυσσόμενο "
+"μενού από σειρές μπάνιο αντί για πεδίο εισαγωγής κατά την αναζήτηση."
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "Αποτελέσματα αναζήτησης σύνδεση προορισμού"
+
+#: inc/menu/admin-settings-arr.php:356
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"Παρέχει σύνδεση προορισμού για τα αποτελέσματα της φόρμας αναζήτησης. "
+"_blank: να ανοίξει σε νέα καρτέλα"
+
+#: inc/menu/admin-settings-arr.php:358
+#, fuzzy
+#| msgid "Add New Tag"
+msgid "New Tab"
+msgstr "Προσθήκη νέων ετικετών"
+
+#: inc/menu/admin-settings-arr.php:359
+msgid "Same Tab"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:366
+msgid "Simple Search Method"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:367
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:367 inc/menu/admin-settings-arr.php:688
+#, fuzzy
+#| msgid "Help Text"
+msgid "Help"
+msgstr "Κείμενο βοήθειας"
+
+#: inc/menu/admin-settings-arr.php:382
+msgid "Minimum Price"
+msgstr "Κατώτατη τιμή"
+
+#: inc/menu/admin-settings-arr.php:383
+msgid "Minimum price for price slider"
+msgstr "Ελάχιστη τιμή για slider τιμή"
+
+#: inc/menu/admin-settings-arr.php:389
+msgid "Maximum Price"
+msgstr "μέγιστη τιμή"
+
+#: inc/menu/admin-settings-arr.php:390
+msgid "Maximum price for price slider"
+msgstr "Η μέγιστη τιμή για το ρυθμιστικό τιμή"
+
+#: inc/menu/admin-settings-arr.php:396
+msgid "Step"
+msgstr "Βήμα"
+
+#: inc/menu/admin-settings-arr.php:397
+msgid "Step or interval for price slider"
+msgstr "Βήμα ή το διάστημα για το ρυθμιστικό τιμή"
+
+#: inc/menu/admin-settings-arr.php:403
+msgid "Default Minimum Price"
+msgstr "Προεπιλογή Ελάχιστη τιμή"
+
+#: inc/menu/admin-settings-arr.php:404
+msgid "Default Minimum price for price slider"
+msgstr "Προεπιλογή Ελάχιστη τιμή για slider τιμή"
+
+#: inc/menu/admin-settings-arr.php:410
+msgid "Default Maximum Price"
+msgstr "Προεπιλογή Μέγιστη τιμή"
+
+#: inc/menu/admin-settings-arr.php:411
+msgid "Default Maximum price for price slider"
+msgstr "Προεπιλογή Μέγιστη τιμή για το ρυθμιστικό τιμή"
+
+#: inc/menu/admin-settings-arr.php:420
+msgid "Email Messages"
+msgstr "Τα μηνύματα ηλεκτρονικού ταχυδρομείου"
+
+#: inc/menu/admin-settings-arr.php:427
+msgid "Agent Registered"
+msgstr "Agent Εγγεγραμμένοι"
+
+#: inc/menu/admin-settings-arr.php:428
+msgid "This message will sent to "
+msgstr "Αυτό το μήνυμα θα σταλεί"
+
+#: inc/menu/admin-settings-arr.php:428
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"όταν οι νέες παράγοντας είναι εγγεγραμμένος. Μπορείτε να χρησιμοποιήσετε% "
+"username% και% email% για λεπτομέρειες"
+
+#: inc/menu/admin-settings-arr.php:434
+msgid "Agent Pending"
+msgstr "Agent σε εκκρεμότητα"
+
+#: inc/menu/admin-settings-arr.php:435
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"Μήνυμα για παράγοντα όταν νέος παράγοντας είναι εγγεγραμμένος, αλλά το "
+"καθεστώς εκκρεμεί. Μπορείτε να χρησιμοποιήσετε% username% και% email% για "
+"λεπτομέρειες"
+
+#: inc/menu/admin-settings-arr.php:441
+msgid "Agent Approved"
+msgstr "Agent Εγκρίθηκε"
+
+#: inc/menu/admin-settings-arr.php:442
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Μήνυμα για παράγοντα όταν εγγεγραμμένος πράκτορας έχει εγκριθεί. Μπορείτε να "
+"χρησιμοποιήσετε% username% και% email% για λεπτομέρειες"
+
+#: inc/menu/admin-settings-arr.php:448
+msgid "Agent Rejected"
+msgstr "Agent Απορρίφθηκε"
+
+#: inc/menu/admin-settings-arr.php:449
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Μήνυμα για παράγοντα όταν εγγεγραμμένος πράκτορας απορρίπτεται. Μπορείτε να "
+"χρησιμοποιήσετε% username% και% email% για λεπτομέρειες"
+
+#: inc/menu/admin-settings-arr.php:455
+#, fuzzy
+#| msgid "Property Statuses"
+msgid "Property Submission"
+msgstr "Καταστάσεις Ακίνητα"
+
+#: inc/menu/admin-settings-arr.php:456
+#, fuzzy
+#| msgid "This message will sent to "
+msgid "This message will be sent to "
+msgstr "Αυτό το μήνυμα θα σταλεί"
+
+#: inc/menu/admin-settings-arr.php:456
+#, fuzzy
+#| msgid ""
+#| " when new agent is registered. You can use %username% and %email% for "
+#| "details"
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"όταν οι νέες παράγοντας είναι εγγεγραμμένος. Μπορείτε να χρησιμοποιήσετε% "
+"username% και% email% για λεπτομέρειες"
+
+#: inc/menu/admin-settings-arr.php:462
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submission Message for Agent"
+msgstr "υποβάλλονται ακινήτου."
+
+#: inc/menu/admin-settings-arr.php:463
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:469
+msgid "Property Approved Message for Agent"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:470
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:476
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "Διευθύνσεις ηλεκτρονικού ταχυδρομείου επαφών αντιπροσώπων"
+
+#: inc/menu/admin-settings-arr.php:477
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Παρέχουν επιπλέον Email διευθύνσεις ανά γραμμή για cc αλληλογραφίας, όταν ο "
+"επισκέπτης συμπληρώνει τη φόρμα επαφής παράγοντα."
+
+#: inc/menu/admin-settings-arr.php:486
+msgid "reCAPTCHA V2"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:493
+msgid "Site key"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:494
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Παρέχουν το κλειδί API των Χαρτών Google εδώ. Μπορείτε να δημιουργήσετε το "
+"κλειδί API"
+
+#: inc/menu/admin-settings-arr.php:499
+msgid "Secret key"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:500
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr ""
+"Παρέχουν το κλειδί API των Χαρτών Google εδώ. Μπορείτε να δημιουργήσετε το "
+"κλειδί API"
+
+#: inc/menu/admin-settings-arr.php:505
+#, fuzzy
+msgid "Agent Registration"
+msgstr "Φόρμα εγγραφής πράκτορα"
+
+#: inc/menu/admin-settings-arr.php:506
+msgid "Check to enable captcha on new agent registration."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:511
+#, fuzzy
+msgid "Contact Agent"
+msgstr "Είσοδος Agent"
+
+#: inc/menu/admin-settings-arr.php:512
+msgid "Check to enable captcha on agent contact form."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:521
+msgid "Labels and Headings"
+msgstr "Ετικέτες και επικεφαλίδες"
+
+#: inc/menu/admin-settings-arr.php:528 inc/menu/admin-settings-arr.php:535
+msgid "Features Heading"
+msgstr "χαρακτηριστικά Τομέας"
+
+#: inc/menu/admin-settings-arr.php:529 inc/menu/admin-settings-arr.php:536
+msgid "Provide heading text for property features on property pages"
+msgstr ""
+"Δώστε τίτλο κειμένου για τα χαρακτηριστικά ιδιοκτησίας στις σελίδες ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:542
+msgid "Video Heading"
+msgstr "Βίντεο Τομέας"
+
+#: inc/menu/admin-settings-arr.php:543
+msgid "Provide heading text for property video on property pages"
+msgstr "Παροχή τίτλος κείμενο για το βίντεο ακίνητο στις σελίδες ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:549
+msgid "Maps Heading"
+msgstr "χάρτες Τομέας"
+
+#: inc/menu/admin-settings-arr.php:550
+msgid "Provide heading text for maps on property pages"
+msgstr "Δώστε τίτλο κειμένου για χάρτες στις σελίδες ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:556
+msgid "Tags Heading"
+msgstr "ετικέτες Τομέας"
+
+#: inc/menu/admin-settings-arr.php:557
+msgid "Provide heading text for tags on property pages"
+msgstr "Παροχή τίτλος κειμένου για τις ετικέτες στις σελίδες ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:563
+#, fuzzy
+msgid "Attachments Heading"
+msgstr "Επισυναπτόμενα Θέματα"
+
+#: inc/menu/admin-settings-arr.php:564
+#, fuzzy
+msgid "Provide heading text for attachments on property pages"
+msgstr "Παρέχετε κείμενο επικεφαλίδας για συνημμένα στις σελίδες ιδιοτήτων"
+
+#: inc/menu/admin-settings-arr.php:570
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "Ετικέτες για τις σελίδες αρχειοθέτησης"
+
+#: inc/menu/admin-settings-arr.php:571
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "Μπορείτε να χρησιμοποιήσετε% tag% για όνομα ετικέτας"
+
+#: inc/menu/admin-settings-arr.php:577
+#, fuzzy
+msgid "Heading for Properties Page"
+msgstr "Ετικέτες για τις σελίδες αρχειοθέτησης"
+
+#: inc/menu/admin-settings-arr.php:578
+#, fuzzy
+#| msgid "Provide heading text for maps on property pages"
+msgid "Provide heading for properties archive"
+msgstr "Δώστε τίτλο κειμένου για χάρτες στις σελίδες ακίνητο"
+
+#: inc/menu/admin-settings-arr.php:586
+msgid "Maps Settings"
+msgstr "χάρτες Ρυθμίσεις"
+
+#: inc/menu/admin-settings-arr.php:593
+msgid "Use Map From"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:595
+msgid "Leaflet"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:596
+#, fuzzy
+#| msgid "Google Maps API Key"
+msgid "Google Maps"
+msgstr "Χάρτες κλειδί Google API"
+
+#: inc/menu/admin-settings-arr.php:598
+msgid "Choose map provider"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:604
+msgid "Google Maps API Key"
+msgstr "Χάρτες κλειδί Google API"
+
+#: inc/menu/admin-settings-arr.php:605
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr ""
+"Παρέχουν το κλειδί API των Χαρτών Google εδώ. Μπορείτε να δημιουργήσετε το "
+"κλειδί API"
+
+#: inc/menu/admin-settings-arr.php:611
+msgid "Map Type"
+msgstr "Τύπος Χάρτη"
+
+#: inc/menu/admin-settings-arr.php:613
+#, fuzzy
+msgid "Road Map"
+msgstr "χάρτης πορείας"
+
+#: inc/menu/admin-settings-arr.php:614
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:615
+msgid "Hybrid"
+msgstr "Υβριδικό"
+
+#: inc/menu/admin-settings-arr.php:616
+msgid "Terrain"
+msgstr "Εδαφικός"
+
+#: inc/menu/admin-settings-arr.php:618
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "Επιλέξτε εδώ τον προεπιλεγμένο τύπο χάρτη"
+
+#: inc/menu/admin-settings-arr.php:624
+msgid "Map Zoom Level"
+msgstr "Επίπεδο Ζουμ χάρτη"
+
+#: inc/menu/admin-settings-arr.php:625
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr "Παρέχετε επίπεδο ζουμ μεταξύ 0 και 21+ για έναν χάρτη ιδιοκτησίας"
+
+#: inc/menu/admin-settings-arr.php:631
+msgid "Drag Icon URL"
+msgstr "Σύρετε το εικονίδιο URL"
+
+#: inc/menu/admin-settings-arr.php:632
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Ανεβάστε προσαρμοσμένο εικονίδιο για να σύρετε στο χάρτη, δημιουργώντας "
+"παράλληλα νέες ιδιοκτησίας. Συνιστώμενο μέγεθος: 72x60"
+
+#: inc/menu/admin-settings-arr.php:638
+msgid "Location Icon URL"
+msgstr "Τοποθεσία Εικονίδιο URL"
+
+#: inc/menu/admin-settings-arr.php:639
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Ανεβάστε προσαρμοσμένο εικονίδιο για τοποθεσίες στο χάρτη όταν επισκέπτονται "
+"τη σελίδα ακίνητο. Συνιστώμενο μέγεθος: 72x60"
+
+#: inc/menu/admin-settings-arr.php:645
+#, fuzzy
+#| msgid "Property ID"
+msgid "Property Icon URL"
+msgstr "Κωδικός ακινήτου"
+
+#: inc/menu/admin-settings-arr.php:646
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:652
+msgid "Property Icon URL (Hover)"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:653
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:659
+#, fuzzy
+#| msgid "Drag Icon URL"
+msgid "Circle Icon URL"
+msgstr "Σύρετε το εικονίδιο URL"
+
+#: inc/menu/admin-settings-arr.php:660
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:666
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "My Location Icon URL"
+msgstr "Τοποθεσία Εικονίδιο URL"
+
+#: inc/menu/admin-settings-arr.php:667
+msgid "Upload custom icon for my location marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:673
+#, fuzzy
+msgid "Default Latitude"
+msgstr "Προεπιλογή γεωγραφικού πλάτους"
+
+#: inc/menu/admin-settings-arr.php:674
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Παρέχετε γεωγραφικό πλάτος για την προεπιλεγμένη θέση του χάρτη στη σελίδα "
+"δημιουργίας ιδιότητας"
+
+#: inc/menu/admin-settings-arr.php:680
+#, fuzzy
+msgid "Default Longitude"
+msgstr "Προεπιλογή γεωγραφικού μήκους"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"Παρέχετε γεωγραφικό μήκος για την προεπιλεγμένη θέση του χάρτη στη σελίδα "
+"ιδιοκτησίας δημιουργίας"
+
+#: inc/menu/admin-settings-arr.php:687
+msgid "Map Styles Object"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:688
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "Παροχή ακινήτου εδώ"
+
+#: inc/menu/admin-settings-arr.php:697
+msgid "Colors and CSS"
+msgstr "Χρώματα και CSS"
+
+#: inc/menu/admin-settings-arr.php:704
+msgid "Headings Underline"
+msgstr "Οι τίτλοι Υπογράμμιση"
+
+#: inc/menu/admin-settings-arr.php:706
+msgid "Choose bottom border color for headings area"
+msgstr "Επιλέξτε το χρώμα κάτω των συνόρων για την περιοχή κατηγορίες"
+
+#: inc/menu/admin-settings-arr.php:712
+msgid "Headings Underline Active"
+msgstr "Οι τίτλοι Υπογράμμιση Active"
+
+#: inc/menu/admin-settings-arr.php:714
+msgid "Choose bottom border color for headings active area"
+msgstr "Επιλέξτε το χρώμα κάτω των συνόρων για τους τίτλους ενεργή περιοχή"
+
+#: inc/menu/admin-settings-arr.php:720
+msgid "Buttons Background"
+msgstr "κουμπιά Ιστορικό"
+
+#: inc/menu/admin-settings-arr.php:722
+msgid "Choose background color for buttons"
+msgstr "Επιλέξτε το χρώμα φόντου για τα κουμπιά"
+
+#: inc/menu/admin-settings-arr.php:728
+msgid "Buttons Text"
+msgstr "κουμπιά Κείμενο"
+
+#: inc/menu/admin-settings-arr.php:730 inc/menu/admin-settings-arr.php:746
+msgid "Choose text color for buttons"
+msgstr "Επιλέξτε το χρώμα κειμένου για τα κουμπιά"
+
+#: inc/menu/admin-settings-arr.php:736
+msgid "Buttons Background - Hover"
+msgstr "Πλήκτρα Ιστορικό - Hover"
+
+#: inc/menu/admin-settings-arr.php:738
+msgid "Choose background color for buttons on hover state"
+msgstr "Επιλέξτε το χρώμα φόντου για τα κουμπιά σε κατάσταση αιώρησης"
+
+#: inc/menu/admin-settings-arr.php:744
+msgid "Buttons Text - Hover"
+msgstr "Κουμπιά Κείμενο - Hover"
+
+#: inc/menu/admin-settings-arr.php:752
+msgid "Theme Main Color"
+msgstr "Θέμα Κύριο χρώμα"
+
+#: inc/menu/admin-settings-arr.php:754
+msgid "Choose main theme color for templates"
+msgstr "Επιλέξτε κύριο χρώμα θέμα για τα πρότυπα"
+
+#: inc/menu/admin-settings-arr.php:760
+msgid "Custom CSS Code"
+msgstr "Κωδικός έθιμο CSS"
+
+#: inc/menu/admin-settings-arr.php:762
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Επικόλληση προσαρμοσμένο κώδικα CSS σας εδώ, μπορείτε να πρόθεμα"
+
+#: inc/menu/admin-settings-arr.php:770
+msgid "Advanced Settings"
+msgstr "Ρυθμίσεις για Προχωρημένους"
+
+#: inc/menu/admin-settings-arr.php:777
+#, fuzzy
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#: inc/menu/admin-settings-arr.php:782
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr ""
+"Απενεργοποιήστε το, αν το θέμα σας φορτώνει το δικό του bootstrap 3 στυλ"
+
+#: inc/menu/admin-settings-arr.php:787
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: inc/menu/admin-settings-arr.php:792
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+"Απενεργοποιήστε το, αν το θέμα σας φορτώνει το δικό της γραμματοσειράς "
+"φοβερό εικόνες"
+
+#: inc/menu/admin-settings-arr.php:797
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submission Mode"
+msgstr "υποβάλλονται ακινήτου."
+
+#: inc/menu/admin-settings-arr.php:799
+msgid "Publish Right Away"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:800
+msgid "Approve by Administrator"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:802
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "Δημιουργεί μια φόρμα για τη δημιουργία ιδιοκτησίας"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "Επεξεργασία ενιαίας ιδιότητας"
+
+#: inc/menu/admin-settings-arr.php:808
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "Θα κάνει μια φόρμα για την επεξεργασία της ιδιότητας στο μενού."
+
+#: inc/menu/admin-settings-arr.php:813
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "Επεξεργασία ενιαίας ιδιότητας"
+
+#: inc/menu/admin-settings-arr.php:814
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr "Θα κάνει μια φόρμα για την επεξεργασία της ιδιότητας στο μενού."
+
+#: inc/menu/admin-settings-arr.php:820
+msgid "Listing Ribbons"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:826
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "Κείμενο της κορδέλας πώληση"
+
+#: inc/menu/admin-settings-arr.php:827
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"Εμφανίζει τα αποτελέσματα αναζήτησης των ιδιοτήτων που αναζητούνται από το "
+"γραφικό στοιχείο."
+
+#: inc/menu/admin-settings-arr.php:832
+#, fuzzy
+msgid "Rented Properties"
+msgstr "Ιδιότητες φίλτρου"
+
+#: inc/menu/admin-settings-arr.php:833
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:838
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "Συνολικό καταλύματα"
+
+#: inc/menu/admin-settings-arr.php:839
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:844
+#, fuzzy
+msgid "Sold Properties"
+msgstr "Συνολικό καταλύματα"
+
+#: inc/menu/admin-settings-arr.php:845
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:850
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Featured Properties"
+msgstr "Αναζήτηση ακινήτων"
+
+#: inc/menu/admin-settings-arr.php:851
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Ribbon"
+msgstr "Προσαρμοσμένα πεδία"
+
+#: inc/menu/admin-settings-arr.php:857
+#, fuzzy
+msgid "Provide key with value. Eg: property_type=House"
+msgstr ""
+"Παρέχουν κλειδί meta και αξία σε κάθε γραμμή για να φιλτράρετε. Π.χ.: "
+"property_status | κανονική"
+
+#: inc/menu/admin-settings-arr.php:862
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "Κείμενο της κορδέλας πώληση"
+
+#: inc/menu/admin-settings-arr.php:863
+#, fuzzy
+msgid "Provide text to display for custom ribbon"
+msgstr "Παρέχετε περιεχόμενο για εμφάνιση αν ο χρήστης δεν είναι συνδεδεμένος"
+
+#: inc/menu/agent-profile-fields.php:3
+msgid "Agent Details"
+msgstr "Στοιχεία συνεργάτη"
+
+#: inc/menu/agent-profile-fields.php:26
+msgid "Upload Image"
+msgstr "Ανεβάστε Εικόνα"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "Προσαρμοσμένα πεδία οικοδόμος"
+
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "Πεδίο Κειμένου"
+
+#: inc/menu/custom-fields/custom-fields-page.php:7
+#, fuzzy
+msgid "Number Field"
+msgstr "Πεδίο αριθμού"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+msgid "DropDown Field"
+msgstr ""
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+#, fuzzy
+msgid "Date Field"
+msgstr "Σταθερά πεδία"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+#, fuzzy
+#| msgid "Upload Image"
+msgid "Upload Field"
+msgstr "Ανεβάστε Εικόνα"
+
+#: inc/menu/custom-fields/custom-fields-page.php:62
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr ""
+"Σύρετε και περάστε τα πεδία στην παραπάνω περιοχή από το αριστερό πλαίσιο"
+
+#: inc/menu/custom-fields/custom-fields-page.php:64
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+
+#: inc/menu/custom-fields/custom-fields-page.php:70
+msgid "Reset Fields"
+msgstr "Επαναφορά πεδίων"
+
+#: inc/menu/custom-fields/custom-fields-page.php:71
+#: inc/menu/page-settings.php:64
+msgid "Save Settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+msgid "Label"
+msgstr "Επιγραφή"
+
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "Όνομα δεδομένων (πεζά χωρίς κενά)"
+
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "Προεπιλογή επιλεγμένο"
+
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "Επιλογές (ανά γραμμή ανά γραμμή)"
+
+#: inc/menu/custom-fields/fields/select.php:40
+#: inc/menu/custom-fields/fields/text.php:27
+msgid "Help Text"
+msgstr "Κείμενο βοήθειας"
+
+#: inc/menu/custom-fields/fields/select.php:46
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "Καρτέλα Ρυθμίσεις διαχειριστή"
+
+#: inc/menu/custom-fields/fields/select.php:60
+#: inc/menu/custom-fields/fields/text.php:47
+msgid "Accessibility"
+msgstr ""
+
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:61
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: inc/menu/custom-fields/fields/text.php:21
+#, fuzzy
+msgid "Default Value"
+msgstr "Î ÏÎ¿ÎºÎ±Î¸Î¿ÏÎ¹ÏÎ¼Î­Î½Î· ÏÎ¹Î¼Î®"
+
+#: inc/menu/page-agents.php:57
+msgid "Pending Agents"
+msgstr "Εν αναμονή Πράκτορες"
+
+#: inc/menu/page-agents.php:68
+msgid "Date of Registration"
+msgstr "Ημερομηνία εγγραφής"
+
+#: inc/menu/page-agents.php:69
+msgid "Action"
+msgstr "Δράση"
+
+#: inc/menu/page-agents.php:81
+msgid "Deny"
+msgstr "Αρνούμαι"
+
+#: inc/menu/page-agents.php:82
+msgid "Approve"
+msgstr "Εγκρίνω"
+
+#: inc/menu/page-agents.php:91
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "Δεν έχετε εκκρεμείς πράκτορες."
+
+#: inc/menu/page-agents.php:99
+msgid "Registered Agents"
+msgstr "εγγεγραμμένοι Πράκτορες"
+
+#: inc/menu/page-agents.php:111
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: inc/menu/page-agents.php:124
+msgid "View Profile"
+msgstr "Εμφάνιση προφίλ"
+
+#: inc/menu/page-agents.php:133
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "Δεν έχετε εγγεγραμένοι πράκτορες."
+
+#: inc/menu/page-agents.php:139
+#, fuzzy
+msgid "Register New Agent"
+msgstr "Εγγραφή νέου παράγοντα"
+
+#: inc/menu/page-settings.php:2
+msgid "Real Estate Manager - Settings"
+msgstr "Ακίνητα Διευθυντής - Ρυθμίσεις"
+
+#: inc/menu/page-settings.php:15
+msgid "If 404 Page is displaying"
+msgstr "Αν 404 Page εμφανίζει"
+
+#: inc/menu/page-settings.php:17
+#, fuzzy
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr ""
+"Μεταβείτε στην επιλογή Ρυθμίσεις -> Συνεχίστε και κάντε κλικ στο κουμπί "
+"Αποθήκευση αλλαγών"
+
+#: inc/menu/page-settings.php:21
+msgid "If Maps not displaying"
+msgstr "Αν Χάρτες δεν εμφανίζει"
+
+#: inc/menu/page-settings.php:23
+#, fuzzy
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+"Δημιουργήστε ένα API Χαρτών Google χρησιμοποιώντας το Google και επικολλήστε "
+"το στο πεδίο API Χαρτών."
+
+#: inc/menu/page-settings.php:27
+msgid "Change Property Page Design"
+msgstr "Αλλαγή Ακίνητα Σελίδα Σχεδιασμός"
+
+#: inc/menu/page-settings.php:29
+#, fuzzy
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "Αντιγράψτε το παρακάτω αρχείο και επικολλήστε το στη ρίζα του θέματος"
+
+#: inc/menu/page-settings.php:31
+msgid "Now change its name to"
+msgstr "Τώρα αλλάξει το όνομά της σε"
+
+#: inc/menu/page-settings.php:33
+msgid "Then change Property Page Template option to From Theme"
+msgstr ""
+"Στη συνέχεια, αλλάξτε την επιλογή ακινήτου προτύπου σελίδας για να Απο Θέμα"
+
+#: inc/menu/page-settings.php:34
+msgid "Now you can make changes in this template file."
+msgstr "Τώρα μπορείτε να κάνετε αλλαγές σε αυτό το αρχείο προτύπου."
+
+#: inc/menu/page-settings.php:38
+msgid "Need Help? Any Suggestions?"
+msgstr "Χρειαζεται βοήθεια? Οποιεσδήποτε προτάσεις?"
+
+#: inc/menu/page-settings.php:40
+#, fuzzy
+msgid "Please contact us"
+msgstr "Παρακαλώ επικοινωνήστε μαζί μας"
+
+#: inc/menu/page-settings.php:41
+msgid "HERE"
+msgstr "ΕΔΩ"
+
+#: inc/menu/page-settings.php:42
+#, fuzzy
+msgid "for assistance."
+msgstr "ΚΕΦΑΛΑΙΟ IV."
+
+#: inc/menu/page-settings.php:63
+msgid "Please Wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+#: inc/menu/render-admin-settings.php:138
+#: inc/menu/render-admin-settings.php:139
+#, fuzzy
+msgid "Choose a currency&hellip;"
+msgstr "Επιλέξτε ένα νόμισμα ..."
+
+#: inc/menu/render-admin-settings.php:175
+msgid "Image"
+msgstr "Εικόνα"
+
+#: inc/menu/render-admin-settings.php:176
+msgid "Select"
+msgstr "Επιλέγω"
+
+#: inc/menu/render-admin-settings.php:177
+msgid "Media"
+msgstr "Μεσο ΜΑΖΙΚΗΣ ΕΝΗΜΕΡΩΣΗΣ"
+
+#: inc/sidebar-agent-contact.php:31
+msgid "Your Name"
+msgstr "Το όνομα σου"
+
+#: inc/sidebar-agent-contact.php:34
+msgid "Your Email"
+msgstr "Η διεύθυνση του ηλεκτρονικού σου ταχυδρομείου"
+
+#: inc/sidebar-agent-contact.php:37
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: inc/sidebar-agent-contact.php:40
+msgid "Send Message"
+msgstr "Να στείλετε μήνυμα"
+
+#: shortcodes/agent-profile.php:90 shortcodes/vc-settings.php:316
+#: templates/agent.php:94
+msgid "My Properties"
+msgstr "Ακίνητα μου"
+
+#: shortcodes/carousel/carousel.php:13 shortcodes/list/list.php:51
+msgid "No Properties Found!"
+msgstr "Δεν Ακίνητα που βρέθηκαν!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "Βασικές πληροφορίες"
+
+#: shortcodes/create-property.php:13 shortcodes/divi-settings.php:31
+#: shortcodes/edit-property.php:18
+msgid "Property Title"
+msgstr "Τίτλος Ιδιοκτησίας"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "ΠΕΡΙΓΡΑΦΗ ΑΚΙΝΗΤΟΥ "
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "εικόνες"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+msgid "Click here to Upload Images"
+msgstr "Κάντε κλικ εδώ για να φορτώσετε τις εικόνες"
+
+#: shortcodes/create-property.php:69 shortcodes/edit-property.php:90
+msgid "Each tag separated by comma"
+msgstr "Κάθε ετικέτα διαχωρίζονται με κόμμα"
+
+#: shortcodes/create-property.php:77 shortcodes/edit-property.php:102
+msgid "Place on Map"
+msgstr "Θέση στο χάρτη"
+
+#: shortcodes/create-property.php:88 shortcodes/vc-settings.php:80
+msgid "Create Property"
+msgstr "Δημιουργία Ακίνητα"
+
+#: shortcodes/create-property.php:93
+msgid "Please wait! your porperty is being created..."
+msgstr "Παρακαλώ περιμένετε! το ακίνητό σας έχει δημιουργηθεί ..."
+
+#: shortcodes/divi-settings.php:9 shortcodes/vc-settings.php:179
+#, fuzzy
+msgid "List Properties"
+msgstr "Ιδιότητες λίστας"
+
+#: shortcodes/divi-settings.php:22
+#, fuzzy
+msgid "Order of properties you want to display."
+msgstr "Παροχή αριθμού των ιδιοτήτων που θέλετε να μετακινηθείτε σε μια στιγμή"
+
+#: shortcodes/divi-settings.php:28
+msgid "Date Created"
+msgstr ""
+
+#: shortcodes/divi-settings.php:29
+msgid "ID"
+msgstr ""
+
+#: shortcodes/divi-settings.php:32 shortcodes/vc-settings.php:205
+#: shortcodes/vc-settings.php:736 shortcodes/vc-settings.php:769
+msgid "Random"
+msgstr "Τυχαία"
+
+#: shortcodes/divi-settings.php:34
+#, fuzzy
+msgid "Sort retrieved properties by specific parameter."
+msgstr "Επιλέξτε την εμφάνιση ιδιοτήτων συγκεκριμένου σκοπού"
+
+#: shortcodes/divi-settings.php:37 shortcodes/vc-settings.php:211
+#: shortcodes/vc-settings.php:775
+#, fuzzy
+msgid "Property Style"
+msgstr "Στυλ ιδιοκτησίας"
+
+#: shortcodes/divi-settings.php:40
+#, fuzzy
+msgid "Choose property style."
+msgstr "Επιλέξτε στυλ εμφάνισης ιδιοτήτων"
+
+#: shortcodes/divi-settings.php:45
+#, fuzzy
+msgid "Number of properties to display at time."
+msgstr "Αριθμός ιδιοτήτων σε μια σειρά"
+
+#: shortcodes/divi-settings.php:48 shortcodes/vc-settings.php:110
+#: shortcodes/vc-settings.php:218 shortcodes/vc-settings.php:666
+msgid "Columns"
+msgstr "Στήλες"
+
+#: shortcodes/divi-settings.php:56
+msgid "6"
+msgstr ""
+
+#: shortcodes/divi-settings.php:58
+#, fuzzy
+msgid "Number of properties in a row."
+msgstr "Αριθμός ιδιοτήτων σε μια σειρά"
+
+#: shortcodes/divi-settings.php:63
+#, fuzzy
+msgid "Comma separated list of tags to display tag specific properties."
+msgstr ""
+"Λίστα ετικετών που διαχωρίζονται με κόμματα για να φιλτράρουν ιδιότητες"
+
+#: shortcodes/divi-settings.php:66 shortcodes/vc-settings.php:306
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/divi-settings.php:72
+msgid "Display pagination if there are more properties."
+msgstr ""
+
+#: shortcodes/divi-settings.php:75
+msgid "Masonry Grid"
+msgstr ""
+
+#: shortcodes/divi-settings.php:81
+msgid "Activates Justified Grid mode."
+msgstr ""
+
+#: shortcodes/divi-settings.php:84
+#, fuzzy
+msgid "Prefer Near Properties"
+msgstr "Προτιμούν πλησιέστερο καταλύματα"
+
+#: shortcodes/divi-settings.php:90
+msgid "It will enable Geo Location service. Needs SSL to work properly"
+msgstr ""
+
+#: shortcodes/divi-settings.php:93
+#, fuzzy
+msgid "Meta Filtration"
+msgstr "Φόρμα εγγραφής πράκτορα"
+
+#: shortcodes/divi-settings.php:95
+msgid "Please see details here"
+msgstr ""
+
+#: shortcodes/divi-settings.php:95
+msgid "Shortcodes"
+msgstr "σύντομους"
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:113
+msgid "Save Changes"
+msgstr "Αποθήκευση Aλλαγών"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "Αποθήκευση των αλλαγών..."
+
+#: shortcodes/edit-property.php:118
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "Παρακαλώ περίμενε! τροποποιείται το μέρος σας..."
+
+#: shortcodes/login.php:12
+msgid "Username or email"
+msgstr "Ονομα χρήστη ή διεύθυνση ηλεκτρονικού ταχυδρομίου"
+
+#: shortcodes/login.php:20
+msgid "Keep me signed in"
+msgstr "Κράτησε με συνδεδεμένο"
+
+#: shortcodes/login.php:21
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: shortcodes/map/map.php:100 shortcodes/map/nearby.php:93
+msgid "Found"
+msgstr ""
+
+#: shortcodes/my-properties.php:7
+msgid "Thumbnail"
+msgstr "Ονυξ του αντίχειρος"
+
+#: shortcodes/my-properties.php:10
+msgid "Added"
+msgstr "Προστέθηκε"
+
+#: shortcodes/my-properties.php:13
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: shortcodes/register-agent.php:35
+msgid "Sign up"
+msgstr "Εγγραφείτε"
+
+#: shortcodes/search-property.php:99
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: shortcodes/vc-settings.php:17
+#, fuzzy
+msgid "Register Agent"
+msgstr "Εγγραφείτε αντιπρόσωπος"
+
+#: shortcodes/vc-settings.php:21
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "Δημιουργεί ένα έντυπο για την εγγραφή νέου πράκτορα"
+
+#: shortcodes/vc-settings.php:26 shortcodes/vc-settings.php:68
+msgid "Redirect"
+msgstr "Ανακατεύθυνση"
+
+#: shortcodes/vc-settings.php:27
+#, fuzzy
+msgid "Provide URL to redirect after successfull registration"
+msgstr "Παρέχετε διεύθυνση URL για ανακατεύθυνση μετά την επιτυχή εγγραφή"
+
+#: shortcodes/vc-settings.php:32 shortcodes/vc-settings.php:74
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "Περιεχόμενο για συνδεδεμένους χρήστες"
+
+#: shortcodes/vc-settings.php:33 shortcodes/vc-settings.php:75
+#, fuzzy
+msgid "Provide content for already logged in users"
+msgstr "Παρέχετε περιεχόμενο για ήδη συνδεδεμένους χρήστες"
+
+#: shortcodes/vc-settings.php:38
+#, fuzzy
+msgid "Edit Agent Profile"
+msgstr "Προφίλ Μεσίτη"
+
+#: shortcodes/vc-settings.php:42
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr ""
+"Δημιουργεί μια φόρμα για την επεξεργασία του προφίλ του συνδεδεμένου προφίλ"
+
+#: shortcodes/vc-settings.php:47 shortcodes/vc-settings.php:89
+#: shortcodes/vc-settings.php:158 shortcodes/vc-settings.php:325
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "Περιεχόμενο για μη εγγεγραμμένους χρήστες"
+
+#: shortcodes/vc-settings.php:48
+#, fuzzy
+msgid "Provide content for non logged in users"
+msgstr "Παρέχετε περιεχόμενο για μη εγγεγραμμένους χρήστες"
+
+#: shortcodes/vc-settings.php:53
+#, fuzzy
+msgid "Login Agent"
+msgstr "Είσοδος Agent"
+
+#: shortcodes/vc-settings.php:57
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "Δημιουργεί μια φόρμα σύνδεσης που βασίζεται στο AJAX"
+
+#: shortcodes/vc-settings.php:62
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: shortcodes/vc-settings.php:63
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "Η επικεφαλίδα θα εμφανιστεί πάνω από τη φόρμα σύνδεσης"
+
+#: shortcodes/vc-settings.php:69
+#, fuzzy
+msgid "Provide URL to redirect after successfull login"
+msgstr "Παρέχετε διεύθυνση URL για ανακατεύθυνση μετά την επιτυχή σύνδεση"
+
+#: shortcodes/vc-settings.php:84
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "Δημιουργεί μια φόρμα για τη δημιουργία ιδιοκτησίας"
+
+#: shortcodes/vc-settings.php:90 shortcodes/vc-settings.php:159
+#: shortcodes/vc-settings.php:326
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr "Παρέχετε περιεχόμενο για εμφάνιση αν ο χρήστης δεν είναι συνδεδεμένος"
+
+#: shortcodes/vc-settings.php:95
+#, fuzzy
+msgid "List Agents"
+msgstr "Είσοδος Agent"
+
+#: shortcodes/vc-settings.php:99
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "Εμφανίζει το προφίλ συγκεκριμένου πράκτορα"
+
+#: shortcodes/vc-settings.php:104
+msgid "IDS"
+msgstr ""
+
+#: shortcodes/vc-settings.php:105
+#, fuzzy
+msgid "Comma separated ids of agents for specific listing"
+msgstr ""
+"Λίστα ετικετών που διαχωρίζονται με κόμματα για να φιλτράρουν ιδιότητες"
+
+#: shortcodes/vc-settings.php:111
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "Αριθμός ιδιοτήτων σε μια σειρά"
+
+#: shortcodes/vc-settings.php:113 shortcodes/vc-settings.php:221
+#, fuzzy
+#| msgid "2 Columns"
+msgid "1 Columns"
+msgstr "2 Στήλες"
+
+#: shortcodes/vc-settings.php:114 shortcodes/vc-settings.php:222
+#: shortcodes/vc-settings.php:669
+msgid "2 Columns"
+msgstr "2 Στήλες"
+
+#: shortcodes/vc-settings.php:115 shortcodes/vc-settings.php:223
+#: shortcodes/vc-settings.php:670
+msgid "3 Columns"
+msgstr "3 Στήλες"
+
+#: shortcodes/vc-settings.php:116 shortcodes/vc-settings.php:224
+#: shortcodes/vc-settings.php:671
+msgid "4 Columns"
+msgstr "4 στήλες"
+
+#: shortcodes/vc-settings.php:117 shortcodes/vc-settings.php:225
+#, fuzzy
+#| msgid "2 Columns"
+msgid "5 Columns"
+msgstr "2 Στήλες"
+
+#: shortcodes/vc-settings.php:124
+#, fuzzy
+#| msgid "Descending"
+msgid "Ascending or Descending"
+msgstr "Φθίνων Σειρά"
+
+#: shortcodes/vc-settings.php:134
+#, fuzzy
+msgid "How you want to order agents"
+msgstr "Πώς θέλετε να εμφανίσετε τις ιδιότητες στο χάρτη"
+
+#: shortcodes/vc-settings.php:139
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/vc-settings.php:140
+msgid "Justified Layout"
+msgstr ""
+
+#: shortcodes/vc-settings.php:142
+#, fuzzy
+#| msgid "Enable"
+msgid "enable"
+msgstr "επιτρέπω"
+
+#: shortcodes/vc-settings.php:143
+#, fuzzy
+#| msgid "Disable"
+msgid "disable"
+msgstr "Απενεργοποιήση"
+
+#: shortcodes/vc-settings.php:153
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "Αποδίδει μια φόρμα για την επεξεργασία της ιδιότητας"
+
+#: shortcodes/vc-settings.php:164
+#, fuzzy
+msgid "Single Property"
+msgstr "ε.τ.α.κ."
+
+#: shortcodes/vc-settings.php:168
+#, fuzzy
+msgid "Display a single property"
+msgstr "Εμφανίσετε ένα μόνο ακίνητο"
+
+#: shortcodes/vc-settings.php:174
+#, fuzzy
+msgid "Provide property id here"
+msgstr "Παροχή ακινήτου εδώ"
+
+#: shortcodes/vc-settings.php:183
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "Εμφανίζει τις ιδιότητες σύμφωνα με τις ρυθμίσεις"
+
+#: shortcodes/vc-settings.php:189 shortcodes/vc-settings.php:385
+#: shortcodes/vc-settings.php:754
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "Επιλέξτε μια σειρά για να εμφανίσετε τις ιδιότητες"
+
+#: shortcodes/vc-settings.php:199 shortcodes/vc-settings.php:399
+#: shortcodes/vc-settings.php:764
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "Επιλέξτε σειρά για εμφάνιση ιδιοτήτων"
+
+#: shortcodes/vc-settings.php:203 shortcodes/vc-settings.php:403
+#: shortcodes/vc-settings.php:735 shortcodes/vc-settings.php:768
+#, fuzzy
+msgid "Property Name"
+msgstr "Όνομα ιδιοκτησίας:"
+
+#: shortcodes/vc-settings.php:212 shortcodes/vc-settings.php:776
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "Επιλέξτε στυλ εμφάνισης ιδιοτήτων"
+
+#: shortcodes/vc-settings.php:219
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "Αριθμός ιδιοτήτων σε μια σειρά"
+
+#: shortcodes/vc-settings.php:231
+msgid "Top Bar"
+msgstr ""
+
+#: shortcodes/vc-settings.php:232
+msgid "Top bar to sort or change layout"
+msgstr ""
+
+#: shortcodes/vc-settings.php:241
+#, fuzzy
+msgid "Number of Properties in a Page"
+msgstr "Αριθμός ιδιοτήτων σε μια σελίδα"
+
+#: shortcodes/vc-settings.php:242
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Παρέχετε τον συνολικό αριθμό των ιδιοτήτων που θα εμφανιστούν, αφού θα "
+"εμφανιστεί η σελίδα αυτή"
+
+#: shortcodes/vc-settings.php:247
+#, fuzzy
+msgid "Property Purpose"
+msgstr "Σκοπός ιδιοκτησίας"
+
+#: shortcodes/vc-settings.php:248
+#, fuzzy
+msgid "Choose to display properties of specific purpose"
+msgstr "Επιλέξτε την εμφάνιση ιδιοτήτων συγκεκριμένου σκοπού"
+
+#: shortcodes/vc-settings.php:255
+#, fuzzy
+msgid "Choose to display properties of specific type"
+msgstr "Επιλέξτε να εμφανίζονται ιδιότητες συγκεκριμένου τύπου"
+
+#: shortcodes/vc-settings.php:261
+msgid "Property Status"
+msgstr "Κατάσταση"
+
+#: shortcodes/vc-settings.php:262
+#, fuzzy
+msgid "Choose to display properties of specific status"
+msgstr "Επιλέξτε να εμφανίζονται ιδιότητες συγκεκριμένης κατάστασης"
+
+#: shortcodes/vc-settings.php:268
+#, fuzzy
+msgid "Property Tags"
+msgstr "Αναζήτηση Ετικέτες Ακίνητα"
+
+#: shortcodes/vc-settings.php:269
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr ""
+"Λίστα ετικετών που διαχωρίζονται με κόμματα για να φιλτράρουν ιδιότητες"
+
+#: shortcodes/vc-settings.php:275 shortcodes/vc-settings.php:807
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr ""
+"Λίστα ετικετών που διαχωρίζονται με κόμματα για να φιλτράρουν ιδιότητες"
+
+#: shortcodes/vc-settings.php:280 shortcodes/vc-settings.php:423
+#: shortcodes/vc-settings.php:788
+#, fuzzy
+msgid "Filter Properties"
+msgstr "Ιδιότητες φίλτρου"
+
+#: shortcodes/vc-settings.php:281 shortcodes/vc-settings.php:424
+#: shortcodes/vc-settings.php:789
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Παρέχουν κλειδί meta και αξία σε κάθε γραμμή για να φιλτράρετε. Π.χ.: "
+"property_status | κανονική"
+
+#: shortcodes/vc-settings.php:286 shortcodes/vc-settings.php:453
+#: shortcodes/vc-settings.php:812
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "Προτιμούν πλησιέστερο καταλύματα"
+
+#: shortcodes/vc-settings.php:287 shortcodes/vc-settings.php:454
+#: shortcodes/vc-settings.php:813
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"Αυτό θα επιτρέψει την γεωγραφική τοποθεσία Trackor να παρακολουθείτε τη θέση "
+"τους επισκέπτες και θα εμφανίσει καταλύματα κοντά τους"
+
+#: shortcodes/vc-settings.php:296
+msgid "Justified Grid (Masonry)"
+msgstr ""
+
+#: shortcodes/vc-settings.php:297
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "Θα κάνει μια λίστα με ιδιότητες."
+
+#: shortcodes/vc-settings.php:307
+msgid "Enable or Disable Pagination"
+msgstr ""
+
+#: shortcodes/vc-settings.php:320
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "Εμφανίζει τις ιδιότητες του τρέχοντος συνδεδεμένου παράγοντα"
+
+#: shortcodes/vc-settings.php:331
+msgid "Agent Profile"
+msgstr "Προφίλ Μεσίτη"
+
+#: shortcodes/vc-settings.php:335
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "Εμφανίζει το προφίλ συγκεκριμένου πράκτορα"
+
+#: shortcodes/vc-settings.php:341
+#, fuzzy
+msgid "Choose agent who's profile you want to display"
+msgstr "Επιλέξτε τον παράγοντα που θέλετε να εμφανίζει το προφίλ σας"
+
+#: shortcodes/vc-settings.php:351
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr ""
+"Εμφανίζει τα αποτελέσματα αναζήτησης αν αναζητηθεί από το γραφικό στοιχείο"
+
+#: shortcodes/vc-settings.php:355
+#, fuzzy
+msgid "Properties Map"
+msgstr "Χάρτης καταλύματα"
+
+#: shortcodes/vc-settings.php:359
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "Εμφανίζει ιδιότητες σχετικά με ένα μεγάλο χάρτη"
+
+#: shortcodes/vc-settings.php:364
+#, fuzzy
+msgid "Display Properties"
+msgstr "Εμφάνιση ιδιοτήτων"
+
+#: shortcodes/vc-settings.php:365
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "Πώς θέλετε να εμφανίσετε τις ιδιότητες στο χάρτη"
+
+#: shortcodes/vc-settings.php:367
+#, fuzzy
+msgid "Properties by IDs"
+msgstr "Ακίνητα ανα αναγνωριστικά"
+
+#: shortcodes/vc-settings.php:368
+#, fuzzy
+msgid "Use Property Query"
+msgstr "Χρησιμοποιήστε την ιδιότητα ερωτήματος"
+
+#: shortcodes/vc-settings.php:374 shortcodes/vc-settings.php:800
+#, fuzzy
+msgid "Property IDs"
+msgstr "Αναγνωριστικά ιδιοκτησίας"
+
+#: shortcodes/vc-settings.php:375
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "Αναγνωριστικό ιδιοκτησίας ανά γραμμή για εμφάνιση στο χάρτη"
+
+#: shortcodes/vc-settings.php:413
+#, fuzzy
+msgid "Number of Properties"
+msgstr "Αριθμός ακινήτων"
+
+#: shortcodes/vc-settings.php:414
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "Παροχή συνολικού αριθμού των ακινήτων να δείξει. -1 για όλες τις"
+
+#: shortcodes/vc-settings.php:433
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "Ιδιότητα τύπος φιλτραρίσματος"
+
+#: shortcodes/vc-settings.php:434
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"Επιτρέπουν να εμφανίσετε τύπος ιδιότητας κουμπιά παρακάτω χάρτες με φίλτρο"
+
+#: shortcodes/vc-settings.php:443
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "Φιλτράρισμα με βάση τις ετικέτες"
+
+#: shortcodes/vc-settings.php:444
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "Παρέχει ενιαία ετικέτα σε κάθε γραμμή για να φιλτράρετε."
+
+#: shortcodes/vc-settings.php:463
+msgid "Map Height"
+msgstr "Ύψος Χάρτη"
+
+#: shortcodes/vc-settings.php:464
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "Παρέχει χάρτη ύψος π.χ.: 550px"
+
+#: shortcodes/vc-settings.php:470
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr ""
+"Λίστα ετικετών που διαχωρίζονται με κόμματα για να φιλτράρουν ιδιότητες"
+
+#: shortcodes/vc-settings.php:475
+#, fuzzy
+msgid "Loading Heading"
+msgstr "Φόρτωση κλάσης"
+
+#: shortcodes/vc-settings.php:476
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "Παρέχετε την επικεφαλίδα κειμένου φόρτωσης χάρτη"
+
+#: shortcodes/vc-settings.php:482
+#, fuzzy
+msgid "Loading Description"
+msgstr "Φόρτωση Περιγραφή"
+
+#: shortcodes/vc-settings.php:483
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "Παρέχετε περιγραφή κειμένου φόρτωσης χαρτών"
+
+#: shortcodes/vc-settings.php:489 shortcodes/vc-settings.php:567
+#, fuzzy
+msgid "Buttons Background Color"
+msgstr "Κουμπιά Χρώμα φόντου"
+
+#: shortcodes/vc-settings.php:490
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "Επιλέξτε χρώμα φόντου για τα κουμπιά χάρτη"
+
+#: shortcodes/vc-settings.php:491 shortcodes/vc-settings.php:498
+#: shortcodes/vc-settings.php:505 shortcodes/vc-settings.php:512
+#: shortcodes/vc-settings.php:519
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: shortcodes/vc-settings.php:496 shortcodes/vc-settings.php:578
+#, fuzzy
+msgid "Buttons Text Color"
+msgstr "Κουμπιά Χρώμα κειμένου"
+
+#: shortcodes/vc-settings.php:497
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "Επιλέξτε χρώμα κειμένου για τα κουμπιά χάρτη"
+
+#: shortcodes/vc-settings.php:503 shortcodes/vc-settings.php:589
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "Κουμπιά Χρώμα φόντου - Ποντίκι"
+
+#: shortcodes/vc-settings.php:504
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "Επιλέξτε χρώμα φόντου για τα κουμπιά χάρτη"
+
+#: shortcodes/vc-settings.php:510 shortcodes/vc-settings.php:600
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "qweqweqwasdasd"
+
+#: shortcodes/vc-settings.php:511
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "Επιλέξτε χρώμα κειμένου για τα κουμπιά χάρτη"
+
+#: shortcodes/vc-settings.php:517
+#, fuzzy
+msgid "Loader Color"
+msgstr "Χρώμα φορτωτή"
+
+#: shortcodes/vc-settings.php:518
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "Επιλέξτε χρώμα για το φορτωτή πλαίσιο χάρτες"
+
+#: shortcodes/vc-settings.php:525
+#, fuzzy
+msgid "Water Color"
+msgstr "Χρώμα νερού"
+
+#: shortcodes/vc-settings.php:526
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "Επιλέξτε το χρώμα νερού στο χάρτη"
+
+#: shortcodes/vc-settings.php:527 shortcodes/vc-settings.php:534
+#: shortcodes/vc-settings.php:541 shortcodes/vc-settings.php:548
+#: shortcodes/vc-settings.php:555 shortcodes/vc-settings.php:562
+#, fuzzy
+msgid "Map Colors"
+msgstr "Χρώματα χάρτη"
+
+#: shortcodes/vc-settings.php:532
+msgid "Fill Color"
+msgstr "Χρώμα γεμίσματος"
+
+#: shortcodes/vc-settings.php:533
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "Επιλέξτε φυσικό χρώμα πλήρωσης στο χάρτη"
+
+#: shortcodes/vc-settings.php:539
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "Σημεία ενδιαφέροντος Χρώμα"
+
+#: shortcodes/vc-settings.php:540
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "Επιλέξτε χρώμα Poi στο χάρτη"
+
+#: shortcodes/vc-settings.php:546
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "Σημεία ενδιαφέροντος Χρώμα απόχρωσης"
+
+#: shortcodes/vc-settings.php:547
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "Επιλέξτε χρώμα απόχρωσης στο χάρτη"
+
+#: shortcodes/vc-settings.php:553
+#, fuzzy
+msgid "Road Lightness"
+msgstr "Οδικής Ελαφρότητας"
+
+#: shortcodes/vc-settings.php:554
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "Επιλέξτε φωτεινότητα οδού στο χάρτη, Προεπιλογή: 100"
+
+#: shortcodes/vc-settings.php:560
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "Γραμμές φωτεινότητας"
+
+#: shortcodes/vc-settings.php:561
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Επιλέξτε γραμμή ελαφρότητα στο χάρτη, Προεπιλογή: 700"
+
+#: shortcodes/vc-settings.php:568
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "Χρώμα φόντου για κάτω κουμπιά"
+
+#: shortcodes/vc-settings.php:569 shortcodes/vc-settings.php:580
+#: shortcodes/vc-settings.php:591 shortcodes/vc-settings.php:602
+#: shortcodes/vc-settings.php:613
+msgid "Filter Options"
+msgstr "Ρυθμίσεις φίλτρου"
+
+#: shortcodes/vc-settings.php:579
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "Χρώμα κειμένου για τα κουμπιά κάτω"
+
+#: shortcodes/vc-settings.php:590
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "Χρώμα φόντου για κάτω κουμπιά κατάδειξης"
+
+#: shortcodes/vc-settings.php:601
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "Χρώμα κειμένου για τα κουμπιά κάτω με κατάδειξη"
+
+#: shortcodes/vc-settings.php:611
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "Χρώμα φόντου κουμπιών - ενεργό"
+
+#: shortcodes/vc-settings.php:612
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "Χρώμα φόντου για κάτω κουμπιά σε ενεργή"
+
+#: shortcodes/vc-settings.php:622
+msgid "Field Name for Icons"
+msgstr ""
+
+#: shortcodes/vc-settings.php:623
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"Παρέχουν κλειδί meta και αξία σε κάθε γραμμή για να φιλτράρετε. Π.χ.: "
+"property_status | κανονική"
+
+#: shortcodes/vc-settings.php:624 shortcodes/vc-settings.php:631
+#: shortcodes/vc-settings.php:638 shortcodes/vc-settings.php:645
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Icons"
+msgstr "Προσαρμοσμένα πεδία"
+
+#: shortcodes/vc-settings.php:629
+#, fuzzy
+#| msgid "Drag Icon URL"
+msgid "Icon URLs"
+msgstr "Σύρετε το εικονίδιο URL"
+
+#: shortcodes/vc-settings.php:630
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+
+#: shortcodes/vc-settings.php:636
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "My Location Icon Url"
+msgstr "Τοποθεσία Εικονίδιο URL"
+
+#: shortcodes/vc-settings.php:637
+msgid "Provide icon url for my location pin"
+msgstr ""
+
+#: shortcodes/vc-settings.php:643
+msgid "Circle Icon Url"
+msgstr ""
+
+#: shortcodes/vc-settings.php:644
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr ""
+
+#: shortcodes/vc-settings.php:654
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "Διανέμει μια φόρμα για την αναζήτηση ιδιοτήτων μέσω του AJAX"
+
+#: shortcodes/vc-settings.php:659
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "Ελέγξτε τα πεδία για εμφάνιση"
+
+#: shortcodes/vc-settings.php:660
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "Ελέγξτε τα απαιτούμενα πεδία για το μενού αναζήτησης"
+
+#: shortcodes/vc-settings.php:667
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "Επιλέξτε τον αριθμό των πεδίων σε κάθε σειρά"
+
+#: shortcodes/vc-settings.php:672
+msgid "6 Columns"
+msgstr "6 Στήλες"
+
+#: shortcodes/vc-settings.php:678
+#, fuzzy
+msgid "Search Button Title"
+msgstr "Αναζήτηση τίτλου κουμπιού"
+
+#: shortcodes/vc-settings.php:679
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "Παρέχει κείμενο για το κουμπί Αναζήτηση"
+
+#: shortcodes/vc-settings.php:684
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "Φίλτρο τίτλου κουμπιού"
+
+#: shortcodes/vc-settings.php:685
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "Προβλέπουν περισσότερες κουμπί φίλτρο κειμένου"
+
+#: shortcodes/vc-settings.php:690
+#, fuzzy
+msgid "Results Page"
+msgstr "Σελίδα Αναζήτησης Αποτελεσμάτων"
+
+#: shortcodes/vc-settings.php:691
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"Παρέχει το url, αυτό θα απενεργοποιήσει AJAX αναζήτηση και θα ανοίξει αυτή "
+"τη σελίδα για να εμφανίσετε αποτελέσματα. Βεβαιωθείτε ότι η επικόλληση "
+"shortcode [rem_search_results] παρέχονται σελίδα για να εμφανίσετε "
+"αποτελέσματα."
+
+#: shortcodes/vc-settings.php:696
+#, fuzzy
+msgid "Result Selector"
+msgstr "Προεπιλογή επιλεγμένο"
+
+#: shortcodes/vc-settings.php:697
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr "_blank: αν θέλετε να ανοίξετε τα αποτελέσματα σε ξεχωριστή σελίδα"
+
+#: shortcodes/vc-settings.php:702
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "Σταθερά πεδία"
+
+#: shortcodes/vc-settings.php:703
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Παρέχουν δεδομένα για τα σταθερά πεδία σε κάθε γραμμή. Π.χ.: property_status "
+"| κανονική"
+
+#: shortcodes/vc-settings.php:708
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "Σκληρός Coded περιεχόμενα"
+
+#: shortcodes/vc-settings.php:709
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"Μπορείτε να επικολλήσετε εδώ shortcode να κατάλογο ορισμένες προεπιλεγμένες "
+"ιδιότητες"
+
+#: shortcodes/vc-settings.php:714
+#, fuzzy
+msgid "Agent ID"
+msgstr "Νέα Agent Εγγεγραμμένοι"
+
+#: shortcodes/vc-settings.php:715
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr ""
+
+#: shortcodes/vc-settings.php:721
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "Επιλέξτε μια σειρά για να εμφανίσετε τις ιδιότητες"
+
+#: shortcodes/vc-settings.php:731
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "Επιλέξτε σειρά για εμφάνιση ιδιοτήτων"
+
+#: shortcodes/vc-settings.php:744
+#, fuzzy
+msgid "Touch Carousel"
+msgstr "Αγγίξτε το Carousel"
+
+#: shortcodes/vc-settings.php:748
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "Καθιστά ευέλικτη καρουσέλ του ιδιότητες"
+
+#: shortcodes/vc-settings.php:783
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "Παροχή συνολικού αριθμού των ιδιοτήτων που δείχνουν"
+
+#: shortcodes/vc-settings.php:795
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr ""
+"Παρέχει τις ετικέττες κάθε ανά γραμμή για να εμφανίσετε συγκεκριμένες "
+"ιδιότητες"
+
+#: shortcodes/vc-settings.php:801
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"Παρέχει αναγνωριστικά, αν θέλετε να εμφανίσετε συγκεκριμένες ιδιότητες, η "
+"κάθε μία ανά γραμμή"
+
+#: shortcodes/vc-settings.php:823
+#, fuzzy
+msgid "Properties in Row"
+msgstr "Καταλύματα στη σειρά"
+
+#: shortcodes/vc-settings.php:824
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr "Παροχή αριθμού των ιδιοτήτων που θέλετε να εμφανίζονται σε μια στιγμή"
+
+#: shortcodes/vc-settings.php:830
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "Ιδιότητες, για να μετακινηθείτε"
+
+#: shortcodes/vc-settings.php:831
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "Παροχή αριθμού των ιδιοτήτων που θέλετε να μετακινηθείτε σε μια στιγμή"
+
+#: shortcodes/vc-settings.php:837
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: shortcodes/vc-settings.php:838
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Ταχύτητα σε ms π.χ.: 2000"
+
+#: shortcodes/vc-settings.php:844
+msgid "Auto Play"
+msgstr "Αυτόματη εκίνηση"
+
+#: shortcodes/vc-settings.php:845
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "Επιτρέπουν να εμφανίσετε αυτόματη περιστροφή των ιδιοτήτων"
+
+#: shortcodes/vc-settings.php:855
+#, fuzzy
+msgid "Auto Play Speed"
+msgstr "Αυτόματη ταχύτητα παιχνιδιού"
+
+#: shortcodes/vc-settings.php:856
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Αυτόματη ταχύτητα παιχνιδιού σε ms Eg: 2000"
+
+#: shortcodes/vc-settings.php:862
+msgid "Arrows"
+msgstr "Βέλη"
+
+#: shortcodes/vc-settings.php:863
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "Επιτρέπουν να εμφανίσετε βέλη για την πλοήγηση"
+
+#: shortcodes/vc-settings.php:873
+#, fuzzy
+msgid "Dots"
+msgstr "Παρεστιγμένες"
+
+#: shortcodes/vc-settings.php:874
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "Επιτρέπουν να εμφανίσετε κάτω τελείες για πλοήγηση"
+
+#: templates/property/style6.php:29
+msgid "Detail"
+msgstr "Λεπτομέρεια"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "διευθυντής κτηματομεσιτικού γραφείου"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "Μια ολοκληρωμένη λύση για διαχείριση ακίνητης περιουσίας"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"
+
+#~ msgid "Any Type"
+#~ msgstr "Οποιοσδήποτε τύπος"
+
+#, fuzzy
+#~ msgid "Any Area"
+#~ msgstr "Οποιαδήποτε περιοχή"
+
+#~ msgid "Any Purpose"
+#~ msgstr "Κάθε Σκοπός"
+
+#~ msgid "Any Status"
+#~ msgstr "Κάθε Κατάσταση"
+
+#~ msgid "Property Types"
+#~ msgstr "Τύποι Ακινήτων"
+
+#, fuzzy
+#~ msgid ""
+#~ "One per line. This will add property types to select from when entering "
+#~ "properties. Leave blank to use default"
+#~ msgstr ""
+#~ "Ένας ανά γραμμή. Αυτό θα προσθέσει τύπους ιδιοκτησίας για να επιλέξετε "
+#~ "από την είσοδο των ιδιοτήτων. Αφήστε κενό για να χρησιμοποιήσετε "
+#~ "προεπιλογή"
+
+#~ msgid "Property Purposes"
+#~ msgstr "Σκοποί Ακίνητα"
+
+#, fuzzy
+#~ msgid ""
+#~ "One per line. This will add property purposes to select from when "
+#~ "entering properties. Leave blank to use default"
+#~ msgstr ""
+#~ "Ένας ανά γραμμή. Αυτό θα προσθέσει σκοπούς ιδιοκτησίας για να επιλέξετε "
+#~ "από την είσοδο στις ιδιότητες. Αφήστε κενό για να χρησιμοποιήσετε "
+#~ "προεπιλογή"
+
+#~ msgid "Property Statuses"
+#~ msgstr "Καταστάσεις Ακίνητα"
+
+#, fuzzy
+#~ msgid ""
+#~ "One per line. This will add property status to select from when entering "
+#~ "properties. Leave blank to use default"
+#~ msgstr ""
+#~ "Ένας ανά γραμμή. Αυτό θα προσθέσει την κατάσταση ιδιοκτησίας για να "
+#~ "επιλέξετε από την είσοδο στις ιδιότητες. Αφήστε κενό για να "
+#~ "χρησιμοποιήσετε προεπιλογή"
+
+#~ msgid "Select Box"
+#~ msgstr "Επιλέξτε κουτί"
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
+
+#, fuzzy
+#~ msgid "Possible Attributes"
+#~ msgstr "Πιθανά χαρακτηριστικά"
+
+#, fuzzy
+#~ msgid "Agent Registration Form"
+#~ msgstr "Φόρμα εγγραφής πράκτορα"
+
+#~ msgid "It will render a form to register new agent"
+#~ msgstr "Θα καταστήσει μια φόρμα για να δηλώσετε τη νέα πράκτορα"
+
+#, fuzzy
+#~ msgid "Create Property Form"
+#~ msgstr "Δημιουργία ιδιότητας"
+
+#~ msgid "It will render a form to create a property."
+#~ msgstr "Θα καταστήσει μια φόρμα για να δημιουργήσετε ένα ακίνητο."
+
+#, fuzzy
+#~ msgid "Edit Single Property"
+#~ msgstr "Επεξεργασία ενιαίας ιδιότητας"
+
+#, fuzzy
+#~ msgid "It will render a form to edit property on frontend."
+#~ msgstr "Θα κάνει μια φόρμα για την επεξεργασία της ιδιότητας στο μενού."
+
+#~ msgid "Login Form"
+#~ msgstr "Φόρμα σύνδεσης"
+
+#~ msgid "It will render a form to login an agent."
+#~ msgstr "Θα καταστήσει μια φόρμα για να συνδεθείτε έναν πράκτορα."
+
+#, fuzzy
+#~ msgid "List My Properties"
+#~ msgstr "Λίστα κατοικιών μου"
+
+#~ msgid "It will render a list of properties of current logged in user."
+#~ msgstr ""
+#~ "Θα καταστήσει έναν κατάλογο των ιδιοτήτων της τρέχουσας συνδεδεμένοι "
+#~ "χρήστες."
+
+#, fuzzy
+#~ msgid "Search Property Form"
+#~ msgstr "Αναζήτηση φόρμας ιδιοκτησίας"
+
+#~ msgid "It will render a form to search properties via AJAX."
+#~ msgstr "Θα καταστήσει μια φόρμα για να αναζητήσετε ακίνητα μέσω AJAX."
+
+#, fuzzy
+#~ msgid "It will render a list of properties."
+#~ msgstr "Θα κάνει μια λίστα με ιδιότητες."
+
+#, fuzzy
+#~ msgid "It displays search results of properties searched from widget."
+#~ msgstr ""
+#~ "Εμφανίζει τα αποτελέσματα αναζήτησης των ιδιοτήτων που αναζητούνται από "
+#~ "το γραφικό στοιχείο."
+
+#, fuzzy
+#~ msgid "Multiple Properties on Map"
+#~ msgstr "Πολλές ιδιότητες στο χάρτη"
+
+#, fuzzy
+#~ msgid "It displays multiple  properties on a map."
+#~ msgstr "Εμφανίζει πολλαπλές ιδιότητες σε χάρτη."
+
+#, fuzzy
+#~ msgid "Display Agent Profile"
+#~ msgstr "Εμφάνιση Προφίλ Προσωπικού"
+
+#, fuzzy
+#~ msgid "It displays profile of a single agent."
+#~ msgstr "Εμφανίζει το προφίλ ενός μόνο πράκτορα."
+
+#, fuzzy
+#~ msgid "It renders a form to edit current users profile."
+#~ msgstr "Κάνει μια φόρμα για να επεξεργαστείτε το τρέχον προφίλ χρηστών."
+
+#, fuzzy
+#~ msgid "It displays a single property by id."
+#~ msgstr "Εμφανίζει μια μοναδική ιδιότητα με id."
+
+#, fuzzy
+#~ msgid "It renders slider of selected properties based on settings."
+#~ msgstr ""
+#~ "Κάνει το ρυθμιστικό των επιλεγμένων ιδιοτήτων με βάση τις ρυθμίσεις."
+
+#, fuzzy
+#~ msgid "For more details, please visit"
+#~ msgstr "Για περισσότερες λεπτομέρειες, παρακαλώ επισκεφθείτε"
+
+#, fuzzy
+#~ msgid "Shortcode Details"
+#~ msgstr "Λεπτομέρειες Shortcode"
+
+#~ msgid "Summary"
+#~ msgstr "Περίληψη"
+
+#, fuzzy
+#~ msgid "Some Area, City"
+#~ msgstr "Κάποια περιοχή, πόλη"
+
+#, fuzzy
+#~ msgid "Provide text for ribbon of on sale properties"
+#~ msgstr "Παρέχει κείμενο για την κορδέλα του στην πώληση καταλύματα"
+
+#, fuzzy
+#~ msgid "Form Target"
+#~ msgstr "Φόρμα προορισμού"
+
+#~ msgid "Price in"
+#~ msgstr "Τιμή σε"
+
+#~ msgid "Property Country"
+#~ msgstr "Χώρα Ακίνητα"
+
+#~ msgid "Property City"
+#~ msgstr "Πόλη Ακίνητα"
+
+#~ msgid "Nickname"
+#~ msgstr "Ψευδώνυμο"
+
+#, fuzzy
+#~ msgid "Property scheduled for: <strong>%1$s</strong>."
+#~ msgstr "Ιδιότητες προγραμματισμένες για: <strong>%1$s</strong> ."
+
+#~ msgid ""
+#~ "Provide custom url for agent profile, write disable to hide info icon"
+#~ msgstr ""
+#~ "Παρέχετε προσαρμοσμένη διεύθυνση URL για το προφίλ πράκτορα, "
+#~ "απενεργοποιήστε την εγγραφή για να αποκρύψετε το εικονίδιο πληροφοριών"
+
+#~ msgid "Inline"
+#~ msgstr "Ενσωματωμένο"
+
+#, fuzzy
+#~ msgid "Box Style 1"
+#~ msgstr "Στυλ 1"
+
+#, fuzzy
+#~ msgid "Box Style 2"
+#~ msgstr "Στυλ 2"
+
+#, fuzzy
+#~ msgid "Box Style 3"
+#~ msgstr "Στυλ 3"
+
+#, fuzzy
+#~ msgid "Box Style 4"
+#~ msgstr "Στυλ πλαισίου 4"
+
+#, fuzzy
+#~ msgid "Each skill per line with value"
+#~ msgstr "Κάθε ικανότητα ανά γραμμή με αξία"
+
+#~ msgid "Social Networks"
+#~ msgstr "Κοινωνικά δίκτυα"
+
+#~ msgid "Tagline"
+#~ msgstr "σλόγκαν"
+
+#~ msgid "Facebook URL"
+#~ msgstr "Facebook URL"
+
+#~ msgid "Twitter URL"
+#~ msgstr "Twitter URL"
+
+#~ msgid "Google+ URL"
+#~ msgstr "URL Google+"
+
+#~ msgid "LinkedIn URL"
+#~ msgstr "LinkedIn URL"
+
+#, fuzzy
+#~ msgid "Grid 1"
+#~ msgstr "Κάνναβος 1Style name"
+
+#~ msgid "Grid 2"
+#~ msgstr "Πλέγμα 2"
+
+#~ msgid "Grid 3"
+#~ msgstr "Πλέγμα 3"
+
+#~ msgid "Grid 4"
+#~ msgstr "Πλέγμα 4"
