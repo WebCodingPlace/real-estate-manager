@@ -73,11 +73,10 @@ A Full Featured Properties Listing Plugin for Real Estate website with Agent Man
 - Greek
 - Persian
 - Portuguese
-- Greek
 - Serbian
 - Chinese
-- Norway
-- Israel
+- Norwegian
+- Hebrew
 - Please contact support@webcodingplace.com to request your language.
 
 
