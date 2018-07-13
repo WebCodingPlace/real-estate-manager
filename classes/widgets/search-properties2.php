@@ -1,7 +1,7 @@
 <?php
 /**
 * REM - Search Property Widget 2 (using jQueryUI)
-* since 3.59
+* since 6.2
 *
 * Copyleft (c)2018 Kernc
 * License: GPL-3.0
@@ -75,7 +75,8 @@ class REM_Search_Property_Widget2 extends WP_Widget {
 }
 </style>
 <div class="ich-settings-main-wrap">
-    <form class="rem-srch" method="get" action="<?php echo get_permalink( $result_page ); ?>">
+    <?php $form_id = 'rem-srch-' . uniqid(); ?>
+    <form class="rem-srch" id="<?php echo $form_id; ?>" method="get" action="<?php echo get_permalink( $result_page ); ?>">
         <div class="form-group" <?php if(!isset($search_field)) echo 'hidden'; ?>>
             <input class="form-control" value="<?php echo @esc_attr($_GET['search_property']); ?>" name="search_property" placeholder="<?php _e( 'Keywords','real-estate-manager' ); ?>" />
         </div>
@@ -181,8 +182,8 @@ class REM_Search_Property_Widget2 extends WP_Widget {
                             jQuery(function($){
                                 var RANGE = [<?php echo $range_min; ?>, <?php echo $range_max; ?>];
                                 var STEP = <?php echo $range_step; ?>;
-                                var $input = jQuery('#rem-srch-<?php echo $key; ?>');
-                                var slider = jQuery('#rem-srch-<?php echo $key; ?>-range').slider({
+                                var $input = jQuery('#<?php echo $form_id; ?> #rem-srch-<?php echo $key; ?>');
+                                var slider = jQuery('#<?php echo $form_id; ?> #rem-srch-<?php echo $key; ?>-range').slider({
                                     range: true,
                                     min: RANGE[0],
                                     max: RANGE[1],
@@ -220,7 +221,7 @@ class REM_Search_Property_Widget2 extends WP_Widget {
                                     }
                                 ?>
                             </select>
-                            <script>jQuery(function(){jQuery("#rem-srch-<?php echo $key; ?>").selectmenu();})</script>
+                            <script>jQuery(function(){jQuery("#<?php echo $form_id; ?> #rem-srch-<?php echo $key; ?>").selectmenu();})</script>
                         </label>
                     </div>
 
@@ -245,7 +246,6 @@ class REM_Search_Property_Widget2 extends WP_Widget {
                 <div class="form-group ui-front">
                     <label>
                         <?php echo __('Features', 'real-estate-manager'); ?>
-                        <input type="hidden" id="rem-srch-features-tags-real" name="features"/>
                         <input class="form-control" id="rem-srch-features-tags" name="_features" value="<?php echo @esc_attr($_GET['_features']); ?>"/>
                     </label>
                 </div>
@@ -258,6 +258,7 @@ class REM_Search_Property_Widget2 extends WP_Widget {
 </style>
 <script>
   jQuery( function() {
+    var $ = jQuery;
     var features = <?php echo json_encode($property_features); ?>;
     var availableTags = Object.keys(features);
     availableTags.sort();
@@ -265,16 +266,16 @@ class REM_Search_Property_Widget2 extends WP_Widget {
     function split(val) { return val.split(/,\s*/); }
     function extractLast( term ) { return split(term).pop(); }
 
-    var visibleTags = jQuery('#rem-srch-features-tags')
+    var visibleTags = $('#<?php echo $form_id; ?> #rem-srch-features-tags')
       .on('keydown', function(event) {
-        if (event.keyCode === jQuery.ui.keyCode.TAB &&
-            jQuery(this).autocomplete('instance').menu.active)
+        if (event.keyCode === $.ui.keyCode.TAB &&
+            $(this).autocomplete('instance').menu.active)
           event.preventDefault();
       })
       .autocomplete({
         minLength: 0,
         source: function(request, response) {
-          response(jQuery.ui.autocomplete.filter(availableTags, extractLast(request.term)));
+          response($.ui.autocomplete.filter(availableTags, extractLast(request.term)));
         },
         focus: function() {
           return false;
@@ -289,12 +290,14 @@ class REM_Search_Property_Widget2 extends WP_Widget {
           return false;
         }
       });
-    jQuery('form.rem-srch').submit(function(event){
-        jQuery('#rem-srch-features-tags-real').val(
-          split(visibleTags.val())
-            .map(function(val) {return features[val]})
-            .join(', ')
-        );
+    $('#<?php echo $form_id; ?>').submit(function(event){
+        split(visibleTags.val())
+          .map(function(val){return features[val]})
+          .filter(function(val){return !!val})
+          .map(function (val) {
+            $('<input type="hidden" value="1" name="detail_cbs[' + val + ']"/>')
+              .appendTo('#<?php echo $form_id; ?>');
+          });
     });
   });
 </script>
