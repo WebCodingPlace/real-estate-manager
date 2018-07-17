@@ -820,7 +820,7 @@ function rem_get_search_query($data){
                         'compare' => '>=',
                     ),
                 );
-            } else if (preg_match('/^\d{1,}-\d{1,}/', $data[$field['key']])) {
+            } else if (preg_match('/^\d{1,}\s*-\s*\d{1,}/', $data[$field['key']])) {
                 $area_arr = explode('-', $data[$field['key']]);
                 $args['meta_query'][] = array(
                     array(
