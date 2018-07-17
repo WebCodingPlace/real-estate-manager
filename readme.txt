@@ -3,6 +3,7 @@ Contributors: Rameez_Iqbal
 Tags: real estate, property, listings,  wp property, realty, real estate manager, properties, listing, wpml, property management system, wordpress real estate, real estate CMS, wp real estate, wp agent, German, Spanish, Russian, Arabic, Czech, Persian, Greek, Danish
 Donate link: https://www.paypal.me/webcodingplace
 Requires at least: 3.5
+Requires PHP: 5.3
 Tested up to: 4.9
 Stable tag: 6.0
 License: GPLv2 or later
@@ -10,74 +11,73 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A Full Featured Properties Listing Plugin for Real Estate website with Agent Management System. Responsive Properties Grid and Carousels are included.
 
-== Description ==
-<b>Real Estate Manager</b> is a Responsive Property Listing WordPress Plugin for Full Feature Real Estate website and Portal. It has nice & clean designs for property templates and it adds special integration features like Property Types, Property Video, Gallery Slider, Advanced AJAX Search, Google Maps and Leaflet Maps with property location markers, Map Clusters,  Grid listings, Front End Property submission, Search Widget, Mortgage Calculator, easy to use settings and much more...
-<br>
-<ul>
-	<li><a href="http://rem.webcodingplace.com/">Live Demo</a></li>
-	<li><a href="https://youtu.be/vsiqcN4sPOw">Basic Setup - Video</a></li>
-	<li><a href="https://www.youtube.com/watch?v=7wP2W1DZYEU">Register Agent - Video</a></li>
-	<li><a href="https://webcodingplace.com/real-estate-manager-documentation/">Documentation</a></li>
-	<li><a href="http://rem.webcodingplace.com/how-it-works/">How it Works</a></li>
-	<li><a href="https://wpml.org/plugin/properties-and-agents-real-estate-manager/">WPML Compatible</a></li>
-	<li><a href="https://webcodingplace.com/contact-us/">Feature Request / Help</a></li>
-</ul>
-<h3>Features</h3>
-<ul>
- 	<li><strong>5+ Listing Styles:  </strong>Real Estate Manager comes with 5+ property listing styles including list and grid views.</li>
- 	<li><strong>Responsive View:  </strong>Its fully responsive with all modern browsers and devices.</li>
- 	<li><strong>Properties Map:  </strong>Display multiple properties on single large map with their locations.</li>
- 	<li><strong>Nearby Properties: </strong>Automatically display properties which are close to the visitor's location.</li>
- 	<li><strong>Filter properties:</strong> Let the visitors to filter properties based on property types right from the map.</li>
- 	<li><strong>Property Carousels:</strong> Integrated touch enabled carousel sliders for property listings.</li>
- 	<li><strong>Unlimited Features:</strong> Add unlimited property features and options.</li>
- 	<li><strong>Property Gallery:</strong> Lets you to add unlimited gallery photos for each property, that will display on single property page in touch friendly slider.</li>
- 	<li><strong>Property CPT:</strong> Custom Post Type is used for managing properties with responsive frontend template. You can also customize property slug and template files by including them in your theme.</li>
- 	<li><strong>WPML:</strong> Its compatible with WPML to let you create multi language real estate site.</li>
- 	<li><strong>Visual Composer:</strong> 15+ Visual Composer elements are added to easily insert and manage shortcodes.</li>
- 	<li><strong>Optimized Code:</strong> Based on WP Codex Standards, only relevant scripts and styles loads to give you fast experience and avoiding conflicts.</li>
- 	<li><strong>Email Alerts:</strong> Email alerts for property inquiry and on agent registration with customize email messages.</li>
- 	<li><strong>Drag Drop Fields:</strong> Create custom property fields using drag drop fields builder.</li>
- 	<li><strong>Price Range Slider:</strong> Let the users to choose range of their budget while searching properties using price range slider.</li>
- 	<li><strong>Fast AJAX Search:</strong> AJAX based fast search for listings with advanced search queries.</li>
- 	<li><strong>Agent Profile:</strong> Agent profile management with their social links and other settings that can be managed from profile settings.</li>
- 	<li><strong>Widgets Included:</strong> Search Widget and Mortgage Calculator Widgets are available to add to the widget areas.</li>
- 	<li><strong>Frontend Property Submission:</strong> Create properties from frontend without even going to WordPress dashboard by using just one shortcode.</li>
- 	<li><strong>Frontend Agent Registration:</strong> Register agents using builtin register form, they should be approved after registration by site administrator.</li>
- 	<li><strong>Agent Login:</strong> AJAX based login and custom redirection after successful login.</li>
- 	<li><strong>My Properties:</strong> Display a list of current logged in agent's properties with actions to delete or edit them using just a single shortcode.</li>
- 	<li><strong>Frontend Profile Editing:</strong> Let the registered agents to edit their profile from frontend.</li>
- 	<li><strong>Developers Friendly:</strong> Real Estate Manager is based on actions and filter to let the developers easily modify or add new functionalities.</li>
- 	<li><strong>Property Video:</strong> Separate section to display video of internal structure of properties with responsive video player.</li>
- 	<li><strong>File Attachments:</strong> Easily attach all type of files with properties like floor plans, wire frames or documents.</li>
- 	<li><strong>Translation Ready:</strong> You can easily change the English strings into your own language using any translation plugin, like Loco Translate. More than 15 languages are already translated in this plugin and POT file is also included to add your own language.</li>
- 	<li><strong>Custom Map Icons:</strong> You can replace default map icons with your own images easily from settings by uploading them.</li>
- 	<li><strong>Customize Colors:</strong> You can customize the color scheme based on your theme, you can choose colors from settings for each element individually.</li>
- 	<li><strong>Custom Currency and Area Unit:</strong> Easily change currency by just selecting your country.</li>
- 	<li><strong>Custom Labels:</strong> You can change all labels and headings into your own text easily.</li>
- 	<li><strong>Map Types:</strong> You can choose map style from four styles. Road Map, Earth, Hybrid or Tarrain.</li>
- 	<li><strong>Map Zoom Level:</strong> Customize map zoom level and default latitude and longitude easily.</li>
- 	<li><strong>Disable Scripts:</strong> You can disable bootstrap and font awesome css to load from plugin if your theme is already loading them.</li>
-</ul>
-<h3>Translations</h3>
-<ul>
-	<li>English</li>
-	<li>German</li>
-	<li>Spanish</li>
-	<li>Russian</li>
-	<li>Arabic</li>
-	<li>Czech</li>
-	<li>Danish</li>
-	<li>Greek</li>
-	<li>Persian</li>
-	<li>Portuguese</li>
-	<li>Greek</li>
-	<li>Serbian</li>
-	<li>Chinese</li>
-	<li>Norway</li>
-	<li>Israel</li>
-	<li>Please contact support@webcodingplace.com to request your language.</li>
-</ul>
+### Description
+
+**Real Estate Manager** is a responsive property listing WordPress plugin for full feature real estate website and portal. It has nice & clean designs for property templates and it adds special integration features like Property Types, Property Video, Gallery Slider, Advanced AJAX Search, Google Maps and Leaflet Maps with property location markers, Map Clusters,  Grid listings, Front End Property submission, Search Widget, Mortgage Calculator, easy to use settings and much more...
+
+- [Live Demo](http://rem.webcodingplace.com/)
+- [Basic Setup - Video](https://youtu.be/vsiqcN4sPOw)
+- [Register Agent - Video](https://www.youtube.com/watch?v=7wP2W1DZYEU)
+- [Documentation](https://webcodingplace.com/real-estate-manager-documentation/)
+- [How it Works](http://rem.webcodingplace.com/how-it-works/)
+- [WPML Compatible](https://wpml.org/plugin/properties-and-agents-real-estate-manager/)
+- [Feature Request / Help](https://webcodingplace.com/contact-us/)
+- [Source code on GitHub](https://github.com/WebCodingPlace/real-estate-manager)
+
+### Features
+
+- **5+ Listing Styles:** Real Estate Manager comes with 5+ property listing styles including list and grid views.
+- **Responsive View:** Its fully responsive with all modern browsers and devices.
+- **Properties Map:** Display multiple properties on single large map with their locations.
+- **Nearby Properties:** Automatically display properties which are close to the visitor's location.
+- **Filter properties:**  Let the visitors to filter properties based on property types right from the map.
+- **Property Carousels:**  Integrated touch enabled carousel sliders for property listings.
+- **Unlimited Features:**  Add unlimited property features and options.
+- **Property Gallery:**  Lets you to add unlimited gallery photos for each property, that will display on single property page in touch friendly slider.
+- **Property CPT:**  Custom Post Type is used for managing properties with responsive frontend template. You can also customize property slug and template files by including them in your theme.
+- **WPML:**  Its compatible with WPML to let you create multi language real estate site.
+- **Visual Composer:**  15+ Visual Composer elements are added to easily insert and manage shortcodes.
+- **Optimized Code:**  Based on WP Codex Standards, only relevant scripts and styles loads to give you fast experience and avoiding conflicts.
+- **Email Alerts:**  Email alerts for property inquiry and on agent registration with customize email messages.
+- **Drag Drop Fields:**  Create custom property fields using drag drop fields builder.
+- **Price Range Slider:**  Let the users to choose range of their budget while searching properties using price range slider.
+- **Fast AJAX Search:**  AJAX based fast search for listings with advanced search queries.
+- **Agent Profile:**  Agent profile management with their social links and other settings that can be managed from profile settings.
+- **Widgets Included:**  Search Widget and Mortgage Calculator Widgets are available to add to the widget areas.
+- **Frontend Property Submission:**  Create properties from frontend without even going to WordPress dashboard by using just one shortcode.
+- **Frontend Agent Registration:**  Register agents using builtin register form, they should be approved after registration by site administrator.
+- **Agent Login:**  AJAX based login and custom redirection after successful login.
+- **My Properties:**  Display a list of current logged in agent's properties with actions to delete or edit them using just a single shortcode.
+- **Frontend Profile Editing:**  Let the registered agents to edit their profile from frontend.
+- **Developers Friendly:**  Real Estate Manager is based on actions and filter to let the developers easily modify or add new functionalities.
+- **Property Video:**  Separate section to display video of internal structure of properties with responsive video player.
+- **File Attachments:**  Easily attach all type of files with properties like floor plans, wire frames or documents.
+- **Translation Ready:**  You can easily change the English strings into your own language using any translation plugin, like Loco Translate. More than 15 languages are already translated in this plugin and POT file is also included to add your own language.
+- **Custom Map Icons:**  You can replace default map icons with your own images easily from settings by uploading them.
+- **Customize Colors:**  You can customize the color scheme based on your theme, you can choose colors from settings for each element individually.
+- **Custom Currency and Area Unit:**  Easily change currency by just selecting your country.
+- **Custom Labels:**  You can change all labels and headings into your own text easily.
+- **Map Types:**  You can choose map style from four styles. Road Map, Earth, Hybrid or Tarrain.
+- **Map Zoom Level:**  Customize map zoom level and default latitude and longitude easily.
+- **Disable Scripts:**  You can disable bootstrap and font awesome css to load from plugin if your theme is already loading them.
+
+### Translations
+
+- English
+- German
+- Spanish
+- Russian
+- Arabic
+- Czech
+- Danish
+- Greek
+- Persian
+- Portuguese
+- Serbian
+- Chinese
+- Norwegian
+- Hebrew
+- Please contact support@webcodingplace.com to request your language.
 
 
 == Installation ==
