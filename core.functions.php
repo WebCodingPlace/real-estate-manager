@@ -820,7 +820,7 @@ function rem_get_search_query($data){
                         'compare' => '>=',
                     ),
                 );
-            } else if (preg_match('/^\d{1,}-\d{1,}/', $data[$field['key']])) {
+            } else if (preg_match('/^\d{1,}\s*-\s*\d{1,}/', $data[$field['key']])) {
                 $area_arr = explode('-', $data[$field['key']]);
                 $args['meta_query'][] = array(
                     array(
@@ -874,10 +874,13 @@ function rem_get_search_query($data){
 
     /**
      * Searching for Features
+     * details_cbs is array with keys feature names. The results
+     * contain properties that have ALL specified features.
      */
     if (isset($data['detail_cbs']) && $data['detail_cbs'] != '') {
-
-        foreach ($data['detail_cbs'] as $cbname => $value) {
+        $features = array_intersect(array_keys($data['detail_cbs']),
+                                    $rem_ob->get_all_property_features());
+        foreach ($features as $cbname) {
             $args['meta_query'][] = array(
                 array(
                     'key'     => 'rem_property_detail_cbs',
@@ -887,7 +890,6 @@ function rem_get_search_query($data){
             );
         }
     }
-
     return $args;
 }
 
