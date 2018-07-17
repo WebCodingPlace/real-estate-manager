@@ -109,7 +109,7 @@ $p_tags = wp_get_post_terms( $_GET['property_id'] ,'rem_property_tag' );
 						<div id="position"><i class="fa fa-map-marker"></i> <?php _e( 'Drag the pin to the location on the map', 'real-estate-manager' ); ?></div>
 					</div>
 					<br>
-					<input type="hidden" name="property_id" value="<?php echo $_GET['property_id']; ?>">
+					<input type="hidden" name="property_id" value="<?php echo esc_attr($_GET['property_id']); ?>">
 					<input class="btn btn-default" type="submit" value="<?php _e( 'Save Changes', 'real-estate-manager' ); ?>">
 					<br>
 					<br>
