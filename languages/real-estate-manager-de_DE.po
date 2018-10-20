@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Real Estate Manager Pro\n"
 "POT-Creation-Date: 2018-06-28 14:19+0500\n"
-"PO-Revision-Date: 2018-06-28 14:22+0500\n"
+"PO-Revision-Date: 2018-10-20 20:33+0500\n"
 "Last-Translator: \n"
 "Language-Team: rameez7759@gmail.com\n"
 "Language: de_DE\n"
@@ -331,7 +331,7 @@ msgstr "Email wurde erfolgreich versendet"
 
 #: classes/setup.class.php:524
 msgid "There is some problem, please try later"
-msgstr "Es gibt ein Problem, bitte versuche es spÃ¤ter"
+msgstr "Es gibt ein Problem, bitte versuche es später"
 
 #: classes/setup.class.php:532
 msgid "Agents"
@@ -477,13 +477,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Added"
 msgid "Add"
-msgstr "HinzugefÃ¼gt"
+msgstr "Hinzugefügt"
 
 #: classes/shortcodes.class.php:1330 core.functions.php:625
 #, fuzzy
 #| msgid "Provide heading text for attachments on property pages"
 msgid "Select attachments for property"
-msgstr "Geben Sie Ãœberschriftstext fÃ¼r Anlagen auf Eigenschaftenseiten an"
+msgstr "Geben Sie Überschriftstext für Anlagen auf Eigenschaftenseiten an"
 
 #: classes/shortcodes.class.php:1330 core.functions.php:625
 msgid "Upload"
@@ -601,7 +601,7 @@ msgstr "Keine Seiten gefunden"
 #: classes/widgets/search-properties.php:209
 msgid "Paste following shortcode in selected page to display results"
 msgstr ""
-"Fügen Sie den folgenden Shortcode in die ausgewÃ¤hlte Seite ein, um die "
+"Fügen Sie den folgenden Shortcode in die ausgewählte Seite ein, um die "
 "Ergebnisse anzuzeigen"
 
 #: classes/widgets/tags-cloud.php:13
@@ -924,7 +924,7 @@ msgstr "Nordkoreanischer Won"
 
 #: core.functions.php:193
 msgid "South Korean won"
-msgstr "SÃ¼dkoreanischer Won"
+msgstr "Südkoreanischer Won"
 
 #: core.functions.php:194
 msgid "Kuwaiti dinar"
@@ -1084,7 +1084,7 @@ msgstr "Katar-Riyal"
 
 #: core.functions.php:233
 msgid "Romanian leu"
-msgstr "RomÃ¤nischer Leu"
+msgstr "Romänischer Leu"
 
 #: core.functions.php:234
 msgid "Serbian dinar"
@@ -1140,7 +1140,7 @@ msgstr "Suriname-Dollar"
 
 #: core.functions.php:247
 msgid "South Sudanese pound"
-msgstr "SÃ¼dsudanesischer Pfund"
+msgstr "Südsudanesischer Pfund"
 
 #: core.functions.php:248
 msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
@@ -1152,11 +1152,11 @@ msgstr "Syrischer Pfund"
 
 #: core.functions.php:250
 msgid "Swazi lilangeni"
-msgstr "SwasilÃ¤ndischer Lilangeni"
+msgstr "Swasiländischer Lilangeni"
 
 #: core.functions.php:251
 msgid "Thai baht"
-msgstr "ThailÃ¤ndische Baht"
+msgstr "Thailändische Baht"
 
 #: core.functions.php:252
 msgid "Tajikistani somoni"
@@ -1176,7 +1176,7 @@ msgstr "Tongaischer pa&#x2bb;anga"
 
 #: core.functions.php:256
 msgid "Turkish lira"
-msgstr "TÃ¼rkische Lira"
+msgstr "Türkische Lira"
 
 #: core.functions.php:257
 msgid "Trinidad and Tobago dollar"
@@ -1184,7 +1184,7 @@ msgstr "Trinidad und Tobago Dollar"
 
 #: core.functions.php:258
 msgid "New Taiwan dollar"
-msgstr "Neue Tabelle hinzufÃ¼gen"
+msgstr "Neue Tabelle hinzufügen"
 
 #: core.functions.php:259
 msgid "Tanzanian shilling"
@@ -1248,7 +1248,7 @@ msgstr "Jemen-Rial"
 
 #: core.functions.php:274
 msgid "South African rand"
-msgstr "SÃ¼dafrikanischer Rand"
+msgstr "Südafrikanischer Rand"
 
 #: core.functions.php:275
 msgid "Zambian kwacha"
@@ -1453,7 +1453,7 @@ msgstr "Suche Immobilien-Tags"
 
 #: inc/admin/register-property.php:73
 msgid "Popular Tags"
-msgstr "beliebte SchlagwÃ¶rter"
+msgstr "beliebte Schlagwörter"
 
 #: inc/admin/register-property.php:74
 msgid "All Tags"
@@ -1692,7 +1692,7 @@ msgstr "Anzahl der Bäder"
 
 #: inc/arrays/property-fields.php:136
 msgid "Size - "
-msgstr "GrÃ¶sse"
+msgstr "Grösse"
 
 #: inc/arrays/property-fields.php:146
 msgid "Address"
@@ -1784,7 +1784,7 @@ msgstr "Rechts mit Leerzeichen"
 
 #: inc/menu/admin-settings-arr.php:29
 msgid "Position of the Currency Symbol"
-msgstr "Die Position des WÃ¤hrungssymbols."
+msgstr "Die Position des Währungssymbols."
 
 #: inc/menu/admin-settings-arr.php:35
 msgid "Thousand Separator"
@@ -1901,7 +1901,7 @@ msgstr "Agent-Seitenvorlage"
 
 #: inc/menu/admin-settings-arr.php:128
 msgid "Choose agent page display layout"
-msgstr "WÃ¤hlen Sie das Layout der Agentenseite aus"
+msgstr "Wählen Sie das Layout der Agentenseite aus"
 
 #: inc/menu/admin-settings-arr.php:137
 msgid "Container Maximum Width"
@@ -1971,7 +1971,7 @@ msgstr "Seitenleiste der Agentenseite"
 
 #: inc/menu/admin-settings-arr.php:165
 msgid "Choose sidebar for agent details page"
-msgstr "WÃ¤hlen Sie die Seitenleiste fÃ¼r die Agentendetailseite"
+msgstr "Wählen Sie die Seitenleiste für die Agentendetailseite"
 
 #: inc/menu/admin-settings-arr.php:170
 msgid "Property Edit Page"
@@ -1980,7 +1980,7 @@ msgstr "Eigenschaft Bearbeiten Seite"
 #: inc/menu/admin-settings-arr.php:171
 msgid "Paste shortcode [rem_edit_property] on selected page"
 msgstr ""
-"FÃ¼gen Sie den Shortcode [rem_edit_property] auf der ausgewÃ¤hlten Seite ein"
+"Fügen Sie den Shortcode [rem_edit_property] auf der ausgewählten Seite ein"
 
 #: inc/menu/admin-settings-arr.php:178
 #, fuzzy
@@ -1996,7 +1996,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Choose sidebar for single property page"
 msgid "Show or hide property map on single property page"
-msgstr "WÃ¤hlen Sie die Seitenleiste fÃ¼r eine einzelne Eigenschaftenseite"
+msgstr "Wählen Sie die Seitenleiste für eine einzelne Eigenschaftenseite"
 
 #: inc/menu/admin-settings-arr.php:195
 msgid "Property Page Sidebar Card"
@@ -2015,7 +2015,7 @@ msgstr "Eigenschaftenseite Seitenleiste"
 
 #: inc/menu/admin-settings-arr.php:206
 msgid "Choose sidebar for single property page"
-msgstr "WÃ¤hlen Sie die Seitenleiste fÃ¼r eine einzelne Eigenschaftenseite"
+msgstr "Wählen Sie die Seitenleiste für eine einzelne Eigenschaftenseite"
 
 #: inc/menu/admin-settings-arr.php:211
 msgid "Gallery Slider Width"
@@ -2121,7 +2121,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Labels and Headings"
 msgid "Labels and Data"
-msgstr "Etiketten und Ãœberschriften"
+msgstr "Etiketten und Überschriften"
 
 #: inc/menu/admin-settings-arr.php:275
 msgid "Icons, Labels and Data"
@@ -2180,7 +2180,7 @@ msgstr "Stil der Suchergebnisse"
 
 #: inc/menu/admin-settings-arr.php:313
 msgid "Choose style for search results"
-msgstr "WÃ¤hlen Sie Stil fÃ¼r Suchergebnisse"
+msgstr "Wählen Sie Stil für Suchergebnisse"
 
 #: inc/menu/admin-settings-arr.php:320
 msgid "Search Results Columns"
@@ -2188,7 +2188,7 @@ msgstr "Suchergebnisse Spalten"
 
 #: inc/menu/admin-settings-arr.php:321
 msgid "Choose columns in a row for box styles"
-msgstr "WÃ¤hlen Sie Spalten fÃ¼r Boxstile aus"
+msgstr "Wählen Sie Spalten für Boxstile aus"
 
 #: inc/menu/admin-settings-arr.php:323 shortcodes/divi-settings.php:51
 msgid "1"
@@ -2219,8 +2219,8 @@ msgid ""
 "Provide area range each per line, to display dropdown of area ranges instead "
 "of input field when searching."
 msgstr ""
-"Geben Sie fÃ¼r jede Zeile einen Bereichsbereich an, um bei der Suche "
-"Dropdown-Felder fÃ¼r Bereiche anstelle von Eingabefeldern anzuzeigen."
+"Geben Sie für jede Zeile einen Bereichsbereich an, um bei der Suche "
+"Dropdown-Felder für Bereiche anstelle von Eingabefeldern anzuzeigen."
 
 #: inc/menu/admin-settings-arr.php:341
 msgid "Search Bedrooms Options"
@@ -2231,7 +2231,7 @@ msgid ""
 "Provide bedrooms range each per line, to display dropdown of bedroom ranges "
 "instead of input field when searching."
 msgstr ""
-"Geben Sie die Schlafzimmer fÃ¼r jede Zeile an, um die Dropdown-Liste der "
+"Geben Sie die Schlafzimmer für jede Zeile an, um die Dropdown-Liste der "
 "Schlafzimmerbereiche anstelle des Eingabefelds anzuzeigen."
 
 #: inc/menu/admin-settings-arr.php:348
@@ -2243,7 +2243,7 @@ msgid ""
 "Provide bathrooms range each per line, to display dropdown of bathroom "
 "ranges instead of input field when searching."
 msgstr ""
-"Stellen Sie Badezimmer jeder Strecke pro Linie zur VerfÃ¼gung, um Drop-Down "
+"Stellen Sie Badezimmer jeder Strecke pro Linie zur Verfügung, um Drop-Down "
 "der Badezimmerbereiche anstelle des Eingabefeldes beim Suchen anzuzeigen."
 
 #: inc/menu/admin-settings-arr.php:355
@@ -2254,14 +2254,14 @@ msgstr "Suchergebnisse Linkziel"
 msgid ""
 "Provide link target for results of search form. _blank to open in new tab"
 msgstr ""
-"Geben Sie ein Linkziel fÃ¼r die Ergebnisse des Suchformulars an. _blank, um "
-"in einem neuen Tab zu Ã¶ffnen"
+"Geben Sie ein Linkziel für die Ergebnisse des Suchformulars an. _blank, um "
+"in einem neuen Tab zu öffnen"
 
 #: inc/menu/admin-settings-arr.php:358
 #, fuzzy
 #| msgid "Add New Tag"
 msgid "New Tab"
-msgstr "Neuen Tag hinzufÃ¼gen"
+msgstr "Neuen Tag hinzufügen"
 
 #: inc/menu/admin-settings-arr.php:359
 msgid "Same Tab"
@@ -2287,7 +2287,7 @@ msgstr "Minimaler Preis"
 
 #: inc/menu/admin-settings-arr.php:383
 msgid "Minimum price for price slider"
-msgstr "Mindestpreis fÃ¼r Preisschieber"
+msgstr "Mindestpreis für Preisschieber"
 
 #: inc/menu/admin-settings-arr.php:389
 msgid "Maximum Price"
@@ -2295,7 +2295,7 @@ msgstr "Maximaler Preis"
 
 #: inc/menu/admin-settings-arr.php:390
 msgid "Maximum price for price slider"
-msgstr "HÃ¶chstpreis fÃ¼r Preisschieber"
+msgstr "Höchstpreis für Preisschieber"
 
 #: inc/menu/admin-settings-arr.php:396
 msgid "Step"
@@ -2303,7 +2303,7 @@ msgstr "Schritt"
 
 #: inc/menu/admin-settings-arr.php:397
 msgid "Step or interval for price slider"
-msgstr "Schritt oder Intervall fÃ¼r Preisschieber"
+msgstr "Schritt oder Intervall für Preisschieber"
 
 #: inc/menu/admin-settings-arr.php:403
 msgid "Default Minimum Price"
@@ -2311,15 +2311,15 @@ msgstr "Standard Mindestpreis"
 
 #: inc/menu/admin-settings-arr.php:404
 msgid "Default Minimum price for price slider"
-msgstr "Default Minimaler Preis fÃ¼r Preisschieber"
+msgstr "Default Minimaler Preis für Preisschieber"
 
 #: inc/menu/admin-settings-arr.php:410
 msgid "Default Maximum Price"
-msgstr "Standard-HÃ¶chstpreis"
+msgstr "Standard-Höchstpreis"
 
 #: inc/menu/admin-settings-arr.php:411
 msgid "Default Maximum price for price slider"
-msgstr "Default Maximaler Preis fÃ¼r Preisschieber"
+msgstr "Default Maximaler Preis für Preisschieber"
 
 #: inc/menu/admin-settings-arr.php:420
 msgid "Email Messages"
@@ -2337,7 +2337,7 @@ msgstr "Diese Nachricht wird gesendet"
 msgid ""
 " when new agent is registered. You can use %username% and %email% for details"
 msgstr ""
-"Wenn neuer Agent registriert ist. Sie kÃ¶nnen% username% und% email% fÃ¼r "
+"Wenn neuer Agent registriert ist. Sie können% username% und% email% für "
 "Details verwenden"
 
 #: inc/menu/admin-settings-arr.php:434
@@ -2349,8 +2349,8 @@ msgid ""
 "Email Message for agent when new agent is registered but status is pending. "
 "You can use %username% and %email% for details"
 msgstr ""
-"E-Mail-Nachricht fÃ¼r Agent, wenn neuer Agent registriert ist, aber Status "
-"steht noch aus. Sie kÃ¶nnen% username% und% email% fÃ¼r Details verwenden"
+"E-Mail-Nachricht für Agent, wenn neuer Agent registriert ist, aber Status "
+"steht noch aus. Sie können% username% und% email% für Details verwenden"
 
 #: inc/menu/admin-settings-arr.php:441
 msgid "Agent Approved"
@@ -2361,8 +2361,8 @@ msgid ""
 "Email Message for agent when registered agent is approved. You can use "
 "%username% and %email% for details"
 msgstr ""
-"E-Mail-Nachricht fÃ¼r Agent, wenn registrierter Agent genehmigt ist. Sie "
-"kÃ¶nnen% username% und% email% fÃ¼r Details verwenden"
+"E-Mail-Nachricht für Agent, wenn registrierter Agent genehmigt ist. Sie "
+"können% username% und% email% für Details verwenden"
 
 #: inc/menu/admin-settings-arr.php:448
 msgid "Agent Rejected"
@@ -2373,8 +2373,8 @@ msgid ""
 "Email Message for agent when registered agent is rejected. You can use "
 "%username% and %email% for details"
 msgstr ""
-"E-Mail-Nachricht fÃ¼r Agent, wenn registrierter Agent abgelehnt wird. Sie "
-"kÃ¶nnen% username% und% email% fÃ¼r Details verwenden"
+"E-Mail-Nachricht für Agent, wenn registrierter Agent abgelehnt wird. Sie "
+"können% username% und% email% für Details verwenden"
 
 #: inc/menu/admin-settings-arr.php:455
 #, fuzzy
@@ -2397,7 +2397,7 @@ msgid ""
 " when new property is submitted. You can use variables %username% "
 "%approve_url% and %email% for details"
 msgstr ""
-"Wenn neuer Agent registriert ist. Sie kÃ¶nnen% username% und% email% fÃ¼r "
+"Wenn neuer Agent registriert ist. Sie können% username% und% email% für "
 "Details verwenden"
 
 #: inc/menu/admin-settings-arr.php:462
@@ -2431,8 +2431,8 @@ msgid ""
 "Provide Additional Email addresses each per line to cc mail when visitor "
 "fills the contact agent form."
 msgstr ""
-"Geben Sie zusÃ¤tzliche E-Mail-Adressen pro Zeile an CC-Mail an, wenn der "
-"Besucher das Kontaktformular fÃ¼llt."
+"Geben Sie zusätzliche E-Mail-Adressen pro Zeile an CC-Mail an, wenn der "
+"Besucher das Kontaktformular füllt."
 
 #: inc/menu/admin-settings-arr.php:486
 #, fuzzy
@@ -2448,8 +2448,8 @@ msgstr "Site key"
 #| msgid "Provide Google Maps API key here. You can create API key "
 msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
 msgstr ""
-"Geben Sie den Google Maps API-SchlÃ¼ssel hier ein. Sie kÃ¶nnen einen API-"
-"SchlÃ¼ssel erstellen"
+"Geben Sie den Google Maps API-Schlüssel hier ein. Sie können einen API-"
+"Schlüssel erstellen"
 
 #: inc/menu/admin-settings-arr.php:499
 msgid "Secret key"
@@ -2460,14 +2460,14 @@ msgstr "Secret key"
 #| msgid "Provide Google Maps API key here. You can create API key "
 msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
 msgstr ""
-"Geben Sie den Google Maps API-SchlÃ¼ssel hier ein. Sie kÃ¶nnen einen API-"
-"SchlÃ¼ssel erstellen"
+"Geben Sie den Google Maps API-Schlüssel hier ein. Sie können einen API-"
+"Schlüssel erstellen"
 
 #: inc/menu/admin-settings-arr.php:505
 #, fuzzy
 #| msgid "Agent Registration Form"
 msgid "Agent Registration"
-msgstr "Anmeldeformular fÃ¼r Agenten"
+msgstr "Anmeldeformular für Agenten"
 
 #: inc/menu/admin-settings-arr.php:506
 msgid "Check to enable captcha on new agent registration."
@@ -2487,68 +2487,68 @@ msgstr ""
 
 #: inc/menu/admin-settings-arr.php:521
 msgid "Labels and Headings"
-msgstr "Etiketten und Ãœberschriften"
+msgstr "Etiketten und Überschriften"
 
 #: inc/menu/admin-settings-arr.php:528 inc/menu/admin-settings-arr.php:535
 msgid "Features Heading"
-msgstr "Eigenschaften Ãœberschrift"
+msgstr "Eigenschaften Überschrift"
 
 #: inc/menu/admin-settings-arr.php:529 inc/menu/admin-settings-arr.php:536
 msgid "Provide heading text for property features on property pages"
-msgstr "Geben Sie Ãœberschrift Text fÃ¼r Eigenschaften auf Immobilien-Seiten"
+msgstr "Geben Sie Überschrift Text für Eigenschaften auf Immobilien-Seiten"
 
 #: inc/menu/admin-settings-arr.php:542
 msgid "Video Heading"
-msgstr "Video Ãœberschrift"
+msgstr "Video Überschrift"
 
 #: inc/menu/admin-settings-arr.php:543
 msgid "Provide heading text for property video on property pages"
 msgstr ""
-"Geben Sie Ãœberschrift Text fÃ¼r Eigenschaft Video auf Immobilien-Seiten"
+"Geben Sie Überschrift Text für Eigenschaft Video auf Immobilien-Seiten"
 
 #: inc/menu/admin-settings-arr.php:549
 msgid "Maps Heading"
-msgstr "KartenÃ¼berschrift"
+msgstr "Kartenüberschrift"
 
 #: inc/menu/admin-settings-arr.php:550
 msgid "Provide heading text for maps on property pages"
-msgstr "Geben Sie den Text fÃ¼r Karten auf Immobilienseiten ein"
+msgstr "Geben Sie den Text für Karten auf Immobilienseiten ein"
 
 #: inc/menu/admin-settings-arr.php:556
 msgid "Tags Heading"
-msgstr "Tags Ãœberschrift"
+msgstr "Tags Überschrift"
 
 #: inc/menu/admin-settings-arr.php:557
 msgid "Provide heading text for tags on property pages"
-msgstr "Geben Sie den Ãœberschriftstext fÃ¼r Tags auf Eigenschaftenseiten ein"
+msgstr "Geben Sie den Überschriftstext für Tags auf Eigenschaftenseiten ein"
 
 #: inc/menu/admin-settings-arr.php:563
 msgid "Attachments Heading"
-msgstr "AnhÃ¤nge Ãœberschrift"
+msgstr "Anhänge Überschrift"
 
 #: inc/menu/admin-settings-arr.php:564
 msgid "Provide heading text for attachments on property pages"
-msgstr "Geben Sie Ãœberschriftstext fÃ¼r Anlagen auf Eigenschaftenseiten an"
+msgstr "Geben Sie Überschriftstext für Anlagen auf Eigenschaftenseiten an"
 
 #: inc/menu/admin-settings-arr.php:570
 msgid "Tags Heading for Archive Pages"
-msgstr "Tags Ãœberschrift fÃ¼r Archivseiten"
+msgstr "Tags Überschrift für Archivseiten"
 
 #: inc/menu/admin-settings-arr.php:571
 msgid "You can use %tag% for tag name"
-msgstr "Sie kÃ¶nnen% tag% fÃ¼r den Tag-Namen verwenden"
+msgstr "Sie können% tag% für den Tag-Namen verwenden"
 
 #: inc/menu/admin-settings-arr.php:577
 #, fuzzy
 #| msgid "Tags Heading for Archive Pages"
 msgid "Heading for Properties Page"
-msgstr "Tags Ãœberschrift fÃ¼r Archivseiten"
+msgstr "Tags Überschrift für Archivseiten"
 
 #: inc/menu/admin-settings-arr.php:578
 #, fuzzy
 #| msgid "Provide heading text for maps on property pages"
 msgid "Provide heading for properties archive"
-msgstr "Geben Sie den Text fÃ¼r Karten auf Immobilienseiten ein"
+msgstr "Geben Sie den Text für Karten auf Immobilienseiten ein"
 
 #: inc/menu/admin-settings-arr.php:586
 msgid "Maps Settings"
@@ -2579,8 +2579,8 @@ msgstr "Google Maps API Key"
 #: inc/menu/admin-settings-arr.php:605
 msgid "Provide Google Maps API key here. You can create API key "
 msgstr ""
-"Geben Sie den Google Maps API-SchlÃ¼ssel hier ein. Sie kÃ¶nnen einen API-"
-"SchlÃ¼ssel erstellen"
+"Geben Sie den Google Maps API-Schlüssel hier ein. Sie können einen API-"
+"Schlüssel erstellen"
 
 #: inc/menu/admin-settings-arr.php:611
 msgid "Map Type"
@@ -2588,7 +2588,7 @@ msgstr "Karten Typ"
 
 #: inc/menu/admin-settings-arr.php:613
 msgid "Road Map"
-msgstr "StraÃŸenkarte"
+msgstr "Straßenkarte"
 
 #: inc/menu/admin-settings-arr.php:614
 msgid "Google Earth"
@@ -2600,21 +2600,21 @@ msgstr "Hybrid"
 
 #: inc/menu/admin-settings-arr.php:616
 msgid "Terrain"
-msgstr "GelÃ¤nde"
+msgstr "Gelände"
 
 #: inc/menu/admin-settings-arr.php:618
 msgid "Choose default map type here"
-msgstr "WÃ¤hlen Sie hier den Standardkarten-Typ"
+msgstr "Wählen Sie hier den Standardkarten-Typ"
 
 #: inc/menu/admin-settings-arr.php:624
 msgid "Map Zoom Level"
-msgstr "VergrÃ¶sserungsfaktor der Karte"
+msgstr "Vergrösserungsfaktor der Karte"
 
 #: inc/menu/admin-settings-arr.php:625
 msgid "Provide Zoom level between 0 and 21+ for single property map"
 msgstr ""
-"Stellen Sie Zoom-Level zwischen 0 und 21+ fÃ¼r einzelne Property-Maps zur "
-"VerfÃ¼gung"
+"Stellen Sie Zoom-Level zwischen 0 und 21+ für einzelne Property-Maps zur "
+"Verfügung"
 
 #: inc/menu/admin-settings-arr.php:631
 msgid "Drag Icon URL"
@@ -2625,8 +2625,8 @@ msgid ""
 "Upload custom icon for dragging on map while creating new property. "
 "Recommended size: 72x60"
 msgstr ""
-"Laden Sie das benutzerdefinierte Symbol fÃ¼r das Ziehen auf der Karte, wÃ"
-"¤hrend Sie neue Eigenschaft erstellen. Empfohlene GrÃ¶ÃŸe: 72x60"
+"Laden Sie das benutzerdefinierte Symbol für das Ziehen auf der Karte, "
+"während Sie neue Eigenschaft erstellen. Empfohlene Größe: 72x60"
 
 #: inc/menu/admin-settings-arr.php:638
 msgid "Location Icon URL"
@@ -2637,8 +2637,8 @@ msgid ""
 "Upload custom icon for location on map when visiting property page. "
 "Recommended size: 72x60"
 msgstr ""
-"Laden Sie das benutzerdefinierte Symbol fÃ¼r den Standort auf der Karte, "
-"wenn Sie die Eigenschaftenseite besuchen. Empfohlene GrÃ¶ÃŸe: 72x60"
+"Laden Sie das benutzerdefinierte Symbol für den Standort auf der Karte, "
+"wenn Sie die Eigenschaftenseite besuchen. Empfohlene Größe: 72x60"
 
 #: inc/menu/admin-settings-arr.php:645
 #, fuzzy
@@ -2685,7 +2685,7 @@ msgstr "Standard Latitude"
 #: inc/menu/admin-settings-arr.php:674
 msgid "Provide latitude for default map location on create property page"
 msgstr ""
-"Geben Sie den Breitengrad fÃ¼r den Standardkartenstandort auf der "
+"Geben Sie den Breitengrad für den Standardkartenstandort auf der "
 "Eigenschaftenseite erstellen an"
 
 #: inc/menu/admin-settings-arr.php:680
@@ -2695,7 +2695,7 @@ msgstr "Standard Longitude"
 #: inc/menu/admin-settings-arr.php:681
 msgid "Provide longitude for default map location on create property page"
 msgstr ""
-"Geben Sie den LÃ¤ngengrad fÃ¼r den Standardkartenstandort auf der "
+"Geben Sie den Längengrad für den Standardkartenstandort auf der "
 "Eigenschaftenseite erstellen an"
 
 #: inc/menu/admin-settings-arr.php:687
@@ -2714,35 +2714,35 @@ msgstr "Farben und CSS"
 
 #: inc/menu/admin-settings-arr.php:704
 msgid "Headings Underline"
-msgstr "Ãœberschriften unterstreichen"
+msgstr "Überschriften unterstreichen"
 
 #: inc/menu/admin-settings-arr.php:706
 msgid "Choose bottom border color for headings area"
-msgstr "WÃ¤hlen Sie untere Randfarbe fÃ¼r Ãœberschriftenbereich"
+msgstr "Wählen Sie untere Randfarbe für Überschriftenbereich"
 
 #: inc/menu/admin-settings-arr.php:712
 msgid "Headings Underline Active"
-msgstr "Ãœberschriften unterstreichen aktiv"
+msgstr "Überschriften unterstreichen aktiv"
 
 #: inc/menu/admin-settings-arr.php:714
 msgid "Choose bottom border color for headings active area"
-msgstr "WÃ¤hle die untere Randfarbe fÃ¼r den aktiven Bereich"
+msgstr "Wähle die untere Randfarbe für den aktiven Bereich"
 
 #: inc/menu/admin-settings-arr.php:720
 msgid "Buttons Background"
-msgstr "SchaltflÃ¤chen Hintergrund"
+msgstr "Schaltflächen Hintergrund"
 
 #: inc/menu/admin-settings-arr.php:722
 msgid "Choose background color for buttons"
-msgstr "WÃ¤hlen Sie Hintergrundfarbe fÃ¼r SchaltflÃ¤chen"
+msgstr "Wählen Sie Hintergrundfarbe für Schaltflächen"
 
 #: inc/menu/admin-settings-arr.php:728
 msgid "Buttons Text"
-msgstr "SchaltflÃ¤chen Text"
+msgstr "Schaltflächen Text"
 
 #: inc/menu/admin-settings-arr.php:730 inc/menu/admin-settings-arr.php:746
 msgid "Choose text color for buttons"
-msgstr "WÃ¤hle Textfarbe fÃ¼r SchaltflÃ¤chen"
+msgstr "Wähle Textfarbe für Schaltflächen"
 
 #: inc/menu/admin-settings-arr.php:736
 msgid "Buttons Background - Hover"
@@ -2750,7 +2750,7 @@ msgstr "Buttons Hintergrund - Hover"
 
 #: inc/menu/admin-settings-arr.php:738
 msgid "Choose background color for buttons on hover state"
-msgstr "WÃ¤hle Hintergrundfarbe fÃ¼r SchaltflÃ¤chen im Hover-Zustand"
+msgstr "Wähle Hintergrundfarbe für Schaltflächen im Hover-Zustand"
 
 #: inc/menu/admin-settings-arr.php:744
 msgid "Buttons Text - Hover"
@@ -2762,7 +2762,7 @@ msgstr "Theme Hauptfarbe"
 
 #: inc/menu/admin-settings-arr.php:754
 msgid "Choose main theme color for templates"
-msgstr "WÃ¤hlen Sie die Hauptthemafarbe fÃ¼r Vorlagen"
+msgstr "Wählen Sie die Hauptthemafarbe für Vorlagen"
 
 #: inc/menu/admin-settings-arr.php:760
 msgid "Custom CSS Code"
@@ -2770,7 +2770,7 @@ msgstr "Benutzerdefinierter CSS-Code"
 
 #: inc/menu/admin-settings-arr.php:762
 msgid "Paste your custom css code here, you can prefix with"
-msgstr "FÃ¼gen Sie hier Ihren benutzerdefinierten CSS-Code ein"
+msgstr "Fügen Sie hier Ihren benutzerdefinierten CSS-Code ein"
 
 #: inc/menu/admin-settings-arr.php:770
 msgid "Advanced Settings"
@@ -2782,7 +2782,7 @@ msgstr "Bootstrap CSS"
 
 #: inc/menu/admin-settings-arr.php:782
 msgid "Disable it, if your theme loads its own bootstrap 3 styles"
-msgstr "Deaktivieren Sie es, wenn Ihr Design eigene Bootstrap-3-Stile lÃ¤dt"
+msgstr "Deaktivieren Sie es, wenn Ihr Design eigene Bootstrap-3-Stile lädt"
 
 #: inc/menu/admin-settings-arr.php:787
 msgid "Font Awesome"
@@ -2790,7 +2790,7 @@ msgstr "Font Awesome"
 
 #: inc/menu/admin-settings-arr.php:792
 msgid "Disable it, if your theme loads its own font awesome icons"
-msgstr "Deaktivieren Sie es, wenn Ihr Thema eigene font-awesome Symbole lÃ¤dt"
+msgstr "Deaktivieren Sie es, wenn Ihr Thema eigene font-awesome Symbole lädt"
 
 #: inc/menu/admin-settings-arr.php:797
 #, fuzzy
@@ -2907,7 +2907,7 @@ msgstr "Benutzerdefiniertes Band"
 #| "normal"
 msgid "Provide key with value. Eg: property_type=House"
 msgstr ""
-"Geben Sie in jeder zu filternden Zeile einen MetaschlÃ¼ssel und einen Wert "
+"Geben Sie in jeder zu filternden Zeile einen Metaschlüssel und einen Wert "
 "ein. ZB: Eigenschaftsstatus | normal"
 
 #: inc/menu/admin-settings-arr.php:862
@@ -2972,7 +2972,7 @@ msgstr ""
 
 #: inc/menu/custom-fields/custom-fields-page.php:70
 msgid "Reset Fields"
-msgstr "Setze Felder zurÃ¼ck"
+msgstr "Setze Felder zurück"
 
 #: inc/menu/custom-fields/custom-fields-page.php:71
 #: inc/menu/page-settings.php:64
@@ -2991,7 +2991,7 @@ msgstr "Datenname (Kleinbuchstaben ohne Leerzeichen)"
 
 #: inc/menu/custom-fields/fields/select.php:21
 msgid "Default Selected"
-msgstr "Standard ausgewÃ¤hlt"
+msgstr "Standard ausgewählt"
 
 #: inc/menu/custom-fields/fields/select.php:27
 msgid "Options (each per line)"
@@ -3015,7 +3015,7 @@ msgstr ""
 #: inc/menu/custom-fields/fields/select.php:73
 #: inc/menu/custom-fields/fields/text.php:61
 msgid "Delete"
-msgstr "LÃ¶schen"
+msgstr "Löschen"
 
 #: inc/menu/custom-fields/fields/text.php:21
 msgid "Default Value"
@@ -3076,7 +3076,7 @@ msgstr "Wenn 404 Seite angezeigt wird"
 #: inc/menu/page-settings.php:17
 msgid "Go to Settings -> Permalinks and click Save Changes button"
 msgstr ""
-"Gehen Sie zu Einstellungen -> Permalinks und klicken Sie auf Ã„nderungen "
+"Gehen Sie zu Einstellungen -> Permalinks und klicken Sie auf Änderungen "
 "speichern"
 
 #: inc/menu/page-settings.php:21
@@ -3086,34 +3086,34 @@ msgstr "Wenn Karten nicht angezeigt werden"
 #: inc/menu/page-settings.php:23
 msgid "Create a Google Maps API using google and paste it in Maps API field."
 msgstr ""
-"Erstellen Sie eine Google Maps-API mit Google und fÃ¼gen Sie sie in das "
+"Erstellen Sie eine Google Maps-API mit Google und fügen Sie sie in das "
 "Google Maps-API-Feld ein."
 
 #: inc/menu/page-settings.php:27
 msgid "Change Property Page Design"
-msgstr "Ã„ndern Sie Property Page Design"
+msgstr "Ändern Sie Property Page Design"
 
 #: inc/menu/page-settings.php:29
 msgid "Copy the following file and paste it into your theme's root"
 msgstr ""
-"Kopiere die folgende Datei und fÃ¼ge sie in das Wurzelverzeichnis deines "
+"Kopiere die folgende Datei und füge sie in das Wurzelverzeichnis deines "
 "Themes ein"
 
 #: inc/menu/page-settings.php:31
 msgid "Now change its name to"
-msgstr "Ã„ndern Sie nun seinen Namen"
+msgstr "Ändern Sie nun seinen Namen"
 
 #: inc/menu/page-settings.php:33
 msgid "Then change Property Page Template option to From Theme"
-msgstr "Ã„ndern Sie dann Property Page Template-Option zu From Theme"
+msgstr "Ändern Sie dann Property Page Template-Option zu From Theme"
 
 #: inc/menu/page-settings.php:34
 msgid "Now you can make changes in this template file."
-msgstr "Jetzt kÃ¶nnen Sie Ã„nderungen an dieser Vorlagendatei vornehmen."
+msgstr "Jetzt können Sie Änderungen an dieser Vorlagendatei vornehmen."
 
 #: inc/menu/page-settings.php:38
 msgid "Need Help? Any Suggestions?"
-msgstr "Brauche Hilfe? Irgendwelche VorschlÃ¤ge?"
+msgstr "Brauche Hilfe? Irgendwelche Vorschläge?"
 
 #: inc/menu/page-settings.php:40
 msgid "Please contact us"
@@ -3125,7 +3125,7 @@ msgstr "HIER"
 
 #: inc/menu/page-settings.php:42
 msgid "for assistance."
-msgstr "fÃ¼r Hilfe."
+msgstr "für Hilfe."
 
 #: inc/menu/page-settings.php:63
 msgid "Please Wait..."
@@ -3134,7 +3134,7 @@ msgstr "Warten Sie mal..."
 #: inc/menu/render-admin-settings.php:138
 #: inc/menu/render-admin-settings.php:139
 msgid "Choose a currency&hellip;"
-msgstr "WÃ¤hlen Sie eine WÃ¤hrung aus&hellip;"
+msgstr "Wählen Sie eine Währung aus&hellip;"
 
 #: inc/menu/render-admin-settings.php:175
 msgid "Image"
@@ -3142,7 +3142,7 @@ msgstr "Bild"
 
 #: inc/menu/render-admin-settings.php:176
 msgid "Select"
-msgstr "WÃ¤hlen"
+msgstr "Wählen"
 
 #: inc/menu/render-admin-settings.php:177
 msgid "Media"
@@ -3298,7 +3298,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Prefer Nearest Properties"
 msgid "Prefer Near Properties"
-msgstr "Bevorzugen Sie die nÃ¤chsten Eigenschaften"
+msgstr "Bevorzugen Sie die nächsten Eigenschaften"
 
 #: shortcodes/divi-settings.php:90
 msgid "It will enable Geo Location service. Needs SSL to work properly"
@@ -3308,7 +3308,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Agent Registration Form"
 msgid "Meta Filtration"
-msgstr "Anmeldeformular fÃ¼r Agenten"
+msgstr "Anmeldeformular für Agenten"
 
 #: shortcodes/divi-settings.php:95
 msgid "Please see details here"
@@ -3324,11 +3324,11 @@ msgstr "Speichern"
 
 #: shortcodes/edit-agent.php:47
 msgid "Saving Changes..."
-msgstr "Ã„nderungen werden gespeichertâ€¦"
+msgstr "Änderungen werden gespeichert ..."
 
 #: shortcodes/edit-property.php:118
 msgid "Please wait! your porperty is being modified..."
-msgstr "Warten Sie mal! Ihre Immobilie wird geÃ¤ndert ..."
+msgstr "Warten Sie mal! Ihre Immobilie wird geändert ..."
 
 #: shortcodes/login.php:12
 msgid "Username or email"
@@ -3336,7 +3336,7 @@ msgstr "Benutzername oder E-Mail-Adresse"
 
 #: shortcodes/login.php:20
 msgid "Keep me signed in"
-msgstr "Ich mÃ¶chte angemeldet bleiben"
+msgstr "Ich möchte angemeldet bleiben"
 
 #: shortcodes/login.php:21
 msgid "Login"
@@ -3352,7 +3352,7 @@ msgstr "Miniaturansicht"
 
 #: shortcodes/my-properties.php:10
 msgid "Added"
-msgstr "HinzugefÃ¼gt"
+msgstr "Hinzugefügt"
 
 #: shortcodes/my-properties.php:13
 msgid "Actions"
@@ -3381,15 +3381,15 @@ msgstr "Umleitung"
 #: shortcodes/vc-settings.php:27
 msgid "Provide URL to redirect after successfull registration"
 msgstr ""
-"Geben Sie nach erfolgreicher Registrierung die URL fÃ¼r die Weiterleitung an"
+"Geben Sie nach erfolgreicher Registrierung die URL für die Weiterleitung an"
 
 #: shortcodes/vc-settings.php:32 shortcodes/vc-settings.php:74
 msgid "Content for Logged In Users"
-msgstr "Sie mÃ¼ssen eingeloggt sein, um Ihren Kurse ansehen zu kÃ¶nnen."
+msgstr "Sie müssen eingeloggt sein, um Ihren Kurse ansehen zu können."
 
 #: shortcodes/vc-settings.php:33 shortcodes/vc-settings.php:75
 msgid "Provide content for already logged in users"
-msgstr "Stellen Sie Inhalte fÃ¼r bereits eingeloggte Benutzer bereit"
+msgstr "Stellen Sie Inhalte für bereits eingeloggte Benutzer bereit"
 
 #: shortcodes/vc-settings.php:38
 msgid "Edit Agent Profile"
@@ -3403,11 +3403,11 @@ msgstr ""
 #: shortcodes/vc-settings.php:47 shortcodes/vc-settings.php:89
 #: shortcodes/vc-settings.php:158 shortcodes/vc-settings.php:325
 msgid "Content for Non Logged In Users"
-msgstr "Inhalt fÃ¼r nicht angemeldete Benutzer"
+msgstr "Inhalt für nicht angemeldete Benutzer"
 
 #: shortcodes/vc-settings.php:48
 msgid "Provide content for non logged in users"
-msgstr "Stellen Sie Inhalte fÃ¼r nicht angemeldete Benutzer bereit"
+msgstr "Stellen Sie Inhalte für nicht angemeldete Benutzer bereit"
 
 #: shortcodes/vc-settings.php:53
 msgid "Login Agent"
@@ -3419,15 +3419,15 @@ msgstr "Rendert ein AJAX-basiertes Anmeldeformular"
 
 #: shortcodes/vc-settings.php:62
 msgid "Heading"
-msgstr "Ãœberschrift"
+msgstr "Überschrift"
 
 #: shortcodes/vc-settings.php:63
 msgid "Heading will appear above the login form"
-msgstr "Ãœberschrift wird Ã¼ber dem Anmeldeformular angezeigt"
+msgstr "Überschrift wird über dem Anmeldeformular angezeigt"
 
 #: shortcodes/vc-settings.php:69
 msgid "Provide URL to redirect after successfull login"
-msgstr "Geben Sie nach erfolgreicher Anmeldung die URL fÃ¼r die Umleitung ein"
+msgstr "Geben Sie nach erfolgreicher Anmeldung die URL für die Umleitung ein"
 
 #: shortcodes/vc-settings.php:84
 msgid "Renders a form to create property"
@@ -3497,7 +3497,7 @@ msgstr "Absteigend"
 #, fuzzy
 #| msgid "How you want to display properties on map"
 msgid "How you want to order agents"
-msgstr "Wie mÃ¶chten Sie Eigenschaften auf der Karte anzeigen?"
+msgstr "Wie möchten Sie Eigenschaften auf der Karte anzeigen?"
 
 #: shortcodes/vc-settings.php:139
 #, fuzzy
@@ -3539,17 +3539,17 @@ msgstr "Geben Sie hier eine Immobilien-ID an"
 
 #: shortcodes/vc-settings.php:183
 msgid "Displays properties according to the settings"
-msgstr "Zeigt Eigenschaften gemÃ¤ÃŸ den Einstellungen an"
+msgstr "Zeigt Eigenschaften gemäß den Einstellungen an"
 
 #: shortcodes/vc-settings.php:189 shortcodes/vc-settings.php:385
 #: shortcodes/vc-settings.php:754
 msgid "Choose order to display properties"
-msgstr "WÃ¤hlen Sie die Reihenfolge aus, um Eigenschaften anzuzeigen"
+msgstr "Wählen Sie die Reihenfolge aus, um Eigenschaften anzuzeigen"
 
 #: shortcodes/vc-settings.php:199 shortcodes/vc-settings.php:399
 #: shortcodes/vc-settings.php:764
 msgid "Choose order by to display properties"
-msgstr "WÃ¤hlen Sie Reihenfolge, um Eigenschaften anzuzeigen"
+msgstr "Wählen Sie Reihenfolge, um Eigenschaften anzuzeigen"
 
 #: shortcodes/vc-settings.php:203 shortcodes/vc-settings.php:403
 #: shortcodes/vc-settings.php:735 shortcodes/vc-settings.php:768
@@ -3558,7 +3558,7 @@ msgstr "Immobilien Name"
 
 #: shortcodes/vc-settings.php:212 shortcodes/vc-settings.php:776
 msgid "Choose properties display style"
-msgstr "WÃ¤hlen Sie den Anzeigestil fÃ¼r Eigenschaften"
+msgstr "Wählen Sie den Anzeigestil für Eigenschaften"
 
 #: shortcodes/vc-settings.php:219
 msgid "Number of properties in a row"
@@ -3590,11 +3590,11 @@ msgstr "Objekt Zweck"
 
 #: shortcodes/vc-settings.php:248
 msgid "Choose to display properties of specific purpose"
-msgstr "WÃ¤hlen Sie, um Eigenschaften fÃ¼r bestimmte Zwecke anzuzeigen"
+msgstr "Wählen Sie, um Eigenschaften für bestimmte Zwecke anzuzeigen"
 
 #: shortcodes/vc-settings.php:255
 msgid "Choose to display properties of specific type"
-msgstr "WÃ¤hlen Sie, um Eigenschaften eines bestimmten Typs anzuzeigen"
+msgstr "Wählen Sie, um Eigenschaften eines bestimmten Typs anzuzeigen"
 
 #: shortcodes/vc-settings.php:261
 msgid "Property Status"
@@ -3602,7 +3602,7 @@ msgstr "Immobilienstatus"
 
 #: shortcodes/vc-settings.php:262
 msgid "Choose to display properties of specific status"
-msgstr "WÃ¤hlen Sie, um Eigenschaften mit einem bestimmten Status anzuzeigen"
+msgstr "Wählen Sie, um Eigenschaften mit einem bestimmten Status anzuzeigen"
 
 #: shortcodes/vc-settings.php:268
 msgid "Property Tags"
@@ -3628,13 +3628,13 @@ msgstr "Filtereigenschaften"
 msgid ""
 "Provide meta key and value on each line to filter. Eg: property_status|normal"
 msgstr ""
-"Geben Sie in jeder zu filternden Zeile einen MetaschlÃ¼ssel und einen Wert "
+"Geben Sie in jeder zu filternden Zeile einen Metaschlüssel und einen Wert "
 "ein. ZB: Eigenschaftsstatus | normal"
 
 #: shortcodes/vc-settings.php:286 shortcodes/vc-settings.php:453
 #: shortcodes/vc-settings.php:812
 msgid "Prefer Nearest Properties"
-msgstr "Bevorzugen Sie die nÃ¤chsten Eigenschaften"
+msgstr "Bevorzugen Sie die nächsten Eigenschaften"
 
 #: shortcodes/vc-settings.php:287 shortcodes/vc-settings.php:454
 #: shortcodes/vc-settings.php:813
@@ -3643,7 +3643,7 @@ msgid ""
 "display properties near them"
 msgstr ""
 "Dadurch kann der Geolocation Tracker den Standort des Besuchers verfolgen "
-"und Eigenschaften in seiner NÃ¤he anzeigen"
+"und Eigenschaften in seiner Nähe anzeigen"
 
 #: shortcodes/vc-settings.php:296
 msgid "Justified Grid (Masonry)"
@@ -3673,7 +3673,7 @@ msgstr "Zeigt das Profil eines bestimmten Agenten an"
 
 #: shortcodes/vc-settings.php:341
 msgid "Choose agent who's profile you want to display"
-msgstr "WÃ¤hlen Sie den Agenten, dessen Profil angezeigt werden soll"
+msgstr "Wählen Sie den Agenten, dessen Profil angezeigt werden soll"
 
 #: shortcodes/vc-settings.php:351
 msgid "Displays search results if searched from widget"
@@ -3685,7 +3685,7 @@ msgstr "Immobilien auf Karte"
 
 #: shortcodes/vc-settings.php:359
 msgid "Displays properties on a large map"
-msgstr "Zeigt Eigenschaften auf einer groÃŸen Karte an"
+msgstr "Zeigt Eigenschaften auf einer großen Karte an"
 
 #: shortcodes/vc-settings.php:364
 msgid "Display Properties"
@@ -3693,7 +3693,7 @@ msgstr "Anzeigeeigenschaften"
 
 #: shortcodes/vc-settings.php:365
 msgid "How you want to display properties on map"
-msgstr "Wie mÃ¶chten Sie Eigenschaften auf der Karte anzeigen?"
+msgstr "Wie möchten Sie Eigenschaften auf der Karte anzeigen?"
 
 #: shortcodes/vc-settings.php:367
 msgid "Properties by IDs"
@@ -3709,7 +3709,7 @@ msgstr "Immobilien-IDs"
 
 #: shortcodes/vc-settings.php:375
 msgid "Property ID each per line to display on map"
-msgstr "Property ID pro Zeile fÃ¼r die Anzeige auf der Karte"
+msgstr "Property ID pro Zeile für die Anzeige auf der Karte"
 
 #: shortcodes/vc-settings.php:413
 msgid "Number of Properties"
@@ -3718,7 +3718,7 @@ msgstr "Anzahl der Eigenschaften"
 #: shortcodes/vc-settings.php:414
 msgid "Provide total number of properties to show. -1 for all"
 msgstr ""
-"Geben Sie die Gesamtzahl der anzuzeigenden Eigenschaften an. -1 fÃ¼r alle"
+"Geben Sie die Gesamtzahl der anzuzeigenden Eigenschaften an. -1 für alle"
 
 #: shortcodes/vc-settings.php:433
 msgid "Property Type Filtering"
@@ -3727,24 +3727,24 @@ msgstr "Eigenschaftstyp Filterung"
 #: shortcodes/vc-settings.php:434
 msgid "Enable to display property type buttons below maps to filter"
 msgstr ""
-"Aktivieren Sie diese Option, um unter SchaltflÃ¤chen zu druckende "
-"Eigenschaftstyp-SchaltflÃ¤chen anzuzeigen"
+"Aktivieren Sie diese Option, um unter Schaltflächen zu druckende "
+"Eigenschaftstyp-Schaltflächen anzuzeigen"
 
 #: shortcodes/vc-settings.php:443
 msgid "Filter by Tags"
-msgstr "Filter nach SchlagwÃ¶rtern"
+msgstr "Filter nach Schlagwörtern"
 
 #: shortcodes/vc-settings.php:444
 msgid "Provide single tag on each line to filter."
-msgstr "Geben Sie fÃ¼r jede zu filternde Zeile ein einzelnes Tag an."
+msgstr "Geben Sie für jede zu filternde Zeile ein einzelnes Tag an."
 
 #: shortcodes/vc-settings.php:463
 msgid "Map Height"
-msgstr "Karten HÃ¶he"
+msgstr "Karten Höhe"
 
 #: shortcodes/vc-settings.php:464
 msgid "Provide map height Eg: 550px"
-msgstr "Geben Sie die KartenhÃ¶he an. Beispiel: 550px"
+msgstr "Geben Sie die Kartenhöhe an. Beispiel: 550px"
 
 #: shortcodes/vc-settings.php:470
 #, fuzzy
@@ -3754,11 +3754,11 @@ msgstr "Durch Kommas getrennte Liste von Tags zum Filtern von Eigenschaften"
 
 #: shortcodes/vc-settings.php:475
 msgid "Loading Heading"
-msgstr "Ãœberschrift wird geladen"
+msgstr "Überschrift wird geladen"
 
 #: shortcodes/vc-settings.php:476
 msgid "Provide map loading text heading"
-msgstr "Geben Sie die Ãœberschrift fÃ¼r das Laden der Karte an"
+msgstr "Geben Sie die Überschrift für das Laden der Karte an"
 
 #: shortcodes/vc-settings.php:482
 msgid "Loading Description"
@@ -3774,7 +3774,7 @@ msgstr "Button Hintergrundfarbe"
 
 #: shortcodes/vc-settings.php:490
 msgid "Choose background color for map buttons"
-msgstr "WÃ¤hlen Sie die Hintergrundfarbe fÃ¼r die KartenschaltflÃ¤chen"
+msgstr "Wählen Sie die Hintergrundfarbe für die Kartenschaltflächen"
 
 #: shortcodes/vc-settings.php:491 shortcodes/vc-settings.php:498
 #: shortcodes/vc-settings.php:505 shortcodes/vc-settings.php:512
@@ -3784,27 +3784,27 @@ msgstr "Farben"
 
 #: shortcodes/vc-settings.php:496 shortcodes/vc-settings.php:578
 msgid "Buttons Text Color"
-msgstr "Textfarbe der SchaltflÃ¤che"
+msgstr "Textfarbe der Schaltfläche"
 
 #: shortcodes/vc-settings.php:497
 msgid "Choose text color for map buttons"
-msgstr "WÃ¤hlen Sie eine Textfarbe fÃ¼r die KartenschaltflÃ¤chen"
+msgstr "Wählen Sie eine Textfarbe für die Kartenschaltflächen"
 
 #: shortcodes/vc-settings.php:503 shortcodes/vc-settings.php:589
 msgid "Buttons Background Color - Hover"
-msgstr "Ã„ndern Sie die Hintergrundfarbe fÃ¼r Button"
+msgstr "Ändern Sie die Hintergrundfarbe für Button"
 
 #: shortcodes/vc-settings.php:504
 msgid "Choose hover background color for map buttons"
-msgstr "WÃ¤hlen Sie Hover-Hintergrundfarbe fÃ¼r Map-SchaltflÃ¤chen"
+msgstr "Wählen Sie Hover-Hintergrundfarbe für Map-Schaltflächen"
 
 #: shortcodes/vc-settings.php:510 shortcodes/vc-settings.php:600
 msgid "Buttons Text Color - Hover"
-msgstr "SchaltflÃ¤chen Textfarbe - Hover"
+msgstr "Schaltflächen Textfarbe - Hover"
 
 #: shortcodes/vc-settings.php:511
 msgid "Choose text hover color for map buttons"
-msgstr "WÃ¤hlen Sie eine Hoverfarbe fÃ¼r die KartenschaltflÃ¤chen"
+msgstr "Wählen Sie eine Hoverfarbe für die Kartenschaltflächen"
 
 #: shortcodes/vc-settings.php:517
 msgid "Loader Color"
@@ -3812,7 +3812,7 @@ msgstr "Ladeanzeiger - Farbe"
 
 #: shortcodes/vc-settings.php:518
 msgid "Choose color for maps loader box"
-msgstr "WÃ¤hlen Sie die Farbe fÃ¼r die Kartenlade-Box"
+msgstr "Wählen Sie die Farbe für die Kartenlade-Box"
 
 #: shortcodes/vc-settings.php:525
 msgid "Water Color"
@@ -3820,7 +3820,7 @@ msgstr "Wasserfarbe"
 
 #: shortcodes/vc-settings.php:526
 msgid "Choose water color in map"
-msgstr "WÃ¤hlen Sie die Wasserfarbe in der Karte"
+msgstr "Wählen Sie die Wasserfarbe in der Karte"
 
 #: shortcodes/vc-settings.php:527 shortcodes/vc-settings.php:534
 #: shortcodes/vc-settings.php:541 shortcodes/vc-settings.php:548
@@ -3830,11 +3830,11 @@ msgstr "Farbe Risikokarte"
 
 #: shortcodes/vc-settings.php:532
 msgid "Fill Color"
-msgstr "FÃ¼llfarbe"
+msgstr "Füllfarbe"
 
 #: shortcodes/vc-settings.php:533
 msgid "Choose natural fill color in map"
-msgstr "WÃ¤hlen Sie die natÃ¼rliche FÃ¼llfarbe in der Karte"
+msgstr "Wählen Sie die natürliche Füllfarbe in der Karte"
 
 #: shortcodes/vc-settings.php:539
 msgid "Points of Interest Color"
@@ -3842,7 +3842,7 @@ msgstr "Points of Interest Farbe"
 
 #: shortcodes/vc-settings.php:540
 msgid "Choose poi color in map"
-msgstr "WÃ¤hlen Sie Poi Farbe in der Karte"
+msgstr "Wählen Sie Poi Farbe in der Karte"
 
 #: shortcodes/vc-settings.php:546
 msgid "Points of Interest Hue Color"
@@ -3850,15 +3850,15 @@ msgstr "Points of Interest Farbton Farbe"
 
 #: shortcodes/vc-settings.php:547
 msgid "Choose poi hue color in map"
-msgstr "WÃ¤hlen Sie eine Farbe in der Karte"
+msgstr "Wählen Sie eine Farbe in der Karte"
 
 #: shortcodes/vc-settings.php:553
 msgid "Road Lightness"
-msgstr "StraÃŸen Leichtigkeit"
+msgstr "Straßen Leichtigkeit"
 
 #: shortcodes/vc-settings.php:554
 msgid "Choose road lightness in map, Default: 100"
-msgstr "WÃ¤hlen Sie StraÃŸenhelligkeit in der Karte, Standard: 100"
+msgstr "Wählen Sie Straßenhelligkeit in der Karte, Standard: 100"
 
 #: shortcodes/vc-settings.php:560
 msgid "Lines Lightness"
@@ -3866,37 +3866,37 @@ msgstr "Linien Leichtigkeit"
 
 #: shortcodes/vc-settings.php:561
 msgid "Choose line lightness in map, Default: 700"
-msgstr "WÃ¤hlen Sie Linienhelligkeit in der Karte, Standard: 700"
+msgstr "Wählen Sie Linienhelligkeit in der Karte, Standard: 700"
 
 #: shortcodes/vc-settings.php:568
 msgid "Background color for bottom buttons"
-msgstr "Hintergrundfarbe fÃ¼r die unteren SchaltflÃ¤chen"
+msgstr "Hintergrundfarbe für die unteren Schaltflächen"
 
 #: shortcodes/vc-settings.php:569 shortcodes/vc-settings.php:580
 #: shortcodes/vc-settings.php:591 shortcodes/vc-settings.php:602
 #: shortcodes/vc-settings.php:613
 msgid "Filter Options"
-msgstr "FiltermÃ¶glichkeiten"
+msgstr "Filtermöglichkeiten"
 
 #: shortcodes/vc-settings.php:579
 msgid "Text color for bottom buttons"
-msgstr "Textfarbe fÃ¼r die unteren SchaltflÃ¤chen"
+msgstr "Textfarbe für die unteren Schaltflächen"
 
 #: shortcodes/vc-settings.php:590
 msgid "Background color for bottom buttons on hover"
-msgstr "Hintergrundfarbe fÃ¼r die unteren SchaltflÃ¤chen beim Schweben"
+msgstr "Hintergrundfarbe für die unteren Schaltflächen beim Schweben"
 
 #: shortcodes/vc-settings.php:601
 msgid "Text color for bottom buttons on hover"
-msgstr "Textfarbe fÃ¼r die unteren SchaltflÃ¤chen bei Hover"
+msgstr "Textfarbe für die unteren Schaltflächen bei Hover"
 
 #: shortcodes/vc-settings.php:611
 msgid "Buttons Background Color - Active"
-msgstr "SchaltflÃ¤chen Hintergrundfarbe - Aktiv"
+msgstr "Schaltflächen Hintergrundfarbe - Aktiv"
 
 #: shortcodes/vc-settings.php:612
 msgid "Background color for bottom buttons on active"
-msgstr "Hintergrundfarbe fÃ¼r die unteren SchaltflÃ¤chen aktiv"
+msgstr "Hintergrundfarbe für die unteren Schaltflächen aktiv"
 
 #: shortcodes/vc-settings.php:622
 msgid "Field Name for Icons"
@@ -3909,7 +3909,7 @@ msgstr ""
 #| "normal"
 msgid "Provide field data name to filter icons by. Eg: property_type"
 msgstr ""
-"Geben Sie in jeder zu filternden Zeile einen MetaschlÃ¼ssel und einen Wert "
+"Geben Sie in jeder zu filternden Zeile einen Metaschlüssel und einen Wert "
 "ein. ZB: Eigenschaftsstatus | normal"
 
 #: shortcodes/vc-settings.php:624 shortcodes/vc-settings.php:631
@@ -3950,7 +3950,7 @@ msgstr ""
 
 #: shortcodes/vc-settings.php:654
 msgid "Renders a form to search properties via AJAX"
-msgstr "Rendert ein Formular, um Eigenschaften Ã¼ber AJAX zu durchsuchen"
+msgstr "Rendert ein Formular, um Eigenschaften über AJAX zu durchsuchen"
 
 #: shortcodes/vc-settings.php:659
 msgid "Check Fields to Display"
@@ -3958,11 +3958,11 @@ msgstr "Aktivieren Sie die anzuzeigenden Felder"
 
 #: shortcodes/vc-settings.php:660
 msgid "Check the required fields for search menu"
-msgstr "ÃœberprÃ¼fen Sie die erforderlichen Felder fÃ¼r das SuchmenÃ¼"
+msgstr "Überprüfen Sie die erforderlichen Felder für das Suchmenü"
 
 #: shortcodes/vc-settings.php:667
 msgid "Choose number of fields in each row"
-msgstr "WÃ¤hlen Sie die Anzahl der Felder in jeder Zeile"
+msgstr "Wählen Sie die Anzahl der Felder in jeder Zeile"
 
 #: shortcodes/vc-settings.php:672
 msgid "6 Columns"
@@ -3970,19 +3970,19 @@ msgstr "6 Spalten"
 
 #: shortcodes/vc-settings.php:678
 msgid "Search Button Title"
-msgstr "Titel der SuchschaltflÃ¤che"
+msgstr "Titel der Suchschaltfläche"
 
 #: shortcodes/vc-settings.php:679
 msgid "Provide text for search button"
-msgstr "Geben Sie Text fÃ¼r die SuchschaltflÃ¤che ein"
+msgstr "Geben Sie Text für die Suchschaltfläche ein"
 
 #: shortcodes/vc-settings.php:684
 msgid "Filter Button Title"
-msgstr "Titel der FilterschaltflÃ¤che"
+msgstr "Titel der Filterschaltfläche"
 
 #: shortcodes/vc-settings.php:685
 msgid "Provide text for more filter button"
-msgstr "Geben Sie Text fÃ¼r weitere FilterschaltflÃ¤chen ein"
+msgstr "Geben Sie Text für weitere Filterschaltflächen ein"
 
 #: shortcodes/vc-settings.php:690
 msgid "Results Page"
@@ -3994,16 +3994,16 @@ msgid ""
 "display results. Make sure to paste shortcode [rem_search_results] on "
 "provided page to display results."
 msgstr ""
-"URL angeben, es deaktiviert die AJAX-Suche und Ã¶ffnet diese Seite, um "
+"URL angeben, es deaktiviert die AJAX-Suche und öffnet diese Seite, um "
 "Ergebnisse anzuzeigen. Stellen Sie sicher, dass Sie den Shortcode [rem "
-"search_results] auf der angegebenen Seite einfÃ¼gen, um die Ergebnisse "
+"search_results] auf der angegebenen Seite einfügen, um die Ergebnisse "
 "anzuzeigen."
 
 #: shortcodes/vc-settings.php:696
 #, fuzzy
 #| msgid "Default Selected"
 msgid "Result Selector"
-msgstr "Standard ausgewÃ¤hlt"
+msgstr "Standard ausgewählt"
 
 #: shortcodes/vc-settings.php:697
 #, fuzzy
@@ -4011,7 +4011,7 @@ msgstr "Standard ausgewÃ¤hlt"
 msgid ""
 "HTML selector if you want to display results in some other place on current "
 "page"
-msgstr "_blank, wenn Sie Ergebnisse in einer separaten Seite Ã¶ffnen mÃ¶chten"
+msgstr "_blank, wenn Sie Ergebnisse in einer separaten Seite öffnen möchten"
 
 #: shortcodes/vc-settings.php:702
 msgid "Fixed Fields"
@@ -4020,7 +4020,7 @@ msgstr "Feste Felder"
 #: shortcodes/vc-settings.php:703
 msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
 msgstr ""
-"Geben Sie Daten fÃ¼r feste Felder in jeder Zeile an. ZB: Eigenschaftsstatus "
+"Geben Sie Daten für feste Felder in jeder Zeile an. ZB: Eigenschaftsstatus "
 "| normal"
 
 #: shortcodes/vc-settings.php:708
@@ -4030,7 +4030,7 @@ msgstr "Hartcodierte Inhalte"
 #: shortcodes/vc-settings.php:709
 msgid "You can paste shortcode here to list some default properties"
 msgstr ""
-"Sie kÃ¶nnen den Shortcode hier einfÃ¼gen, um einige Standardeigenschaften "
+"Sie können den Shortcode hier einfügen, um einige Standardeigenschaften "
 "aufzulisten"
 
 #: shortcodes/vc-settings.php:714
@@ -4045,17 +4045,17 @@ msgstr ""
 #, fuzzy
 #| msgid "Choose order to display properties"
 msgid "Choose order to display results"
-msgstr "WÃ¤hlen Sie die Reihenfolge aus, um Eigenschaften anzuzeigen"
+msgstr "Wählen Sie die Reihenfolge aus, um Eigenschaften anzuzeigen"
 
 #: shortcodes/vc-settings.php:731
 #, fuzzy
 #| msgid "Choose order by to display properties"
 msgid "Choose order by to display results"
-msgstr "WÃ¤hlen Sie Reihenfolge, um Eigenschaften anzuzeigen"
+msgstr "Wählen Sie Reihenfolge, um Eigenschaften anzuzeigen"
 
 #: shortcodes/vc-settings.php:744
 msgid "Touch Carousel"
-msgstr "BerÃ¼hren Sie Karussell"
+msgstr "Berühren Sie Karussell"
 
 #: shortcodes/vc-settings.php:748
 msgid "Renders responsive carousel of properties"
@@ -4074,7 +4074,7 @@ msgstr ""
 msgid "Provide IDs if you want to display specific properties, each per line"
 msgstr ""
 "Geben Sie IDs an, wenn Sie bestimmte Eigenschaften pro Zeile anzeigen "
-"mÃ¶chten"
+"möchten"
 
 #: shortcodes/vc-settings.php:823
 msgid "Properties in Row"
@@ -4084,7 +4084,7 @@ msgstr "Eigenschaften in Zeile"
 msgid "Provide number of properties you want to show at a time"
 msgstr ""
 "Geben Sie die Anzahl der Eigenschaften an, die Sie gleichzeitig anzeigen "
-"mÃ¶chten"
+"möchten"
 
 #: shortcodes/vc-settings.php:830
 msgid "Properties to Scroll"
@@ -4093,8 +4093,8 @@ msgstr "Zu scrollende Eigenschaften"
 #: shortcodes/vc-settings.php:831
 msgid "Provide number of properties you want to scroll at a time"
 msgstr ""
-"Geben Sie die Anzahl der Eigenschaften an, die Sie gleichzeitig blÃ¤ttern "
-"mÃ¶chten"
+"Geben Sie die Anzahl der Eigenschaften an, die Sie gleichzeitig blättern "
+"möchten"
 
 #: shortcodes/vc-settings.php:837
 msgid "Speed"
@@ -4208,16 +4208,16 @@ msgstr "https://webcodingplace.com/"
 #~ "Standard zu verwenden"
 
 #~ msgid "Select Box"
-#~ msgstr "Box auswÃ¤hlen"
+#~ msgstr "Box auswählen"
 
 #~ msgid "Shortcode"
 #~ msgstr "Shortcode "
 
 #~ msgid "Possible Attributes"
-#~ msgstr "MÃ¶gliche Attribute:"
+#~ msgstr "Mögliche Attribute:"
 
 #~ msgid "Agent Registration Form"
-#~ msgstr "Anmeldeformular fÃ¼r Agenten"
+#~ msgstr "Anmeldeformular für Agenten"
 
 #~ msgid "It will render a form to register new agent"
 #~ msgstr "Es wird ein Formular zur Registrierung eines neuen Agenten vergeben"
@@ -4253,7 +4253,7 @@ msgstr "https://webcodingplace.com/"
 #~ msgstr "Objekt suchen"
 
 #~ msgid "It will render a form to search properties via AJAX."
-#~ msgstr "Es wird ein Formular zur Suche nach Eigenschaften Ã¼ber AJAX."
+#~ msgstr "Es wird ein Formular zur Suche nach Eigenschaften über AJAX."
 
 #~ msgid "It will render a list of properties."
 #~ msgstr "Es wird eine Liste von Eigenschaften rendern."
@@ -4264,7 +4264,7 @@ msgstr "https://webcodingplace.com/"
 #~ "wurden."
 
 #~ msgid "Multiple Properties on Map"
-#~ msgstr "Mehrere Eigenschaften fÃ¼r die Karte"
+#~ msgstr "Mehrere Eigenschaften für die Karte"
 
 #~ msgid "It displays multiple  properties on a map."
 #~ msgstr "Es zeigt mehrere Eigenschaften auf einer Karte an."
@@ -4285,7 +4285,7 @@ msgstr "https://webcodingplace.com/"
 
 #~ msgid "It renders slider of selected properties based on settings."
 #~ msgstr ""
-#~ "Es macht Slider von ausgewÃ¤hlten Eigenschaften basierend auf "
+#~ "Es macht Slider von ausgewählten Eigenschaften basierend auf "
 #~ "Einstellungen."
 
 #~ msgid "For more details, please visit"
@@ -4301,7 +4301,7 @@ msgstr "https://webcodingplace.com/"
 #~ msgstr "Irgendein Bereich, Stadt"
 
 #~ msgid "Provide text for ribbon of on sale properties"
-#~ msgstr "Geben Sie einen Text fÃ¼r das Ribbon der verkauften Objekte ein"
+#~ msgstr "Geben Sie einen Text für das Ribbon der verkauften Objekte ein"
 
 #~ msgid "Form Target"
 #~ msgstr "Formularziel"
@@ -4319,12 +4319,12 @@ msgstr "https://webcodingplace.com/"
 #~ msgstr "Spitzname"
 
 #~ msgid "Property scheduled for: <strong>%1$s</strong>."
-#~ msgstr "Property geplant fÃ¼r: <strong>%1$s</strong> ."
+#~ msgstr "Property geplant für: <strong>%1$s</strong> ."
 
 #~ msgid ""
 #~ "Provide custom url for agent profile, write disable to hide info icon"
 #~ msgstr ""
-#~ "Stellen Sie eine benutzerdefinierte URL fÃ¼r das Agentenprofil bereit, "
+#~ "Stellen Sie eine benutzerdefinierte URL für das Agentenprofil bereit, "
 #~ "schreiben Sie die Deaktivierung, um das Infosymbol auszublenden"
 
 #~ msgid "Inline"
