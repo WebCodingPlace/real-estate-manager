@@ -1,0 +1,5946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2019-04-22 11:17+0500\n"
+"PO-Revision-Date: 2019-04-22 11:18+0500\n"
+"Last-Translator: \n"
+"Language-Team: rameez7759@gmail.com\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+#, fuzzy
+msgid "Real Estate Manager"
+msgstr "Мениджър недвижими имоти"
+
+#: classes/emails.class.php:38
+#, fuzzy
+msgid "New Agent Registered "
+msgstr "Регистриран нов агент"
+
+#: classes/emails.class.php:49
+#, fuzzy
+msgid "Registration Successful "
+msgstr "Регистрация успешно"
+
+#: classes/emails.class.php:65
+msgid "Approved "
+msgstr "Одобрено"
+
+#: classes/emails.class.php:81
+msgid "Rejected "
+msgstr "Отхвърлени"
+
+#: classes/emails.class.php:103
+#, fuzzy
+msgid "New Property Submitted "
+msgstr "Ново свойство, представено"
+
+#: classes/emails.class.php:109
+#, fuzzy
+msgid "Property Submitted "
+msgstr "Свойство, представено"
+
+#: classes/emails.class.php:122
+#, fuzzy
+msgid "Property Approved "
+msgstr "Собственост, одобрена"
+
+#: classes/hooks.class.php:142 classes/hooks.class.php:146
+#: core.functions.php:557 inc/menu/page-agents.php:91
+#: inc/menu/page-agents.php:133
+msgid "Details"
+msgstr "Детайли"
+
+#: classes/hooks.class.php:217
+msgid "Beds"
+msgstr "Етаж/и"
+
+#: classes/hooks.class.php:222
+msgid "Baths"
+msgstr "Бани"
+
+#: classes/hooks.class.php:227 inc/arrays/property-fields.php:145
+msgid "Area"
+msgstr "Квадратура"
+
+#: classes/hooks.class.php:553 classes/hooks.class.php:1088
+#: classes/widgets/search-properties.php:89
+#: classes/widgets/search-properties.php:183 core.functions.php:695
+#: core.functions.php:1239 shortcodes/page-builders/all-setting-fields.php:393
+msgid "Property ID"
+msgstr "Номер на оферта"
+
+#: classes/hooks.class.php:687 core.functions.php:559
+msgid "Features"
+msgstr "Особености"
+
+#: classes/hooks.class.php:716 core.functions.php:1240
+#: shortcodes/create-property.php:76 shortcodes/edit-property.php:99
+#: shortcodes/page-builders/all-setting-fields.php:247
+msgid "Tags"
+msgstr "Етикети"
+
+#: classes/hooks.class.php:753 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+msgid "Edit Property"
+msgstr "Редакция на оферта"
+
+#: classes/hooks.class.php:759
+#, fuzzy
+msgid "Find on Map"
+msgstr "Вижте на картата"
+
+#: classes/hooks.class.php:837
+msgid "Name"
+msgstr "Име"
+
+#: classes/hooks.class.php:840 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "Имейл"
+
+#: classes/hooks.class.php:843
+msgid "Subject"
+msgstr "Тема"
+
+#: classes/hooks.class.php:846
+msgid "Your Message"
+msgstr "Съобщение"
+
+#: classes/hooks.class.php:852
+msgid "SEND MESSAGE"
+msgstr "Изпрати запитване"
+
+#: classes/hooks.class.php:859 inc/sidebar-agent-contact.php:35
+#, fuzzy
+msgid "Sending Email, Please Wait..."
+msgstr "Изпращане на електронна поща, моля изчакайте..."
+
+#: classes/hooks.class.php:882
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:883
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:891
+msgid "Tag:"
+msgstr "Таг:"
+
+#: classes/hooks.class.php:894
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties:"
+msgstr "Имоти"
+
+#: classes/hooks.class.php:913 classes/setup.class.php:656
+#: shortcodes/page-builders/all-setting-fields.php:745
+#: shortcodes/page-builders/all-setting-fields.php:752
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/hooks.class.php:914
+#, fuzzy
+msgid "Request for Customize"
+msgstr "Искане за персонализиране"
+
+#: classes/hooks.class.php:1062
+#, fuzzy
+msgid "You can add more features"
+msgstr "Можете да добавите още функции"
+
+#: classes/hooks.class.php:1063 inc/menu/admin-settings-arr.php:669
+#: inc/menu/admin-settings-arr.php:675 inc/menu/admin-settings-arr.php:774
+#: inc/menu/render-admin-settings.php:50
+msgid "here"
+msgstr "тук"
+
+#: classes/hooks.class.php:1089
+msgid "Featured Image"
+msgstr "Основно изображение"
+
+#: classes/hooks.class.php:1129 inc/menu/admin-settings-arr.php:124
+msgid "Energy Efficiency"
+msgstr ""
+
+#: classes/hooks.class.php:1149
+msgid "A+"
+msgstr ""
+
+#: classes/hooks.class.php:1150
+msgid "A"
+msgstr ""
+
+#: classes/hooks.class.php:1151
+msgid "B"
+msgstr ""
+
+#: classes/hooks.class.php:1152
+msgid "C"
+msgstr ""
+
+#: classes/hooks.class.php:1153
+#, fuzzy
+#| msgid "ID"
+msgid "D"
+msgstr "ID"
+
+#: classes/hooks.class.php:1154
+msgid "E"
+msgstr ""
+
+#: classes/hooks.class.php:1155
+msgid "F"
+msgstr ""
+
+#: classes/hooks.class.php:1156
+msgid "G"
+msgstr ""
+
+#: classes/hooks.class.php:1157
+msgid "H"
+msgstr ""
+
+#: classes/hooks.class.php:1159
+msgid "Energy Class"
+msgstr ""
+
+#: classes/hooks.class.php:1160
+#, fuzzy
+msgid "Select the energy class of the property"
+msgstr "Избор на прикачени файлове за свойство"
+
+#: classes/hooks.class.php:1169
+msgid "Global Energy Performance Index"
+msgstr ""
+
+#: classes/hooks.class.php:1170
+msgid "Example: 92.42 kWh / m²a"
+msgstr ""
+
+#: classes/hooks.class.php:1179
+msgid "Renewable Energy Performance Index"
+msgstr ""
+
+#: classes/hooks.class.php:1180
+msgid "Example: 1.00 kWh / m²a"
+msgstr ""
+
+#: classes/hooks.class.php:1189
+msgid "Energy Performance of the Listing"
+msgstr ""
+
+#: classes/hooks.class.php:1190
+msgid "Example: Low"
+msgstr ""
+
+#: classes/hooks.class.php:1211
+msgid "Energy class"
+msgstr ""
+
+#: classes/setup.class.php:102
+#, fuzzy
+msgid "Property Information"
+msgstr "Информация за имота"
+
+#: classes/setup.class.php:103
+#, fuzzy
+msgid "Location on Map"
+msgstr "Местоположение на картата"
+
+#: classes/setup.class.php:104
+msgid "Gallery Images"
+msgstr "Снимки на Галерията"
+
+#: classes/setup.class.php:105
+#, fuzzy
+#| msgid "Contact Agent"
+msgid "Additional Agents"
+msgstr "За контакт"
+
+#: classes/setup.class.php:434 classes/setup.class.php:736
+#, fuzzy
+msgid "Property Agent"
+msgstr "Агент по недвижими имоти"
+
+#: classes/setup.class.php:497
+#, fuzzy
+msgid "Attic"
+msgstr "Тавана"
+
+#: classes/setup.class.php:498
+#, fuzzy
+msgid "Gas Heat"
+msgstr "Газова жега"
+
+#: classes/setup.class.php:499
+msgid "Balcony"
+msgstr "Балкон"
+
+#: classes/setup.class.php:500
+#, fuzzy
+msgid "Wine Cellar"
+msgstr "Винарска изба"
+
+#: classes/setup.class.php:501
+#, fuzzy
+msgid "Basketball Court"
+msgstr "Баскетболно игрище"
+
+#: classes/setup.class.php:502
+#, fuzzy
+msgid "Trash Compactors"
+msgstr "Кошчета уплътнители"
+
+#: classes/setup.class.php:503
+msgid "Fireplace"
+msgstr "Камина"
+
+#: classes/setup.class.php:504
+msgid "Pool"
+msgstr "Група"
+
+#: classes/setup.class.php:505
+#, fuzzy
+msgid "Lake View"
+msgstr "Изглед към езерото"
+
+#: classes/setup.class.php:506
+#, fuzzy
+msgid "Solar Heat"
+msgstr "Слънчевата топлина"
+
+#: classes/setup.class.php:507
+#, fuzzy
+msgid "Separate Shower"
+msgstr "Отделен душ"
+
+#: classes/setup.class.php:508
+#, fuzzy
+msgid "Wet Bar"
+msgstr "Мокър бар"
+
+#: classes/setup.class.php:509
+#, fuzzy
+msgid "Remodeled"
+msgstr "Моделира"
+
+#: classes/setup.class.php:510
+msgid "Skylights"
+msgstr "Решетъчни прегради"
+
+#: classes/setup.class.php:511
+#, fuzzy
+msgid "Stone Surfaces"
+msgstr "Каменни повърхности"
+
+#: classes/setup.class.php:512
+#, fuzzy
+msgid "Golf Course"
+msgstr "Голф игрище"
+
+#: classes/setup.class.php:513
+#, fuzzy
+msgid "Health Club"
+msgstr "Здравен клуб"
+
+#: classes/setup.class.php:514
+#, fuzzy
+msgid "Backyard"
+msgstr "Двор"
+
+#: classes/setup.class.php:515
+#, fuzzy
+msgid "Pet Allowed"
+msgstr "Допускат се домашни любимци"
+
+#: classes/setup.class.php:516
+#, fuzzy
+msgid "Office/Den"
+msgstr "Офис/Den"
+
+#: classes/setup.class.php:517
+#, fuzzy
+msgid "Laundry"
+msgstr "Пералня"
+
+#: classes/setup.class.php:530
+#, fuzzy
+msgid "Duplex"
+msgstr "Дуплекс"
+
+#: classes/setup.class.php:531
+msgid "House"
+msgstr "Къща"
+
+#: classes/setup.class.php:532
+msgid "Office"
+msgstr "Офис"
+
+#: classes/setup.class.php:533
+msgid "Retail"
+msgstr "Търговия на дребно"
+
+#: classes/setup.class.php:534
+#, fuzzy
+msgid "Vila"
+msgstr "Vila"
+
+#: classes/setup.class.php:547
+msgid "Rent"
+msgstr "Отдава под наем"
+
+#: classes/setup.class.php:548
+msgid "Sell"
+msgstr "Продава"
+
+#: classes/setup.class.php:561
+msgid "Normal"
+msgstr "Нормално"
+
+#: classes/setup.class.php:562
+msgid "Available"
+msgstr "Налично"
+
+#: classes/setup.class.php:563
+msgid "Not Available"
+msgstr "Не се прилага"
+
+#: classes/setup.class.php:564
+msgid "Sold"
+msgstr "Продадено"
+
+#: classes/setup.class.php:565
+msgid "Open House"
+msgstr "Отворена къща"
+
+#: classes/setup.class.php:580 classes/shortcodes.class.php:1308
+#: classes/shortcodes.class.php:1562
+#, fuzzy
+msgid "Please check the captcha form."
+msgstr "Харесвам шах определителен член капитан форма."
+
+#: classes/setup.class.php:589 classes/shortcodes.class.php:1317
+#, fuzzy
+msgid "There was an error. Please try again after reloading page"
+msgstr "Възникна грешка. Моля опитайте отново след презареждане страница"
+
+#: classes/setup.class.php:643
+#, fuzzy
+msgid "Email Sent Successfully"
+msgstr "Имейлът е изпратен успешно"
+
+#: classes/setup.class.php:645
+#, fuzzy
+msgid "There is some problem, please try later"
+msgstr "Има някакъв проблем, моля опитайте по-късно"
+
+#: classes/setup.class.php:653
+msgid "Agents"
+msgstr "Брокери"
+
+#: classes/setup.class.php:654
+msgid "Property Fields"
+msgstr "Полета Имоти"
+
+#: classes/setup.class.php:655
+msgid "Registration Fields"
+msgstr "Регистрационни полета"
+
+#: classes/setup.class.php:657
+msgid "Extensions"
+msgstr "Разширения"
+
+#: classes/setup.class.php:658
+#, fuzzy
+msgid "Help/Support"
+msgstr "Помощ/поддръжка"
+
+#: classes/setup.class.php:819 classes/setup.class.php:850
+#: classes/setup.class.php:1151
+#, fuzzy
+#| msgid "Settings Saved"
+msgid "Settings Saved!"
+msgstr "Настройките са записани"
+
+#: classes/setup.class.php:820 classes/setup.class.php:851
+#: classes/setup.class.php:1152
+msgid "Settings are saved in the database successfully."
+msgstr ""
+
+#: classes/setup.class.php:831 classes/setup.class.php:854
+#: classes/setup.class.php:1155
+msgid "Failed!"
+msgstr ""
+
+#: classes/setup.class.php:832 classes/setup.class.php:855
+#: classes/setup.class.php:1156
+msgid "There is some error or you did not make any change."
+msgstr ""
+
+#: classes/setup.class.php:877 classes/setup.class.php:880
+#, fuzzy
+msgid "Property updated."
+msgstr "Имотът е актуализиран."
+
+#: classes/setup.class.php:878
+msgid "Custom field updated."
+msgstr "Персонализираното поле е обновено."
+
+#: classes/setup.class.php:879
+msgid "Custom field deleted."
+msgstr "Персонализираното поле е изтрито."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:882
+#, fuzzy
+msgid "Property restored to revision"
+msgstr "Свойството е възстановено до редакция"
+
+#: classes/setup.class.php:883
+#, fuzzy
+msgid "Property published."
+msgstr "Имотът е публикуван."
+
+#: classes/setup.class.php:884
+#, fuzzy
+msgid "Property saved."
+msgstr "Запазено свойство."
+
+#: classes/setup.class.php:885
+#, fuzzy
+msgid "Property submitted."
+msgstr "Имотът е подаден."
+
+#: classes/setup.class.php:887
+#, fuzzy
+msgid "Property scheduled."
+msgstr "Имотът е планиран."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:889
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/setup.class.php:891
+#, fuzzy
+msgid "Property draft updated."
+msgstr "Актуализиран проект на свойство."
+
+#: classes/setup.class.php:897 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "Виж офертата"
+
+#: classes/setup.class.php:903
+#, fuzzy
+msgid "Preview Property"
+msgstr "Визуализация на свойство"
+
+#: classes/setup.class.php:968
+#, fuzzy
+msgid "Property Page Base"
+msgstr "База на страница за свойства"
+
+#: classes/setup.class.php:993 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37
+msgid "Type"
+msgstr "Тип"
+
+#: classes/setup.class.php:994 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+msgid "Purpose"
+msgstr "Цел"
+
+#: classes/setup.class.php:995 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+msgid "Status"
+msgstr "Статус"
+
+#: classes/setup.class.php:996
+#, fuzzy
+#| msgid "Features"
+msgid "Is Featured"
+msgstr "Особености"
+
+#: classes/setup.class.php:1024
+msgid "All Types"
+msgstr "Видове"
+
+#: classes/setup.class.php:1036
+#, fuzzy
+msgid "All Purpose"
+msgstr "Всички цел"
+
+#: classes/setup.class.php:1047
+msgid "All Status"
+msgstr "Вид сделка"
+
+#: classes/shortcodes.class.php:85
+msgid "Passwords did not match!"
+msgstr ""
+
+#: classes/shortcodes.class.php:103 classes/shortcodes.class.php:449
+#: classes/shortcodes.class.php:900
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+
+#: classes/shortcodes.class.php:109 classes/widgets/search-properties.php:104
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+msgid "Search"
+msgstr "Търсене"
+
+#: classes/shortcodes.class.php:110
+msgid "More Filters"
+msgstr "Повече филтри"
+
+#: classes/shortcodes.class.php:196
+#, fuzzy
+msgid "Logging In, Please Wait..."
+msgstr "Изпращане на електронна поща, моля изчакайте..."
+
+#: classes/shortcodes.class.php:388 classes/shortcodes.class.php:423
+msgid "Are you sure to delete this property?"
+msgstr ""
+
+#: classes/shortcodes.class.php:389 classes/shortcodes.class.php:424
+#: inc/arrays/property-fields.php:226
+msgid "Yes"
+msgstr "Да"
+
+#: classes/shortcodes.class.php:390 classes/shortcodes.class.php:425
+#: inc/arrays/property-fields.php:225
+msgid "No"
+msgstr "Не"
+
+#: classes/shortcodes.class.php:391 classes/shortcodes.class.php:426
+#: classes/shortcodes.class.php:1475
+msgid "Done"
+msgstr "Готово"
+
+#: classes/shortcodes.class.php:1109 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "Изход"
+
+#: classes/shortcodes.class.php:1300
+msgid "There is no property having ID "
+msgstr ""
+
+#: classes/shortcodes.class.php:1339
+msgid "Successful!"
+msgstr ""
+
+#: classes/shortcodes.class.php:1500
+#, fuzzy
+msgid "Changes Saved!"
+msgstr "Промени спасени!"
+
+#: classes/shortcodes.class.php:1571
+#, fuzzy
+msgid "There was an error. Please try again after reloading page."
+msgstr "Възникна грешка. Моля, опитайте отново след презареждане страница."
+
+#: classes/shortcodes.class.php:1579 classes/shortcodes.class.php:1615
+#, fuzzy
+msgid "Username or Email already exists"
+msgstr "Потребителско име или имейл вече съществува"
+
+#: classes/shortcodes.class.php:1587 classes/shortcodes.class.php:1628
+#, fuzzy
+msgid "Registered Successfully, please wait until admin approves."
+msgstr "Регистриран успешно, моля изчакайте, докато администратор одобри."
+
+#: classes/shortcodes.class.php:1589 classes/shortcodes.class.php:1630
+#, fuzzy
+msgid "Error, please try later"
+msgstr "Грешка, моля опитайте по-късно"
+
+#: classes/shortcodes.class.php:1651
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Изтрий"
+
+#: classes/shortcodes.class.php:1653
+msgid "Sorry! You can not delete this property."
+msgstr ""
+
+#: classes/shortcodes.class.php:1715
+#, fuzzy
+msgid "Choose Picture"
+msgstr "Изберете картина"
+
+#: classes/shortcodes.class.php:1715 classes/shortcodes.class.php:1758
+#: core.functions.php:639
+msgid "Add"
+msgstr "Добави"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+#, fuzzy
+msgid "Select attachments for property"
+msgstr "Избор на прикачени файлове за свойство"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+msgid "Upload"
+msgstr "Качи"
+
+#: classes/shortcodes.class.php:1770 core.functions.php:626
+#: core.functions.php:740 core.functions.php:759 core.functions.php:797
+msgid "Any"
+msgstr "Всички"
+
+#: classes/shortcodes.class.php:1828
+#, fuzzy
+msgid "Sort By Date"
+msgstr "Сортирай по дата"
+
+#: classes/shortcodes.class.php:1832
+#, fuzzy
+#| msgid "Property Title"
+msgid "Sort By Title"
+msgstr "Сортирай по заглавие"
+
+#: classes/shortcodes.class.php:1836
+#, fuzzy
+msgid "Sort By Price : High to Low"
+msgstr "Сортирай по цена: висока към ниска"
+
+#: classes/shortcodes.class.php:1840
+#, fuzzy
+msgid "Sort By Price : Low to High"
+msgstr "Сортирай по цена: ниска към висока"
+
+#: classes/widgets/mortgage-calculator.php:13
+#, fuzzy
+msgid "REM - Mortgage Calculator"
+msgstr "REM-Ипотечен калкулатор"
+
+#: classes/widgets/mortgage-calculator.php:14
+#, fuzzy
+msgid "Displays Mortgage Calculator"
+msgstr "Показва ипотечни калкулатор"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "Промоционална цена"
+
+#: classes/widgets/mortgage-calculator.php:45
+#, fuzzy
+msgid "Down payment"
+msgstr "Авансово плащане"
+
+#: classes/widgets/mortgage-calculator.php:49
+#, fuzzy
+msgid "Interest Rate"
+msgstr "Лихвен процент"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Term"
+msgstr "Ключова дума"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "years"
+msgstr "години"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "Изчисляване"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:121 classes/widgets/tags-cloud.php:34
+#: core.functions.php:700 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36
+msgid "Title"
+msgstr "Заглавие"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "REM-търсене на имот"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "Търси имот"
+
+#: classes/widgets/search-properties.php:74 shortcodes/search-property.php:43
+msgid "Keywords"
+msgstr "Ключови думи"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:156 core.functions.php:678
+#: core.functions.php:1236 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:206
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:608
+#: shortcodes/page-builders/all-setting-fields.php:941
+msgid "Order"
+msgstr "Поръчка"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:165 core.functions.php:699
+#: core.functions.php:1237 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:571
+#: shortcodes/page-builders/all-setting-fields.php:622
+#: shortcodes/page-builders/all-setting-fields.php:951
+msgid "Order By"
+msgstr "Подреди по"
+
+#: classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:174 core.functions.php:707
+#: core.functions.php:1238 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:220
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:445
+#: shortcodes/page-builders/all-setting-fields.php:575
+#: shortcodes/page-builders/all-setting-fields.php:626
+#: shortcodes/page-builders/all-setting-fields.php:737
+msgid "Agent"
+msgstr "Брокер"
+
+#: classes/widgets/search-properties.php:136 core.functions.php:1230
+msgid "Search Field"
+msgstr "Поле за търсене"
+
+#: classes/widgets/search-properties.php:192
+#, fuzzy
+msgid "Enable Auto Complete Fields"
+msgstr "Разреши автоматичното попълване на полета"
+
+#: classes/widgets/search-properties.php:194
+#, fuzzy
+msgid "It will auto suggest words in text fields as user type in."
+msgstr "То ще автомобил внушавам дума in текст поле както потребител вид in."
+
+#: classes/widgets/search-properties.php:197
+msgid "Search Results Page"
+msgstr "Страница с Резултати от Търсесне"
+
+#: classes/widgets/search-properties.php:218
+#: inc/menu/render-admin-settings.php:167
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "Няма намерени страници!"
+
+#: classes/widgets/search-properties.php:221
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr "Тесто последователи кратък на отбран паж към излагам на показ резултат"
+
+#: classes/widgets/tags-cloud.php:13
+#, fuzzy
+msgid "REM - Tags Cloud"
+msgstr "REM-Tags облак"
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "Показва свойствата етикети облак"
+
+#: core.functions.php:124
+#, fuzzy
+msgid "United Arab Emirates dirham"
+msgstr "Обединени арабски емирства дирхам"
+
+#: core.functions.php:125
+#, fuzzy
+msgid "Afghan afghani"
+msgstr "Афганистанската афганистанец"
+
+#: core.functions.php:126
+#, fuzzy
+msgid "Albanian lek"
+msgstr "Албански Lek"
+
+#: core.functions.php:127
+#, fuzzy
+msgid "Armenian dram"
+msgstr "Арменски драм"
+
+#: core.functions.php:128
+#, fuzzy
+msgid "Netherlands Antillean guilder"
+msgstr "Холандия Antillean гулден"
+
+#: core.functions.php:129
+#, fuzzy
+msgid "Angolan kwanza"
+msgstr "Ангола кванза"
+
+#: core.functions.php:130
+#, fuzzy
+msgid "Argentine peso"
+msgstr "Аржентинско песо"
+
+#: core.functions.php:131
+msgid "Australian dollar"
+msgstr "Австралийски долар"
+
+#: core.functions.php:132
+#, fuzzy
+msgid "Aruban florin"
+msgstr "Aruban Флорин"
+
+#: core.functions.php:133
+#, fuzzy
+msgid "Azerbaijani manat"
+msgstr "Азербайджански манат"
+
+#: core.functions.php:134
+#, fuzzy
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Конвертируема марка в Босна и Херцеговина"
+
+#: core.functions.php:135
+#, fuzzy
+msgid "Barbadian dollar"
+msgstr "Barbadian долар"
+
+#: core.functions.php:136
+#, fuzzy
+msgid "Bangladeshi taka"
+msgstr "Бангладешка така"
+
+#: core.functions.php:137
+msgid "Bulgarian lev"
+msgstr "Български лев"
+
+#: core.functions.php:138
+#, fuzzy
+msgid "Bahraini dinar"
+msgstr "Бахрейнски динар"
+
+#: core.functions.php:139
+#, fuzzy
+msgid "Burundian franc"
+msgstr "Бурунди Франк"
+
+#: core.functions.php:140
+#, fuzzy
+msgid "Bermudian dollar"
+msgstr "Бермуда долар"
+
+#: core.functions.php:141
+#, fuzzy
+msgid "Brunei dollar"
+msgstr "Брунейски долар"
+
+#: core.functions.php:142
+#, fuzzy
+msgid "Bolivian boliviano"
+msgstr "Боливийски боливиано"
+
+#: core.functions.php:143
+msgid "Brazilian real"
+msgstr "Бразилски реал"
+
+#: core.functions.php:144
+#, fuzzy
+msgid "Bahamian dollar"
+msgstr "Бахамски долар"
+
+#: core.functions.php:145
+msgid "Bitcoin"
+msgstr "Биткойн"
+
+#: core.functions.php:146
+#, fuzzy
+msgid "Bhutanese ngultrum"
+msgstr "Бутан ngultrum"
+
+#: core.functions.php:147
+#, fuzzy
+msgid "Botswana pula"
+msgstr "Ботсвана пула"
+
+#: core.functions.php:148
+#, fuzzy
+msgid "Belarusian ruble"
+msgstr "Беларуската рубла"
+
+#: core.functions.php:149
+#, fuzzy
+msgid "Belize dollar"
+msgstr "Белиз долар"
+
+#: core.functions.php:150
+msgid "Canadian dollar"
+msgstr "Канадски долар"
+
+#: core.functions.php:151
+#, fuzzy
+msgid "Congolese franc"
+msgstr "Конгоански Франк"
+
+#: core.functions.php:152
+msgid "Swiss franc"
+msgstr "Швейцарски франк"
+
+#: core.functions.php:153
+msgid "Chilean peso"
+msgstr "Чилийско песо"
+
+#: core.functions.php:154
+msgid "Chinese yuan"
+msgstr "Юан"
+
+#: core.functions.php:155
+#, fuzzy
+msgid "Colombian peso"
+msgstr "Колумбийско песо"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "Коста Рика полковник &oacute; n"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Cuban convertible peso"
+msgstr "Кубинско конвертируемо песо"
+
+#: core.functions.php:158
+#, fuzzy
+msgid "Cuban peso"
+msgstr "Кубинско песо"
+
+#: core.functions.php:159
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "Ескудо на Кабо Верде"
+
+#: core.functions.php:160
+msgid "Czech koruna"
+msgstr "Чешка крона"
+
+#: core.functions.php:161
+#, fuzzy
+msgid "Djiboutian franc"
+msgstr "Djiboutian Франк"
+
+#: core.functions.php:162
+msgid "Danish krone"
+msgstr "Датска крона"
+
+#: core.functions.php:163
+msgid "Dominican peso"
+msgstr "Доминиканско песо"
+
+#: core.functions.php:164
+#, fuzzy
+msgid "Algerian dinar"
+msgstr "Алжирски динар"
+
+#: core.functions.php:165
+#, fuzzy
+msgid "Egyptian pound"
+msgstr "Египетска лира"
+
+#: core.functions.php:166
+#, fuzzy
+msgid "Eritrean nakfa"
+msgstr "Еритрея nakfa"
+
+#: core.functions.php:167
+#, fuzzy
+msgid "Ethiopian birr"
+msgstr "Етиопски бир"
+
+#: core.functions.php:168
+msgid "Euro"
+msgstr "EUR"
+
+#: core.functions.php:169
+#, fuzzy
+msgid "Fijian dollar"
+msgstr "Долар на Фиджи"
+
+#: core.functions.php:170
+#, fuzzy
+msgid "Falkland Islands pound"
+msgstr "Паунд за Фолкландските острови"
+
+#: core.functions.php:171
+msgid "Pound sterling"
+msgstr "Лира стерлинга"
+
+#: core.functions.php:172
+#, fuzzy
+msgid "Georgian lari"
+msgstr "Грузински Lari"
+
+#: core.functions.php:173
+#, fuzzy
+msgid "Guernsey pound"
+msgstr "Британска лира"
+
+#: core.functions.php:174
+#, fuzzy
+msgid "Ghana cedi"
+msgstr "Гана ганайски"
+
+#: core.functions.php:175
+#, fuzzy
+msgid "Gibraltar pound"
+msgstr "Гибралтарска лира"
+
+#: core.functions.php:176
+#, fuzzy
+msgid "Gambian dalasi"
+msgstr "Гамбийските dalasi"
+
+#: core.functions.php:177
+#, fuzzy
+msgid "Guinean franc"
+msgstr "Гвинея Франк"
+
+#: core.functions.php:178
+#, fuzzy
+msgid "Guatemalan quetzal"
+msgstr "Гватемала Кетцал"
+
+#: core.functions.php:179
+#, fuzzy
+msgid "Guyanese dollar"
+msgstr "Гвиана долар"
+
+#: core.functions.php:180
+#, fuzzy
+msgid "Hong Kong dollar"
+msgstr "Хонг Конг долар"
+
+#: core.functions.php:181
+#, fuzzy
+msgid "Honduran lempira"
+msgstr "Хондурас lempira"
+
+#: core.functions.php:182
+#, fuzzy
+msgid "Croatian kuna"
+msgstr "Хърватска куна"
+
+#: core.functions.php:183
+#, fuzzy
+msgid "Haitian gourde"
+msgstr "Хаитянски тикви"
+
+#: core.functions.php:184
+msgid "Hungarian forint"
+msgstr "Унгарски форинт"
+
+#: core.functions.php:185
+#, fuzzy
+msgid "Indonesian rupiah"
+msgstr "Индонезийска рупия"
+
+#: core.functions.php:186
+#, fuzzy
+msgid "Israeli new shekel"
+msgstr "Израелската нова шекел"
+
+#: core.functions.php:187
+#, fuzzy
+msgid "Manx pound"
+msgstr "Обикновен лира"
+
+#: core.functions.php:188
+msgid "Indian rupee"
+msgstr "Индийска рупия"
+
+#: core.functions.php:189
+#, fuzzy
+msgid "Iraqi dinar"
+msgstr "Иракска динар"
+
+#: core.functions.php:190
+msgid "Iranian rial"
+msgstr "Ирански риал"
+
+#: core.functions.php:191
+#, fuzzy
+msgid "Icelandic kr&oacute;na"
+msgstr "Исландски KR &oacute; Na"
+
+#: core.functions.php:192
+#, fuzzy
+msgid "Jersey pound"
+msgstr "Джърси лира"
+
+#: core.functions.php:193
+#, fuzzy
+msgid "Jamaican dollar"
+msgstr "Ямайски долар"
+
+#: core.functions.php:194
+#, fuzzy
+msgid "Jordanian dinar"
+msgstr "Йордански динар"
+
+#: core.functions.php:195
+msgid "Japanese yen"
+msgstr "Японска йена"
+
+#: core.functions.php:196
+#, fuzzy
+msgid "Kenyan shilling"
+msgstr "Кенийски шилинг"
+
+#: core.functions.php:197
+#, fuzzy
+msgid "Kyrgyzstani som"
+msgstr "Български Som"
+
+#: core.functions.php:198
+#, fuzzy
+msgid "Cambodian riel"
+msgstr "Камбоджа Riel"
+
+#: core.functions.php:199
+#, fuzzy
+msgid "Comorian franc"
+msgstr "Коморски франк"
+
+#: core.functions.php:200
+#, fuzzy
+msgid "North Korean won"
+msgstr "Северна Корея спечели"
+
+#: core.functions.php:201
+#, fuzzy
+msgid "South Korean won"
+msgstr "Южнокорейски вон"
+
+#: core.functions.php:202
+#, fuzzy
+msgid "Kuwaiti dinar"
+msgstr "Кувейтски динар"
+
+#: core.functions.php:203
+#, fuzzy
+msgid "Cayman Islands dollar"
+msgstr "Кайманови острови долар"
+
+#: core.functions.php:204
+#, fuzzy
+msgid "Kazakhstani tenge"
+msgstr "Казахстанска"
+
+#: core.functions.php:205
+#, fuzzy
+msgid "Lao kip"
+msgstr "Лао Кип"
+
+#: core.functions.php:206
+#, fuzzy
+msgid "Lebanese pound"
+msgstr "Ливанска лира"
+
+#: core.functions.php:207
+#, fuzzy
+msgid "Sri Lankan rupee"
+msgstr "Шри Ланка рупии"
+
+#: core.functions.php:208
+#, fuzzy
+msgid "Liberian dollar"
+msgstr "Либерийски долар"
+
+#: core.functions.php:209
+#, fuzzy
+msgid "Lesotho loti"
+msgstr "Лесото Лоти"
+
+#: core.functions.php:210
+#, fuzzy
+msgid "Libyan dinar"
+msgstr "Либийски динар"
+
+#: core.functions.php:211
+#, fuzzy
+msgid "Moroccan dirham"
+msgstr "Марокански дирхам"
+
+#: core.functions.php:212
+#, fuzzy
+msgid "Moldovan leu"
+msgstr "Молдовски леи"
+
+#: core.functions.php:213
+#, fuzzy
+msgid "Malagasy ariary"
+msgstr "Мадагаскарска ария"
+
+#: core.functions.php:214
+#, fuzzy
+msgid "Macedonian denar"
+msgstr "Македония денар"
+
+#: core.functions.php:215
+#, fuzzy
+msgid "Burmese kyat"
+msgstr "Бирмански kyat"
+
+#: core.functions.php:216
+#, fuzzy
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Монголски t &ouml; GR &ouml; g"
+
+#: core.functions.php:217
+#, fuzzy
+msgid "Macanese pataca"
+msgstr "Макао pataca"
+
+#: core.functions.php:218
+#, fuzzy
+msgid "Mauritanian ouguiya"
+msgstr "Мавритания ouguiya"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "Маврицийска рупия"
+
+#: core.functions.php:220
+#, fuzzy
+msgid "Maldivian rufiyaa"
+msgstr "Малдивски руфии"
+
+#: core.functions.php:221
+#, fuzzy
+msgid "Malawian kwacha"
+msgstr "Малави квача"
+
+#: core.functions.php:222
+msgid "Mexican peso"
+msgstr "Мексиканско песо"
+
+#: core.functions.php:223
+#, fuzzy
+msgid "Malaysian ringgit"
+msgstr "Малайзийски рингит"
+
+#: core.functions.php:224
+#, fuzzy
+msgid "Mozambican metical"
+msgstr "Мозамбикски метикал"
+
+#: core.functions.php:225
+#, fuzzy
+msgid "Namibian dollar"
+msgstr "Намибия долар"
+
+#: core.functions.php:226
+#, fuzzy
+msgid "Nigerian naira"
+msgstr "Нигерия"
+
+#: core.functions.php:227
+#, fuzzy
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Никарагуа c &oacute; rdoba"
+
+#: core.functions.php:228
+msgid "Norwegian krone"
+msgstr "Норвежка крона"
+
+#: core.functions.php:229
+#, fuzzy
+msgid "Nepalese rupee"
+msgstr "Непалска рупия"
+
+#: core.functions.php:230
+#, fuzzy
+msgid "New Zealand dollar"
+msgstr "Новозеландският долар"
+
+#: core.functions.php:231
+#, fuzzy
+msgid "Omani rial"
+msgstr "Омански риал"
+
+#: core.functions.php:232
+#, fuzzy
+msgid "Panamanian balboa"
+msgstr "Панамски Балбоа"
+
+#: core.functions.php:233
+#, fuzzy
+msgid "Peruvian nuevo sol"
+msgstr "Перуански Нуево сол"
+
+#: core.functions.php:234
+#, fuzzy
+msgid "Papua New Guinean kina"
+msgstr "Кина Папуа Нова Гвинея"
+
+#: core.functions.php:235
+msgid "Philippine peso"
+msgstr "Филипинско песо"
+
+#: core.functions.php:236
+#, fuzzy
+msgid "Pakistani rupee"
+msgstr "Пакистанска рупия"
+
+#: core.functions.php:237
+#, fuzzy
+msgid "Polish z&#x142;oty"
+msgstr "Полски z & #x142; oty"
+
+#: core.functions.php:238
+#, fuzzy
+msgid "Transnistrian ruble"
+msgstr "Приднестровието рубла"
+
+#: core.functions.php:239
+#, fuzzy
+msgid "Paraguayan guaran&iacute;"
+msgstr "Парагвайски гаранция &iacute;"
+
+#: core.functions.php:240
+#, fuzzy
+msgid "Qatari riyal"
+msgstr "Катарски риал"
+
+#: core.functions.php:241
+msgid "Romanian leu"
+msgstr "Румънска лея"
+
+#: core.functions.php:242
+msgid "Serbian dinar"
+msgstr "Сръбски динар"
+
+#: core.functions.php:243
+msgid "Russian ruble"
+msgstr "Руска рубла"
+
+#: core.functions.php:244
+#, fuzzy
+msgid "Rwandan franc"
+msgstr "Руанда франк"
+
+#: core.functions.php:245
+#, fuzzy
+msgid "Saudi riyal"
+msgstr "Саудитска риал"
+
+#: core.functions.php:246
+#, fuzzy
+msgid "Solomon Islands dollar"
+msgstr "Долар на Соломоновите острови"
+
+#: core.functions.php:247
+#, fuzzy
+msgid "Seychellois rupee"
+msgstr "Seychellois рупии"
+
+#: core.functions.php:248
+#, fuzzy
+msgid "Sudanese pound"
+msgstr "Суданска лира"
+
+#: core.functions.php:249
+msgid "Swedish krona"
+msgstr "Шведска крона"
+
+#: core.functions.php:250
+msgid "Singapore dollar"
+msgstr "Сингапурски долар"
+
+#: core.functions.php:251
+#, fuzzy
+msgid "Saint Helena pound"
+msgstr "Лира на света Елена"
+
+#: core.functions.php:252
+#, fuzzy
+msgid "Sierra Leonean leone"
+msgstr "Сиера Леоне го направиха Леоне"
+
+#: core.functions.php:253
+#, fuzzy
+msgid "Somali shilling"
+msgstr "Сомалийски шилинг"
+
+#: core.functions.php:254
+#, fuzzy
+msgid "Surinamese dollar"
+msgstr "Суринамски долар"
+
+#: core.functions.php:255
+#, fuzzy
+msgid "South Sudanese pound"
+msgstr "Южен Судан лира"
+
+#: core.functions.php:256
+#, fuzzy
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S &atilde; о Том &eacute; и PR &iacute; ncipe добра"
+
+#: core.functions.php:257
+#, fuzzy
+msgid "Syrian pound"
+msgstr "Сирийска лира"
+
+#: core.functions.php:258
+#, fuzzy
+msgid "Swazi lilangeni"
+msgstr "Swazi lilangeni"
+
+#: core.functions.php:259
+msgid "Thai baht"
+msgstr "Тайландски бат"
+
+#: core.functions.php:260
+#, fuzzy
+msgid "Tajikistani somoni"
+msgstr "Tajikistani Сомони"
+
+#: core.functions.php:261
+#, fuzzy
+msgid "Turkmenistan manat"
+msgstr "Туркменистански манат"
+
+#: core.functions.php:262
+#, fuzzy
+msgid "Tunisian dinar"
+msgstr "Тунизийски динар"
+
+#: core.functions.php:263
+#, fuzzy
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongan PA & #x2bb; anga"
+
+#: core.functions.php:264
+msgid "Turkish lira"
+msgstr "Турска лира"
+
+#: core.functions.php:265
+#, fuzzy
+msgid "Trinidad and Tobago dollar"
+msgstr "Тринидад и Тобаго долар"
+
+#: core.functions.php:266
+#, fuzzy
+msgid "New Taiwan dollar"
+msgstr "Нов тайвански долар"
+
+#: core.functions.php:267
+#, fuzzy
+msgid "Tanzanian shilling"
+msgstr "Танзания шилинг"
+
+#: core.functions.php:268
+#, fuzzy
+msgid "Ukrainian hryvnia"
+msgstr "Украинска гривня"
+
+#: core.functions.php:269
+#, fuzzy
+msgid "Ugandan shilling"
+msgstr "Уганда шилинг"
+
+#: core.functions.php:270
+msgid "United States dollar"
+msgstr "Щатски долар"
+
+#: core.functions.php:271
+#, fuzzy
+msgid "Uruguayan peso"
+msgstr "Уругвайски песо"
+
+#: core.functions.php:272
+#, fuzzy
+msgid "Uzbekistani som"
+msgstr "Uzbekistani Som"
+
+#: core.functions.php:273
+#, fuzzy
+msgid "Venezuelan bol&iacute;var"
+msgstr "Венецуела Bol &iacute; var"
+
+#: core.functions.php:274
+#, fuzzy
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Виетнамски & #x111; & #x1ed3; NG"
+
+#: core.functions.php:275
+#, fuzzy
+msgid "Vanuatu vatu"
+msgstr "Вануату vatu"
+
+#: core.functions.php:276
+#, fuzzy
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Самоа t & #x101; l & #x101;"
+
+#: core.functions.php:277
+#, fuzzy
+msgid "Central African CFA franc"
+msgstr "Централна Африка CFA франк"
+
+#: core.functions.php:278
+#, fuzzy
+msgid "East Caribbean dollar"
+msgstr "Изток Карибски долар"
+
+#: core.functions.php:279
+#, fuzzy
+msgid "West African CFA franc"
+msgstr "Западна Африка CFA франк"
+
+#: core.functions.php:280
+#, fuzzy
+msgid "CFP franc"
+msgstr "ОПОР Франк"
+
+#: core.functions.php:281
+#, fuzzy
+msgid "Yemeni rial"
+msgstr "Йеменски риал"
+
+#: core.functions.php:282
+msgid "South African rand"
+msgstr "Южноафрикански ранд"
+
+#: core.functions.php:283
+#, fuzzy
+msgid "Zambian kwacha"
+msgstr "Замбия квача"
+
+#: core.functions.php:558
+#, fuzzy
+msgid "Internal Structure"
+msgstr "Вътрешна структура"
+
+#: core.functions.php:560
+msgid "Attachments"
+msgstr "Прикачени файлове"
+
+#: core.functions.php:561
+msgid "Video"
+msgstr "Видео"
+
+#: core.functions.php:562
+#, fuzzy
+msgid "Private Fields"
+msgstr "Частни полета"
+
+#: core.functions.php:574
+msgid "Personal Info"
+msgstr "Лична Информация"
+
+#: core.functions.php:575
+msgid "Social Profiles"
+msgstr "Социални профили"
+
+#: core.functions.php:576
+msgid "Skills"
+msgstr "Умения"
+
+#: core.functions.php:592
+#, fuzzy
+msgid "Style 1 - Inline"
+msgstr "Стил 1-инлайн"
+
+#: core.functions.php:593
+#, fuzzy
+msgid "Style 2 - Static Box"
+msgstr "Стил 2-статична кутия"
+
+#: core.functions.php:594
+#, fuzzy
+msgid "Style 3 - Hover Box"
+msgstr "Стил 3-поле за задържане"
+
+#: core.functions.php:595
+#, fuzzy
+msgid "Style 4 - Mini Box"
+msgstr "Стил 4-мини Box"
+
+#: core.functions.php:596
+#, fuzzy
+msgid "Style 5 - Full Box"
+msgstr "Стил 5-пълна кутия"
+
+#: core.functions.php:597
+#, fuzzy
+msgid "Style 6 - Fade Thumbnails"
+msgstr "Стил 6-плавно миниатюри"
+
+#: core.functions.php:598
+#, fuzzy
+msgid "Style 7 - Map Box"
+msgstr "Стил 7-карта кутия"
+
+#: core.functions.php:662
+msgid "NO"
+msgstr "НЕ"
+
+#: core.functions.php:662
+msgid "YES"
+msgstr "ДА"
+
+#: core.functions.php:679 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:210
+#: shortcodes/page-builders/all-setting-fields.php:565
+#: shortcodes/page-builders/all-setting-fields.php:612
+#: shortcodes/page-builders/all-setting-fields.php:945
+msgid "Descending"
+msgstr "Низходящо"
+
+#: core.functions.php:680 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:209
+#: shortcodes/page-builders/all-setting-fields.php:564
+#: shortcodes/page-builders/all-setting-fields.php:611
+#: shortcodes/page-builders/all-setting-fields.php:944
+msgid "Ascending"
+msgstr "Възходящо"
+
+#: core.functions.php:685
+#, fuzzy
+#| msgctxt "Tags"
+#| msgid "Tag"
+msgid "Tag"
+msgstr "Етикет"
+
+#: core.functions.php:701 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:219
+#: shortcodes/page-builders/all-setting-fields.php:574
+#: shortcodes/page-builders/all-setting-fields.php:625
+msgid "Date"
+msgstr "Дата"
+
+#: core.functions.php:702 core.functions.php:840 core.functions.php:852
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:578
+msgid "Price"
+msgstr "Цена"
+
+#: core.functions.php:855
+msgid "Min"
+msgstr "мин."
+
+#: core.functions.php:857
+msgid "Max"
+msgstr "Максимум"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+#, fuzzy
+msgid "Select images for property gallery"
+msgstr "Изберете изображения за галерия със свойства"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr "Вмъкни"
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "Качване на изображения"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:91
+#: shortcodes/edit-property.php:118
+#, fuzzy
+msgid "Type to Search..."
+msgstr "Тип за търсене..."
+
+#: inc/admin/property-location-map.php:12
+#, fuzzy
+msgid "Search the address on search bar. "
+msgstr "Търсене на адреса в лентата за търсене."
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:96
+#: shortcodes/edit-property.php:122
+#, fuzzy
+msgid "Drag the pin to the location on the map"
+msgstr "Плъзнете ПИН кода на местоположението на картата"
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:127
+#: inc/menu/admin-settings-arr.php:198 inc/menu/admin-settings-arr.php:219
+#: inc/menu/admin-settings-arr.php:241 inc/menu/admin-settings-arr.php:261
+#: inc/menu/admin-settings-arr.php:271 inc/menu/admin-settings-arr.php:314
+#: inc/menu/admin-settings-arr.php:325 inc/menu/admin-settings-arr.php:458
+#: inc/menu/admin-settings-arr.php:507 inc/menu/admin-settings-arr.php:1030
+#: inc/menu/admin-settings-arr.php:1040 inc/menu/admin-settings-arr.php:1059
+#: inc/menu/admin-settings-arr.php:1069 inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:268
+#: shortcodes/page-builders/all-setting-fields.php:300
+#: shortcodes/page-builders/all-setting-fields.php:318
+#: shortcodes/page-builders/all-setting-fields.php:329
+#: shortcodes/page-builders/all-setting-fields.php:545
+#: shortcodes/page-builders/all-setting-fields.php:555
+#: shortcodes/page-builders/all-setting-fields.php:660
+#: shortcodes/page-builders/all-setting-fields.php:724
+msgid "Disable"
+msgstr "Изключи"
+
+#: inc/admin/property-location-map.php:23
+msgid "Checking this will disable map for this listing"
+msgstr ""
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+msgid "Properties"
+msgstr "Имоти"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "Имот"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Добавяне на оферта"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "Добавяне на оферта"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "Нова оферта"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+msgid "Search Property"
+msgstr "Търсене"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "Няма открити имоти"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "Не е открит такъв имот в Изтрити"
+
+#: inc/admin/register-property.php:20
+#, fuzzy
+msgid "Parent Property:"
+msgstr "Свойство на родителя:"
+
+#: inc/admin/register-property.php:70
+#, fuzzy
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Имоти Тагове"
+
+#: inc/admin/register-property.php:71
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Етикет"
+
+#: inc/admin/register-property.php:72
+#, fuzzy
+msgid "Search Property Tags"
+msgstr "Търсене на имот Тагове"
+
+#: inc/admin/register-property.php:73
+msgid "Popular Tags"
+msgstr "Популярни етикети"
+
+#: inc/admin/register-property.php:74
+msgid "All Tags"
+msgstr "Всички тагове"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+msgid "Parent Tag"
+msgstr "Родителски етикет"
+
+#: inc/admin/register-property.php:77
+msgid "Edit Tag"
+msgstr "Редактирай етикет"
+
+#: inc/admin/register-property.php:78
+msgid "Update Tag"
+msgstr "Обнови етикети"
+
+#: inc/admin/register-property.php:79
+msgid "Add New Tag"
+msgstr "Добави нов етикет"
+
+#: inc/admin/register-property.php:80
+msgid "New Tag Name"
+msgstr "Име на нов етикет"
+
+#: inc/admin/register-property.php:81
+#, fuzzy
+msgid "Add or remove Tags"
+msgstr "Добавяне или премахване на етикети"
+
+#: inc/admin/register-property.php:82
+#, fuzzy
+msgid "Choose from most used tags"
+msgstr "Изберете от най-използваните етикети"
+
+#: inc/admin/register-property.php:83
+msgid " Tags"
+msgstr "Етикети"
+
+#: inc/admin/single-property-fields.php:14
+#, fuzzy
+msgid "Check if property have this option"
+msgstr "Проверете дали свойството има тази опция"
+
+#: inc/ajax/search-property-ajax.php:11
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+#, fuzzy
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "Съжалявам! Няма намерени свойства. Опитайте да търсите отново."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "Име"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Потребителско име"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+msgid "Password"
+msgstr "Парола"
+
+#: inc/arrays/agent-fields.php:52
+#, fuzzy
+msgid "Pepeat Password"
+msgstr "Pepeat парола"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "Информация"
+
+#: inc/arrays/agent-fields.php:70
+#, fuzzy
+msgid "Picture of Agent"
+msgstr "Изображение на агент"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+msgid "Upload an additional image for your profile"
+msgstr "Качване на допълнителен образ за вашия профил"
+
+#: inc/arrays/agent-fields.php:80
+#, fuzzy
+msgid "Profile Url"
+msgstr "URL адрес на профила"
+
+#: inc/arrays/agent-fields.php:81
+#, fuzzy
+msgid "Provide url for agent profile"
+msgstr "Предоставяне на URL за профила на агент"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Телефонен номер"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "Facebook Профил URL"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "Twitter Профил URL"
+
+#: inc/arrays/agent-fields.php:113
+msgid "Google+ Profile"
+msgstr "Google+ Профил URL"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "LinkedIn Профил URL"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "Facebook страница"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+#, fuzzy
+msgid "User Tagline"
+msgstr "Потребителски Лозунгът"
+
+#: inc/arrays/agent-fields.php:153
+#, fuzzy
+msgid "Will display under username"
+msgstr "Ще се покаже под потребителско име"
+
+#: inc/arrays/agent-fields.php:160
+#, fuzzy
+msgid "Skills Level"
+msgstr "Ниво на умения"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr "Умение име с стойност на всяка линия, например: продава имоти, 185"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "Форма за контакт Shortcode"
+
+#: inc/arrays/agent-fields.php:168
+#, fuzzy
+msgid "Leave blank for default contact form"
+msgstr "Оставете полето празно за формуляр за контакт по подразбиране"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "Редовна цена на имота"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+msgid "Before Price"
+msgstr "Преди цена"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display before price, Eg: Starting From"
+msgstr "Текст за показване преди цена, например: като се започне от"
+
+#: inc/arrays/property-fields.php:28
+#, fuzzy
+msgid "After Price"
+msgstr "След цена"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "Текст за показване след цена, например:/месец"
+
+#: inc/arrays/property-fields.php:38
+msgid "Sale Price"
+msgstr "Продажна цена"
+
+#: inc/arrays/property-fields.php:39
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "Продажна цена на имота"
+
+#: inc/arrays/property-fields.php:48
+msgid "Latitude"
+msgstr "Географска ширина"
+
+#: inc/arrays/property-fields.php:49
+#, fuzzy
+msgid "Latitude of property, will use for map"
+msgstr "Географска ширина на имота, ще се използва за карта"
+
+#: inc/arrays/property-fields.php:58
+msgid "Longitude"
+msgstr "Географска дължина"
+
+#: inc/arrays/property-fields.php:59
+#, fuzzy
+msgid "Longitude of property, will use for map"
+msgstr "Дължина на имота, ще използва за карта"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:11
+msgid "Video URL"
+msgstr "Video URL"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "Provide video URL"
+msgstr "Предоставяне на URL адрес на видео"
+
+#: inc/arrays/property-fields.php:78
+msgid "File Attachments"
+msgstr "Прикачени файлове"
+
+#: inc/arrays/property-fields.php:79
+#, fuzzy
+msgid "One file ID per line"
+msgstr "Един файл ID на ред"
+
+#: inc/arrays/property-fields.php:89
+msgid "Property Type"
+msgstr "Тип имот"
+
+#: inc/arrays/property-fields.php:90
+#, fuzzy
+msgid "Choose type of property"
+msgstr "Избери тип имот"
+
+#: inc/arrays/property-fields.php:102
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "Изберете цел на имота"
+
+#: inc/arrays/property-fields.php:113
+#, fuzzy
+msgid "Choose status of property"
+msgstr "Изберете състояние на свойство"
+
+#: inc/arrays/property-fields.php:123
+msgid "Bedrooms"
+msgstr "Спални"
+
+#: inc/arrays/property-fields.php:124
+msgid "Number of bedrooms"
+msgstr "Брой спални помещения"
+
+#: inc/arrays/property-fields.php:134
+msgid "Bathrooms"
+msgstr "Бани"
+
+#: inc/arrays/property-fields.php:135
+#, fuzzy
+msgid "Number of bathrooms"
+msgstr "Брой бани"
+
+#: inc/arrays/property-fields.php:146
+#, fuzzy
+msgid "Size - "
+msgstr "Размер"
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "Адрес"
+
+#: inc/arrays/property-fields.php:157
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"Ако полетата за географска ширина и дължина са празни, този адрес ще се "
+"използва за рендиране на карта"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+msgid "State"
+msgstr "Област"
+
+#: inc/arrays/property-fields.php:178
+msgid "Zip Code"
+msgstr "Пощенски код"
+
+#: inc/arrays/property-fields.php:179
+#, fuzzy
+msgid "Zipcode"
+msgstr "Zipcode"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+msgid "City"
+msgstr "Град"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+msgid "Country"
+msgstr "Държава"
+
+#: inc/arrays/property-fields.php:211
+msgid "Rooms"
+msgstr "Стаи"
+
+#: inc/arrays/property-fields.php:212
+#, fuzzy
+msgid "Number of rooms"
+msgstr "Брой стаи"
+
+#: inc/arrays/property-fields.php:222
+msgid "Featured Property"
+msgstr "Препоръчан имот"
+
+#: inc/arrays/property-fields.php:223
+#, fuzzy
+msgid "Make it featured"
+msgstr "Направете го черта"
+
+#: inc/menu/admin-settings-arr.php:5
+msgid "Style"
+msgstr "Стил"
+
+#: inc/menu/admin-settings-arr.php:11
+msgid "Currency Options"
+msgstr "Параметри за Валутата"
+
+#: inc/menu/admin-settings-arr.php:20
+msgid "Currency"
+msgstr "Валута"
+
+#: inc/menu/admin-settings-arr.php:21
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "Валутен знак за свойствата"
+
+#: inc/menu/admin-settings-arr.php:28
+msgid "Currency Position"
+msgstr "Позиция на валута"
+
+#: inc/menu/admin-settings-arr.php:30
+msgid "Left"
+msgstr "Ляво"
+
+#: inc/menu/admin-settings-arr.php:31
+msgid "Right"
+msgstr "Дясно"
+
+#: inc/menu/admin-settings-arr.php:32
+#, fuzzy
+msgid "Left with Space"
+msgstr "Ляво с интервал"
+
+#: inc/menu/admin-settings-arr.php:33
+#, fuzzy
+msgid "Right with Space"
+msgstr "Надясно с интервал"
+
+#: inc/menu/admin-settings-arr.php:35
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "Позиция на валутния символ"
+
+#: inc/menu/admin-settings-arr.php:41
+msgid "Thousand Separator"
+msgstr "Разделител на хилядите"
+
+#: inc/menu/admin-settings-arr.php:42
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "Хиляди разделител на показваната цена"
+
+#: inc/menu/admin-settings-arr.php:49
+msgid "Decimal Separator"
+msgstr "Десетичен знак"
+
+#: inc/menu/admin-settings-arr.php:50
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "Десетичен разделител на показваната цена"
+
+#: inc/menu/admin-settings-arr.php:57
+msgid "Number of Decimals"
+msgstr "Дължина след десетичния знак"
+
+#: inc/menu/admin-settings-arr.php:58
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "Брой на десетичните точки, показани в дисплейната цена"
+
+#: inc/menu/admin-settings-arr.php:66
+#, fuzzy
+msgid "Property Settings"
+msgstr "Настройки на свойствата"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Area Unit"
+msgstr "Единица за площ"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Осигурете единица площ например: квадратни фута"
+
+#: inc/menu/admin-settings-arr.php:82
+msgid "Excerpt Length"
+msgstr "Дължина на откъса"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "Брой на думите да бъдат показани от собственост откъс. EG: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+msgid "Property Features"
+msgstr "Особености"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"По един на ред. Това ще добави отметки към вашата страница за редактиране на "
+"свойства, за да изберете. Оставете полето празно, за да използвате по "
+"подразбиране"
+
+#: inc/menu/admin-settings-arr.php:96
+msgid "Property Types"
+msgstr "Видове имоти"
+
+#: inc/menu/admin-settings-arr.php:97
+#, fuzzy
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"По един на ред. Това ще добави видове свойства, за да изберете от при "
+"въвеждане на свойства. Оставете полето празно, за да използвате по "
+"подразбиране"
+
+#: inc/menu/admin-settings-arr.php:103
+#, fuzzy
+#| msgid "Property Types"
+msgid "Property Purposes"
+msgstr "Имуществени цели"
+
+#: inc/menu/admin-settings-arr.php:104
+#, fuzzy
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"По един на ред. Това ще добави свойства, за да изберете от при въвеждане на "
+"свойства. Оставете полето празно, за да използвате по подразбиране"
+
+#: inc/menu/admin-settings-arr.php:110
+#, fuzzy
+msgid "Property Statuses"
+msgstr "Статуси на имота"
+
+#: inc/menu/admin-settings-arr.php:111
+#, fuzzy
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"По един на ред. Това ще добави състояние на свойство за избор при въвеждане "
+"на свойства. Оставете полето празно, за да използвате по подразбиране"
+
+#: inc/menu/admin-settings-arr.php:117
+#, fuzzy
+msgid "Properties Per Page"
+msgstr "Имоти на страница"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"Брой на свойствата, които искате да се показват в архивни страници. (тагове "
+"и т. н.)"
+
+#: inc/menu/admin-settings-arr.php:125
+msgid "It will enable the special fields for energy efficiency"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:128 inc/menu/admin-settings-arr.php:197
+#: inc/menu/admin-settings-arr.php:218 inc/menu/admin-settings-arr.php:240
+#: inc/menu/admin-settings-arr.php:260 inc/menu/admin-settings-arr.php:270
+#: inc/menu/admin-settings-arr.php:313 inc/menu/admin-settings-arr.php:324
+#: inc/menu/admin-settings-arr.php:457 inc/menu/admin-settings-arr.php:508
+#: inc/menu/admin-settings-arr.php:1029 inc/menu/admin-settings-arr.php:1039
+#: inc/menu/admin-settings-arr.php:1058 inc/menu/admin-settings-arr.php:1068
+#: inc/menu/agent/fields/checkbox.php:29 inc/menu/agent/fields/email.php:29
+#: inc/menu/agent/fields/image.php:29 inc/menu/agent/fields/number.php:29
+#: inc/menu/agent/fields/password.php:29 inc/menu/agent/fields/text.php:29
+#: inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:269
+#: shortcodes/page-builders/all-setting-fields.php:301
+#: shortcodes/page-builders/all-setting-fields.php:319
+#: shortcodes/page-builders/all-setting-fields.php:330
+#: shortcodes/page-builders/all-setting-fields.php:544
+#: shortcodes/page-builders/all-setting-fields.php:554
+#: shortcodes/page-builders/all-setting-fields.php:661
+#: shortcodes/page-builders/all-setting-fields.php:725
+msgid "Enable"
+msgstr "Включване"
+
+#: inc/menu/admin-settings-arr.php:137
+#, fuzzy
+msgid "Templates Settings"
+msgstr "Настройки на шаблони"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid "Property Page Template"
+msgstr "Шаблон за страница със свойства"
+
+#: inc/menu/admin-settings-arr.php:146
+#, fuzzy
+msgid "Choose single property display layout"
+msgstr "Изберете оформление на показване на единичен имот"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "По подразбиране"
+
+#: inc/menu/admin-settings-arr.php:149
+msgid "Full Width"
+msgstr "Пълна ширина"
+
+#: inc/menu/admin-settings-arr.php:150
+msgid "Left Sidebar"
+msgstr "Лява стр.лента"
+
+#: inc/menu/admin-settings-arr.php:151 inc/menu/admin-settings-arr.php:161
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "From Theme"
+msgstr "От тема"
+
+#: inc/menu/admin-settings-arr.php:157
+#, fuzzy
+msgid "Archive Page Template"
+msgstr "Шаблон за страница за архивиране"
+
+#: inc/menu/admin-settings-arr.php:158
+#, fuzzy
+msgid "Choose tags and archive properties display layout"
+msgstr "Избор на етикети и архивни свойства показване на оформлението"
+
+#: inc/menu/admin-settings-arr.php:160 inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "From Plugin"
+msgstr "От плъгин"
+
+#: inc/menu/admin-settings-arr.php:167
+#, fuzzy
+msgid "Agent Page Template"
+msgstr "Шаблон за страница на агент"
+
+#: inc/menu/admin-settings-arr.php:168
+#, fuzzy
+msgid "Choose agent page display layout"
+msgstr "Избор на оформлението на дисплея на страницата на агент"
+
+#: inc/menu/admin-settings-arr.php:177
+#, fuzzy
+msgid "Enable Agent Template"
+msgstr "Разрешаване на шаблон за агент"
+
+#: inc/menu/admin-settings-arr.php:179
+#, fuzzy
+#| msgid "All Types"
+msgid "All Users"
+msgstr "Всички потребители"
+
+#: inc/menu/admin-settings-arr.php:180
+#, fuzzy
+#| msgid "Single Property"
+msgid "Only Property Agents"
+msgstr "Само агенти за недвижими имоти"
+
+#: inc/menu/admin-settings-arr.php:182
+#, fuzzy
+msgid "Agent Page Template must be set to From Plugin"
+msgstr "Агент страница шаблон трябва да бъде настроен на от плъгин"
+
+#: inc/menu/admin-settings-arr.php:187
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "Максимална ширина на контейнера"
+
+#: inc/menu/admin-settings-arr.php:188
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Осигуряване на опаковката максимална ширина в PX, например: 1140px"
+
+#: inc/menu/admin-settings-arr.php:194
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "Агент страница лента карта"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Разрешаване или забраняване на карта на агент по подразбиране и формуляр за "
+"контакт на страница на единичен агент"
+
+#: inc/menu/admin-settings-arr.php:204
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Agent Card Style"
+msgstr "Стил на карта на агент"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Choose agent profile card"
+msgstr "Изберете карта на профила на агент"
+
+#: inc/menu/admin-settings-arr.php:207 inc/menu/admin-settings-arr.php:957
+msgid "Style 1"
+msgstr "Стил 1"
+
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:958
+msgid "Style 2"
+msgstr "Стил 2"
+
+#: inc/menu/admin-settings-arr.php:209
+msgid "Style 3"
+msgstr "Стил 3"
+
+#: inc/menu/admin-settings-arr.php:215
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "Агент страница форма за контакт"
+
+#: inc/menu/admin-settings-arr.php:216
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr "Разрешаване или забраняване на формуляр за контакт на страницата агент"
+
+#: inc/menu/admin-settings-arr.php:225
+msgid "Agent Page Sidebar"
+msgstr "Agent Page Sidebar"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "Изберете страничната лента за страницата с подробни данни за агент"
+
+#: inc/menu/admin-settings-arr.php:231
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "Страница за редактиране на свойство"
+
+#: inc/menu/admin-settings-arr.php:232
+#, fuzzy
+msgid "Paste shortcode on selected page"
+msgstr "Поставяне на кратък [rem_edit_property] на избраната страница"
+
+#: inc/menu/admin-settings-arr.php:237
+#, fuzzy
+#| msgid "Help Text"
+msgid "Fields Help Text"
+msgstr "Помощен текст"
+
+#: inc/menu/admin-settings-arr.php:238
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:249
+msgid "Single Property Page"
+msgstr "Единична страница на обява"
+
+#: inc/menu/admin-settings-arr.php:257
+#, fuzzy
+msgid "Map"
+msgstr "Ниво на Приближаване"
+
+#: inc/menu/admin-settings-arr.php:258
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr ""
+"Показване или скриване на карта на свойство на страница с едно свойство"
+
+#: inc/menu/admin-settings-arr.php:267
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "Карта на страничната лента на свойство"
+
+#: inc/menu/admin-settings-arr.php:268
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Разрешаване или забраняване на карта на агент по подразбиране и формуляр за "
+"контакт на страница с едно свойство"
+
+#: inc/menu/admin-settings-arr.php:277
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "Странична лента на страница със свойства"
+
+#: inc/menu/admin-settings-arr.php:278
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "Изберете страничната лента за една страница със свойства"
+
+#: inc/menu/admin-settings-arr.php:283
+#, fuzzy
+msgid "Gallery Slider Width"
+msgstr "Галерия ширина на плъзгача"
+
+#: inc/menu/admin-settings-arr.php:284
+#, fuzzy
+msgid "Slider width with unit. Eg: "
+msgstr "Плъзгача ширина с единица. Например:"
+
+#: inc/menu/admin-settings-arr.php:290
+#, fuzzy
+msgid "Gallery Slider Height"
+msgstr "Височина на плъзгача Галерия"
+
+#: inc/menu/admin-settings-arr.php:291
+#, fuzzy
+msgid "Slider height with unit. Eg: "
+msgstr "Височина на плъзгача с единица. Например:"
+
+#: inc/menu/admin-settings-arr.php:297
+#, fuzzy
+msgid "Gallery Slider Fit"
+msgstr "Прилягане на плъзгача Галерия"
+
+#: inc/menu/admin-settings-arr.php:298
+#, fuzzy
+msgid "How to fit an image into slider"
+msgstr "Как да се поберат на изображението в плъзгача"
+
+#: inc/menu/admin-settings-arr.php:300
+msgid "Cover"
+msgstr "Корица"
+
+#: inc/menu/admin-settings-arr.php:301
+msgid "Contain"
+msgstr "Съдържа"
+
+#: inc/menu/admin-settings-arr.php:302
+#, fuzzy
+msgid "Scale Down"
+msgstr "Мащабирай надолу"
+
+#: inc/menu/admin-settings-arr.php:303
+msgid "None"
+msgstr "Няма"
+
+#: inc/menu/admin-settings-arr.php:310
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Gallery Featured Image"
+msgstr "Галерия Препоръчани изображение"
+
+#: inc/menu/admin-settings-arr.php:311
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "Давам възможност на излагам на показ черта образ in плъзгам се"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+msgid "Display Property ID"
+msgstr "Излагам на показ аксесоари"
+
+#: inc/menu/admin-settings-arr.php:322
+#, fuzzy
+msgid "Enable to display property id on frontend"
+msgstr "Разреши да се показва автоматично въртене на свойствата"
+
+#: inc/menu/admin-settings-arr.php:332
+#, fuzzy
+#| msgid "Text Field"
+msgid "Date Field Format"
+msgstr "Поле \"дата\""
+
+#: inc/menu/admin-settings-arr.php:333
+msgid "Provide date format if you are using date field. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:339
+#, fuzzy
+msgid "Property Settings Tabs"
+msgstr "Раздели за настройки на свойства"
+
+#: inc/menu/admin-settings-arr.php:340
+#, fuzzy
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"Осигуряване на допълнителни заглавия панел за единични страници собственост "
+"и администраторски настройки, всеки на ред"
+
+#: inc/menu/admin-settings-arr.php:347
+msgid "Listings"
+msgstr "Обяви"
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "Property Archive Listing Style"
+msgstr "Стил на архива на имота"
+
+#: inc/menu/admin-settings-arr.php:356
+#, fuzzy
+#| msgid "Single Property"
+msgid "Listing style for default properties page"
+msgstr "Стил на изброяване на свойствата по подразбиране"
+
+#: inc/menu/admin-settings-arr.php:362
+#, fuzzy
+msgid "Archive Listing Columns"
+msgstr "Колони за архивни списъци"
+
+#: inc/menu/admin-settings-arr.php:363 inc/menu/admin-settings-arr.php:440
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "Избиране на колони в ред за стилове на полета"
+
+#: inc/menu/admin-settings-arr.php:365 inc/menu/admin-settings-arr.php:442
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:366 inc/menu/admin-settings-arr.php:443
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:367 inc/menu/admin-settings-arr.php:444
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:368 inc/menu/admin-settings-arr.php:445
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:369 inc/menu/admin-settings-arr.php:446
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:375
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "Вградени полета в лентата за свойства"
+
+#: inc/menu/admin-settings-arr.php:376
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"Предоставяне на имена на полета на всеки ред за показване в горната лента на "
+"стил на инлайн свойство списък"
+
+#: inc/menu/admin-settings-arr.php:381
+#, fuzzy
+msgid "Listing Features Type"
+msgstr "Тип характеристики на списъка"
+
+#: inc/menu/admin-settings-arr.php:382
+#, fuzzy
+msgid "Features are displayed on property listings"
+msgstr "Функциите се показват на списъците с имоти"
+
+#: inc/menu/admin-settings-arr.php:384
+#, fuzzy
+msgid "Icons and Data"
+msgstr "Икони и данни"
+
+#: inc/menu/admin-settings-arr.php:385
+#, fuzzy
+msgid "Labels and Data"
+msgstr "Етикети и данни"
+
+#: inc/menu/admin-settings-arr.php:386
+#, fuzzy
+msgid "Icons, Labels and Data"
+msgstr "Икони, етикети и данни"
+
+#: inc/menu/admin-settings-arr.php:392
+#, fuzzy
+msgid "Custom Listing Features"
+msgstr "Функции за потребителска регистрация"
+
+#: inc/menu/admin-settings-arr.php:393
+#, fuzzy
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+"Показване на персонализирани свойства на свойство. (Етикет, име на поле, "
+"шрифт страхотно клас) всеки на ред. Пример:"
+
+#: inc/menu/admin-settings-arr.php:399
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Featured Image Size"
+msgstr "Основно изображение"
+
+#: inc/menu/admin-settings-arr.php:400
+msgid "Choose size of featured image to use"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:407
+#, fuzzy
+msgid "Search Settings"
+msgstr "Настройки на търсенето"
+
+#: inc/menu/admin-settings-arr.php:415
+#: shortcodes/page-builders/all-setting-fields.php:235
+#, fuzzy
+msgid "Total Properties"
+msgstr "Общо свойства"
+
+#: inc/menu/admin-settings-arr.php:416
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr ""
+"Брой на свойствата, които искате да се показват в резултатите от търсенето"
+
+#: inc/menu/admin-settings-arr.php:421
+#, fuzzy
+msgid "Search Price Range Selector"
+msgstr "Избор на ценови диапазон за търсене"
+
+#: inc/menu/admin-settings-arr.php:422
+#, fuzzy
+msgid "Choose price ranges input option for searching"
+msgstr "Изберете опция за въвеждане на ценови диапазони за търсене"
+
+#: inc/menu/admin-settings-arr.php:424 inc/menu/admin-settings-arr.php:517
+#, fuzzy
+msgid "Price Slider"
+msgstr "Цена плъзгача"
+
+#: inc/menu/admin-settings-arr.php:425
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "Минимални полета"
+
+#: inc/menu/admin-settings-arr.php:431
+#, fuzzy
+msgid "Search Results Style"
+msgstr "Стил на резултатите от търсенето"
+
+#: inc/menu/admin-settings-arr.php:432
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "Изберете стил за резултатите от търсенето"
+
+#: inc/menu/admin-settings-arr.php:439
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "Колони за резултатите от търсенето"
+
+#: inc/menu/admin-settings-arr.php:454
+#: shortcodes/page-builders/all-setting-fields.php:82
+#, fuzzy
+msgid "Not Available Properties"
+msgstr "Общо свойства"
+
+#: inc/menu/admin-settings-arr.php:455
+#, fuzzy
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr "Изберете за показване на свойствата на конкретно състояние"
+
+#: inc/menu/admin-settings-arr.php:465
+#, fuzzy
+msgid "Search Area Options"
+msgstr "Опции за областта за търсене"
+
+#: inc/menu/admin-settings-arr.php:466
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Осигурете диапазон от всеки на ред, за да покажете падащото меню на "
+"диапазоните, вместо полето за въвеждане, когато търсите."
+
+#: inc/menu/admin-settings-arr.php:472
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "Търсене спални опции"
+
+#: inc/menu/admin-settings-arr.php:473
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Осигуряване на спалните варират всяка на ред, за показване на падащото меню "
+"на спалнята варира, вместо на полето за въвеждане при търсене."
+
+#: inc/menu/admin-settings-arr.php:479
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "Търсене бани опции"
+
+#: inc/menu/admin-settings-arr.php:480
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Осигуряване на бани варират всеки на ред, за показване на падащото меню на "
+"банята варира вместо входно поле при търсене."
+
+#: inc/menu/admin-settings-arr.php:486
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "Цел на връзката с резултатите от търсенето"
+
+#: inc/menu/admin-settings-arr.php:487
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"Осигурете целева връзка за резултатите от формата за търсене. _blank към "
+"отворен in нов петличка"
+
+#: inc/menu/admin-settings-arr.php:489
+#, fuzzy
+#| msgid "Add New Tag"
+msgid "New Tab"
+msgstr "Нов петличка"
+
+#: inc/menu/admin-settings-arr.php:490
+#, fuzzy
+msgid "Same Tab"
+msgstr "Същия раздел"
+
+#: inc/menu/admin-settings-arr.php:497
+#, fuzzy
+msgid "Simple Search Method"
+msgstr "Прост метод за търсене"
+
+#: inc/menu/admin-settings-arr.php:498
+#, fuzzy
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+"Осигуряване на текст, field_name, is_number, стойност всеки на ред (всички "
+"малки)"
+
+#: inc/menu/admin-settings-arr.php:498 inc/menu/admin-settings-arr.php:857
+msgid "Help"
+msgstr "Помощ"
+
+#: inc/menu/admin-settings-arr.php:504
+#, fuzzy
+#| msgid "Search Field"
+msgid "Prefill Search Fields"
+msgstr "Поле за търсене"
+
+#: inc/menu/admin-settings-arr.php:505
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:525
+msgid "Minimum Price"
+msgstr "Мин. Цена"
+
+#: inc/menu/admin-settings-arr.php:526
+#, fuzzy
+msgid "Minimum price for price slider"
+msgstr "Минимална цена за плъзгача цена"
+
+#: inc/menu/admin-settings-arr.php:532
+msgid "Maximum Price"
+msgstr "Макс. Цена"
+
+#: inc/menu/admin-settings-arr.php:533
+#, fuzzy
+msgid "Maximum price for price slider"
+msgstr "Максимална цена на плъзгача цена"
+
+#: inc/menu/admin-settings-arr.php:539
+msgid "Step"
+msgstr "Етап"
+
+#: inc/menu/admin-settings-arr.php:540
+#, fuzzy
+msgid "Step or interval for price slider"
+msgstr "Стъпка или интервал за цена плъзгача"
+
+#: inc/menu/admin-settings-arr.php:546
+#, fuzzy
+msgid "Default Minimum Price"
+msgstr "По подРазбиране минималната цена"
+
+#: inc/menu/admin-settings-arr.php:547
+#, fuzzy
+msgid "Default Minimum price for price slider"
+msgstr "По подразбиране минималната цена за плъзгача цена"
+
+#: inc/menu/admin-settings-arr.php:553
+#, fuzzy
+msgid "Default Maximum Price"
+msgstr "По подРазбиране максимална цена"
+
+#: inc/menu/admin-settings-arr.php:554
+#, fuzzy
+msgid "Default Maximum price for price slider"
+msgstr "По подразбиране максимална цена за плъзгача цена"
+
+#: inc/menu/admin-settings-arr.php:563
+#, fuzzy
+msgid "Email Messages"
+msgstr "Имейл съобщения"
+
+#: inc/menu/admin-settings-arr.php:571
+#, fuzzy
+msgid "Agent Registered"
+msgstr "Агент, регистриран"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid "This message will sent to "
+msgstr "Това съобщение ще бъде изпратено до"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"Когато се регистрира нов агент. Можете да използвате% username% и% email% за "
+"подробности"
+
+#: inc/menu/admin-settings-arr.php:578
+#, fuzzy
+msgid "Agent Pending"
+msgstr "Агент в очакване"
+
+#: inc/menu/admin-settings-arr.php:579
+#, fuzzy
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"Имейл съобщение за агент, когато нов агент е регистриран, но състоянието е "
+"висящо. Можете да използвате% username% и% email% за подробности"
+
+#: inc/menu/admin-settings-arr.php:585
+#, fuzzy
+msgid "Agent Approved"
+msgstr "Агент, одобрен"
+
+#: inc/menu/admin-settings-arr.php:586
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Имейл съобщение за агент, когато регистриран агент е одобрена. Можете да "
+"използвате% username% и% email% за подробности"
+
+#: inc/menu/admin-settings-arr.php:592
+#, fuzzy
+msgid "Agent Rejected"
+msgstr "Агент отхвърлен"
+
+#: inc/menu/admin-settings-arr.php:593
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"Имейл съобщение за агент, когато регистриран агент се отхвърля. Можете да "
+"използвате% username% и% email% за подробности"
+
+#: inc/menu/admin-settings-arr.php:599
+#, fuzzy
+msgid "Property Submission"
+msgstr "Представяне на имота"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid "This message will be sent to "
+msgstr "Това съобщение ще бъде изпратено до"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"Когато се подаде ново свойство. Можете да използвате променливи% username%% "
+"approve_url% и% email% за подробности"
+
+#: inc/menu/admin-settings-arr.php:606
+#, fuzzy
+msgid "Property Submission Message for Agent"
+msgstr "Съобщение за подаване на свойство за агент"
+
+#: inc/menu/admin-settings-arr.php:607
+#, fuzzy
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+"Това съобщение ще бъде изпратено на агент, когато се подаде ново свойство."
+
+#: inc/menu/admin-settings-arr.php:613
+#, fuzzy
+msgid "Property Approved Message for Agent"
+msgstr "Свойство одобрено съобщение за агент"
+
+#: inc/menu/admin-settings-arr.php:614
+#, fuzzy
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+"Това съобщение ще бъде изпратено на агент, когато се одобри ново свойство."
+
+#: inc/menu/admin-settings-arr.php:622
+#, fuzzy
+#| msgid "Contact Form Shortcode"
+msgid "Agent Contact Form"
+msgstr "Агент форма за контакт"
+
+#: inc/menu/admin-settings-arr.php:630
+msgid "Email Subject"
+msgstr "Относно еmail"
+
+#: inc/menu/admin-settings-arr.php:631
+#, fuzzy
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+"Предоставяне на имейл тема тук, ако някой контакти чрез една страница "
+"собственост. Можете също да използвате тези специални етикети."
+
+#: inc/menu/admin-settings-arr.php:637
+#, fuzzy
+msgid "Email Format"
+msgstr "Имейл формат"
+
+#: inc/menu/admin-settings-arr.php:638
+#, fuzzy
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+"Предоставяне на имейл маркиране тук. Можете също да използвате тези "
+"специални етикети."
+
+#: inc/menu/admin-settings-arr.php:644
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "Агент имейл адреси за контакт"
+
+#: inc/menu/admin-settings-arr.php:645
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Предоставяне на допълнителни имейл адреси всеки на ред, за да cc поща, "
+"когато посетителят запълва формата на контакт агент."
+
+#: inc/menu/admin-settings-arr.php:652
+#, fuzzy
+#| msgid "Message"
+msgid "GDPR Message"
+msgstr "Съобщение"
+
+#: inc/menu/admin-settings-arr.php:653
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:660
+#, fuzzy
+msgid "reCAPTCHA V2"
+msgstr "reCAPTCHA V2"
+
+#: inc/menu/admin-settings-arr.php:668
+msgid "Site key"
+msgstr "Site key"
+
+#: inc/menu/admin-settings-arr.php:669
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Снабдявам Google капитан V2 местоположение ключ. Можете да създадете ключ за "
+"сайт"
+
+#: inc/menu/admin-settings-arr.php:674
+msgid "Secret key"
+msgstr "Secret Key"
+
+#: inc/menu/admin-settings-arr.php:675
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr "Снабдявам Google капитан V2 таен ключ. Можете да създадете таен ключ"
+
+#: inc/menu/admin-settings-arr.php:680
+#, fuzzy
+msgid "Agent Registration"
+msgstr "Регистрация на агент"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Check to enable captcha on new agent registration."
+msgstr "Шах към давам възможност на капитан на нов фактор вписване."
+
+#: inc/menu/admin-settings-arr.php:686
+msgid "Contact Agent"
+msgstr "За контакт"
+
+#: inc/menu/admin-settings-arr.php:687
+#, fuzzy
+msgid "Check to enable captcha on agent contact form."
+msgstr "Шах към давам възможност на капитан на фактор допир форма."
+
+#: inc/menu/admin-settings-arr.php:692 inc/menu/admin-settings-arr.php:1018
+#: shortcodes/page-builders/vc-settings.php:20
+#, fuzzy
+msgid "Login Agent"
+msgstr "Вход агент"
+
+#: inc/menu/admin-settings-arr.php:693
+#, fuzzy
+msgid "Check to enable captcha on agent login form."
+msgstr "Шах към давам възможност на капитан на фактор допир форма."
+
+#: inc/menu/admin-settings-arr.php:702
+#, fuzzy
+msgid "Labels and Headings"
+msgstr "Етикети и заглавия"
+
+#: inc/menu/admin-settings-arr.php:710
+#, fuzzy
+msgid "Features Heading"
+msgstr "Заглавие на функциите"
+
+#: inc/menu/admin-settings-arr.php:711
+#, fuzzy
+msgid "Provide heading text for property features on property pages"
+msgstr ""
+"Осигуряване на текст на заглавие за характеристики на свойствата на страници "
+"със свойства"
+
+#: inc/menu/admin-settings-arr.php:717
+#, fuzzy
+msgid "Maps Heading"
+msgstr "Заглавие на карти"
+
+#: inc/menu/admin-settings-arr.php:718
+#, fuzzy
+msgid "Provide heading text for maps on property pages"
+msgstr "Осигуряване на текст на заглавие за карти на страници със свойства"
+
+#: inc/menu/admin-settings-arr.php:724
+#, fuzzy
+msgid "Tags Heading"
+msgstr "Тагове заглавие"
+
+#: inc/menu/admin-settings-arr.php:725
+#, fuzzy
+msgid "Provide heading text for tags on property pages"
+msgstr "Снабдявам заглавие текст за Tags на имот паж"
+
+#: inc/menu/admin-settings-arr.php:731
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "Тагове заглавие за Архив страници"
+
+#: inc/menu/admin-settings-arr.php:732
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "Можете да използвате% таг% за име на етикет"
+
+#: inc/menu/admin-settings-arr.php:738
+#, fuzzy
+#| msgid "Single Property"
+msgid "Heading for Properties Page"
+msgstr "Заглавие на страницата \"Свойства\""
+
+#: inc/menu/admin-settings-arr.php:739
+#, fuzzy
+msgid "Provide heading for properties archive"
+msgstr "ПреДставете заглавието на свойствата Архив"
+
+#: inc/menu/admin-settings-arr.php:745
+#, fuzzy
+#| msgid "Send Message"
+msgid "No Results Found Message"
+msgstr "Съобщение за намерените резултати"
+
+#: inc/menu/admin-settings-arr.php:746
+#, fuzzy
+msgid "Provide custom message when no properties found in search results"
+msgstr ""
+"Снабдявам навик съобщение кога никакъв аксесоари основавам in търся резултат"
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+msgid "Maps Settings"
+msgstr "Настройки на карти"
+
+#: inc/menu/admin-settings-arr.php:762
+#, fuzzy
+msgid "Use Map From"
+msgstr "Използвайте карта от"
+
+#: inc/menu/admin-settings-arr.php:764
+#, fuzzy
+msgid "Leaflet"
+msgstr "Листовка"
+
+#: inc/menu/admin-settings-arr.php:765
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: inc/menu/admin-settings-arr.php:767
+#, fuzzy
+msgid "Choose map provider"
+msgstr "Изберете доставчик на картата"
+
+#: inc/menu/admin-settings-arr.php:773
+msgid "Google Maps API Key"
+msgstr "Google карта API ключ"
+
+#: inc/menu/admin-settings-arr.php:774
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr "Дайте Google Maps API ключ тук. Можете да създадете API ключ"
+
+#: inc/menu/admin-settings-arr.php:780
+msgid "Map Type"
+msgstr "Тип на картата"
+
+#: inc/menu/admin-settings-arr.php:782
+#, fuzzy
+msgid "Road Map"
+msgstr "Пътна карта"
+
+#: inc/menu/admin-settings-arr.php:783
+#, fuzzy
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:784
+msgid "Hybrid"
+msgstr "Хибрид"
+
+#: inc/menu/admin-settings-arr.php:785
+msgid "Terrain"
+msgstr "Терен"
+
+#: inc/menu/admin-settings-arr.php:787
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "Изберете тип на картата по подразбиране тук"
+
+#: inc/menu/admin-settings-arr.php:793
+#: shortcodes/page-builders/all-setting-fields.php:699
+msgid "Map Zoom Level"
+msgstr "Ниво на Приближаване"
+
+#: inc/menu/admin-settings-arr.php:794
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr "Осигурете ниво на мащабиране между 0 и 21 + за единична карта на имота"
+
+#: inc/menu/admin-settings-arr.php:800
+#, fuzzy
+msgid "Drag Icon URL"
+msgstr "Плъзнете URL адрес на икона"
+
+#: inc/menu/admin-settings-arr.php:801
+#, fuzzy
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Upload навик икона за dragging на географска карта време творчески нов имот. "
+"Препоръчителни размери: 72x60"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Location Icon URL"
+msgstr "URL адрес на икона на местоположение"
+
+#: inc/menu/admin-settings-arr.php:808
+#, fuzzy
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Качване на потребителска икона за местоположение на картата при посещение на "
+"страницата със свойства. Препоръчителни размери: 72x60"
+
+#: inc/menu/admin-settings-arr.php:814
+#, fuzzy
+#| msgid "Property ID"
+msgid "Property Icon URL"
+msgstr "URL адрес на икона на свойство"
+
+#: inc/menu/admin-settings-arr.php:815
+#, fuzzy
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+"Качване на потребителска икона за маркера за местоположение на голяма карта."
+
+#: inc/menu/admin-settings-arr.php:821
+#, fuzzy
+msgid "Property Icon URL (Hover)"
+msgstr "URL адрес на икона на свойство (задържане)"
+
+#: inc/menu/admin-settings-arr.php:822
+#, fuzzy
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"Качване на потребителска икона за маркер собственост местоположение на "
+"голяма карта за навъртам състояние."
+
+#: inc/menu/admin-settings-arr.php:828
+#, fuzzy
+msgid "Circle Icon URL"
+msgstr "URL адрес на икона на окръжност"
+
+#: inc/menu/admin-settings-arr.php:829
+#, fuzzy
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr "Качи обичай икона за кръг брояч маркер на голяма карта."
+
+#: inc/menu/admin-settings-arr.php:835
+#, fuzzy
+msgid "My Location Icon URL"
+msgstr "URL адрес на иконата на Моето местоположение"
+
+#: inc/menu/admin-settings-arr.php:836
+#, fuzzy
+msgid "Upload custom icon for my location marker on large map."
+msgstr "Качи обичай икона за моето местоположение маркер на голяма карта."
+
+#: inc/menu/admin-settings-arr.php:842
+#: shortcodes/page-builders/all-setting-fields.php:687
+#, fuzzy
+msgid "Default Latitude"
+msgstr "Географска ширина по подРазбиране"
+
+#: inc/menu/admin-settings-arr.php:843
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Предоставяне на географска ширина за местоположение по подразбиране на "
+"страницата за създаване на свойство"
+
+#: inc/menu/admin-settings-arr.php:849
+#: shortcodes/page-builders/all-setting-fields.php:693
+#, fuzzy
+msgid "Default Longitude"
+msgstr "Дължина по подРазбиране"
+
+#: inc/menu/admin-settings-arr.php:850
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"Снабдявам географска дължина за неявяване географска карта местоположение на "
+"създавам имот паж"
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+msgid "Map Styles Object"
+msgstr "Карта на стилове обект"
+
+#: inc/menu/admin-settings-arr.php:857
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "Осигуряване на карта стилове тук."
+
+#: inc/menu/admin-settings-arr.php:863
+msgid "Map Style"
+msgstr "Стил на картата"
+
+#: inc/menu/admin-settings-arr.php:865
+#, fuzzy
+msgid "Choose style for leaflet map. "
+msgstr "Изберете стил за картата на листовката."
+
+#: inc/menu/admin-settings-arr.php:865 shortcodes/create-property.php:101
+msgid "Preview"
+msgstr "Преглед"
+
+#: inc/menu/admin-settings-arr.php:874
+#, fuzzy
+msgid "Colors and CSS"
+msgstr "Цветове и CSS"
+
+#: inc/menu/admin-settings-arr.php:882
+#, fuzzy
+msgid "Headings Underline"
+msgstr "Подчертани заглавия"
+
+#: inc/menu/admin-settings-arr.php:884
+#, fuzzy
+msgid "Choose bottom border color for headings area"
+msgstr "Избиране на цвят на Долна граница за областта за заглавия"
+
+#: inc/menu/admin-settings-arr.php:890
+#, fuzzy
+msgid "Headings Underline Active"
+msgstr "Заглавията се подчертават активни"
+
+#: inc/menu/admin-settings-arr.php:892
+#, fuzzy
+msgid "Choose bottom border color for headings active area"
+msgstr "Избиране на цвят на долната граница за активна област на заглавия"
+
+#: inc/menu/admin-settings-arr.php:898
+#, fuzzy
+msgid "Buttons Background"
+msgstr "Фон за Бутоните"
+
+#: inc/menu/admin-settings-arr.php:900
+#, fuzzy
+msgid "Choose background color for buttons"
+msgstr "Избери цвят на фона за бутоните"
+
+#: inc/menu/admin-settings-arr.php:906
+msgid "Buttons Text"
+msgstr "Бутони текст"
+
+#: inc/menu/admin-settings-arr.php:908 inc/menu/admin-settings-arr.php:924
+#, fuzzy
+msgid "Choose text color for buttons"
+msgstr "Избиране на цвят на текста за бутоните"
+
+#: inc/menu/admin-settings-arr.php:914
+#, fuzzy
+msgid "Buttons Background - Hover"
+msgstr "Фон на бутоните-задръжте"
+
+#: inc/menu/admin-settings-arr.php:916
+#, fuzzy
+msgid "Choose background color for buttons on hover state"
+msgstr "Избор на фонов цвят за бутоните при състояние на задържане"
+
+#: inc/menu/admin-settings-arr.php:922
+#, fuzzy
+msgid "Buttons Text - Hover"
+msgstr "Бутони текст-задръжте"
+
+#: inc/menu/admin-settings-arr.php:930
+#, fuzzy
+msgid "Theme Main Color"
+msgstr "Основна тема цвят"
+
+#: inc/menu/admin-settings-arr.php:932
+#, fuzzy
+msgid "Choose main theme color for templates"
+msgstr "Изберете основна тема цвят за шаблони"
+
+#: inc/menu/admin-settings-arr.php:938
+msgid "Custom CSS Code"
+msgstr "Собствен CSS код"
+
+#: inc/menu/admin-settings-arr.php:940
+#, fuzzy
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Поставете вашия потребителски код CSS тук, можете да префикс с"
+
+#: inc/menu/admin-settings-arr.php:948
+#, fuzzy
+msgid "Listing Ribbons"
+msgstr "Списък панделка"
+
+#: inc/menu/admin-settings-arr.php:955
+msgid "Ribbon Style"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:960
+#, fuzzy
+msgid "Choose ribbon style"
+msgstr "Изберете стил на свойство."
+
+#: inc/menu/admin-settings-arr.php:965
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "Текст на лентата за продажба"
+
+#: inc/menu/admin-settings-arr.php:966
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"То излагам на показ кога продажба цена на имот е поставям, напускам чист към "
+"правя неспособен то"
+
+#: inc/menu/admin-settings-arr.php:971
+#, fuzzy
+msgid "Rented Properties"
+msgstr "Имоти под наем"
+
+#: inc/menu/admin-settings-arr.php:972
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"То излагам на показ кога имот цел е поставям към наем, напускам чист към "
+"правя неспособен то"
+
+#: inc/menu/admin-settings-arr.php:977
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "Продава имоти"
+
+#: inc/menu/admin-settings-arr.php:978
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"То излагам на показ кога имот цел е поставям към продавам, напускам чист към "
+"правя неспособен то"
+
+#: inc/menu/admin-settings-arr.php:983
+#, fuzzy
+msgid "Sold Properties"
+msgstr "Продадени имоти"
+
+#: inc/menu/admin-settings-arr.php:984
+#, fuzzy
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"То излагам на показ кога имот ранг е поставям към p.t. и p.p. от sell, "
+"напускам чист към правя неспособен то"
+
+#: inc/menu/admin-settings-arr.php:989
+msgid "Featured Properties"
+msgstr "Препоръчани Имоти"
+
+#: inc/menu/admin-settings-arr.php:990
+#, fuzzy
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"То излагам на показ кога черта избор е поставям към да, напускам чист към "
+"правя неспособен то"
+
+#: inc/menu/admin-settings-arr.php:995
+#, fuzzy
+msgid "Custom Ribbon"
+msgstr "Лента по избор"
+
+#: inc/menu/admin-settings-arr.php:996
+#, fuzzy
+msgid "Provide key with value. Eg:"
+msgstr "Снабдявам ключ с ценност. Например: property_type = къща"
+
+#: inc/menu/admin-settings-arr.php:1001
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "Текст на потребителска лента"
+
+#: inc/menu/admin-settings-arr.php:1002
+#, fuzzy
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr "Осигуряване на текст за показване за потребителска лента"
+
+#: inc/menu/admin-settings-arr.php:1008
+msgid "Page Builders"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1016
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1019
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+#, fuzzy
+msgid "Register Agent"
+msgstr "Регистрирайте се агент"
+
+#: inc/menu/admin-settings-arr.php:1020
+#, fuzzy
+msgid "Simple Search"
+msgstr "Прост метод за търсене"
+
+#: inc/menu/admin-settings-arr.php:1022
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1027
+msgid "WPBakery Page Builder Addons"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1032
+#, fuzzy
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr "Разрешаване или забраняване на номериране"
+
+#: inc/menu/admin-settings-arr.php:1037
+msgid "Divi Modules"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1042
+#, fuzzy
+msgid "Enable or disable Divi modules here."
+msgstr "Разрешаване или забраняване на номериране"
+
+#: inc/menu/admin-settings-arr.php:1048
+msgid "Advanced Settings"
+msgstr "Разширение настройки"
+
+#: inc/menu/admin-settings-arr.php:1056
+#, fuzzy
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#: inc/menu/admin-settings-arr.php:1061
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr ""
+"Го изключите, ако вашата тема товари своя собствена Bootstrap 3 стилове"
+
+#: inc/menu/admin-settings-arr.php:1066
+msgid "Font Awesome"
+msgstr "Ефектен шрифт"
+
+#: inc/menu/admin-settings-arr.php:1071
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+"Правя неспособен то, ако your тема магнетит its свой купел awesome икона"
+
+#: inc/menu/admin-settings-arr.php:1076
+#, fuzzy
+msgid "Property Submission Mode"
+msgstr "Режим на подаване на свойство"
+
+#: inc/menu/admin-settings-arr.php:1078
+#, fuzzy
+msgid "Publish Right Away"
+msgstr "Публикувай веднага"
+
+#: inc/menu/admin-settings-arr.php:1079
+#, fuzzy
+msgid "Approve by Administrator"
+msgstr "Одобрение от администратора"
+
+#: inc/menu/admin-settings-arr.php:1081
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "Задаване на разрешение за агенти за създаване на ново свойство"
+
+#: inc/menu/admin-settings-arr.php:1086
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "Пренасочване след създаване на свойство"
+
+#: inc/menu/admin-settings-arr.php:1087
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "Предоставяне на URL пренасочване след създаване на имот от интерфейса"
+
+#: inc/menu/admin-settings-arr.php:1092
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "Пренасочване след редактиране на свойство"
+
+#: inc/menu/admin-settings-arr.php:1093
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr ""
+"Предоставяне на URL пренасочване след редактиране на имот от интерфейса"
+
+#: inc/menu/admin-settings-arr.php:1099
+msgid "Keep"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1100 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:85 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:72
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+msgid "Delete"
+msgstr "Изтрий"
+
+#: inc/menu/admin-settings-arr.php:1102
+#, fuzzy
+msgid "Attachments Deletion"
+msgstr "Заглавие на прикачени файлове"
+
+#: inc/menu/admin-settings-arr.php:1103
+msgid "What to do with gallery images after deleting property."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1108
+#, fuzzy
+msgid "Agents Approval"
+msgstr "Агент, одобрен"
+
+#: inc/menu/admin-settings-arr.php:1110
+msgid "Manual"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1111
+msgid "Automatic"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1113
+msgid "We recommend you to use manual method"
+msgstr ""
+
+#: inc/menu/agent-profile-fields.php:3
+#, fuzzy
+msgid "Agent Details"
+msgstr "Данни за агента"
+
+#: inc/menu/agent-profile-fields.php:26
+msgid "Upload Image"
+msgstr "Качи снимка"
+
+#: inc/menu/agent/custom-fields-page.php:2
+#, fuzzy
+msgid "Agent Registration Fields"
+msgstr "Агент регистрация полета"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:67
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr "Моля, плъзнете и пуснете полетата в над площ от левия панел"
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:75
+#, fuzzy
+msgid "Reset Fields"
+msgstr "Начално състояние на полета"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:76
+#: inc/menu/page-settings.php:74
+msgid "Save Settings"
+msgstr "Запис на настройките"
+
+#: inc/menu/agent/fields/checkbox.php:2
+msgid "Checkbox"
+msgstr "Отметка"
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:435
+msgid "Label"
+msgstr "Етикет"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "Име на данните (малки без интервали)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:39
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+msgid "Help Text"
+msgstr "Помощен текст"
+
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/text.php:26
+#: inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr "Задължително"
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:45
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+#, fuzzy
+msgid "Display on"
+msgstr "Излагам на показ на"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:49
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+#, fuzzy
+msgid "Registration Form"
+msgstr "Регистрационна форма"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+msgid "Tab"
+msgstr "Таблица"
+
+#: inc/menu/agent/fields/email.php:2
+#, fuzzy
+#| msgid "Text Field"
+msgid "Email Field"
+msgstr "Поле за имейл"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:53 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Admin Profile Edit"
+msgstr "Редактиране на администраторски профил"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+#, fuzzy
+msgid "Frontend Edit"
+msgstr "Интерфейса редактиране"
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:62 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+#, fuzzy
+msgid "Agent Card Icons"
+msgstr "Икони агент карта"
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:66 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+msgid "Agent Page"
+msgstr "Страница на агент"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+#, fuzzy
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr "Икона клас (ако иконите на агент карта е избрана)"
+
+#: inc/menu/agent/fields/image.php:2
+#, fuzzy
+#| msgid "Text Field"
+msgid "Image Field"
+msgstr "Поле за изображение"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+#, fuzzy
+msgid "Number Field"
+msgstr "Поле за номер"
+
+#: inc/menu/agent/fields/password.php:2
+msgid "Password Field"
+msgstr "Поле за парола"
+
+#: inc/menu/agent/fields/select.php:2
+#, fuzzy
+msgid "Select Box"
+msgstr "Изберете поле"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "Избрано по подразбиране"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "Опции (всяка на ред)"
+
+#: inc/menu/agent/fields/select.php:71
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "Администраторски настройки раздел"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "Текстово поле"
+
+#: inc/menu/agent/fields/textarea.php:2
+#, fuzzy
+#| msgid "Text Field"
+msgid "Textarea Field"
+msgstr "Текстово поле"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "Конструктор на потребителски полета"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+#, fuzzy
+msgid "DropDown Field"
+msgstr "Падащото поле"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+#, fuzzy
+#| msgid "Text Field"
+msgid "Date Field"
+msgstr "Поле \"дата\""
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+msgid "Multiple Files Upload"
+msgstr ""
+
+#: inc/menu/custom-fields/custom-fields-page.php:12
+msgid "Text Area"
+msgstr "Зона за писане на текст"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+msgid "Shortcode"
+msgstr "Кратък код"
+
+#: inc/menu/custom-fields/custom-fields-page.php:69
+#, fuzzy
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"Ако името на данните съдържа цялата дума \"Area\", избраната област ще бъде "
+"показана след стойността."
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:130
+#, fuzzy
+msgid "Accessibility"
+msgstr "Достъпност"
+
+#: inc/menu/custom-fields/fields/text.php:21
+msgid "Default Value"
+msgstr "Стнадартна стойност"
+
+#: inc/menu/page-agents.php:65
+#, fuzzy
+msgid "Pending Agents"
+msgstr "Висящи агенти"
+
+#: inc/menu/page-agents.php:76
+#, fuzzy
+msgid "Date of Registration"
+msgstr "Дата на регистрация"
+
+#: inc/menu/page-agents.php:77
+msgid "Action"
+msgstr "Действие"
+
+#: inc/menu/page-agents.php:89
+msgid "Deny"
+msgstr "Забрани"
+
+#: inc/menu/page-agents.php:90
+msgid "Approve"
+msgstr "Одобрение"
+
+#: inc/menu/page-agents.php:99
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "Нямаш никакви висящи агенти."
+
+#: inc/menu/page-agents.php:107
+#, fuzzy
+msgid "Registered Agents"
+msgstr "Регистрираните агенти"
+
+#: inc/menu/page-agents.php:119
+msgid "Profile"
+msgstr "Профил"
+
+#: inc/menu/page-agents.php:132
+msgid "View Profile"
+msgstr "Преглед на профила"
+
+#: inc/menu/page-agents.php:141
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "Нямате регистрирани агенти."
+
+#: inc/menu/page-agents.php:147
+#, fuzzy
+msgid "Register New Agent"
+msgstr "Регистриране на нов агент"
+
+#: inc/menu/page-settings.php:3
+#, fuzzy
+msgid "Real Estate Manager - Settings"
+msgstr "Мениджър недвижими имоти-настройки"
+
+#: inc/menu/page-settings.php:5
+#, fuzzy
+msgid "Not Registered!"
+msgstr "Агент, регистриран"
+
+#: inc/menu/page-settings.php:6
+#, fuzzy
+msgid "Register"
+msgstr "Агент, регистриран"
+
+#: inc/menu/page-settings.php:8
+#, fuzzy
+msgid "Registered!"
+msgstr "Агент, регистриран"
+
+#: inc/menu/page-settings.php:9
+#, fuzzy
+msgid "De-register"
+msgstr "Агент, регистриран"
+
+#: inc/menu/page-settings.php:25
+#, fuzzy
+msgid "If 404 Page is displaying"
+msgstr "Ако се показва 404 страница"
+
+#: inc/menu/page-settings.php:27
+#, fuzzy
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr "Отивам към обстановка-> Permalinks и щракване спасявам промяна копче"
+
+#: inc/menu/page-settings.php:31
+#, fuzzy
+msgid "If Maps not displaying"
+msgstr "Ако картите не се показват"
+
+#: inc/menu/page-settings.php:33
+#, fuzzy
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+"Създаване на Google Maps API използване на Google и го поставете в Maps API "
+"поле."
+
+#: inc/menu/page-settings.php:37
+#, fuzzy
+msgid "Change Property Page Design"
+msgstr "Промяна на дизайна на страница със свойства"
+
+#: inc/menu/page-settings.php:39
+#, fuzzy
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "Копирайте следния файл и го поставете в корена на вашата тема"
+
+#: inc/menu/page-settings.php:41
+#, fuzzy
+msgid "Now change its name to"
+msgstr "Сега Променете името си на"
+
+#: inc/menu/page-settings.php:43
+#, fuzzy
+msgid "Then change Property Page Template option to From Theme"
+msgstr "След това промяна на опцията свойство шаблон на страница от тема"
+
+#: inc/menu/page-settings.php:44
+#, fuzzy
+msgid "Now you can make changes in this template file."
+msgstr "Сега можете да правите промени в този шаблонен файл."
+
+#: inc/menu/page-settings.php:48
+#, fuzzy
+msgid "Need Help? Any Suggestions?"
+msgstr "Нуждаете се от помощ? Кой да е предложение?"
+
+#: inc/menu/page-settings.php:50
+#, fuzzy
+msgid "Please contact us"
+msgstr "Моля свържете се с нас"
+
+#: inc/menu/page-settings.php:51
+#, fuzzy
+msgid "HERE"
+msgstr "тук"
+
+#: inc/menu/page-settings.php:52
+#, fuzzy
+msgid "for assistance."
+msgstr "за помощ."
+
+#: inc/menu/page-settings.php:73
+msgid "Please Wait..."
+msgstr "Моля, изчакайте..."
+
+#: inc/menu/render-admin-settings.php:50
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+msgid "Choose a currency&hellip;"
+msgstr "Изберете валута&hellip;"
+
+#: inc/menu/render-admin-settings.php:217
+msgid "Image"
+msgstr "Снимка"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "Избери"
+
+#: inc/menu/render-admin-settings.php:219
+msgid "Media"
+msgstr "Медия"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+#, fuzzy
+msgid "View details"
+msgstr "Данни за агента"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: inc/sidebar-agent-contact.php:18
+msgid "Your Name"
+msgstr "Име"
+
+#: inc/sidebar-agent-contact.php:21
+msgid "Your Email"
+msgstr "Поща"
+
+#: inc/sidebar-agent-contact.php:24
+msgid "Phone"
+msgstr ""
+
+#: inc/sidebar-agent-contact.php:27
+msgid "Message"
+msgstr "Съобщение"
+
+#: inc/sidebar-agent-contact.php:30
+msgid "Send Message"
+msgstr "Изпрати"
+
+#: shortcodes/agent-profile.php:90
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:87
+msgid "My Properties"
+msgstr "Моите имоти"
+
+#: shortcodes/carousel/carousel.php:13
+msgid "No Properties Found!"
+msgstr "Няма открити имоти!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "Особености"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+msgid "Property Title"
+msgstr "Заглавие на имот"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "Описание на имота"
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "Снимки"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+#, fuzzy
+msgid "Click here to Upload Images"
+msgstr "Щракнете тук, за да качите снимки"
+
+#: shortcodes/create-property.php:80 shortcodes/edit-property.php:103
+#, fuzzy
+msgid "Each tag separated by comma"
+msgstr "Всеки етикет, разделени със запетая"
+
+#: shortcodes/create-property.php:88 shortcodes/edit-property.php:115
+#, fuzzy
+msgid "Place on Map"
+msgstr "Място на картата"
+
+#: shortcodes/create-property.php:100
+#: shortcodes/page-builders/vc-settings.php:28
+#, fuzzy
+msgid "Create Property"
+msgstr "Създаване на свойство"
+
+#: shortcodes/create-property.php:107
+#, fuzzy
+#| msgid "Please Wait..."
+msgid "Please wait..."
+msgstr "Моля, изчакайте..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:138
+msgid "Save Changes"
+msgstr "Запази промените"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "Записване на промените..."
+
+#: shortcodes/edit-property.php:131
+msgid "Draft"
+msgstr ""
+
+#: shortcodes/edit-property.php:132 shortcodes/manage-properties.php:29
+msgid "Publish"
+msgstr "Публикувай"
+
+#: shortcodes/edit-property.php:145
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "Моля, изчакайте! Вашият porperty се променя..."
+
+#: shortcodes/login.php:8
+msgid "Username or email"
+msgstr "Потребител или Поща"
+
+#: shortcodes/login.php:22
+msgid "Keep me signed in"
+msgstr "Запомни ме на този компютър"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:955
+msgid "Login"
+msgstr "Вход"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+#, fuzzy
+msgid "Display All"
+msgstr "Показване на всички"
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+#, fuzzy
+#| msgid "Publish"
+msgid "Only Published"
+msgstr "Публикувай"
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+#, fuzzy
+msgid "Only Pending"
+msgstr "Агент в очакване"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+msgid "Only Draft"
+msgstr ""
+
+#: shortcodes/manage-properties.php:30
+msgid "Unpublish"
+msgstr "Не публикувам"
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+msgid "ID"
+msgstr "ID"
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+msgid "Added"
+msgstr "Добавено"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+msgid "Actions"
+msgstr "Действия"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+#, fuzzy
+#| msgid "Edit Tag"
+msgid "Edit"
+msgstr "Редактирай етикет"
+
+#: shortcodes/map/map.php:101 shortcodes/map/nearby.php:98
+#, fuzzy
+msgid "Found"
+msgstr "Не е открит такъв имот в Изтрити"
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:942
+msgid "Designates the ascending or descending order of the below option."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+#, fuzzy
+msgid "Choose option to sort properties by"
+msgstr "Избор на ред за показване на свойствата"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+#, fuzzy
+msgid "Property Price"
+msgstr "Цел на имота"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:577
+msgid "Random"
+msgstr "Произволно"
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+msgid "Order by custom meta"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+#, fuzzy
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"Предоставяне на данни за фиксирани полета на всеки ред. EG: property_status "
+"| нормален"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:228
+#, fuzzy
+msgid "Property Style"
+msgstr "Стил на свойство"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:229
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "Избор на свойства на стила на показване"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:479
+#: shortcodes/page-builders/all-setting-fields.php:928
+msgid "Columns"
+msgstr "Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "Брой на свойствата в ред"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:931
+msgid "1 Columns"
+msgstr "1 колона"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:482
+#: shortcodes/page-builders/all-setting-fields.php:932
+msgid "2 Columns"
+msgstr "2 Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:483
+#: shortcodes/page-builders/all-setting-fields.php:933
+msgid "3 Columns"
+msgstr "3 Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:484
+#: shortcodes/page-builders/all-setting-fields.php:934
+msgid "4 Columns"
+msgstr "4 Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:935
+msgid "5 Columns"
+msgstr "5 Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+msgid "Top Bar"
+msgstr "Горна лента"
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+#, fuzzy
+msgid "Top bar to sort or change layout"
+msgstr "Най-горната лента, за да сортирате или промените оформлението"
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+#, fuzzy
+msgid "Default Grid Style"
+msgstr "Географска ширина по подРазбиране"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+msgid "Default style of grid for top bar."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+#, fuzzy
+msgid "Display properties having status Not Available or not"
+msgstr "Показва свойствата на голяма карта"
+
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:637
+msgid "Number of Properties"
+msgstr "Брой имоти"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Осигуряване на общия брой на имотите да се покаже, след това номериране ще "
+"покаже"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+msgid "Tags Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr "Разделен със запетая списък с етикети за свойства на филтъра"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+#, fuzzy
+msgid "Features Specific"
+msgstr "Заглавие на функциите"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+#, fuzzy
+msgid "Comma separated list of features to filter properties"
+msgstr "Разделен със запетая списък с етикети за свойства на филтъра"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+msgid "Agent Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:260
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr ""
+"ИД на агент или разделени със запетая идентификатори за показване на техните "
+"свойства"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:241
+#: shortcodes/page-builders/all-setting-fields.php:647
+#, fuzzy
+msgid "Filter Properties by Meta"
+msgstr "Свойства на филтъра"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:242
+#: shortcodes/page-builders/all-setting-fields.php:648
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Осигуряване на мета ключ и стойност на всеки ред за филтриране. EG: "
+"property_status | нормален"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:721
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "Предпочитат най-близките имоти"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+#, fuzzy
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"То ще давам възможност на GEO местоположение следа към следа посещавам "
+"местоположение и ще излагам на показ аксесоари до тях"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+#, fuzzy
+msgid "Justified Grid (Masonry)"
+msgstr "Обоснована решетка (зидария)"
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "То ще давам възможност на зидария решетка за аксесоари"
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+msgid "Pagination"
+msgstr "Странициране"
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+#, fuzzy
+msgid "Enable or Disable Pagination"
+msgstr "Разрешаване или забраняване на номериране"
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:357
+msgid "Redirect"
+msgstr "Пренасочване"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+#, fuzzy
+msgid "Provide URL to redirect after successful registration"
+msgstr "Снабдявам URL към redirect след сполучлив вписване"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#: shortcodes/page-builders/all-setting-fields.php:363
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "Съдържание за регистрирани потребители"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+#: shortcodes/page-builders/all-setting-fields.php:364
+#, fuzzy
+msgid "Provide contents for already logged in users"
+msgstr "Осигуряване на съдържание за вече регистрирани потребители"
+
+#: shortcodes/page-builders/all-setting-fields.php:172
+msgid "Placeholder"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:173
+#, fuzzy
+msgid "Placeholder for search field"
+msgstr "Изберете стил за резултатите от търсенето"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+#, fuzzy
+#| msgid "Full Width"
+msgid "Field Width"
+msgstr "Пълна ширина"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+#, fuzzy
+msgid "Width with units. Eg: 450px"
+msgstr "Плъзгача ширина с единица. Например:"
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+#, fuzzy
+msgid "Border Color"
+msgstr "Зареждане на цвят"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+#, fuzzy
+msgid "Choose color for border"
+msgstr "Изберете цвят за зареждане на карти кутия"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+#, fuzzy
+msgid "Results Page URL"
+msgstr "Страница с Резултати от Търсесне"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+#, fuzzy
+msgid "Provide URL for the search results page"
+msgstr "Осигуряване на текст за бутон за търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+#, fuzzy
+#| msgid "Search"
+msgid "Search Icon"
+msgstr "Търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+msgid "Provide fontawesome icon with markup."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:207
+#: shortcodes/page-builders/all-setting-fields.php:609
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "Избор на ред за показване на свойствата"
+
+#: shortcodes/page-builders/all-setting-fields.php:217
+#: shortcodes/page-builders/all-setting-fields.php:623
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "Избиране на подреждане по за показване на свойствата"
+
+#: shortcodes/page-builders/all-setting-fields.php:221
+#: shortcodes/page-builders/all-setting-fields.php:576
+#: shortcodes/page-builders/all-setting-fields.php:627
+#, fuzzy
+msgid "Property Name"
+msgstr "Име на свойство"
+
+#: shortcodes/page-builders/all-setting-fields.php:236
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "Предоставяне на общ брой свойства за показване"
+
+#: shortcodes/page-builders/all-setting-fields.php:248
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr ""
+"Предоставяне на етикети на всеки ред за показване на конкретни свойства"
+
+#: shortcodes/page-builders/all-setting-fields.php:253
+#: shortcodes/page-builders/all-setting-fields.php:598
+#, fuzzy
+msgid "Property IDs"
+msgstr "ИД на собственост"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"Осигурете идентификатори, ако искате да покажете конкретни свойства, всеки "
+"на ред"
+
+#: shortcodes/page-builders/all-setting-fields.php:266
+#: shortcodes/page-builders/all-setting-fields.php:722
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"То ще давам възможност на GEO местоположение следа към следа посещавам "
+"местоположение и ще излагам на показ аксесоари до тях"
+
+#: shortcodes/page-builders/all-setting-fields.php:276
+#, fuzzy
+msgid "Properties in Row"
+msgstr "Имоти в ред"
+
+#: shortcodes/page-builders/all-setting-fields.php:277
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr ""
+"Предоставяне на броя на свойствата, които искате да се показват в даден "
+"момент"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "Свойства за превъртане"
+
+#: shortcodes/page-builders/all-setting-fields.php:284
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr ""
+"Осигуряване на броя на свойствата, които искате да превъртате в даден момент"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+msgid "Speed"
+msgstr "Скорост"
+
+#: shortcodes/page-builders/all-setting-fields.php:291
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Скорост в MS например: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+msgid "Auto Play"
+msgstr "Авто пускане"
+
+#: shortcodes/page-builders/all-setting-fields.php:298
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "Разреши да се показва автоматично въртене на свойствата"
+
+#: shortcodes/page-builders/all-setting-fields.php:308
+#, fuzzy
+msgid "Auto Play Speed"
+msgstr "Скорост на авто игра"
+
+#: shortcodes/page-builders/all-setting-fields.php:309
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Авто играят скорост в MS например: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+msgid "Arrows"
+msgstr "Стрели"
+
+#: shortcodes/page-builders/all-setting-fields.php:316
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "Разрешаване на показването на стрелки за навигация"
+
+#: shortcodes/page-builders/all-setting-fields.php:326
+msgid "Dots"
+msgstr "Точки"
+
+#: shortcodes/page-builders/all-setting-fields.php:327
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "Разрешаване на показването на долни точки за навигация"
+
+#: shortcodes/page-builders/all-setting-fields.php:341
+#: shortcodes/page-builders/all-setting-fields.php:373
+#: shortcodes/page-builders/all-setting-fields.php:383
+#: shortcodes/page-builders/all-setting-fields.php:403
+#: shortcodes/page-builders/all-setting-fields.php:413
+#: shortcodes/page-builders/all-setting-fields.php:462
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "Съдържание за не са влезли в потребители"
+
+#: shortcodes/page-builders/all-setting-fields.php:342
+#, fuzzy
+msgid "Provide contents for non logged in users"
+msgstr "Предоставяне на съдържание за не регистрирани потребители"
+
+#: shortcodes/page-builders/all-setting-fields.php:351
+msgid "Heading"
+msgstr ""
+"Заглавие на писмото, което се изпраща при частично възстановяване на сума"
+
+#: shortcodes/page-builders/all-setting-fields.php:352
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "Заглавието ще се появи над формата за вход"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+#, fuzzy
+msgid "Provide URL to redirect after successful login"
+msgstr "Снабдявам URL към redirect след сполучлив login"
+
+#: shortcodes/page-builders/all-setting-fields.php:374
+#: shortcodes/page-builders/all-setting-fields.php:384
+#, fuzzy
+msgid "Provide contents to display if user is not logged in"
+msgstr "Осигуряване на съдържание за показване, ако потребителят не е влязъл"
+
+#: shortcodes/page-builders/all-setting-fields.php:394
+#, fuzzy
+msgid "Provide property id here"
+msgstr "Осигуряване на свойството ID тук"
+
+#: shortcodes/page-builders/all-setting-fields.php:404
+#: shortcodes/page-builders/all-setting-fields.php:414
+#: shortcodes/page-builders/all-setting-fields.php:463
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr "Осигуряване на съдържание за показване, ако потребителят не е влязъл"
+
+#: shortcodes/page-builders/all-setting-fields.php:423
+#, fuzzy
+#| msgid "Redirect"
+msgid "Redirect URL"
+msgstr "Пренасочване"
+
+#: shortcodes/page-builders/all-setting-fields.php:424
+#, fuzzy
+msgid "Provide URL to redirect after logout"
+msgstr "Снабдявам URL към redirect след сполучлив login"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+msgid "CSS Button"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+#, fuzzy
+msgid "Provide css classes for button"
+msgstr "Осигуряване на текст за бутон за търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+msgid "Provide button label"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:446
+#, fuzzy
+msgid "Choose agent to display his/her profile."
+msgstr "Избор на ред за показване на свойствата"
+
+#: shortcodes/page-builders/all-setting-fields.php:456
+msgid "Role"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:457
+#, fuzzy
+msgid "Provide role name who can manage properties from this page."
+msgstr "Предоставяне на общ брой свойства за показване"
+
+#: shortcodes/page-builders/all-setting-fields.php:472
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "Отметнете полета за показване"
+
+#: shortcodes/page-builders/all-setting-fields.php:473
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "Проверете задължителните полета за менюто за търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:480
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "Избиране на броя на полетата във всеки ред"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+msgid "6 Columns"
+msgstr "6 Колони"
+
+#: shortcodes/page-builders/all-setting-fields.php:487
+#, fuzzy
+#| msgid "1 Columns"
+msgid "1 Column"
+msgstr "1 колона"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+#, fuzzy
+msgid "Search Button Title"
+msgstr "Заглавие на бутона за търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:494
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "Осигуряване на текст за бутон за търсене"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "Заглавие на бутона на филтъра"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "Осигуряване на текст за още бутон за филтриране"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+#, fuzzy
+msgid "Results Page"
+msgstr "Страница с Резултати от Търсесне"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"Снабдявам URL, то ще правя неспособен AJAX търся и ще отворен горе този паж "
+"към излагам на показ резултат. Уверете се, че да поставите кратък "
+"[rem_search_results] на предоставената страница за показване на резултатите."
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+#, fuzzy
+msgid "Result Selector"
+msgstr "Селектор на резултат"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"HTML селектор, ако искате да покажете резултати на друго място на текущата "
+"страница"
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "Фиксирани полета"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Предоставяне на данни за фиксирани полета на всеки ред. EG: property_status "
+"| нормален"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "Твърди кодирани съдържание"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"Можете да поставите кратък тук, за да се изброят някои свойства по "
+"подразбиране"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+#: shortcodes/page-builders/all-setting-fields.php:954
+msgid "Agent ID"
+msgstr "Агент ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+#, fuzzy
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr ""
+"ИД на агент или разделени със запетая идентификатори за конкретно търсене на "
+"агент"
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#, fuzzy
+#| msgid "More Filters"
+msgid "More Filters Column Classes"
+msgstr "Повече филтри"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+msgid "CSS classes for more filters (features)."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+#, fuzzy
+msgid "Auto Complete"
+msgstr "Разреши автоматичното попълване на полета"
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+#, fuzzy
+msgid "Enable or Disable auto suggestions"
+msgstr "Разрешаване или забраняване на номериране"
+
+#: shortcodes/page-builders/all-setting-fields.php:551
+#, fuzzy
+#| msgid "Auto Play"
+msgid "Auto Scroll"
+msgstr "Авто пускане"
+
+#: shortcodes/page-builders/all-setting-fields.php:552
+#, fuzzy
+msgid "Enable or Disable auto scroll to results"
+msgstr "Разрешаване или забраняване на номериране"
+
+#: shortcodes/page-builders/all-setting-fields.php:562
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "Избиране на ред за показване на резултати"
+
+#: shortcodes/page-builders/all-setting-fields.php:572
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "Избор на ред по за показване на резултати"
+
+#: shortcodes/page-builders/all-setting-fields.php:588
+#, fuzzy
+msgid "Display By"
+msgstr "Излагам на показ на"
+
+#: shortcodes/page-builders/all-setting-fields.php:589
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "Как искате да покажете свойствата на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:591
+#, fuzzy
+msgid "Properties by IDs"
+msgstr "Имоти по документи за самоличност"
+
+#: shortcodes/page-builders/all-setting-fields.php:592
+#, fuzzy
+msgid "Use Property Query"
+msgstr "Използване на заявка за свойство"
+
+#: shortcodes/page-builders/all-setting-fields.php:599
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "ИМЕ на свойство за всеки ред за показване на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:638
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "Осигуряване на общ брой на свойствата за показване. -1 за всички"
+
+#: shortcodes/page-builders/all-setting-fields.php:657
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "Филтриране на типове свойства"
+
+#: shortcodes/page-builders/all-setting-fields.php:658
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"Разреши за показване на бутоните за тип на свойство под карти за филтриране"
+
+#: shortcodes/page-builders/all-setting-fields.php:667
+#, fuzzy
+msgid "Filter Key"
+msgstr "Филтриране по етикети"
+
+#: shortcodes/page-builders/all-setting-fields.php:668
+msgid "Field key to use for filter menu"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:677
+#: shortcodes/page-builders/all-setting-fields.php:837
+#: shortcodes/page-builders/all-setting-fields.php:848
+#: shortcodes/page-builders/all-setting-fields.php:859
+#: shortcodes/page-builders/all-setting-fields.php:870
+#: shortcodes/page-builders/all-setting-fields.php:881
+#, fuzzy
+msgid "Filter Options"
+msgstr "Опции за филтъра"
+
+#: shortcodes/page-builders/all-setting-fields.php:678
+#, fuzzy
+msgid "Provide comma-separated values to display on filter menu"
+msgstr ""
+"ИД на агент или разделени със запетая идентификатори за показване на техните "
+"свойства"
+
+#: shortcodes/page-builders/all-setting-fields.php:688
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:694
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:700
+#, fuzzy
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr "Осигурете ниво на мащабиране между 0 и 21 + за единична карта на имота"
+
+#: shortcodes/page-builders/all-setting-fields.php:705
+msgid "Map ID"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:706
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:711
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "Филтриране по етикети"
+
+#: shortcodes/page-builders/all-setting-fields.php:712
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "Осигурете единичен етикет на всеки ред за филтриране."
+
+#: shortcodes/page-builders/all-setting-fields.php:731
+msgid "Map Height"
+msgstr "Височина на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:732
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "Осигуряване на височина карта например: 550px"
+
+#: shortcodes/page-builders/all-setting-fields.php:738
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr "Предоставяне на ИД на агент за конкретни списъци"
+
+#: shortcodes/page-builders/all-setting-fields.php:743
+#, fuzzy
+msgid "Loading Heading"
+msgstr "Зареждане на позиция"
+
+#: shortcodes/page-builders/all-setting-fields.php:744
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "Предоставяне на заглавка на текст на карта"
+
+#: shortcodes/page-builders/all-setting-fields.php:750
+#, fuzzy
+msgid "Loading Description"
+msgstr "Зареждане на описание"
+
+#: shortcodes/page-builders/all-setting-fields.php:751
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "Осигуряване на карта описание натоварване текст"
+
+#: shortcodes/page-builders/all-setting-fields.php:757
+#: shortcodes/page-builders/all-setting-fields.php:835
+msgid "Buttons Background Color"
+msgstr "Фон за Бутоните"
+
+#: shortcodes/page-builders/all-setting-fields.php:758
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "Избор на фонов цвят за бутоните на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:759
+#: shortcodes/page-builders/all-setting-fields.php:766
+#: shortcodes/page-builders/all-setting-fields.php:773
+#: shortcodes/page-builders/all-setting-fields.php:780
+#: shortcodes/page-builders/all-setting-fields.php:787
+msgid "Colors"
+msgstr "Цветове"
+
+#: shortcodes/page-builders/all-setting-fields.php:764
+#: shortcodes/page-builders/all-setting-fields.php:846
+msgid "Buttons Text Color"
+msgstr "Цвят на Шрифта за Бутоните"
+
+#: shortcodes/page-builders/all-setting-fields.php:765
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "Избор на цвят на текста за бутоните на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:771
+#: shortcodes/page-builders/all-setting-fields.php:857
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "Фонов цвят на бутоните-задръжте"
+
+#: shortcodes/page-builders/all-setting-fields.php:772
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "Избиране на цвета на фона на мишката за бутоните на картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:778
+#: shortcodes/page-builders/all-setting-fields.php:868
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "Бутони цвят на текста-задръжте"
+
+#: shortcodes/page-builders/all-setting-fields.php:779
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "Изберете цвят навъртам текст за карта бутони"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+#, fuzzy
+msgid "Loader Color"
+msgstr "Зареждане на цвят"
+
+#: shortcodes/page-builders/all-setting-fields.php:786
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "Изберете цвят за зареждане на карти кутия"
+
+#: shortcodes/page-builders/all-setting-fields.php:793
+#, fuzzy
+msgid "Water Color"
+msgstr "Вода цвят"
+
+#: shortcodes/page-builders/all-setting-fields.php:794
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "Изберете цвят на водата в картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:795
+#: shortcodes/page-builders/all-setting-fields.php:802
+#: shortcodes/page-builders/all-setting-fields.php:809
+#: shortcodes/page-builders/all-setting-fields.php:816
+#: shortcodes/page-builders/all-setting-fields.php:823
+#: shortcodes/page-builders/all-setting-fields.php:830
+#, fuzzy
+msgid "Map Colors"
+msgstr "Карта цветове"
+
+#: shortcodes/page-builders/all-setting-fields.php:800
+#, fuzzy
+msgid "Fill Color"
+msgstr "Цвят на запълване"
+
+#: shortcodes/page-builders/all-setting-fields.php:801
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "Изберете естествен цвят на запълване в картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:807
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "Точки на интерес цвят"
+
+#: shortcodes/page-builders/all-setting-fields.php:808
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "Изберете цвят POI в картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:814
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "Точки на интерес оттенък цвят"
+
+#: shortcodes/page-builders/all-setting-fields.php:815
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "Изберете цвят POI оттенък в картата"
+
+#: shortcodes/page-builders/all-setting-fields.php:821
+#, fuzzy
+msgid "Road Lightness"
+msgstr "Пътна лекота"
+
+#: shortcodes/page-builders/all-setting-fields.php:822
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "Изберете пътя лекота на картата, по подразбиране: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:828
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "Линии лекота"
+
+#: shortcodes/page-builders/all-setting-fields.php:829
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Изберете осветеност на линията по подразбиране: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:836
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "Цвят на фона за бутоните отдолу"
+
+#: shortcodes/page-builders/all-setting-fields.php:847
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "Цвят на текста за бутоните отдолу"
+
+#: shortcodes/page-builders/all-setting-fields.php:858
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "Цвят на фона за бутоните отдолу при задържане на мишката"
+
+#: shortcodes/page-builders/all-setting-fields.php:869
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "Цвят на текста за бутоните отдолу при задържане на мишката"
+
+#: shortcodes/page-builders/all-setting-fields.php:879
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "Фонов цвят на бутоните-активен"
+
+#: shortcodes/page-builders/all-setting-fields.php:880
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "Фонов цвят за долните бутони на Active"
+
+#: shortcodes/page-builders/all-setting-fields.php:890
+#, fuzzy
+msgid "Field Name for Icons"
+msgstr "Име на поле за икони"
+
+#: shortcodes/page-builders/all-setting-fields.php:891
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"Въведете име на данните за полето, за да филтрирате иконите по. Например: "
+"property_type"
+
+#: shortcodes/page-builders/all-setting-fields.php:892
+#: shortcodes/page-builders/all-setting-fields.php:899
+#: shortcodes/page-builders/all-setting-fields.php:906
+#: shortcodes/page-builders/all-setting-fields.php:913
+#, fuzzy
+msgid "Custom Icons"
+msgstr "Икони по избор"
+
+#: shortcodes/page-builders/all-setting-fields.php:897
+#, fuzzy
+msgid "Icon URLs"
+msgstr "URL адреси на икони"
+
+#: shortcodes/page-builders/all-setting-fields.php:898
+#, fuzzy
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"Осигуряване на мета стойност, статични и мишката икона URL адреси seaprated "
+"с тръба знак. EG: къща | some_image. png | some_image_hover. png"
+
+#: shortcodes/page-builders/all-setting-fields.php:904
+#, fuzzy
+msgid "My Location Icon Url"
+msgstr "URL адрес на иконата на Моето местоположение"
+
+#: shortcodes/page-builders/all-setting-fields.php:905
+#, fuzzy
+msgid "Provide icon url for my location pin"
+msgstr "Снабдявам икона URL за my местоположение карфица"
+
+#: shortcodes/page-builders/all-setting-fields.php:911
+#, fuzzy
+msgid "Circle Icon Url"
+msgstr "URL адрес на икона на окръжност"
+
+#: shortcodes/page-builders/all-setting-fields.php:912
+#, fuzzy
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "Снабдявам икона URL за многочислен аксесоари. Размер 55x55"
+
+#: shortcodes/page-builders/all-setting-fields.php:922
+#, fuzzy
+#| msgid "Agent ID"
+msgid "Agent IDs"
+msgstr "Агент ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:923
+#, fuzzy
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "Идентификатори, разделени със запетая, на агенти за конкретен списък"
+
+#: shortcodes/page-builders/all-setting-fields.php:929
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "Брой на колоните в един ред"
+
+#: shortcodes/page-builders/all-setting-fields.php:952
+msgid "Choose option to sort agents by"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:956
+#, fuzzy
+#| msgid "New Tag Name"
+msgid "Nice Name"
+msgstr "Име на нов етикет"
+
+#: shortcodes/page-builders/all-setting-fields.php:957
+#, fuzzy
+#| msgid "Address"
+msgid "Email Address"
+msgstr "Адрес"
+
+#: shortcodes/page-builders/all-setting-fields.php:958
+msgid "URL"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:959
+#, fuzzy
+msgid "Registered"
+msgstr "Агент, регистриран"
+
+#: shortcodes/page-builders/all-setting-fields.php:960
+#, fuzzy
+msgid "Display Name"
+msgstr "Излагам на показ на"
+
+#: shortcodes/page-builders/all-setting-fields.php:961
+#, fuzzy
+#| msgid "No Properties Found!"
+msgid "Properties Count"
+msgstr "Няма открити имоти!"
+
+#: shortcodes/page-builders/all-setting-fields.php:962
+msgid "IDs Provided Above"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:963
+#, fuzzy
+#| msgid "Default Value"
+msgid "Meta Value"
+msgstr "Стнадартна стойност"
+
+#: shortcodes/page-builders/all-setting-fields.php:969
+#, fuzzy
+#| msgid "Custom CSS Code"
+msgid "Custom Meta Key"
+msgstr "Собствен CSS код"
+
+#: shortcodes/page-builders/all-setting-fields.php:970
+#, fuzzy
+msgid "Provide field name here for specific agent listing."
+msgstr "Предоставяне на ИД на агент за конкретни списъци"
+
+#: shortcodes/page-builders/all-setting-fields.php:975
+#, fuzzy
+msgid "Custom Meta Value"
+msgstr "Функции за потребителска регистрация"
+
+#: shortcodes/page-builders/all-setting-fields.php:976
+#, fuzzy
+msgid "Provide field value here for specific agent listing."
+msgstr "Предоставяне на ИД на агент за конкретни списъци"
+
+#: shortcodes/page-builders/all-setting-fields.php:981
+#, fuzzy
+#| msgid "Contact Agent"
+msgid "Total Agents"
+msgstr "За контакт"
+
+#: shortcodes/page-builders/all-setting-fields.php:982
+#, fuzzy
+msgid "Number of agents to display."
+msgstr "Брой на свойствата за показване в момента."
+
+#: shortcodes/page-builders/all-setting-fields.php:987
+msgid "Masonry"
+msgstr "Masonry"
+
+#: shortcodes/page-builders/all-setting-fields.php:988
+#, fuzzy
+msgid "Justified Layout"
+msgstr "Обосновано оформление"
+
+#: shortcodes/page-builders/all-setting-fields.php:990
+#, fuzzy
+#| msgid "Enable"
+msgid "enable"
+msgstr "Включване"
+
+#: shortcodes/page-builders/all-setting-fields.php:991
+#, fuzzy
+#| msgid "Disable"
+msgid "disable"
+msgstr "Изключи"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+#, fuzzy
+msgid "List Properties"
+msgstr "Свойства на списък"
+
+#: shortcodes/page-builders/divi-settings.php:86
+#, fuzzy
+msgid "Edit Agent Form"
+msgstr "Редактиране на профил на агент"
+
+#: shortcodes/page-builders/divi-settings.php:105
+#, fuzzy
+msgid "Login Agent Form"
+msgstr "Вход агент"
+
+#: shortcodes/page-builders/divi-settings.php:124
+#, fuzzy
+msgid "Create Property Form"
+msgstr "Създаване на свойство"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+msgid "List Agents"
+msgstr "Покажи агенти"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+msgid "Single Property"
+msgstr "Самостоятелен имот"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+msgid "Agent Profile"
+msgstr "Профил"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+#, fuzzy
+#| msgid "Profile"
+msgid "My Profile"
+msgstr "Профил"
+
+#: shortcodes/page-builders/divi-settings.php:276
+#, fuzzy
+#| msgid "Google Maps"
+msgid "Large Map"
+msgstr "Google Maps"
+
+#: shortcodes/page-builders/divi-settings.php:295
+#, fuzzy
+msgid "Search Property Form"
+msgstr "Търси Имот"
+
+#: shortcodes/page-builders/divi-settings.php:324
+#, fuzzy
+msgid "Properties Slider"
+msgstr "Цена плъзгача"
+
+#: shortcodes/page-builders/divi-settings.php:343
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Simple Search Properties"
+msgstr "Търси имот"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+#, fuzzy
+#| msgid "My Properties"
+msgid "Manage Properties"
+msgstr "Моите имоти"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+#, fuzzy
+#| msgid "Logout"
+msgid "Logout Button"
+msgstr "Изход"
+
+#: shortcodes/page-builders/vc-settings.php:8
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "Рендира формуляр за регистриране на нов агент"
+
+#: shortcodes/page-builders/vc-settings.php:12
+#, fuzzy
+msgid "Edit Agent Profile"
+msgstr "Редактиране на профил на агент"
+
+#: shortcodes/page-builders/vc-settings.php:16
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "Рендира формуляр за редактиране на влезлия в профила на агента"
+
+#: shortcodes/page-builders/vc-settings.php:24
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "Рендира един AJAX базирани Вход форма"
+
+#: shortcodes/page-builders/vc-settings.php:32
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "Рендира формуляр за създаване на свойство"
+
+#: shortcodes/page-builders/vc-settings.php:40
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "Показва списък на агентите"
+
+#: shortcodes/page-builders/vc-settings.php:48
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "Рендира формуляр за редактиране на свойство"
+
+#: shortcodes/page-builders/vc-settings.php:56
+#, fuzzy
+msgid "Display a single property"
+msgstr "Показване на единично свойство"
+
+#: shortcodes/page-builders/vc-settings.php:64
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "Показва свойствата според настройките"
+
+#: shortcodes/page-builders/vc-settings.php:72
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "Показва свойствата на текущата влезли в агент"
+
+#: shortcodes/page-builders/vc-settings.php:80
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "Показва профил на конкретен агент"
+
+#: shortcodes/page-builders/vc-settings.php:88
+#, fuzzy
+msgid "Displays profile of logged in agent"
+msgstr "Показва свойствата на текущата влезли в агент"
+
+#: shortcodes/page-builders/vc-settings.php:96
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr "Показва резултатите от търсенето, ако търси от джаджа"
+
+#: shortcodes/page-builders/vc-settings.php:100
+#, fuzzy
+msgid "Properties Map"
+msgstr "Имоти карта"
+
+#: shortcodes/page-builders/vc-settings.php:104
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "Показва свойствата на голяма карта"
+
+#: shortcodes/page-builders/vc-settings.php:112
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "Рендира форма за търсене на имоти чрез AJAX"
+
+#: shortcodes/page-builders/vc-settings.php:116
+#, fuzzy
+msgid "Carousel Slider"
+msgstr "Цена плъзгача"
+
+#: shortcodes/page-builders/vc-settings.php:120
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "Рендира отзивчив тип \"въртележка\" на свойствата"
+
+#: shortcodes/page-builders/vc-settings.php:124
+#, fuzzy
+#| msgid "Search Field"
+msgid "Inline Search Field"
+msgstr "Поле за търсене"
+
+#: shortcodes/page-builders/vc-settings.php:128
+msgid "Renders simple search form"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:136
+msgid "Displays a logout button"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:144
+msgid "Manage all properties (for admins)"
+msgstr ""
+
+#: shortcodes/register-agent.php:49
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: shortcodes/search-property.php:110
+msgid "Loading..."
+msgstr "Зареждане..."
+
+#: templates/agent/style2.php:38
+#, fuzzy
+msgid "More Info"
+msgstr "Повече информация"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "Мениджър недвижими имоти Pro"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "HTTPS://webcodingplace.com/Real-Estate-Manager-WordPress-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "Цялостно решение за управление на недвижими имоти"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "HTTPS://webcodingplace.com/"
+
+#~ msgid "General Settings"
+#~ msgstr "Основни настройки"
+
+#, fuzzy
+#~ msgid "Details Heading"
+#~ msgstr "Детайли заглавие"
+
+#, fuzzy
+#~ msgid "Provide heading text for property details on property pages"
+#~ msgstr ""
+#~ "Осигуряване на текст на заглавие за подробности за свойствата на страници "
+#~ "със свойства"
+
+#, fuzzy
+#~ msgid "Video Heading"
+#~ msgstr "Заглавие на видеоклипа"
+
+#, fuzzy
+#~ msgid "Provide heading text for property video on property pages"
+#~ msgstr "Снабдявам заглавие текст за имот виж на имот паж"
+
+#, fuzzy
+#~ msgid "Attachments Heading"
+#~ msgstr "Заглавие на прикачени файлове"
+
+#, fuzzy
+#~ msgid "Provide heading text for attachments on property pages"
+#~ msgstr ""
+#~ "Осигуряване на текст на заглавие за прикачени файлове на страници със "
+#~ "свойства"
+
+#, fuzzy
+#~| msgid "Upload Image"
+#~ msgid "Upload Field"
+#~ msgstr "Поле за качване"
+
+#, fuzzy
+#~ msgid "Order of properties you want to display."
+#~ msgstr "Реда на свойствата, които искате да покажете."
+
+#~ msgid "Date Created"
+#~ msgstr "Дата на създаване"
+
+#, fuzzy
+#~ msgid "Sort retrieved properties by specific parameter."
+#~ msgstr "Сортирай възстановените свойства по конкретен параметър."
+
+#, fuzzy
+#~ msgid "Choose property style."
+#~ msgstr "Изберете стил на свойство."
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~ msgid "Number of properties in a row."
+#~ msgstr "Брой на свойствата в ред."
+
+#, fuzzy
+#~ msgid "Comma separated list of tags to display tag specific properties."
+#~ msgstr ""
+#~ "Разделен със запетая списък с етикети за показване на специфични свойства "
+#~ "на таг."
+
+#, fuzzy
+#~ msgid "Display pagination if there are more properties."
+#~ msgstr "Показване на странирането, ако има повече свойства."
+
+#~ msgid "Masonry Grid"
+#~ msgstr "Masonry Решетка"
+
+#, fuzzy
+#~ msgid "Activates Justified Grid mode."
+#~ msgstr "Активира обоснована мрежа режим."
+
+#, fuzzy
+#~ msgid "Prefer Near Properties"
+#~ msgstr "Предпочитам близо до имоти"
+
+#, fuzzy
+#~ msgid "It will enable Geo Location service. Needs SSL to work properly"
+#~ msgstr ""
+#~ "То ще давам възможност на GEO местоположение служба. Трябва SSL да работи "
+#~ "правилно"
+
+#, fuzzy
+#~ msgid "Meta Filtration"
+#~ msgstr "Мета филтрация"
+
+#, fuzzy
+#~ msgid "Please see details here"
+#~ msgstr "Моля, вижте подробности тук"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Къси кодове"
+
+#, fuzzy
+#~ msgid "IDS"
+#~ msgstr "Ид"
+
+#, fuzzy
+#~| msgid "Descending"
+#~ msgid "Ascending or Descending"
+#~ msgstr "Възходящо или низходящо"
+
+#, fuzzy
+#~ msgid "How you want to order agents"
+#~ msgstr "Как искате да поръчате агенти"
+
+#, fuzzy
+#~ msgid "Display Not Available properties or not"
+#~ msgstr "Показване на единично свойство"
+
+#, fuzzy
+#~ msgid "Number of Properties in a Page"
+#~ msgstr "Брой на свойствата в страница"
+
+#, fuzzy
+#~ msgid "Choose to display properties of specific purpose"
+#~ msgstr "Изберете за показване на свойствата на конкретна цел"
+
+#, fuzzy
+#~ msgid "Choose to display properties of specific type"
+#~ msgstr "Изберете за показване на свойствата на определен тип"
+
+#~ msgid "Property Status"
+#~ msgstr "Вид сделка"
+
+#, fuzzy
+#~ msgid "Choose to display properties of specific status"
+#~ msgstr "Изберете за показване на свойствата на конкретно състояние"
+
+#, fuzzy
+#~ msgid "Property Tags"
+#~ msgstr "Имоти Тагове"
+
+#, fuzzy
+#~ msgid "Choose agent who's profile you want to display"
+#~ msgstr "Изберете профила на агент, който искате да покажете"
+
+#, fuzzy
+#~ msgid "Display Properties"
+#~ msgstr "Излагам на показ аксесоари"
+
+#, fuzzy
+#~ msgid "Touch Carousel"
+#~ msgstr "Докосване въртележка"
+
+#, fuzzy
+#~ msgid "Error, please try again"
+#~ msgstr "Грешка, моля опитайте отново"
+
+#, fuzzy
+#~ msgid "Please wait! your porperty is being created..."
+#~ msgstr "Моля, изчакайте! Вашият porperty се създава..."
+
+#, fuzzy
+#~ msgid "ID NO."
+#~ msgstr "ИД NO."
+
+#~ msgid "Detail"
+#~ msgstr "Детайли"
+
+#, fuzzy
+#~ msgid "Any Type"
+#~ msgstr "Тип"
+
+#, fuzzy
+#~ msgid "Any Area"
+#~ msgstr "Площ"
+
+#, fuzzy
+#~ msgid "Any Purpose"
+#~ msgstr "ЦЕЛ"
+
+#~ msgid "Any Status"
+#~ msgstr "Всички състояния"
+
+#, fuzzy
+#~ msgid "Edit Single Property"
+#~ msgstr "Самостоятелен имот"
+
+#~ msgid "Login Form"
+#~ msgstr "Форма за вход"
+
+#, fuzzy
+#~ msgid "List My Properties"
+#~ msgstr "Моите оферти"
+
+#, fuzzy
+#~ msgid "For more details, please visit"
+#~ msgstr "Повече детайли посети:"
+
+#~ msgid "Summary"
+#~ msgstr "Резюме"

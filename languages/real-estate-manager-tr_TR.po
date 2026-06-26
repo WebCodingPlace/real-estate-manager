@@ -1,0 +1,5701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2019-05-19 10:12+0500\n"
+"PO-Revision-Date: 2019-05-19 10:12+0500\n"
+"Last-Translator: \n"
+"Language-Team: rameez7759@gmail.com\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+#, fuzzy
+msgid "Real Estate Manager"
+msgstr "Gayrimenkul Temsilcisi"
+
+#: classes/emails.class.php:38
+#, fuzzy
+msgid "New Agent Registered "
+msgstr "Yeni Aracısı kayıtlı"
+
+#: classes/emails.class.php:49
+#, fuzzy
+msgid "Registration Successful "
+msgstr "Kayıt başarılı"
+
+#: classes/emails.class.php:65
+msgid "Approved "
+msgstr "Onaylı"
+
+#: classes/emails.class.php:81
+msgid "Rejected "
+msgstr "Reddedilen"
+
+#: classes/emails.class.php:103
+#, fuzzy
+msgid "New Property Submitted "
+msgstr "İlan gönderildi."
+
+#: classes/emails.class.php:109
+#, fuzzy
+msgid "Property Submitted "
+msgstr "İlan gönderildi."
+
+#: classes/emails.class.php:122
+#, fuzzy
+msgid "Property Approved "
+msgstr "Onaylı özelliği"
+
+#: classes/hooks.class.php:142 classes/hooks.class.php:146
+#: core.functions.php:557 inc/menu/page-agents.php:91
+#: inc/menu/page-agents.php:133
+msgid "Details"
+msgstr "Detaylar"
+
+#: classes/hooks.class.php:217
+msgid "Beds"
+msgstr "Oda"
+
+#: classes/hooks.class.php:222
+msgid "Baths"
+msgstr "Banyo"
+
+#: classes/hooks.class.php:227 inc/arrays/property-fields.php:145
+msgid "Area"
+msgstr "Alan"
+
+#: classes/hooks.class.php:553 classes/hooks.class.php:1088
+#: classes/widgets/search-properties.php:89
+#: classes/widgets/search-properties.php:183 core.functions.php:695
+#: core.functions.php:1239 shortcodes/page-builders/all-setting-fields.php:393
+msgid "Property ID"
+msgstr "Emlak ID"
+
+#: classes/hooks.class.php:687 core.functions.php:559
+msgid "Features"
+msgstr "Özellikler"
+
+#: classes/hooks.class.php:716 core.functions.php:1240
+#: shortcodes/create-property.php:76 shortcodes/edit-property.php:99
+#: shortcodes/page-builders/all-setting-fields.php:247
+msgid "Tags"
+msgstr "Etiketler"
+
+#: classes/hooks.class.php:753 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+msgid "Edit Property"
+msgstr "Emlak Düzenle"
+
+#: classes/hooks.class.php:759
+msgid "Find on Map"
+msgstr "Haritada Ara"
+
+#: classes/hooks.class.php:837
+msgid "Name"
+msgstr "İsim"
+
+#: classes/hooks.class.php:840 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "E-posta"
+
+#: classes/hooks.class.php:843
+msgid "Subject"
+msgstr "Konu"
+
+#: classes/hooks.class.php:846
+msgid "Your Message"
+msgstr "Mesajınız"
+
+#: classes/hooks.class.php:852
+msgid "SEND MESSAGE"
+msgstr "MESAJ GÖNDER"
+
+#: classes/hooks.class.php:859 inc/sidebar-agent-contact.php:35
+#, fuzzy
+msgid "Sending Email, Please Wait..."
+msgstr "E-posta göndermek, lütfen bekleyin..."
+
+#: classes/hooks.class.php:882
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:883
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:891
+msgid "Tag:"
+msgstr "Etiket:"
+
+#: classes/hooks.class.php:894
+msgid "Properties:"
+msgstr "Özellikler:"
+
+#: classes/hooks.class.php:913 classes/setup.class.php:656
+#: shortcodes/page-builders/all-setting-fields.php:745
+#: shortcodes/page-builders/all-setting-fields.php:752
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: classes/hooks.class.php:914
+#, fuzzy
+msgid "Request for Customize"
+msgstr "Özelleştir talebi"
+
+#: classes/hooks.class.php:1062
+#, fuzzy
+msgid "You can add more features"
+msgstr "Sen-ebilmek eklemek daha şekil"
+
+#: classes/hooks.class.php:1063 inc/menu/admin-settings-arr.php:669
+#: inc/menu/admin-settings-arr.php:675 inc/menu/admin-settings-arr.php:774
+#: inc/menu/render-admin-settings.php:50
+msgid "here"
+msgstr "burada"
+
+#: classes/hooks.class.php:1089
+msgid "Featured Image"
+msgstr "Özellikli resim"
+
+#: classes/hooks.class.php:1129 inc/menu/admin-settings-arr.php:124
+msgid "Energy Efficiency"
+msgstr ""
+
+#: classes/hooks.class.php:1149
+msgid "A+"
+msgstr ""
+
+#: classes/hooks.class.php:1150
+msgid "A"
+msgstr ""
+
+#: classes/hooks.class.php:1151
+msgid "B"
+msgstr ""
+
+#: classes/hooks.class.php:1152
+msgid "C"
+msgstr ""
+
+#: classes/hooks.class.php:1153
+#, fuzzy
+#| msgid "ID"
+msgid "D"
+msgstr "ID"
+
+#: classes/hooks.class.php:1154
+msgid "E"
+msgstr ""
+
+#: classes/hooks.class.php:1155
+msgid "F"
+msgstr ""
+
+#: classes/hooks.class.php:1156
+msgid "G"
+msgstr ""
+
+#: classes/hooks.class.php:1157
+msgid "H"
+msgstr ""
+
+#: classes/hooks.class.php:1159
+msgid "Energy Class"
+msgstr ""
+
+#: classes/hooks.class.php:1160
+#, fuzzy
+msgid "Select the energy class of the property"
+msgstr "Özellik için ekleri seçin"
+
+#: classes/hooks.class.php:1169
+msgid "Global Energy Performance Index"
+msgstr ""
+
+#: classes/hooks.class.php:1170
+msgid "Example: 92.42 kWh / m²a"
+msgstr ""
+
+#: classes/hooks.class.php:1179
+msgid "Renewable Energy Performance Index"
+msgstr ""
+
+#: classes/hooks.class.php:1180
+msgid "Example: 1.00 kWh / m²a"
+msgstr ""
+
+#: classes/hooks.class.php:1189
+msgid "Energy Performance of the Listing"
+msgstr ""
+
+#: classes/hooks.class.php:1190
+msgid "Example: Low"
+msgstr ""
+
+#: classes/hooks.class.php:1211
+msgid "Energy class"
+msgstr ""
+
+#: classes/setup.class.php:102
+msgid "Property Information"
+msgstr "Mülk Bilgisi"
+
+#: classes/setup.class.php:103
+#, fuzzy
+msgid "Location on Map"
+msgstr "Harita üzerinde yer"
+
+#: classes/setup.class.php:104
+msgid "Gallery Images"
+msgstr "Galeri Resimleri"
+
+#: classes/setup.class.php:105
+#, fuzzy
+#| msgid "Contact Agent"
+msgid "Additional Agents"
+msgstr "Danışman İletişim"
+
+#: classes/setup.class.php:434 classes/setup.class.php:736
+msgid "Property Agent"
+msgstr "Danışman Özelliği"
+
+#: classes/setup.class.php:497
+msgid "Attic"
+msgstr "Tavan arası"
+
+#: classes/setup.class.php:498
+#, fuzzy
+msgid "Gas Heat"
+msgstr "Gaz ısı"
+
+#: classes/setup.class.php:499
+msgid "Balcony"
+msgstr "Balkon"
+
+#: classes/setup.class.php:500
+#, fuzzy
+msgid "Wine Cellar"
+msgstr "Şarap kavı"
+
+#: classes/setup.class.php:501
+#, fuzzy
+msgid "Basketball Court"
+msgstr "Basketbol sahası"
+
+#: classes/setup.class.php:502
+#, fuzzy
+msgid "Trash Compactors"
+msgstr "Çöp Kompaktörler"
+
+#: classes/setup.class.php:503
+msgid "Fireplace"
+msgstr "Şömine"
+
+#: classes/setup.class.php:504
+msgid "Pool"
+msgstr "Havuz"
+
+#: classes/setup.class.php:505
+#, fuzzy
+msgid "Lake View"
+msgstr "Göl manzarası"
+
+#: classes/setup.class.php:506
+#, fuzzy
+msgid "Solar Heat"
+msgstr "Güneş ısısı"
+
+#: classes/setup.class.php:507
+#, fuzzy
+msgid "Separate Shower"
+msgstr "Ayrı duş"
+
+#: classes/setup.class.php:508
+#, fuzzy
+msgid "Wet Bar"
+msgstr "Islak Bar"
+
+#: classes/setup.class.php:509
+#, fuzzy
+msgid "Remodeled"
+msgstr "remodelled"
+
+#: classes/setup.class.php:510
+#, fuzzy
+msgid "Skylights"
+msgstr "Işıklık"
+
+#: classes/setup.class.php:511
+#, fuzzy
+msgid "Stone Surfaces"
+msgstr "Taş Yüzeyler"
+
+#: classes/setup.class.php:512
+msgid "Golf Course"
+msgstr "Golf Kursu (Kurslara alınacak)"
+
+#: classes/setup.class.php:513
+msgid "Health Club"
+msgstr "Sağlık Kulübü"
+
+#: classes/setup.class.php:514
+#, fuzzy
+msgid "Backyard"
+msgstr "Arka bahçe"
+
+#: classes/setup.class.php:515
+#, fuzzy
+msgid "Pet Allowed"
+msgstr "İzin Verilen"
+
+#: classes/setup.class.php:516
+#, fuzzy
+msgid "Office/Den"
+msgstr "Ofis / Den"
+
+#: classes/setup.class.php:517
+msgid "Laundry"
+msgstr "Çamaşır"
+
+#: classes/setup.class.php:530
+msgid "Duplex"
+msgstr "Dubleks"
+
+#: classes/setup.class.php:531
+msgid "House"
+msgstr "Ev"
+
+#: classes/setup.class.php:532
+msgid "Office"
+msgstr "Ofis"
+
+#: classes/setup.class.php:533
+msgid "Retail"
+msgstr "Perakende"
+
+#: classes/setup.class.php:534
+#, fuzzy
+msgid "Vila"
+msgstr "Vila"
+
+#: classes/setup.class.php:547
+msgid "Rent"
+msgstr "Kiralık"
+
+#: classes/setup.class.php:548
+msgid "Sell"
+msgstr "Satılık"
+
+#: classes/setup.class.php:561
+msgid "Normal"
+msgstr "Normal"
+
+#: classes/setup.class.php:562
+msgid "Available"
+msgstr "Mevcut"
+
+#: classes/setup.class.php:563
+msgid "Not Available"
+msgstr "Mevcut Değil"
+
+#: classes/setup.class.php:564
+msgid "Sold"
+msgstr "Satıldı"
+
+#: classes/setup.class.php:565
+msgid "Open House"
+msgstr "Açık Ev"
+
+#: classes/setup.class.php:580 classes/shortcodes.class.php:1308
+#: classes/shortcodes.class.php:1562
+#, fuzzy
+msgid "Please check the captcha form."
+msgstr "Lütfen captcha'yı kontrol edin."
+
+#: classes/setup.class.php:589 classes/shortcodes.class.php:1317
+#, fuzzy
+msgid "There was an error. Please try again after reloading page"
+msgstr ""
+"Bir hata oluştu. Lütfen sayfayı tekrar yükledikten sonra tekrar deneyin."
+
+#: classes/setup.class.php:643
+msgid "Email Sent Successfully"
+msgstr "E-posta başarıyla gönderildi"
+
+#: classes/setup.class.php:645
+#, fuzzy
+msgid "There is some problem, please try later"
+msgstr "Bir sorun var, lütfen daha sonra deneyin"
+
+#: classes/setup.class.php:653
+msgid "Agents"
+msgstr "Danışmanlar"
+
+#: classes/setup.class.php:654
+#, fuzzy
+#| msgid "Properties"
+msgid "Property Fields"
+msgstr "İlanlar"
+
+#: classes/setup.class.php:655
+#, fuzzy
+msgid "Registration Fields"
+msgstr "Araştırma alanları"
+
+#: classes/setup.class.php:657
+msgid "Extensions"
+msgstr ""
+
+#: classes/setup.class.php:658
+#, fuzzy
+msgid "Help/Support"
+msgstr "Yardım / Destek"
+
+#: classes/setup.class.php:819 classes/setup.class.php:850
+#: classes/setup.class.php:1146
+#, fuzzy
+#| msgid "Settings Saved"
+msgid "Settings Saved!"
+msgstr "ayarlar kaydedildi"
+
+#: classes/setup.class.php:820 classes/setup.class.php:851
+#: classes/setup.class.php:1147
+msgid "Settings are saved in the database successfully."
+msgstr ""
+
+#: classes/setup.class.php:831 classes/setup.class.php:854
+#: classes/setup.class.php:1150
+msgid "Failed!"
+msgstr ""
+
+#: classes/setup.class.php:832 classes/setup.class.php:855
+#: classes/setup.class.php:1151
+msgid "There is some error or you did not make any change."
+msgstr ""
+
+#: classes/setup.class.php:877 classes/setup.class.php:880
+#, fuzzy
+msgid "Property updated."
+msgstr "İlan güncellendi."
+
+#: classes/setup.class.php:878
+msgid "Custom field updated."
+msgstr "Özel alan güncellendi."
+
+#: classes/setup.class.php:879
+msgid "Custom field deleted."
+msgstr "Özel alan silindi."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:882
+#, fuzzy
+msgid "Property restored to revision"
+msgstr "Emlak revizyona geri yüklendi"
+
+#: classes/setup.class.php:883
+#, fuzzy
+msgid "Property published."
+msgstr "Mülkiyet yayınlandı."
+
+#: classes/setup.class.php:884
+#, fuzzy
+msgid "Property saved."
+msgstr "Mülkiyet kaydedildi."
+
+#: classes/setup.class.php:885
+#, fuzzy
+msgid "Property submitted."
+msgstr "İlan gönderildi."
+
+#: classes/setup.class.php:887
+#, fuzzy
+msgid "Property scheduled."
+msgstr "Zamanlanmış özelliği."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:889
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/setup.class.php:891
+#, fuzzy
+msgid "Property draft updated."
+msgstr "Emlak taslağı güncellendi."
+
+#: classes/setup.class.php:897 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "İlan Görüntüle"
+
+#: classes/setup.class.php:903
+#, fuzzy
+msgid "Preview Property"
+msgstr "Önizleme özelliği"
+
+#: classes/setup.class.php:968
+#, fuzzy
+msgid "Property Page Base"
+msgstr "İlan Sayfası"
+
+#: classes/setup.class.php:993 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37
+msgid "Type"
+msgstr "Tip"
+
+#: classes/setup.class.php:994 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+msgid "Purpose"
+msgstr "Amaç"
+
+#: classes/setup.class.php:995 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+msgid "Status"
+msgstr "Durum"
+
+#: classes/setup.class.php:996
+#, fuzzy
+#| msgid "Features"
+msgid "Is Featured"
+msgstr "Özellikler"
+
+#: classes/setup.class.php:1024
+msgid "All Types"
+msgstr "Tüm Türler"
+
+#: classes/setup.class.php:1036
+#, fuzzy
+msgid "All Purpose"
+msgstr "AMAÇ"
+
+#: classes/setup.class.php:1047
+msgid "All Status"
+msgstr "Zaman Aralığı"
+
+#: classes/shortcodes.class.php:85
+msgid "Passwords did not match!"
+msgstr ""
+
+#: classes/shortcodes.class.php:103 classes/shortcodes.class.php:449
+#: classes/shortcodes.class.php:900
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+
+#: classes/shortcodes.class.php:109 classes/widgets/search-properties.php:104
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+msgid "Search"
+msgstr "Arama"
+
+#: classes/shortcodes.class.php:110
+msgid "More Filters"
+msgstr "Filtre"
+
+#: classes/shortcodes.class.php:196
+#, fuzzy
+msgid "Logging In, Please Wait..."
+msgstr "E-posta göndermek, lütfen bekleyin..."
+
+#: classes/shortcodes.class.php:388 classes/shortcodes.class.php:423
+msgid "Are you sure to delete this property?"
+msgstr ""
+
+#: classes/shortcodes.class.php:389 classes/shortcodes.class.php:424
+#: inc/arrays/property-fields.php:226
+msgid "Yes"
+msgstr "Evet"
+
+#: classes/shortcodes.class.php:390 classes/shortcodes.class.php:425
+#: inc/arrays/property-fields.php:225
+msgid "No"
+msgstr "Hayır"
+
+#: classes/shortcodes.class.php:391 classes/shortcodes.class.php:426
+#: classes/shortcodes.class.php:1475
+msgid "Done"
+msgstr ""
+
+#: classes/shortcodes.class.php:1109 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "Çıkış"
+
+#: classes/shortcodes.class.php:1300
+msgid "There is no property having ID "
+msgstr ""
+
+#: classes/shortcodes.class.php:1339
+msgid "Successful!"
+msgstr ""
+
+#: classes/shortcodes.class.php:1500
+#, fuzzy
+msgid "Changes Saved!"
+msgstr "Ayarlar Kaydedildi!"
+
+#: classes/shortcodes.class.php:1571
+#, fuzzy
+msgid "There was an error. Please try again after reloading page."
+msgstr ""
+"Bir hata oluştu. Lütfen sayfa yeniden yüklendikten sonra yeniden deneyin."
+
+#: classes/shortcodes.class.php:1579 classes/shortcodes.class.php:1615
+#, fuzzy
+msgid "Username or Email already exists"
+msgstr "Kullanıcı adı veya e-posta adresi zaten var"
+
+#: classes/shortcodes.class.php:1587 classes/shortcodes.class.php:1628
+#, fuzzy
+msgid "Registered Successfully, please wait until admin approves."
+msgstr "Admin onaylayana kadar başarıyla kaydedildiğini, bekleyin."
+
+#: classes/shortcodes.class.php:1589 classes/shortcodes.class.php:1630
+#, fuzzy
+msgid "Error, please try later"
+msgstr "Hata, lütfen tekrar deneyin"
+
+#: classes/shortcodes.class.php:1651
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "Sil"
+
+#: classes/shortcodes.class.php:1653
+msgid "Sorry! You can not delete this property."
+msgstr ""
+
+#: classes/shortcodes.class.php:1715
+msgid "Choose Picture"
+msgstr "Resim Seç"
+
+#: classes/shortcodes.class.php:1715 classes/shortcodes.class.php:1758
+#: core.functions.php:639
+msgid "Add"
+msgstr "Ekle"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+#, fuzzy
+msgid "Select attachments for property"
+msgstr "Özellik için ekleri seçin"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+msgid "Upload"
+msgstr "Yükle"
+
+#: classes/shortcodes.class.php:1770 core.functions.php:626
+#: core.functions.php:740 core.functions.php:759 core.functions.php:797
+msgid "Any"
+msgstr "Herhangi"
+
+#: classes/shortcodes.class.php:1828
+msgid "Sort By Date"
+msgstr "Tarihe Göre Sırala"
+
+#: classes/shortcodes.class.php:1832
+msgid "Sort By Title"
+msgstr "Başlığa Göre Sırala"
+
+#: classes/shortcodes.class.php:1836
+#, fuzzy
+msgid "Sort By Price : High to Low"
+msgstr "Fiyata göre sırala: yüksekten düşüğe"
+
+#: classes/shortcodes.class.php:1840
+#, fuzzy
+msgid "Sort By Price : Low to High"
+msgstr "Fiyata göre sırala: düşükten yükseğe"
+
+#: classes/widgets/mortgage-calculator.php:13
+#, fuzzy
+msgid "REM - Mortgage Calculator"
+msgstr "Mortgage Hesaplama"
+
+#: classes/widgets/mortgage-calculator.php:14
+#, fuzzy
+msgid "Displays Mortgage Calculator"
+msgstr "Görüntüler Mortgage Hesaplama"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "İndirimli fiyat"
+
+#: classes/widgets/mortgage-calculator.php:45
+#, fuzzy
+msgid "Down payment"
+msgstr "Peşinat"
+
+#: classes/widgets/mortgage-calculator.php:49
+msgid "Interest Rate"
+msgstr "Faiz oranı"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Term"
+msgstr "Dönem"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "years"
+msgstr "yıl"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "Hesapla"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:121 classes/widgets/tags-cloud.php:34
+#: core.functions.php:700 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36
+msgid "Title"
+msgstr "Başlık"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "İlan Arama"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "Arama Özellikleri"
+
+#: classes/widgets/search-properties.php:74 shortcodes/search-property.php:43
+msgid "Keywords"
+msgstr "Anahtar Kelimeler"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:156 core.functions.php:678
+#: core.functions.php:1236 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:206
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:608
+#: shortcodes/page-builders/all-setting-fields.php:941
+msgid "Order"
+msgstr "Sipariş"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:165 core.functions.php:699
+#: core.functions.php:1237 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:571
+#: shortcodes/page-builders/all-setting-fields.php:622
+#: shortcodes/page-builders/all-setting-fields.php:951
+msgid "Order By"
+msgstr "Sırala"
+
+#: classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:174 core.functions.php:707
+#: core.functions.php:1238 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:220
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:445
+#: shortcodes/page-builders/all-setting-fields.php:575
+#: shortcodes/page-builders/all-setting-fields.php:626
+#: shortcodes/page-builders/all-setting-fields.php:737
+msgid "Agent"
+msgstr "Danışman"
+
+#: classes/widgets/search-properties.php:136 core.functions.php:1230
+msgid "Search Field"
+msgstr "Arama Alanı"
+
+#: classes/widgets/search-properties.php:192
+msgid "Enable Auto Complete Fields"
+msgstr ""
+
+#: classes/widgets/search-properties.php:194
+msgid "It will auto suggest words in text fields as user type in."
+msgstr ""
+
+#: classes/widgets/search-properties.php:197
+msgid "Search Results Page"
+msgstr "Arama Sonuçları Sayfası"
+
+#: classes/widgets/search-properties.php:218
+#: inc/menu/render-admin-settings.php:167
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "Sayfa Bulunamadı"
+
+#: classes/widgets/search-properties.php:221
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr ""
+"Kusur sonuçlarını görüntülemek için seçili sayfasında aşağıdaki yapıştırın"
+
+#: classes/widgets/tags-cloud.php:13
+#, fuzzy
+msgid "REM - Tags Cloud"
+msgstr "REM - Etiketler Cloud"
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "Görüntüler özellikleri Etiketler Cloud"
+
+#: core.functions.php:124
+msgid "United Arab Emirates dirham"
+msgstr "Birleşik Arap Emirlikleri dirhemi"
+
+#: core.functions.php:125
+msgid "Afghan afghani"
+msgstr "Afgan afgani"
+
+#: core.functions.php:126
+msgid "Albanian lek"
+msgstr "Arnavut lekesi"
+
+#: core.functions.php:127
+msgid "Armenian dram"
+msgstr "Ermeni dramı"
+
+#: core.functions.php:128
+msgid "Netherlands Antillean guilder"
+msgstr "Hollanda Antiller Guldeni"
+
+#: core.functions.php:129
+msgid "Angolan kwanza"
+msgstr "Angola Kvanzası"
+
+#: core.functions.php:130
+msgid "Argentine peso"
+msgstr "Arjantin pezosu"
+
+#: core.functions.php:131
+msgid "Australian dollar"
+msgstr "Avustralya Doları"
+
+#: core.functions.php:132
+#, fuzzy
+msgid "Aruban florin"
+msgstr "Aruba Florini"
+
+#: core.functions.php:133
+msgid "Azerbaijani manat"
+msgstr "Azerbaycan manatı"
+
+#: core.functions.php:134
+#, fuzzy
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosna HersekName"
+
+#: core.functions.php:135
+msgid "Barbadian dollar"
+msgstr "Barbadian doları"
+
+#: core.functions.php:136
+msgid "Bangladeshi taka"
+msgstr "Taka"
+
+#: core.functions.php:137
+msgid "Bulgarian lev"
+msgstr "Bulgaristan Levası"
+
+#: core.functions.php:138
+msgid "Bahraini dinar"
+msgstr "Bahreyn Dinarı"
+
+#: core.functions.php:139
+msgid "Burundian franc"
+msgstr "Burundi Frangı"
+
+#: core.functions.php:140
+msgid "Bermudian dollar"
+msgstr "Bermuda Doları"
+
+#: core.functions.php:141
+msgid "Brunei dollar"
+msgstr "Brunei Doları"
+
+#: core.functions.php:142
+#, fuzzy
+msgid "Bolivian boliviano"
+msgstr "Name"
+
+#: core.functions.php:143
+msgid "Brazilian real"
+msgstr "Brezilya reali"
+
+#: core.functions.php:144
+msgid "Bahamian dollar"
+msgstr "Bahama Doları"
+
+#: core.functions.php:145
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: core.functions.php:146
+#, fuzzy
+msgid "Bhutanese ngultrum"
+msgstr "Name"
+
+#: core.functions.php:147
+#, fuzzy
+msgid "Botswana pula"
+msgstr "BotsvanaName"
+
+#: core.functions.php:148
+#, fuzzy
+msgid "Belarusian ruble"
+msgstr "BelarusName"
+
+#: core.functions.php:149
+msgid "Belize dollar"
+msgstr "Belize Doları"
+
+#: core.functions.php:150
+msgid "Canadian dollar"
+msgstr "Kanada Doları"
+
+#: core.functions.php:151
+#, fuzzy
+msgid "Congolese franc"
+msgstr "Name"
+
+#: core.functions.php:152
+msgid "Swiss franc"
+msgstr "İsviçre Frangı"
+
+#: core.functions.php:153
+msgid "Chilean peso"
+msgstr "Şili pesosu"
+
+#: core.functions.php:154
+msgid "Chinese yuan"
+msgstr "Yuan"
+
+#: core.functions.php:155
+msgid "Colombian peso"
+msgstr "Kolombiya pesosu"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "Kosta Rika Kolonu"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Cuban convertible peso"
+msgstr "Name"
+
+#: core.functions.php:158
+msgid "Cuban peso"
+msgstr "Küba Pezosu"
+
+#: core.functions.php:159
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "Cape Verdean escudo"
+
+#: core.functions.php:160
+msgid "Czech koruna"
+msgstr "Çek Korunası"
+
+#: core.functions.php:161
+msgid "Djiboutian franc"
+msgstr "Djiboutian franc"
+
+#: core.functions.php:162
+msgid "Danish krone"
+msgstr "Danimarka Kronu"
+
+#: core.functions.php:163
+msgid "Dominican peso"
+msgstr "Dominik Pesosu"
+
+#: core.functions.php:164
+msgid "Algerian dinar"
+msgstr "Cezayir Dinarı"
+
+#: core.functions.php:165
+msgid "Egyptian pound"
+msgstr "Mısır Lirası"
+
+#: core.functions.php:166
+msgid "Eritrean nakfa"
+msgstr "Eritre Nakfası"
+
+#: core.functions.php:167
+#, fuzzy
+msgid "Ethiopian birr"
+msgstr "Birr"
+
+#: core.functions.php:168
+msgid "Euro"
+msgstr "Euro"
+
+#: core.functions.php:169
+#, fuzzy
+msgid "Fijian dollar"
+msgstr "Name"
+
+#: core.functions.php:170
+#, fuzzy
+msgid "Falkland Islands pound"
+msgstr "Falkland Adaları Lirası"
+
+#: core.functions.php:171
+msgid "Pound sterling"
+msgstr "İngiliz sterlini"
+
+#: core.functions.php:172
+msgid "Georgian lari"
+msgstr "Georgian lari"
+
+#: core.functions.php:173
+#, fuzzy
+msgid "Guernsey pound"
+msgstr "Guernsey pound"
+
+#: core.functions.php:174
+#, fuzzy
+msgid "Ghana cedi"
+msgstr "GhanaName"
+
+#: core.functions.php:175
+msgid "Gibraltar pound"
+msgstr "Cebelitarık Poundu"
+
+#: core.functions.php:176
+msgid "Gambian dalasi"
+msgstr "Gambiya Dalasi"
+
+#: core.functions.php:177
+#, fuzzy
+msgid "Guinean franc"
+msgstr "GineName"
+
+#: core.functions.php:178
+#, fuzzy
+msgid "Guatemalan quetzal"
+msgstr "GuatemalaName"
+
+#: core.functions.php:179
+#, fuzzy
+msgid "Guyanese dollar"
+msgstr "Name"
+
+#: core.functions.php:180
+#, fuzzy
+msgid "Hong Kong dollar"
+msgstr "Hong Kong Doları"
+
+#: core.functions.php:181
+#, fuzzy
+msgid "Honduran lempira"
+msgstr "Name"
+
+#: core.functions.php:182
+msgid "Croatian kuna"
+msgstr "Hırvat Kunası"
+
+#: core.functions.php:183
+#, fuzzy
+msgid "Haitian gourde"
+msgstr "Name"
+
+#: core.functions.php:184
+msgid "Hungarian forint"
+msgstr "Macar forinti"
+
+#: core.functions.php:185
+msgid "Indonesian rupiah"
+msgstr "Endonezya Rupisi"
+
+#: core.functions.php:186
+msgid "Israeli new shekel"
+msgstr "İsrail Yeni shekel"
+
+#: core.functions.php:187
+msgid "Manx pound"
+msgstr "Manx poundu"
+
+#: core.functions.php:188
+msgid "Indian rupee"
+msgstr "Hindistan Rupisi"
+
+#: core.functions.php:189
+msgid "Iraqi dinar"
+msgstr "Irak Dinarı"
+
+#: core.functions.php:190
+msgid "Iranian rial"
+msgstr "İran Riyali"
+
+#: core.functions.php:191
+msgid "Icelandic kr&oacute;na"
+msgstr "İzlanda Kron"
+
+#: core.functions.php:192
+msgid "Jersey pound"
+msgstr "Jersey Lirası"
+
+#: core.functions.php:193
+msgid "Jamaican dollar"
+msgstr "Jamaika Doları"
+
+#: core.functions.php:194
+msgid "Jordanian dinar"
+msgstr "Ürdün Dinarı"
+
+#: core.functions.php:195
+msgid "Japanese yen"
+msgstr "Japon Yeni"
+
+#: core.functions.php:196
+msgid "Kenyan shilling"
+msgstr "Kenya şilini"
+
+#: core.functions.php:197
+msgid "Kyrgyzstani som"
+msgstr "Kırgızistan Somu"
+
+#: core.functions.php:198
+msgid "Cambodian riel"
+msgstr "Kamboçya Rieli"
+
+#: core.functions.php:199
+msgid "Comorian franc"
+msgstr "Comorian Frangı"
+
+#: core.functions.php:200
+msgid "North Korean won"
+msgstr "Kuzey Kore Wonu"
+
+#: core.functions.php:201
+msgid "South Korean won"
+msgstr "Güney Kore Wonu"
+
+#: core.functions.php:202
+msgid "Kuwaiti dinar"
+msgstr "Kuveyt Dinarı"
+
+#: core.functions.php:203
+msgid "Cayman Islands dollar"
+msgstr "Cayman Adaları Doları"
+
+#: core.functions.php:204
+msgid "Kazakhstani tenge"
+msgstr "Kazak tengesi"
+
+#: core.functions.php:205
+msgid "Lao kip"
+msgstr "Laos Kipi"
+
+#: core.functions.php:206
+msgid "Lebanese pound"
+msgstr "Lübnan Lirası"
+
+#: core.functions.php:207
+msgid "Sri Lankan rupee"
+msgstr "Sri Lanka Rupisi"
+
+#: core.functions.php:208
+msgid "Liberian dollar"
+msgstr "Liberya Doları"
+
+#: core.functions.php:209
+msgid "Lesotho loti"
+msgstr "Lesotho Lotisi"
+
+#: core.functions.php:210
+msgid "Libyan dinar"
+msgstr "Libya Dinarı"
+
+#: core.functions.php:211
+msgid "Moroccan dirham"
+msgstr "Fas Dirhemi"
+
+#: core.functions.php:212
+msgid "Moldovan leu"
+msgstr "Moldova Leyi"
+
+#: core.functions.php:213
+msgid "Malagasy ariary"
+msgstr "Malgaş Ariarisi"
+
+#: core.functions.php:214
+msgid "Macedonian denar"
+msgstr "Makedon Denarı"
+
+#: core.functions.php:215
+#, fuzzy
+msgid "Burmese kyat"
+msgstr "Birmanca"
+
+#: core.functions.php:216
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolian t&ouml;gr&ouml;g"
+
+#: core.functions.php:217
+#, fuzzy
+msgid "Macanese pataca"
+msgstr "Name"
+
+#: core.functions.php:218
+#, fuzzy
+msgid "Mauritanian ouguiya"
+msgstr "MauritanyaName"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "Mauritius Rupisi"
+
+#: core.functions.php:220
+#, fuzzy
+msgid "Maldivian rufiyaa"
+msgstr "Name"
+
+#: core.functions.php:221
+#, fuzzy
+msgid "Malawian kwacha"
+msgstr "Name"
+
+#: core.functions.php:222
+msgid "Mexican peso"
+msgstr "Meksika Pezosu"
+
+#: core.functions.php:223
+msgid "Malaysian ringgit"
+msgstr "Malezya Ringiti"
+
+#: core.functions.php:224
+msgid "Mozambican metical"
+msgstr "Mozambik Metriki"
+
+#: core.functions.php:225
+msgid "Namibian dollar"
+msgstr "Namibya Doları"
+
+#: core.functions.php:226
+msgid "Nigerian naira"
+msgstr "Nijerya Nairası"
+
+#: core.functions.php:227
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguan c&oacute;rdoba"
+
+#: core.functions.php:228
+msgid "Norwegian krone"
+msgstr "Norveç Kronu"
+
+#: core.functions.php:229
+msgid "Nepalese rupee"
+msgstr "Nepal rupisi"
+
+#: core.functions.php:230
+msgid "New Zealand dollar"
+msgstr "Yeni Zelanda Doları"
+
+#: core.functions.php:231
+#, fuzzy
+msgid "Omani rial"
+msgstr "Name"
+
+#: core.functions.php:232
+#, fuzzy
+msgid "Panamanian balboa"
+msgstr "Name"
+
+#: core.functions.php:233
+msgid "Peruvian nuevo sol"
+msgstr "Peruvian nuevo sol"
+
+#: core.functions.php:234
+msgid "Papua New Guinean kina"
+msgstr "Papua Yeni Gine Kinası"
+
+#: core.functions.php:235
+msgid "Philippine peso"
+msgstr "Filipinler Pesosu"
+
+#: core.functions.php:236
+msgid "Pakistani rupee"
+msgstr "Pakistan Rupisi"
+
+#: core.functions.php:237
+msgid "Polish z&#x142;oty"
+msgstr "Polish z&#x142;oty"
+
+#: core.functions.php:238
+msgid "Transnistrian ruble"
+msgstr "Transnistri Rublesi"
+
+#: core.functions.php:239
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguay guaran&iacute;si;"
+
+#: core.functions.php:240
+msgid "Qatari riyal"
+msgstr "Katar Riyalı"
+
+#: core.functions.php:241
+msgid "Romanian leu"
+msgstr "Rumen Leyi"
+
+#: core.functions.php:242
+msgid "Serbian dinar"
+msgstr "Sırp Dinarı"
+
+#: core.functions.php:243
+msgid "Russian ruble"
+msgstr "Rus Rublesi"
+
+#: core.functions.php:244
+msgid "Rwandan franc"
+msgstr "Ruanda Frangı"
+
+#: core.functions.php:245
+msgid "Saudi riyal"
+msgstr "Suudi Arabistan Riyali"
+
+#: core.functions.php:246
+msgid "Solomon Islands dollar"
+msgstr "Solomon Adaları Doları"
+
+#: core.functions.php:247
+msgid "Seychellois rupee"
+msgstr "Seyşeller Rupisi"
+
+#: core.functions.php:248
+msgid "Sudanese pound"
+msgstr "Sudan Lirası"
+
+#: core.functions.php:249
+msgid "Swedish krona"
+msgstr "İsveç Kronu"
+
+#: core.functions.php:250
+msgid "Singapore dollar"
+msgstr "Singapur Doları"
+
+#: core.functions.php:251
+msgid "Saint Helena pound"
+msgstr "Saint Helena Lirası"
+
+#: core.functions.php:252
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonean Leonesi"
+
+#: core.functions.php:253
+msgid "Somali shilling"
+msgstr "Somali Şilini"
+
+#: core.functions.php:254
+msgid "Surinamese dollar"
+msgstr "Surinam Doları"
+
+#: core.functions.php:255
+msgid "South Sudanese pound"
+msgstr "Güney Sudan Poundu"
+
+#: core.functions.php:256
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+
+#: core.functions.php:257
+msgid "Syrian pound"
+msgstr "Suriye Lirası"
+
+#: core.functions.php:258
+msgid "Swazi lilangeni"
+msgstr "Svaziland Lilangenisi"
+
+#: core.functions.php:259
+#, fuzzy
+msgid "Thai baht"
+msgstr "Baht"
+
+#: core.functions.php:260
+msgid "Tajikistani somoni"
+msgstr "Tacikistan Somonisi"
+
+#: core.functions.php:261
+msgid "Turkmenistan manat"
+msgstr "Türkmenistan Manatı"
+
+#: core.functions.php:262
+msgid "Tunisian dinar"
+msgstr "Tunus Dinarı"
+
+#: core.functions.php:263
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongan Paʻanga"
+
+#: core.functions.php:264
+msgid "Turkish lira"
+msgstr "Türk Lirası"
+
+#: core.functions.php:265
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad ve Tobago Doları"
+
+#: core.functions.php:266
+msgid "New Taiwan dollar"
+msgstr "Yeni Tayvan Doları"
+
+#: core.functions.php:267
+msgid "Tanzanian shilling"
+msgstr "Tanzanya Şilini"
+
+#: core.functions.php:268
+msgid "Ukrainian hryvnia"
+msgstr "Ukrayna Grivnası"
+
+#: core.functions.php:269
+msgid "Ugandan shilling"
+msgstr "Uganda Şilini"
+
+#: core.functions.php:270
+msgid "United States dollar"
+msgstr "ABD Doları"
+
+#: core.functions.php:271
+msgid "Uruguayan peso"
+msgstr "Uruguay Pesosu"
+
+#: core.functions.php:272
+msgid "Uzbekistani som"
+msgstr "Özbekistan Somu"
+
+#: core.functions.php:273
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelan bol&iacute;var"
+
+#: core.functions.php:274
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamese &#x111;&#x1ed3;ng"
+
+#: core.functions.php:275
+msgid "Vanuatu vatu"
+msgstr "Vatu"
+
+#: core.functions.php:276
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoan t&#x101;l&#x101;"
+
+#: core.functions.php:277
+msgid "Central African CFA franc"
+msgstr "Orta Afrika Cumhuriyeti Frangı"
+
+#: core.functions.php:278
+msgid "East Caribbean dollar"
+msgstr "Doğu Karayip Doları"
+
+#: core.functions.php:279
+msgid "West African CFA franc"
+msgstr "West African CFA franc"
+
+#: core.functions.php:280
+msgid "CFP franc"
+msgstr "CFP Frangı"
+
+#: core.functions.php:281
+msgid "Yemeni rial"
+msgstr "Yemen Riyali"
+
+#: core.functions.php:282
+msgid "South African rand"
+msgstr "Güney Afrika Randı"
+
+#: core.functions.php:283
+msgid "Zambian kwacha"
+msgstr "Zambian kwacha"
+
+#: core.functions.php:558
+#, fuzzy
+msgid "Internal Structure"
+msgstr "İç yapısı"
+
+#: core.functions.php:560
+msgid "Attachments"
+msgstr "Ekler"
+
+#: core.functions.php:561
+msgid "Video"
+msgstr "Video"
+
+#: core.functions.php:562
+#, fuzzy
+msgid "Private Fields"
+msgstr "Özel alanlar"
+
+#: core.functions.php:574
+msgid "Personal Info"
+msgstr "Kişisel Bilgiler"
+
+#: core.functions.php:575
+msgid "Social Profiles"
+msgstr "Sosyal Profiller"
+
+#: core.functions.php:576
+msgid "Skills"
+msgstr "Beceriler"
+
+#: core.functions.php:592
+#, fuzzy
+msgid "Style 1 - Inline"
+msgstr "1 - satır içi stil"
+
+#: core.functions.php:593
+#, fuzzy
+msgid "Style 2 - Static Box"
+msgstr "2 - statik kutusu stili"
+
+#: core.functions.php:594
+#, fuzzy
+msgid "Style 3 - Hover Box"
+msgstr "Stili 3 - Hover kutusu"
+
+#: core.functions.php:595
+#, fuzzy
+msgid "Style 4 - Mini Box"
+msgstr "Stili 4 - Mini kutusu"
+
+#: core.functions.php:596
+#, fuzzy
+msgid "Style 5 - Full Box"
+msgstr "Stili 5 - tam kutusu"
+
+#: core.functions.php:597
+#, fuzzy
+msgid "Style 6 - Fade Thumbnails"
+msgstr "Stil 6 - Fade küçük resimler"
+
+#: core.functions.php:598
+#, fuzzy
+msgid "Style 7 - Map Box"
+msgstr "Stil 7 - harita kutusu"
+
+#: core.functions.php:662
+msgid "NO"
+msgstr "HAYIR"
+
+#: core.functions.php:662
+msgid "YES"
+msgstr "EVET"
+
+#: core.functions.php:679 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:210
+#: shortcodes/page-builders/all-setting-fields.php:565
+#: shortcodes/page-builders/all-setting-fields.php:612
+#: shortcodes/page-builders/all-setting-fields.php:945
+msgid "Descending"
+msgstr "Azalan"
+
+#: core.functions.php:680 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:209
+#: shortcodes/page-builders/all-setting-fields.php:564
+#: shortcodes/page-builders/all-setting-fields.php:611
+#: shortcodes/page-builders/all-setting-fields.php:944
+msgid "Ascending"
+msgstr "Artan"
+
+#: core.functions.php:685
+#, fuzzy
+#| msgctxt "Tags"
+#| msgid "Tag"
+msgid "Tag"
+msgstr "Etiket"
+
+#: core.functions.php:701 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:219
+#: shortcodes/page-builders/all-setting-fields.php:574
+#: shortcodes/page-builders/all-setting-fields.php:625
+msgid "Date"
+msgstr "Tarih"
+
+#: core.functions.php:702 core.functions.php:840 core.functions.php:852
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:578
+msgid "Price"
+msgstr "Fiyat"
+
+#: core.functions.php:855
+msgid "Min"
+msgstr "Min"
+
+#: core.functions.php:857
+msgid "Max"
+msgstr "Maksimum"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+#, fuzzy
+msgid "Select images for property gallery"
+msgstr "Görüntüler için özellik Galeri seçin"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr "Ekle"
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "Resim Yükle"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:91
+#: shortcodes/edit-property.php:118
+#, fuzzy
+msgid "Type to Search..."
+msgstr "Arama Yap"
+
+#: inc/admin/property-location-map.php:12
+#, fuzzy
+msgid "Search the address on search bar. "
+msgstr "Adres arama çubuğundaki arama."
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:96
+#: shortcodes/edit-property.php:122
+#, fuzzy
+msgid "Drag the pin to the location on the map"
+msgstr "PIN yere harita üzerinde sürükleyin."
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:127
+#: inc/menu/admin-settings-arr.php:198 inc/menu/admin-settings-arr.php:219
+#: inc/menu/admin-settings-arr.php:241 inc/menu/admin-settings-arr.php:261
+#: inc/menu/admin-settings-arr.php:271 inc/menu/admin-settings-arr.php:314
+#: inc/menu/admin-settings-arr.php:325 inc/menu/admin-settings-arr.php:458
+#: inc/menu/admin-settings-arr.php:507 inc/menu/admin-settings-arr.php:1030
+#: inc/menu/admin-settings-arr.php:1040 inc/menu/admin-settings-arr.php:1059
+#: inc/menu/admin-settings-arr.php:1069 inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:268
+#: shortcodes/page-builders/all-setting-fields.php:300
+#: shortcodes/page-builders/all-setting-fields.php:318
+#: shortcodes/page-builders/all-setting-fields.php:329
+#: shortcodes/page-builders/all-setting-fields.php:545
+#: shortcodes/page-builders/all-setting-fields.php:555
+#: shortcodes/page-builders/all-setting-fields.php:660
+#: shortcodes/page-builders/all-setting-fields.php:724
+msgid "Disable"
+msgstr "Devre Dışı"
+
+#: inc/admin/property-location-map.php:23
+msgid "Checking this will disable map for this listing"
+msgstr ""
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+msgid "Properties"
+msgstr "İlanlar"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "Emlak"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Yeni Emlak Ekle"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "Yeni Emlak Ekle"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "Yeni İlan"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+msgid "Search Property"
+msgstr "İlan Ara"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "İlan Bulunamadı"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "Çöpte Hiç Emlak Bulunamadı"
+
+#: inc/admin/register-property.php:20
+msgid "Parent Property:"
+msgstr "Ana Emlak:"
+
+#: inc/admin/register-property.php:70
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Emlak Etiketleri"
+
+#: inc/admin/register-property.php:71
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Etiket"
+
+#: inc/admin/register-property.php:72
+msgid "Search Property Tags"
+msgstr "İlan Etiketlerini Ara"
+
+#: inc/admin/register-property.php:73
+msgid "Popular Tags"
+msgstr "Popüler Etiketler"
+
+#: inc/admin/register-property.php:74
+msgid "All Tags"
+msgstr "Tüm Etiketler"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+msgid "Parent Tag"
+msgstr "Üst Etiket"
+
+#: inc/admin/register-property.php:77
+msgid "Edit Tag"
+msgstr "Etiketi Düzenle"
+
+#: inc/admin/register-property.php:78
+msgid "Update Tag"
+msgstr "Etiketi Güncelle"
+
+#: inc/admin/register-property.php:79
+msgid "Add New Tag"
+msgstr "Yeni Etiket Ekle"
+
+#: inc/admin/register-property.php:80
+msgid "New Tag Name"
+msgstr "Yeni Etiket Adı"
+
+#: inc/admin/register-property.php:81
+msgid "Add or remove Tags"
+msgstr "Etiket ekle veya kaldır"
+
+#: inc/admin/register-property.php:82
+#, fuzzy
+msgid "Choose from most used tags"
+msgstr "En çok kullanılan etiketlerden seçin"
+
+#: inc/admin/register-property.php:83
+msgid " Tags"
+msgstr "Etiketler"
+
+#: inc/admin/single-property-fields.php:14
+#, fuzzy
+msgid "Check if property have this option"
+msgstr "Özellik bu seçeneği varsa kontrol edin"
+
+#: inc/ajax/search-property-ajax.php:11
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+#, fuzzy
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "Afedersiniz! Hiçbir Özellik Bulunamadı. Tekrar Arama'yı deneyin."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "İsim"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+msgid "Password"
+msgstr "Şifre"
+
+#: inc/arrays/agent-fields.php:52
+#, fuzzy
+msgid "Pepeat Password"
+msgstr "Pepeat Parola"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "Biyografik Bilgi"
+
+#: inc/arrays/agent-fields.php:70
+#, fuzzy
+msgid "Picture of Agent"
+msgstr "Ajan resmi"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+msgid "Upload an additional image for your profile"
+msgstr "Kullanıcı profiliniz için ek bir resim yükleyin."
+
+#: inc/arrays/agent-fields.php:80
+#, fuzzy
+msgid "Profile Url"
+msgstr "Profil URL"
+
+#: inc/arrays/agent-fields.php:81
+#, fuzzy
+msgid "Provide url for agent profile"
+msgstr "Ajan profili için url sağlayın"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "Facebook Profili"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "Twitter Profili"
+
+#: inc/arrays/agent-fields.php:113
+msgid "Google+ Profile"
+msgstr "Google+ Profili"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "LinkedIn Profili"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "Facebook sayfası"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+#, fuzzy
+msgid "User Tagline"
+msgstr "Kullanıcı Tagline"
+
+#: inc/arrays/agent-fields.php:153
+#, fuzzy
+msgid "Will display under username"
+msgstr "Kullanıcı adı altında gösterilecek"
+
+#: inc/arrays/agent-fields.php:160
+#, fuzzy
+msgid "Skills Level"
+msgstr "Beceri Seviyesi"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr "Her satırdaki değerle birlikte yetenek adı, örn .: Satıldı, 185"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "Contact Form Kısa Kod"
+
+#: inc/arrays/agent-fields.php:168
+#, fuzzy
+msgid "Leave blank for default contact form"
+msgstr "Varsayılan iletişim formu için boş bırak"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "Mülkün Düzenli Fiyatı"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+#| msgid "After Price"
+msgid "Before Price"
+msgstr "ödemeden sonra"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display before price, Eg: Starting From"
+msgstr "Fiyat sonra görüntülenecek metni Eg: / ay"
+
+#: inc/arrays/property-fields.php:28
+msgid "After Price"
+msgstr "ödemeden sonra"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "Fiyat sonra görüntülenecek metni Eg: / ay"
+
+#: inc/arrays/property-fields.php:38
+msgid "Sale Price"
+msgstr "Satış Fiyatı"
+
+#: inc/arrays/property-fields.php:39
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "Mülkün Satış Fiyatı"
+
+#: inc/arrays/property-fields.php:48
+msgid "Latitude"
+msgstr "Enlem"
+
+#: inc/arrays/property-fields.php:49
+#, fuzzy
+msgid "Latitude of property, will use for map"
+msgstr "Latitude özelliğinin, harita için kullanacak"
+
+#: inc/arrays/property-fields.php:58
+msgid "Longitude"
+msgstr "Boylam"
+
+#: inc/arrays/property-fields.php:59
+#, fuzzy
+msgid "Longitude of property, will use for map"
+msgstr "Boylam özelliğinin, harita için kullanacak"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:11
+msgid "Video URL"
+msgstr "Video URL"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "Provide video URL"
+msgstr "Video URL sağlamak"
+
+#: inc/arrays/property-fields.php:78
+msgid "File Attachments"
+msgstr "Dosya ekleri"
+
+#: inc/arrays/property-fields.php:79
+#, fuzzy
+msgid "One file ID per line"
+msgstr "Her satırda tek bir dosya kimliği"
+
+#: inc/arrays/property-fields.php:89
+msgid "Property Type"
+msgstr "Emlak Tipi"
+
+#: inc/arrays/property-fields.php:90
+#, fuzzy
+msgid "Choose type of property"
+msgstr "Özellik türünü seçin"
+
+#: inc/arrays/property-fields.php:102
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "Amacı, özelliği seçin"
+
+#: inc/arrays/property-fields.php:113
+#, fuzzy
+msgid "Choose status of property"
+msgstr "Özellik durumunu seçin"
+
+#: inc/arrays/property-fields.php:123
+msgid "Bedrooms"
+msgstr "Yatak Odası"
+
+#: inc/arrays/property-fields.php:124
+msgid "Number of bedrooms"
+msgstr "Yatak Odasi sayisi"
+
+#: inc/arrays/property-fields.php:134
+msgid "Bathrooms"
+msgstr "Banyo"
+
+#: inc/arrays/property-fields.php:135
+msgid "Number of bathrooms"
+msgstr "Banyo sayisi"
+
+#: inc/arrays/property-fields.php:146
+#, fuzzy
+msgid "Size - "
+msgstr "Boyut"
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "Adres"
+
+#: inc/arrays/property-fields.php:157
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"Enlem ve boylam alanları boş ise, bu adresi işleme harita için kullanılır"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+msgid "State"
+msgstr "Şehir"
+
+#: inc/arrays/property-fields.php:178
+msgid "Zip Code"
+msgstr "Posta Kodu"
+
+#: inc/arrays/property-fields.php:179
+msgid "Zipcode"
+msgstr "Posta Kodu"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+msgid "City"
+msgstr "Şehir"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+msgid "Country"
+msgstr "Ülke"
+
+#: inc/arrays/property-fields.php:211
+msgid "Rooms"
+msgstr "Odalar"
+
+#: inc/arrays/property-fields.php:212
+msgid "Number of rooms"
+msgstr "Oda sayısı"
+
+#: inc/arrays/property-fields.php:222
+msgid "Featured Property"
+msgstr "Öne Çıkarılmış Emlak İlanı"
+
+#: inc/arrays/property-fields.php:223
+#, fuzzy
+msgid "Make it featured"
+msgstr "O şekil yapmak"
+
+#: inc/menu/admin-settings-arr.php:5
+msgid "Style"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:11
+msgid "Currency Options"
+msgstr "Para Birimi Seçenekleri"
+
+#: inc/menu/admin-settings-arr.php:20
+msgid "Currency"
+msgstr "Para Birimi"
+
+#: inc/menu/admin-settings-arr.php:21
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "Para birimi simgesini özellikler için"
+
+#: inc/menu/admin-settings-arr.php:28
+msgid "Currency Position"
+msgstr "Para Birimi Pozisyonu"
+
+#: inc/menu/admin-settings-arr.php:30
+msgid "Left"
+msgstr "Sol"
+
+#: inc/menu/admin-settings-arr.php:31
+msgid "Right"
+msgstr "Sağ"
+
+#: inc/menu/admin-settings-arr.php:32
+#, fuzzy
+msgid "Left with Space"
+msgstr "Solda ve boşluk bırak"
+
+#: inc/menu/admin-settings-arr.php:33
+#, fuzzy
+msgid "Right with Space"
+msgstr "Sağda ve boşluk bırak"
+
+#: inc/menu/admin-settings-arr.php:35
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "Para birimi sembolünün konumu."
+
+#: inc/menu/admin-settings-arr.php:41
+msgid "Thousand Separator"
+msgstr "Bin Ayırıcı"
+
+#: inc/menu/admin-settings-arr.php:42
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "Binler ayırıcısı ekran fiyatı"
+
+#: inc/menu/admin-settings-arr.php:49
+msgid "Decimal Separator"
+msgstr "Ondalık Ayırıcı"
+
+#: inc/menu/admin-settings-arr.php:50
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "Ekran Fiyatı ondalık ayırıcı"
+
+#: inc/menu/admin-settings-arr.php:57
+msgid "Number of Decimals"
+msgstr "Ondalık Sayisi"
+
+#: inc/menu/admin-settings-arr.php:58
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "Sayıda ondalık noktası görüntü fiyatlarına gösterilen"
+
+#: inc/menu/admin-settings-arr.php:66
+msgid "Property Settings"
+msgstr "İlan Ayarları"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Area Unit"
+msgstr "Alan Birimi"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Birim alanında Eg sağlar: Square Feet"
+
+#: inc/menu/admin-settings-arr.php:82
+msgid "Excerpt Length"
+msgstr "Alıntı Uzunluğu"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "Özellik alıntı görüntülenecek sözcüklerin sayısı. Örneğin: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+msgid "Property Features"
+msgstr "Emlak Özellikleri"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"Her satırda bir tane. Bu sizin mülkiyet onay kutularını seçmeniz için "
+"sayfayı Düzenle eklemek olacaktır. Varsayılan olarak kullanmak için boş "
+"bırakın"
+
+#: inc/menu/admin-settings-arr.php:96
+#, fuzzy
+#| msgid "Property Type"
+msgid "Property Types"
+msgstr "Emlak Tipi"
+
+#: inc/menu/admin-settings-arr.php:97
+#, fuzzy
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Her satırda bir tane. Bu sizin mülkiyet onay kutularını seçmeniz için "
+"sayfayı Düzenle eklemek olacaktır. Varsayılan olarak kullanmak için boş "
+"bırakın"
+
+#: inc/menu/admin-settings-arr.php:103
+#, fuzzy
+msgid "Property Purposes"
+msgstr "Emlak Amaçlı"
+
+#: inc/menu/admin-settings-arr.php:104
+#, fuzzy
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Her satırda bir tane. Bu sizin mülkiyet onay kutularını seçmeniz için "
+"sayfayı Düzenle eklemek olacaktır. Varsayılan olarak kullanmak için boş "
+"bırakın"
+
+#: inc/menu/admin-settings-arr.php:110
+#, fuzzy
+#| msgid "Property Status"
+msgid "Property Statuses"
+msgstr "Emlak Durumu"
+
+#: inc/menu/admin-settings-arr.php:111
+#, fuzzy
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Her satırda bir tane. Bu sizin mülkiyet onay kutularını seçmeniz için "
+"sayfayı Düzenle eklemek olacaktır. Varsayılan olarak kullanmak için boş "
+"bırakın"
+
+#: inc/menu/admin-settings-arr.php:117
+msgid "Properties Per Page"
+msgstr "Sayfa Başına Özellikler"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"Arşiv sayfalarında görüntülemek istediğiniz özelliklerin sayısı. (Etiketler "
+"vb)"
+
+#: inc/menu/admin-settings-arr.php:125
+msgid "It will enable the special fields for energy efficiency"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:128 inc/menu/admin-settings-arr.php:197
+#: inc/menu/admin-settings-arr.php:218 inc/menu/admin-settings-arr.php:240
+#: inc/menu/admin-settings-arr.php:260 inc/menu/admin-settings-arr.php:270
+#: inc/menu/admin-settings-arr.php:313 inc/menu/admin-settings-arr.php:324
+#: inc/menu/admin-settings-arr.php:457 inc/menu/admin-settings-arr.php:508
+#: inc/menu/admin-settings-arr.php:1029 inc/menu/admin-settings-arr.php:1039
+#: inc/menu/admin-settings-arr.php:1058 inc/menu/admin-settings-arr.php:1068
+#: inc/menu/agent/fields/checkbox.php:29 inc/menu/agent/fields/email.php:29
+#: inc/menu/agent/fields/image.php:29 inc/menu/agent/fields/number.php:29
+#: inc/menu/agent/fields/password.php:29 inc/menu/agent/fields/text.php:29
+#: inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:269
+#: shortcodes/page-builders/all-setting-fields.php:301
+#: shortcodes/page-builders/all-setting-fields.php:319
+#: shortcodes/page-builders/all-setting-fields.php:330
+#: shortcodes/page-builders/all-setting-fields.php:544
+#: shortcodes/page-builders/all-setting-fields.php:554
+#: shortcodes/page-builders/all-setting-fields.php:661
+#: shortcodes/page-builders/all-setting-fields.php:725
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: inc/menu/admin-settings-arr.php:137
+msgid "Templates Settings"
+msgstr "Şablon Ayarları"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid "Property Page Template"
+msgstr "Özellik sayfası şablonu"
+
+#: inc/menu/admin-settings-arr.php:146
+#, fuzzy
+msgid "Choose single property display layout"
+msgstr "Tek özellik ekran düzeni seçin"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "Varsayılan"
+
+#: inc/menu/admin-settings-arr.php:149
+msgid "Full Width"
+msgstr "Tam Genişlik"
+
+#: inc/menu/admin-settings-arr.php:150
+msgid "Left Sidebar"
+msgstr "Sol Kenar Çubuğu"
+
+#: inc/menu/admin-settings-arr.php:151 inc/menu/admin-settings-arr.php:161
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "From Theme"
+msgstr "Tema"
+
+#: inc/menu/admin-settings-arr.php:157
+#, fuzzy
+msgid "Archive Page Template"
+msgstr "Arşiv sayfası şablonu"
+
+#: inc/menu/admin-settings-arr.php:158
+#, fuzzy
+msgid "Choose tags and archive properties display layout"
+msgstr "Etiketler ve arşiv özellikleri ekran düzeni seçin"
+
+#: inc/menu/admin-settings-arr.php:160 inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "From Plugin"
+msgstr "Eklenti"
+
+#: inc/menu/admin-settings-arr.php:167
+#, fuzzy
+msgid "Agent Page Template"
+msgstr "Ajan sayfa şablonu"
+
+#: inc/menu/admin-settings-arr.php:168
+#, fuzzy
+msgid "Choose agent page display layout"
+msgstr "Sayfa görüntüleme aracı seçin Düzen"
+
+#: inc/menu/admin-settings-arr.php:177
+#, fuzzy
+msgid "Enable Agent Template"
+msgstr "Ajan sayfa şablonu"
+
+#: inc/menu/admin-settings-arr.php:179
+#, fuzzy
+#| msgid "All Types"
+msgid "All Users"
+msgstr "Tüm Türler"
+
+#: inc/menu/admin-settings-arr.php:180
+#, fuzzy
+#| msgid "Property Agent"
+msgid "Only Property Agents"
+msgstr "Danışman Özelliği"
+
+#: inc/menu/admin-settings-arr.php:182
+msgid "Agent Page Template must be set to From Plugin"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:187
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "Kapsayıcı en fazla genişlik"
+
+#: inc/menu/admin-settings-arr.php:188
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Konteyner maksimum genişlik piksel, örneğin sağlar: 1140px"
+
+#: inc/menu/admin-settings-arr.php:194
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "Aracı sayfası Kenar Çubuğu"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Etkinleştirmek veya varsayılan Aracısı kartını devre dışı bırakın ve tek "
+"ajan sayfası formu başvurun"
+
+#: inc/menu/admin-settings-arr.php:204
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Agent Card Style"
+msgstr "Temsilci Profili"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Choose agent profile card"
+msgstr "Harita sağlayıcı seçin"
+
+#: inc/menu/admin-settings-arr.php:207 inc/menu/admin-settings-arr.php:957
+#, fuzzy
+msgid "Style 1"
+msgstr "1 - satır içi stil"
+
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:958
+msgid "Style 2"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:209
+msgid "Style 3"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:215
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "Ajan sayfa iletişim formu"
+
+#: inc/menu/admin-settings-arr.php:216
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr "Etkinleştirmek veya devre dışı Ajan sayfada iletişim formu"
+
+#: inc/menu/admin-settings-arr.php:225
+#, fuzzy
+msgid "Agent Page Sidebar"
+msgstr "Aracı sayfası Kenar Çubuğu"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "Ajan ayrıntıları sayfası için kenar çubuğu seçin"
+
+#: inc/menu/admin-settings-arr.php:231
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "Özelliği sayfa Düzenle"
+
+#: inc/menu/admin-settings-arr.php:232
+#, fuzzy
+msgid "Paste shortcode on selected page"
+msgstr "Kusur [rem_edit_property] seçilen sayfasına yapıştırın"
+
+#: inc/menu/admin-settings-arr.php:237
+#, fuzzy
+#| msgid "Help Text"
+msgid "Fields Help Text"
+msgstr "Yardım Metni"
+
+#: inc/menu/admin-settings-arr.php:238
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:249
+#, fuzzy
+msgid "Single Property Page"
+msgstr "Tek Gönderi Sayfası Menü Türü"
+
+#: inc/menu/admin-settings-arr.php:257
+msgid "Map"
+msgstr "Harita"
+
+#: inc/menu/admin-settings-arr.php:258
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr "Gösterme veya gizleme tek özellik sayfasındaki özellik eşlemesi"
+
+#: inc/menu/admin-settings-arr.php:267
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "Özellik sayfası kenar çubuğu kartı"
+
+#: inc/menu/admin-settings-arr.php:268
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Etkinleştirmek veya varsayılan Aracısı kartını devre dışı bırakın ve "
+"iletişim formu tek özellik sayfası"
+
+#: inc/menu/admin-settings-arr.php:277
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "Özellik sayfası kenar çubuğu"
+
+#: inc/menu/admin-settings-arr.php:278
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "Tek özellik sayfası için kenar çubuğu seçin"
+
+#: inc/menu/admin-settings-arr.php:283
+#, fuzzy
+msgid "Gallery Slider Width"
+msgstr "Galeri kaymak genişliği"
+
+#: inc/menu/admin-settings-arr.php:284
+#, fuzzy
+msgid "Slider width with unit. Eg: "
+msgstr "Kaymak genişliği ile birim. Örneğin:"
+
+#: inc/menu/admin-settings-arr.php:290
+#, fuzzy
+msgid "Gallery Slider Height"
+msgstr "Galeri kaymak yüksekliği"
+
+#: inc/menu/admin-settings-arr.php:291
+#, fuzzy
+msgid "Slider height with unit. Eg: "
+msgstr "Kaymak yükseklik birimi ile. Örneğin:"
+
+#: inc/menu/admin-settings-arr.php:297
+#, fuzzy
+msgid "Gallery Slider Fit"
+msgstr "Galeri kaydırıcısı"
+
+#: inc/menu/admin-settings-arr.php:298
+#, fuzzy
+msgid "How to fit an image into slider"
+msgstr "Nasıl bir görüntü kaymak uyacak"
+
+#: inc/menu/admin-settings-arr.php:300
+msgid "Cover"
+msgstr "Kapak"
+
+#: inc/menu/admin-settings-arr.php:301
+msgid "Contain"
+msgstr "İçerik"
+
+#: inc/menu/admin-settings-arr.php:302
+msgid "Scale Down"
+msgstr "Öge buyutunu azalt"
+
+#: inc/menu/admin-settings-arr.php:303
+msgid "None"
+msgstr "Yok"
+
+#: inc/menu/admin-settings-arr.php:310
+#, fuzzy
+msgid "Gallery Featured Image"
+msgstr "Resim galerisi özellikli"
+
+#: inc/menu/admin-settings-arr.php:311
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "Seçme resmi kaydırıcısında görüntülemek için etkinleştirme"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+#| msgid "Display Properties"
+msgid "Display Property ID"
+msgstr "Görünüm Seçenekleri"
+
+#: inc/menu/admin-settings-arr.php:322
+#, fuzzy
+msgid "Enable to display property id on frontend"
+msgstr "Özelliklerin otomatik rotasyonunu görüntülemek için etkinleştir"
+
+#: inc/menu/admin-settings-arr.php:332
+#, fuzzy
+#| msgid "Date Field"
+msgid "Date Field Format"
+msgstr "Tarih Alanı"
+
+#: inc/menu/admin-settings-arr.php:333
+msgid "Provide date format if you are using date field. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:339
+#, fuzzy
+msgid "Property Settings Tabs"
+msgstr "İlan Ayarları"
+
+#: inc/menu/admin-settings-arr.php:340
+#, fuzzy
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"Ek panel başlıklar sağlamak için tek özellik sayfaları ve yönetici ayarları, "
+"her satır başına"
+
+#: inc/menu/admin-settings-arr.php:347
+msgid "Listings"
+msgstr "Listeler"
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "Property Archive Listing Style"
+msgstr "Özellik stil"
+
+#: inc/menu/admin-settings-arr.php:356
+#, fuzzy
+msgid "Listing style for default properties page"
+msgstr "Özellikler sayfası başlığı"
+
+#: inc/menu/admin-settings-arr.php:362
+#, fuzzy
+msgid "Archive Listing Columns"
+msgstr "Sütunları arama sonuçları"
+
+#: inc/menu/admin-settings-arr.php:363 inc/menu/admin-settings-arr.php:440
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "Kutu stilleri için bir satır içinde sütunları seçin"
+
+#: inc/menu/admin-settings-arr.php:365 inc/menu/admin-settings-arr.php:442
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:366 inc/menu/admin-settings-arr.php:443
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:367 inc/menu/admin-settings-arr.php:444
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:368 inc/menu/admin-settings-arr.php:445
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:369 inc/menu/admin-settings-arr.php:446
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:375
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "Satır içi özelliği Bar alanları"
+
+#: inc/menu/admin-settings-arr.php:376
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"Her satır içi özellik listeleme stili üst çubuğunda görüntülenecek satır "
+"başına alan adlarını sağlamak"
+
+#: inc/menu/admin-settings-arr.php:381
+#, fuzzy
+msgid "Listing Features Type"
+msgstr "İlan Özellikleri"
+
+#: inc/menu/admin-settings-arr.php:382
+#, fuzzy
+msgid "Features are displayed on property listings"
+msgstr "Özellikleri üzerinde gayrimenkul listesi görüntülenir"
+
+#: inc/menu/admin-settings-arr.php:384
+#, fuzzy
+msgid "Icons and Data"
+msgstr "Simgeler ve veri"
+
+#: inc/menu/admin-settings-arr.php:385
+#, fuzzy
+msgid "Labels and Data"
+msgstr "Verileri ve etiketleri"
+
+#: inc/menu/admin-settings-arr.php:386
+#, fuzzy
+msgid "Icons, Labels and Data"
+msgstr "Simgeler, etiketleri ve veri"
+
+#: inc/menu/admin-settings-arr.php:392
+#, fuzzy
+msgid "Custom Listing Features"
+msgstr "İlan Özellikleri"
+
+#: inc/menu/admin-settings-arr.php:393
+#, fuzzy
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+"Özel özellik özellikleri görüntülemek. (Etiket, alan adı, yazı tipi harika "
+"sınıfı) her satırda. Örnek:"
+
+#: inc/menu/admin-settings-arr.php:399
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Featured Image Size"
+msgstr "Özellikli resim"
+
+#: inc/menu/admin-settings-arr.php:400
+msgid "Choose size of featured image to use"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:407
+msgid "Search Settings"
+msgstr "Arama Ayarları"
+
+#: inc/menu/admin-settings-arr.php:415
+#: shortcodes/page-builders/all-setting-fields.php:235
+msgid "Total Properties"
+msgstr "Toplam:"
+
+#: inc/menu/admin-settings-arr.php:416
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr "Arama sonuçları sayfasında görüntülenecek ilan sayısı"
+
+#: inc/menu/admin-settings-arr.php:421
+#, fuzzy
+msgid "Search Price Range Selector"
+msgstr "Arama Fiyat aralığı seçici"
+
+#: inc/menu/admin-settings-arr.php:422
+#, fuzzy
+msgid "Choose price ranges input option for searching"
+msgstr "Fiyat aralıkları arama seçeneği giriş seçin"
+
+#: inc/menu/admin-settings-arr.php:424 inc/menu/admin-settings-arr.php:517
+#, fuzzy
+msgid "Price Slider"
+msgstr "Price slider"
+
+#: inc/menu/admin-settings-arr.php:425
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "Min Max Fields"
+
+#: inc/menu/admin-settings-arr.php:431
+#, fuzzy
+msgid "Search Results Style"
+msgstr "Arama sonuçları stil"
+
+#: inc/menu/admin-settings-arr.php:432
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "Arama sonuçları için stil seçin"
+
+#: inc/menu/admin-settings-arr.php:439
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "Sütunları arama sonuçları"
+
+#: inc/menu/admin-settings-arr.php:454
+#: shortcodes/page-builders/all-setting-fields.php:82
+#, fuzzy
+#| msgid "Total Properties"
+msgid "Not Available Properties"
+msgstr "Toplam:"
+
+#: inc/menu/admin-settings-arr.php:455
+#, fuzzy
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr "Belirli bir durumun özelliklerini göstermeyi seçin"
+
+#: inc/menu/admin-settings-arr.php:465
+#, fuzzy
+msgid "Search Area Options"
+msgstr "Arama alanı seçenekleri"
+
+#: inc/menu/admin-settings-arr.php:466
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Arama sırasında girdi alanı yerine alan aralıkları açılır alanını "
+"görüntülemek için her satır başına alan aralığı sağlayın."
+
+#: inc/menu/admin-settings-arr.php:472
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "Arama yatak odası seçenekleri"
+
+#: inc/menu/admin-settings-arr.php:473
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Arama sırasında girdi alanı yerine yatak odası aralıkları açılır menüsünü "
+"görüntülemek için her satırda yatak odası aralığı sağlayın."
+
+#: inc/menu/admin-settings-arr.php:479
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "Arama banyo seçenekleri"
+
+#: inc/menu/admin-settings-arr.php:480
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Arama sırasında girdi alanı yerine banyo aralıkları açılırken, her bir hat "
+"için banyo aralığı sağlayın."
+
+#: inc/menu/admin-settings-arr.php:486
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "Arama Sonuçları Bağlantı Hedefi"
+
+#: inc/menu/admin-settings-arr.php:487
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"Arama formunun sonuçları için bağlantı hedefi sağlayın. _blank yeni sekmede "
+"açılır"
+
+#: inc/menu/admin-settings-arr.php:489
+msgid "New Tab"
+msgstr "Yeni sekme/pencere aç"
+
+#: inc/menu/admin-settings-arr.php:490
+msgid "Same Tab"
+msgstr "Aynı pencere veya sekme"
+
+#: inc/menu/admin-settings-arr.php:497
+#, fuzzy
+msgid "Simple Search Method"
+msgstr "Basit Arama Yöntemi"
+
+#: inc/menu/admin-settings-arr.php:498
+#, fuzzy
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+"Metin, alan_adı, is_number, satır başına her bir değeri (tüm küçük harf) "
+"sağlayın"
+
+#: inc/menu/admin-settings-arr.php:498 inc/menu/admin-settings-arr.php:857
+msgid "Help"
+msgstr "Yardım"
+
+#: inc/menu/admin-settings-arr.php:504
+#, fuzzy
+#| msgid "Search Field"
+msgid "Prefill Search Fields"
+msgstr "Arama Alanı"
+
+#: inc/menu/admin-settings-arr.php:505
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:525
+msgid "Minimum Price"
+msgstr "Minimum Fiyat"
+
+#: inc/menu/admin-settings-arr.php:526
+#, fuzzy
+msgid "Minimum price for price slider"
+msgstr "Fiyat kaydırıcısı için minimum fiyat"
+
+#: inc/menu/admin-settings-arr.php:532
+msgid "Maximum Price"
+msgstr "Maksimum Fiyat"
+
+#: inc/menu/admin-settings-arr.php:533
+#, fuzzy
+msgid "Maximum price for price slider"
+msgstr "Fiyat kaydırıcısı için maksimum fiyat"
+
+#: inc/menu/admin-settings-arr.php:539
+msgid "Step"
+msgstr "Adım"
+
+#: inc/menu/admin-settings-arr.php:540
+#, fuzzy
+msgid "Step or interval for price slider"
+msgstr "Fiyat kaydırıcısı için adım veya aralık"
+
+#: inc/menu/admin-settings-arr.php:546
+#, fuzzy
+msgid "Default Minimum Price"
+msgstr "Varsayılan Minimum Fiyat"
+
+#: inc/menu/admin-settings-arr.php:547
+#, fuzzy
+msgid "Default Minimum price for price slider"
+msgstr "Varsayılan Minimum Fiyat Fiyat kaydırıcı için"
+
+#: inc/menu/admin-settings-arr.php:553
+#, fuzzy
+msgid "Default Maximum Price"
+msgstr "Varsayılan maksimum fiyat"
+
+#: inc/menu/admin-settings-arr.php:554
+#, fuzzy
+msgid "Default Maximum price for price slider"
+msgstr "Varsayılan maksimum fiyat fiyat kaydırıcı için"
+
+#: inc/menu/admin-settings-arr.php:563
+#, fuzzy
+msgid "Email Messages"
+msgstr "E-posta iletileri"
+
+#: inc/menu/admin-settings-arr.php:571
+#, fuzzy
+msgid "Agent Registered"
+msgstr "Kayıtlı ajan"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid "This message will sent to "
+msgstr "Bu mesaj için gönderilen"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"ne zaman yeni Aracısı kayıtlıdır. Detaylar için % username % ve % e-posta "
+"kullanabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:578
+#, fuzzy
+msgid "Agent Pending"
+msgstr "Ajan bekleyen"
+
+#: inc/menu/admin-settings-arr.php:579
+#, fuzzy
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"Ne zaman yeni Aracısı kayıtlı ajan ama durum için e-posta iletisi bekliyor. "
+"Detaylar için % username % ve % e-posta kullanabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:585
+#, fuzzy
+msgid "Agent Approved"
+msgstr "Ajan onaylı"
+
+#: inc/menu/admin-settings-arr.php:586
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-posta iletisi kayıtlı ajan onaylandığında ajan için. Detaylar için % "
+"username % ve % e-posta kullanabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:592
+#, fuzzy
+msgid "Agent Rejected"
+msgstr "Ajan reddetti"
+
+#: inc/menu/admin-settings-arr.php:593
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-posta iletisi kayıtlı ajan reddedildiğinde ajan için. Detaylar için % "
+"username % ve % e-posta kullanabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:599
+#, fuzzy
+msgid "Property Submission"
+msgstr "Mülk Ekleme Sayfası"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid "This message will be sent to "
+msgstr "Bu ileti kullanıcıya gönderilir."
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"ne zaman yeni özellik gönderilir. Sen-ebilmek kullanma değişkenleri % "
+"username Condition approve_url % ve % için e-posta ayrıntıları"
+
+#: inc/menu/admin-settings-arr.php:606
+#, fuzzy
+msgid "Property Submission Message for Agent"
+msgstr "Özelliği gönderme ileti Aracısı için"
+
+#: inc/menu/admin-settings-arr.php:607
+#, fuzzy
+msgid "This message will be sent to agent when new property is submitted."
+msgstr "Yeni özellik gönderildiğinde bu iletiyi aracıya gönderilecektir."
+
+#: inc/menu/admin-settings-arr.php:613
+#, fuzzy
+msgid "Property Approved Message for Agent"
+msgstr "Özellik ileti Aracısı için onaylı"
+
+#: inc/menu/admin-settings-arr.php:614
+#, fuzzy
+msgid "This message will be sent to agent when new property is approved."
+msgstr "Yeni özellik onaylandığında bu iletiyi aracıya gönderilecektir."
+
+#: inc/menu/admin-settings-arr.php:622
+#, fuzzy
+msgid "Agent Contact Form"
+msgstr "Ajan sayfa iletişim formu"
+
+#: inc/menu/admin-settings-arr.php:630
+#, fuzzy
+#| msgid "Subject"
+msgid "Email Subject"
+msgstr "Konu"
+
+#: inc/menu/admin-settings-arr.php:631
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:637
+msgid "Email Format"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:638
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:644
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "İletişim e-posta adresleri"
+
+#: inc/menu/admin-settings-arr.php:645
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Her ziyaretçi iletişim Aracısı formu doldururken posta cc satırda ek e-posta "
+"adresleri sağlar."
+
+#: inc/menu/admin-settings-arr.php:652
+#, fuzzy
+#| msgid "Message"
+msgid "GDPR Message"
+msgstr "Mesaj"
+
+#: inc/menu/admin-settings-arr.php:653
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:660
+#, fuzzy
+msgid "reCAPTCHA V2"
+msgstr "reCAPTCHA"
+
+#: inc/menu/admin-settings-arr.php:668
+msgid "Site key"
+msgstr "Site anahtarı"
+
+#: inc/menu/admin-settings-arr.php:669
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Google reCAPTCHA V2 Site anahtar sağlar. Site anahtar oluşturabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:674
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: inc/menu/admin-settings-arr.php:675
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr ""
+"Google reCAPTCHA V2 gizli anahtarını sağlamak. Gizli anahtar "
+"oluşturabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:680
+#, fuzzy
+msgid "Agent Registration"
+msgstr "Ajan kayıt"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Check to enable captcha on new agent registration."
+msgstr "Kaptan yeni Aracısı kayıt üzerinde etkinleştirmek için işaretleyin."
+
+#: inc/menu/admin-settings-arr.php:686
+msgid "Contact Agent"
+msgstr "Danışman İletişim"
+
+#: inc/menu/admin-settings-arr.php:687
+#, fuzzy
+msgid "Check to enable captcha on agent contact form."
+msgstr ""
+"Kaptan Aracısı iletişim formu üzerinde etkinleştirmek için işaretleyin."
+
+#: inc/menu/admin-settings-arr.php:692 inc/menu/admin-settings-arr.php:1018
+#: shortcodes/page-builders/vc-settings.php:20
+#, fuzzy
+msgid "Login Agent"
+msgstr "Oturum açma aracı"
+
+#: inc/menu/admin-settings-arr.php:693
+#, fuzzy
+msgid "Check to enable captcha on agent login form."
+msgstr ""
+"Kaptan Aracısı iletişim formu üzerinde etkinleştirmek için işaretleyin."
+
+#: inc/menu/admin-settings-arr.php:702
+#, fuzzy
+msgid "Labels and Headings"
+msgstr "Etiketleri ve başlıkları"
+
+#: inc/menu/admin-settings-arr.php:710
+#, fuzzy
+msgid "Features Heading"
+msgstr "Başlık Özellikleri"
+
+#: inc/menu/admin-settings-arr.php:711
+#, fuzzy
+msgid "Provide heading text for property features on property pages"
+msgstr "Başlık metni özellik sayfalarındaki Özellik özellikleri sağlamak"
+
+#: inc/menu/admin-settings-arr.php:717
+#, fuzzy
+msgid "Maps Heading"
+msgstr "Başlık"
+
+#: inc/menu/admin-settings-arr.php:718
+#, fuzzy
+msgid "Provide heading text for maps on property pages"
+msgstr "Haritalar üzerinde özellik sayfaları için başlık metni sağlar"
+
+#: inc/menu/admin-settings-arr.php:724
+#, fuzzy
+msgid "Tags Heading"
+msgstr "Başlık"
+
+#: inc/menu/admin-settings-arr.php:725
+#, fuzzy
+msgid "Provide heading text for tags on property pages"
+msgstr "Başlık metni özellik sayfalardaki etiketleri sağlamak"
+
+#: inc/menu/admin-settings-arr.php:731
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "Arşiv sayfaları için Başlık Etiketler"
+
+#: inc/menu/admin-settings-arr.php:732
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "Sen-ebilmek kullanma etiket % için etiket adı"
+
+#: inc/menu/admin-settings-arr.php:738
+#, fuzzy
+msgid "Heading for Properties Page"
+msgstr "Özellikler sayfası başlığı"
+
+#: inc/menu/admin-settings-arr.php:739
+#, fuzzy
+msgid "Provide heading for properties archive"
+msgstr "Başlık Özellikleri arşivi için sağlamak"
+
+#: inc/menu/admin-settings-arr.php:745
+#, fuzzy
+#| msgid "Send Message"
+msgid "No Results Found Message"
+msgstr "Mesaj Gönder"
+
+#: inc/menu/admin-settings-arr.php:746
+#, fuzzy
+msgid "Provide custom message when no properties found in search results"
+msgstr "Arama sonuçları sayfasında görüntülenecek ilan sayısı"
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+msgid "Maps Settings"
+msgstr "Haritalar ayarları"
+
+#: inc/menu/admin-settings-arr.php:762
+#, fuzzy
+msgid "Use Map From"
+msgstr "Eşleme kullanma"
+
+#: inc/menu/admin-settings-arr.php:764
+msgid "Leaflet"
+msgstr "Broşür"
+
+#: inc/menu/admin-settings-arr.php:765
+msgid "Google Maps"
+msgstr "Google Haritalar"
+
+#: inc/menu/admin-settings-arr.php:767
+#, fuzzy
+msgid "Choose map provider"
+msgstr "Harita sağlayıcı seçin"
+
+#: inc/menu/admin-settings-arr.php:773
+msgid "Google Maps API Key"
+msgstr "Google Maps API Anahtarı"
+
+#: inc/menu/admin-settings-arr.php:774
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr ""
+"Google Maps API anahtarı burada sağlamak. API anahtarı oluşturabilirsiniz"
+
+#: inc/menu/admin-settings-arr.php:780
+msgid "Map Type"
+msgstr "Harita Türü"
+
+#: inc/menu/admin-settings-arr.php:782
+msgid "Road Map"
+msgstr "Yol Haritası"
+
+#: inc/menu/admin-settings-arr.php:783
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:784
+msgid "Hybrid"
+msgstr "Hibrit"
+
+#: inc/menu/admin-settings-arr.php:785
+msgid "Terrain"
+msgstr "Arazi"
+
+#: inc/menu/admin-settings-arr.php:787
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "Burada harita türü öndeğerini seçin"
+
+#: inc/menu/admin-settings-arr.php:793
+#: shortcodes/page-builders/all-setting-fields.php:699
+msgid "Map Zoom Level"
+msgstr "Harita Zum Seviyesi"
+
+#: inc/menu/admin-settings-arr.php:794
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr ""
+"0 ile 21 + arasında yakınlaştırma düzeyini sağlamak için tek özellik eşlemesi"
+
+#: inc/menu/admin-settings-arr.php:800
+#, fuzzy
+msgid "Drag Icon URL"
+msgstr "Sürükle simge URL'si"
+
+#: inc/menu/admin-settings-arr.php:801
+#, fuzzy
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Harita üzerinde yeni özellik oluşturulurken sürüklemek için özel simge "
+"yüklemek. Önerilen boyut: 72 x 60"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Location Icon URL"
+msgstr "Konum simgesi URL"
+
+#: inc/menu/admin-settings-arr.php:808
+#, fuzzy
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Özellik sayfası ziyaret haritası üzerindeki konumları için özel bir simge "
+"yükleme. Önerilen boyut: 72 x 60"
+
+#: inc/menu/admin-settings-arr.php:814
+#, fuzzy
+msgid "Property Icon URL"
+msgstr "Özellik simgesi URL"
+
+#: inc/menu/admin-settings-arr.php:815
+#, fuzzy
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+"Özellik konum işaretçisini büyük haritada için özel bir simge yüklemek."
+
+#: inc/menu/admin-settings-arr.php:821
+#, fuzzy
+msgid "Property Icon URL (Hover)"
+msgstr "Özellik simgesi URL (vurgulu)"
+
+#: inc/menu/admin-settings-arr.php:822
+#, fuzzy
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"Hover devlet için büyük harita üzerinde özellik konum işaretçisini için özel "
+"bir simge yüklemek."
+
+#: inc/menu/admin-settings-arr.php:828
+#, fuzzy
+msgid "Circle Icon URL"
+msgstr "Simge Çemberi"
+
+#: inc/menu/admin-settings-arr.php:829
+#, fuzzy
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr "Daire sayaç marker büyük haritada için özel bir simge yüklemek."
+
+#: inc/menu/admin-settings-arr.php:835
+#, fuzzy
+msgid "My Location Icon URL"
+msgstr "Benim konum simgesi URL"
+
+#: inc/menu/admin-settings-arr.php:836
+#, fuzzy
+msgid "Upload custom icon for my location marker on large map."
+msgstr "Büyük haritada benim konum işaretçisini için özel bir simge yüklemek."
+
+#: inc/menu/admin-settings-arr.php:842
+#: shortcodes/page-builders/all-setting-fields.php:687
+msgid "Default Latitude"
+msgstr "Varsayılan Latitude"
+
+#: inc/menu/admin-settings-arr.php:843
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Varsayılan harita konumunda oluşturmak için özellik sayfası Enlem sağlar"
+
+#: inc/menu/admin-settings-arr.php:849
+#: shortcodes/page-builders/all-setting-fields.php:693
+msgid "Default Longitude"
+msgstr "Varsayılan Boylam"
+
+#: inc/menu/admin-settings-arr.php:850
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"Boylam üzerindeki varsayılan harita konumları oluşturmak için özellik "
+"sayfası sağlamak"
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+msgid "Map Styles Object"
+msgstr "Harita stilleri nesne"
+
+#: inc/menu/admin-settings-arr.php:857
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "Harita stilleri burada sağlamak."
+
+#: inc/menu/admin-settings-arr.php:863
+#, fuzzy
+#| msgid "Map Type"
+msgid "Map Style"
+msgstr "Harita Türü"
+
+#: inc/menu/admin-settings-arr.php:865
+#, fuzzy
+msgid "Choose style for leaflet map. "
+msgstr "Arama sonuçları için stil seçin"
+
+#: inc/menu/admin-settings-arr.php:865 shortcodes/create-property.php:101
+#, fuzzy
+msgid "Preview"
+msgstr "Önizleme özelliği"
+
+#: inc/menu/admin-settings-arr.php:874
+#, fuzzy
+msgid "Colors and CSS"
+msgstr "Renkler ve CSS"
+
+#: inc/menu/admin-settings-arr.php:882
+#, fuzzy
+msgid "Headings Underline"
+msgstr "Başlıkları alt çizgi"
+
+#: inc/menu/admin-settings-arr.php:884
+#, fuzzy
+msgid "Choose bottom border color for headings area"
+msgstr "Başlık alanı için alt kenarlık rengi seçin"
+
+#: inc/menu/admin-settings-arr.php:890
+#, fuzzy
+msgid "Headings Underline Active"
+msgstr "Başlıkları etkin altını çizmek"
+
+#: inc/menu/admin-settings-arr.php:892
+#, fuzzy
+msgid "Choose bottom border color for headings active area"
+msgstr "Alt kenarlık rengi başlıkları için etkin alanı seçin"
+
+#: inc/menu/admin-settings-arr.php:898
+#, fuzzy
+msgid "Buttons Background"
+msgstr "Düğme arka plan"
+
+#: inc/menu/admin-settings-arr.php:900
+#, fuzzy
+msgid "Choose background color for buttons"
+msgstr "Düğmeleri için arka plan rengini seçin"
+
+#: inc/menu/admin-settings-arr.php:906
+msgid "Buttons Text"
+msgstr "Buton Yazısı"
+
+#: inc/menu/admin-settings-arr.php:908 inc/menu/admin-settings-arr.php:924
+#, fuzzy
+msgid "Choose text color for buttons"
+msgstr "Metin renk düğmeleri için seçin"
+
+#: inc/menu/admin-settings-arr.php:914
+#, fuzzy
+msgid "Buttons Background - Hover"
+msgstr "Buton arka plan aktif rengi"
+
+#: inc/menu/admin-settings-arr.php:916
+#, fuzzy
+msgid "Choose background color for buttons on hover state"
+msgstr "Hover devlet üzerindeki düğmeleri için arka plan rengini seçin"
+
+#: inc/menu/admin-settings-arr.php:922
+#, fuzzy
+msgid "Buttons Text - Hover"
+msgstr "Metin - vurgulu düğmeler"
+
+#: inc/menu/admin-settings-arr.php:930
+msgid "Theme Main Color"
+msgstr "Tema Ana Rengi"
+
+#: inc/menu/admin-settings-arr.php:932
+#, fuzzy
+msgid "Choose main theme color for templates"
+msgstr "Şablonları için ana tema renk seçin"
+
+#: inc/menu/admin-settings-arr.php:938
+msgid "Custom CSS Code"
+msgstr "Özel CSS Kodu"
+
+#: inc/menu/admin-settings-arr.php:940
+#, fuzzy
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Burada özel css kodunu yapıştırın, ile önek"
+
+#: inc/menu/admin-settings-arr.php:948
+#, fuzzy
+msgid "Listing Ribbons"
+msgstr "Şeritler listeleme"
+
+#: inc/menu/admin-settings-arr.php:955
+msgid "Ribbon Style"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:960
+#, fuzzy
+msgid "Choose ribbon style"
+msgstr "Özellik stili seçin."
+
+#: inc/menu/admin-settings-arr.php:965
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "Şerit Metini"
+
+#: inc/menu/admin-settings-arr.php:966
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"Mülkün satış fiyatı belirlendiğinde görüntülenir, devre dışı bırakmak için "
+"boş bırakılır."
+
+#: inc/menu/admin-settings-arr.php:971
+#, fuzzy
+msgid "Rented Properties"
+msgstr "Kiralanan Mülkler"
+
+#: inc/menu/admin-settings-arr.php:972
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"Özellik amacı ayarlandığında kira, devre dışı bırakmak için boş bırakın "
+"görüntüler"
+
+#: inc/menu/admin-settings-arr.php:977
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "Satılık Emlaklar"
+
+#: inc/menu/admin-settings-arr.php:978
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"Özellik amacı ayarlandığında satma, devre dışı bırakmak için boş bırakın "
+"görüntüler"
+
+#: inc/menu/admin-settings-arr.php:983
+#, fuzzy
+msgid "Sold Properties"
+msgstr "Satılan Mülkler"
+
+#: inc/menu/admin-settings-arr.php:984
+#, fuzzy
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"Emlak durumu için satılan ayarlandığında görüntüler, devre dışı bırakmak "
+"için boş bırakın"
+
+#: inc/menu/admin-settings-arr.php:989
+msgid "Featured Properties"
+msgstr "Öne Çıkan İlanlar"
+
+#: inc/menu/admin-settings-arr.php:990
+#, fuzzy
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"Seçme seçeneği olduğunda küme için Evet, devre dışı bırakmak için boş "
+"bırakın görüntüler"
+
+#: inc/menu/admin-settings-arr.php:995
+#, fuzzy
+msgid "Custom Ribbon"
+msgstr "Özel Şerit'i"
+
+#: inc/menu/admin-settings-arr.php:996
+#, fuzzy
+msgid "Provide key with value. Eg:"
+msgstr "Anahtar değeri ile sağlar. Örneğin: property_type = ev"
+
+#: inc/menu/admin-settings-arr.php:1001
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "Özel Şerit'i metin"
+
+#: inc/menu/admin-settings-arr.php:1002
+#, fuzzy
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr "Özel Şerit'i için görüntülenecek metin sağlamak"
+
+#: inc/menu/admin-settings-arr.php:1008
+msgid "Page Builders"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1016
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1019
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+#, fuzzy
+msgid "Register Agent"
+msgstr "Kayıt Aracısı"
+
+#: inc/menu/admin-settings-arr.php:1020
+#, fuzzy
+msgid "Simple Search"
+msgstr "Basit Arama Yöntemi"
+
+#: inc/menu/admin-settings-arr.php:1022
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1027
+msgid "WPBakery Page Builder Addons"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1032
+#, fuzzy
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr "Sayfa Numaralarını Etkinleştir/Pasifleştir"
+
+#: inc/menu/admin-settings-arr.php:1037
+msgid "Divi Modules"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1042
+#, fuzzy
+msgid "Enable or disable Divi modules here."
+msgstr "Sayfa Numaralarını Etkinleştir/Pasifleştir"
+
+#: inc/menu/admin-settings-arr.php:1048
+msgid "Advanced Settings"
+msgstr "Gelişmiş Ayarlar"
+
+#: inc/menu/admin-settings-arr.php:1056
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS Dosyası"
+
+#: inc/menu/admin-settings-arr.php:1061
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr "Tema kendi önyükleme 3 stilleri yüklenirse devre dışı"
+
+#: inc/menu/admin-settings-arr.php:1066
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: inc/menu/admin-settings-arr.php:1071
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr "Temanız kendi yazı tipini harika simgeler yüklerse devre dışı bırakın"
+
+#: inc/menu/admin-settings-arr.php:1076
+#, fuzzy
+msgid "Property Submission Mode"
+msgstr "Özelliği gönderme modu"
+
+#: inc/menu/admin-settings-arr.php:1078
+#, fuzzy
+msgid "Publish Right Away"
+msgstr "Hemen yayımlamak"
+
+#: inc/menu/admin-settings-arr.php:1079
+#, fuzzy
+msgid "Approve by Administrator"
+msgstr "Yönetici tarafından onaylama"
+
+#: inc/menu/admin-settings-arr.php:1081
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "Yeni mülk oluşturma aracıları için izin ayarlayın"
+
+#: inc/menu/admin-settings-arr.php:1086
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "Yönlendirme özelliği oluşturduktan sonra"
+
+#: inc/menu/admin-settings-arr.php:1087
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "Sağlar arayüzü özelliği oluşturduktan sonra url yönlendirme"
+
+#: inc/menu/admin-settings-arr.php:1092
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "Özelliği Düzenledikten Sonra Yönlendir"
+
+#: inc/menu/admin-settings-arr.php:1093
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr "Ön tarafa ait mülkü düzenledikten sonra yönlendirme URL'si sağla"
+
+#: inc/menu/admin-settings-arr.php:1099
+msgid "Keep"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1100 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:85 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:72
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+msgid "Delete"
+msgstr "Sil"
+
+#: inc/menu/admin-settings-arr.php:1102
+#, fuzzy
+msgid "Attachments Deletion"
+msgstr "Başlığı ekler"
+
+#: inc/menu/admin-settings-arr.php:1103
+msgid "What to do with gallery images after deleting property."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1108
+#, fuzzy
+msgid "Agents Approval"
+msgstr "Ajan onaylı"
+
+#: inc/menu/admin-settings-arr.php:1110
+msgid "Manual"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1111
+msgid "Automatic"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1113
+msgid "We recommend you to use manual method"
+msgstr ""
+
+#: inc/menu/agent-profile-fields.php:3
+msgid "Agent Details"
+msgstr "Danışman Detayları"
+
+#: inc/menu/agent-profile-fields.php:26
+msgid "Upload Image"
+msgstr "Resim Yükle"
+
+#: inc/menu/agent/custom-fields-page.php:2
+#, fuzzy
+msgid "Agent Registration Fields"
+msgstr "Ajan kayıt"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:67
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr "Lütfen sürükleyin ve alan sol Masası'ndan yukarıda alanları bırak"
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:75
+#, fuzzy
+msgid "Reset Fields"
+msgstr "Araştırma alanları"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:76
+#: inc/menu/page-settings.php:74
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+#: inc/menu/agent/fields/checkbox.php:2
+msgid "Checkbox"
+msgstr ""
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:435
+msgid "Label"
+msgstr "Etiket"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "Veri adı (küçük boşluk içermeyen)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:39
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+msgid "Help Text"
+msgstr "Yardım Metni"
+
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/text.php:26
+#: inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr ""
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:45
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+#, fuzzy
+#| msgid "Display Properties"
+msgid "Display on"
+msgstr "Görünüm Seçenekleri"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:49
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+#, fuzzy
+msgid "Registration Form"
+msgstr "Ajan kayıt"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+#, fuzzy
+#| msgctxt "Tags"
+#| msgid "Tag"
+msgid "Tab"
+msgstr "Etiket"
+
+#: inc/menu/agent/fields/email.php:2
+#, fuzzy
+#| msgid "Date Field"
+msgid "Email Field"
+msgstr "Tarih Alanı"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:53 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Admin Profile Edit"
+msgstr "Temsilci Profili"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+msgid "Frontend Edit"
+msgstr ""
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:62 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+msgid "Agent Card Icons"
+msgstr ""
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:66 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+#, fuzzy
+msgid "Agent Page"
+msgstr "Aracı sayfası Kenar Çubuğu"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr ""
+
+#: inc/menu/agent/fields/image.php:2
+#, fuzzy
+#| msgid "Date Field"
+msgid "Image Field"
+msgstr "Tarih Alanı"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+msgid "Number Field"
+msgstr "Sayı alanı"
+
+#: inc/menu/agent/fields/password.php:2
+#, fuzzy
+#| msgid "Password"
+msgid "Password Field"
+msgstr "Şifre"
+
+#: inc/menu/agent/fields/select.php:2
+#, fuzzy
+#| msgid "Select"
+msgid "Select Box"
+msgstr "Seç"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "Seçili varsayılan"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "Seçenekleri (her satır başına)"
+
+#: inc/menu/agent/fields/select.php:71
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "Yönetici Ayarları"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "Metin alanı"
+
+#: inc/menu/agent/fields/textarea.php:2
+#, fuzzy
+#| msgid "Text Field"
+msgid "Textarea Field"
+msgstr "Metin alanı"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "Özel alanlar Oluşturucu"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+#, fuzzy
+msgid "DropDown Field"
+msgstr "Açılırmenu alanı"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+msgid "Date Field"
+msgstr "Tarih Alanı"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+msgid "Multiple Files Upload"
+msgstr ""
+
+#: inc/menu/custom-fields/custom-fields-page.php:12
+#, fuzzy
+#| msgid "Text Field"
+msgid "Text Area"
+msgstr "Metin alanı"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+#, fuzzy
+#| msgid "Shortcodes"
+msgid "Shortcode"
+msgstr "Kısa Kodlar"
+
+#: inc/menu/custom-fields/custom-fields-page.php:69
+#, fuzzy
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"Veri adı tam sözcük \"alan\" içeriyorsa, seçilen alan birim değerden sonra "
+"gösterilecek."
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:130
+msgid "Accessibility"
+msgstr "Ulaşılabilirlik"
+
+#: inc/menu/custom-fields/fields/text.php:21
+msgid "Default Value"
+msgstr "Varsayılan Değer"
+
+#: inc/menu/page-agents.php:65
+#, fuzzy
+msgid "Pending Agents"
+msgstr "Bekleyen ajanlar"
+
+#: inc/menu/page-agents.php:76
+msgid "Date of Registration"
+msgstr "Kayıt tarihi"
+
+#: inc/menu/page-agents.php:77
+msgid "Action"
+msgstr "Aksiyon"
+
+#: inc/menu/page-agents.php:89
+msgid "Deny"
+msgstr "Reddet"
+
+#: inc/menu/page-agents.php:90
+msgid "Approve"
+msgstr "Onayla"
+
+#: inc/menu/page-agents.php:99
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "Ajanlar bekleyen yok."
+
+#: inc/menu/page-agents.php:107
+#, fuzzy
+msgid "Registered Agents"
+msgstr "Kayıtlı aracıyı"
+
+#: inc/menu/page-agents.php:119
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/menu/page-agents.php:132
+msgid "View Profile"
+msgstr "Profili Görüntüle"
+
+#: inc/menu/page-agents.php:141
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "Herhangi kayıtlı aracıyı yok."
+
+#: inc/menu/page-agents.php:147
+#, fuzzy
+msgid "Register New Agent"
+msgstr "Yeni aracıyı kaydetmek"
+
+#: inc/menu/page-settings.php:3
+#, fuzzy
+msgid "Real Estate Manager - Settings"
+msgstr "Emlak Yöneticisi - ayarlar"
+
+#: inc/menu/page-settings.php:5
+#, fuzzy
+msgid "Not Registered!"
+msgstr "Kayıtlı ajan"
+
+#: inc/menu/page-settings.php:6
+#, fuzzy
+msgid "Register"
+msgstr "Kayıtlı ajan"
+
+#: inc/menu/page-settings.php:8
+#, fuzzy
+msgid "Registered!"
+msgstr "Kayıtlı ajan"
+
+#: inc/menu/page-settings.php:9
+#, fuzzy
+msgid "De-register"
+msgstr "Kayıtlı ajan"
+
+#: inc/menu/page-settings.php:25
+#, fuzzy
+msgid "If 404 Page is displaying"
+msgstr "404 sayfası görüntüleniyorsa"
+
+#: inc/menu/page-settings.php:27
+#, fuzzy
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr "Ayarları kalıcı-> gidin ve değişiklikleri Kaydet düğmesini tıklatın"
+
+#: inc/menu/page-settings.php:31
+#, fuzzy
+msgid "If Maps not displaying"
+msgstr "Eğer değil gösteren haritalar"
+
+#: inc/menu/page-settings.php:33
+#, fuzzy
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+"Google'ı kullanarak bir Google Maps API oluşturmak ve Haritalar API alanına "
+"yapıştırın."
+
+#: inc/menu/page-settings.php:37
+#, fuzzy
+msgid "Change Property Page Design"
+msgstr "Özellik sayfası tasarımını değiştirme"
+
+#: inc/menu/page-settings.php:39
+#, fuzzy
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "Aşağıdaki dosyayı kopyalayın ve tema 's kök yapıştırın"
+
+#: inc/menu/page-settings.php:41
+#, fuzzy
+msgid "Now change its name to"
+msgstr "Şimdi onun adını değiştirmek"
+
+#: inc/menu/page-settings.php:43
+#, fuzzy
+msgid "Then change Property Page Template option to From Theme"
+msgstr "Tema için gelen özellik sayfası şablonu seçeneğini değiştirme"
+
+#: inc/menu/page-settings.php:44
+#, fuzzy
+msgid "Now you can make changes in this template file."
+msgstr "Şimdi bu şablon dosyasında değişiklik yapabilirsiniz."
+
+#: inc/menu/page-settings.php:48
+#, fuzzy
+msgid "Need Help? Any Suggestions?"
+msgstr "Yardım ister misin? Herhangi bir öneriniz var mı?"
+
+#: inc/menu/page-settings.php:50
+msgid "Please contact us"
+msgstr "Lütfen bizimle iletişime geçiniz"
+
+#: inc/menu/page-settings.php:51
+msgid "HERE"
+msgstr "BURAYA"
+
+#: inc/menu/page-settings.php:52
+msgid "for assistance."
+msgstr "ile iletişime geçin."
+
+#: inc/menu/page-settings.php:73
+msgid "Please Wait..."
+msgstr "Lütfen bekleyin..."
+
+#: inc/menu/render-admin-settings.php:50
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+msgid "Choose a currency&hellip;"
+msgstr "Bir para birimi seçin&hellip;"
+
+#: inc/menu/render-admin-settings.php:217
+msgid "Image"
+msgstr "Resim"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "Seç"
+
+#: inc/menu/render-admin-settings.php:219
+msgid "Media"
+msgstr "Medya"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+#, fuzzy
+#| msgid "Agent Details"
+msgid "View details"
+msgstr "Danışman Detayları"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: inc/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: inc/sidebar-agent-contact.php:18
+msgid "Your Name"
+msgstr "Adınız"
+
+#: inc/sidebar-agent-contact.php:21
+msgid "Your Email"
+msgstr "E-posta adresiniz"
+
+#: inc/sidebar-agent-contact.php:24
+msgid "Phone"
+msgstr ""
+
+#: inc/sidebar-agent-contact.php:27
+msgid "Message"
+msgstr "Mesaj"
+
+#: inc/sidebar-agent-contact.php:30
+msgid "Send Message"
+msgstr "Mesaj Gönder"
+
+#: shortcodes/agent-profile.php:90
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:87
+msgid "My Properties"
+msgstr "İlanlarım"
+
+#: shortcodes/carousel/carousel.php:13
+msgid "No Properties Found!"
+msgstr "İlan Bulunamadı!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "Temel Bilgiler"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+msgid "Property Title"
+msgstr "İlan Başlığı"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "İlan Açıklaması"
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "Resimler"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+#, fuzzy
+msgid "Click here to Upload Images"
+msgstr "Burada yüklemek için tıklayın"
+
+#: shortcodes/create-property.php:80 shortcodes/edit-property.php:103
+#, fuzzy
+msgid "Each tag separated by comma"
+msgstr "Virgülle ayırarak her etiketi"
+
+#: shortcodes/create-property.php:88 shortcodes/edit-property.php:115
+msgid "Place on Map"
+msgstr "Harita Üzerinde Belirle"
+
+#: shortcodes/create-property.php:100
+#: shortcodes/page-builders/vc-settings.php:28
+msgid "Create Property"
+msgstr "İlan Ekle"
+
+#: shortcodes/create-property.php:107
+#, fuzzy
+#| msgid "Please Wait..."
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:138
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "Değişiklikler Kaydediliyor"
+
+#: shortcodes/edit-property.php:131
+msgid "Draft"
+msgstr ""
+
+#: shortcodes/edit-property.php:132 shortcodes/manage-properties.php:29
+msgid "Publish"
+msgstr ""
+
+#: shortcodes/edit-property.php:145
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "Lütfen bekleyin! Senin porperty değiştirilir..."
+
+#: shortcodes/login.php:8
+msgid "Username or email"
+msgstr "Kullanıcı adı ya da email"
+
+#: shortcodes/login.php:22
+msgid "Keep me signed in"
+msgstr "Oturum açık kalsın"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:955
+msgid "Login"
+msgstr "Giriş"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+msgid "Display All"
+msgstr ""
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+#, fuzzy
+msgid "Only Published"
+msgstr "Mülkiyet yayınlandı."
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+#, fuzzy
+msgid "Only Pending"
+msgstr "Ajan bekleyen"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+msgid "Only Draft"
+msgstr ""
+
+#: shortcodes/manage-properties.php:30
+msgid "Unpublish"
+msgstr ""
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+msgid "Thumbnail"
+msgstr "Küçük Resim"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+msgid "ID"
+msgstr "ID"
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+msgid "Added"
+msgstr "Eklendi"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+msgid "Actions"
+msgstr "Eylemler"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+#, fuzzy
+#| msgid "Edit Tag"
+msgid "Edit"
+msgstr "Etiketi Düzenle"
+
+#: shortcodes/map/map.php:101 shortcodes/map/nearby.php:98
+msgid "Found"
+msgstr "Bulundu"
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:942
+msgid "Designates the ascending or descending order of the below option."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+#, fuzzy
+msgid "Choose option to sort properties by"
+msgstr "Sipariş özelliklerini görüntülemek için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+#, fuzzy
+msgid "Property Price"
+msgstr "Emlak Amaçlı"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:577
+msgid "Random"
+msgstr "Rastgele"
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+msgid "Order by custom meta"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+#, fuzzy
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"Her satırdaki sabit alanları için veri sağlar. Örneğin: property_status | "
+"normal"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:228
+#, fuzzy
+msgid "Property Style"
+msgstr "Özellik stil"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:229
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "Alt Bilgi Stilini Seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:479
+#: shortcodes/page-builders/all-setting-fields.php:928
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "Bir satırdaki özellik sayısı"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:931
+msgid "1 Columns"
+msgstr "1 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:482
+#: shortcodes/page-builders/all-setting-fields.php:932
+msgid "2 Columns"
+msgstr "2 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:483
+#: shortcodes/page-builders/all-setting-fields.php:933
+msgid "3 Columns"
+msgstr "3 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:484
+#: shortcodes/page-builders/all-setting-fields.php:934
+msgid "4 Columns"
+msgstr "4 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:935
+msgid "5 Columns"
+msgstr "5 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+msgid "Top Bar"
+msgstr "Üst Bar"
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+#, fuzzy
+msgid "Top bar to sort or change layout"
+msgstr "Sıralamak veya düzeni değiştirmek için üst çubuğu"
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+#, fuzzy
+#| msgid "Default Latitude"
+msgid "Default Grid Style"
+msgstr "Varsayılan Latitude"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+msgid "Default style of grid for top bar."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+#, fuzzy
+msgid "Display properties having status Not Available or not"
+msgstr "Büyük haritada özelliklerini görüntüler"
+
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:637
+msgid "Number of Properties"
+msgstr "İlan Sayısı"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Gösterilecek sayfa sayısı gösterildikten sonra gösterilecek özelliklerin "
+"toplam sayısını sağlayın"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+msgid "Tags Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr "Özellikleri filtrelemek için virgülle ayrılmış liste listesi"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+#, fuzzy
+msgid "Features Specific"
+msgstr "Başlık Özellikleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+#, fuzzy
+msgid "Comma separated list of features to filter properties"
+msgstr "Özellikleri filtrelemek için virgülle ayrılmış liste listesi"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+msgid "Agent Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:260
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr ""
+"Özelliklerini görüntülemek için Ajan Kimliği veya virgülle ayrılmış kimlikler"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:241
+#: shortcodes/page-builders/all-setting-fields.php:647
+#, fuzzy
+#| msgid "Filter Properties"
+msgid "Filter Properties by Meta"
+msgstr "Filtre Özellikleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:242
+#: shortcodes/page-builders/all-setting-fields.php:648
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Filtrelenecek her satıra meta anahtar ve değer sağlayın. Ör: property_status "
+"| normal"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:721
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "En Yakın Özellikleri Tercih Et"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+#, fuzzy
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"Coğrafi konum ziyaretçi konum izlemek Trackor sağlayacak ve onlara yakın "
+"özelliklerini görüntüler"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+#, fuzzy
+msgid "Justified Grid (Masonry)"
+msgstr "Haklı kılavuz (duvar)"
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "Özellikleri için duvar ızgarasını mümkün kılacak"
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+msgid "Pagination"
+msgstr "Sayfalandırma"
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+#, fuzzy
+msgid "Enable or Disable Pagination"
+msgstr "Sayfa Numaralarını Etkinleştir/Pasifleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:357
+msgid "Redirect"
+msgstr "Yönlendir"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+#, fuzzy
+msgid "Provide URL to redirect after successful registration"
+msgstr "Başarılı kayıt olduktan sonra yeniden yönlendirmek için URL sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#: shortcodes/page-builders/all-setting-fields.php:363
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "oturum açmış kullanıcılar için"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+#: shortcodes/page-builders/all-setting-fields.php:364
+#, fuzzy
+msgid "Provide contents for already logged in users"
+msgstr "Zaten kullanıcıların oturum içerik sağlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:172
+msgid "Placeholder"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:173
+#, fuzzy
+msgid "Placeholder for search field"
+msgstr "Arama sonuçları için stil seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+#, fuzzy
+#| msgid "Full Width"
+msgid "Field Width"
+msgstr "Tam Genişlik"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+#, fuzzy
+msgid "Width with units. Eg: 450px"
+msgstr "Kaymak genişliği ile birim. Örneğin:"
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+#, fuzzy
+#| msgid "Loader Color"
+msgid "Border Color"
+msgstr "Yükleyici Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+#, fuzzy
+msgid "Choose color for border"
+msgstr "Haritalar yükleyici kutusu için renk seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+#, fuzzy
+msgid "Results Page URL"
+msgstr "Sonuçlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+#, fuzzy
+msgid "Provide URL for the search results page"
+msgstr "Arama düğmesi için metin sağlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+#, fuzzy
+#| msgid "Search"
+msgid "Search Icon"
+msgstr "Arama"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+msgid "Provide fontawesome icon with markup."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:207
+#: shortcodes/page-builders/all-setting-fields.php:609
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "Sipariş özelliklerini görüntülemek için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:217
+#: shortcodes/page-builders/all-setting-fields.php:623
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "Sipariş ile özelliklerini görüntülemek için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:221
+#: shortcodes/page-builders/all-setting-fields.php:576
+#: shortcodes/page-builders/all-setting-fields.php:627
+msgid "Property Name"
+msgstr "Mülkiyet adı"
+
+#: shortcodes/page-builders/all-setting-fields.php:236
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "Özellik toplam sayısı sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:248
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr ""
+"Etiketler her belirli özelliklerini görüntülemek için satır başına sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:253
+#: shortcodes/page-builders/all-setting-fields.php:598
+#, fuzzy
+msgid "Property IDs"
+msgstr "Özellik kimliği"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"Her bir satıra özel özellikler görüntülemek istiyorsanız Kimlikler sağlayın"
+
+#: shortcodes/page-builders/all-setting-fields.php:266
+#: shortcodes/page-builders/all-setting-fields.php:722
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"Coğrafi konum ziyaretçi konum izlemek Trackor sağlayacak ve onlara yakın "
+"özelliklerini görüntüler"
+
+#: shortcodes/page-builders/all-setting-fields.php:276
+#, fuzzy
+msgid "Properties in Row"
+msgstr "Satır özellikleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:277
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr "Bir seferde göstermek istediğiniz özelliklerin sayısını sağlayın"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "Kaydırma özellikleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:284
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "Bir seferde kaydırmak istediğiniz özelliklerin sayısını belirtin"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+msgid "Speed"
+msgstr "Hız"
+
+#: shortcodes/page-builders/all-setting-fields.php:291
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Ms cinsinden hız Örn: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+msgid "Auto Play"
+msgstr "Otomatik Oynatma"
+
+#: shortcodes/page-builders/all-setting-fields.php:298
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "Özelliklerin otomatik rotasyonunu görüntülemek için etkinleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:308
+msgid "Auto Play Speed"
+msgstr "Otomatik Oynatma Hızı"
+
+#: shortcodes/page-builders/all-setting-fields.php:309
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Ms cinsinden otomatik oynatma hızı Örn: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+msgid "Arrows"
+msgstr "Oklar"
+
+#: shortcodes/page-builders/all-setting-fields.php:316
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "Gezinme için okları göstermeyi etkinleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:326
+msgid "Dots"
+msgstr "Noktalar"
+
+#: shortcodes/page-builders/all-setting-fields.php:327
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "Gezinme için alt noktaları göstermeyi etkinleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:341
+#: shortcodes/page-builders/all-setting-fields.php:373
+#: shortcodes/page-builders/all-setting-fields.php:383
+#: shortcodes/page-builders/all-setting-fields.php:403
+#: shortcodes/page-builders/all-setting-fields.php:413
+#: shortcodes/page-builders/all-setting-fields.php:462
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "Sigara giriş yapan kullanıcılar için içerik"
+
+#: shortcodes/page-builders/all-setting-fields.php:342
+#, fuzzy
+msgid "Provide contents for non logged in users"
+msgstr "Olmayan kullanıcılar oturum içeriği sağlayın"
+
+#: shortcodes/page-builders/all-setting-fields.php:351
+msgid "Heading"
+msgstr "Başlık"
+
+#: shortcodes/page-builders/all-setting-fields.php:352
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "Başlık-ecek gözükmek giriş formu"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+#, fuzzy
+msgid "Provide URL to redirect after successful login"
+msgstr "Başarılı bir girişten sonra yeniden yönlendirmek için URL sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:374
+#: shortcodes/page-builders/all-setting-fields.php:384
+#, fuzzy
+msgid "Provide contents to display if user is not logged in"
+msgstr "Kullanıcı günlüğe görüntülemek için içerik sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:394
+#, fuzzy
+msgid "Provide property id here"
+msgstr "Burada ilan id kimliği sağlayın"
+
+#: shortcodes/page-builders/all-setting-fields.php:404
+#: shortcodes/page-builders/all-setting-fields.php:414
+#: shortcodes/page-builders/all-setting-fields.php:463
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr "Kullanıcı günlüğe görüntülemek için içerik sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:423
+#, fuzzy
+#| msgid "Redirect"
+msgid "Redirect URL"
+msgstr "Yönlendir"
+
+#: shortcodes/page-builders/all-setting-fields.php:424
+#, fuzzy
+msgid "Provide URL to redirect after logout"
+msgstr "Başarılı bir girişten sonra yeniden yönlendirmek için URL sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+msgid "CSS Button"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+#, fuzzy
+msgid "Provide css classes for button"
+msgstr "Arama düğmesi için metin sağlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+msgid "Provide button label"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:446
+#, fuzzy
+msgid "Choose agent to display his/her profile."
+msgstr "Sipariş özelliklerini görüntülemek için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:456
+msgid "Role"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:457
+#, fuzzy
+msgid "Provide role name who can manage properties from this page."
+msgstr "Özellik toplam sayısı sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:472
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "Görüntülenecek alanları denetleyin"
+
+#: shortcodes/page-builders/all-setting-fields.php:473
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "Arama menüsü için gerekli alanları kontrol et"
+
+#: shortcodes/page-builders/all-setting-fields.php:480
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "Her satırda alan sayısını seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+msgid "6 Columns"
+msgstr "6 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:487
+#, fuzzy
+#| msgid "1 Columns"
+msgid "1 Column"
+msgstr "1 Sütun"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+#, fuzzy
+msgid "Search Button Title"
+msgstr "Ara düğmesini başlık"
+
+#: shortcodes/page-builders/all-setting-fields.php:494
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "Arama düğmesi için metin sağlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "Filtre düğmesini başlık"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "Daha fazla filtre düğmesi için metin sağlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+#, fuzzy
+msgid "Results Page"
+msgstr "Sonuçlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"URL, sağlamak AJAX arama devre dışı bırakır ve sonuçları görüntülemek için "
+"Bu sayfa açmak. Kusur [rem_search_results] sonuçları görüntülemek için "
+"sağlanan sayfasında yapıştırmak emin olun."
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+#, fuzzy
+msgid "Result Selector"
+msgstr "Sonuç Seçici"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"Geçerli sayfada başka bir yerde sonuçları görüntülemek istiyorsanız, HTML "
+"seçici"
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "Sabit alanları"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Her satırdaki sabit alanları için veri sağlar. Örneğin: property_status | "
+"normal"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "Sabit kodlanmış içeriği"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"Bazı varsayılan özellikleri listelemek için burada kusur yapıştırabilirsiniz"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+#: shortcodes/page-builders/all-setting-fields.php:954
+msgid "Agent ID"
+msgstr "Danışman ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+#, fuzzy
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr "Kimlikleri Ajan özel arama için Aracısı Kımlığı veya virgülle ayrılmış"
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#, fuzzy
+#| msgid "More Filters"
+msgid "More Filters Column Classes"
+msgstr "Filtre"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+msgid "CSS classes for more filters (features)."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+msgid "Auto Complete"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+#, fuzzy
+msgid "Enable or Disable auto suggestions"
+msgstr "Sayfa Numaralarını Etkinleştir/Pasifleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:551
+#, fuzzy
+#| msgid "Auto Play"
+msgid "Auto Scroll"
+msgstr "Otomatik Oynatma"
+
+#: shortcodes/page-builders/all-setting-fields.php:552
+#, fuzzy
+msgid "Enable or Disable auto scroll to results"
+msgstr "Sayfa Numaralarını Etkinleştir/Pasifleştir"
+
+#: shortcodes/page-builders/all-setting-fields.php:562
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "Sonuçları görüntülemek için sıra seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:572
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "Sipariş ile sonuçları görüntülemek için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:588
+msgid "Display By"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:589
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "Nasıl harita üzerinde özelliklerini görüntülemek istediğiniz"
+
+#: shortcodes/page-builders/all-setting-fields.php:591
+msgid "Properties by IDs"
+msgstr "Kimliklere Göre İlanlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:592
+#, fuzzy
+msgid "Use Property Query"
+msgstr "Mülkiyet Sorgusu"
+
+#: shortcodes/page-builders/all-setting-fields.php:599
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "Harita üzerinde görüntülemek için özellik kimliği her satır başına"
+
+#: shortcodes/page-builders/all-setting-fields.php:638
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "Özelliklerini göstermek için toplam sayısını sağlar. Tüm için -1"
+
+#: shortcodes/page-builders/all-setting-fields.php:657
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "Özellik türü filtresi"
+
+#: shortcodes/page-builders/all-setting-fields.php:658
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"Özellik türü filtresi için aşağıdaki düğmeleri haritaları görüntülemek için "
+"etkinleştirme"
+
+#: shortcodes/page-builders/all-setting-fields.php:667
+#, fuzzy
+#| msgid "Filter by Tags"
+msgid "Filter Key"
+msgstr "Etiketlere Göre Filtrele"
+
+#: shortcodes/page-builders/all-setting-fields.php:668
+msgid "Field key to use for filter menu"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:677
+#: shortcodes/page-builders/all-setting-fields.php:837
+#: shortcodes/page-builders/all-setting-fields.php:848
+#: shortcodes/page-builders/all-setting-fields.php:859
+#: shortcodes/page-builders/all-setting-fields.php:870
+#: shortcodes/page-builders/all-setting-fields.php:881
+msgid "Filter Options"
+msgstr "Fitre Seçenekleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:678
+#, fuzzy
+msgid "Provide comma-separated values to display on filter menu"
+msgstr ""
+"Özelliklerini görüntülemek için Ajan Kimliği veya virgülle ayrılmış kimlikler"
+
+#: shortcodes/page-builders/all-setting-fields.php:688
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:694
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:700
+#, fuzzy
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr ""
+"0 ile 21 + arasında yakınlaştırma düzeyini sağlamak için tek özellik eşlemesi"
+
+#: shortcodes/page-builders/all-setting-fields.php:705
+msgid "Map ID"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:706
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:711
+msgid "Filter by Tags"
+msgstr "Etiketlere Göre Filtrele"
+
+#: shortcodes/page-builders/all-setting-fields.php:712
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "Filtre uygulamak için her satırda tek etiket sağlar."
+
+#: shortcodes/page-builders/all-setting-fields.php:731
+msgid "Map Height"
+msgstr "Harita Yüksekliği"
+
+#: shortcodes/page-builders/all-setting-fields.php:732
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "Harita yükseklik Eg sağlar: 550px"
+
+#: shortcodes/page-builders/all-setting-fields.php:738
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr "Aracısı KIMLIĞI için belirli listeleri sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:743
+#, fuzzy
+msgid "Loading Heading"
+msgstr "Yükleme başlığı"
+
+#: shortcodes/page-builders/all-setting-fields.php:744
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "Metin başlığı yükleme harita sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:750
+#, fuzzy
+msgid "Loading Description"
+msgstr "Yükleme açıklaması"
+
+#: shortcodes/page-builders/all-setting-fields.php:751
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "Metin açıklama yükleniyor harita sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:757
+#: shortcodes/page-builders/all-setting-fields.php:835
+msgid "Buttons Background Color"
+msgstr "Düğmeler İçin Arka Plan Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:758
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "Harita düğmeleri için arka plan rengini seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:759
+#: shortcodes/page-builders/all-setting-fields.php:766
+#: shortcodes/page-builders/all-setting-fields.php:773
+#: shortcodes/page-builders/all-setting-fields.php:780
+#: shortcodes/page-builders/all-setting-fields.php:787
+msgid "Colors"
+msgstr "Renkler"
+
+#: shortcodes/page-builders/all-setting-fields.php:764
+#: shortcodes/page-builders/all-setting-fields.php:846
+msgid "Buttons Text Color"
+msgstr "Düğmeler İçin Yazı Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:765
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "Harita düğmeleri için metin rengini seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:771
+#: shortcodes/page-builders/all-setting-fields.php:857
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "Düğmeler İçin Arka Plan Çerçeve Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:772
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "Harita düğmeleri için vurgulu arka plan rengini seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:778
+#: shortcodes/page-builders/all-setting-fields.php:868
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "Düğmeler İçin Hover Yazı Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:779
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "Metin vurgulama rengini harita düğmeleri için seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+msgid "Loader Color"
+msgstr "Yükleyici Rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:786
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "Haritalar yükleyici kutusu için renk seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:793
+msgid "Water Color"
+msgstr "Water Color"
+
+#: shortcodes/page-builders/all-setting-fields.php:794
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "Su renk eşleminde seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:795
+#: shortcodes/page-builders/all-setting-fields.php:802
+#: shortcodes/page-builders/all-setting-fields.php:809
+#: shortcodes/page-builders/all-setting-fields.php:816
+#: shortcodes/page-builders/all-setting-fields.php:823
+#: shortcodes/page-builders/all-setting-fields.php:830
+#, fuzzy
+msgid "Map Colors"
+msgstr "Harita renkleri"
+
+#: shortcodes/page-builders/all-setting-fields.php:800
+msgid "Fill Color"
+msgstr "Fill Color"
+
+#: shortcodes/page-builders/all-setting-fields.php:801
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "Doğal dolgu rengi haritada Seç"
+
+#: shortcodes/page-builders/all-setting-fields.php:807
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "Puan faiz renk"
+
+#: shortcodes/page-builders/all-setting-fields.php:808
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "Harita POI renk seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:814
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "Puan faiz renk renk"
+
+#: shortcodes/page-builders/all-setting-fields.php:815
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "Harita POI ton renk seçin"
+
+#: shortcodes/page-builders/all-setting-fields.php:821
+#, fuzzy
+msgid "Road Lightness"
+msgstr "Yol hafiflik"
+
+#: shortcodes/page-builders/all-setting-fields.php:822
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "Harita, varsayılan yol hafiflik seçin: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:828
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "Satırları hafiflik"
+
+#: shortcodes/page-builders/all-setting-fields.php:829
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Harita, varsayılan satır hafiflik seçin: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:836
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "Alt düğmeleri için arka plan rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:847
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "Metin rengi alt düğmeleri için"
+
+#: shortcodes/page-builders/all-setting-fields.php:858
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "Hover üzerinde alt düğmeleri için arka plan rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:869
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "Metin rengini hover üzerindeki alt düğmeleri için"
+
+#: shortcodes/page-builders/all-setting-fields.php:879
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "Düğme arka plan rengi - etkin"
+
+#: shortcodes/page-builders/all-setting-fields.php:880
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "Etkin alt düğmeleri için arka plan rengi"
+
+#: shortcodes/page-builders/all-setting-fields.php:890
+#, fuzzy
+msgid "Field Name for Icons"
+msgstr "Alan adı simgeler için"
+
+#: shortcodes/page-builders/all-setting-fields.php:891
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"Alan veri adı tarafından filtre simgeler sağlar. Örneğin: property_type"
+
+#: shortcodes/page-builders/all-setting-fields.php:892
+#: shortcodes/page-builders/all-setting-fields.php:899
+#: shortcodes/page-builders/all-setting-fields.php:906
+#: shortcodes/page-builders/all-setting-fields.php:913
+msgid "Custom Icons"
+msgstr "Özel simgeler"
+
+#: shortcodes/page-builders/all-setting-fields.php:897
+#, fuzzy
+msgid "Icon URLs"
+msgstr "Simge URL'leri"
+
+#: shortcodes/page-builders/all-setting-fields.php:898
+#, fuzzy
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"Meta değer, statik sağlamak ve simge URL'leri seaprated boru işareti ile "
+"gezdirin. Örneğin: house|some_image.png|some_image_hover.png"
+
+#: shortcodes/page-builders/all-setting-fields.php:904
+#, fuzzy
+msgid "My Location Icon Url"
+msgstr "Benim konum simgesi Url"
+
+#: shortcodes/page-builders/all-setting-fields.php:905
+#, fuzzy
+msgid "Provide icon url for my location pin"
+msgstr "Simgesi url konumu PIN'imi sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:911
+#, fuzzy
+msgid "Circle Icon Url"
+msgstr "Simge Çemberi"
+
+#: shortcodes/page-builders/all-setting-fields.php:912
+#, fuzzy
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "Simge URL'si için birden çok özellikleri sağlar. Boyutu 55 x 55"
+
+#: shortcodes/page-builders/all-setting-fields.php:922
+#, fuzzy
+#| msgid "Agent ID"
+msgid "Agent IDs"
+msgstr "Danışman ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:923
+#, fuzzy
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "Virgülle ayrılmış kimlikleri ajanların belirli liste için"
+
+#: shortcodes/page-builders/all-setting-fields.php:929
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "Bir satır içinde sütun sayısı"
+
+#: shortcodes/page-builders/all-setting-fields.php:952
+msgid "Choose option to sort agents by"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:956
+#, fuzzy
+#| msgid "New Tag Name"
+msgid "Nice Name"
+msgstr "Yeni Etiket Adı"
+
+#: shortcodes/page-builders/all-setting-fields.php:957
+#, fuzzy
+#| msgid "Address"
+msgid "Email Address"
+msgstr "Adres"
+
+#: shortcodes/page-builders/all-setting-fields.php:958
+msgid "URL"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:959
+#, fuzzy
+msgid "Registered"
+msgstr "Kayıtlı ajan"
+
+#: shortcodes/page-builders/all-setting-fields.php:960
+#, fuzzy
+#| msgid "First Name"
+msgid "Display Name"
+msgstr "İsim"
+
+#: shortcodes/page-builders/all-setting-fields.php:961
+#, fuzzy
+#| msgid "No Properties Found!"
+msgid "Properties Count"
+msgstr "İlan Bulunamadı!"
+
+#: shortcodes/page-builders/all-setting-fields.php:962
+msgid "IDs Provided Above"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:963
+#, fuzzy
+#| msgid "Default Value"
+msgid "Meta Value"
+msgstr "Varsayılan Değer"
+
+#: shortcodes/page-builders/all-setting-fields.php:969
+#, fuzzy
+#| msgid "Custom CSS Code"
+msgid "Custom Meta Key"
+msgstr "Özel CSS Kodu"
+
+#: shortcodes/page-builders/all-setting-fields.php:970
+#, fuzzy
+msgid "Provide field name here for specific agent listing."
+msgstr "Aracısı KIMLIĞI için belirli listeleri sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:975
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Meta Value"
+msgstr "Özel Alanlar"
+
+#: shortcodes/page-builders/all-setting-fields.php:976
+#, fuzzy
+msgid "Provide field value here for specific agent listing."
+msgstr "Aracısı KIMLIĞI için belirli listeleri sağlamak"
+
+#: shortcodes/page-builders/all-setting-fields.php:981
+#, fuzzy
+#| msgid "Contact Agent"
+msgid "Total Agents"
+msgstr "Danışman İletişim"
+
+#: shortcodes/page-builders/all-setting-fields.php:982
+#, fuzzy
+msgid "Number of agents to display."
+msgstr "Görüntülenecek ilanların sayısı"
+
+#: shortcodes/page-builders/all-setting-fields.php:987
+msgid "Masonry"
+msgstr "Duvar"
+
+#: shortcodes/page-builders/all-setting-fields.php:988
+#, fuzzy
+msgid "Justified Layout"
+msgstr "Haklı düzeni"
+
+#: shortcodes/page-builders/all-setting-fields.php:990
+msgid "enable"
+msgstr "etkinleştirme"
+
+#: shortcodes/page-builders/all-setting-fields.php:991
+msgid "disable"
+msgstr "devre dışı"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+msgid "List Properties"
+msgstr "Liste özellikleri"
+
+#: shortcodes/page-builders/divi-settings.php:86
+#, fuzzy
+#| msgid "Edit Agent Profile"
+msgid "Edit Agent Form"
+msgstr "Temsilci Profilini Düzenle"
+
+#: shortcodes/page-builders/divi-settings.php:105
+#, fuzzy
+msgid "Login Agent Form"
+msgstr "Oturum açma aracı"
+
+#: shortcodes/page-builders/divi-settings.php:124
+#, fuzzy
+#| msgid "Create Property"
+msgid "Create Property Form"
+msgstr "İlan Ekle"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+msgid "List Agents"
+msgstr "Emlak Danışmanı Listesi"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+msgid "Single Property"
+msgstr "Tek Mülkiyet"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+msgid "Agent Profile"
+msgstr "Temsilci Profili"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+#, fuzzy
+#| msgid "Profile"
+msgid "My Profile"
+msgstr "Profil"
+
+#: shortcodes/page-builders/divi-settings.php:276
+#, fuzzy
+#| msgid "Google Maps"
+msgid "Large Map"
+msgstr "Google Haritalar"
+
+#: shortcodes/page-builders/divi-settings.php:295
+#, fuzzy
+#| msgid "Search Property"
+msgid "Search Property Form"
+msgstr "İlan Ara"
+
+#: shortcodes/page-builders/divi-settings.php:324
+#, fuzzy
+msgid "Properties Slider"
+msgstr "Price slider"
+
+#: shortcodes/page-builders/divi-settings.php:343
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Simple Search Properties"
+msgstr "Arama Özellikleri"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+#, fuzzy
+#| msgid "My Properties"
+msgid "Manage Properties"
+msgstr "İlanlarım"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+#, fuzzy
+#| msgid "Logout"
+msgid "Logout Button"
+msgstr "Çıkış"
+
+#: shortcodes/page-builders/vc-settings.php:8
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "Yeni aracıyı kaydetmek için bir form oluşturur"
+
+#: shortcodes/page-builders/vc-settings.php:12
+msgid "Edit Agent Profile"
+msgstr "Temsilci Profilini Düzenle"
+
+#: shortcodes/page-builders/vc-settings.php:16
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "Ajan'ın profilinde oturum düzenlemek için bir form oluşturur"
+
+#: shortcodes/page-builders/vc-settings.php:24
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "Oturum açma formunu Renders bir AJAX tabanlı"
+
+#: shortcodes/page-builders/vc-settings.php:32
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "Özellik oluşturmak için bir form oluşturur"
+
+#: shortcodes/page-builders/vc-settings.php:40
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "Ajanların listesini görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:48
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "Özellik düzenlemek için bir form oluşturur"
+
+#: shortcodes/page-builders/vc-settings.php:56
+#, fuzzy
+msgid "Display a single property"
+msgstr "Görüntü tek bir özelliği"
+
+#: shortcodes/page-builders/vc-settings.php:64
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "Ayarlara göre özelliklerini görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:72
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "Ajan oturum açmış özelliklerini görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:80
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "Özel Ajan görüntüler profili"
+
+#: shortcodes/page-builders/vc-settings.php:88
+#, fuzzy
+msgid "Displays profile of logged in agent"
+msgstr "Ajan oturum açmış özelliklerini görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:96
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr "Arama widget dan arama sonuçları görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:100
+msgid "Properties Map"
+msgstr "Emlak Haritası"
+
+#: shortcodes/page-builders/vc-settings.php:104
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "Büyük haritada özelliklerini görüntüler"
+
+#: shortcodes/page-builders/vc-settings.php:112
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "Özellikleri AJAX ile arama için bir form oluşturur"
+
+#: shortcodes/page-builders/vc-settings.php:116
+#, fuzzy
+msgid "Carousel Slider"
+msgstr "Price slider"
+
+#: shortcodes/page-builders/vc-settings.php:120
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "Özellikleri duyarlı atlıkarınca işler"
+
+#: shortcodes/page-builders/vc-settings.php:124
+#, fuzzy
+#| msgid "Search Field"
+msgid "Inline Search Field"
+msgstr "Arama Alanı"
+
+#: shortcodes/page-builders/vc-settings.php:128
+msgid "Renders simple search form"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:136
+msgid "Displays a logout button"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:144
+msgid "Manage all properties (for admins)"
+msgstr ""
+
+#: shortcodes/register-agent.php:49
+msgid "Sign up"
+msgstr "Kaydol"
+
+#: shortcodes/search-property.php:110
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: templates/agent/style2.php:38
+msgid "More Info"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "Emlak Müdürü Pro"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "Gayrimenkul yönetimi için eksiksiz bir çözüm"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"
+
+#, fuzzy
+#~ msgid "Error, please try again"
+#~ msgstr "Hata: lütfen tekrar deneyin"
+
+#~ msgid "General Settings"
+#~ msgstr "Genel Ayarlar"
+
+#, fuzzy
+#~ msgid "Video Heading"
+#~ msgstr "Video başlığı"
+
+#, fuzzy
+#~ msgid "Provide heading text for property video on property pages"
+#~ msgstr "Başlık metni özellik özellik sayfalarında video sağlamak"
+
+#, fuzzy
+#~ msgid "Provide heading text for attachments on property pages"
+#~ msgstr "Özellik sayfalarında ekler için başlık metni sağlamak"
+
+#, fuzzy
+#~ msgid "Upload Field"
+#~ msgstr "Dosya yükleme alanı"
+
+#, fuzzy
+#~ msgid "Please wait! your porperty is being created..."
+#~ msgstr "Lütfen bekleyin! Senin porperty oluşturuluyor..."
+
+#, fuzzy
+#~ msgid "Order of properties you want to display."
+#~ msgstr "Görüntülemek istediğiniz özelliklerinin sırasını."
+
+#~ msgid "Date Created"
+#~ msgstr "Oluşturma Tarihi"
+
+#, fuzzy
+#~ msgid "Sort retrieved properties by specific parameter."
+#~ msgstr "Sıralama özellikleri belirli parametresi tarafından alındı."
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~ msgid "Number of properties in a row."
+#~ msgstr "Üst üste özellik sayısı."
+
+#, fuzzy
+#~ msgid "Comma separated list of tags to display tag specific properties."
+#~ msgstr ""
+#~ "Virgülle ayrılmış listesi etiketleri etiket belirli özelliklerini "
+#~ "görüntülemek için."
+
+#, fuzzy
+#~ msgid "Display pagination if there are more properties."
+#~ msgstr "Daha bir çok özelliği sayfalandırma görüntüler."
+
+#~ msgid "Masonry Grid"
+#~ msgstr "Duvar & Izgara"
+
+#, fuzzy
+#~ msgid "Activates Justified Grid mode."
+#~ msgstr "Haklı kılavuz modu etkinleştirir."
+
+#, fuzzy
+#~ msgid "Prefer Near Properties"
+#~ msgstr "Özellikleri tercih"
+
+#, fuzzy
+#~ msgid "It will enable Geo Location service. Needs SSL to work properly"
+#~ msgstr ""
+#~ "Coğrafi konum hizmet olanak verir. Düzgün çalışması için SSL ihtiyacı"
+
+#, fuzzy
+#~ msgid "Meta Filtration"
+#~ msgstr "Meta filtrasyon"
+
+#, fuzzy
+#~ msgid "Please see details here"
+#~ msgstr "Lütfen burada ayrıntılarına bakın"
+
+#~ msgid "IDS"
+#~ msgstr "IDS"
+
+#, fuzzy
+#~ msgid "Ascending or Descending"
+#~ msgstr "Artan veya azalan"
+
+#, fuzzy
+#~ msgid "How you want to order agents"
+#~ msgstr "Nasıl sipariş acentelere istiyorum"
+
+#, fuzzy
+#~ msgid "Number of Properties in a Page"
+#~ msgstr "Bir sayfa özelliklerinde sayısı"
+
+#, fuzzy
+#~ msgid "Choose to display properties of specific purpose"
+#~ msgstr "Belirli bir amaca yönelik özellikleri göstermeyi seçin"
+
+#, fuzzy
+#~ msgid "Choose to display properties of specific type"
+#~ msgstr "Belirli bir türün özelliklerini görüntülemek için seçin"
+
+#~ msgid "Property Tags"
+#~ msgstr "Emlak Etiketleri"
+
+#, fuzzy
+#~ msgid "Choose agent who's profile you want to display"
+#~ msgstr "Profil vardır Ajan seçin görüntülemek istediğiniz"
+
+#, fuzzy
+#~ msgid "Touch Carousel"
+#~ msgstr "Dokunmatik Carousel"
+
+#~ msgid "Detail"
+#~ msgstr "Detay"

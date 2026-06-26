@@ -5,12 +5,11 @@ jQuery(document).ready(function($) {
 
 	// Apply DropDown
 	jQuery(function(){
-		var $selects = jQuery('.ich-settings-main-wrap select');
+		var $selects = jQuery('.ich-settings-main-wrap .rem-easydropdown');
 		$selects.easyDropDown({
 			onChange: function(selected){}
 		});
 	});
-
 
 	jQuery("#mortgage-calc", document.body).on('click', function(){
 
@@ -29,7 +28,6 @@ jQuery(document).ready(function($) {
 		}
 
 		return false;
-
 	});
 		
 });

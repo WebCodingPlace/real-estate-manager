@@ -1,0 +1,5849 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2019-04-22 11:17+0500\n"
+"PO-Revision-Date: 2019-04-22 11:26+0500\n"
+"Language-Team: rameez7759@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: af_ZA\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+#, fuzzy
+msgid "Real Estate Manager"
+msgstr "Real Estate Bestuurder"
+
+#: classes/emails.class.php:38
+#, fuzzy
+msgid "New Agent Registered "
+msgstr "Nuwe agent geregistreer"
+
+#: classes/emails.class.php:49
+#, fuzzy
+msgid "Registration Successful "
+msgstr "Registrasie suksesvol"
+
+#: classes/emails.class.php:65
+#, fuzzy
+msgid "Approved "
+msgstr "Goedgekeur"
+
+#: classes/emails.class.php:81
+#, fuzzy
+msgid "Rejected "
+msgstr "Verwerp"
+
+#: classes/emails.class.php:103
+#, fuzzy
+msgid "New Property Submitted "
+msgstr "Nuwe eiendom ingedien"
+
+#: classes/emails.class.php:109
+#, fuzzy
+msgid "Property Submitted "
+msgstr "Eiendom ingedien"
+
+#: classes/emails.class.php:122
+#, fuzzy
+msgid "Property Approved "
+msgstr "Eiendom goedgekeur"
+
+#: classes/hooks.class.php:142 classes/hooks.class.php:146
+#: core.functions.php:557 inc/menu/page-agents.php:91
+#: inc/menu/page-agents.php:133
+#, fuzzy
+msgid "Details"
+msgstr "Besonderhede"
+
+#: classes/hooks.class.php:217
+#, fuzzy
+msgid "Beds"
+msgstr "Beddens"
+
+#: classes/hooks.class.php:222
+#, fuzzy
+msgid "Baths"
+msgstr "Baddens"
+
+#: classes/hooks.class.php:227 inc/arrays/property-fields.php:145
+#, fuzzy
+msgid "Area"
+msgstr "Gebied"
+
+#: classes/hooks.class.php:553 classes/hooks.class.php:1088
+#: classes/widgets/search-properties.php:89
+#: classes/widgets/search-properties.php:183 core.functions.php:695
+#: core.functions.php:1239 shortcodes/page-builders/all-setting-fields.php:393
+#, fuzzy
+msgid "Property ID"
+msgstr "Eiendom-ID"
+
+#: classes/hooks.class.php:687 core.functions.php:559
+#, fuzzy
+msgid "Features"
+msgstr "Kenmerke"
+
+#: classes/hooks.class.php:716 core.functions.php:1240
+#: shortcodes/create-property.php:76 shortcodes/edit-property.php:99
+#: shortcodes/page-builders/all-setting-fields.php:247
+#, fuzzy
+msgid "Tags"
+msgstr "Merkers"
+
+#: classes/hooks.class.php:753 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+#, fuzzy
+msgid "Edit Property"
+msgstr "Redigeer eiendom"
+
+#: classes/hooks.class.php:759
+#, fuzzy
+msgid "Find on Map"
+msgstr "Vind op kaart"
+
+#: classes/hooks.class.php:837
+#, fuzzy
+msgid "Name"
+msgstr "Naam"
+
+#: classes/hooks.class.php:840 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "E-posadres"
+
+#: classes/hooks.class.php:843
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: classes/hooks.class.php:846
+msgid "Your Message"
+msgstr "Jou Boodskap"
+
+#: classes/hooks.class.php:852
+#, fuzzy
+msgid "SEND MESSAGE"
+msgstr "STUUR BOODSKAP"
+
+#: classes/hooks.class.php:859 inc/sidebar-agent-contact.php:35
+#, fuzzy
+msgid "Sending Email, Please Wait..."
+msgstr "Stuur e-pos, wag asseblief ..."
+
+#: classes/hooks.class.php:882
+#, fuzzy
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:883
+#, fuzzy
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:891
+#, fuzzy
+msgid "Tag:"
+msgstr "Merker:"
+
+#: classes/hooks.class.php:894
+#, fuzzy
+msgid "Properties:"
+msgstr "Eienskappe:"
+
+#: classes/hooks.class.php:913 classes/setup.class.php:656
+#: shortcodes/page-builders/all-setting-fields.php:745
+#: shortcodes/page-builders/all-setting-fields.php:752
+msgid "Settings"
+msgstr "Vertellings"
+
+#: classes/hooks.class.php:914
+#, fuzzy
+msgid "Request for Customize"
+msgstr "Versoek vir pasmaak"
+
+#: classes/hooks.class.php:1062
+#, fuzzy
+msgid "You can add more features"
+msgstr "Jy kan meer funksies byvoeg"
+
+#: classes/hooks.class.php:1063 inc/menu/admin-settings-arr.php:669
+#: inc/menu/admin-settings-arr.php:675 inc/menu/admin-settings-arr.php:774
+#: inc/menu/render-admin-settings.php:50
+#, fuzzy
+msgid "here"
+msgstr "Hier"
+
+#: classes/hooks.class.php:1089
+#, fuzzy
+msgid "Featured Image"
+msgstr "Gewilde beeld"
+
+#: classes/hooks.class.php:1129 inc/menu/admin-settings-arr.php:124
+#, fuzzy
+msgid "Energy Efficiency"
+msgstr "Energie-doeltreffendheid"
+
+#: classes/hooks.class.php:1149
+#, fuzzy
+msgid "A+"
+msgstr "A +"
+
+#: classes/hooks.class.php:1150
+#, fuzzy
+msgid "A"
+msgstr "A"
+
+#: classes/hooks.class.php:1151
+#, fuzzy
+msgid "B"
+msgstr "B"
+
+#: classes/hooks.class.php:1152
+#, fuzzy
+msgid "C"
+msgstr "C"
+
+#: classes/hooks.class.php:1153
+#, fuzzy
+msgid "D"
+msgstr "D"
+
+#: classes/hooks.class.php:1154
+msgid "E"
+msgstr "O"
+
+#: classes/hooks.class.php:1155
+#, fuzzy
+msgid "F"
+msgstr "F"
+
+#: classes/hooks.class.php:1156
+#, fuzzy
+msgid "G"
+msgstr "G"
+
+#: classes/hooks.class.php:1157
+#, fuzzy
+msgid "H"
+msgstr "H"
+
+#: classes/hooks.class.php:1159
+#, fuzzy
+msgid "Energy Class"
+msgstr "Energie klas"
+
+#: classes/hooks.class.php:1160
+#, fuzzy
+msgid "Select the energy class of the property"
+msgstr "Kies die energieklas van die eiendom"
+
+#: classes/hooks.class.php:1169
+#, fuzzy
+msgid "Global Energy Performance Index"
+msgstr "Global energie prestasie indeks"
+
+#: classes/hooks.class.php:1170
+#, fuzzy
+msgid "Example: 92.42 kWh / m²a"
+msgstr "Voorbeeld: 92,42 kWh/m ² a"
+
+#: classes/hooks.class.php:1179
+#, fuzzy
+msgid "Renewable Energy Performance Index"
+msgstr "Hernubare Energieprestasie-indeks"
+
+#: classes/hooks.class.php:1180
+#, fuzzy
+msgid "Example: 1.00 kWh / m²a"
+msgstr "Voorbeeld: 1,00 kWh/m ² a"
+
+#: classes/hooks.class.php:1189
+#, fuzzy
+msgid "Energy Performance of the Listing"
+msgstr "Energie werkverrigting van die lys"
+
+#: classes/hooks.class.php:1190
+#, fuzzy
+msgid "Example: Low"
+msgstr "Voorbeeld: laag"
+
+#: classes/hooks.class.php:1211
+#, fuzzy
+msgid "Energy class"
+msgstr "Energie klas"
+
+#: classes/setup.class.php:102
+#, fuzzy
+msgid "Property Information"
+msgstr "Eiendominligting"
+
+#: classes/setup.class.php:103
+#, fuzzy
+msgid "Location on Map"
+msgstr "Ligging op kaart"
+
+#: classes/setup.class.php:104
+#, fuzzy
+msgid "Gallery Images"
+msgstr "Gallery beelde"
+
+#: classes/setup.class.php:105
+#, fuzzy
+msgid "Additional Agents"
+msgstr "Addisionele agente"
+
+#: classes/setup.class.php:434 classes/setup.class.php:736
+#, fuzzy
+msgid "Property Agent"
+msgstr "Eiendom agent"
+
+#: classes/setup.class.php:497
+#, fuzzy
+msgid "Attic"
+msgstr "Solder"
+
+#: classes/setup.class.php:498
+#, fuzzy
+msgid "Gas Heat"
+msgstr "Gas hitte"
+
+#: classes/setup.class.php:499
+#, fuzzy
+msgid "Balcony"
+msgstr "Balkon"
+
+#: classes/setup.class.php:500
+#, fuzzy
+msgid "Wine Cellar"
+msgstr "Wynkelder"
+
+#: classes/setup.class.php:501
+#, fuzzy
+msgid "Basketball Court"
+msgstr "Basketbal hof"
+
+#: classes/setup.class.php:502
+#, fuzzy
+msgid "Trash Compactors"
+msgstr "Asblik Kompakakteurs"
+
+#: classes/setup.class.php:503
+#, fuzzy
+msgid "Fireplace"
+msgstr "Kaggel"
+
+#: classes/setup.class.php:504
+#, fuzzy
+msgid "Pool"
+msgstr "Swembad"
+
+#: classes/setup.class.php:505
+#, fuzzy
+msgid "Lake View"
+msgstr "Meer aansig"
+
+#: classes/setup.class.php:506
+#, fuzzy
+msgid "Solar Heat"
+msgstr "Solar Heat"
+
+#: classes/setup.class.php:507
+#, fuzzy
+msgid "Separate Shower"
+msgstr "Skei stort"
+
+#: classes/setup.class.php:508
+#, fuzzy
+msgid "Wet Bar"
+msgstr "Nat bar"
+
+#: classes/setup.class.php:509
+#, fuzzy
+msgid "Remodeled"
+msgstr "Opgeknapte"
+
+#: classes/setup.class.php:510
+#, fuzzy
+msgid "Skylights"
+msgstr "Dakrame"
+
+#: classes/setup.class.php:511
+#, fuzzy
+msgid "Stone Surfaces"
+msgstr "Klip oppervlaktes"
+
+#: classes/setup.class.php:512
+#, fuzzy
+msgid "Golf Course"
+msgstr "Gholfbaan"
+
+#: classes/setup.class.php:513
+#, fuzzy
+msgid "Health Club"
+msgstr "Gesondheid klub"
+
+#: classes/setup.class.php:514
+#, fuzzy
+msgid "Backyard"
+msgstr "Agterplaas"
+
+#: classes/setup.class.php:515
+#, fuzzy
+msgid "Pet Allowed"
+msgstr "Pet toegelaat"
+
+#: classes/setup.class.php:516
+#, fuzzy
+msgid "Office/Den"
+msgstr "Kantoor/den"
+
+#: classes/setup.class.php:517
+#, fuzzy
+msgid "Laundry"
+msgstr "Wasgoed"
+
+#: classes/setup.class.php:530
+#, fuzzy
+msgid "Duplex"
+msgstr "Duplex"
+
+#: classes/setup.class.php:531
+#, fuzzy
+msgid "House"
+msgstr "Huis"
+
+#: classes/setup.class.php:532
+#, fuzzy
+msgid "Office"
+msgstr "Kantoor"
+
+#: classes/setup.class.php:533
+#, fuzzy
+msgid "Retail"
+msgstr "Kleinhandel"
+
+#: classes/setup.class.php:534
+#, fuzzy
+msgid "Vila"
+msgstr "Vila"
+
+#: classes/setup.class.php:547
+#, fuzzy
+msgid "Rent"
+msgstr "Huur"
+
+#: classes/setup.class.php:548
+#, fuzzy
+msgid "Sell"
+msgstr "Verkoop"
+
+#: classes/setup.class.php:561
+msgid "Normal"
+msgstr "Normaal"
+
+#: classes/setup.class.php:562
+#, fuzzy
+msgid "Available"
+msgstr "Beskikbaar"
+
+#: classes/setup.class.php:563
+#, fuzzy
+msgid "Not Available"
+msgstr "Nie beskikbaar"
+
+#: classes/setup.class.php:564
+#, fuzzy
+msgid "Sold"
+msgstr "Verkoop"
+
+#: classes/setup.class.php:565
+#, fuzzy
+msgid "Open House"
+msgstr "Open huis"
+
+#: classes/setup.class.php:580 classes/shortcodes.class.php:1308
+#: classes/shortcodes.class.php:1562
+#, fuzzy
+msgid "Please check the captcha form."
+msgstr "Kontroleer asseblief die CAPTCHA vorm."
+
+#: classes/setup.class.php:589 classes/shortcodes.class.php:1317
+#, fuzzy
+msgid "There was an error. Please try again after reloading page"
+msgstr "Daar was 'n fout. Probeer asseblief weer nadat herlaai bladsy"
+
+#: classes/setup.class.php:643
+#, fuzzy
+msgid "Email Sent Successfully"
+msgstr "E-pos suksesvol gestuur"
+
+#: classes/setup.class.php:645
+#, fuzzy
+msgid "There is some problem, please try later"
+msgstr "Daar is 'n paar probleem, probeer asseblief later"
+
+#: classes/setup.class.php:653
+#, fuzzy
+msgid "Agents"
+msgstr "Agente"
+
+#: classes/setup.class.php:654
+#, fuzzy
+msgid "Property Fields"
+msgstr "Eiendom velde"
+
+#: classes/setup.class.php:655
+#, fuzzy
+msgid "Registration Fields"
+msgstr "Registrasie velde"
+
+#: classes/setup.class.php:657
+#, fuzzy
+msgid "Extensions"
+msgstr "Uitbreidings"
+
+#: classes/setup.class.php:658
+#, fuzzy
+msgid "Help/Support"
+msgstr "Hulp/ondersteuning"
+
+#: classes/setup.class.php:819 classes/setup.class.php:850
+#: classes/setup.class.php:1151
+msgid "Settings Saved!"
+msgstr "Verstellings Gestoor!"
+
+#: classes/setup.class.php:820 classes/setup.class.php:851
+#: classes/setup.class.php:1152
+#, fuzzy
+msgid "Settings are saved in the database successfully."
+msgstr "Instellings word suksesvol in die databasis gestoor."
+
+#: classes/setup.class.php:831 classes/setup.class.php:854
+#: classes/setup.class.php:1155
+#, fuzzy
+msgid "Failed!"
+msgstr "Het misluk!"
+
+#: classes/setup.class.php:832 classes/setup.class.php:855
+#: classes/setup.class.php:1156
+#, fuzzy
+msgid "There is some error or you did not make any change."
+msgstr "Daar is 'n paar fout of jy het nie enige verandering te maak."
+
+#: classes/setup.class.php:877 classes/setup.class.php:880
+#, fuzzy
+msgid "Property updated."
+msgstr "Eiendom bygewerk."
+
+#: classes/setup.class.php:878
+#, fuzzy
+msgid "Custom field updated."
+msgstr "Pasgemaakte veld opgedateer."
+
+#: classes/setup.class.php:879
+#, fuzzy
+msgid "Custom field deleted."
+msgstr "Pasgemaakte veld geskrap."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:882
+#, fuzzy
+msgid "Property restored to revision"
+msgstr "Eiendom teruggelaai na hersiening"
+
+#: classes/setup.class.php:883
+#, fuzzy
+msgid "Property published."
+msgstr "Eiendom gepubliseer."
+
+#: classes/setup.class.php:884
+#, fuzzy
+msgid "Property saved."
+msgstr "Eiendom gestoor."
+
+#: classes/setup.class.php:885
+#, fuzzy
+msgid "Property submitted."
+msgstr "Eiendom ingedien."
+
+#: classes/setup.class.php:887
+#, fuzzy
+msgid "Property scheduled."
+msgstr "Eiendom geskeduleer."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:889
+#, fuzzy
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/setup.class.php:891
+#, fuzzy
+msgid "Property draft updated."
+msgstr "Eiendomskonsep opgedateer."
+
+#: classes/setup.class.php:897 inc/admin/register-property.php:16
+#, fuzzy
+msgid "View Property"
+msgstr "Bekyk eiendom"
+
+#: classes/setup.class.php:903
+#, fuzzy
+msgid "Preview Property"
+msgstr "Voorskou eiendom"
+
+#: classes/setup.class.php:968
+#, fuzzy
+msgid "Property Page Base"
+msgstr "Property Bladsybasis"
+
+#: classes/setup.class.php:993 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37
+msgid "Type"
+msgstr "Tipe"
+
+#: classes/setup.class.php:994 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+#, fuzzy
+msgid "Purpose"
+msgstr "Doel"
+
+#: classes/setup.class.php:995 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+msgid "Status"
+msgstr "Status"
+
+#: classes/setup.class.php:996
+#, fuzzy
+msgid "Is Featured"
+msgstr "Is Featured"
+
+#: classes/setup.class.php:1024
+#, fuzzy
+msgid "All Types"
+msgstr "Alle tipes"
+
+#: classes/setup.class.php:1036
+#, fuzzy
+msgid "All Purpose"
+msgstr "Alle doel"
+
+#: classes/setup.class.php:1047
+#, fuzzy
+msgid "All Status"
+msgstr "Alle status"
+
+#: classes/shortcodes.class.php:85
+#, fuzzy
+msgid "Passwords did not match!"
+msgstr "Wagwoorde het nie ooreenstem nie!"
+
+#: classes/shortcodes.class.php:103 classes/shortcodes.class.php:449
+#: classes/shortcodes.class.php:900
+#, fuzzy
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+"Live Preview is nie beskikbaar in Elementor wysig af, maar sal werk wanneer "
+"die besoek van hierdie bladsy."
+
+#: classes/shortcodes.class.php:109 classes/widgets/search-properties.php:104
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+#, fuzzy
+msgid "Search"
+msgstr "Soek"
+
+#: classes/shortcodes.class.php:110
+#, fuzzy
+msgid "More Filters"
+msgstr "Meer filters"
+
+#: classes/shortcodes.class.php:196
+#, fuzzy
+msgid "Logging In, Please Wait..."
+msgstr "Teken in, wag asseblief ..."
+
+#: classes/shortcodes.class.php:388 classes/shortcodes.class.php:423
+#, fuzzy
+msgid "Are you sure to delete this property?"
+msgstr "Is jy seker dat jy hierdie eiendom skrap?"
+
+#: classes/shortcodes.class.php:389 classes/shortcodes.class.php:424
+#: inc/arrays/property-fields.php:226
+#, fuzzy
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/shortcodes.class.php:390 classes/shortcodes.class.php:425
+#: inc/arrays/property-fields.php:225
+msgid "No"
+msgstr "Nee"
+
+#: classes/shortcodes.class.php:391 classes/shortcodes.class.php:426
+#: classes/shortcodes.class.php:1475
+#, fuzzy
+msgid "Done"
+msgstr "Gedoen"
+
+#: classes/shortcodes.class.php:1109 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "Teken uit"
+
+#: classes/shortcodes.class.php:1300
+#, fuzzy
+msgid "There is no property having ID "
+msgstr "Daar is geen eiendom met ID nie"
+
+#: classes/shortcodes.class.php:1339
+#, fuzzy
+msgid "Successful!"
+msgstr "Suksesvolle!"
+
+#: classes/shortcodes.class.php:1500
+#, fuzzy
+msgid "Changes Saved!"
+msgstr "Veranderinge gestoor!"
+
+#: classes/shortcodes.class.php:1571
+#, fuzzy
+msgid "There was an error. Please try again after reloading page."
+msgstr "Daar was 'n fout. Probeer asseblief weer na herlaai bladsy."
+
+#: classes/shortcodes.class.php:1579 classes/shortcodes.class.php:1615
+#, fuzzy
+msgid "Username or Email already exists"
+msgstr "Gebruikersnaam of e-pos bestaan reeds"
+
+#: classes/shortcodes.class.php:1587 classes/shortcodes.class.php:1628
+#, fuzzy
+msgid "Registered Successfully, please wait until admin approves."
+msgstr "Suksesvol geregistreer, wag asseblief tot admin keur."
+
+#: classes/shortcodes.class.php:1589 classes/shortcodes.class.php:1630
+#, fuzzy
+msgid "Error, please try later"
+msgstr "Fout, probeer asseblief later"
+
+#: classes/shortcodes.class.php:1651
+#, fuzzy
+msgid "Deleted"
+msgstr "Geskrap"
+
+#: classes/shortcodes.class.php:1653
+#, fuzzy
+msgid "Sorry! You can not delete this property."
+msgstr "Jammer! Jy kan nie hierdie eiendom skrap nie."
+
+#: classes/shortcodes.class.php:1715
+#, fuzzy
+msgid "Choose Picture"
+msgstr "Kies prent"
+
+#: classes/shortcodes.class.php:1715 classes/shortcodes.class.php:1758
+#: core.functions.php:639
+#, fuzzy
+msgid "Add"
+msgstr "Voeg"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+#, fuzzy
+msgid "Select attachments for property"
+msgstr "Kies aanhegsels vir eiendom"
+
+#: classes/shortcodes.class.php:1758 core.functions.php:639
+#, fuzzy
+msgid "Upload"
+msgstr "Oplaai"
+
+#: classes/shortcodes.class.php:1770 core.functions.php:626
+#: core.functions.php:740 core.functions.php:759 core.functions.php:797
+#, fuzzy
+msgid "Any"
+msgstr "Enige"
+
+#: classes/shortcodes.class.php:1828
+#, fuzzy
+msgid "Sort By Date"
+msgstr "Sorteer volgens datum"
+
+#: classes/shortcodes.class.php:1832
+#, fuzzy
+msgid "Sort By Title"
+msgstr "Rangskik volgens titel"
+
+#: classes/shortcodes.class.php:1836
+#, fuzzy
+msgid "Sort By Price : High to Low"
+msgstr "Rangskik volgens prys: hoog tot laag"
+
+#: classes/shortcodes.class.php:1840
+#, fuzzy
+msgid "Sort By Price : Low to High"
+msgstr "Rangskik volgens prys: laag tot hoog"
+
+#: classes/widgets/mortgage-calculator.php:13
+#, fuzzy
+msgid "REM - Mortgage Calculator"
+msgstr "REM-verband sakrekenaar"
+
+#: classes/widgets/mortgage-calculator.php:14
+#, fuzzy
+msgid "Displays Mortgage Calculator"
+msgstr "Vertoon verbandsakrekenaar"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "Verkoopprys"
+
+#: classes/widgets/mortgage-calculator.php:45
+#, fuzzy
+msgid "Down payment"
+msgstr "Down betaling"
+
+#: classes/widgets/mortgage-calculator.php:49
+#, fuzzy
+msgid "Interest Rate"
+msgstr "Rentekoers"
+
+#: classes/widgets/mortgage-calculator.php:53
+#, fuzzy
+msgid "Term"
+msgstr "Termyn"
+
+#: classes/widgets/mortgage-calculator.php:53
+#, fuzzy
+msgid "years"
+msgstr "Jaar"
+
+#: classes/widgets/mortgage-calculator.php:56
+#, fuzzy
+msgid "Calculate"
+msgstr "Bereken"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:121 classes/widgets/tags-cloud.php:34
+#: core.functions.php:700 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36
+msgid "Title"
+msgstr "Titel"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "REM-soek-eiendom"
+
+#: classes/widgets/search-properties.php:16
+#, fuzzy
+msgid "Search Properties"
+msgstr "Soek eienskappe"
+
+#: classes/widgets/search-properties.php:74 shortcodes/search-property.php:43
+#, fuzzy
+msgid "Keywords"
+msgstr "Trefwoorde"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:156 core.functions.php:678
+#: core.functions.php:1236 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:206
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:608
+#: shortcodes/page-builders/all-setting-fields.php:941
+msgid "Order"
+msgstr "Stuur aansoek"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:165 core.functions.php:699
+#: core.functions.php:1237 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:571
+#: shortcodes/page-builders/all-setting-fields.php:622
+#: shortcodes/page-builders/all-setting-fields.php:951
+msgid "Order By"
+msgstr "Bestelling deur"
+
+#: classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:174 core.functions.php:707
+#: core.functions.php:1238 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:220
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:445
+#: shortcodes/page-builders/all-setting-fields.php:575
+#: shortcodes/page-builders/all-setting-fields.php:626
+#: shortcodes/page-builders/all-setting-fields.php:737
+#, fuzzy
+msgid "Agent"
+msgstr "Agent"
+
+#: classes/widgets/search-properties.php:136 core.functions.php:1230
+#, fuzzy
+msgid "Search Field"
+msgstr "Soek veld"
+
+#: classes/widgets/search-properties.php:192
+#, fuzzy
+msgid "Enable Auto Complete Fields"
+msgstr "Aktiveer outomatiese volledige velde"
+
+#: classes/widgets/search-properties.php:194
+#, fuzzy
+msgid "It will auto suggest words in text fields as user type in."
+msgstr "Dit sal outomaties stel woorde in teks velde as gebruiker tipe in."
+
+#: classes/widgets/search-properties.php:197
+#, fuzzy
+msgid "Search Results Page"
+msgstr "Soekuitslae-bladsy"
+
+#: classes/widgets/search-properties.php:218
+#: inc/menu/render-admin-settings.php:167
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "Geen bladsye gevind!"
+
+#: classes/widgets/search-properties.php:221
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr ""
+"Plak volgende kortkode in die geselekteerde bladsy om resultate te vertoon"
+
+#: classes/widgets/tags-cloud.php:13
+#, fuzzy
+msgid "REM - Tags Cloud"
+msgstr "REM-Tags wolk"
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "Wys eienskappe-etikette-wolk"
+
+#: core.functions.php:124
+msgid "United Arab Emirates dirham"
+msgstr "Vereenigde Arabiese Emirate dirham"
+
+#: core.functions.php:125
+msgid "Afghan afghani"
+msgstr "Afghanistan"
+
+#: core.functions.php:126
+msgid "Albanian lek"
+msgstr "AlbaniÃ"
+
+#: core.functions.php:127
+msgid "Armenian dram"
+msgstr "ArmeniÃ"
+
+#: core.functions.php:128
+msgid "Netherlands Antillean guilder"
+msgstr "Nederland Antille"
+
+#: core.functions.php:129
+msgid "Angolan kwanza"
+msgstr "Angola"
+
+#: core.functions.php:130
+msgid "Argentine peso"
+msgstr "Argentinië"
+
+#: core.functions.php:131
+msgid "Australian dollar"
+msgstr "Australiese dollar"
+
+#: core.functions.php:132
+msgid "Aruban florin"
+msgstr "Aruban florin"
+
+#: core.functions.php:133
+msgid "Azerbaijani manat"
+msgstr "Azerbaijani manat"
+
+#: core.functions.php:134
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnië en Herzegovina"
+
+#: core.functions.php:135
+msgid "Barbadian dollar"
+msgstr "Barbadiese dollar"
+
+#: core.functions.php:136
+msgid "Bangladeshi taka"
+msgstr "Bangladesh"
+
+#: core.functions.php:137
+msgid "Bulgarian lev"
+msgstr "Bulgaarse lev"
+
+#: core.functions.php:138
+msgid "Bahraini dinar"
+msgstr "Bahreinse dinar"
+
+#: core.functions.php:139
+#, fuzzy
+msgid "Burundian franc"
+msgstr "Burundian Frank"
+
+#: core.functions.php:140
+#, fuzzy
+msgid "Bermudian dollar"
+msgstr "Bermudian dollar"
+
+#: core.functions.php:141
+#, fuzzy
+msgid "Brunei dollar"
+msgstr "Broenei dollar"
+
+#: core.functions.php:142
+#, fuzzy
+msgid "Bolivian boliviano"
+msgstr "Boliviaanse boliviano"
+
+#: core.functions.php:143
+msgid "Brazilian real"
+msgstr "Brazilian real"
+
+#: core.functions.php:144
+#, fuzzy
+msgid "Bahamian dollar"
+msgstr "Bahamian dollar"
+
+#: core.functions.php:145
+#, fuzzy
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: core.functions.php:146
+#, fuzzy
+msgid "Bhutanese ngultrum"
+msgstr "Bhoetanese ngultrum"
+
+#: core.functions.php:147
+#, fuzzy
+msgid "Botswana pula"
+msgstr "Botswana pula"
+
+#: core.functions.php:148
+#, fuzzy
+msgid "Belarusian ruble"
+msgstr "Belo-Russies roebel"
+
+#: core.functions.php:149
+#, fuzzy
+msgid "Belize dollar"
+msgstr "Belize dollar"
+
+#: core.functions.php:150
+msgid "Canadian dollar"
+msgstr "Kanadese dollar"
+
+#: core.functions.php:151
+#, fuzzy
+msgid "Congolese franc"
+msgstr "Kongolese Frank"
+
+#: core.functions.php:152
+msgid "Swiss franc"
+msgstr "Switserse frank"
+
+#: core.functions.php:153
+msgid "Chilean peso"
+msgstr "Chileense peso"
+
+#: core.functions.php:154
+msgid "Chinese yuan"
+msgstr "Sjinese yuan renminbi"
+
+#: core.functions.php:155
+msgid "Colombian peso"
+msgstr "Kolombi peso"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa Rican Colón"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Cuban convertible peso"
+msgstr "Kubaanse omskepbare Peso"
+
+#: core.functions.php:158
+#, fuzzy
+msgid "Cuban peso"
+msgstr "Kubaanse Peso"
+
+#: core.functions.php:159
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "Kaapse Verdean escudo"
+
+#: core.functions.php:160
+msgid "Czech koruna"
+msgstr "Tsjeggiese kroon"
+
+#: core.functions.php:161
+#, fuzzy
+msgid "Djiboutian franc"
+msgstr "Die Djiboufrank"
+
+#: core.functions.php:162
+msgid "Danish krone"
+msgstr "Deense kroon"
+
+#: core.functions.php:163
+#, fuzzy
+msgid "Dominican peso"
+msgstr "Dominikaanse Peso"
+
+#: core.functions.php:164
+#, fuzzy
+msgid "Algerian dinar"
+msgstr "Algerynse dinar"
+
+#: core.functions.php:165
+#, fuzzy
+msgid "Egyptian pound"
+msgstr "Egiptiese pond"
+
+#: core.functions.php:166
+msgid "Eritrean nakfa"
+msgstr "Eritrean nakfa"
+
+#: core.functions.php:167
+msgid "Ethiopian birr"
+msgstr "Ethiopian birr"
+
+#: core.functions.php:168
+#, fuzzy
+msgid "Euro"
+msgstr "Euro"
+
+#: core.functions.php:169
+msgid "Fijian dollar"
+msgstr "Fijian dollar"
+
+#: core.functions.php:170
+msgid "Falkland Islands pound"
+msgstr "Falkland Islands pond"
+
+#: core.functions.php:171
+#, fuzzy
+msgid "Pound sterling"
+msgstr "Pond sterling"
+
+#: core.functions.php:172
+msgid "Georgian lari"
+msgstr "Georgian lari"
+
+#: core.functions.php:173
+msgid "Guernsey pound"
+msgstr "Guernsey pond"
+
+#: core.functions.php:174
+msgid "Ghana cedi"
+msgstr "Ghana cedi"
+
+#: core.functions.php:175
+msgid "Gibraltar pound"
+msgstr "Gibraltar"
+
+#: core.functions.php:176
+msgid "Gambian dalasi"
+msgstr "Colombië"
+
+#: core.functions.php:177
+msgid "Guinean franc"
+msgstr "Guinea frank"
+
+#: core.functions.php:178
+msgid "Guatemalan quetzal"
+msgstr "Gautemala quetzal"
+
+#: core.functions.php:179
+msgid "Guyanese dollar"
+msgstr "Guyanese dollar"
+
+#: core.functions.php:180
+msgid "Hong Kong dollar"
+msgstr "Hongkong dollar"
+
+#: core.functions.php:181
+msgid "Honduran lempira"
+msgstr "Honduran lempira"
+
+#: core.functions.php:182
+msgid "Croatian kuna"
+msgstr "Kroatiese kuna"
+
+#: core.functions.php:183
+msgid "Haitian gourde"
+msgstr "Haitian gourde"
+
+#: core.functions.php:184
+msgid "Hungarian forint"
+msgstr "Hongaarse forint"
+
+#: core.functions.php:185
+msgid "Indonesian rupiah"
+msgstr "Indonesiese rupee"
+
+#: core.functions.php:186
+msgid "Israeli new shekel"
+msgstr "Israel se nuwe sjekel"
+
+#: core.functions.php:187
+msgid "Manx pound"
+msgstr "Manx pond"
+
+#: core.functions.php:188
+msgid "Indian rupee"
+msgstr "Indiese rupee"
+
+#: core.functions.php:189
+msgid "Iraqi dinar"
+msgstr "Iraqi dinar"
+
+#: core.functions.php:190
+msgid "Iranian rial"
+msgstr "Iranian rial"
+
+#: core.functions.php:191
+msgid "Icelandic kr&oacute;na"
+msgstr "Icelandic króna"
+
+#: core.functions.php:192
+msgid "Jersey pound"
+msgstr "Jersey pond"
+
+#: core.functions.php:193
+msgid "Jamaican dollar"
+msgstr "Jamaika doller"
+
+#: core.functions.php:194
+msgid "Jordanian dinar"
+msgstr "Jordanian dinar"
+
+#: core.functions.php:195
+msgid "Japanese yen"
+msgstr "Japannese jen"
+
+#: core.functions.php:196
+msgid "Kenyan shilling"
+msgstr "Kenyan sjilling"
+
+#: core.functions.php:197
+msgid "Kyrgyzstani som"
+msgstr "Kyrgyzstani som"
+
+#: core.functions.php:198
+msgid "Cambodian riel"
+msgstr "Cambodian riel"
+
+#: core.functions.php:199
+msgid "Comorian franc"
+msgstr "Comorian frank"
+
+#: core.functions.php:200
+msgid "North Korean won"
+msgstr "Noord-Koreaanse won"
+
+#: core.functions.php:201
+msgid "South Korean won"
+msgstr "Suid-Koreaanse won"
+
+#: core.functions.php:202
+msgid "Kuwaiti dinar"
+msgstr "Kuweit-dinar"
+
+#: core.functions.php:203
+msgid "Cayman Islands dollar"
+msgstr "Cayman Eilande Doller"
+
+#: core.functions.php:204
+msgid "Kazakhstani tenge"
+msgstr "Kazakhstan-tenge"
+
+#: core.functions.php:205
+msgid "Lao kip"
+msgstr "Lao kip"
+
+#: core.functions.php:206
+msgid "Lebanese pound"
+msgstr "Lebanese pound"
+
+#: core.functions.php:207
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankan rupee"
+
+#: core.functions.php:208
+msgid "Liberian dollar"
+msgstr "Liberian doller"
+
+#: core.functions.php:209
+msgid "Lesotho loti"
+msgstr "Lesotho loti"
+
+#: core.functions.php:210
+msgid "Libyan dinar"
+msgstr "Libyan dinar"
+
+#: core.functions.php:211
+msgid "Moroccan dirham"
+msgstr "Moroccan dirham"
+
+#: core.functions.php:212
+msgid "Moldovan leu"
+msgstr "Moldovan leu"
+
+#: core.functions.php:213
+msgid "Malagasy ariary"
+msgstr "Malagasy ariary"
+
+#: core.functions.php:214
+msgid "Macedonian denar"
+msgstr "Macedonian denar"
+
+#: core.functions.php:215
+msgid "Burmese kyat"
+msgstr "Birmaanse Kyat"
+
+#: core.functions.php:216
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongoolse tögrög"
+
+#: core.functions.php:217
+msgid "Macanese pataca"
+msgstr "Macanese pataca"
+
+#: core.functions.php:218
+msgid "Mauritanian ouguiya"
+msgstr "Mauritanië ouguiya"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "Mauritian ROEPEE"
+
+#: core.functions.php:220
+msgid "Maldivian rufiyaa"
+msgstr "Maldivian rufiyaa"
+
+#: core.functions.php:221
+msgid "Malawian kwacha"
+msgstr "Malawian kwacha"
+
+#: core.functions.php:222
+msgid "Mexican peso"
+msgstr "Mexikaanse peso"
+
+#: core.functions.php:223
+msgid "Malaysian ringgit"
+msgstr "Maleisiese ringgit"
+
+#: core.functions.php:224
+msgid "Mozambican metical"
+msgstr "Mozambican metical"
+
+#: core.functions.php:225
+#, fuzzy
+msgid "Namibian dollar"
+msgstr "Namibiese dollar"
+
+#: core.functions.php:226
+msgid "Nigerian naira"
+msgstr "Nigerië naira"
+
+#: core.functions.php:227
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguaanse Cordoba"
+
+#: core.functions.php:228
+msgid "Norwegian krone"
+msgstr "Noorse kroon"
+
+#: core.functions.php:229
+msgid "Nepalese rupee"
+msgstr "Nepalese rupee"
+
+#: core.functions.php:230
+msgid "New Zealand dollar"
+msgstr "Nieu-Seelandse doller"
+
+#: core.functions.php:231
+msgid "Omani rial"
+msgstr "Omani rial"
+
+#: core.functions.php:232
+msgid "Panamanian balboa"
+msgstr "Panamanian balboa"
+
+#: core.functions.php:233
+msgid "Peruvian nuevo sol"
+msgstr "Peruvian nuevo sol"
+
+#: core.functions.php:234
+msgid "Papua New Guinean kina"
+msgstr "Papua New Guinean kina"
+
+#: core.functions.php:235
+msgid "Philippine peso"
+msgstr "Filippynse peso"
+
+#: core.functions.php:236
+msgid "Pakistani rupee"
+msgstr "Pakistanse rupee"
+
+#: core.functions.php:237
+msgid "Polish z&#x142;oty"
+msgstr "Pools złoty"
+
+#: core.functions.php:238
+msgid "Transnistrian ruble"
+msgstr "Transnistriese roebel"
+
+#: core.functions.php:239
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayan guaraní;"
+
+#: core.functions.php:240
+msgid "Qatari riyal"
+msgstr "Qatari riyal"
+
+#: core.functions.php:241
+msgid "Romanian leu"
+msgstr "Romanian leu"
+
+#: core.functions.php:242
+msgid "Serbian dinar"
+msgstr "Serbian dinar"
+
+#: core.functions.php:243
+msgid "Russian ruble"
+msgstr "Russian ruble"
+
+#: core.functions.php:244
+#, fuzzy
+msgid "Rwandan franc"
+msgstr "Rwandese Frank"
+
+#: core.functions.php:245
+msgid "Saudi riyal"
+msgstr "Saudi riyal"
+
+#: core.functions.php:246
+msgid "Solomon Islands dollar"
+msgstr "Solomon Islands doller"
+
+#: core.functions.php:247
+#, fuzzy
+msgid "Seychellois rupee"
+msgstr "Seychellois ROEPEE"
+
+#: core.functions.php:248
+msgid "Sudanese pound"
+msgstr "Sudanese pond"
+
+#: core.functions.php:249
+msgid "Swedish krona"
+msgstr "Sweedse kroon"
+
+#: core.functions.php:250
+msgid "Singapore dollar"
+msgstr "Singapoer-doller"
+
+#: core.functions.php:251
+msgid "Saint Helena pound"
+msgstr "Saint Helena pond"
+
+#: core.functions.php:252
+#, fuzzy
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonean Leone"
+
+#: core.functions.php:253
+#, fuzzy
+msgid "Somali shilling"
+msgstr "Somaliese sjieling"
+
+#: core.functions.php:254
+#, fuzzy
+msgid "Surinamese dollar"
+msgstr "Surinaamse dollar"
+
+#: core.functions.php:255
+#, fuzzy
+msgid "South Sudanese pound"
+msgstr "Suid-Sudanese pond"
+
+#: core.functions.php:256
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "São Tomé en Príncipe dobra"
+
+#: core.functions.php:257
+#, fuzzy
+msgid "Syrian pound"
+msgstr "Siriese pond"
+
+#: core.functions.php:258
+#, fuzzy
+msgid "Swazi lilangeni"
+msgstr "Swazi lilangeni"
+
+#: core.functions.php:259
+msgid "Thai baht"
+msgstr "Thai baht"
+
+#: core.functions.php:260
+msgid "Tajikistani somoni"
+msgstr "Tajikistani somoni"
+
+#: core.functions.php:261
+msgid "Turkmenistan manat"
+msgstr "Turkmenistan Manat"
+
+#: core.functions.php:262
+msgid "Tunisian dinar"
+msgstr "Tunisiese dinar"
+
+#: core.functions.php:263
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongaanse pa'anga"
+
+#: core.functions.php:264
+msgid "Turkish lira"
+msgstr "Turkish lira"
+
+#: core.functions.php:265
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad en Tobago Doller"
+
+#: core.functions.php:266
+msgid "New Taiwan dollar"
+msgstr "Nuwe Taiwanese doller"
+
+#: core.functions.php:267
+msgid "Tanzanian shilling"
+msgstr "Tanzanian sjilling"
+
+#: core.functions.php:268
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainian hryvnia"
+
+#: core.functions.php:269
+msgid "Ugandan shilling"
+msgstr "Ugandan sjilling"
+
+#: core.functions.php:270
+#, fuzzy
+msgid "United States dollar"
+msgstr "Verenigde State dollar"
+
+#: core.functions.php:271
+msgid "Uruguayan peso"
+msgstr "Uruguayan peso"
+
+#: core.functions.php:272
+msgid "Uzbekistani som"
+msgstr "Uzbekistani som"
+
+#: core.functions.php:273
+#, fuzzy
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelaanse bolívar"
+
+#: core.functions.php:274
+#, fuzzy
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Viëtnamees đồng"
+
+#: core.functions.php:275
+#, fuzzy
+msgid "Vanuatu vatu"
+msgstr "Vanuatu vatu"
+
+#: core.functions.php:276
+#, fuzzy
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoan tālā"
+
+#: core.functions.php:277
+#, fuzzy
+msgid "Central African CFA franc"
+msgstr "Sentraal-Afrikaanse CFA Frank"
+
+#: core.functions.php:278
+#, fuzzy
+msgid "East Caribbean dollar"
+msgstr "Oos Karibiese dollar"
+
+#: core.functions.php:279
+#, fuzzy
+msgid "West African CFA franc"
+msgstr "Wes-Afrikaanse CFA Frank"
+
+#: core.functions.php:280
+#, fuzzy
+msgid "CFP franc"
+msgstr "CFP Frank"
+
+#: core.functions.php:281
+#, fuzzy
+msgid "Yemeni rial"
+msgstr "Yemeni RIAL"
+
+#: core.functions.php:282
+#, fuzzy
+msgid "South African rand"
+msgstr "Suid-Afrikaanse rand"
+
+#: core.functions.php:283
+#, fuzzy
+msgid "Zambian kwacha"
+msgstr "Zambiese kwacha"
+
+#: core.functions.php:558
+#, fuzzy
+msgid "Internal Structure"
+msgstr "Interne struktuur"
+
+#: core.functions.php:560
+#, fuzzy
+msgid "Attachments"
+msgstr "Aanhegsels"
+
+#: core.functions.php:561
+#, fuzzy
+msgid "Video"
+msgstr "Video"
+
+#: core.functions.php:562
+#, fuzzy
+msgid "Private Fields"
+msgstr "Privaat velde"
+
+#: core.functions.php:574
+#, fuzzy
+msgid "Personal Info"
+msgstr "Persoonlike inligting"
+
+#: core.functions.php:575
+#, fuzzy
+msgid "Social Profiles"
+msgstr "Sosiale profiele"
+
+#: core.functions.php:576
+#, fuzzy
+msgid "Skills"
+msgstr "Vaardighede"
+
+#: core.functions.php:592
+#, fuzzy
+msgid "Style 1 - Inline"
+msgstr "Styl 1-inlyn"
+
+#: core.functions.php:593
+#, fuzzy
+msgid "Style 2 - Static Box"
+msgstr "Styl 2-statiese kassie"
+
+#: core.functions.php:594
+#, fuzzy
+msgid "Style 3 - Hover Box"
+msgstr "Styl 3-Hover boks"
+
+#: core.functions.php:595
+#, fuzzy
+msgid "Style 4 - Mini Box"
+msgstr "Styl 4-mini Box"
+
+#: core.functions.php:596
+#, fuzzy
+msgid "Style 5 - Full Box"
+msgstr "Styl 5-volledige boks"
+
+#: core.functions.php:597
+#, fuzzy
+msgid "Style 6 - Fade Thumbnails"
+msgstr "Styl 6-vervaag posseëlprentjies"
+
+#: core.functions.php:598
+#, fuzzy
+msgid "Style 7 - Map Box"
+msgstr "Styl 7-kaart boks"
+
+#: core.functions.php:662
+#, fuzzy
+msgid "NO"
+msgstr "Nee"
+
+#: core.functions.php:662
+#, fuzzy
+msgid "YES"
+msgstr "Ja"
+
+#: core.functions.php:679 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:210
+#: shortcodes/page-builders/all-setting-fields.php:565
+#: shortcodes/page-builders/all-setting-fields.php:612
+#: shortcodes/page-builders/all-setting-fields.php:945
+msgid "Descending"
+msgstr "Dalend"
+
+#: core.functions.php:680 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:209
+#: shortcodes/page-builders/all-setting-fields.php:564
+#: shortcodes/page-builders/all-setting-fields.php:611
+#: shortcodes/page-builders/all-setting-fields.php:944
+msgid "Ascending"
+msgstr "Stygend"
+
+#: core.functions.php:685
+msgid "Tag"
+msgstr "Etiket"
+
+#: core.functions.php:701 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:219
+#: shortcodes/page-builders/all-setting-fields.php:574
+#: shortcodes/page-builders/all-setting-fields.php:625
+#, fuzzy
+msgid "Date"
+msgstr "Datum"
+
+#: core.functions.php:702 core.functions.php:840 core.functions.php:852
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:578
+#, fuzzy
+msgid "Price"
+msgstr "Prys"
+
+#: core.functions.php:855
+msgid "Min"
+msgstr "Min"
+
+#: core.functions.php:857
+msgid "Max"
+msgstr "Maks"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+#, fuzzy
+msgid "Select images for property gallery"
+msgstr "Kies beelde vir eiendomgalery"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr "Voeg by"
+
+#: inc/admin/property-images-metabox.php:3
+#, fuzzy
+msgid "Upload Images"
+msgstr "Laai prente"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:91
+#: shortcodes/edit-property.php:118
+#, fuzzy
+msgid "Type to Search..."
+msgstr "Tik om te soek ..."
+
+#: inc/admin/property-location-map.php:12
+#, fuzzy
+msgid "Search the address on search bar. "
+msgstr "Deursoek die adres op soekbalk."
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:96
+#: shortcodes/edit-property.php:122
+#, fuzzy
+msgid "Drag the pin to the location on the map"
+msgstr "Sleep die PIN na die ligging op die kaart"
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:127
+#: inc/menu/admin-settings-arr.php:198 inc/menu/admin-settings-arr.php:219
+#: inc/menu/admin-settings-arr.php:241 inc/menu/admin-settings-arr.php:261
+#: inc/menu/admin-settings-arr.php:271 inc/menu/admin-settings-arr.php:314
+#: inc/menu/admin-settings-arr.php:325 inc/menu/admin-settings-arr.php:458
+#: inc/menu/admin-settings-arr.php:507 inc/menu/admin-settings-arr.php:1030
+#: inc/menu/admin-settings-arr.php:1040 inc/menu/admin-settings-arr.php:1059
+#: inc/menu/admin-settings-arr.php:1069 inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:268
+#: shortcodes/page-builders/all-setting-fields.php:300
+#: shortcodes/page-builders/all-setting-fields.php:318
+#: shortcodes/page-builders/all-setting-fields.php:329
+#: shortcodes/page-builders/all-setting-fields.php:545
+#: shortcodes/page-builders/all-setting-fields.php:555
+#: shortcodes/page-builders/all-setting-fields.php:660
+#: shortcodes/page-builders/all-setting-fields.php:724
+#, fuzzy
+msgid "Disable"
+msgstr "Deaktiveer"
+
+#: inc/admin/property-location-map.php:23
+#, fuzzy
+msgid "Checking this will disable map for this listing"
+msgstr "Kontroleer dit sal kaart vir hierdie lys deaktiveer"
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+#, fuzzy
+msgid "Properties"
+msgstr "Eienskappe"
+
+#: inc/admin/register-property.php:11
+#, fuzzy
+msgid "Property"
+msgstr "Eiendom"
+
+#: inc/admin/register-property.php:12
+#, fuzzy
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Voeg nuwe eiendom by"
+
+#: inc/admin/register-property.php:13
+#, fuzzy
+msgid "Add New Property"
+msgstr "Voeg nuwe eiendom by"
+
+#: inc/admin/register-property.php:15
+#, fuzzy
+msgid "New Property"
+msgstr "Nuwe eiendom"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+#, fuzzy
+msgid "Search Property"
+msgstr "Soek eiendom"
+
+#: inc/admin/register-property.php:18
+#, fuzzy
+msgid "No Property found"
+msgstr "Geen eiendom gevind nie"
+
+#: inc/admin/register-property.php:19
+#, fuzzy
+msgid "No Property found in Trash"
+msgstr "Geen eiendom in asblik gevind nie"
+
+#: inc/admin/register-property.php:20
+#, fuzzy
+msgid "Parent Property:"
+msgstr "Ouer eiendom:"
+
+#: inc/admin/register-property.php:70
+#, fuzzy
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Eiendom Tags"
+
+#: inc/admin/register-property.php:71
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Etiket"
+
+#: inc/admin/register-property.php:72
+#, fuzzy
+msgid "Search Property Tags"
+msgstr "Deursoek Eiendommerkers"
+
+#: inc/admin/register-property.php:73
+#, fuzzy
+msgid "Popular Tags"
+msgstr "Gewilde etikette"
+
+#: inc/admin/register-property.php:74
+#, fuzzy
+msgid "All Tags"
+msgstr "Alle merkers"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+#, fuzzy
+msgid "Parent Tag"
+msgstr "Moedermerker"
+
+#: inc/admin/register-property.php:77
+#, fuzzy
+msgid "Edit Tag"
+msgstr "Redigeer merker"
+
+#: inc/admin/register-property.php:78
+#, fuzzy
+msgid "Update Tag"
+msgstr "Werk merker by"
+
+#: inc/admin/register-property.php:79
+#, fuzzy
+msgid "Add New Tag"
+msgstr "Voeg nuwe merker by"
+
+#: inc/admin/register-property.php:80
+#, fuzzy
+msgid "New Tag Name"
+msgstr "Nuwe merkernaam"
+
+#: inc/admin/register-property.php:81
+#, fuzzy
+msgid "Add or remove Tags"
+msgstr "Voeg merkers by of verwyder dit"
+
+#: inc/admin/register-property.php:82
+#, fuzzy
+msgid "Choose from most used tags"
+msgstr "Kies uit die meeste gebruikte merkers"
+
+#: inc/admin/register-property.php:83
+#, fuzzy
+msgid " Tags"
+msgstr "Merkers"
+
+#: inc/admin/single-property-fields.php:14
+#, fuzzy
+msgid "Check if property have this option"
+msgstr "Kontroleer of die eiendom hierdie opsie het"
+
+#: inc/ajax/search-property-ajax.php:11
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+#, fuzzy
+msgid "Search Results"
+msgstr "Soekresultate"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+#, fuzzy
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "Jammer! Geen eienskappe gevind nie. Probeer weer soek."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "Naam"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+#, fuzzy
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+#, fuzzy
+msgid "Password"
+msgstr "Wagwoord"
+
+#: inc/arrays/agent-fields.php:52
+#, fuzzy
+msgid "Pepeat Password"
+msgstr "Pepeat wagwoord"
+
+#: inc/arrays/agent-fields.php:61
+#, fuzzy
+msgid "Biographical Info"
+msgstr "Biografiese Info"
+
+#: inc/arrays/agent-fields.php:70
+#, fuzzy
+msgid "Picture of Agent"
+msgstr "Prent van agent"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+msgid "Upload an additional image for your profile"
+msgstr "Laai 'n bykomende beeld vir jou profiel op"
+
+#: inc/arrays/agent-fields.php:80
+#, fuzzy
+msgid "Profile Url"
+msgstr "Profiel URL"
+
+#: inc/arrays/agent-fields.php:81
+#, fuzzy
+msgid "Provide url for agent profile"
+msgstr "Verskaf URL vir agent-profiel"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Telefoonnommer"
+
+#: inc/arrays/agent-fields.php:97
+#, fuzzy
+msgid "Facebook Profile"
+msgstr "Facebook profiel"
+
+#: inc/arrays/agent-fields.php:105
+#, fuzzy
+msgid "Twitter Profile"
+msgstr "Twitter profiel"
+
+#: inc/arrays/agent-fields.php:113
+#, fuzzy
+msgid "Google+ Profile"
+msgstr "Google + profiel"
+
+#: inc/arrays/agent-fields.php:121
+#, fuzzy
+msgid "LinkedIn Profile"
+msgstr "LinkedIn profiel"
+
+#: inc/arrays/agent-fields.php:129
+#, fuzzy
+msgid "Facebook Page"
+msgstr "Facebook bladsy"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+#, fuzzy
+msgid "YouTube"
+msgstr "Youtube"
+
+#: inc/arrays/agent-fields.php:152
+#, fuzzy
+msgid "User Tagline"
+msgstr "Gebruiker Tagline"
+
+#: inc/arrays/agent-fields.php:153
+#, fuzzy
+msgid "Will display under username"
+msgstr "Sal vertoon onder gebruikersnaam"
+
+#: inc/arrays/agent-fields.php:160
+#, fuzzy
+msgid "Skills Level"
+msgstr "Vaardighede"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr ""
+"Vaardigheidsnaam met waarde op elke lyn, byvoorbeeld: eienskappe verkoop, 185"
+
+#: inc/arrays/agent-fields.php:167
+#, fuzzy
+msgid "Contact Form Shortcode"
+msgstr "Kontak vorm Kortkode"
+
+#: inc/arrays/agent-fields.php:168
+#, fuzzy
+msgid "Leave blank for default contact form"
+msgstr "Laat leë vir verstekkontakvorm toe"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "Gereelde prys van eiendom"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+msgid "Before Price"
+msgstr "Voor prys"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display before price, Eg: Starting From"
+msgstr "Teks om voor die prys te vertoon, byvoorbeeld: begin van"
+
+#: inc/arrays/property-fields.php:28
+#, fuzzy
+msgid "After Price"
+msgstr "Na prys"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "Teks om na prys te vertoon, byvoorbeeld:/maand"
+
+#: inc/arrays/property-fields.php:38
+#, fuzzy
+msgid "Sale Price"
+msgstr "Verkoop prys"
+
+#: inc/arrays/property-fields.php:39
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "Verkoop prys van eiendom"
+
+#: inc/arrays/property-fields.php:48
+#, fuzzy
+msgid "Latitude"
+msgstr "Latitude"
+
+#: inc/arrays/property-fields.php:49
+#, fuzzy
+msgid "Latitude of property, will use for map"
+msgstr "Breedte van eiendom, sal gebruik vir kaart"
+
+#: inc/arrays/property-fields.php:58
+#, fuzzy
+msgid "Longitude"
+msgstr "Luglengtegraad"
+
+#: inc/arrays/property-fields.php:59
+#, fuzzy
+msgid "Longitude of property, will use for map"
+msgstr "Lengtegraad eiendom, sal gebruik vir kaart"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:11
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "Provide video URL"
+msgstr "Verskaf video-URL"
+
+#: inc/arrays/property-fields.php:78
+#, fuzzy
+msgid "File Attachments"
+msgstr "Lêer aanhegsels"
+
+#: inc/arrays/property-fields.php:79
+#, fuzzy
+msgid "One file ID per line"
+msgstr "Een lêer-ID per lyn"
+
+#: inc/arrays/property-fields.php:89
+#, fuzzy
+msgid "Property Type"
+msgstr "Tipe eiendom"
+
+#: inc/arrays/property-fields.php:90
+#, fuzzy
+msgid "Choose type of property"
+msgstr "Kies tipe eiendom"
+
+#: inc/arrays/property-fields.php:102
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "Kies doel van eiendom"
+
+#: inc/arrays/property-fields.php:113
+#, fuzzy
+msgid "Choose status of property"
+msgstr "Kies status van eiendom"
+
+#: inc/arrays/property-fields.php:123
+#, fuzzy
+msgid "Bedrooms"
+msgstr "Slaapkamers"
+
+#: inc/arrays/property-fields.php:124
+#, fuzzy
+msgid "Number of bedrooms"
+msgstr "Aantal slaapkamers"
+
+#: inc/arrays/property-fields.php:134
+#, fuzzy
+msgid "Bathrooms"
+msgstr "Badkamers"
+
+#: inc/arrays/property-fields.php:135
+#, fuzzy
+msgid "Number of bathrooms"
+msgstr "Getal badkamers"
+
+#: inc/arrays/property-fields.php:146
+#, fuzzy
+msgid "Size - "
+msgstr "Grootte"
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "Dirección"
+
+#: inc/arrays/property-fields.php:157
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"As breedte en lengtegraad velde leeg is, sal hierdie adres gebruik word vir "
+"die lewering van kaart"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+#, fuzzy
+msgid "State"
+msgstr "Staat"
+
+#: inc/arrays/property-fields.php:178
+#, fuzzy
+msgid "Zip Code"
+msgstr "Zip-kode"
+
+#: inc/arrays/property-fields.php:179
+#, fuzzy
+msgid "Zipcode"
+msgstr "Zipcode"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+#, fuzzy
+msgid "City"
+msgstr "Stad"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+#, fuzzy
+msgid "Country"
+msgstr "Land"
+
+#: inc/arrays/property-fields.php:211
+#, fuzzy
+msgid "Rooms"
+msgstr "Kamers"
+
+#: inc/arrays/property-fields.php:212
+#, fuzzy
+msgid "Number of rooms"
+msgstr "Aantal kamers"
+
+#: inc/arrays/property-fields.php:222
+#, fuzzy
+msgid "Featured Property"
+msgstr "Gewilde eiendom"
+
+#: inc/arrays/property-fields.php:223
+#, fuzzy
+msgid "Make it featured"
+msgstr "Maak dit featured"
+
+#: inc/menu/admin-settings-arr.php:5
+#, fuzzy
+msgid "Style"
+msgstr "Styl"
+
+#: inc/menu/admin-settings-arr.php:11
+msgid "Currency Options"
+msgstr "Geldeenheid Opsies"
+
+#: inc/menu/admin-settings-arr.php:20
+#, fuzzy
+msgid "Currency"
+msgstr "Geldeenheid"
+
+#: inc/menu/admin-settings-arr.php:21
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "Geldeenheidsimbool vir eienskappe"
+
+#: inc/menu/admin-settings-arr.php:28
+msgid "Currency Position"
+msgstr "Geldeenheid posisie"
+
+#: inc/menu/admin-settings-arr.php:30
+#, fuzzy
+msgid "Left"
+msgstr "Links"
+
+#: inc/menu/admin-settings-arr.php:31
+#, fuzzy
+msgid "Right"
+msgstr "Reg"
+
+#: inc/menu/admin-settings-arr.php:32
+#, fuzzy
+msgid "Left with Space"
+msgstr "Links met ruimte"
+
+#: inc/menu/admin-settings-arr.php:33
+#, fuzzy
+msgid "Right with Space"
+msgstr "Reg met ruimte"
+
+#: inc/menu/admin-settings-arr.php:35
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "Posisie van die geldeenheid simbool"
+
+#: inc/menu/admin-settings-arr.php:41
+msgid "Thousand Separator"
+msgstr "Duisend verdeler"
+
+#: inc/menu/admin-settings-arr.php:42
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "Duisend skeiding van vertoning prys"
+
+#: inc/menu/admin-settings-arr.php:49
+msgid "Decimal Separator"
+msgstr "Desimaal verdeler"
+
+#: inc/menu/admin-settings-arr.php:50
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "Desimale skeiding van vertoning prys"
+
+#: inc/menu/admin-settings-arr.php:57
+#, fuzzy
+msgid "Number of Decimals"
+msgstr "Aantal desimale"
+
+#: inc/menu/admin-settings-arr.php:58
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "Aantal desimale punte wat in die vertoonprys getoon word"
+
+#: inc/menu/admin-settings-arr.php:66
+#, fuzzy
+msgid "Property Settings"
+msgstr "Eienskap instellings"
+
+#: inc/menu/admin-settings-arr.php:75
+#, fuzzy
+msgid "Area Unit"
+msgstr "Gebied eenheid"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Verskaf eenheid van gebied bv: vierkante voet"
+
+#: inc/menu/admin-settings-arr.php:82
+#, fuzzy
+msgid "Excerpt Length"
+msgstr "Uittreksel lengte"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "Aantal woorde wat vertoon moet word uit die eiendom uittreksel. Bv: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+#, fuzzy
+msgid "Property Features"
+msgstr "Eiendom funksies"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"Een per reël. Dit sal boksse by jou eienskapredigeerblad voeg om te kies. "
+"Laat leeg om verstek te gebruik"
+
+#: inc/menu/admin-settings-arr.php:96
+#, fuzzy
+msgid "Property Types"
+msgstr "Eiendomtipes"
+
+#: inc/menu/admin-settings-arr.php:97
+#, fuzzy
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Een per reël. Dit sal die eiendom tipes voeg om uit te kies wanneer "
+"eienskappe ingevoer word. Laat leeg om verstek te gebruik"
+
+#: inc/menu/admin-settings-arr.php:103
+#, fuzzy
+msgid "Property Purposes"
+msgstr "Eiendom doeleindes"
+
+#: inc/menu/admin-settings-arr.php:104
+#, fuzzy
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Een per reël. Dit sal eiendomdoeleindes byvoeg om uit te kies wanneer "
+"eienskappe ingevoer word. Laat leeg om verstek te gebruik"
+
+#: inc/menu/admin-settings-arr.php:110
+#, fuzzy
+msgid "Property Statuses"
+msgstr "Eiendom statusse"
+
+#: inc/menu/admin-settings-arr.php:111
+#, fuzzy
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Een per reël. Dit sal eienskapstatus byvoeg om te kies wanneer eienskappe "
+"ingevoer word. Laat leeg om verstek te gebruik"
+
+#: inc/menu/admin-settings-arr.php:117
+#, fuzzy
+msgid "Properties Per Page"
+msgstr "Eienskappe per bladsy"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr "Aantal eienskappe wat jy wil vertoon op argiefbladsye. (Tags ens)"
+
+#: inc/menu/admin-settings-arr.php:125
+#, fuzzy
+msgid "It will enable the special fields for energy efficiency"
+msgstr "Dit sal die spesiale velde vir energie-doeltreffendheid in staat stel"
+
+#: inc/menu/admin-settings-arr.php:128 inc/menu/admin-settings-arr.php:197
+#: inc/menu/admin-settings-arr.php:218 inc/menu/admin-settings-arr.php:240
+#: inc/menu/admin-settings-arr.php:260 inc/menu/admin-settings-arr.php:270
+#: inc/menu/admin-settings-arr.php:313 inc/menu/admin-settings-arr.php:324
+#: inc/menu/admin-settings-arr.php:457 inc/menu/admin-settings-arr.php:508
+#: inc/menu/admin-settings-arr.php:1029 inc/menu/admin-settings-arr.php:1039
+#: inc/menu/admin-settings-arr.php:1058 inc/menu/admin-settings-arr.php:1068
+#: inc/menu/agent/fields/checkbox.php:29 inc/menu/agent/fields/email.php:29
+#: inc/menu/agent/fields/image.php:29 inc/menu/agent/fields/number.php:29
+#: inc/menu/agent/fields/password.php:29 inc/menu/agent/fields/text.php:29
+#: inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:269
+#: shortcodes/page-builders/all-setting-fields.php:301
+#: shortcodes/page-builders/all-setting-fields.php:319
+#: shortcodes/page-builders/all-setting-fields.php:330
+#: shortcodes/page-builders/all-setting-fields.php:544
+#: shortcodes/page-builders/all-setting-fields.php:554
+#: shortcodes/page-builders/all-setting-fields.php:661
+#: shortcodes/page-builders/all-setting-fields.php:725
+#, fuzzy
+msgid "Enable"
+msgstr "Aktiveer"
+
+#: inc/menu/admin-settings-arr.php:137
+#, fuzzy
+msgid "Templates Settings"
+msgstr "Sjablone instellings"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid "Property Page Template"
+msgstr "Eienskapbladsjabloon"
+
+#: inc/menu/admin-settings-arr.php:146
+#, fuzzy
+msgid "Choose single property display layout"
+msgstr "Kies enkele eienskapvertoonuitleg"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/menu/admin-settings-arr.php:149
+#, fuzzy
+msgid "Full Width"
+msgstr "Volle wydte"
+
+#: inc/menu/admin-settings-arr.php:150
+#, fuzzy
+msgid "Left Sidebar"
+msgstr "Linker Kantbalk"
+
+#: inc/menu/admin-settings-arr.php:151 inc/menu/admin-settings-arr.php:161
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "From Theme"
+msgstr "Vanaf tema"
+
+#: inc/menu/admin-settings-arr.php:157
+#, fuzzy
+msgid "Archive Page Template"
+msgstr "Argief bladsy sjabloon"
+
+#: inc/menu/admin-settings-arr.php:158
+#, fuzzy
+msgid "Choose tags and archive properties display layout"
+msgstr "Kies Tags en argief eienskappe vertoon uitleg"
+
+#: inc/menu/admin-settings-arr.php:160 inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "From Plugin"
+msgstr "Vanaf plugin"
+
+#: inc/menu/admin-settings-arr.php:167
+#, fuzzy
+msgid "Agent Page Template"
+msgstr "Agent PAGE Templaat"
+
+#: inc/menu/admin-settings-arr.php:168
+#, fuzzy
+msgid "Choose agent page display layout"
+msgstr "Kies agent-bladsyvertoonuitleg"
+
+#: inc/menu/admin-settings-arr.php:177
+#, fuzzy
+msgid "Enable Agent Template"
+msgstr "Ontsper agent-sjabloon"
+
+#: inc/menu/admin-settings-arr.php:179
+#, fuzzy
+msgid "All Users"
+msgstr "Alle gebruikers"
+
+#: inc/menu/admin-settings-arr.php:180
+#, fuzzy
+msgid "Only Property Agents"
+msgstr "Slegs eiendom agente"
+
+#: inc/menu/admin-settings-arr.php:182
+#, fuzzy
+msgid "Agent Page Template must be set to From Plugin"
+msgstr "Agent PAGE Templaat moet op vanaf plugin gestel word"
+
+#: inc/menu/admin-settings-arr.php:187
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "Houer maksimum wydte"
+
+#: inc/menu/admin-settings-arr.php:188
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Verskaf houer maksimum wydte in px, bv: 1140px"
+
+#: inc/menu/admin-settings-arr.php:194
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "Agent se Kantbalk-kaart"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Aktiveer of deaktiveer verstekagent-kaart en kontakvorm op enkele agent-"
+"bladsy"
+
+#: inc/menu/admin-settings-arr.php:204
+#, fuzzy
+msgid "Agent Card Style"
+msgstr "Agent kaart styl"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Choose agent profile card"
+msgstr "Kies agent-profielkaart"
+
+#: inc/menu/admin-settings-arr.php:207 inc/menu/admin-settings-arr.php:957
+msgid "Style 1"
+msgstr "Styl 1"
+
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:958
+msgid "Style 2"
+msgstr "Styl 2"
+
+#: inc/menu/admin-settings-arr.php:209
+msgid "Style 3"
+msgstr "Styl 3"
+
+#: inc/menu/admin-settings-arr.php:215
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "Agent bladsy kontak vorm"
+
+#: inc/menu/admin-settings-arr.php:216
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr "Aktiveer of deaktiveer kontakvorm op agent-bladsy"
+
+#: inc/menu/admin-settings-arr.php:225
+#, fuzzy
+msgid "Agent Page Sidebar"
+msgstr "Agent PAGE Kantbalk"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "Kies Sidebar vir agent-detailsbladsy"
+
+#: inc/menu/admin-settings-arr.php:231
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "Eiendom redigeer bladsy"
+
+#: inc/menu/admin-settings-arr.php:232
+#, fuzzy
+msgid "Paste shortcode on selected page"
+msgstr "Plak kortkode op geselekteerde bladsy"
+
+#: inc/menu/admin-settings-arr.php:237
+#, fuzzy
+msgid "Fields Help Text"
+msgstr "Velde hulp teks"
+
+#: inc/menu/admin-settings-arr.php:238
+#, fuzzy
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr ""
+"Aktiveer of deaktiveer hulpsikoon met velde wanneer u eienskappe skep/"
+"redigeer."
+
+#: inc/menu/admin-settings-arr.php:249
+#, fuzzy
+msgid "Single Property Page"
+msgstr "Enkele eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:257
+msgid "Map"
+msgstr "Kaart"
+
+#: inc/menu/admin-settings-arr.php:258
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr "Wys of versteek eienskapkaart op enkele eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:267
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "Property Bladsykantbalk-kaart"
+
+#: inc/menu/admin-settings-arr.php:268
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Aktiveer of deaktiveer verstekagent-kaart en kontakvorm op enkele "
+"eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:277
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "Property Bladsykantbalk"
+
+#: inc/menu/admin-settings-arr.php:278
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "Kies Sidebar vir enkele eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:283
+#, fuzzy
+msgid "Gallery Slider Width"
+msgstr "Galery skuiwer breedte"
+
+#: inc/menu/admin-settings-arr.php:284
+#, fuzzy
+msgid "Slider width with unit. Eg: "
+msgstr "Glyer breedte met eenheid. Bv:"
+
+#: inc/menu/admin-settings-arr.php:290
+#, fuzzy
+msgid "Gallery Slider Height"
+msgstr "Galery-Glyhoogte"
+
+#: inc/menu/admin-settings-arr.php:291
+#, fuzzy
+msgid "Slider height with unit. Eg: "
+msgstr "Glyhoogte met eenheid. Bv:"
+
+#: inc/menu/admin-settings-arr.php:297
+#, fuzzy
+msgid "Gallery Slider Fit"
+msgstr "Galery-glyer pas"
+
+#: inc/menu/admin-settings-arr.php:298
+#, fuzzy
+msgid "How to fit an image into slider"
+msgstr "Hoe om 'n prent in die glyer te pas"
+
+#: inc/menu/admin-settings-arr.php:300
+#, fuzzy
+msgid "Cover"
+msgstr "Bedek"
+
+#: inc/menu/admin-settings-arr.php:301
+#, fuzzy
+msgid "Contain"
+msgstr "Bevat"
+
+#: inc/menu/admin-settings-arr.php:302
+#, fuzzy
+msgid "Scale Down"
+msgstr "Skaal af"
+
+#: inc/menu/admin-settings-arr.php:303
+#, fuzzy
+msgid "None"
+msgstr "Geen"
+
+#: inc/menu/admin-settings-arr.php:310
+#, fuzzy
+msgid "Gallery Featured Image"
+msgstr "Gallery Featured beeld"
+
+#: inc/menu/admin-settings-arr.php:311
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "Ontsper die gewilde beeld in die glyer te vertoon"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+msgid "Display Property ID"
+msgstr "Wys Eiendomid"
+
+#: inc/menu/admin-settings-arr.php:322
+#, fuzzy
+msgid "Enable to display property id on frontend"
+msgstr "Ontsper om eienskapid op Frontend te wys"
+
+#: inc/menu/admin-settings-arr.php:332
+#, fuzzy
+msgid "Date Field Format"
+msgstr "Datum veld formaat"
+
+#: inc/menu/admin-settings-arr.php:333
+#, fuzzy
+msgid "Provide date format if you are using date field. Eg: "
+msgstr "Verskaf datumformaat as jy die datumveld gebruik. Bv:"
+
+#: inc/menu/admin-settings-arr.php:339
+#, fuzzy
+msgid "Property Settings Tabs"
+msgstr "Eienskapinstellingsduimgidse"
+
+#: inc/menu/admin-settings-arr.php:340
+#, fuzzy
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"Verskaf bykomende paneelopskrifte vir enkele eienskapbladsye en admin-"
+"instellings, elk per reël"
+
+#: inc/menu/admin-settings-arr.php:347
+#, fuzzy
+msgid "Listings"
+msgstr "Se noteringsvereistes"
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "Property Archive Listing Style"
+msgstr "Property Argieflystyl"
+
+#: inc/menu/admin-settings-arr.php:356
+#, fuzzy
+msgid "Listing style for default properties page"
+msgstr "Lys styl vir verstek eienskappe bladsy"
+
+#: inc/menu/admin-settings-arr.php:362
+#, fuzzy
+msgid "Archive Listing Columns"
+msgstr "Argiveer Lykolomme"
+
+#: inc/menu/admin-settings-arr.php:363 inc/menu/admin-settings-arr.php:440
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "Kies kolomme in 'n ry vir boks style"
+
+#: inc/menu/admin-settings-arr.php:365 inc/menu/admin-settings-arr.php:442
+#, fuzzy
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:366 inc/menu/admin-settings-arr.php:443
+#, fuzzy
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:367 inc/menu/admin-settings-arr.php:444
+#, fuzzy
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:368 inc/menu/admin-settings-arr.php:445
+#, fuzzy
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:369 inc/menu/admin-settings-arr.php:446
+#, fuzzy
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:375
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "Inlyn eiendom bar velde"
+
+#: inc/menu/admin-settings-arr.php:376
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"Verskaf veldname elk per lyn om op die boonste balk van inline-"
+"eienskaplystyl te vertoon"
+
+#: inc/menu/admin-settings-arr.php:381
+#, fuzzy
+msgid "Listing Features Type"
+msgstr "Lys kenmerke tipe"
+
+#: inc/menu/admin-settings-arr.php:382
+#, fuzzy
+msgid "Features are displayed on property listings"
+msgstr "Kenmerke word op eiendomsnoteringsvereistes vertoon"
+
+#: inc/menu/admin-settings-arr.php:384
+#, fuzzy
+msgid "Icons and Data"
+msgstr "Ikone en data"
+
+#: inc/menu/admin-settings-arr.php:385
+#, fuzzy
+msgid "Labels and Data"
+msgstr "Etikette en data"
+
+#: inc/menu/admin-settings-arr.php:386
+#, fuzzy
+msgid "Icons, Labels and Data"
+msgstr "Ikone, etikette en data"
+
+#: inc/menu/admin-settings-arr.php:392
+#, fuzzy
+msgid "Custom Listing Features"
+msgstr "Pasgemaakte Lyskenmerke"
+
+#: inc/menu/admin-settings-arr.php:393
+#, fuzzy
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+"Wys pasgemaakte eienskapskenmerke. (Label, veldnaam, font ontsagwekkende "
+"klas) elke per reël. Voorbeeld:"
+
+#: inc/menu/admin-settings-arr.php:399
+#, fuzzy
+msgid "Featured Image Size"
+msgstr "Gewilde beeld grootte"
+
+#: inc/menu/admin-settings-arr.php:400
+#, fuzzy
+msgid "Choose size of featured image to use"
+msgstr "Kies grootte van featured beeld om te gebruik"
+
+#: inc/menu/admin-settings-arr.php:407
+#, fuzzy
+msgid "Search Settings"
+msgstr "Deursoek instellings"
+
+#: inc/menu/admin-settings-arr.php:415
+#: shortcodes/page-builders/all-setting-fields.php:235
+#, fuzzy
+msgid "Total Properties"
+msgstr "Totale eienskappe"
+
+#: inc/menu/admin-settings-arr.php:416
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr "Aantal eienskappe wat jy wil vertoon op soekresultate"
+
+#: inc/menu/admin-settings-arr.php:421
+#, fuzzy
+msgid "Search Price Range Selector"
+msgstr "Deursoek prys reeks"
+
+#: inc/menu/admin-settings-arr.php:422
+#, fuzzy
+msgid "Choose price ranges input option for searching"
+msgstr "Kies prys reekse invoer opsie vir soek"
+
+#: inc/menu/admin-settings-arr.php:424 inc/menu/admin-settings-arr.php:517
+#, fuzzy
+msgid "Price Slider"
+msgstr "Prys glyer"
+
+#: inc/menu/admin-settings-arr.php:425
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "Min Max velde"
+
+#: inc/menu/admin-settings-arr.php:431
+#, fuzzy
+msgid "Search Results Style"
+msgstr "Soekuitslae-styl"
+
+#: inc/menu/admin-settings-arr.php:432
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "Kies styl vir soekuitslae"
+
+#: inc/menu/admin-settings-arr.php:439
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "Soekresultate kolomme"
+
+#: inc/menu/admin-settings-arr.php:454
+#: shortcodes/page-builders/all-setting-fields.php:82
+#, fuzzy
+msgid "Not Available Properties"
+msgstr "Nie beskikbare eienskappe"
+
+#: inc/menu/admin-settings-arr.php:455
+#, fuzzy
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr ""
+"Kies of jy nie beskikbare eienskappe in die soekresultate wil vertoon nie of "
+"nie"
+
+#: inc/menu/admin-settings-arr.php:465
+#, fuzzy
+msgid "Search Area Options"
+msgstr "Soek area opsies"
+
+#: inc/menu/admin-settings-arr.php:466
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Verskaf area bereik elke lyn, om die aftrek van die area reekse in plaas van "
+"die invoer veld te vertoon wanneer u soek."
+
+#: inc/menu/admin-settings-arr.php:472
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "Soek slaapkamers opsies"
+
+#: inc/menu/admin-settings-arr.php:473
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Verskaf slaapkamers reeks elke lyn, om die aftrek van die slaapkamer reekse "
+"vertoon in plaas van die invoer veld wanneer jy soek."
+
+#: inc/menu/admin-settings-arr.php:479
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "Soek badkamers opsies"
+
+#: inc/menu/admin-settings-arr.php:480
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Verskaf badkamers reeks elke per lyn, om die aftrek van die badkamer reekse "
+"vertoon in plaas van die invoer veld wanneer jy soek."
+
+#: inc/menu/admin-settings-arr.php:486
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "Soekuitslae-Skakelteiken"
+
+#: inc/menu/admin-settings-arr.php:487
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"Verskaf skakelteiken vir resultate van soekvorm. _blank om in nuwe duimgids "
+"oop te maak"
+
+#: inc/menu/admin-settings-arr.php:489
+#, fuzzy
+msgid "New Tab"
+msgstr "Nuwe duimgids"
+
+#: inc/menu/admin-settings-arr.php:490
+#, fuzzy
+msgid "Same Tab"
+msgstr "Dieselfde blad"
+
+#: inc/menu/admin-settings-arr.php:497
+#, fuzzy
+msgid "Simple Search Method"
+msgstr "Eenvoudige soek metode"
+
+#: inc/menu/admin-settings-arr.php:498
+#, fuzzy
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+"Verskaf teks, field_name, is_number, waarde elke per reël (alle kleinletter)"
+
+#: inc/menu/admin-settings-arr.php:498 inc/menu/admin-settings-arr.php:857
+msgid "Help"
+msgstr "Help"
+
+#: inc/menu/admin-settings-arr.php:504
+#, fuzzy
+msgid "Prefill Search Fields"
+msgstr "Voorvul soek velde"
+
+#: inc/menu/admin-settings-arr.php:505
+#, fuzzy
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+"Aktiveer dit om al die beskikbare waardes van velde in 'n aftrek op die "
+"soekvorm te vertoon om te kies."
+
+#: inc/menu/admin-settings-arr.php:525
+#, fuzzy
+msgid "Minimum Price"
+msgstr "Minimum prys"
+
+#: inc/menu/admin-settings-arr.php:526
+#, fuzzy
+msgid "Minimum price for price slider"
+msgstr "Minimum prys vir prysglyer"
+
+#: inc/menu/admin-settings-arr.php:532
+#, fuzzy
+msgid "Maximum Price"
+msgstr "Maksimum prys"
+
+#: inc/menu/admin-settings-arr.php:533
+#, fuzzy
+msgid "Maximum price for price slider"
+msgstr "Maksimum prys vir prysglyer"
+
+#: inc/menu/admin-settings-arr.php:539
+#, fuzzy
+msgid "Step"
+msgstr "Stap"
+
+#: inc/menu/admin-settings-arr.php:540
+#, fuzzy
+msgid "Step or interval for price slider"
+msgstr "Stap of interval vir prysglyer"
+
+#: inc/menu/admin-settings-arr.php:546
+#, fuzzy
+msgid "Default Minimum Price"
+msgstr "Standaard minimum prys"
+
+#: inc/menu/admin-settings-arr.php:547
+#, fuzzy
+msgid "Default Minimum price for price slider"
+msgstr "Standaard minimum prys vir prys glyer"
+
+#: inc/menu/admin-settings-arr.php:553
+#, fuzzy
+msgid "Default Maximum Price"
+msgstr "Standaard maksimum prys"
+
+#: inc/menu/admin-settings-arr.php:554
+#, fuzzy
+msgid "Default Maximum price for price slider"
+msgstr "Standaard maksimum prys vir prysglyer"
+
+#: inc/menu/admin-settings-arr.php:563
+#, fuzzy
+msgid "Email Messages"
+msgstr "E-posboodskappe"
+
+#: inc/menu/admin-settings-arr.php:571
+#, fuzzy
+msgid "Agent Registered"
+msgstr "Agent geregistreer"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid "This message will sent to "
+msgstr "Hierdie boodskap sal gestuur word na"
+
+#: inc/menu/admin-settings-arr.php:572
+#, fuzzy
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"Wanneer nuwe agent geregistreer is. Jy kan% username% en% e%% vir details "
+"gebruik"
+
+#: inc/menu/admin-settings-arr.php:578
+#, fuzzy
+msgid "Agent Pending"
+msgstr "Agent hangende"
+
+#: inc/menu/admin-settings-arr.php:579
+#, fuzzy
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"E-posboodskap vir agent wanneer nuwe agent geregistreer is, maar status is "
+"hangende. Jy kan% username% en% e%% vir details gebruik"
+
+#: inc/menu/admin-settings-arr.php:585
+#, fuzzy
+msgid "Agent Approved"
+msgstr "Agent goedgekeur"
+
+#: inc/menu/admin-settings-arr.php:586
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-posboodskap vir agent wanneer geregistreerde agent goedgekeur is. Jy kan% "
+"username% en% e%% vir details gebruik"
+
+#: inc/menu/admin-settings-arr.php:592
+#, fuzzy
+msgid "Agent Rejected"
+msgstr "Agent verwerp"
+
+#: inc/menu/admin-settings-arr.php:593
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-posboodskap vir agent wanneer geregistreerde agent verwerp word. Jy kan% "
+"username% en% e%% vir details gebruik"
+
+#: inc/menu/admin-settings-arr.php:599
+#, fuzzy
+msgid "Property Submission"
+msgstr "Eiendom voorlegging"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid "This message will be sent to "
+msgstr "Hierdie boodskap sal gestuur word aan"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"Wanneer nuwe eiendom ingedien word. Jy kan veranderlikes% username%% "
+"approve_url% en% e% vir besonderhede gebruik"
+
+#: inc/menu/admin-settings-arr.php:606
+#, fuzzy
+msgid "Property Submission Message for Agent"
+msgstr "Eiendom voorlegging boodskap vir agent"
+
+#: inc/menu/admin-settings-arr.php:607
+#, fuzzy
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+"Hierdie boodskap sal na agent gestuur word wanneer nuwe eiendom ingedien "
+"word."
+
+#: inc/menu/admin-settings-arr.php:613
+#, fuzzy
+msgid "Property Approved Message for Agent"
+msgstr "Eiendom goedgekeurde boodskap vir agent"
+
+#: inc/menu/admin-settings-arr.php:614
+#, fuzzy
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+"Hierdie boodskap sal na agent gestuur word wanneer nuwe eiendom goedgekeur "
+"word."
+
+#: inc/menu/admin-settings-arr.php:622
+#, fuzzy
+msgid "Agent Contact Form"
+msgstr "Agent kontak vorm"
+
+#: inc/menu/admin-settings-arr.php:630
+#, fuzzy
+msgid "Email Subject"
+msgstr "E-pos onderwerp"
+
+#: inc/menu/admin-settings-arr.php:631
+#, fuzzy
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+"Verskaf e-pos onderwerp hier as iemand kontakte deur middel van enkele "
+"eiendom bladsy. Jy kan ook hierdie spesiale merkers gebruik."
+
+#: inc/menu/admin-settings-arr.php:637
+#, fuzzy
+msgid "Email Format"
+msgstr "E-pos formaat"
+
+#: inc/menu/admin-settings-arr.php:638
+#, fuzzy
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+"Verskaf e-pos Markup hier. Jy kan ook hierdie spesiale merkers gebruik."
+
+#: inc/menu/admin-settings-arr.php:644
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "Agent kontak e-posadresse"
+
+#: inc/menu/admin-settings-arr.php:645
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Verskaf bykomende e-posadresse per lyn na CC-pos wanneer besoeker die "
+"kontakagent-vorm vul."
+
+#: inc/menu/admin-settings-arr.php:652
+#, fuzzy
+msgid "GDPR Message"
+msgstr "BBP boodskap"
+
+#: inc/menu/admin-settings-arr.php:653
+#, fuzzy
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+"Verskaf die boodskap om met die kontakvorm met 'n vereiste boks te vertoon."
+
+#: inc/menu/admin-settings-arr.php:660
+#, fuzzy
+msgid "reCAPTCHA V2"
+msgstr "reCAPTCHA V2"
+
+#: inc/menu/admin-settings-arr.php:668
+#, fuzzy
+msgid "Site key"
+msgstr "Webwerf sleutel"
+
+#: inc/menu/admin-settings-arr.php:669
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Verskaf Google reCAPTCHA V2-webwerf sleutel. Jy kan site sleutel te skep"
+
+#: inc/menu/admin-settings-arr.php:674
+#, fuzzy
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: inc/menu/admin-settings-arr.php:675
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr ""
+"Verskaf Google reCAPTCHA V2 geheime sleutel. Jy kan geheime sleutel te skep"
+
+#: inc/menu/admin-settings-arr.php:680
+#, fuzzy
+msgid "Agent Registration"
+msgstr "Agent registrasie"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Check to enable captcha on new agent registration."
+msgstr "Kontroleer om CAPTCHA op nuwe agent-registrasie te aktiveer."
+
+#: inc/menu/admin-settings-arr.php:686
+#, fuzzy
+msgid "Contact Agent"
+msgstr "Kontak agent"
+
+#: inc/menu/admin-settings-arr.php:687
+#, fuzzy
+msgid "Check to enable captcha on agent contact form."
+msgstr "Kontroleer om CAPTCHA op agent-kontakvorm te aktiveer."
+
+#: inc/menu/admin-settings-arr.php:692 inc/menu/admin-settings-arr.php:1018
+#: shortcodes/page-builders/vc-settings.php:20
+#, fuzzy
+msgid "Login Agent"
+msgstr "Login agent"
+
+#: inc/menu/admin-settings-arr.php:693
+#, fuzzy
+msgid "Check to enable captcha on agent login form."
+msgstr "Kontroleer om CAPTCHA op agent-aanmeldvorm in te skakel."
+
+#: inc/menu/admin-settings-arr.php:702
+#, fuzzy
+msgid "Labels and Headings"
+msgstr "Etikette en opskrifte"
+
+#: inc/menu/admin-settings-arr.php:710
+#, fuzzy
+msgid "Features Heading"
+msgstr "Kenmerke opskrif"
+
+#: inc/menu/admin-settings-arr.php:711
+#, fuzzy
+msgid "Provide heading text for property features on property pages"
+msgstr "Verskaf opskrif teks vir eiendom funksies op eiendom bladsye"
+
+#: inc/menu/admin-settings-arr.php:717
+#, fuzzy
+msgid "Maps Heading"
+msgstr "Kaarte opskrif"
+
+#: inc/menu/admin-settings-arr.php:718
+#, fuzzy
+msgid "Provide heading text for maps on property pages"
+msgstr "Verskaf opskrif teks vir kaarte op eiendom bladsye"
+
+#: inc/menu/admin-settings-arr.php:724
+#, fuzzy
+msgid "Tags Heading"
+msgstr "Tags opskrif"
+
+#: inc/menu/admin-settings-arr.php:725
+#, fuzzy
+msgid "Provide heading text for tags on property pages"
+msgstr "Verskaf opskrif-teks vir merkers op eienskapbladsye"
+
+#: inc/menu/admin-settings-arr.php:731
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "Tags opskrif vir argief bladsye"
+
+#: inc/menu/admin-settings-arr.php:732
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "Jy kan% tag% vir merkernaam gebruik"
+
+#: inc/menu/admin-settings-arr.php:738
+#, fuzzy
+msgid "Heading for Properties Page"
+msgstr "Opskrif vir eienskappe bladsy"
+
+#: inc/menu/admin-settings-arr.php:739
+#, fuzzy
+msgid "Provide heading for properties archive"
+msgstr "Verskaf opskrif vir eienskappe argief"
+
+#: inc/menu/admin-settings-arr.php:745
+#, fuzzy
+msgid "No Results Found Message"
+msgstr "Geen resultate gevind boodskap nie"
+
+#: inc/menu/admin-settings-arr.php:746
+#, fuzzy
+msgid "Provide custom message when no properties found in search results"
+msgstr ""
+"Verskaf persoonlike boodskap wanneer geen eienskappe in soekresultate gevind "
+"word nie"
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+msgid "Maps Settings"
+msgstr "Kaarte instellings"
+
+#: inc/menu/admin-settings-arr.php:762
+#, fuzzy
+msgid "Use Map From"
+msgstr "Gebruik kaart van"
+
+#: inc/menu/admin-settings-arr.php:764
+#, fuzzy
+msgid "Leaflet"
+msgstr "Pamflet"
+
+#: inc/menu/admin-settings-arr.php:765
+#, fuzzy
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: inc/menu/admin-settings-arr.php:767
+#, fuzzy
+msgid "Choose map provider"
+msgstr "Kies kaartverskaffer"
+
+#: inc/menu/admin-settings-arr.php:773
+#, fuzzy
+msgid "Google Maps API Key"
+msgstr "Google Maps API-sleutel"
+
+#: inc/menu/admin-settings-arr.php:774
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr "Verskaf Google Maps API-sleutel hier. Jy kan API-sleutel skep"
+
+#: inc/menu/admin-settings-arr.php:780
+#, fuzzy
+msgid "Map Type"
+msgstr "Kaart tipe"
+
+#: inc/menu/admin-settings-arr.php:782
+#, fuzzy
+msgid "Road Map"
+msgstr "Pad kaart"
+
+#: inc/menu/admin-settings-arr.php:783
+#, fuzzy
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:784
+#, fuzzy
+msgid "Hybrid"
+msgstr "Hibridiese"
+
+#: inc/menu/admin-settings-arr.php:785
+#, fuzzy
+msgid "Terrain"
+msgstr "Terrein"
+
+#: inc/menu/admin-settings-arr.php:787
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "Kies verstekkaarttipe hier"
+
+#: inc/menu/admin-settings-arr.php:793
+#: shortcodes/page-builders/all-setting-fields.php:699
+#, fuzzy
+msgid "Map Zoom Level"
+msgstr "Kaart Zoom vlak"
+
+#: inc/menu/admin-settings-arr.php:794
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr "Verskaf Zoom vlak tussen 0 en 21 + vir enkele eiendomaart"
+
+#: inc/menu/admin-settings-arr.php:800
+#, fuzzy
+msgid "Drag Icon URL"
+msgstr "Sleep ikoon-URL"
+
+#: inc/menu/admin-settings-arr.php:801
+#, fuzzy
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Laai pasgemaakte ikoon op om kaart te sleep terwyl nuwe eiendom skep. "
+"Aanbevole grootte: 72x60"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Location Icon URL"
+msgstr "Ligging-ikoon-URL"
+
+#: inc/menu/admin-settings-arr.php:808
+#, fuzzy
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Laai pasgemaakte ikoon vir ligging op kaart op wanneer jy die eienskapbladsy "
+"besoek. Aanbevole grootte: 72x60"
+
+#: inc/menu/admin-settings-arr.php:814
+#, fuzzy
+msgid "Property Icon URL"
+msgstr "Eiendom-ikoon-URL"
+
+#: inc/menu/admin-settings-arr.php:815
+#, fuzzy
+msgid "Upload custom icon for property location marker on large map."
+msgstr "Laai pasgemaakte ikoon vir eienskapliggingmerker op groot kaart op."
+
+#: inc/menu/admin-settings-arr.php:821
+#, fuzzy
+msgid "Property Icon URL (Hover)"
+msgstr "Eiendom-ikoon-URL (Hover)"
+
+#: inc/menu/admin-settings-arr.php:822
+#, fuzzy
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"Laai pasgemaakte ikoon vir eienskapliggingmerker op groot kaart vir "
+"weistoestand."
+
+#: inc/menu/admin-settings-arr.php:828
+#, fuzzy
+msgid "Circle Icon URL"
+msgstr "Circle ikoon URL"
+
+#: inc/menu/admin-settings-arr.php:829
+#, fuzzy
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr "Laai pasgemaakte ikoon vir Circle toonbank-merker op groot kaart op."
+
+#: inc/menu/admin-settings-arr.php:835
+#, fuzzy
+msgid "My Location Icon URL"
+msgstr "My ligging-ikoon-URL"
+
+#: inc/menu/admin-settings-arr.php:836
+#, fuzzy
+msgid "Upload custom icon for my location marker on large map."
+msgstr "Laai pasgemaakte ikoon vir my liggingmerker op groot kaart op."
+
+#: inc/menu/admin-settings-arr.php:842
+#: shortcodes/page-builders/all-setting-fields.php:687
+#, fuzzy
+msgid "Default Latitude"
+msgstr "Verstekbreedte"
+
+#: inc/menu/admin-settings-arr.php:843
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Verskaf breedte vir die verstekkaartligging op die skep van eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:849
+#: shortcodes/page-builders/all-setting-fields.php:693
+#, fuzzy
+msgid "Default Longitude"
+msgstr "Versteklengtegraad"
+
+#: inc/menu/admin-settings-arr.php:850
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr "Verskaf die verstekkaartligging op die skep van eienskapbladsy"
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+msgid "Map Styles Object"
+msgstr "Kaartstyle-objek"
+
+#: inc/menu/admin-settings-arr.php:857
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "Verskaf kaartstyle hier."
+
+#: inc/menu/admin-settings-arr.php:863
+#, fuzzy
+msgid "Map Style"
+msgstr "Kaart styl"
+
+#: inc/menu/admin-settings-arr.php:865
+#, fuzzy
+msgid "Choose style for leaflet map. "
+msgstr "Kies styl vir pamflet-kaart."
+
+#: inc/menu/admin-settings-arr.php:865 shortcodes/create-property.php:101
+#, fuzzy
+msgid "Preview"
+msgstr "Voorskou"
+
+#: inc/menu/admin-settings-arr.php:874
+#, fuzzy
+msgid "Colors and CSS"
+msgstr "Kleure en CSS"
+
+#: inc/menu/admin-settings-arr.php:882
+#, fuzzy
+msgid "Headings Underline"
+msgstr "Opskrifte onderstreep"
+
+#: inc/menu/admin-settings-arr.php:884
+#, fuzzy
+msgid "Choose bottom border color for headings area"
+msgstr "Kies onderste randkleur vir opskrifte area"
+
+#: inc/menu/admin-settings-arr.php:890
+#, fuzzy
+msgid "Headings Underline Active"
+msgstr "Opskrifte onderstreep aktief"
+
+#: inc/menu/admin-settings-arr.php:892
+#, fuzzy
+msgid "Choose bottom border color for headings active area"
+msgstr "Kies onderste randkleur vir opskrifte aktiewe area"
+
+#: inc/menu/admin-settings-arr.php:898
+#, fuzzy
+msgid "Buttons Background"
+msgstr "Knoppies agtergrond"
+
+#: inc/menu/admin-settings-arr.php:900
+#, fuzzy
+msgid "Choose background color for buttons"
+msgstr "Kies agtergrondkleur vir knoppies"
+
+#: inc/menu/admin-settings-arr.php:906
+#, fuzzy
+msgid "Buttons Text"
+msgstr "Knoppies teks"
+
+#: inc/menu/admin-settings-arr.php:908 inc/menu/admin-settings-arr.php:924
+#, fuzzy
+msgid "Choose text color for buttons"
+msgstr "Kies tekskleur vir knoppies"
+
+#: inc/menu/admin-settings-arr.php:914
+#, fuzzy
+msgid "Buttons Background - Hover"
+msgstr "Knoppies agtergrond-Hover"
+
+#: inc/menu/admin-settings-arr.php:916
+#, fuzzy
+msgid "Choose background color for buttons on hover state"
+msgstr "Kies agtergrondkleur vir knoppies op weistoestand"
+
+#: inc/menu/admin-settings-arr.php:922
+#, fuzzy
+msgid "Buttons Text - Hover"
+msgstr "Knoppies teks-Hover"
+
+#: inc/menu/admin-settings-arr.php:930
+#, fuzzy
+msgid "Theme Main Color"
+msgstr "Tema hoof kleur"
+
+#: inc/menu/admin-settings-arr.php:932
+#, fuzzy
+msgid "Choose main theme color for templates"
+msgstr "Kies die hoof tema kleur vir templates"
+
+#: inc/menu/admin-settings-arr.php:938
+#, fuzzy
+msgid "Custom CSS Code"
+msgstr "Pasgemaakte CSS kode"
+
+#: inc/menu/admin-settings-arr.php:940
+#, fuzzy
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Plak jou persoonlike CSS kode hier, jy kan voorvoegsel met"
+
+#: inc/menu/admin-settings-arr.php:948
+#, fuzzy
+msgid "Listing Ribbons"
+msgstr "Lys linte"
+
+#: inc/menu/admin-settings-arr.php:955
+#, fuzzy
+msgid "Ribbon Style"
+msgstr "Ribbon styl"
+
+#: inc/menu/admin-settings-arr.php:960
+#, fuzzy
+msgid "Choose ribbon style"
+msgstr "Kies lint styl"
+
+#: inc/menu/admin-settings-arr.php:965
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "Koop Ribbon teks"
+
+#: inc/menu/admin-settings-arr.php:966
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"Dit wys wanneer verkoopprys van die eiendom gestel is, laat leeg wees om dit "
+"te deaktiveer"
+
+#: inc/menu/admin-settings-arr.php:971
+#, fuzzy
+msgid "Rented Properties"
+msgstr "Gehuurde eienskappe"
+
+#: inc/menu/admin-settings-arr.php:972
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"Dit wys wanneer die eiendom gestel is om te huur, laat dit leeg wees om dit "
+"te deaktiveer"
+
+#: inc/menu/admin-settings-arr.php:977
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "Vir verkoop eienskappe"
+
+#: inc/menu/admin-settings-arr.php:978
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"Dit wys wanneer die eiendom is ingestel om te verkoop, laat leeg om dit te "
+"deaktiveer"
+
+#: inc/menu/admin-settings-arr.php:983
+#, fuzzy
+msgid "Sold Properties"
+msgstr "Verkoop eienskappe"
+
+#: inc/menu/admin-settings-arr.php:984
+#, fuzzy
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"Dit wys wanneer die eiendom status is ingestel om te verkoop, laat leeg om "
+"dit uit te skakel"
+
+#: inc/menu/admin-settings-arr.php:989
+#, fuzzy
+msgid "Featured Properties"
+msgstr "Gewilde eienskappe"
+
+#: inc/menu/admin-settings-arr.php:990
+#, fuzzy
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"Dit wys wanneer featured opsie is ingestel op Ja, laat leeg om dit uit te "
+"skakel"
+
+#: inc/menu/admin-settings-arr.php:995
+#, fuzzy
+msgid "Custom Ribbon"
+msgstr "Pasgemaakte lint"
+
+#: inc/menu/admin-settings-arr.php:996
+#, fuzzy
+msgid "Provide key with value. Eg:"
+msgstr "Verskaf sleutel met waarde. Bv:"
+
+#: inc/menu/admin-settings-arr.php:1001
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "Pasgemaakte Ribbon-teks"
+
+#: inc/menu/admin-settings-arr.php:1002
+#, fuzzy
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr ""
+"Verskaf teks om vir pasgemaakte lint te vertoon. Jy kan ook die veldnaam vir "
+"dinamiese etiket verskaf."
+
+#: inc/menu/admin-settings-arr.php:1008
+#, fuzzy
+msgid "Page Builders"
+msgstr "Bladsy bouers"
+
+#: inc/menu/admin-settings-arr.php:1016
+#, fuzzy
+msgid "Gutenberg Blocks"
+msgstr "Gutenberg"
+
+#: inc/menu/admin-settings-arr.php:1019
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+#, fuzzy
+msgid "Register Agent"
+msgstr "Register agent"
+
+#: inc/menu/admin-settings-arr.php:1020
+#, fuzzy
+msgid "Simple Search"
+msgstr "Eenvoudige soektog"
+
+#: inc/menu/admin-settings-arr.php:1022
+#, fuzzy
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr "Aktiveer of deaktiveer die Gutenberg-blokkies hier. Meer kom ..."
+
+#: inc/menu/admin-settings-arr.php:1027
+#, fuzzy
+msgid "WPBakery Page Builder Addons"
+msgstr "WPBakery PAGE Builder Addons"
+
+#: inc/menu/admin-settings-arr.php:1032
+#, fuzzy
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr "Aktiveer of deaktiveer WPBakery PAGE Builder addons hier."
+
+#: inc/menu/admin-settings-arr.php:1037
+#, fuzzy
+msgid "Divi Modules"
+msgstr "Divi modules"
+
+#: inc/menu/admin-settings-arr.php:1042
+#, fuzzy
+msgid "Enable or disable Divi modules here."
+msgstr "Aktiveer of deaktiveer Divi modules hier."
+
+#: inc/menu/admin-settings-arr.php:1048
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "Gevorderde instellings"
+
+#: inc/menu/admin-settings-arr.php:1056
+#, fuzzy
+msgid "Bootstrap CSS"
+msgstr "Skoenlus Bay CSS"
+
+#: inc/menu/admin-settings-arr.php:1061
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr "Skakel dit, as jou tema laai sy eie skoenlus Bay 3 style"
+
+#: inc/menu/admin-settings-arr.php:1066
+#, fuzzy
+msgid "Font Awesome"
+msgstr "Font awesome"
+
+#: inc/menu/admin-settings-arr.php:1071
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr "Deaktiveer dit, as jou tema sy eie fontongelooflike ikone laai"
+
+#: inc/menu/admin-settings-arr.php:1076
+#, fuzzy
+msgid "Property Submission Mode"
+msgstr "Eiendom voorlegging af"
+
+#: inc/menu/admin-settings-arr.php:1078
+#, fuzzy
+msgid "Publish Right Away"
+msgstr "Publiseer dadelik"
+
+#: inc/menu/admin-settings-arr.php:1079
+#, fuzzy
+msgid "Approve by Administrator"
+msgstr "Goedkeur deur administrateur"
+
+#: inc/menu/admin-settings-arr.php:1081
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "Stel toestemming vir agente vir die skep van nuwe eiendom"
+
+#: inc/menu/admin-settings-arr.php:1086
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "Herlei na die skep van eiendom"
+
+#: inc/menu/admin-settings-arr.php:1087
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "Verskaf lei URL na die skep van eiendom van Frontend"
+
+#: inc/menu/admin-settings-arr.php:1092
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "Herlei na redigering eiendom"
+
+#: inc/menu/admin-settings-arr.php:1093
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr "Verskaf lei URL na redigering eiendom van Frontend"
+
+#: inc/menu/admin-settings-arr.php:1099
+#, fuzzy
+msgid "Keep"
+msgstr "Hou"
+
+#: inc/menu/admin-settings-arr.php:1100 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:85 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:72
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+#, fuzzy
+msgid "Delete"
+msgstr "Skrap"
+
+#: inc/menu/admin-settings-arr.php:1102
+#, fuzzy
+msgid "Attachments Deletion"
+msgstr "Aanhegsels skrap"
+
+#: inc/menu/admin-settings-arr.php:1103
+#, fuzzy
+msgid "What to do with gallery images after deleting property."
+msgstr "Wat om te doen met Gallery beelde na die verwydering van eiendom."
+
+#: inc/menu/admin-settings-arr.php:1108
+#, fuzzy
+msgid "Agents Approval"
+msgstr "Agente goedkeuring"
+
+#: inc/menu/admin-settings-arr.php:1110
+msgid "Manual"
+msgstr "Handmatig"
+
+#: inc/menu/admin-settings-arr.php:1111
+#, fuzzy
+msgid "Automatic"
+msgstr "Outomatiese"
+
+#: inc/menu/admin-settings-arr.php:1113
+#, fuzzy
+msgid "We recommend you to use manual method"
+msgstr "Ons beveel aan dat jy manuele metode gebruik"
+
+#: inc/menu/agent-profile-fields.php:3
+#, fuzzy
+msgid "Agent Details"
+msgstr "Agent besonderhede"
+
+#: inc/menu/agent-profile-fields.php:26
+#, fuzzy
+msgid "Upload Image"
+msgstr "Laai beeld"
+
+#: inc/menu/agent/custom-fields-page.php:2
+#, fuzzy
+msgid "Agent Registration Fields"
+msgstr "Agent registrasie velde"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:67
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr ""
+"Sleep asseblief en sleep die velde in bogenoemde area uit die linkerkantste "
+"paneel"
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:75
+#, fuzzy
+msgid "Reset Fields"
+msgstr "Herstel velde"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:76
+#: inc/menu/page-settings.php:74
+msgid "Save Settings"
+msgstr "Stoor Instellings"
+
+#: inc/menu/agent/fields/checkbox.php:2
+#, fuzzy
+msgid "Checkbox"
+msgstr "Merkblokkie"
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:435
+msgid "Label"
+msgstr "Etiket"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "Data naam (kleinletter sonder spasies)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:39
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+#, fuzzy
+msgid "Help Text"
+msgstr "Hulp teks"
+
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/text.php:26
+#: inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr "Vereis"
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:45
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+#, fuzzy
+msgid "Display on"
+msgstr "Vertoon op"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:49
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+msgid "Registration Form"
+msgstr "Registrasievorm"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+msgid "Tab"
+msgstr "Oortjie"
+
+#: inc/menu/agent/fields/email.php:2
+#, fuzzy
+msgid "Email Field"
+msgstr "E-pos veld"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:53 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+#, fuzzy
+msgid "Admin Profile Edit"
+msgstr "Admin profiel wysig"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+#, fuzzy
+msgid "Frontend Edit"
+msgstr "Frontend wysig"
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:62 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+#, fuzzy
+msgid "Agent Card Icons"
+msgstr "Agent-ikone"
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:66 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+#, fuzzy
+msgid "Agent Page"
+msgstr "Agent bladsy"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+#, fuzzy
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr "Ikoonklas (as agent-kaart-ikone gekies is)"
+
+#: inc/menu/agent/fields/image.php:2
+#, fuzzy
+msgid "Image Field"
+msgstr "Image veld"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+#, fuzzy
+msgid "Number Field"
+msgstr "Nommer veld"
+
+#: inc/menu/agent/fields/password.php:2
+#, fuzzy
+msgid "Password Field"
+msgstr "Wagwoord veld"
+
+#: inc/menu/agent/fields/select.php:2
+#, fuzzy
+msgid "Select Box"
+msgstr "Kies boks"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "Verstek gekies"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "Opsies (elke per reël)"
+
+#: inc/menu/agent/fields/select.php:71
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "Admin instellings blad"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+#, fuzzy
+msgid "Text Field"
+msgstr "Teksveld"
+
+#: inc/menu/agent/fields/textarea.php:2
+#, fuzzy
+msgid "Textarea Field"
+msgstr "Teksarea veld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "Pasgemaakte velde Builder"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+#, fuzzy
+msgid "DropDown Field"
+msgstr "Aftrek-veld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+msgid "Date Field"
+msgstr "Datum Veld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+#, fuzzy
+msgid "Multiple Files Upload"
+msgstr "Meervoudige lêers oplaai"
+
+#: inc/menu/custom-fields/custom-fields-page.php:12
+#, fuzzy
+msgid "Text Area"
+msgstr "Teks area"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+msgid "Shortcode"
+msgstr "Kortkode"
+
+#: inc/menu/custom-fields/custom-fields-page.php:69
+#, fuzzy
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"As data naam die hele woord \"area\" bevat, sal die gekose area se eenheid "
+"na die waarde vertoon word."
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:130
+#, fuzzy
+msgid "Accessibility"
+msgstr "Toeganklikheid"
+
+#: inc/menu/custom-fields/fields/text.php:21
+#, fuzzy
+msgid "Default Value"
+msgstr "Verstekwaarde"
+
+#: inc/menu/page-agents.php:65
+#, fuzzy
+msgid "Pending Agents"
+msgstr "Hangende agente"
+
+#: inc/menu/page-agents.php:76
+#, fuzzy
+msgid "Date of Registration"
+msgstr "Datum van registrasie"
+
+#: inc/menu/page-agents.php:77
+#, fuzzy
+msgid "Action"
+msgstr "Aksie"
+
+#: inc/menu/page-agents.php:89
+#, fuzzy
+msgid "Deny"
+msgstr "Weier"
+
+#: inc/menu/page-agents.php:90
+#, fuzzy
+msgid "Approve"
+msgstr "Goedkeur"
+
+#: inc/menu/page-agents.php:99
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "Jy het geen hangende agente."
+
+#: inc/menu/page-agents.php:107
+#, fuzzy
+msgid "Registered Agents"
+msgstr "Geregistreerde agente"
+
+#: inc/menu/page-agents.php:119
+msgid "Profile"
+msgstr "Profiel"
+
+#: inc/menu/page-agents.php:132
+#, fuzzy
+msgid "View Profile"
+msgstr "Bekyk profiel"
+
+#: inc/menu/page-agents.php:141
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "Jy het geen geregistreerde agente."
+
+#: inc/menu/page-agents.php:147
+#, fuzzy
+msgid "Register New Agent"
+msgstr "Registreer nuwe agent"
+
+#: inc/menu/page-settings.php:3
+#, fuzzy
+msgid "Real Estate Manager - Settings"
+msgstr "Real Estate Bestuurder-instellings"
+
+#: inc/menu/page-settings.php:5
+#, fuzzy
+msgid "Not Registered!"
+msgstr "Nie geregistreer nie!"
+
+#: inc/menu/page-settings.php:6
+#, fuzzy
+msgid "Register"
+msgstr "Register"
+
+#: inc/menu/page-settings.php:8
+#, fuzzy
+msgid "Registered!"
+msgstr "Geregistreer!"
+
+#: inc/menu/page-settings.php:9
+#, fuzzy
+msgid "De-register"
+msgstr "De-registreer"
+
+#: inc/menu/page-settings.php:25
+#, fuzzy
+msgid "If 404 Page is displaying"
+msgstr "As 404-bladsy vertoon word"
+
+#: inc/menu/page-settings.php:27
+#, fuzzy
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr "Gaan na instellings-> Permalink en klik Stoor veranderinge knoppie"
+
+#: inc/menu/page-settings.php:31
+#, fuzzy
+msgid "If Maps not displaying"
+msgstr "As Maps nie vertoon nie"
+
+#: inc/menu/page-settings.php:33
+#, fuzzy
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr "Skep 'n Google Maps API met Google en plak dit in Maps API-veld."
+
+#: inc/menu/page-settings.php:37
+#, fuzzy
+msgid "Change Property Page Design"
+msgstr "Verander Eienskapbladsyontwerp"
+
+#: inc/menu/page-settings.php:39
+#, fuzzy
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "Kopieer die volgende lêer en plak dit in jou tema se wortel"
+
+#: inc/menu/page-settings.php:41
+#, fuzzy
+msgid "Now change its name to"
+msgstr "Verander nou sy naam na"
+
+#: inc/menu/page-settings.php:43
+#, fuzzy
+msgid "Then change Property Page Template option to From Theme"
+msgstr "Verander dan die Eienskapssjabloon opsie na van tema"
+
+#: inc/menu/page-settings.php:44
+#, fuzzy
+msgid "Now you can make changes in this template file."
+msgstr "Nou kan jy veranderinge in hierdie sjabloonlêer maak."
+
+#: inc/menu/page-settings.php:48
+#, fuzzy
+msgid "Need Help? Any Suggestions?"
+msgstr "Hulp nodig? Enige voorstelle?"
+
+#: inc/menu/page-settings.php:50
+#, fuzzy
+msgid "Please contact us"
+msgstr "Kontak ons asseblief"
+
+#: inc/menu/page-settings.php:51
+#, fuzzy
+msgid "HERE"
+msgstr "Hier"
+
+#: inc/menu/page-settings.php:52
+#, fuzzy
+msgid "for assistance."
+msgstr "vir bystand."
+
+#: inc/menu/page-settings.php:73
+msgid "Please Wait..."
+msgstr "Wag asseblief..."
+
+#: inc/menu/render-admin-settings.php:50
+#, fuzzy
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+"Ons het opgemerk dat jy persoonlike velde gebruik, so stel asseblief "
+"bogenoemde opsies"
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+msgid "Choose a currency&hellip;"
+msgstr "Kies 'n geldeenheid;"
+
+#: inc/menu/render-admin-settings.php:217
+#, fuzzy
+msgid "Image"
+msgstr "Beeld"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "Selekteer"
+
+#: inc/menu/render-admin-settings.php:219
+msgid "Media"
+msgstr "Media"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Koekeloer na besonderhede"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, fuzzy, php-format
+msgid "More information about %s"
+msgstr "Meer inligting oor %s"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Kontroleer vir bywerkings"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Die %s plugin is op datum."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "'N nuwe weergawe van die %s plugin is beskikbaar."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Kon nie bepaal of bywerkings vir %s beskikbaar is nie."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, fuzzy, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Onbekende bywerkchecker-status \" %s\""
+
+#: inc/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#, fuzzy
+msgid "There is no changelog available."
+msgstr "Daar is geen veranderingslys beskikbaar nie."
+
+#: inc/sidebar-agent-contact.php:18
+#, fuzzy
+msgid "Your Name"
+msgstr "Jou naam"
+
+#: inc/sidebar-agent-contact.php:21
+msgid "Your Email"
+msgstr "Jou eposadres"
+
+#: inc/sidebar-agent-contact.php:24
+msgid "Phone"
+msgstr "Telefoon"
+
+#: inc/sidebar-agent-contact.php:27
+#, fuzzy
+msgid "Message"
+msgstr "Boodskap"
+
+#: inc/sidebar-agent-contact.php:30
+#, fuzzy
+msgid "Send Message"
+msgstr "Stuur boodskap"
+
+#: shortcodes/agent-profile.php:90
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:87
+#, fuzzy
+msgid "My Properties"
+msgstr "My eienskappe"
+
+#: shortcodes/carousel/carousel.php:13
+#, fuzzy
+msgid "No Properties Found!"
+msgstr "Geen eienskappe gevind!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+#, fuzzy
+msgid "Basic Information"
+msgstr "Basiese inligting"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+#, fuzzy
+msgid "Property Title"
+msgstr "Eiendom titel"
+
+#: shortcodes/create-property.php:16
+#, fuzzy
+msgid "Property Description"
+msgstr "Eiendomsbeskrywing"
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "Grafieka"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+#, fuzzy
+msgid "Click here to Upload Images"
+msgstr "Klik hier om prente op te laai"
+
+#: shortcodes/create-property.php:80 shortcodes/edit-property.php:103
+#, fuzzy
+msgid "Each tag separated by comma"
+msgstr "Elke merker geskei deur komma"
+
+#: shortcodes/create-property.php:88 shortcodes/edit-property.php:115
+#, fuzzy
+msgid "Place on Map"
+msgstr "Plaas op kaart"
+
+#: shortcodes/create-property.php:100
+#: shortcodes/page-builders/vc-settings.php:28
+#, fuzzy
+msgid "Create Property"
+msgstr "Skep eienskap"
+
+#: shortcodes/create-property.php:107
+#, fuzzy
+msgid "Please wait..."
+msgstr "Wag asseblief..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:138
+msgid "Save Changes"
+msgstr "Stoor veranderinge"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "Stoor tans veranderinge ..."
+
+#: shortcodes/edit-property.php:131
+#, fuzzy
+msgid "Draft"
+msgstr "Konsep"
+
+#: shortcodes/edit-property.php:132 shortcodes/manage-properties.php:29
+#, fuzzy
+msgid "Publish"
+msgstr "Publiseer"
+
+#: shortcodes/edit-property.php:145
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "Wag asseblief! jou porperty word verander ..."
+
+#: shortcodes/login.php:8
+msgid "Username or email"
+msgstr "Gebruikersnaam of e-posadres"
+
+#: shortcodes/login.php:22
+#, fuzzy
+msgid "Keep me signed in"
+msgstr "Hou my aangemeld"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:955
+#, fuzzy
+msgid "Login"
+msgstr "Aanteken"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+#, fuzzy
+msgid "Display All"
+msgstr "Wys alles"
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+#, fuzzy
+msgid "Only Published"
+msgstr "Net gepubliseer"
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+#, fuzzy
+msgid "Only Pending"
+msgstr "Slegs hangende"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+#, fuzzy
+msgid "Only Draft"
+msgstr "Slegs konsep"
+
+#: shortcodes/manage-properties.php:30
+#, fuzzy
+msgid "Unpublish"
+msgstr "Depubliseer"
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Posseëlprentjie"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+#, fuzzy
+msgid "ID"
+msgstr "Id"
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+#, fuzzy
+msgid "Added"
+msgstr "Bygevoeg"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+#, fuzzy
+msgid "Actions"
+msgstr "Aksies"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+msgid "Edit"
+msgstr "Wysig"
+
+#: shortcodes/map/map.php:101 shortcodes/map/nearby.php:98
+msgid "Found"
+msgstr "Gevind"
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:942
+#, fuzzy
+msgid "Designates the ascending or descending order of the below option."
+msgstr "Dui die stygende of dalende volgorde van die onderstaande opsie."
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+#, fuzzy
+msgid "Choose option to sort properties by"
+msgstr "Kies opsie om eienskappe te sorteer volgens"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+#, fuzzy
+msgid "Property Price"
+msgstr "Eiendom prys"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:577
+#, fuzzy
+msgid "Random"
+msgstr "Ewekansige"
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+#, fuzzy
+msgid "Order by custom meta"
+msgstr "Bestel deur persoonlike meta"
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+#, fuzzy
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"Verskaf pasgemaakte veldsleutel om deur pasgemaakte veld te sorteer. Bv: "
+"property_status"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:228
+#, fuzzy
+msgid "Property Style"
+msgstr "Eiendom styl"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:229
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "Kies eienskappe-Vertoonstyl"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:479
+#: shortcodes/page-builders/all-setting-fields.php:928
+msgid "Columns"
+msgstr "Kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "Aantal eienskappe in 'n ry"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:931
+#, fuzzy
+msgid "1 Columns"
+msgstr "1 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:482
+#: shortcodes/page-builders/all-setting-fields.php:932
+#, fuzzy
+msgid "2 Columns"
+msgstr "2 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:483
+#: shortcodes/page-builders/all-setting-fields.php:933
+#, fuzzy
+msgid "3 Columns"
+msgstr "3 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:484
+#: shortcodes/page-builders/all-setting-fields.php:934
+#, fuzzy
+msgid "4 Columns"
+msgstr "4 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:935
+#, fuzzy
+msgid "5 Columns"
+msgstr "5 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+#, fuzzy
+msgid "Top Bar"
+msgstr "Boonste balk"
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+#, fuzzy
+msgid "Top bar to sort or change layout"
+msgstr "Boonste balk om uitleg te sorteer of te verander"
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+#, fuzzy
+msgid "Default Grid Style"
+msgstr "Verstekroosterstyl"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+#, fuzzy
+msgid "Default style of grid for top bar."
+msgstr "Verstek styl van rooster vir bo bar."
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+#, fuzzy
+msgid "Display properties having status Not Available or not"
+msgstr "Wys eienskappe met status nie beskikbaar nie of nie"
+
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:637
+#, fuzzy
+msgid "Number of Properties"
+msgstr "Aantal eienskappe"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Verskaf totale aantal eienskappe om te wys, na daardie paginering sal vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+#, fuzzy
+msgid "Tags Specific"
+msgstr "Merkers spesifieke"
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr "Kommas geskei lys van etikette om eienskappe te filter"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+#, fuzzy
+msgid "Features Specific"
+msgstr "Kenmerke spesifiek"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+#, fuzzy
+msgid "Comma separated list of features to filter properties"
+msgstr "Kommas geskei lys van funksies om eienskappe te filter"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+#, fuzzy
+msgid "Agent Specific"
+msgstr "Agent spesifiek"
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:260
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr "Agent ID of komma geskei ID's om hul eienskappe te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:241
+#: shortcodes/page-builders/all-setting-fields.php:647
+#, fuzzy
+msgid "Filter Properties by Meta"
+msgstr "Filter eienskappe deur meta"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:242
+#: shortcodes/page-builders/all-setting-fields.php:648
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Verskaf meta sleutel en waarde op elke lyn om te filter. Bv: property_status "
+"| normale"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:721
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "Verkies naaste eienskappe"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+#, fuzzy
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"Dit sal in staat stel Geo plek om besoeker plek op te spoor en sal "
+"eienskappe naby hulle vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+#, fuzzy
+msgid "Justified Grid (Masonry)"
+msgstr "Geregverdig GRID (messelwerk)"
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "Dit sal messelwerk-rooster vir eienskappe aktiveer"
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+msgid "Pagination"
+msgstr "Paginering (Bl nommer volgorde)"
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+#, fuzzy
+msgid "Enable or Disable Pagination"
+msgstr "Aktiveer of versper paginering"
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:357
+msgid "Redirect"
+msgstr "Herlei"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+#, fuzzy
+msgid "Provide URL to redirect after successful registration"
+msgstr "Verskaf URL om na suksesvolle registrasie te herlei"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#: shortcodes/page-builders/all-setting-fields.php:363
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "Inhoud vir aangetekende gebruikers"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+#: shortcodes/page-builders/all-setting-fields.php:364
+#, fuzzy
+msgid "Provide contents for already logged in users"
+msgstr "Verskaf inhoud vir reeds ingeteken in gebruikers"
+
+#: shortcodes/page-builders/all-setting-fields.php:172
+#, fuzzy
+msgid "Placeholder"
+msgstr "Plekhouer"
+
+#: shortcodes/page-builders/all-setting-fields.php:173
+#, fuzzy
+msgid "Placeholder for search field"
+msgstr "Plekhouer vir Soek veld"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+#, fuzzy
+msgid "Field Width"
+msgstr "Gebied breedte"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+#, fuzzy
+msgid "Width with units. Eg: 450px"
+msgstr "Breedte met eenhede. Bv: 450px"
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+msgid "Border Color"
+msgstr "Ikone Raam Kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+#, fuzzy
+msgid "Choose color for border"
+msgstr "Kies kleur vir rand"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+#, fuzzy
+msgid "Results Page URL"
+msgstr "Resultate bladsy URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+#, fuzzy
+msgid "Provide URL for the search results page"
+msgstr "Verskaf URL vir die soekresultate-bladsy"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+#, fuzzy
+msgid "Search Icon"
+msgstr "Soek ikoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+#, fuzzy
+msgid "Provide fontawesome icon with markup."
+msgstr "Verskaf fontawepaar ikoon met Markup."
+
+#: shortcodes/page-builders/all-setting-fields.php:207
+#: shortcodes/page-builders/all-setting-fields.php:609
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "Kies bestelling om eienskappe te wys"
+
+#: shortcodes/page-builders/all-setting-fields.php:217
+#: shortcodes/page-builders/all-setting-fields.php:623
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "Kies bestelling deur eienskappe te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:221
+#: shortcodes/page-builders/all-setting-fields.php:576
+#: shortcodes/page-builders/all-setting-fields.php:627
+#, fuzzy
+msgid "Property Name"
+msgstr "Eiendomnaam"
+
+#: shortcodes/page-builders/all-setting-fields.php:236
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "Verskaf totale aantal eienskappe om te wys"
+
+#: shortcodes/page-builders/all-setting-fields.php:248
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr "Verskaf etikette elke per lyn om spesifieke eienskappe te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:253
+#: shortcodes/page-builders/all-setting-fields.php:598
+#, fuzzy
+msgid "Property IDs"
+msgstr "Eiendom ID's"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr "Verskaf ID's as jy spesifieke eienskappe wil vertoon, elk per reël"
+
+#: shortcodes/page-builders/all-setting-fields.php:266
+#: shortcodes/page-builders/all-setting-fields.php:722
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"Dit sal in staat stel om Geo plek Trackor om besoekers plek op te spoor en "
+"sal eienskappe naby hulle vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:276
+#, fuzzy
+msgid "Properties in Row"
+msgstr "Eienskappe in ry"
+
+#: shortcodes/page-builders/all-setting-fields.php:277
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr "Verskaf die aantal eienskappe wat jy op 'n slag wil wys"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "Eienskappe om te rol"
+
+#: shortcodes/page-builders/all-setting-fields.php:284
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "Verskaf die aantal eienskappe wat jy op 'n slag wil rollees"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+#, fuzzy
+msgid "Speed"
+msgstr "Spoed"
+
+#: shortcodes/page-builders/all-setting-fields.php:291
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Spoed in MS bv: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+#, fuzzy
+msgid "Auto Play"
+msgstr "Outomatiese speel"
+
+#: shortcodes/page-builders/all-setting-fields.php:298
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "Aktiveer om die outomatiese rotasie van eienskappe te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:308
+#, fuzzy
+msgid "Auto Play Speed"
+msgstr "Outomatiese speel spoed"
+
+#: shortcodes/page-builders/all-setting-fields.php:309
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Outomatiese speel spoed in MS bv: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+#, fuzzy
+msgid "Arrows"
+msgstr "Pyle"
+
+#: shortcodes/page-builders/all-setting-fields.php:316
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "Ontsper om pyltjies vir navigasie te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:326
+#, fuzzy
+msgid "Dots"
+msgstr "Kolletjies"
+
+#: shortcodes/page-builders/all-setting-fields.php:327
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "Aktiveer om onderste kolletjies vir navigasie te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:341
+#: shortcodes/page-builders/all-setting-fields.php:373
+#: shortcodes/page-builders/all-setting-fields.php:383
+#: shortcodes/page-builders/all-setting-fields.php:403
+#: shortcodes/page-builders/all-setting-fields.php:413
+#: shortcodes/page-builders/all-setting-fields.php:462
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "Inhoud vir nie-ingeteken in gebruikers"
+
+#: shortcodes/page-builders/all-setting-fields.php:342
+#, fuzzy
+msgid "Provide contents for non logged in users"
+msgstr "Verskaf inhoud vir nie-aangetekende in gebruikers"
+
+#: shortcodes/page-builders/all-setting-fields.php:351
+msgid "Heading"
+msgstr "Opskrif"
+
+#: shortcodes/page-builders/all-setting-fields.php:352
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "Opskrif sal bo die login vorm verskyn"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+#, fuzzy
+msgid "Provide URL to redirect after successful login"
+msgstr "Verskaf URL om na suksesvolle aantekening te herlei"
+
+#: shortcodes/page-builders/all-setting-fields.php:374
+#: shortcodes/page-builders/all-setting-fields.php:384
+#, fuzzy
+msgid "Provide contents to display if user is not logged in"
+msgstr "Verskaf inhoud om te wys of die gebruiker nie aangeteken is nie"
+
+#: shortcodes/page-builders/all-setting-fields.php:394
+#, fuzzy
+msgid "Provide property id here"
+msgstr "Verskaf eiendomid hier"
+
+#: shortcodes/page-builders/all-setting-fields.php:404
+#: shortcodes/page-builders/all-setting-fields.php:414
+#: shortcodes/page-builders/all-setting-fields.php:463
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr "Verskaf inhoud om te wys of die gebruiker nie aangeteken is nie"
+
+#: shortcodes/page-builders/all-setting-fields.php:423
+msgid "Redirect URL"
+msgstr "Herlei URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:424
+#, fuzzy
+msgid "Provide URL to redirect after logout"
+msgstr "Verskaf URL om na teken af te herlei"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+#, fuzzy
+msgid "CSS Button"
+msgstr "CSS knoppie"
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+#, fuzzy
+msgid "Provide css classes for button"
+msgstr "Verskaf CSS klasse vir knoppie"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+#, fuzzy
+msgid "Provide button label"
+msgstr "Verskaf knoppie etiket"
+
+#: shortcodes/page-builders/all-setting-fields.php:446
+#, fuzzy
+msgid "Choose agent to display his/her profile."
+msgstr "Kies agent om sy/haar profiel te vertoon."
+
+#: shortcodes/page-builders/all-setting-fields.php:456
+#, fuzzy
+msgid "Role"
+msgstr "Rol"
+
+#: shortcodes/page-builders/all-setting-fields.php:457
+#, fuzzy
+msgid "Provide role name who can manage properties from this page."
+msgstr "Verskaf rol naam wat eienskappe van hierdie bladsy kan bestuur."
+
+#: shortcodes/page-builders/all-setting-fields.php:472
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "Kontroleer velde om te wys"
+
+#: shortcodes/page-builders/all-setting-fields.php:473
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "Gaan die vereiste velde vir soek kieslys"
+
+#: shortcodes/page-builders/all-setting-fields.php:480
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "Kies aantal velde in elke ry"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+#, fuzzy
+msgid "6 Columns"
+msgstr "6 kolomme"
+
+#: shortcodes/page-builders/all-setting-fields.php:487
+msgid "1 Column"
+msgstr "1 Kolom"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+#, fuzzy
+msgid "Search Button Title"
+msgstr "Soek knoppie titel"
+
+#: shortcodes/page-builders/all-setting-fields.php:494
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "Verskaf teks vir soek-knoppie"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "Filter knoppie titel"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "Verskaf teks vir meer filterknoppie"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+#, fuzzy
+msgid "Results Page"
+msgstr "Resultate bladsy"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"Verskaf URL, sal dit AJAX soek uitskakel en sal oopmaak dat die bladsy om "
+"resultate te vertoon. Maak seker dat jy kortkode [rem_search_results] op die "
+"bladsy verskaf het om resultate te wys."
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+#, fuzzy
+msgid "Result Selector"
+msgstr "Gevolg"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"HTML-komtor as jy resultate in 'n ander plek op huidige bladsy wil vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "Vaste velde"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Verskaf data vir vaste velde op elke reël. Bv: property_status | normale"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "Harde gekodeerde inhoud"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr "Jy kan kortkode hier plak om 'n paar verstekeienskappe te lys"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+#: shortcodes/page-builders/all-setting-fields.php:954
+#, fuzzy
+msgid "Agent ID"
+msgstr "Agent ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+#, fuzzy
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr "Agent ID of komma geskei ID's vir agent spesifieke soektog"
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#, fuzzy
+msgid "More Filters Column Classes"
+msgstr "Meer filters kolom klasse"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+#, fuzzy
+msgid "CSS classes for more filters (features)."
+msgstr "CSS klasse vir meer filters (funksies)."
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+#, fuzzy
+msgid "Auto Complete"
+msgstr "Outomatiese volledige"
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+#, fuzzy
+msgid "Enable or Disable auto suggestions"
+msgstr "Aktiveer of deaktiveer outomatiese voorstelle"
+
+#: shortcodes/page-builders/all-setting-fields.php:551
+#, fuzzy
+msgid "Auto Scroll"
+msgstr "Outomatiese Blaai"
+
+#: shortcodes/page-builders/all-setting-fields.php:552
+#, fuzzy
+msgid "Enable or Disable auto scroll to results"
+msgstr "Aktiveer of deaktiveer outomatiese Blaai na resultate"
+
+#: shortcodes/page-builders/all-setting-fields.php:562
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "Kies bestelling om resultate te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:572
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "Kies bestelling deur resultate te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:588
+#, fuzzy
+msgid "Display By"
+msgstr "Wys deur"
+
+#: shortcodes/page-builders/all-setting-fields.php:589
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "Hoe jy eienskappe op kaart wil vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:591
+#, fuzzy
+msgid "Properties by IDs"
+msgstr "Eienskappe deur ID's"
+
+#: shortcodes/page-builders/all-setting-fields.php:592
+#, fuzzy
+msgid "Use Property Query"
+msgstr "Gebruik Eiendomnavraag"
+
+#: shortcodes/page-builders/all-setting-fields.php:599
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "Eiendom-ID elk per lyn om op kaart te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:638
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "Verskaf totale aantal eienskappe om te wys. -1 vir alle"
+
+#: shortcodes/page-builders/all-setting-fields.php:657
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "Tipe eiendom filter"
+
+#: shortcodes/page-builders/all-setting-fields.php:658
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"Aktiveer om die eienskaptipe knoppies te vertoon onder kaarte om te filter"
+
+#: shortcodes/page-builders/all-setting-fields.php:667
+#, fuzzy
+msgid "Filter Key"
+msgstr "Filter sleutel"
+
+#: shortcodes/page-builders/all-setting-fields.php:668
+#, fuzzy
+msgid "Field key to use for filter menu"
+msgstr "Veld sleutel om te gebruik vir filter menu"
+
+#: shortcodes/page-builders/all-setting-fields.php:677
+#: shortcodes/page-builders/all-setting-fields.php:837
+#: shortcodes/page-builders/all-setting-fields.php:848
+#: shortcodes/page-builders/all-setting-fields.php:859
+#: shortcodes/page-builders/all-setting-fields.php:870
+#: shortcodes/page-builders/all-setting-fields.php:881
+msgid "Filter Options"
+msgstr "Filter Opsies"
+
+#: shortcodes/page-builders/all-setting-fields.php:678
+#, fuzzy
+msgid "Provide comma-separated values to display on filter menu"
+msgstr "Verskaf Komma-geskeide waardes om op die filterkieslys te vertoon"
+
+#: shortcodes/page-builders/all-setting-fields.php:688
+#, fuzzy
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr "Verskaf verstekbreedte as jy die pamflet-kaart gebruik"
+
+#: shortcodes/page-builders/all-setting-fields.php:694
+#, fuzzy
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr "Verskaf versteklengtegraad as jy die pamflet-kaart gebruik"
+
+#: shortcodes/page-builders/all-setting-fields.php:700
+#, fuzzy
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr "Verskaf Zoom vlak as jy met die pamflet kaart"
+
+#: shortcodes/page-builders/all-setting-fields.php:705
+#, fuzzy
+msgid "Map ID"
+msgstr "Kaart-ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:706
+#, fuzzy
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+"Kleinletter sonder spasies-ID vir die gebruik van verskeie kaarte op "
+"dieselfde bladsy."
+
+#: shortcodes/page-builders/all-setting-fields.php:711
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "Filter volgens merkers"
+
+#: shortcodes/page-builders/all-setting-fields.php:712
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "Verskaf enkele merker op elke lyn om te filter."
+
+#: shortcodes/page-builders/all-setting-fields.php:731
+#, fuzzy
+msgid "Map Height"
+msgstr "Kaarthoogte"
+
+#: shortcodes/page-builders/all-setting-fields.php:732
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "Verskaf kaart hoogte bv: 550px"
+
+#: shortcodes/page-builders/all-setting-fields.php:738
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr "Verskaf agent-ID vir spesifieke noteringsvereistes"
+
+#: shortcodes/page-builders/all-setting-fields.php:743
+#, fuzzy
+msgid "Loading Heading"
+msgstr "Laai opskrif"
+
+#: shortcodes/page-builders/all-setting-fields.php:744
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "Voorsien kaart laai teks opskrif"
+
+#: shortcodes/page-builders/all-setting-fields.php:750
+#, fuzzy
+msgid "Loading Description"
+msgstr "Laai Beskrywing"
+
+#: shortcodes/page-builders/all-setting-fields.php:751
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "Verskaf kaart laai teks Beskrywing"
+
+#: shortcodes/page-builders/all-setting-fields.php:757
+#: shortcodes/page-builders/all-setting-fields.php:835
+#, fuzzy
+msgid "Buttons Background Color"
+msgstr "Knoppies agtergrond kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:758
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "Kies agtergrondkleur vir kaartknoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:759
+#: shortcodes/page-builders/all-setting-fields.php:766
+#: shortcodes/page-builders/all-setting-fields.php:773
+#: shortcodes/page-builders/all-setting-fields.php:780
+#: shortcodes/page-builders/all-setting-fields.php:787
+#, fuzzy
+msgid "Colors"
+msgstr "Kleure"
+
+#: shortcodes/page-builders/all-setting-fields.php:764
+#: shortcodes/page-builders/all-setting-fields.php:846
+#, fuzzy
+msgid "Buttons Text Color"
+msgstr "Knoppies teks kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:765
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "Kies tekskleur vir kaartknoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:771
+#: shortcodes/page-builders/all-setting-fields.php:857
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "Knoppies agtergrond kleur-Hover"
+
+#: shortcodes/page-builders/all-setting-fields.php:772
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "Kies hover agtergrondkleur vir kaart knoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:778
+#: shortcodes/page-builders/all-setting-fields.php:868
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "Knoppies teks kleur-Hover"
+
+#: shortcodes/page-builders/all-setting-fields.php:779
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "Kies teks hover kleur vir kaart knoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+#, fuzzy
+msgid "Loader Color"
+msgstr "Loader kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:786
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "Kies kleur vir kaarte Loader boks"
+
+#: shortcodes/page-builders/all-setting-fields.php:793
+#, fuzzy
+msgid "Water Color"
+msgstr "Water kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:794
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "Kies Waterkleur in kaart"
+
+#: shortcodes/page-builders/all-setting-fields.php:795
+#: shortcodes/page-builders/all-setting-fields.php:802
+#: shortcodes/page-builders/all-setting-fields.php:809
+#: shortcodes/page-builders/all-setting-fields.php:816
+#: shortcodes/page-builders/all-setting-fields.php:823
+#: shortcodes/page-builders/all-setting-fields.php:830
+#, fuzzy
+msgid "Map Colors"
+msgstr "Kaart kleure"
+
+#: shortcodes/page-builders/all-setting-fields.php:800
+#, fuzzy
+msgid "Fill Color"
+msgstr "Vul kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:801
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "Kies natuurlike vulkleur in kaart"
+
+#: shortcodes/page-builders/all-setting-fields.php:807
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "Punte van die belang kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:808
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "Kies poi kleur in kaart"
+
+#: shortcodes/page-builders/all-setting-fields.php:814
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "Punte van belang Hue kleur"
+
+#: shortcodes/page-builders/all-setting-fields.php:815
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "Kies poi hue kleur in kaart"
+
+#: shortcodes/page-builders/all-setting-fields.php:821
+#, fuzzy
+msgid "Road Lightness"
+msgstr "Pad lig"
+
+#: shortcodes/page-builders/all-setting-fields.php:822
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "Kies padlig in kaart, verstek: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:828
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "Lines lig"
+
+#: shortcodes/page-builders/all-setting-fields.php:829
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Kies lyn lig in kaart, verstek: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:836
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "Agtergrondkleur vir onderste knoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:847
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "Teks kleur vir onderste knoppies"
+
+#: shortcodes/page-builders/all-setting-fields.php:858
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "Agtergrondkleur vir onderste knoppies op hover"
+
+#: shortcodes/page-builders/all-setting-fields.php:869
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "Teks kleur vir onderste knoppies op hover"
+
+#: shortcodes/page-builders/all-setting-fields.php:879
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "Knoppies agtergrond kleur-aktiewe"
+
+#: shortcodes/page-builders/all-setting-fields.php:880
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "Agtergrondkleur vir onderste knoppies op aktiewe"
+
+#: shortcodes/page-builders/all-setting-fields.php:890
+#, fuzzy
+msgid "Field Name for Icons"
+msgstr "Veldnaam vir ikone"
+
+#: shortcodes/page-builders/all-setting-fields.php:891
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr "Verskaf velddatanaam om ikone deur te filter. Bv: property_type"
+
+#: shortcodes/page-builders/all-setting-fields.php:892
+#: shortcodes/page-builders/all-setting-fields.php:899
+#: shortcodes/page-builders/all-setting-fields.php:906
+#: shortcodes/page-builders/all-setting-fields.php:913
+#, fuzzy
+msgid "Custom Icons"
+msgstr "Pasgemaakte ikone"
+
+#: shortcodes/page-builders/all-setting-fields.php:897
+#, fuzzy
+msgid "Icon URLs"
+msgstr "Ikoon-URL's"
+
+#: shortcodes/page-builders/all-setting-fields.php:898
+#, fuzzy
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"Verskaf meta waarde, statiese en hover ikoon-URL's seaprated met pypteken. "
+"Bv: huis | some_image. png | some_image_hover. png"
+
+#: shortcodes/page-builders/all-setting-fields.php:904
+#, fuzzy
+msgid "My Location Icon Url"
+msgstr "My ligging-ikoon-URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:905
+#, fuzzy
+msgid "Provide icon url for my location pin"
+msgstr "Verskaf ikoonurl vir my liggingspeld"
+
+#: shortcodes/page-builders/all-setting-fields.php:911
+#, fuzzy
+msgid "Circle Icon Url"
+msgstr "Circle ikoon URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:912
+#, fuzzy
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "Verskaf ikoonurl vir veelvuldige eienskappe. Grootte 55x55"
+
+#: shortcodes/page-builders/all-setting-fields.php:922
+#, fuzzy
+msgid "Agent IDs"
+msgstr "Agent ID's"
+
+#: shortcodes/page-builders/all-setting-fields.php:923
+#, fuzzy
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "Komma-geskeide ID's van die agente vir 'n spesifieke lys"
+
+#: shortcodes/page-builders/all-setting-fields.php:929
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "Aantal kolomme in 'n ry"
+
+#: shortcodes/page-builders/all-setting-fields.php:952
+#, fuzzy
+msgid "Choose option to sort agents by"
+msgstr "Kies opsie om agente te sorteer volgens"
+
+#: shortcodes/page-builders/all-setting-fields.php:956
+#, fuzzy
+msgid "Nice Name"
+msgstr "Mooi naam"
+
+#: shortcodes/page-builders/all-setting-fields.php:957
+msgid "Email Address"
+msgstr "E-posadres"
+
+#: shortcodes/page-builders/all-setting-fields.php:958
+msgid "URL"
+msgstr "URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:959
+#, fuzzy
+msgid "Registered"
+msgstr "Geregistreer"
+
+#: shortcodes/page-builders/all-setting-fields.php:960
+#, fuzzy
+msgid "Display Name"
+msgstr "Vertoon naam"
+
+#: shortcodes/page-builders/all-setting-fields.php:961
+#, fuzzy
+msgid "Properties Count"
+msgstr "Eienskappe telling"
+
+#: shortcodes/page-builders/all-setting-fields.php:962
+#, fuzzy
+msgid "IDs Provided Above"
+msgstr "ID's hierbo verskaf"
+
+#: shortcodes/page-builders/all-setting-fields.php:963
+#, fuzzy
+msgid "Meta Value"
+msgstr "Meta value"
+
+#: shortcodes/page-builders/all-setting-fields.php:969
+#, fuzzy
+msgid "Custom Meta Key"
+msgstr "Pasgemaakte meta-sleutel"
+
+#: shortcodes/page-builders/all-setting-fields.php:970
+#, fuzzy
+msgid "Provide field name here for specific agent listing."
+msgstr "Verskaf veldnaam hier vir spesifieke agent-lys."
+
+#: shortcodes/page-builders/all-setting-fields.php:975
+#, fuzzy
+msgid "Custom Meta Value"
+msgstr "Persoonlike meta value"
+
+#: shortcodes/page-builders/all-setting-fields.php:976
+#, fuzzy
+msgid "Provide field value here for specific agent listing."
+msgstr "Verskaf veldwaarde hier vir spesifieke agent-lys."
+
+#: shortcodes/page-builders/all-setting-fields.php:981
+#, fuzzy
+msgid "Total Agents"
+msgstr "Totale agente"
+
+#: shortcodes/page-builders/all-setting-fields.php:982
+#, fuzzy
+msgid "Number of agents to display."
+msgstr "Getal agente om te vertoon."
+
+#: shortcodes/page-builders/all-setting-fields.php:987
+msgid "Masonry"
+msgstr "Messelwerk"
+
+#: shortcodes/page-builders/all-setting-fields.php:988
+#, fuzzy
+msgid "Justified Layout"
+msgstr "Geregverdig uitleg"
+
+#: shortcodes/page-builders/all-setting-fields.php:990
+#, fuzzy
+msgid "enable"
+msgstr "Aktiveer"
+
+#: shortcodes/page-builders/all-setting-fields.php:991
+#, fuzzy
+msgid "disable"
+msgstr "Deaktiveer"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+#, fuzzy
+msgid "List Properties"
+msgstr "Lys eienskappe"
+
+#: shortcodes/page-builders/divi-settings.php:86
+#, fuzzy
+msgid "Edit Agent Form"
+msgstr "Redigeer agent vorm"
+
+#: shortcodes/page-builders/divi-settings.php:105
+#, fuzzy
+msgid "Login Agent Form"
+msgstr "Teken agent vorm"
+
+#: shortcodes/page-builders/divi-settings.php:124
+#, fuzzy
+msgid "Create Property Form"
+msgstr "Skep Eiendomvorm"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+#, fuzzy
+msgid "List Agents"
+msgstr "Lys agente"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+#, fuzzy
+msgid "Single Property"
+msgstr "Enkele eiendom"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+#, fuzzy
+msgid "Agent Profile"
+msgstr "Agent profiel"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+#, fuzzy
+msgid "My Profile"
+msgstr "My profiel"
+
+#: shortcodes/page-builders/divi-settings.php:276
+#, fuzzy
+msgid "Large Map"
+msgstr "Groot kaart"
+
+#: shortcodes/page-builders/divi-settings.php:295
+#, fuzzy
+msgid "Search Property Form"
+msgstr "Deursoek Eiendomvorm"
+
+#: shortcodes/page-builders/divi-settings.php:324
+#, fuzzy
+msgid "Properties Slider"
+msgstr "Eienskappe glyer"
+
+#: shortcodes/page-builders/divi-settings.php:343
+#, fuzzy
+msgid "Simple Search Properties"
+msgstr "Eenvoudige soek eienskappe"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+#, fuzzy
+msgid "Manage Properties"
+msgstr "Bestuur eienskappe"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+#, fuzzy
+msgid "Logout Button"
+msgstr "Teken af knoppie"
+
+#: shortcodes/page-builders/vc-settings.php:8
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "Maak 'n vorm om nuwe agent te registreer"
+
+#: shortcodes/page-builders/vc-settings.php:12
+#, fuzzy
+msgid "Edit Agent Profile"
+msgstr "Redigeer agent-profiel"
+
+#: shortcodes/page-builders/vc-settings.php:16
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "Maak 'n vorm voor om ingeteken in agent se profiel te redigeer"
+
+#: shortcodes/page-builders/vc-settings.php:24
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "Maak 'n AJAX gebaseer login vorm"
+
+#: shortcodes/page-builders/vc-settings.php:32
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "Maak 'n vorm toe om eiendom te skep"
+
+#: shortcodes/page-builders/vc-settings.php:40
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "Vertoon lys van agente"
+
+#: shortcodes/page-builders/vc-settings.php:48
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "Maak 'n vorm voor om eiendom te wysig"
+
+#: shortcodes/page-builders/vc-settings.php:56
+#, fuzzy
+msgid "Display a single property"
+msgstr "Wys 'n enkele eienskap"
+
+#: shortcodes/page-builders/vc-settings.php:64
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "Wys eienskappe volgens die instellings"
+
+#: shortcodes/page-builders/vc-settings.php:72
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "Wys eienskappe van huidige aangeteken in agent"
+
+#: shortcodes/page-builders/vc-settings.php:80
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "Wys profiel van spesifieke agent"
+
+#: shortcodes/page-builders/vc-settings.php:88
+#, fuzzy
+msgid "Displays profile of logged in agent"
+msgstr "Wys profiel van aangeteken in agent"
+
+#: shortcodes/page-builders/vc-settings.php:96
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr "Wys soekuitslae indien gesoek van widget"
+
+#: shortcodes/page-builders/vc-settings.php:100
+#, fuzzy
+msgid "Properties Map"
+msgstr "Eienskappe kaart"
+
+#: shortcodes/page-builders/vc-settings.php:104
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "Wys eienskappe op 'n groot kaart"
+
+#: shortcodes/page-builders/vc-settings.php:112
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "Maak 'n vorm om eienskappe via AJAX te soek"
+
+#: shortcodes/page-builders/vc-settings.php:116
+#, fuzzy
+msgid "Carousel Slider"
+msgstr "Carousel glyer"
+
+#: shortcodes/page-builders/vc-settings.php:120
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "Maak reageer carousel van eienskappe"
+
+#: shortcodes/page-builders/vc-settings.php:124
+#, fuzzy
+msgid "Inline Search Field"
+msgstr "Inlyn soekveld"
+
+#: shortcodes/page-builders/vc-settings.php:128
+#, fuzzy
+msgid "Renders simple search form"
+msgstr "Lewer eenvoudige soekvorm"
+
+#: shortcodes/page-builders/vc-settings.php:136
+#, fuzzy
+msgid "Displays a logout button"
+msgstr "Wys 'n teken af knoppie"
+
+#: shortcodes/page-builders/vc-settings.php:144
+#, fuzzy
+msgid "Manage all properties (for admins)"
+msgstr "Bestuur alle eienskappe (vir admins)"
+
+#: shortcodes/register-agent.php:49
+#, fuzzy
+msgid "Sign up"
+msgstr "Teken in"
+
+#: shortcodes/search-property.php:110
+msgid "Loading..."
+msgstr "Besig om te laai..."
+
+#: templates/agent/style2.php:38
+msgid "More Info"
+msgstr "Meer Inligting"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "Real Estate Bestuurder pro"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "'N volledige oplossing vir Real Estate bestuur"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "Webkodingplace"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"

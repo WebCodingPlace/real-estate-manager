@@ -38,6 +38,7 @@ if ( $the_query->have_posts() ) {
 			'propertyType' 	=>  $type,
 			'lat' 			=>  $latitude,
 			'lon' 			=>  $longitude,
+			'address' 		=>  $address,
 		);
 
 		$all_properties[] = $property_data;
@@ -56,15 +57,20 @@ if ($use_map_from == 'leaflet') {
     wp_enqueue_style( 'rem-m-cluster-default-css', REM_URL . '/assets/front/leaflet/MarkerCluster.Default.css' );    
     wp_enqueue_script( 'rem-leaflet-js', REM_URL . '/assets/front/leaflet/leaflet.js', array('jquery'));
     wp_enqueue_script( 'rem-leaflet-markers-js', REM_URL . '/assets/front/leaflet/leaflet.markercluster.js', array('jquery'));
-    wp_enqueue_script( 'rem-points-js', 'https://leaflet.github.io/Leaflet.markercluster/example/realworld.388.js', array('jquery'));
     wp_enqueue_script( 'rem-global-maps-js', REM_URL . '/assets/front/leaflet/custom.js', array('jquery'));
+    $icons_size = rem_get_option('leaflet_icons_size', '43x47');
+    $icons_anchor = rem_get_option('leaflet_icons_anchor', '18x47');    
 	$mapsData = array(
 		'properties' => $all_properties,
 		'my_location_icon' => $my_location_icon,
+		'leaflet_styles' => $leaflet_styles,
 		'circle_icon' => $circle_icon,
 		'zoom_level' => rem_get_option('maps_zoom_level', '18'),
 		'def_lat' => rem_get_option('default_map_lat', '-33.890542'),
-        'def_long' => rem_get_option('default_map_long', '151.274856')
+        'def_long' => rem_get_option('default_map_long', '151.274856'),
+        'map_id' => $map_id,
+        'icons_size' => explode("x", $icons_size),
+        'icons_anchor' => explode("x", $icons_anchor),        
 	);
 	if ($def_lat != '') {
 		$mapsData['def_lat'] = $def_lat;
@@ -75,7 +81,7 @@ if ($use_map_from == 'leaflet') {
 	if ($map_zoom != '') {
 		$mapsData['zoom_level'] = $map_zoom;
 	}
-	wp_localize_script( 'rem-global-maps-js', 'mapsData', $mapsData );    
+	wp_localize_script( 'rem-global-maps-js', 'mapsData'.$map_id, $mapsData );    
 } else {
 	if (is_ssl()) {
 	    wp_enqueue_script( 'rem-gmap-api-js', 'https://maps.google.com/maps/api/js?key='.$maps_api);
@@ -95,108 +101,103 @@ if ($use_map_from == 'leaflet') {
 		'roads_lightness' => $roads_lightness,
 		'lines_lightness' => $lines_lightness,
 		'my_location_icon' => $my_location_icon,
-		'circle_icon' => $circle_icon,
+		'zoom_level' => rem_get_option('maps_zoom_level', '15'),
+		'def_lat' => rem_get_option('default_map_lat', '-33.890542'),
+        'def_long' => rem_get_option('default_map_long', '151.274856'),
+		'auto_center' => $auto_center,
 		'maps_styles' => stripcslashes(rem_get_option('maps_styles')),
 		'found_text' => __( 'Found', 'real-estate-manager' ),
+		'my_pos_text' => __( 'You are here', 'real-estate-manager' ),
 	);
-	wp_localize_script( 'rem-home-maps', 'mapsData', $mapsData );
-	wp_localize_script( 'rem-markerclusterer', 'mapsData', $mapsData );
+	if ($def_lat != '') {
+		$mapsData['def_lat'] = $def_lat;
+	}
+	if ($def_long != '') {
+		$mapsData['def_long'] = $def_long;
+	}
+	if ($map_zoom != '') {
+		$mapsData['zoom_level'] = $map_zoom;
+	}
+	$markerClusterData = array(
+		'theme_path' => REM_URL.'/assets/',
+		'circle_icon' => $circle_icon,
+	);
+	wp_localize_script( 'rem-home-maps', 'mapsData_'.$map_id, $mapsData );
+	wp_localize_script( 'rem-markerclusterer', 'markerClusterData', $markerClusterData );
 }
 
  
-?>
-<style>
-	#maps {
-		height: <?php echo $map_height; ?> !important;
+$mapStyle = "<style>
+	#{$map_id}.rem-maps .map {
+		height: {$map_height};
 	}
-	#leaflet-maps {
+	#{$map_id}.rem-leaflet-map-area {
 		height: 500px;
 	}
-	#leaflet-maps .rem-box-maps:hover .price {
+	#{$map_id}.rem-leaflet-map-area .rem-box-maps:hover .price {
 		top: 165px !important;
 	}
-	#leaflet-maps {
-		height: <?php echo $map_height; ?> !important;
+	#{$map_id}.rem-leaflet-map-area {
+		height: {$map_height} !important;
 	}
-	#maps .find-result, #maps .find-result:after {
-		background-color: <?php echo $btn_bg_color; ?> !important;
-		color: <?php echo $btn_text_color; ?> !important;
+	#{$map_id}.rem-maps .find-result, #{$map_id}.rem-maps .find-result:after {
+		background-color: {$btn_bg_color} !important;
+		color: {$btn_text_color} !important;
 	}
-	#maps .control-left-wrapper div:after, #maps .control-right-wrapper div:after {
-		background-color: <?php echo $btn_bg_color; ?>;
+	#{$map_id}.rem-maps .control-left-wrapper div:after, #{$map_id}.rem-maps .control-right-wrapper div:after {
+		background-color: {$btn_bg_color};
 		border: none;
-		color: <?php echo $btn_text_color; ?>;
+		color: {$btn_text_color};
 		border-radius: 0;
-		padding-top: 10px;
 		font-size: 20px;
 	}
-	#maps .find-result, #maps .find-result:after, .ads-type a.item-type {
-		background-color: <?php echo $btn_bg_color; ?>;
-		color: <?php echo $btn_text_color; ?>;
+	#{$map_id}.rem-maps .find-result, #{$map_id}.rem-maps .find-result:after, #{$map_id} .ads-type a.item-type {
+		background-color: {$btn_bg_color};
+		color: {$btn_text_color};
 	}
-	#maps .control-left-wrapper div:hover:after,
-	#maps .control-right-wrapper div:hover:after,
-	.ads-type a.item-type.item-selected,
-	.ads-type a.item-type:hover {
-		background-color: <?php echo $btn_bg_color_hover; ?>;
-		color: <?php echo $btn_text_color_hover; ?>;
+	#{$map_id}.rem-maps .control-left-wrapper div:hover:after,
+	#{$map_id}.rem-maps .control-right-wrapper div:hover:after,
+	#{$map_id} .ads-type a.item-type.item-selected,
+	#{$map_id} .ads-type a.item-type:hover {
+		background-color: {$btn_bg_color_hover};
+		color: {$btn_text_color_hover};
 	}
-	.ads-type {
-		background-color: <?php echo $type_bar_bg_color; ?>;
+	#{$map_id} .ads-type {
+		background-color: {$type_bar_bg_color};
 	}
-	#maps .loading-container .spinner {
-		background-color: <?php echo $loader_color; ?> !important;
+	#{$map_id}.rem-maps .loading-container .spinner {
+		background-color: {$loader_color} !important;
 	}
-	.type-filtering .btn {
-		background-color: <?php echo $bottom_btn_bg_color; ?> !important;
-		color: <?php echo $bottom_btn_text_color; ?> !important;
+	#{$map_id}.rem-maps .rem-filters-overlay {
+		background-color: {$filter_bg};
 	}
-	.type-filtering .btn:hover {
-		background-color: <?php echo $bottom_btn_bg_color_hover; ?> !important;
-		color: <?php echo $bottom_btn_text_color_hover; ?> !important;
-	}
-	.type-filtering .btn.active {
-		background-color: <?php echo $bottom_btn_bg_color_active; ?> !important;
-	}
-	.leaflet-popup-content .rem-box-maps {margin: 0 !important;}
-</style>
+	#{$map_id} .leaflet-popup-content .rem-box-maps {margin: 0 !important;}
+</style>";
+ 
+echo $mapStyle;
 
+?>
 <div class="ich-settings-main-wrap">
 	<?php if ($use_map_from == 'google_maps') { ?>
-	<section id="maps">
+	<section id="<?php echo esc_attr($map_id); ?>" class="rem-maps">
 		<div class="loading-container">
 			<div class="spinner"></div>
 			<div class="text">
-				<span><?php echo $load_heading; ?></span>
-				<?php echo $load_desc; ?>
+				<span><?php echo esc_attr($load_heading); ?></span>
+				<?php echo esc_attr($load_desc); ?>
 			</div>
 		</div>
 		<div class="find-result"></div>
-		<div class="map map-home" id="map-canvas"></div>
-	</section>
-	<?php if ($type_filtering == 'enable') { 
-		global $rem_ob;
-		if ($filter_by_key == 'property_type') {
-			$all_types = $rem_ob->get_all_property_types();
-		} elseif ($filter_by_key == 'property_purpose') {
-			$all_types = $rem_ob->get_all_property_purpose();
-		} elseif ($filter_by_key == 'property_status') {
-			$all_types = $rem_ob->get_all_property_status();
-		} else {
-			$all_types = explode(",", $filter_options);
-		}
-	?>
-	<div class="type-filtering">
-		<div class="btn-group btn-group-justified" role="group">
-			<?php foreach ($all_types as $p_type) { ?>
-			<div class="btn-group" role="group">
-				<button type="button" class="item-type btn btn-default" data-type="<?php echo $p_type; ?>"><?php echo $p_type; ?></button>
+		<div class="map map-home"></div>
+		<?php if ($type_filtering == 'enable') { $all_types = explode(",", $filter_options); ?>
+			<div class="rem-filters-overlay" id="filtering-<?php echo esc_attr($map_id); ?>">
+				<?php foreach ($all_types as $p_type) { ?>
+					<label><input type="checkbox" name="filter_by" value="<?php echo esc_attr($p_type); ?>" data-type="<?php echo esc_attr($p_type); ?>"> <?php echo esc_attr($p_type); ?> </label>
+				<?php } ?>
 			</div>
-			<?php } ?>
-		</div>	
-	</div>
-	<?php } ?>
+		<?php } ?>
+	</section>
 	<?php } else { ?>
-		<div id="leaflet-maps"></div>
+		<div class="rem-leaflet-map-area" id="<?php echo esc_attr($map_id); ?>"></div>
 	<?php } ?>
 </div>

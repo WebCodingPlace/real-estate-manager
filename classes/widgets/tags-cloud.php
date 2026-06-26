@@ -18,25 +18,25 @@ class REM_Tags_Cloud_W extends WP_Widget {
 	public function widget( $args, $instance ) {
 
 		extract($instance);
-		echo $args['before_widget'];
+		echo '<div class="rem-tag-cloud">';
 		if ( isset($instance['title']) ) {
-			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
+			echo wp_kses_post($args['before_title']) . apply_filters( 'widget_title', $instance['title'] ) . wp_kses_post($args['after_title']);
 		}
 		$cloud_args = array('taxonomy' => 'rem_property_tag');
 		wp_tag_cloud( $cloud_args );
-		echo (isset($args['after_widget'])) ? $args['after_widget'] : '';
+		echo '</div>';
 	}
 
 	public function form( $instance ) {
 		extract($instance);
 		?>
 		<p>
-			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title','real-estate-manager' ); ?></label> 
+			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title','real-estate-manager' ); ?></label> 
 			<input
 				class="widefat"
 				id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
 				name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>"
-				type="text" value="<?php echo (isset($instance['title'])) ? $instance['title'] : '' ; ?>"
+				type="text" value="<?php echo (isset($instance['title'])) ? esc_attr($instance['title']) : '' ; ?>"
 			>
 		</p>
 		<?php 

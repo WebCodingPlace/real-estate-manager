@@ -1,0 +1,46 @@
+.ui-state-highlight {
+    border: 2px dashed #000;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+.ui-draggable-dragging .inside-contents , .hard-coded-list .inside-contents {
+    display: none;
+}
+.ui-draggable-dragging {
+    max-width: 275px;
+    width: 100% !important;
+}
+.ui-sortable-helper {
+    max-width: 946px;
+    width: 100% !important;
+}
+.hard-coded-list .panel {
+    cursor: move !important;
+}
+.hard-coded-list .panel-heading .btn {
+    display: none;
+}
+.form-meta-setting .panel, .hard-coded-list .panel {
+    margin-bottom: 10px !important;
+}
+.form-meta-setting .panel-heading {
+    /*cursor: pointer;*/
+}
+.form-meta-setting .inside-contents {
+    display: none;
+}
+.form-meta-setting .trigger-sort {
+    cursor: move;
+}
+.form-meta-setting .panel-heading a {
+    margin-right: 10px;
+}
+.form-meta-setting .form-group {
+    margin-bottom: 15px;
+}
+.form-meta-setting select {
+    max-width: 100%;
+    padding-top: 0 !important;
+}

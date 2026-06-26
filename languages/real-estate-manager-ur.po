@@ -1,0 +1,5951 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2020-04-12 20:30+0500\n"
+"PO-Revision-Date: 2020-04-12 20:49+0500\n"
+"Language-Team: rameez7759@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ur\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+msgid "Real Estate Manager"
+msgstr "رئیل اسٹیٹ مینیجر"
+
+#: classes/emails.class.php:38
+msgid "New Agent Registered "
+msgstr "نیا ایجنٹ رجسٹرڈ"
+
+#: classes/emails.class.php:49
+msgid "Registration Successful "
+msgstr "رجسٹریشن کامیاب"
+
+#: classes/emails.class.php:65
+msgid "Approved "
+msgstr "منظور"
+
+#: classes/emails.class.php:81
+msgid "Rejected "
+msgstr "مسترد"
+
+#: classes/emails.class.php:103
+msgid "New Property Submitted "
+msgstr "نئی پراپرٹی جمع"
+
+#: classes/emails.class.php:109
+msgid "Property Submitted "
+msgstr "پیش کردہ پراپرٹی"
+
+#: classes/emails.class.php:122
+msgid "Property Approved "
+msgstr "منظور شدہ پراپرٹی"
+
+#: classes/hooks.class.php:144 classes/hooks.class.php:148
+#: core.functions.php:588 inc/menu/page-agents.php:91
+#: inc/menu/page-agents.php:133
+msgid "Details"
+msgstr "تفصیلات دیکھیں"
+
+#: classes/hooks.class.php:219
+msgid "Beds"
+msgstr "بستر"
+
+#: classes/hooks.class.php:224
+msgid "Baths"
+msgstr "غسل"
+
+#: classes/hooks.class.php:229 inc/arrays/property-fields.php:145
+msgid "Area"
+msgstr "علاقے"
+
+#: classes/hooks.class.php:561 classes/hooks.class.php:1130
+#: classes/widgets/search-properties.php:95
+#: classes/widgets/search-properties.php:189 core.functions.php:773
+#: core.functions.php:1390 shortcodes/page-builders/all-setting-fields.php:399
+msgid "Property ID"
+msgstr "خاصیت شناخت"
+
+#: classes/hooks.class.php:723 core.functions.php:590
+msgid "Features"
+msgstr "خصوصیات"
+
+#: classes/hooks.class.php:752 core.functions.php:1391
+#: shortcodes/create-property.php:80 shortcodes/edit-property.php:103
+#: shortcodes/page-builders/all-setting-fields.php:253
+msgid "Tags"
+msgstr "نشاندہی الفاظ"
+
+#: classes/hooks.class.php:789 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+msgid "Edit Property"
+msgstr "خاصیت تدوین کریں"
+
+#: classes/hooks.class.php:795
+msgid "Find on Map"
+msgstr "نقشے پر تلاش کریں"
+
+#: classes/hooks.class.php:876
+msgid "Name"
+msgstr "نام"
+
+#: classes/hooks.class.php:879 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "ای میل"
+
+#: classes/hooks.class.php:882
+msgid "Subject"
+msgstr "موضوع"
+
+#: classes/hooks.class.php:885
+msgid "Your Message"
+msgstr "آپ کا پیغام"
+
+#: classes/hooks.class.php:891
+msgid "SEND MESSAGE"
+msgstr "پیغام بھیجیں"
+
+#: classes/hooks.class.php:898 inc/sidebar-agent-contact.php:35
+msgid "Sending Email, Please Wait..."
+msgstr "ای میل بھیج رہا ہے ، انتظار کریں..."
+
+#: classes/hooks.class.php:921
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:922
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:930
+msgid "Tag:"
+msgstr "ٹیگ:"
+
+#: classes/hooks.class.php:933
+msgid "Properties:"
+msgstr "خواص:"
+
+#: classes/hooks.class.php:952 classes/setup.class.php:699
+#: shortcodes/page-builders/all-setting-fields.php:751
+#: shortcodes/page-builders/all-setting-fields.php:758
+msgid "Settings"
+msgstr "ترتیبات"
+
+#: classes/hooks.class.php:953
+msgid "Request for Customize"
+msgstr "تخصیص کے لیے فرمایش"
+
+#: classes/hooks.class.php:1104
+msgid "You can add more features"
+msgstr "آپ مزید خصوصیات شامل کر سکتے ہیں"
+
+#: classes/hooks.class.php:1105 inc/menu/admin-settings-arr.php:737
+#: inc/menu/admin-settings-arr.php:743 inc/menu/admin-settings-arr.php:850
+#: inc/menu/render-admin-settings.php:50
+msgid "here"
+msgstr "یہاں"
+
+#: classes/hooks.class.php:1131
+msgid "Featured Image"
+msgstr "نمایاں تصویر"
+
+#: classes/hooks.class.php:1171 inc/menu/admin-settings-arr.php:124
+msgid "Energy Efficiency"
+msgstr "توانائی کی کارکردگی"
+
+#: classes/hooks.class.php:1191
+msgid "A+"
+msgstr "A +"
+
+#: classes/hooks.class.php:1192
+msgid "A"
+msgstr "اے"
+
+#: classes/hooks.class.php:1193
+msgid "B"
+msgstr "بی"
+
+#: classes/hooks.class.php:1194
+msgid "C"
+msgstr "سی"
+
+#: classes/hooks.class.php:1195
+#, fuzzy
+msgid "D"
+msgstr "د"
+
+#: classes/hooks.class.php:1196
+msgid "E"
+msgstr "مشرقی"
+
+#: classes/hooks.class.php:1197
+msgid "F"
+msgstr "ج"
+
+#: classes/hooks.class.php:1198
+msgid "G"
+msgstr "جی"
+
+#: classes/hooks.class.php:1199
+#, fuzzy
+msgid "H"
+msgstr "ح"
+
+#: classes/hooks.class.php:1201
+msgid "Energy Class"
+msgstr "توانائی کی کلاس"
+
+#: classes/hooks.class.php:1202
+msgid "Select the energy class of the property"
+msgstr "جائیداد کی توانائی کی کلاس کو منتخب کریں"
+
+#: classes/hooks.class.php:1211
+msgid "Global Energy Performance Index"
+msgstr "گلوبل انرجی پرفارمنس انڈیکس"
+
+#: classes/hooks.class.php:1212
+msgid "Example: 92.42 kWh / m²a"
+msgstr "مثال کے طور پر: 92.42 ہائیڈروڈینڈک/m ² ایک"
+
+#: classes/hooks.class.php:1221
+msgid "Renewable Energy Performance Index"
+msgstr "قابل تجدید توانائی کی کارکردگی انڈیکس"
+
+#: classes/hooks.class.php:1222
+msgid "Example: 1.00 kWh / m²a"
+msgstr "مثال کے طور پر: 1.00 ہائیڈروڈینڈک/m ² ایک"
+
+#: classes/hooks.class.php:1231
+msgid "Energy Performance of the Listing"
+msgstr "لسٹنگ کی توانائی کی کارکردگی"
+
+#: classes/hooks.class.php:1232
+msgid "Example: Low"
+msgstr "مثال: کم"
+
+#: classes/hooks.class.php:1253
+msgid "Energy class"
+msgstr "توانائی کی کلاس"
+
+#: classes/routes.class.php:363 classes/setup.class.php:686
+msgid "Email Sent Successfully"
+msgstr "ای میل کو کامیابی سے بھیجا"
+
+#: classes/routes.class.php:365 classes/setup.class.php:688
+msgid "There is some problem, please try later"
+msgstr "کچھ مسئلہ ہے ، بعد ازاں کوشش کریں"
+
+#: classes/setup.class.php:104
+msgid "Property Information"
+msgstr "خاصیت معلومات"
+
+#: classes/setup.class.php:105
+msgid "Location on Map"
+msgstr "نقشے پر محل وقوع"
+
+#: classes/setup.class.php:106
+msgid "Gallery Images"
+msgstr "گیلری تصاویر"
+
+#: classes/setup.class.php:107
+msgid "Additional Agents"
+msgstr "ایڈیشنل ایجنٹس"
+
+#: classes/setup.class.php:459 classes/setup.class.php:779
+msgid "Property Agent"
+msgstr "پراپرٹی ایجنٹ"
+
+#: classes/setup.class.php:535
+msgid "Attic"
+msgstr "اٹاری"
+
+#: classes/setup.class.php:536
+msgid "Gas Heat"
+msgstr "گیس گرمی"
+
+#: classes/setup.class.php:537
+msgid "Balcony"
+msgstr "بالکنی"
+
+#: classes/setup.class.php:538
+msgid "Wine Cellar"
+msgstr "شراب بھونرا"
+
+#: classes/setup.class.php:539
+msgid "Basketball Court"
+msgstr "باسکٹ بال کورٹ"
+
+#: classes/setup.class.php:540
+msgid "Trash Compactors"
+msgstr "ردی کی کوڑے"
+
+#: classes/setup.class.php:541
+msgid "Fireplace"
+msgstr "چمنی"
+
+#: classes/setup.class.php:542
+msgid "Pool"
+msgstr "پول"
+
+#: classes/setup.class.php:543
+msgid "Lake View"
+msgstr "جھیل دیکھیں"
+
+#: classes/setup.class.php:544
+msgid "Solar Heat"
+msgstr "شمسی توانائی"
+
+#: classes/setup.class.php:545
+msgid "Separate Shower"
+msgstr "علیحدہ شاور"
+
+#: classes/setup.class.php:546
+msgid "Wet Bar"
+msgstr "گیلے بار"
+
+#: classes/setup.class.php:547
+msgid "Remodeled"
+msgstr "Remodeled"
+
+#: classes/setup.class.php:548
+msgid "Skylights"
+msgstr "آسامان"
+
+#: classes/setup.class.php:549
+msgid "Stone Surfaces"
+msgstr "پتھر سطحوں"
+
+#: classes/setup.class.php:550
+msgid "Golf Course"
+msgstr "گالف کورس"
+
+#: classes/setup.class.php:551
+msgid "Health Club"
+msgstr "ہیلتھ کلب"
+
+#: classes/setup.class.php:552
+msgid "Backyard"
+msgstr "پچھواڑے"
+
+#: classes/setup.class.php:553
+msgid "Pet Allowed"
+msgstr "پالتو جانوروں کی اجازت"
+
+#: classes/setup.class.php:554
+msgid "Office/Den"
+msgstr "دفتر/Den"
+
+#: classes/setup.class.php:555
+msgid "Laundry"
+msgstr "لانڈری"
+
+#: classes/setup.class.php:568
+msgid "Duplex"
+msgstr "ڈپلیکس"
+
+#: classes/setup.class.php:569
+msgid "House"
+msgstr "گھر"
+
+#: classes/setup.class.php:570
+msgid "Office"
+msgstr "Office"
+
+#: classes/setup.class.php:571
+#, fuzzy
+msgid "Retail"
+msgstr "پرچون"
+
+#: classes/setup.class.php:572
+msgid "Vila"
+msgstr "ولا"
+
+#: classes/setup.class.php:585
+msgid "Rent"
+msgstr "کرایہ"
+
+#: classes/setup.class.php:586
+msgid "Sell"
+msgstr "فروخت"
+
+#: classes/setup.class.php:599
+msgid "Normal"
+msgstr "عام"
+
+#: classes/setup.class.php:600
+msgid "Available"
+msgstr "دستیاب"
+
+#: classes/setup.class.php:601
+msgid "Not Available"
+msgstr "دستیاب نہیں"
+
+#: classes/setup.class.php:602
+msgid "Sold"
+msgstr "فروخت"
+
+#: classes/setup.class.php:603
+msgid "Open House"
+msgstr "اوپن ہاؤس"
+
+#: classes/setup.class.php:618 classes/shortcodes.class.php:1413
+#: classes/shortcodes.class.php:1679
+msgid "Please check the captcha form."
+msgstr "براہ مہربانی چیک کریں کیپچا فارم."
+
+#: classes/setup.class.php:627 classes/shortcodes.class.php:1422
+msgid "There was an error. Please try again after reloading page"
+msgstr "ایک نقص تھا ۔ پھرلوڈ صفحہ کے بعد دوبارہ کوشش کریں"
+
+#: classes/setup.class.php:696
+msgid "Agents"
+msgstr "ایجنٹس"
+
+#: classes/setup.class.php:697
+msgid "Property Fields"
+msgstr "پراپرٹی فیلڈز"
+
+#: classes/setup.class.php:698
+msgid "Registration Fields"
+msgstr "رجسٹریشن کے شعبوں"
+
+#: classes/setup.class.php:700
+msgid "Extensions"
+msgstr "ایکس ٹینشن"
+
+#: classes/setup.class.php:701
+msgid "Help/Support"
+msgstr "مدد/معاونت"
+
+#: classes/setup.class.php:860 classes/setup.class.php:891
+#: classes/setup.class.php:1216
+msgid "Settings Saved!"
+msgstr "سیٹنگیں محفوظ!"
+
+#: classes/setup.class.php:861 classes/setup.class.php:892
+#: classes/setup.class.php:1217
+msgid "Settings are saved in the database successfully."
+msgstr "ترتیبات کو کامیابی سے ڈیٹا بیس میں محفوظ کیا جاتا ہے."
+
+#: classes/setup.class.php:872 classes/setup.class.php:895
+#: classes/setup.class.php:1220
+msgid "Failed!"
+msgstr "ناکام!"
+
+#: classes/setup.class.php:873 classes/setup.class.php:896
+#: classes/setup.class.php:1221
+msgid "There is some error or you did not make any change."
+msgstr "کچھ نقص ہے یا آپ نے کوئی تبدیلی نہیں کی ۔"
+
+#: classes/setup.class.php:918 classes/setup.class.php:921
+msgid "Property updated."
+msgstr "پراپرٹی کی تازہ کاری."
+
+#: classes/setup.class.php:919
+msgid "Custom field updated."
+msgstr "مخصوص قطعہ کی تازہ کاری ۔"
+
+#: classes/setup.class.php:920
+msgid "Custom field deleted."
+msgstr "مخصوص قطعہ حذف ۔"
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:923
+msgid "Property restored to revision"
+msgstr "پراپرٹی کو نظرثانی میں بحال کیا گیا"
+
+#: classes/setup.class.php:924
+msgid "Property published."
+msgstr "پراپرٹی شائع."
+
+#: classes/setup.class.php:925
+msgid "Property saved."
+msgstr "پراپرٹی محفوظ."
+
+#: classes/setup.class.php:926
+msgid "Property submitted."
+msgstr "پیش کردہ پراپرٹی."
+
+#: classes/setup.class.php:928
+msgid "Property scheduled."
+msgstr "پراپرٹی شیڈول."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:930
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/setup.class.php:932
+msgid "Property draft updated."
+msgstr "خاصیت مسودہ تازہ کاری."
+
+#: classes/setup.class.php:938 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "منظر خاصیت"
+
+#: classes/setup.class.php:944
+msgid "Preview Property"
+msgstr "پیش منظر خاصیت"
+
+#: classes/setup.class.php:1009
+msgid "Property Page Base"
+msgstr "خاصیت صفحہ بنیاد"
+
+#: classes/setup.class.php:1034 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37
+msgid "Type"
+msgstr "نوعیت"
+
+#: classes/setup.class.php:1035 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+msgid "Purpose"
+msgstr "مقصد"
+
+#: classes/setup.class.php:1036 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+msgid "Status"
+msgstr "حالت"
+
+#: classes/setup.class.php:1037
+msgid "Is Featured"
+msgstr "نمایاں ہے"
+
+#: classes/setup.class.php:1065
+msgid "All Types"
+msgstr "تمام اقسام"
+
+#: classes/setup.class.php:1077
+msgid "All Purpose"
+msgstr "تمام مقصد"
+
+#: classes/setup.class.php:1088
+msgid "All Status"
+msgstr "تمام درجہ"
+
+#: classes/shortcodes.class.php:87
+msgid "Passwords did not match!"
+msgstr "پاس ورڈ مشابہ نہیں!"
+
+#: classes/shortcodes.class.php:105 classes/shortcodes.class.php:178
+#: classes/shortcodes.class.php:539 classes/shortcodes.class.php:1000
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+"لائیو پیش نظارہ عنصر میں ترمیم موڈ میں دستیاب نہیں ہے لیکن اس صفحے کا دورہ "
+"کرتے وقت کام کریں گے."
+
+#: classes/shortcodes.class.php:111 classes/widgets/search-properties.php:110
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+msgid "Search"
+msgstr "تلاش"
+
+#: classes/shortcodes.class.php:112
+msgid "More Filters"
+msgstr "مزید فلٹر"
+
+#: classes/shortcodes.class.php:185
+msgid "Go"
+msgstr "جائیں"
+
+#: classes/shortcodes.class.php:186
+msgid "More "
+msgstr "مزید"
+
+#: classes/shortcodes.class.php:279
+msgid "Logging In, Please Wait..."
+msgstr "لاگ ان, انتظار کریں..."
+
+#: classes/shortcodes.class.php:479 classes/shortcodes.class.php:513
+msgid "Are you sure to delete this property?"
+msgstr "کیا آپ اس پراپرٹی کو حذف کرنا چاہتے ہیں ؟"
+
+#: classes/shortcodes.class.php:480 classes/shortcodes.class.php:514
+#: inc/arrays/property-fields.php:226 inc/menu/admin-settings-arr.php:1159
+#, fuzzy
+msgid "Yes"
+msgstr "ہاں"
+
+#: classes/shortcodes.class.php:481 classes/shortcodes.class.php:515
+#: inc/arrays/property-fields.php:225 inc/menu/admin-settings-arr.php:1158
+msgid "No"
+msgstr "نہیں"
+
+#: classes/shortcodes.class.php:516 classes/shortcodes.class.php:1580
+msgid "Done"
+msgstr "ہو گیا"
+
+#: classes/shortcodes.class.php:1214 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "لاگ آوٹ"
+
+#: classes/shortcodes.class.php:1405
+msgid "There is no property having ID "
+msgstr "ID ہونے کی کوئی خاصیت نہیں ہے"
+
+#: classes/shortcodes.class.php:1444
+msgid "Successful!"
+msgstr "کامیاب!"
+
+#: classes/shortcodes.class.php:1610
+msgid "Changes Saved!"
+msgstr "محفوظ شدہ تبدیلیاں!"
+
+#: classes/shortcodes.class.php:1688
+msgid "There was an error. Please try again after reloading page."
+msgstr "ایک نقص تھا ۔ پھرلوڈ صفحہ کے بعد دوبارہ کوشش کریں ۔"
+
+#: classes/shortcodes.class.php:1696 classes/shortcodes.class.php:1732
+msgid "Username or Email already exists"
+msgstr "صارف نام یا ای میل پہلے ہی موجود ہے"
+
+#: classes/shortcodes.class.php:1704 classes/shortcodes.class.php:1745
+msgid "Registered Successfully, please wait until admin approves."
+msgstr "رجسٹر کامیابی سے ، منتظم کی منظوری تک انتظار کریں."
+
+#: classes/shortcodes.class.php:1706 classes/shortcodes.class.php:1747
+msgid "Error, please try later"
+msgstr "نقص ، بعد ازاں کوشش کریں"
+
+#: classes/shortcodes.class.php:1772
+msgid "Deleted"
+msgstr "حذف شدہ"
+
+#: classes/shortcodes.class.php:1774
+msgid "Sorry! You can not delete this property."
+msgstr "معذرت! آپ یہ خاصیت حذف نہیں کر سکتے ۔"
+
+#: classes/shortcodes.class.php:1859
+msgid "Choose Picture"
+msgstr "تصویر منتخب کریں"
+
+#: classes/shortcodes.class.php:1859 classes/shortcodes.class.php:1911
+#: core.functions.php:702
+msgid "Add"
+msgstr "شامل کریں"
+
+#: classes/shortcodes.class.php:1882 inc/admin/property-settings-metabox.php:37
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/select.php:42
+#: inc/menu/agent/fields/text.php:26 inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr "مطلوبہ"
+
+#: classes/shortcodes.class.php:1911 core.functions.php:702
+msgid "Select attachments for property"
+msgstr "پراپرٹی کے لئے منسلکات منتخب کریں"
+
+#: classes/shortcodes.class.php:1911 core.functions.php:702
+msgid "Upload"
+msgstr "اپ لوڈ"
+
+#: classes/shortcodes.class.php:1931 classes/shortcodes.class.php:1955
+#: core.functions.php:666 core.functions.php:818 core.functions.php:833
+#: core.functions.php:849 core.functions.php:850 core.functions.php:885
+msgid "Any"
+msgstr "کوئی"
+
+#: classes/shortcodes.class.php:2013
+msgid "Sort By Date"
+msgstr "تاریخ کی طرف سے ترتیب دیں"
+
+#: classes/shortcodes.class.php:2017
+msgid "Sort By Title"
+msgstr "چھانٹیں بمطابق عنوان"
+
+#: classes/shortcodes.class.php:2021
+msgid "Sort By Price : High to Low"
+msgstr "قیمت کی طرف سے ترتیب دیں: اعلی پر کم"
+
+#: classes/shortcodes.class.php:2025
+msgid "Sort By Price : Low to High"
+msgstr "قیمت کی طرف سے ترتیب دیں: کم سے زیادہ"
+
+#: classes/widgets/mortgage-calculator.php:13
+msgid "REM - Mortgage Calculator"
+msgstr "اینتا رہن کیلکولیٹر"
+
+#: classes/widgets/mortgage-calculator.php:14
+msgid "Displays Mortgage Calculator"
+msgstr "رہن کیلکولیٹر دکھاتا ہے"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "فروخت کی قیمت"
+
+#: classes/widgets/mortgage-calculator.php:45
+msgid "Down payment"
+msgstr "ڈاون پیمنٹ"
+
+#: classes/widgets/mortgage-calculator.php:49
+msgid "Interest Rate"
+msgstr "سود کی شرح"
+
+#: classes/widgets/mortgage-calculator.php:53
+#, fuzzy
+msgid "Term"
+msgstr "اصطلاح"
+
+#: classes/widgets/mortgage-calculator.php:53
+#, fuzzy
+msgid "years"
+msgstr "سال"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "حساب لگائیں"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:127 classes/widgets/tags-cloud.php:34
+#: core.functions.php:778 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/widgets/search-properties.php:15
+#, fuzzy
+msgid "REM - Search Property"
+msgstr "اینکی تلاش پراپرٹی"
+
+#: classes/widgets/search-properties.php:16
+#, fuzzy
+msgid "Search Properties"
+msgstr "تلاش خواص"
+
+#: classes/widgets/search-properties.php:80
+#: shortcodes/search-property-inline.php:47 shortcodes/search-property.php:45
+#, fuzzy
+msgid "Keywords"
+msgstr "مطلوبہ الفاظ"
+
+#: classes/widgets/search-properties.php:92
+#: classes/widgets/search-properties.php:162 core.functions.php:756
+#: core.functions.php:1387 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:212
+#: shortcodes/page-builders/all-setting-fields.php:567
+#: shortcodes/page-builders/all-setting-fields.php:614
+#: shortcodes/page-builders/all-setting-fields.php:947
+msgid "Order"
+msgstr "ترتیب"
+
+#: classes/widgets/search-properties.php:93
+#: classes/widgets/search-properties.php:171 core.functions.php:777
+#: core.functions.php:1388 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:577
+#: shortcodes/page-builders/all-setting-fields.php:628
+#: shortcodes/page-builders/all-setting-fields.php:957
+#, fuzzy
+msgid "Order By"
+msgstr "ترتیب"
+
+#: classes/widgets/search-properties.php:94
+#: classes/widgets/search-properties.php:180 core.functions.php:785
+#: core.functions.php:1389 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:226
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:451
+#: shortcodes/page-builders/all-setting-fields.php:581
+#: shortcodes/page-builders/all-setting-fields.php:632
+#: shortcodes/page-builders/all-setting-fields.php:743
+#, fuzzy
+msgid "Agent"
+msgstr "ایجنٹ"
+
+#: classes/widgets/search-properties.php:142 core.functions.php:1381
+#, fuzzy
+msgid "Search Field"
+msgstr "تلاش قطعہ"
+
+#: classes/widgets/search-properties.php:198
+#, fuzzy
+msgid "Enable Auto Complete Fields"
+msgstr "خود مکمل قطعات اہل بنائیں"
+
+#: classes/widgets/search-properties.php:200
+#, fuzzy
+msgid "It will auto suggest words in text fields as user type in."
+msgstr "یہ آٹو ٹیکسٹ فیلڈز میں صارف کی قسم کے طور پر الفاظ کی تجویز کرے گا."
+
+#: classes/widgets/search-properties.php:203
+#, fuzzy
+msgid "Search Results Page"
+msgstr "تلاش کے نتائج کا صفحہ"
+
+#: classes/widgets/search-properties.php:224
+#: inc/menu/render-admin-settings.php:167
+#, fuzzy
+msgid "No Pages Found!"
+msgstr "کوئی صفحات نہیں ملے!"
+
+#: classes/widgets/search-properties.php:227
+#, fuzzy
+msgid "Paste following shortcode in selected page to display results"
+msgstr "نتائج دکھانے کے لیے منتخب صفحہ میں درج ذیل مختصر جوڑیں"
+
+#: classes/widgets/tags-cloud.php:13
+#, fuzzy
+msgid "REM - Tags Cloud"
+msgstr "اینٹو ٹیگز بادل"
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+msgid "Displays Properties Tags Cloud"
+msgstr "خواص ٹیگ بادل دکھاتا ہے"
+
+#: core.functions.php:155
+#, fuzzy
+msgid "United Arab Emirates dirham"
+msgstr "متحدہ عرب امارات درہم"
+
+#: core.functions.php:156
+#, fuzzy
+msgid "Afghan afghani"
+msgstr "افغانی"
+
+#: core.functions.php:157
+#, fuzzy
+msgid "Albanian lek"
+msgstr "البانوی"
+
+#: core.functions.php:158
+#, fuzzy
+msgid "Armenian dram"
+msgstr "آرمینیائی ریزہ"
+
+#: core.functions.php:159
+#, fuzzy
+msgid "Netherlands Antillean guilder"
+msgstr "نیدرلینڈز انٹیلیز گلڈر"
+
+#: core.functions.php:160
+#, fuzzy
+msgid "Angolan kwanza"
+msgstr "انگولہن کونزا"
+
+#: core.functions.php:161
+#, fuzzy
+msgid "Argentine peso"
+msgstr "ارجنٹائن پیسو"
+
+#: core.functions.php:162
+#, fuzzy
+msgid "Australian dollar"
+msgstr "آسٹریلوی ڈالر"
+
+#: core.functions.php:163
+#, fuzzy
+msgid "Aruban florin"
+msgstr "آروبان فلوران"
+
+#: core.functions.php:164
+#, fuzzy
+msgid "Azerbaijani manat"
+msgstr "آذربائیجان منات"
+
+#: core.functions.php:165
+#, fuzzy
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "بوسنیا اور ہرزیگووینا کو بدلنے کا نشان"
+
+#: core.functions.php:166
+#, fuzzy
+msgid "Barbadian dollar"
+msgstr "باربادیان ڈالر"
+
+#: core.functions.php:167
+#, fuzzy
+msgid "Bangladeshi taka"
+msgstr "بنگلہ دیشی ٹکا"
+
+#: core.functions.php:168
+#, fuzzy
+msgid "Bulgarian lev"
+msgstr "بلغارین لیو"
+
+#: core.functions.php:169
+#, fuzzy
+msgid "Bahraini dinar"
+msgstr "بحرینی دینار"
+
+#: core.functions.php:170
+#, fuzzy
+msgid "Burundian franc"
+msgstr "بوروندیان فرانک"
+
+#: core.functions.php:171
+#, fuzzy
+msgid "Bermudian dollar"
+msgstr "برمودیان ڈالر"
+
+#: core.functions.php:172
+#, fuzzy
+msgid "Brunei dollar"
+msgstr "برونائی ڈالر"
+
+#: core.functions.php:173
+#, fuzzy
+msgid "Bolivian boliviano"
+msgstr "بولیویا بولاویانو"
+
+#: core.functions.php:174
+#, fuzzy
+msgid "Brazilian real"
+msgstr "برازیل اصلی"
+
+#: core.functions.php:175
+#, fuzzy
+msgid "Bahamian dollar"
+msgstr "بہامانی ڈالر"
+
+#: core.functions.php:176
+#, fuzzy
+msgid "Bitcoin"
+msgstr "ویکیپیڈیا"
+
+#: core.functions.php:177
+#, fuzzy
+msgid "Bhutanese ngultrum"
+msgstr "بھوٹانی نگولٹرم"
+
+#: core.functions.php:178
+#, fuzzy
+msgid "Botswana pula"
+msgstr "بوٹسوانا"
+
+#: core.functions.php:179
+#, fuzzy
+msgid "Belarusian ruble"
+msgstr "بیلا گڑگڑاھٹ"
+
+#: core.functions.php:180
+#, fuzzy
+msgid "Belize dollar"
+msgstr "بیلیز ڈالر"
+
+#: core.functions.php:181
+#, fuzzy
+msgid "Canadian dollar"
+msgstr "کینیڈا ڈالر"
+
+#: core.functions.php:182
+#, fuzzy
+msgid "Congolese franc"
+msgstr "کوگوese فرانک"
+
+#: core.functions.php:183
+#, fuzzy
+msgid "Swiss franc"
+msgstr "سوئس فرانک"
+
+#: core.functions.php:184
+#, fuzzy
+msgid "Chilean peso"
+msgstr "چلی پیسو"
+
+#: core.functions.php:185
+#, fuzzy
+msgid "Chinese yuan"
+msgstr "چینی یوآن"
+
+#: core.functions.php:186
+#, fuzzy
+msgid "Colombian peso"
+msgstr "کولمبیا پیسو"
+
+#: core.functions.php:187
+#, fuzzy
+msgid "Costa Rican col&oacute;n"
+msgstr "کوسٹا Rican کرنل &oacute; n"
+
+#: core.functions.php:188
+#, fuzzy
+msgid "Cuban convertible peso"
+msgstr "کیوبا بدلنے پیسو"
+
+#: core.functions.php:189
+#, fuzzy
+msgid "Cuban peso"
+msgstr "کیوبا پیسو"
+
+#: core.functions.php:190
+#, fuzzy
+msgid "Cape Verdean escudo"
+msgstr "کیپ Verdean escudo"
+
+#: core.functions.php:191
+#, fuzzy
+msgid "Czech koruna"
+msgstr "چیک کرونا"
+
+#: core.functions.php:192
+#, fuzzy
+msgid "Djiboutian franc"
+msgstr "دجابووٹیان فرانک"
+
+#: core.functions.php:193
+#, fuzzy
+msgid "Danish krone"
+msgstr "دانش کرون"
+
+#: core.functions.php:194
+#, fuzzy
+msgid "Dominican peso"
+msgstr "ڈومینیکن پیسو"
+
+#: core.functions.php:195
+#, fuzzy
+msgid "Algerian dinar"
+msgstr "الجزائر دینار"
+
+#: core.functions.php:196
+#, fuzzy
+msgid "Egyptian pound"
+msgstr "مصری پاؤنڈ"
+
+#: core.functions.php:197
+#, fuzzy
+msgid "Eritrean nakfa"
+msgstr "اراٹریان ناکف"
+
+#: core.functions.php:198
+#, fuzzy
+msgid "Ethiopian birr"
+msgstr "ایتھوپیا بارر"
+
+#: core.functions.php:199
+#, fuzzy
+msgid "Euro"
+msgstr "یورو"
+
+#: core.functions.php:200
+#, fuzzy
+msgid "Fijian dollar"
+msgstr "فجی ڈالر"
+
+#: core.functions.php:201
+#, fuzzy
+msgid "Falkland Islands pound"
+msgstr "جزائر فاک لینڈ"
+
+#: core.functions.php:202
+#, fuzzy
+msgid "Pound sterling"
+msgstr "پاؤنڈ سٹرلنگ"
+
+#: core.functions.php:203
+#, fuzzy
+msgid "Georgian lari"
+msgstr "جارجیا"
+
+#: core.functions.php:204
+#, fuzzy
+msgid "Guernsey pound"
+msgstr "گرنزی پونڈ"
+
+#: core.functions.php:205
+#, fuzzy
+msgid "Ghana cedi"
+msgstr "گھانا"
+
+#: core.functions.php:206
+#, fuzzy
+msgid "Gibraltar pound"
+msgstr "جبرالٹر پونڈ"
+
+#: core.functions.php:207
+#, fuzzy
+msgid "Gambian dalasi"
+msgstr "گامبیان دالاسا"
+
+#: core.functions.php:208
+#, fuzzy
+msgid "Guinean franc"
+msgstr "گنی فرانک"
+
+#: core.functions.php:209
+#, fuzzy
+msgid "Guatemalan quetzal"
+msgstr "گوئٹے مالا قویٹزال"
+
+#: core.functions.php:210
+#, fuzzy
+msgid "Guyanese dollar"
+msgstr "گیانا ڈالر"
+
+#: core.functions.php:211
+#, fuzzy
+msgid "Hong Kong dollar"
+msgstr "ہانگ کانگ ڈالر"
+
+#: core.functions.php:212
+#, fuzzy
+msgid "Honduran lempira"
+msgstr "ہونڈوراس لیمپارا"
+
+#: core.functions.php:213
+#, fuzzy
+msgid "Croatian kuna"
+msgstr "کروشیائی کن"
+
+#: core.functions.php:214
+#, fuzzy
+msgid "Haitian gourde"
+msgstr "ہیٹی گووردی"
+
+#: core.functions.php:215
+#, fuzzy
+msgid "Hungarian forint"
+msgstr "ہنگیرین forint"
+
+#: core.functions.php:216
+#, fuzzy
+msgid "Indonesian rupiah"
+msgstr "انڈونیشیائی روپے"
+
+#: core.functions.php:217
+#, fuzzy
+msgid "Israeli new shekel"
+msgstr "اسرائیلی نیو مقدس"
+
+#: core.functions.php:218
+#, fuzzy
+msgid "Manx pound"
+msgstr "Manx پونڈ"
+
+#: core.functions.php:219
+#, fuzzy
+msgid "Indian rupee"
+msgstr "بھارتی روپیہ"
+
+#: core.functions.php:220
+#, fuzzy
+msgid "Iraqi dinar"
+msgstr "عراقی دینار"
+
+#: core.functions.php:221
+#, fuzzy
+msgid "Iranian rial"
+msgstr "ایرانی ریال"
+
+#: core.functions.php:222
+#, fuzzy
+msgid "Icelandic kr&oacute;na"
+msgstr "آئس لینڈک kr &oacute; na"
+
+#: core.functions.php:223
+#, fuzzy
+msgid "Jersey pound"
+msgstr "جرسی پونڈ"
+
+#: core.functions.php:224
+#, fuzzy
+msgid "Jamaican dollar"
+msgstr "جمیکا ڈالر"
+
+#: core.functions.php:225
+#, fuzzy
+msgid "Jordanian dinar"
+msgstr "اردن دینار"
+
+#: core.functions.php:226
+#, fuzzy
+msgid "Japanese yen"
+msgstr "جاپانی ین"
+
+#: core.functions.php:227
+#, fuzzy
+msgid "Kenyan shilling"
+msgstr "کینیا اٹھنی"
+
+#: core.functions.php:228
+#, fuzzy
+msgid "Kyrgyzstani som"
+msgstr "کرغستان سوم"
+
+#: core.functions.php:229
+#, fuzzy
+msgid "Cambodian riel"
+msgstr "کمبوڈیائی میونس"
+
+#: core.functions.php:230
+#, fuzzy
+msgid "Comorian franc"
+msgstr "Comorian فرانک"
+
+#: core.functions.php:231
+#, fuzzy
+msgid "North Korean won"
+msgstr "شمالی کوریا نے"
+
+#: core.functions.php:232
+#, fuzzy
+msgid "South Korean won"
+msgstr "جنوبی کوریائی جیتا"
+
+#: core.functions.php:233
+#, fuzzy
+msgid "Kuwaiti dinar"
+msgstr "کویتی دینار"
+
+#: core.functions.php:234
+#, fuzzy
+msgid "Cayman Islands dollar"
+msgstr "جزائر کیمن جزائر ڈالر"
+
+#: core.functions.php:235
+#, fuzzy
+msgid "Kazakhstani tenge"
+msgstr "قازقستانی ٹینگے"
+
+#: core.functions.php:236
+#, fuzzy
+msgid "Lao kip"
+msgstr "لاؤ kip"
+
+#: core.functions.php:237
+#, fuzzy
+msgid "Lebanese pound"
+msgstr "لبنانی پاؤنڈ"
+
+#: core.functions.php:238
+#, fuzzy
+msgid "Sri Lankan rupee"
+msgstr "سری لنکا روپیہ"
+
+#: core.functions.php:239
+#, fuzzy
+msgid "Liberian dollar"
+msgstr "لائبیریا ڈالر"
+
+#: core.functions.php:240
+#, fuzzy
+msgid "Lesotho loti"
+msgstr "لیسوتھو لوti"
+
+#: core.functions.php:241
+#, fuzzy
+msgid "Libyan dinar"
+msgstr "لیبیا دینار"
+
+#: core.functions.php:242
+#, fuzzy
+msgid "Moroccan dirham"
+msgstr "مراکش درہم"
+
+#: core.functions.php:243
+#, fuzzy
+msgid "Moldovan leu"
+msgstr "مالدویائی leu"
+
+#: core.functions.php:244
+#, fuzzy
+msgid "Malagasy ariary"
+msgstr "Malagasy"
+
+#: core.functions.php:245
+#, fuzzy
+msgid "Macedonian denar"
+msgstr "مقدونیائی ڈیار"
+
+#: core.functions.php:246
+#, fuzzy
+msgid "Burmese kyat"
+msgstr "برمی"
+
+#: core.functions.php:247
+#, fuzzy
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "منگول ٹی &ouml; gr &ouml; جی"
+
+#: core.functions.php:248
+#, fuzzy
+msgid "Macanese pataca"
+msgstr "ماکانیسی پاٹاکی"
+
+#: core.functions.php:249
+#, fuzzy
+msgid "Mauritanian ouguiya"
+msgstr "ماوراتنیان اووگویا"
+
+#: core.functions.php:250
+#, fuzzy
+msgid "Mauritian rupee"
+msgstr "ماوراٹیان روپیہ"
+
+#: core.functions.php:251
+#, fuzzy
+msgid "Maldivian rufiyaa"
+msgstr "مالدیپی روفایاا"
+
+#: core.functions.php:252
+#, fuzzy
+msgid "Malawian kwacha"
+msgstr "مالاویان کواکہا"
+
+#: core.functions.php:253
+#, fuzzy
+msgid "Mexican peso"
+msgstr "میکسیکن پیسو"
+
+#: core.functions.php:254
+#, fuzzy
+msgid "Malaysian ringgit"
+msgstr "ملیشیا رگیٹ"
+
+#: core.functions.php:255
+#, fuzzy
+msgid "Mozambican metical"
+msgstr "موزامباکان می"
+
+#: core.functions.php:256
+#, fuzzy
+msgid "Namibian dollar"
+msgstr "نمیبیا ڈالر"
+
+#: core.functions.php:257
+#, fuzzy
+msgid "Nigerian naira"
+msgstr "نائجیریا ناارا"
+
+#: core.functions.php:258
+#, fuzzy
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "نکاراگوا c &oacute; ردوبا"
+
+#: core.functions.php:259
+#, fuzzy
+msgid "Norwegian krone"
+msgstr "نارویجین بوکمل کرون"
+
+#: core.functions.php:260
+#, fuzzy
+msgid "Nepalese rupee"
+msgstr "نیپالی روپیہ"
+
+#: core.functions.php:261
+#, fuzzy
+msgid "New Zealand dollar"
+msgstr "نیوزی لینڈ ڈالر"
+
+#: core.functions.php:262
+#, fuzzy
+msgid "Omani rial"
+msgstr "اومان ریال"
+
+#: core.functions.php:263
+#, fuzzy
+msgid "Panamanian balboa"
+msgstr "پاناماناان بالبوہ"
+
+#: core.functions.php:264
+#, fuzzy
+msgid "Peruvian nuevo sol"
+msgstr "پیرو نوایوو والارٹا سورج"
+
+#: core.functions.php:265
+#, fuzzy
+msgid "Papua New Guinean kina"
+msgstr "پاپوا نیو گنی کانا"
+
+#: core.functions.php:266
+#, fuzzy
+msgid "Philippine peso"
+msgstr "فلپائن پیسو"
+
+#: core.functions.php:267
+#, fuzzy
+msgid "Pakistani rupee"
+msgstr "روپیہ"
+
+#: core.functions.php:268
+#, fuzzy
+msgid "Polish z&#x142;oty"
+msgstr "پولش z & #x142; oty"
+
+#: core.functions.php:269
+#, fuzzy
+msgid "Transnistrian ruble"
+msgstr "ٹرانسناسٹریان گڑگڑاھٹ"
+
+#: core.functions.php:270
+#, fuzzy
+msgid "Paraguayan guaran&iacute;"
+msgstr "جرگآئن گواران &iacute;"
+
+#: core.functions.php:271
+#, fuzzy
+msgid "Qatari riyal"
+msgstr "قطر رایال"
+
+#: core.functions.php:272
+#, fuzzy
+msgid "Romanian leu"
+msgstr "رومنی leu"
+
+#: core.functions.php:273
+#, fuzzy
+msgid "Serbian dinar"
+msgstr "سربیائی دینار"
+
+#: core.functions.php:274
+#, fuzzy
+msgid "Russian ruble"
+msgstr "روسی گڑگڑاھٹ"
+
+#: core.functions.php:275
+#, fuzzy
+msgid "Rwandan franc"
+msgstr "روانڈا فرانک"
+
+#: core.functions.php:276
+#, fuzzy
+msgid "Saudi riyal"
+msgstr "سعودی رایال"
+
+#: core.functions.php:277
+#, fuzzy
+msgid "Solomon Islands dollar"
+msgstr "جزائر سلیمان ڈالر"
+
+#: core.functions.php:278
+#, fuzzy
+msgid "Seychellois rupee"
+msgstr "سیکہیللواس روپیہ"
+
+#: core.functions.php:279
+#, fuzzy
+msgid "Sudanese pound"
+msgstr "سوڈانی پونڈ"
+
+#: core.functions.php:280
+#, fuzzy
+msgid "Swedish krona"
+msgstr "سویڈش کراون"
+
+#: core.functions.php:281
+#, fuzzy
+msgid "Singapore dollar"
+msgstr "سنگاپور ڈالر"
+
+#: core.functions.php:282
+#, fuzzy
+msgid "Saint Helena pound"
+msgstr "سینٹ ہیلینا پونڈ"
+
+#: core.functions.php:283
+#, fuzzy
+msgid "Sierra Leonean leone"
+msgstr "سیرا سیرالیون لیون"
+
+#: core.functions.php:284
+#, fuzzy
+msgid "Somali shilling"
+msgstr "صومالی اٹھنی"
+
+#: core.functions.php:285
+#, fuzzy
+msgid "Surinamese dollar"
+msgstr "سورانامیسی ڈالر"
+
+#: core.functions.php:286
+#, fuzzy
+msgid "South Sudanese pound"
+msgstr "جنوبی سوڈان کے پاؤنڈ"
+
+#: core.functions.php:287
+#, fuzzy
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "ایس &atilde; o ٹام &eacute; اور Pr &iacute; ncipe"
+
+#: core.functions.php:288
+#, fuzzy
+msgid "Syrian pound"
+msgstr "شامی پونڈ"
+
+#: core.functions.php:289
+#, fuzzy
+msgid "Swazi lilangeni"
+msgstr "سوازا لالانگانا"
+
+#: core.functions.php:290
+#, fuzzy
+msgid "Thai baht"
+msgstr "تھائی باہت"
+
+#: core.functions.php:291
+#, fuzzy
+msgid "Tajikistani somoni"
+msgstr "تاجکستان سامانی"
+
+#: core.functions.php:292
+#, fuzzy
+msgid "Turkmenistan manat"
+msgstr "ترکمانستان منات"
+
+#: core.functions.php:293
+#, fuzzy
+msgid "Tunisian dinar"
+msgstr "تیونسی دینار"
+
+#: core.functions.php:294
+#, fuzzy
+msgid "Tongan pa&#x2bb;anga"
+msgstr "ٹونگن pa & #x2bb; انجا"
+
+#: core.functions.php:295
+#, fuzzy
+msgid "Turkish lira"
+msgstr "ترکی لیرا"
+
+#: core.functions.php:296
+#, fuzzy
+msgid "Trinidad and Tobago dollar"
+msgstr "ٹرینیڈاڈ و ٹوباگو ڈالر"
+
+#: core.functions.php:297
+#, fuzzy
+msgid "New Taiwan dollar"
+msgstr "نیو تائیوان ڈالر"
+
+#: core.functions.php:298
+#, fuzzy
+msgid "Tanzanian shilling"
+msgstr "تنزانیہ اٹھنی"
+
+#: core.functions.php:299
+#, fuzzy
+msgid "Ukrainian hryvnia"
+msgstr "یوکرائن ہریونیا"
+
+#: core.functions.php:300
+#, fuzzy
+msgid "Ugandan shilling"
+msgstr "يوگانڈي اٹھنی"
+
+#: core.functions.php:301
+#, fuzzy
+msgid "United States dollar"
+msgstr "امریکی ڈالر"
+
+#: core.functions.php:302
+#, fuzzy
+msgid "Uruguayan peso"
+msgstr "اروگوایان پیسو"
+
+#: core.functions.php:303
+#, fuzzy
+msgid "Uzbekistani som"
+msgstr "ازبیکیستنا سوم"
+
+#: core.functions.php:304
+#, fuzzy
+msgid "Venezuelan bol&iacute;var"
+msgstr "وینزویلا بول &iacute; سوار"
+
+#: core.functions.php:305
+#, fuzzy
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "ويتنامی & #x111; & #x1ed3; ونگ"
+
+#: core.functions.php:306
+#, fuzzy
+msgid "Vanuatu vatu"
+msgstr "وانواتو واٹو"
+
+#: core.functions.php:307
+#, fuzzy
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "ساموآن t & #x101; l & #x101;"
+
+#: core.functions.php:308
+#, fuzzy
+msgid "Central African CFA franc"
+msgstr "وسطی افریقہ سی ایف اے فرانک"
+
+#: core.functions.php:309
+#, fuzzy
+msgid "East Caribbean dollar"
+msgstr "مشرقی کیریبین ڈالر"
+
+#: core.functions.php:310
+#, fuzzy
+msgid "West African CFA franc"
+msgstr "مغربی افریقہ سی ایف اے فرانک"
+
+#: core.functions.php:311
+#, fuzzy
+msgid "CFP franc"
+msgstr "متعلق فرانک"
+
+#: core.functions.php:312
+#, fuzzy
+msgid "Yemeni rial"
+msgstr "یمنی ریال"
+
+#: core.functions.php:313
+msgid "South African rand"
+msgstr "جنوبی افریقہ رینڈ"
+
+#: core.functions.php:314
+msgid "Zambian kwacha"
+msgstr "زامبیا کواکہا"
+
+#: core.functions.php:589
+msgid "Internal Structure"
+msgstr "اندرونی ساخت"
+
+#: core.functions.php:591
+msgid "Attachments"
+msgstr "منسلکات"
+
+#: core.functions.php:592
+msgid "Video"
+msgstr "ویڈیو"
+
+#: core.functions.php:593
+msgid "Private Fields"
+msgstr "نجی قطعات"
+
+#: core.functions.php:605
+msgid "Personal Info"
+msgstr "ذاتی معلومات"
+
+#: core.functions.php:606
+msgid "Social Profiles"
+msgstr "سوشل میڈیا"
+
+#: core.functions.php:607
+msgid "Skills"
+msgstr "مہارت"
+
+#: core.functions.php:623
+msgid "Style 1 - Inline"
+msgstr "طرز 1-ان لائن"
+
+#: core.functions.php:624
+msgid "Style 2 - Static Box"
+msgstr "طرز 2-جامد خانہ"
+
+#: core.functions.php:625
+msgid "Style 3 - Hover Box"
+msgstr "طرز 3 ہوور باکس"
+
+#: core.functions.php:626
+msgid "Style 4 - Mini Box"
+msgstr "طرز 4-منی باکس"
+
+#: core.functions.php:627
+msgid "Style 5 - Full Box"
+msgstr "طرز 5-مکمل باکس"
+
+#: core.functions.php:628
+msgid "Style 6 - Fade Thumbnails"
+msgstr "طرز 6-مدھم پورنے"
+
+#: core.functions.php:629
+msgid "Style 7 - Map Box"
+msgstr "طرز 7-نقشہ باکس"
+
+#: core.functions.php:733
+msgid "NO"
+msgstr "نہيں"
+
+#: core.functions.php:733
+msgid "YES"
+msgstr "ہاں"
+
+#: core.functions.php:757 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:571
+#: shortcodes/page-builders/all-setting-fields.php:618
+#: shortcodes/page-builders/all-setting-fields.php:951
+msgid "Descending"
+msgstr "نزولی"
+
+#: core.functions.php:758 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:215
+#: shortcodes/page-builders/all-setting-fields.php:570
+#: shortcodes/page-builders/all-setting-fields.php:617
+#: shortcodes/page-builders/all-setting-fields.php:950
+msgid "Ascending"
+msgstr "صعودی"
+
+#: core.functions.php:763
+#, fuzzy
+msgid "Tag"
+msgstr "ٹیگ"
+
+#: core.functions.php:779 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:225
+#: shortcodes/page-builders/all-setting-fields.php:580
+#: shortcodes/page-builders/all-setting-fields.php:631
+msgid "Date"
+msgstr "تاریخ"
+
+#: core.functions.php:780 core.functions.php:929 core.functions.php:941
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:584
+msgid "Price"
+msgstr "قیمت"
+
+#: core.functions.php:944
+msgid "Min"
+msgstr "منٹ"
+
+#: core.functions.php:946
+msgid "Max"
+msgstr "میکس"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:31
+msgid "Select images for property gallery"
+msgstr "پراپرٹی گیلری کے لئے تصاویر منتخب کریں"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:31
+msgid "Insert"
+msgstr "داخل"
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "تصاویر اپ لوڈ کریں"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:95
+#: shortcodes/edit-property.php:122
+msgid "Type to Search..."
+msgstr "تلاش کرنے کے لیے ٹائپ کریں..."
+
+#: inc/admin/property-location-map.php:12
+msgid "Search the address on search bar. "
+msgstr "تلاش بار پر پتا تلاش کریں ۔"
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:100
+#: shortcodes/edit-property.php:126
+msgid "Drag the pin to the location on the map"
+msgstr "نقشے پر موجود پن کو محل وقوع پر گھسیٹیں"
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:127
+#: inc/menu/admin-settings-arr.php:198 inc/menu/admin-settings-arr.php:219
+#: inc/menu/admin-settings-arr.php:253 inc/menu/admin-settings-arr.php:273
+#: inc/menu/admin-settings-arr.php:283 inc/menu/admin-settings-arr.php:326
+#: inc/menu/admin-settings-arr.php:337 inc/menu/admin-settings-arr.php:495
+#: inc/menu/admin-settings-arr.php:544 inc/menu/admin-settings-arr.php:1120
+#: inc/menu/admin-settings-arr.php:1130 inc/menu/admin-settings-arr.php:1149
+#: inc/menu/admin-settings-arr.php:1169 inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:274
+#: shortcodes/page-builders/all-setting-fields.php:306
+#: shortcodes/page-builders/all-setting-fields.php:324
+#: shortcodes/page-builders/all-setting-fields.php:335
+#: shortcodes/page-builders/all-setting-fields.php:551
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:666
+#: shortcodes/page-builders/all-setting-fields.php:730
+msgid "Disable"
+msgstr "غیر فعال کریں"
+
+#: inc/admin/property-location-map.php:23
+msgid "Checking this will disable map for this listing"
+msgstr "یہ چیک کر کے اس لسٹنگ کے لئے نقشہ کو غیر فعال کرے گا"
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+msgid "Properties"
+msgstr "خواص"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "خاصیت"
+
+#: inc/admin/register-property.php:12
+#, fuzzy
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "نئی پراپرٹی شامل کریں"
+
+#: inc/admin/register-property.php:13
+#, fuzzy
+msgid "Add New Property"
+msgstr "نئی پراپرٹی شامل کریں"
+
+#: inc/admin/register-property.php:15
+#, fuzzy
+msgid "New Property"
+msgstr "نئی پراپرٹی"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+#, fuzzy
+msgid "Search Property"
+msgstr "پراپرٹی تلاش کریں"
+
+#: inc/admin/register-property.php:18
+#, fuzzy
+msgid "No Property found"
+msgstr "کوئی خاصیت نہیں ملی"
+
+#: inc/admin/register-property.php:19
+#, fuzzy
+msgid "No Property found in Trash"
+msgstr "ردی کی جگہ نہیں ملی"
+
+#: inc/admin/register-property.php:20
+#, fuzzy
+msgid "Parent Property:"
+msgstr "جدی پراپرٹی:"
+
+#: inc/admin/register-property.php:72
+#, fuzzy
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "پراپرٹی ٹیگز"
+
+#: inc/admin/register-property.php:73
+#, fuzzy
+msgctxt "Tags"
+msgid "Tag"
+msgstr "ٹیگ"
+
+#: inc/admin/register-property.php:74
+#, fuzzy
+msgid "Search Property Tags"
+msgstr "پراپرٹی ٹیگز تلاش کریں"
+
+#: inc/admin/register-property.php:75
+msgid "Popular Tags"
+msgstr "مقبول نشاندہی الفاظ"
+
+#: inc/admin/register-property.php:76
+msgid "All Tags"
+msgstr "سارے نشاندہی الفاظ"
+
+#: inc/admin/register-property.php:77 inc/admin/register-property.php:78
+#, fuzzy
+msgid "Parent Tag"
+msgstr "والدین کا ٹیگ"
+
+#: inc/admin/register-property.php:79
+#, fuzzy
+msgid "Edit Tag"
+msgstr "ٹیگ تدوین کریں"
+
+#: inc/admin/register-property.php:80
+#, fuzzy
+msgid "Update Tag"
+msgstr "تازہ کاری ٹیگ"
+
+#: inc/admin/register-property.php:81
+#, fuzzy
+msgid "Add New Tag"
+msgstr "نیا ٹیگ اضافہ کریں"
+
+#: inc/admin/register-property.php:82
+#, fuzzy
+msgid "New Tag Name"
+msgstr "نیا ٹیگ نام"
+
+#: inc/admin/register-property.php:83
+#, fuzzy
+msgid "Add or remove Tags"
+msgstr "ٹیگ شامل کریں یا ہٹائیں"
+
+#: inc/admin/register-property.php:84
+#, fuzzy
+msgid "Choose from most used tags"
+msgstr "سب سے زیادہ استعمال شدہ ٹیگ سے منتخب کریں"
+
+#: inc/admin/register-property.php:85
+msgid " Tags"
+msgstr "ٹیگز"
+
+#: inc/admin/single-property-fields.php:14
+#, fuzzy
+msgid "Check if property have this option"
+msgstr "چیک کریں کہ جائیداد میں یہ اختیار ہے"
+
+#: inc/ajax/search-property-ajax.php:37
+#: shortcodes/search-property-inline.php:111 shortcodes/search-property.php:114
+msgid "Loading..."
+msgstr "لوڈ ہورہا ہے ..."
+
+#: inc/ajax/search-property-ajax.php:40
+msgid "Load More"
+msgstr "مزید لوڈ کریں"
+
+#: inc/ajax/search-property-ajax.php:46 shortcodes/search-results-simple.php:77
+#, fuzzy
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "معذرت! کوئی خواص نہیں ملے ۔ دوبارہ تلاش کی کوشش کریں ۔"
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "پہلا نام"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+msgid "Last Name"
+msgstr "آخری نام"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "صارف کا نام"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+msgid "Password"
+msgstr "پاس ورڈ"
+
+#: inc/arrays/agent-fields.php:52
+#, fuzzy
+msgid "Pepeat Password"
+msgstr "پیپیاٹ پاس ورڈ"
+
+#: inc/arrays/agent-fields.php:61
+#, fuzzy
+msgid "Biographical Info"
+msgstr "بایگرافیکل معلومات"
+
+#: inc/arrays/agent-fields.php:70
+#, fuzzy
+msgid "Picture of Agent"
+msgstr "ایجنٹ کی تصویر"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+msgid "Upload an additional image for your profile"
+msgstr "آپ کے پروفائل کے لئے ایک اضافی تصویر اپ لوڈ کریں"
+
+#: inc/arrays/agent-fields.php:80
+#, fuzzy
+msgid "Profile Url"
+msgstr "پروفائل Url"
+
+#: inc/arrays/agent-fields.php:81
+#, fuzzy
+msgid "Provide url for agent profile"
+msgstr "ایجنٹ پروفائل کے لئے یو آر ایل فراہم"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "فون نمبر"
+
+#: inc/arrays/agent-fields.php:97
+#, fuzzy
+msgid "Facebook Profile"
+msgstr "فیس بک پروفائل"
+
+#: inc/arrays/agent-fields.php:105
+#, fuzzy
+msgid "Twitter Profile"
+msgstr "ٹویٹر پروفائل"
+
+#: inc/arrays/agent-fields.php:113
+#, fuzzy
+msgid "Google+ Profile"
+msgstr "Google + پروفائل"
+
+#: inc/arrays/agent-fields.php:121
+#, fuzzy
+msgid "LinkedIn Profile"
+msgstr "لنکڈ پروفائل"
+
+#: inc/arrays/agent-fields.php:129
+#, fuzzy
+msgid "Facebook Page"
+msgstr "فیس بک پیج"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "انسٹاگرام"
+
+#: inc/arrays/agent-fields.php:145
+#, fuzzy
+msgid "YouTube"
+msgstr "Youtube"
+
+#: inc/arrays/agent-fields.php:152
+#, fuzzy
+msgid "User Tagline"
+msgstr "یوزر ٹیگ لائن"
+
+#: inc/arrays/agent-fields.php:153
+#, fuzzy
+msgid "Will display under username"
+msgstr "صارف نام کے تحت دکھائیں گے"
+
+#: inc/arrays/agent-fields.php:160
+#, fuzzy
+msgid "Skills Level"
+msgstr "مہارت کی سطح"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr ""
+"مہارت کا نام ہر ایک لائن پر قیمت کے ساتھ ، مثال کے طور پر: پراپرٹیز فروخت ، "
+"185"
+
+#: inc/arrays/agent-fields.php:167
+#, fuzzy
+msgid "Contact Form Shortcode"
+msgstr "رابطہ فارم مختصر"
+
+#: inc/arrays/agent-fields.php:168
+#, fuzzy
+msgid "Leave blank for default contact form"
+msgstr "طے شدہ رابطہ فارم کے لیے خالی چھوڑ دیں"
+
+#: inc/arrays/property-fields.php:9
+#, fuzzy
+msgid "Regular Price of Property"
+msgstr "پراپرٹی کی باقاعدگی سے قیمت"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+msgid "Before Price"
+msgstr "قیمت سے پہلے"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+msgid "Text to display before price, Eg: Starting From"
+msgstr "قیمت سے پہلے ظاہر کرنے کے لئے متن ، مثال کے طور پر: سے شروع"
+
+#: inc/arrays/property-fields.php:28
+#, fuzzy
+msgid "After Price"
+msgstr "قیمت کے بعد"
+
+#: inc/arrays/property-fields.php:29
+#, fuzzy
+msgid "Text to display after price, Eg: / Month"
+msgstr "قیمت کے بعد ڈسپلے کرنے کے لئے متن ، مثال کے طور پر:/مہینہ"
+
+#: inc/arrays/property-fields.php:38
+#, fuzzy
+msgid "Sale Price"
+msgstr "فروخت کی قیمت"
+
+#: inc/arrays/property-fields.php:39
+#, fuzzy
+msgid "Sale Price of Property"
+msgstr "جائیداد کی فروخت کی قیمت"
+
+#: inc/arrays/property-fields.php:48
+#, fuzzy
+msgid "Latitude"
+msgstr "طول و عرض"
+
+#: inc/arrays/property-fields.php:49
+#, fuzzy
+msgid "Latitude of property, will use for map"
+msgstr "پراپرٹی کی طول و عرض ، نقشہ کے لئے استعمال کریں گے"
+
+#: inc/arrays/property-fields.php:58
+#, fuzzy
+msgid "Longitude"
+msgstr "طول البلد"
+
+#: inc/arrays/property-fields.php:59
+#, fuzzy
+msgid "Longitude of property, will use for map"
+msgstr "جائیداد کے طول البلد ، نقشے کے لئے استعمال کریں گے"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:12
+#, fuzzy
+msgid "Video URL"
+msgstr "ویڈیو URL"
+
+#: inc/arrays/property-fields.php:69
+#, fuzzy
+msgid "Provide video URL"
+msgstr "ویڈیو URL فراہم"
+
+#: inc/arrays/property-fields.php:78
+#, fuzzy
+msgid "File Attachments"
+msgstr "فائل منسلکات"
+
+#: inc/arrays/property-fields.php:79
+#, fuzzy
+msgid "One file ID per line"
+msgstr "ایک مسل شناخت فی سطر"
+
+#: inc/arrays/property-fields.php:89
+#, fuzzy
+msgid "Property Type"
+msgstr "پراپرٹی کی قسم"
+
+#: inc/arrays/property-fields.php:90
+#, fuzzy
+msgid "Choose type of property"
+msgstr "منتخب کریں پراپرٹی کی قسم"
+
+#: inc/arrays/property-fields.php:102
+#, fuzzy
+msgid "Choose purpose of property"
+msgstr "پراپرٹی کا مقصد منتخب کریں"
+
+#: inc/arrays/property-fields.php:113
+#, fuzzy
+msgid "Choose status of property"
+msgstr "جائیداد کی حیثیت کا انتخاب کریں"
+
+#: inc/arrays/property-fields.php:123
+msgid "Bedrooms"
+msgstr "بیڈروم"
+
+#: inc/arrays/property-fields.php:124
+#, fuzzy
+msgid "Number of bedrooms"
+msgstr "بیڈروم کی تعداد"
+
+#: inc/arrays/property-fields.php:134
+msgid "Bathrooms"
+msgstr "باتھ"
+
+#: inc/arrays/property-fields.php:135
+#, fuzzy
+msgid "Number of bathrooms"
+msgstr "باتھ روم کی تعداد"
+
+#: inc/arrays/property-fields.php:146
+#, fuzzy
+msgid "Size - "
+msgstr "سائز"
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "پتہ"
+
+#: inc/arrays/property-fields.php:157
+#, fuzzy
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"اگر طول و عرض اور طول البلد کے میدان خالی ہیں تو ، یہ پتہ کے لئے استعمال کیا "
+"جائے گا نقشہ"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+#, fuzzy
+msgid "State"
+msgstr "ریاست"
+
+#: inc/arrays/property-fields.php:178
+#, fuzzy
+msgid "Zip Code"
+msgstr "علاقائ نمبر"
+
+#: inc/arrays/property-fields.php:179
+#, fuzzy
+msgid "Zipcode"
+msgstr "زاپکودی"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+msgid "City"
+msgstr "شہر"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+msgid "Country"
+msgstr "ملک"
+
+#: inc/arrays/property-fields.php:211
+msgid "Rooms"
+msgstr "کمرے"
+
+#: inc/arrays/property-fields.php:212
+#, fuzzy
+msgid "Number of rooms"
+msgstr "کمروں کی تعداد"
+
+#: inc/arrays/property-fields.php:222
+#, fuzzy
+msgid "Featured Property"
+msgstr "نمایاں پراپرٹی"
+
+#: inc/arrays/property-fields.php:223
+#, fuzzy
+msgid "Make it featured"
+msgstr "اسے نمایاں بنائیں"
+
+#: inc/menu/admin-settings-arr.php:5
+#, fuzzy
+msgid "Style"
+msgstr "طرز"
+
+#: inc/menu/admin-settings-arr.php:11
+#, fuzzy
+msgid "Currency Options"
+msgstr "کرنسی کے اختیارات"
+
+#: inc/menu/admin-settings-arr.php:20
+msgid "Currency"
+msgstr "فلس"
+
+#: inc/menu/admin-settings-arr.php:21
+#, fuzzy
+msgid "Currency Symbol for Properties"
+msgstr "پراپرٹیز کے لئے کرنسی کی علامت"
+
+#: inc/menu/admin-settings-arr.php:28
+#, fuzzy
+msgid "Currency Position"
+msgstr "کرنسی پوزیشن"
+
+#: inc/menu/admin-settings-arr.php:30
+#, fuzzy
+msgid "Left"
+msgstr "بائیں"
+
+#: inc/menu/admin-settings-arr.php:31
+#, fuzzy
+msgid "Right"
+msgstr "دائیں"
+
+#: inc/menu/admin-settings-arr.php:32
+#, fuzzy
+msgid "Left with Space"
+msgstr "خلا کے ساتھ بائیں"
+
+#: inc/menu/admin-settings-arr.php:33
+#, fuzzy
+msgid "Right with Space"
+msgstr "خلا کے ساتھ صحیح"
+
+#: inc/menu/admin-settings-arr.php:35
+#, fuzzy
+msgid "Position of the Currency Symbol"
+msgstr "کرنسی علامت کی پوزیشن"
+
+#: inc/menu/admin-settings-arr.php:41
+#, fuzzy
+msgid "Thousand Separator"
+msgstr "ہزار جداکار"
+
+#: inc/menu/admin-settings-arr.php:42
+#, fuzzy
+msgid "Thousand separator of display price"
+msgstr "ڈسپلے کی قیمت کے ہزار علیحدگی"
+
+#: inc/menu/admin-settings-arr.php:49
+#, fuzzy
+msgid "Decimal Separator"
+msgstr "اعشاری جداکار"
+
+#: inc/menu/admin-settings-arr.php:50
+#, fuzzy
+msgid "Decimal separator of display price"
+msgstr "ڈسپلے کی قیمت کی ڈیشین علیحدگی"
+
+#: inc/menu/admin-settings-arr.php:57
+#, fuzzy
+msgid "Number of Decimals"
+msgstr "ڈیولٹس کی تعداد"
+
+#: inc/menu/admin-settings-arr.php:58
+#, fuzzy
+msgid "Number of decimal points shown in display price"
+msgstr "ڈسپلے کی قیمت میں دکھایا گیا ڈیشین پوائنٹس کی تعداد"
+
+#: inc/menu/admin-settings-arr.php:66
+#, fuzzy
+msgid "Property Settings"
+msgstr "پراپرٹی کی ترتیبات"
+
+#: inc/menu/admin-settings-arr.php:75
+#, fuzzy
+msgid "Area Unit"
+msgstr "علاقہ یونٹ"
+
+#: inc/menu/admin-settings-arr.php:76
+#, fuzzy
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "ایریا کی یونٹ کی فراہمی مثال کے طور پر: مربع فٹ"
+
+#: inc/menu/admin-settings-arr.php:82
+#, fuzzy
+msgid "Excerpt Length"
+msgstr "اقتباس کی لمبائی"
+
+#: inc/menu/admin-settings-arr.php:83
+#, fuzzy
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "پراپرٹی اقتباس سے ظاہر ہونے والے الفاظ کی تعداد. مثلا: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+#, fuzzy
+msgid "Property Features"
+msgstr "پراپرٹی کی خصوصیات"
+
+#: inc/menu/admin-settings-arr.php:90
+#, fuzzy
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"ایک فی لائن. یہ آپ کو منتخب کرنے کے لئے آپ کی پراپرٹی میں ترمیم صفحہ میں چیک "
+"باکس شامل کرے گا. طے شدہ استعمال کے لیے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:96
+#, fuzzy
+msgid "Property Types"
+msgstr "پراپرٹی کی اقسام"
+
+#: inc/menu/admin-settings-arr.php:97
+#, fuzzy
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"ایک فی لائن. اس میں پراپرٹی کی اقسام شامل ہو گی جو خصوصیات داخل کرنے سے "
+"منتخب ہوتی ہیں ۔ طے شدہ استعمال کے لیے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:103
+#, fuzzy
+msgid "Property Purposes"
+msgstr "پراپرٹی کے مقاصد"
+
+#: inc/menu/admin-settings-arr.php:104
+#, fuzzy
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"ایک فی لائن. اس میں پراپرٹیز داخل ہونے پر منتخب کرنے کے لئے پراپرٹی کے مقاصد "
+"شامل ہوں گے. طے شدہ استعمال کے لیے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:110
+#, fuzzy
+msgid "Property Statuses"
+msgstr "پراپرٹی حیثیت"
+
+#: inc/menu/admin-settings-arr.php:111
+#, fuzzy
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"ایک فی لائن. اس میں پراپرٹیز داخل ہونے پر منتخب کرنے کے لئے پراپرٹی کی حیثیت "
+"شامل ہوگی. طے شدہ استعمال کے لیے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:117
+#, fuzzy
+msgid "Properties Per Page"
+msgstr "خواص فی صفحہ"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"وہ پراپرٹیز کی تعداد جو آپ آرکائیو صفحات پر ڈسپلے کرنا چاہتے ہیں ۔ (ٹیگز "
+"وغیرہ)"
+
+#: inc/menu/admin-settings-arr.php:125
+#, fuzzy
+msgid "It will enable the special fields for energy efficiency"
+msgstr "یہ توانائی کی کارکردگی کے لئے خصوصی شعبوں کو فعال کرے گا"
+
+#: inc/menu/admin-settings-arr.php:128 inc/menu/admin-settings-arr.php:197
+#: inc/menu/admin-settings-arr.php:218 inc/menu/admin-settings-arr.php:252
+#: inc/menu/admin-settings-arr.php:272 inc/menu/admin-settings-arr.php:282
+#: inc/menu/admin-settings-arr.php:325 inc/menu/admin-settings-arr.php:336
+#: inc/menu/admin-settings-arr.php:494 inc/menu/admin-settings-arr.php:545
+#: inc/menu/admin-settings-arr.php:1119 inc/menu/admin-settings-arr.php:1129
+#: inc/menu/admin-settings-arr.php:1148 inc/menu/admin-settings-arr.php:1168
+#: inc/menu/agent/fields/checkbox.php:29 inc/menu/agent/fields/email.php:29
+#: inc/menu/agent/fields/image.php:29 inc/menu/agent/fields/number.php:29
+#: inc/menu/agent/fields/password.php:29 inc/menu/agent/fields/select.php:45
+#: inc/menu/agent/fields/text.php:29 inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/custom-fields/fields/text.php:70
+#: inc/menu/custom-fields/fields/text.php:78
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:275
+#: shortcodes/page-builders/all-setting-fields.php:307
+#: shortcodes/page-builders/all-setting-fields.php:325
+#: shortcodes/page-builders/all-setting-fields.php:336
+#: shortcodes/page-builders/all-setting-fields.php:550
+#: shortcodes/page-builders/all-setting-fields.php:560
+#: shortcodes/page-builders/all-setting-fields.php:667
+#: shortcodes/page-builders/all-setting-fields.php:731
+msgid "Enable"
+msgstr "فعال کریں"
+
+#: inc/menu/admin-settings-arr.php:137
+#, fuzzy
+msgid "Templates Settings"
+msgstr "سانچے سیٹنگیں"
+
+#: inc/menu/admin-settings-arr.php:145
+#, fuzzy
+msgid "Property Page Template"
+msgstr "خاصیت صفحہ سانچا"
+
+#: inc/menu/admin-settings-arr.php:146
+#, fuzzy
+msgid "Choose single property display layout"
+msgstr "واحد خاصیت دکھائیں لے آؤٹ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/admin-settings-arr.php:242
+#: inc/menu/admin-settings-arr.php:354 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "طے شدہ"
+
+#: inc/menu/admin-settings-arr.php:149
+#, fuzzy
+msgid "Full Width"
+msgstr "پوری چوڑائی"
+
+#: inc/menu/admin-settings-arr.php:150
+#, fuzzy
+msgid "Left Sidebar"
+msgstr "بائیں سائڈبار"
+
+#: inc/menu/admin-settings-arr.php:151 inc/menu/admin-settings-arr.php:161
+#: inc/menu/admin-settings-arr.php:171
+#, fuzzy
+msgid "From Theme"
+msgstr "مرکزی خیال ، موضوع سے"
+
+#: inc/menu/admin-settings-arr.php:157
+#, fuzzy
+msgid "Archive Page Template"
+msgstr "صفحہ سانچا محفوظ کریں"
+
+#: inc/menu/admin-settings-arr.php:158
+#, fuzzy
+msgid "Choose tags and archive properties display layout"
+msgstr "منتخب کریں ٹیگ اور محفوظ شدہ دستاويزات پراپرٹیز ڈسپلے لے آؤٹ"
+
+#: inc/menu/admin-settings-arr.php:160 inc/menu/admin-settings-arr.php:170
+#, fuzzy
+msgid "From Plugin"
+msgstr "پلگ ان سے"
+
+#: inc/menu/admin-settings-arr.php:167
+#, fuzzy
+msgid "Agent Page Template"
+msgstr "ایجنٹ صفحہ سانچا"
+
+#: inc/menu/admin-settings-arr.php:168
+#, fuzzy
+msgid "Choose agent page display layout"
+msgstr "منتخب کریں ایجنٹ صفحہ دکھائیں لے آؤٹ"
+
+#: inc/menu/admin-settings-arr.php:177
+#, fuzzy
+msgid "Enable Agent Template"
+msgstr "ایجنٹ سانچا اہل بنائیں"
+
+#: inc/menu/admin-settings-arr.php:179
+msgid "All Users"
+msgstr "تمام صارفین"
+
+#: inc/menu/admin-settings-arr.php:180
+#, fuzzy
+msgid "Only Property Agents"
+msgstr "صرف پراپرٹی ایجنٹس"
+
+#: inc/menu/admin-settings-arr.php:182
+#, fuzzy
+msgid "Agent Page Template must be set to From Plugin"
+msgstr "ایجنٹ صفحہ سانچے کو پلگ ان سے مقرر کیا جانا چاہئے"
+
+#: inc/menu/admin-settings-arr.php:187
+#, fuzzy
+msgid "Container Maximum Width"
+msgstr "کنٹینر زیادہ سے زیادہ چوڑائی"
+
+#: inc/menu/admin-settings-arr.php:188
+#, fuzzy
+msgid "Provide container max width in px, eg: 1140px"
+msgstr ""
+"کنٹینر میں زیادہ سے زیادہ چوڑائی فراہم کرتے ہیں ، مثال کے طور پر: 1140px"
+
+#: inc/menu/admin-settings-arr.php:194
+#, fuzzy
+msgid "Agent Page Sidebar Card"
+msgstr "ایجنٹ صفحہ سائڈبار کارڈ"
+
+#: inc/menu/admin-settings-arr.php:195
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"واحد ایجنٹ کے صفحے پر ڈیفالٹ ایجنٹ کارڈ اور رابطہ فارم کو فعال یا غیر فعال "
+"کریں"
+
+#: inc/menu/admin-settings-arr.php:204
+#, fuzzy
+msgid "Agent Card Style"
+msgstr "ایجنٹ کارڈ سٹائل"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+msgid "Choose agent profile card"
+msgstr "ایجنٹ پروفائل کارڈ کا انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:207 inc/menu/admin-settings-arr.php:1047
+#, fuzzy
+msgid "Style 1"
+msgstr "طرز 1"
+
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:1048
+#, fuzzy
+msgid "Style 2"
+msgstr "طرز 2"
+
+#: inc/menu/admin-settings-arr.php:209
+#, fuzzy
+msgid "Style 3"
+msgstr "طرز 3"
+
+#: inc/menu/admin-settings-arr.php:215
+#, fuzzy
+msgid "Agent Page Contact Form"
+msgstr "ایجنٹ کا صفحہ رابطہ فارم"
+
+#: inc/menu/admin-settings-arr.php:216
+#, fuzzy
+msgid "Enable or disable contact form on agent page"
+msgstr "ایجنٹ کے صفحے پر رابطہ فارم کو فعال یا غیر فعال کریں"
+
+#: inc/menu/admin-settings-arr.php:225
+#, fuzzy
+msgid "Agent Page Sidebar"
+msgstr "ایجنٹ صفحہ سائڈبار"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+msgid "Choose sidebar for agent details page"
+msgstr "ایجنٹ کی تفصیلات کے صفحے کے لئے سائڈبار کا انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:231
+#, fuzzy
+msgid "Property Edit Page"
+msgstr "خاصیت صفحہ تدوین کریں"
+
+#: inc/menu/admin-settings-arr.php:232
+#, fuzzy
+msgid "Paste shortcode on selected page"
+msgstr "منتخب صفحہ پر مختصر جوڑیں"
+
+#: inc/menu/admin-settings-arr.php:237
+#, fuzzy
+msgid "Property Base Page"
+msgstr "پراپرٹی کی بنیاد پر صفحہ"
+
+#: inc/menu/admin-settings-arr.php:238
+#, fuzzy
+msgid "If you choose custom, create a page having slug"
+msgstr "اگر آپ اپنی مرضی کا انتخاب کرتے ہیں ، تو ایک صفحہ بنائیں خرنگا"
+
+#: inc/menu/admin-settings-arr.php:240
+#, fuzzy
+msgid ""
+"and it will be used as the property base page. After changing this, go to "
+"Settings -> Permalinks and click save changes button."
+msgstr ""
+"اور یہ جائیداد کی بنیاد کے صفحے کے طور پر استعمال کیا جائے گا. اس کو تبدیل "
+"کرنے کے بعد ، ترتیبات-> Permalinks پر جائیں اور کلک کریں تبدیلیاں بچائیں بٹن."
+
+#: inc/menu/admin-settings-arr.php:243
+msgid "Custom"
+msgstr "مخصوص"
+
+#: inc/menu/admin-settings-arr.php:249
+#, fuzzy
+msgid "Fields Help Text"
+msgstr "قطعات مدد متن"
+
+#: inc/menu/admin-settings-arr.php:250
+#, fuzzy
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr "خواص بناتے/تدوین کرتے وقت قطعات کے ساتھ مدد شبیہ اہل یا نااہل بنائیں ۔"
+
+#: inc/menu/admin-settings-arr.php:261
+#, fuzzy
+msgid "Single Property Page"
+msgstr "واحد خاصیت صفحہ"
+
+#: inc/menu/admin-settings-arr.php:269
+#, fuzzy
+msgid "Map"
+msgstr "نقشہ"
+
+#: inc/menu/admin-settings-arr.php:270
+#, fuzzy
+msgid "Show or hide property map on single property page"
+msgstr "واحد خاصیت صفحہ پر پراپرٹی کا نقشہ دکھائیں یا چھپائیں"
+
+#: inc/menu/admin-settings-arr.php:279
+#, fuzzy
+msgid "Property Page Sidebar Card"
+msgstr "پراپرٹی صفحہ سائڈبار کارڈ"
+
+#: inc/menu/admin-settings-arr.php:280
+#, fuzzy
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"واحد خاصیت صفحہ پر طے شدہ ایجنٹ کارڈ اور رابطہ فارم اہل یا نااہل بنائیں"
+
+#: inc/menu/admin-settings-arr.php:289
+#, fuzzy
+msgid "Property Page Sidebar"
+msgstr "خاصیت صفحہ سائڈبار"
+
+#: inc/menu/admin-settings-arr.php:290
+#, fuzzy
+msgid "Choose sidebar for single property page"
+msgstr "واحد خاصیت صفحہ کے لیے سائڈبار انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:295
+#, fuzzy
+msgid "Gallery Slider Width"
+msgstr "گیلری سلائیڈر چوڑائی"
+
+#: inc/menu/admin-settings-arr.php:296
+#, fuzzy
+msgid "Slider width with unit. Eg: "
+msgstr "یونٹ کے ساتھ سلائیڈر چوڑائی. مثال"
+
+#: inc/menu/admin-settings-arr.php:302
+#, fuzzy
+msgid "Gallery Slider Height"
+msgstr "گیلری سلائیڈر اونچائی"
+
+#: inc/menu/admin-settings-arr.php:303
+#, fuzzy
+msgid "Slider height with unit. Eg: "
+msgstr "یونٹ کے ساتھ سلائیڈر اونچائی. مثال"
+
+#: inc/menu/admin-settings-arr.php:309
+#, fuzzy
+msgid "Gallery Slider Fit"
+msgstr "گیلری سلائیڈر موزوں کریں"
+
+#: inc/menu/admin-settings-arr.php:310
+#, fuzzy
+msgid "How to fit an image into slider"
+msgstr "سلائیڈر میں ایک تصویر کو فٹ کرنے کے لئے کس طرح"
+
+#: inc/menu/admin-settings-arr.php:312
+#, fuzzy
+msgid "Cover"
+msgstr "احاطہ"
+
+#: inc/menu/admin-settings-arr.php:313
+#, fuzzy
+msgid "Contain"
+msgstr "پر مشتمل"
+
+#: inc/menu/admin-settings-arr.php:314
+#, fuzzy
+msgid "Scale Down"
+msgstr "نیچے پیمانہ"
+
+#: inc/menu/admin-settings-arr.php:315
+msgid "None"
+msgstr "کچھ نہیں"
+
+#: inc/menu/admin-settings-arr.php:322
+#, fuzzy
+msgid "Gallery Featured Image"
+msgstr "گیلری ، نگارخانہ نمایاں تصویر"
+
+#: inc/menu/admin-settings-arr.php:323
+#, fuzzy
+msgid "Enable to display featured image in slider"
+msgstr "سلائیڈر میں نمایاں تصویر کو ظاہر کرنے کے قابل بنائیں"
+
+#: inc/menu/admin-settings-arr.php:333
+#, fuzzy
+msgid "Display Property ID"
+msgstr "خاصیت شناخت دکھائیں"
+
+#: inc/menu/admin-settings-arr.php:334
+#, fuzzy
+msgid "Enable to display property id on frontend"
+msgstr "فرنٹ اینڈ پر خاصیت شناخت دکھانے کے لیے اہل بنائیں"
+
+#: inc/menu/admin-settings-arr.php:344
+#, fuzzy
+msgid "Gallery Images Limit"
+msgstr "گیلری تصاویر کی حد"
+
+#: inc/menu/admin-settings-arr.php:345
+#, fuzzy
+msgid "Provide maximum number of gallery images a property can have"
+msgstr ""
+"گیلری ، نگارخانہ تصاویر کی زیادہ سے زیادہ تعداد فراہم کرتے ہیں ایک پراپرٹی "
+"ہو سکتا ہے"
+
+#: inc/menu/admin-settings-arr.php:351
+#, fuzzy
+msgid "Load Video As"
+msgstr "لوڈ ویڈیو کے طور پر"
+
+#: inc/menu/admin-settings-arr.php:352
+#, fuzzy
+msgid ""
+"How you want to display video player? Please select iframe for cookieless "
+"URLs"
+msgstr ""
+"آپ ویڈیو پلیئر کیسے ڈسپلے کرنا چاہتے ہیں ؟ کوکیلیسس URLs کے لیے iframe منتخب "
+"کریں"
+
+#: inc/menu/admin-settings-arr.php:355
+#, fuzzy
+msgid "iFrame"
+msgstr "iFrame"
+
+#: inc/menu/admin-settings-arr.php:362
+#, fuzzy
+msgid "Date Field Format"
+msgstr "تاریخ قطعہ وضع"
+
+#: inc/menu/admin-settings-arr.php:363
+#, fuzzy
+msgid "Provide date format if you are using date field. Eg: "
+msgstr "اگر آپ تاریخ قطعہ استعمال کر رہے ہیں تو تاریخ وضع مہیا کریں ۔ مثال"
+
+#: inc/menu/admin-settings-arr.php:369
+#, fuzzy
+msgid "Property Settings Tabs"
+msgstr "پراپرٹی کی ترتیبات ٹیبز"
+
+#: inc/menu/admin-settings-arr.php:370
+#, fuzzy
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"واحد خاصیت صفحات اور منتظم سیٹنگوں کے لیے اضافی پینل سرخیاں مہیا کرتا ہے ، "
+"ہر سطر"
+
+#: inc/menu/admin-settings-arr.php:377
+#, fuzzy
+msgid "Listings"
+msgstr "لسٹنگ"
+
+#: inc/menu/admin-settings-arr.php:385
+#, fuzzy
+msgid "Property Archive Listing Style"
+msgstr "خواص محفوظہ طرز فہرست"
+
+#: inc/menu/admin-settings-arr.php:386
+#, fuzzy
+msgid "Listing style for default properties page"
+msgstr "طے شدہ خواص صفحہ کے لیے لسٹنگ طرز"
+
+#: inc/menu/admin-settings-arr.php:392
+#, fuzzy
+msgid "Archive Listing Columns"
+msgstr "فہرست محفوظہ کالم"
+
+#: inc/menu/admin-settings-arr.php:393 inc/menu/admin-settings-arr.php:477
+#, fuzzy
+msgid "Choose columns in a row for box styles"
+msgstr "خانہ طرزوں کے لیے ایک صف میں کالم انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:395 inc/menu/admin-settings-arr.php:479
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:396 inc/menu/admin-settings-arr.php:480
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:397 inc/menu/admin-settings-arr.php:481
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:398 inc/menu/admin-settings-arr.php:482
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:399 inc/menu/admin-settings-arr.php:483
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:405
+#, fuzzy
+msgid "Inline Property Bar Fields"
+msgstr "ان لائن خاصیت بار قطعات"
+
+#: inc/menu/admin-settings-arr.php:406
+#, fuzzy
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"ان لائن پراپرٹی لسٹنگ سٹائل کے اوپر بار پر ظاہر کرنے کے لئے ہر سطر کو فیلڈ "
+"نام فراہم کریں"
+
+#: inc/menu/admin-settings-arr.php:411
+#, fuzzy
+msgid "Listing Features Type"
+msgstr "لسٹنگ کی خصوصیات کی قسم"
+
+#: inc/menu/admin-settings-arr.php:412
+#, fuzzy
+msgid "Features are displayed on property listings"
+msgstr "خصوصیات پراپرٹی کی فہرستوں پر ظاہر کی جاتی ہیں"
+
+#: inc/menu/admin-settings-arr.php:414
+#, fuzzy
+msgid "Icons and Data"
+msgstr "شبیہیں اور ڈیٹا"
+
+#: inc/menu/admin-settings-arr.php:415
+#, fuzzy
+msgid "Labels and Data"
+msgstr "لیبل اور کوائف"
+
+#: inc/menu/admin-settings-arr.php:416
+#, fuzzy
+msgid "Icons, Labels and Data"
+msgstr "شبیہیں ، لیبل اور کوائف"
+
+#: inc/menu/admin-settings-arr.php:422
+#, fuzzy
+msgid "Custom Listing Features"
+msgstr "مخصوص لسٹنگ کی خصوصیات"
+
+#: inc/menu/admin-settings-arr.php:423
+#, fuzzy
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+"اپنی مرضی کے مطابق پراپرٹی کی خصوصیات دکھائیں. (لیبل ، نام فیلڈ ، فونٹ "
+"خوفناک کلاس) ہر فی لائن. مثال:"
+
+#: inc/menu/admin-settings-arr.php:429
+#, fuzzy
+msgid "Featured Image Size"
+msgstr "نمایاں تصویر کا سائز"
+
+#: inc/menu/admin-settings-arr.php:430
+#, fuzzy
+msgid "Choose size of featured image to use"
+msgstr "استعمال کے لیے نمایاں نقش کا سائز انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:436
+#, fuzzy
+msgid "Featured Image Placeholder"
+msgstr "نمایاں تصویر پلیس ہولڈر"
+
+#: inc/menu/admin-settings-arr.php:437
+#, fuzzy
+msgid "This image will be used for the listings without a featured image"
+msgstr "یہ تصویر ایک نمایاں تصویر کے بغیر لسٹنگ کے لئے استعمال کیا جائے گا"
+
+#: inc/menu/admin-settings-arr.php:444
+#, fuzzy
+msgid "Search Settings"
+msgstr "تلاش کی ترتیبات"
+
+#: inc/menu/admin-settings-arr.php:452
+#: shortcodes/page-builders/all-setting-fields.php:241
+#, fuzzy
+msgid "Total Properties"
+msgstr "کل پراپرٹیز"
+
+#: inc/menu/admin-settings-arr.php:453
+#, fuzzy
+msgid "Number of properties you want to display on search results"
+msgstr "تلاش کے نتائج پر آپ ڈسپلے کرنا چاہتے ہیں پراپرٹیز کی تعداد"
+
+#: inc/menu/admin-settings-arr.php:458
+#, fuzzy
+msgid "Search Price Range Selector"
+msgstr "تلاش قیمت رینج انتخاب کنندہ"
+
+#: inc/menu/admin-settings-arr.php:459
+#, fuzzy
+msgid "Choose price ranges input option for searching"
+msgstr "تلاش کے لئے قیمت کی حدود ان پٹ اختیار کا انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:461 inc/menu/admin-settings-arr.php:585
+#, fuzzy
+msgid "Price Slider"
+msgstr "قیمت سلائیڈر"
+
+#: inc/menu/admin-settings-arr.php:462
+#, fuzzy
+msgid "Min Max Fields"
+msgstr "کم سے زیادہ قطعات"
+
+#: inc/menu/admin-settings-arr.php:468
+#, fuzzy
+msgid "Search Results Style"
+msgstr "نتائج تلاش کریں طرز"
+
+#: inc/menu/admin-settings-arr.php:469
+#, fuzzy
+msgid "Choose style for search results"
+msgstr "تلاش کے نتائج کے لیے طرز منتخب کریں"
+
+#: inc/menu/admin-settings-arr.php:476
+#, fuzzy
+msgid "Search Results Columns"
+msgstr "تلاش کے نتائج کالم"
+
+#: inc/menu/admin-settings-arr.php:491
+#: shortcodes/page-builders/all-setting-fields.php:82
+#, fuzzy
+msgid "Not Available Properties"
+msgstr "دستیاب خصوصیات نہیں"
+
+#: inc/menu/admin-settings-arr.php:492
+#, fuzzy
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr "تلاش کے نتائج میں دستیاب خواص نہ دکھانے کے لیے یا انتخاب کریں یا نہیں"
+
+#: inc/menu/admin-settings-arr.php:502
+#, fuzzy
+msgid "Search Area Options"
+msgstr "تلاش ایریا اختیارات"
+
+#: inc/menu/admin-settings-arr.php:503
+#, fuzzy
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"ہر سطر کو علاقے کی حد فراہم کریں ، تلاش کرتے وقت ان پٹ فیلڈ کے بجائے علاقے "
+"کی حدود کو ڈراپ کرنے کے لئے."
+
+#: inc/menu/admin-settings-arr.php:509
+#, fuzzy
+msgid "Search Bedrooms Options"
+msgstr "تلاش بیڈروم اختیارات"
+
+#: inc/menu/admin-settings-arr.php:510
+#, fuzzy
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"ہر سطر کو بیڈروم کی حد فراہم کریں ، تلاش کرتے وقت ان پٹ فیلڈ کے بجائے بیڈروم "
+"کی حدود کو ظاہر کرنے کے لئے."
+
+#: inc/menu/admin-settings-arr.php:516
+#, fuzzy
+msgid "Search Bathrooms Options"
+msgstr "غسُل خانے اختیارات تلاش کریں"
+
+#: inc/menu/admin-settings-arr.php:517
+#, fuzzy
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"ہر ایک لائن میں باتھ روم کی حد فراہم کریں ، تلاش کرتے وقت ان پٹ فیلڈ کے "
+"بجائے باتھ روم کی حدود کو ظاہر کرنے کے لئے."
+
+#: inc/menu/admin-settings-arr.php:523
+#, fuzzy
+msgid "Search Results Link Target"
+msgstr "تلاش نتائج ربط ہدف"
+
+#: inc/menu/admin-settings-arr.php:524
+#, fuzzy
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"تلاش فارم کے نتائج کے لئے لنک کا ہدف فراہم کریں. نئے ٹیب میں کھولنے کے لئے "
+"_blank"
+
+#: inc/menu/admin-settings-arr.php:526
+msgid "New Tab"
+msgstr "نئی ٹیب"
+
+#: inc/menu/admin-settings-arr.php:527
+#, fuzzy
+msgid "Same Tab"
+msgstr "اسی ٹیب"
+
+#: inc/menu/admin-settings-arr.php:534
+#, fuzzy
+msgid "Simple Search Method"
+msgstr "سادہ تلاش کے طریقہ کار"
+
+#: inc/menu/admin-settings-arr.php:535
+#, fuzzy
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr "متن ، field_name ، is_number ، ہر سطر کی قدر (سب کم)"
+
+#: inc/menu/admin-settings-arr.php:535 inc/menu/admin-settings-arr.php:947
+msgid "Help"
+msgstr "مدد"
+
+#: inc/menu/admin-settings-arr.php:541
+#, fuzzy
+msgid "Prefill Search Fields"
+msgstr "تلاش قطعات بھریں"
+
+#: inc/menu/admin-settings-arr.php:542
+#, fuzzy
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+"منتخب کرنے کے لئے تلاش فارم پر ڈراپ ڈاؤن میں کھیتوں کے تمام دستیاب اقدار کو "
+"ظاہر کرنے کے قابل بنائیں."
+
+#: inc/menu/admin-settings-arr.php:551
+#, fuzzy
+msgid "Range Slider Thousand Separator"
+msgstr "حد اطلاق سلائیڈر ہزار جداکار"
+
+#: inc/menu/admin-settings-arr.php:552
+#, fuzzy
+msgid "Thousand separator for the range selectors on search page"
+msgstr "تلاش کے صفحے پر رینج انتخاب کنندگان کے لئے ہزار علیحدگی"
+
+#: inc/menu/admin-settings-arr.php:559
+#, fuzzy
+msgid "Range Slider Decimal Separator"
+msgstr "رینج سلائیڈر اعشاری جداکار"
+
+#: inc/menu/admin-settings-arr.php:560
+#, fuzzy
+msgid "Decimal separator for the range selectors on search page"
+msgstr "تلاش کے صفحے پر رینج انتخاب کنندگان کے لئے ڈس کلیمر علیحدگی"
+
+#: inc/menu/admin-settings-arr.php:567
+#, fuzzy
+msgid "Range Slider Number of Decimals"
+msgstr "ڈیولٹس کی حد اطلاق سلائیڈر نمبر"
+
+#: inc/menu/admin-settings-arr.php:568
+#, fuzzy
+msgid "Number of decimal points for the range selectors"
+msgstr "رینج کے لئے ڈس کلیمر پوائنٹس کی تعداد انتخاب کنندگان"
+
+#: inc/menu/admin-settings-arr.php:575
+#, fuzzy
+msgid "Range Slider Checkbox label"
+msgstr "رینج سلائیڈر چیک باکس لیبل"
+
+#: inc/menu/admin-settings-arr.php:576
+#, fuzzy
+msgid ""
+"It will appear with the checkbox to turn range on/off. Your can also use "
+msgstr ""
+"یہ چیک باکس کے ساتھ ظاہر ہوتا ہے کہ رینج آن/آف کریں. آپ بھی استعمال کر سکتے "
+"ہیں"
+
+#: inc/menu/admin-settings-arr.php:593
+#, fuzzy
+msgid "Minimum Price"
+msgstr "از کم قیمت"
+
+#: inc/menu/admin-settings-arr.php:594
+#, fuzzy
+msgid "Minimum price for price slider"
+msgstr "قیمت سلائیڈر کے لئے کم قیمت"
+
+#: inc/menu/admin-settings-arr.php:600
+#, fuzzy
+msgid "Maximum Price"
+msgstr "زیادہ سے زیادہ قیمت"
+
+#: inc/menu/admin-settings-arr.php:601
+#, fuzzy
+msgid "Maximum price for price slider"
+msgstr "قیمت سلائیڈر کے لئے زیادہ سے زیادہ قیمت"
+
+#: inc/menu/admin-settings-arr.php:607
+#, fuzzy
+msgid "Step"
+msgstr "مرحلہ"
+
+#: inc/menu/admin-settings-arr.php:608
+#, fuzzy
+msgid "Step or interval for price slider"
+msgstr "قیمت سلائیڈر کے لئے قدم یا وقفہ"
+
+#: inc/menu/admin-settings-arr.php:614
+#, fuzzy
+msgid "Default Minimum Price"
+msgstr "پہلے سے طے شدہ کم قیمت"
+
+#: inc/menu/admin-settings-arr.php:615
+#, fuzzy
+msgid "Default Minimum price for price slider"
+msgstr "قیمت سلائیڈر کے لئے پہلے سے طے شدہ قیمت"
+
+#: inc/menu/admin-settings-arr.php:621
+#, fuzzy
+msgid "Default Maximum Price"
+msgstr "طے شدہ زیادہ سے زیادہ قیمت"
+
+#: inc/menu/admin-settings-arr.php:622
+#, fuzzy
+msgid "Default Maximum price for price slider"
+msgstr "قیمت سلائیڈر کے لئے ڈیفالٹ زیادہ سے زیادہ قیمت"
+
+#: inc/menu/admin-settings-arr.php:631
+#, fuzzy
+msgid "Email Messages"
+msgstr "ای میل پیغامات"
+
+#: inc/menu/admin-settings-arr.php:639
+#, fuzzy
+msgid "Agent Registered"
+msgstr "ایجنٹ رجسٹرڈ"
+
+#: inc/menu/admin-settings-arr.php:640
+#, fuzzy
+msgid "This message will sent to "
+msgstr "اس پیغام کو بھیجا جائے گا"
+
+#: inc/menu/admin-settings-arr.php:640
+#, fuzzy
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"نیا ایجنٹ رجسٹر ہونے پر. آپ استعمال کر سکتے ہیں% صارف نام% اور% ای میل% "
+"برائے تفاصیل"
+
+#: inc/menu/admin-settings-arr.php:646
+#, fuzzy
+msgid "Agent Pending"
+msgstr "ایجنٹ زیر التواء"
+
+#: inc/menu/admin-settings-arr.php:647
+#, fuzzy
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"نیا ایجنٹ رجسٹرڈ ہے لیکن حیثیت زیر التواء ہے جب ایجنٹ کے لئے ای میل پیغام. "
+"آپ استعمال کر سکتے ہیں% صارف نام% اور% ای میل% برائے تفاصیل"
+
+#: inc/menu/admin-settings-arr.php:653
+#, fuzzy
+msgid "Agent Approved"
+msgstr "ایجنٹ منظور شدہ"
+
+#: inc/menu/admin-settings-arr.php:654
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"رجسٹرڈ ایجنٹ کی منظوری دے دی ہے جب ایجنٹ کے لئے ای میل پیغام. آپ استعمال کر "
+"سکتے ہیں% صارف نام% اور% ای میل% برائے تفاصیل"
+
+#: inc/menu/admin-settings-arr.php:660
+#, fuzzy
+msgid "Agent Rejected"
+msgstr "ایجنٹ نے رد کردیا"
+
+#: inc/menu/admin-settings-arr.php:661
+#, fuzzy
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"رجسٹرڈ ایجنٹ مسترد کیا جاتا ہے جب ایجنٹ کے لئے ای میل پیغام. آپ استعمال کر "
+"سکتے ہیں% صارف نام% اور% ای میل% برائے تفاصیل"
+
+#: inc/menu/admin-settings-arr.php:667
+#, fuzzy
+msgid "Property Submission"
+msgstr "پراپرٹی جمع"
+
+#: inc/menu/admin-settings-arr.php:668
+#, fuzzy
+msgid "This message will be sent to "
+msgstr "اس پیغام کو بھیج دیا جائے گا"
+
+#: inc/menu/admin-settings-arr.php:668
+#, fuzzy
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"جب نئی پراپرٹی پیش کی جاتی ہے ۔ آپ متغیر استعمال کر سکتے ہیں%%% approve_url% "
+"اور% ای-میل% برائے تفاصیل"
+
+#: inc/menu/admin-settings-arr.php:674
+#, fuzzy
+msgid "Property Submission Message for Agent"
+msgstr "ایجنٹ کے لئے پراپرٹی جمع کرنے کا پیغام"
+
+#: inc/menu/admin-settings-arr.php:675
+#, fuzzy
+msgid "This message will be sent to agent when new property is submitted."
+msgstr "جب نئی خاصیت پیش کی جاتی ہے تو یہ پیغام ایجنٹ کو بھیجا جائے گا ۔"
+
+#: inc/menu/admin-settings-arr.php:681
+#, fuzzy
+msgid "Property Approved Message for Agent"
+msgstr "ایجنٹ کے لئے منظور شدہ پیغام پراپرٹی"
+
+#: inc/menu/admin-settings-arr.php:682
+#, fuzzy
+msgid "This message will be sent to agent when new property is approved."
+msgstr "نئی جائیداد کی منظوری دے دی ہے جب یہ پیغام ایجنٹ کو بھیجا جائے گا."
+
+#: inc/menu/admin-settings-arr.php:690
+#, fuzzy
+msgid "Agent Contact Form"
+msgstr "ایجنٹ سے رابطہ فارم"
+
+#: inc/menu/admin-settings-arr.php:698
+#, fuzzy
+msgid "Email Subject"
+msgstr "ای میل موضوع"
+
+#: inc/menu/admin-settings-arr.php:699
+#, fuzzy
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+"یہاں ای میل کا موضوع یہاں فراہم کرو اگر کسی واحد پراپرٹی صفحے کے ذریعہ کسی "
+"رابطے کو. آپ ان خصوصی ٹیگز بھی استعمال کر سکتے ہیں."
+
+#: inc/menu/admin-settings-arr.php:705
+#, fuzzy
+msgid "Email Format"
+msgstr "ای میل کی شکل"
+
+#: inc/menu/admin-settings-arr.php:706
+#, fuzzy
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+"یہاں ای میل نشان اصلاح فراہم کرنا ۔ آپ ان خصوصی ٹیگز بھی استعمال کر سکتے ہیں."
+
+#: inc/menu/admin-settings-arr.php:712
+#, fuzzy
+msgid "Agent Contact Email Addresses"
+msgstr "ایجنٹ سے رابطہ کریں ای میل ایڈریس"
+
+#: inc/menu/admin-settings-arr.php:713
+#, fuzzy
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"اضافی ای میل پتے ہر سطر کو سی ای میل پر فراہم کرتے ہیں جب وزیٹر رابطہ ایجنٹ "
+"فارم برتا ہے."
+
+#: inc/menu/admin-settings-arr.php:720
+#, fuzzy
+msgid "GDPR Message"
+msgstr "پیغام"
+
+#: inc/menu/admin-settings-arr.php:721
+#, fuzzy
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+"مطلوبہ چیک باکس کے ساتھ رابطہ فارم کے ساتھ ڈسپلے کرنے کے لئے پیغام فراہم "
+"کریں."
+
+#: inc/menu/admin-settings-arr.php:728
+#, fuzzy
+msgid "reCAPTCHA V2"
+msgstr "reCAPTCHA V2"
+
+#: inc/menu/admin-settings-arr.php:736
+#, fuzzy
+msgid "Site key"
+msgstr "سائٹ کلید"
+
+#: inc/menu/admin-settings-arr.php:737
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Google reCAPTCHA V2 سائٹ کی کلید فراہم کرتے ہیں. آپ سائٹ کلید بنا سکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:742
+#, fuzzy
+msgid "Secret key"
+msgstr "خفیہ کلید"
+
+#: inc/menu/admin-settings-arr.php:743
+#, fuzzy
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr "Google reCAPTCHA V2 خفیہ کلید فراہم کرتا ہے. آپ خفیہ کلید بنا سکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:748
+#, fuzzy
+msgid "Agent Registration"
+msgstr "ایجنٹ رجسٹریشن"
+
+#: inc/menu/admin-settings-arr.php:749
+#, fuzzy
+msgid "Check to enable captcha on new agent registration."
+msgstr "نئے ایجنٹ رجسٹریشن پر کیپچا کو فعال کرنے کے لئے چیک کریں."
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+msgid "Contact Agent"
+msgstr "رابطہ ایجنٹ"
+
+#: inc/menu/admin-settings-arr.php:755
+#, fuzzy
+msgid "Check to enable captcha on agent contact form."
+msgstr "ایجنٹ سے رابطہ فارم پر کیپچا کو فعال کرنے کے لئے چیک کریں."
+
+#: inc/menu/admin-settings-arr.php:760 inc/menu/admin-settings-arr.php:1108
+#: shortcodes/page-builders/vc-settings.php:20
+#, fuzzy
+msgid "Login Agent"
+msgstr "لاگ ان ایجنٹ"
+
+#: inc/menu/admin-settings-arr.php:761
+#, fuzzy
+msgid "Check to enable captcha on agent login form."
+msgstr "کیپچا کو فعال کرنے کے لئے چیک کریں ایجنٹ لاگ ان فارم."
+
+#: inc/menu/admin-settings-arr.php:770
+#, fuzzy
+msgid "Labels and Headings"
+msgstr "لیبل اور سرخیاں"
+
+#: inc/menu/admin-settings-arr.php:778
+#, fuzzy
+msgid "Features Heading"
+msgstr "سرخی کی خصوصیات"
+
+#: inc/menu/admin-settings-arr.php:779
+#, fuzzy
+msgid "Provide heading text for property features on property pages"
+msgstr "پراپرٹی کے صفحات پر پراپرٹی کی خصوصیات کے لئے سرخی کا متن مہیا کرتا ہے"
+
+#: inc/menu/admin-settings-arr.php:785
+#, fuzzy
+msgid "Maps Heading"
+msgstr "نقشہ سرخی"
+
+#: inc/menu/admin-settings-arr.php:786
+#, fuzzy
+msgid "Provide heading text for maps on property pages"
+msgstr "پراپرٹی کے صفحات پر maps کے لیے سرخی متن مہیا کرتا ہے"
+
+#: inc/menu/admin-settings-arr.php:792
+#, fuzzy
+msgid "Tags Heading"
+msgstr "ٹیگ سرخی"
+
+#: inc/menu/admin-settings-arr.php:793
+#, fuzzy
+msgid "Provide heading text for tags on property pages"
+msgstr "پراپرٹی کے صفحات پر ٹیگ کے لئے سرخی متن فراہم کرتا ہے"
+
+#: inc/menu/admin-settings-arr.php:799
+#, fuzzy
+msgid "Tags Heading for Archive Pages"
+msgstr "آرکائیو صفحات کے لیے ٹیگ سرخی"
+
+#: inc/menu/admin-settings-arr.php:800
+#, fuzzy
+msgid "You can use %tag% for tag name"
+msgstr "آپ% ٹیگ کا نام ٹیگ کے لیے استعمال کر سکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:806
+#, fuzzy
+msgid "Heading for Properties Page"
+msgstr "خواص صفحہ کے لیے سرخی"
+
+#: inc/menu/admin-settings-arr.php:807
+#, fuzzy
+msgid "Provide heading for properties archive"
+msgstr "خواص محفوظہ کے لیے سرخی مہیا کریں"
+
+#: inc/menu/admin-settings-arr.php:813
+#, fuzzy
+msgid "Search Results Heading"
+msgstr "تلاش کے نتائج سرخی"
+
+#: inc/menu/admin-settings-arr.php:815
+#, fuzzy
+msgid ""
+"Provide text to display above the AJAX search results, you can use the "
+"variable"
+msgstr ""
+"ایجیکس تلاش کے نتائج کے اوپر ڈسپلے کرنے کے لئے متن فراہم کریں ، آپ متغیر "
+"استعمال کرسکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:821
+#, fuzzy
+msgid "No Results Found Message"
+msgstr "کوئی نتیجہ نہیں ملا پیغام"
+
+#: inc/menu/admin-settings-arr.php:822
+#, fuzzy
+msgid "Provide custom message when no properties found in search results"
+msgstr ""
+"تلاش کے نتائج میں کوئی خواص نہیں ملے تو اپنی مرضی کے مطابق پیغام فراہم کریں"
+
+#: inc/menu/admin-settings-arr.php:830
+#, fuzzy
+msgid "Maps Settings"
+msgstr "نقشے کی ترتیبات"
+
+#: inc/menu/admin-settings-arr.php:838
+#, fuzzy
+msgid "Use Map From"
+msgstr "کا نقشہ استعمال"
+
+#: inc/menu/admin-settings-arr.php:840
+#, fuzzy
+msgid "Leaflet"
+msgstr "لیفلٹ"
+
+#: inc/menu/admin-settings-arr.php:841
+#, fuzzy
+msgid "Google Maps"
+msgstr "گوگل نقشہ جات"
+
+#: inc/menu/admin-settings-arr.php:843
+#, fuzzy
+msgid "Choose map provider"
+msgstr "نقشہ مہیا کار انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:849
+#, fuzzy
+msgid "Google Maps API Key"
+msgstr "Google Maps API کلید"
+
+#: inc/menu/admin-settings-arr.php:850
+#, fuzzy
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr "Google Maps API کلید یہاں فراہم کرتے ہیں. آپ API کلید بنا سکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:856
+#, fuzzy
+msgid "Map Type"
+msgstr "نقشہ کی قسم"
+
+#: inc/menu/admin-settings-arr.php:858
+#, fuzzy
+msgid "Road Map"
+msgstr "روڈ میپ"
+
+#: inc/menu/admin-settings-arr.php:859
+#, fuzzy
+msgid "Google Earth"
+msgstr "گوگل ارتھ"
+
+#: inc/menu/admin-settings-arr.php:860
+#, fuzzy
+msgid "Hybrid"
+msgstr "انتبادی"
+
+#: inc/menu/admin-settings-arr.php:861
+#, fuzzy
+msgid "Terrain"
+msgstr "علاقے"
+
+#: inc/menu/admin-settings-arr.php:863
+#, fuzzy
+msgid "Choose default map type here"
+msgstr "طے شدہ نقشہ قسم انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:869
+#: shortcodes/page-builders/all-setting-fields.php:705
+#, fuzzy
+msgid "Map Zoom Level"
+msgstr "نقشہ زوم سطح"
+
+#: inc/menu/admin-settings-arr.php:870
+#, fuzzy
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr "واحد پراپرٹی نقشہ کے لئے 0 اور 21 کے درمیان زوم کی سطح فراہم کریں"
+
+#: inc/menu/admin-settings-arr.php:876
+#, fuzzy
+msgid "Drag Icon URL"
+msgstr "شبیہ URL گھسیٹیں"
+
+#: inc/menu/admin-settings-arr.php:877
+#, fuzzy
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"نئی پراپرٹی کی تخلیق کرتے وقت نقشے پر گھسیٹنے کے لئے اپنی مرضی کے آئیکن کو "
+"اپ لوڈ کریں. سفارش کردہ سائز: 72x60"
+
+#: inc/menu/admin-settings-arr.php:883
+#, fuzzy
+msgid "Location Icon URL"
+msgstr "مقام شبیہ URL"
+
+#: inc/menu/admin-settings-arr.php:884
+#, fuzzy
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"خاصیت صفحہ کا دورہ کرتے وقت نقشے پر مقام کے لئے اپنی مرضی کے آئیکن کو اپ لوڈ "
+"کریں. سفارش کردہ سائز: 72x60"
+
+#: inc/menu/admin-settings-arr.php:890
+#, fuzzy
+msgid "Property Icon URL"
+msgstr "خاصیت شبیہ URL"
+
+#: inc/menu/admin-settings-arr.php:891
+#, fuzzy
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+"بڑی نقشے پر پراپرٹی مقام مارکر کے لئے اپنی مرضی کے مطابق آئکن اپ لوڈ کریں."
+
+#: inc/menu/admin-settings-arr.php:897
+#, fuzzy
+msgid "Icons Size"
+msgstr "شبیہیں سائز"
+
+#: inc/menu/admin-settings-arr.php:898
+#, fuzzy
+msgid "Provide custom icons size. Default is "
+msgstr "اپنی مرضی کے مطابق شبیہیں کا سائز فراہم کرتے ہیں. طے شدہ ہے"
+
+#: inc/menu/admin-settings-arr.php:904
+#, fuzzy
+msgid "Icons Anchor"
+msgstr "شبیہیں لنگر"
+
+#: inc/menu/admin-settings-arr.php:905
+#, fuzzy
+msgid "Provide custom anchor point for the icons. Default is "
+msgstr "شبیہیں کے لیے مخصوص لنگر پوائنٹ مہیا کریں ۔ طے شدہ ہے"
+
+#: inc/menu/admin-settings-arr.php:911
+#, fuzzy
+msgid "Property Icon URL (Hover)"
+msgstr "خاصیت شبیہ URL (ہوور)"
+
+#: inc/menu/admin-settings-arr.php:912
+#, fuzzy
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"ہوور ریاست کے لئے بڑے نقشے پر پراپرٹی مقام مارکر کے لئے اپنی مرضی کے مطابق "
+"آئکن اپ لوڈ کریں."
+
+#: inc/menu/admin-settings-arr.php:918
+#, fuzzy
+msgid "Circle Icon URL"
+msgstr "سرکل شبیہ URL"
+
+#: inc/menu/admin-settings-arr.php:919
+#, fuzzy
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr ""
+"بڑے نقشے پر دائرے کے انسداد مارکر کے لئے اپنی مرضی کے مطابق آئکن اپ لوڈ کریں."
+
+#: inc/menu/admin-settings-arr.php:925
+#, fuzzy
+msgid "My Location Icon URL"
+msgstr "میرا محل وقوع شبیہ URL"
+
+#: inc/menu/admin-settings-arr.php:926
+#, fuzzy
+msgid "Upload custom icon for my location marker on large map."
+msgstr "بڑے نقشے پر میرے محل وقوع نشان کار کے لیے مخصوص شبیہ اپ لوڈ کریں ۔"
+
+#: inc/menu/admin-settings-arr.php:932
+#: shortcodes/page-builders/all-setting-fields.php:693
+#, fuzzy
+msgid "Default Latitude"
+msgstr "طے شدہ طول البلد"
+
+#: inc/menu/admin-settings-arr.php:933
+#, fuzzy
+msgid "Provide latitude for default map location on create property page"
+msgstr "خاصیت صفحہ بنائیں پر طے شدہ نقشہ محل وقوع کے لیے طول و عرض مہیا"
+
+#: inc/menu/admin-settings-arr.php:939
+#: shortcodes/page-builders/all-setting-fields.php:699
+#, fuzzy
+msgid "Default Longitude"
+msgstr "طے شدہ طول البلد"
+
+#: inc/menu/admin-settings-arr.php:940
+#, fuzzy
+msgid "Provide longitude for default map location on create property page"
+msgstr "خاصیت صفحہ بنائیں پر طے شدہ نقشہ محل وقوع کے لیے طول البلد مہیا"
+
+#: inc/menu/admin-settings-arr.php:946
+#, fuzzy
+msgid "Map Styles Object"
+msgstr "نقشہ طرزیں آبجیکٹ"
+
+#: inc/menu/admin-settings-arr.php:947
+#, fuzzy
+msgid "Provide map styles here."
+msgstr "نقشہ طرزیں یہاں مہیا کرو."
+
+#: inc/menu/admin-settings-arr.php:953
+#, fuzzy
+msgid "Map Style"
+msgstr "نقشہ طرز"
+
+#: inc/menu/admin-settings-arr.php:955
+#, fuzzy
+msgid "Choose style for leaflet map. "
+msgstr "لیفلیٹ نقشہ کے لیے طرز منتخب کریں ۔"
+
+#: inc/menu/admin-settings-arr.php:955 shortcodes/create-property.php:105
+#, fuzzy
+msgid "Preview"
+msgstr "پیش"
+
+#: inc/menu/admin-settings-arr.php:964
+#, fuzzy
+msgid "Colors and CSS"
+msgstr "رنگ اور CSS"
+
+#: inc/menu/admin-settings-arr.php:972
+#, fuzzy
+msgid "Headings Underline"
+msgstr "سرخیاں خط کشیدہ"
+
+#: inc/menu/admin-settings-arr.php:974
+#, fuzzy
+msgid "Choose bottom border color for headings area"
+msgstr "سرخیاں علاقہ کے لیے پایان بارڈر رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:980
+#, fuzzy
+msgid "Headings Underline Active"
+msgstr "سرخیاں خط کشیدہ زیر عمل"
+
+#: inc/menu/admin-settings-arr.php:982
+#, fuzzy
+msgid "Choose bottom border color for headings active area"
+msgstr "سرخیاں زیر عمل علاقہ کے لیے پایان بارڈر رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:988
+#, fuzzy
+msgid "Buttons Background"
+msgstr "بٹن پس منظر"
+
+#: inc/menu/admin-settings-arr.php:990
+#, fuzzy
+msgid "Choose background color for buttons"
+msgstr "بٹن کے لیے پس منظری رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:996
+#, fuzzy
+msgid "Buttons Text"
+msgstr "بٹن متن"
+
+#: inc/menu/admin-settings-arr.php:998 inc/menu/admin-settings-arr.php:1014
+#, fuzzy
+msgid "Choose text color for buttons"
+msgstr "بٹن کے لیے متن رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:1004
+#, fuzzy
+msgid "Buttons Background - Hover"
+msgstr "بٹن پس منظر-ہوور"
+
+#: inc/menu/admin-settings-arr.php:1006
+#, fuzzy
+msgid "Choose background color for buttons on hover state"
+msgstr "ہوور حالت پر بٹنوں کے لیے پس منظری رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:1012
+#, fuzzy
+msgid "Buttons Text - Hover"
+msgstr "بٹن متن-ہوور"
+
+#: inc/menu/admin-settings-arr.php:1020
+#, fuzzy
+msgid "Theme Main Color"
+msgstr "مرکزی خیال ، موضوع مرکزی رنگ"
+
+#: inc/menu/admin-settings-arr.php:1022
+#, fuzzy
+msgid "Choose main theme color for templates"
+msgstr "سانچے کے لیے بنیادی خیالیہ رنگ انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:1028
+#, fuzzy
+msgid "Custom CSS Code"
+msgstr "مخصوص CSS کوڈ"
+
+#: inc/menu/admin-settings-arr.php:1030
+#, fuzzy
+msgid "Paste your custom css code here, you can prefix with"
+msgstr ""
+"اپنی مرضی کے مطابق css کوڈ یہاں چسپاں کریں ، آپ اس کے ساتھ پیش کر سکتے ہیں"
+
+#: inc/menu/admin-settings-arr.php:1038
+#, fuzzy
+msgid "Listing Ribbons"
+msgstr "لسٹنگ ربن"
+
+#: inc/menu/admin-settings-arr.php:1045
+#, fuzzy
+msgid "Ribbon Style"
+msgstr "ربن طرز"
+
+#: inc/menu/admin-settings-arr.php:1050
+#, fuzzy
+msgid "Choose ribbon style"
+msgstr "ربن طرز انتخاب کریں"
+
+#: inc/menu/admin-settings-arr.php:1055
+#, fuzzy
+msgid "Sale Ribbon Text"
+msgstr "ربن متن فروخت"
+
+#: inc/menu/admin-settings-arr.php:1056
+#, fuzzy
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"یہ دکھاتا ہے جب جائیداد کی فروخت کی قیمت مقرر کی گئی ہے ، اسے غیر فعال کرنے "
+"کے لئے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:1061
+#, fuzzy
+msgid "Rented Properties"
+msgstr "کرائے کی پراپرٹیز"
+
+#: inc/menu/admin-settings-arr.php:1062
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"یہ دکھاتا ہے جب پراپرٹی کا مقصد کرایہ پر مقرر ہوتا ہے ، اسے غیر فعال کرنے کے "
+"لئے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:1067
+#, fuzzy
+msgid "For Sale Properties"
+msgstr "پراپرٹیز برائے فروخت"
+
+#: inc/menu/admin-settings-arr.php:1068
+#, fuzzy
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"یہ دکھاتا ہے جب پراپرٹی کا مقصد فروخت کرنے کے لئے مقرر کیا جاتا ہے ، اسے غیر "
+"فعال کرنے کے لئے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:1073
+#, fuzzy
+msgid "Sold Properties"
+msgstr "فروخت شدہ پراپرٹیز"
+
+#: inc/menu/admin-settings-arr.php:1074
+#, fuzzy
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"یہ دکھاتا ہے جب پراپرٹی کی حیثیت کو فروخت کرنے کے لئے مقرر کیا جاتا ہے ، اسے "
+"غیر فعال کرنے کے لئے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:1079
+#, fuzzy
+msgid "Featured Properties"
+msgstr "نمایاں خواص"
+
+#: inc/menu/admin-settings-arr.php:1080
+#, fuzzy
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"یہ دکھاتا ہے جب نمایاں اختیار ہاں پر مقرر کیا جاتا ہے ، اسے غیر فعال کرنے کے "
+"لئے خالی چھوڑ دیں"
+
+#: inc/menu/admin-settings-arr.php:1085
+#, fuzzy
+msgid "Custom Ribbon"
+msgstr "مخصوص ربن"
+
+#: inc/menu/admin-settings-arr.php:1086
+#, fuzzy
+msgid "Provide key with value. Eg:"
+msgstr "قدر کے ساتھ کلید مہیا کرتا ہے ۔ مثال"
+
+#: inc/menu/admin-settings-arr.php:1091
+#, fuzzy
+msgid "Custom Ribbon Text"
+msgstr "مخصوص ربن متن"
+
+#: inc/menu/admin-settings-arr.php:1092
+#, fuzzy
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr ""
+"مخصوص ربن کے لئے ڈسپلے کرنے کے لئے متن فراہم کریں. آپ متحرک لیبل کے لیے نام "
+"قطعہ بھی مہیا کر سکتے ہیں ۔"
+
+#: inc/menu/admin-settings-arr.php:1098
+#, fuzzy
+msgid "Page Builders"
+msgstr "صفحہ بلڈرز"
+
+#: inc/menu/admin-settings-arr.php:1106
+#, fuzzy
+msgid "Gutenberg Blocks"
+msgstr "Gutenberg بلاکس"
+
+#: inc/menu/admin-settings-arr.php:1109
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+#, fuzzy
+msgid "Register Agent"
+msgstr "رجسٹر ایجنٹ"
+
+#: inc/menu/admin-settings-arr.php:1110
+#, fuzzy
+msgid "Simple Search"
+msgstr "سادہ تلاش"
+
+#: inc/menu/admin-settings-arr.php:1112
+#, fuzzy
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr "Gutenberg بلاک اہل یا نااہل بنائیں ۔ مزید آ رہے ہیں..."
+
+#: inc/menu/admin-settings-arr.php:1117
+#, fuzzy
+msgid "WPBakery Page Builder Addons"
+msgstr "وپباکری صفحہ بلڈر Addons"
+
+#: inc/menu/admin-settings-arr.php:1122
+#, fuzzy
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr "وپباکری صفحہ بلڈر addons یہاں فعال یا غیر فعال کریں."
+
+#: inc/menu/admin-settings-arr.php:1127
+#, fuzzy
+msgid "Divi Modules"
+msgstr "داوا ماڈیول"
+
+#: inc/menu/admin-settings-arr.php:1132
+#, fuzzy
+msgid "Enable or disable Divi modules here."
+msgstr "داوا ماڈیول اہل یا نااہل بنائیں ۔"
+
+#: inc/menu/admin-settings-arr.php:1138
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "اعلی سیٹنگیں"
+
+#: inc/menu/admin-settings-arr.php:1146
+#, fuzzy
+msgid "Bootstrap CSS"
+msgstr "بادیت CSS"
+
+#: inc/menu/admin-settings-arr.php:1151
+#, fuzzy
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr ""
+"اس کو غیر فعال کریں ، اگر آپ کے مرکزی خیال ، موضوع اپنے بادیت 3 شیلیوں کو "
+"بوجھ"
+
+#: inc/menu/admin-settings-arr.php:1156
+#, fuzzy
+msgid "Disable Map Script"
+msgstr "نقشہ نوشتہ نااہل کریں"
+
+#: inc/menu/admin-settings-arr.php:1161
+#, fuzzy
+msgid "If you want to load map scripts from your theme, choose Yes"
+msgstr ""
+"اگر آپ اپنے مرکزی خیال ، موضوع سے نقشہ سکرپٹ کو لوڈ کرنا چاہتے ہیں تو ، "
+"منتخب کریں جی ہاں"
+
+#: inc/menu/admin-settings-arr.php:1166
+#, fuzzy
+msgid "Font Awesome"
+msgstr "فانٹ بہت اچھے"
+
+#: inc/menu/admin-settings-arr.php:1171
+#, fuzzy
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+"اس کو غیر فعال کریں ، اگر آپ کے تھیم کو اس کے اپنے فونٹ کو بہت اچھا شبیہیں "
+"بوجھ"
+
+#: inc/menu/admin-settings-arr.php:1176
+#, fuzzy
+msgid "Property Submission Mode"
+msgstr "پراپرٹی جمع کرنے کا موڈ"
+
+#: inc/menu/admin-settings-arr.php:1178
+#, fuzzy
+msgid "Publish Right Away"
+msgstr "فورا شائع کریں"
+
+#: inc/menu/admin-settings-arr.php:1179
+#, fuzzy
+msgid "Approve by Administrator"
+msgstr "منتظم کی طرف سے منظور"
+
+#: inc/menu/admin-settings-arr.php:1181
+#, fuzzy
+msgid "Set permission for agents for creating new property"
+msgstr "نئی پراپرٹی بنانے کے لیے ایجنٹوں کے لیے اجازت سیٹ کریں"
+
+#: inc/menu/admin-settings-arr.php:1187
+#, fuzzy
+msgid "Redirect After Creating Property"
+msgstr "پراپرٹی بنانے کے بعد ری ڈائریکٹ"
+
+#: inc/menu/admin-settings-arr.php:1188
+#, fuzzy
+msgid "Provide redirect url after creating property from frontend"
+msgstr "فرنٹ اینڈ سے پراپرٹی بنانے کے بعد ری ڈائریکٹ url فراہم کرتا ہے"
+
+#: inc/menu/admin-settings-arr.php:1193
+#, fuzzy
+msgid "Redirect After Editing Property"
+msgstr "تدوین کاری خاصیت کے بعد ری ڈائریکٹ"
+
+#: inc/menu/admin-settings-arr.php:1194
+#, fuzzy
+msgid "Provide redirect url after editing property from frontend"
+msgstr "فرنٹ اینڈ سے پراپرٹی کی تدوین کے بعد ری ڈائریکٹ url فراہم کرتا ہے"
+
+#: inc/menu/admin-settings-arr.php:1200
+msgid "Delete Permanently"
+msgstr "ہمیشہ کے لیے حذف کریں"
+
+#: inc/menu/admin-settings-arr.php:1201
+msgid "Move to Trash"
+msgstr "ردی میں منتقل کریں"
+
+#: inc/menu/admin-settings-arr.php:1203
+#, fuzzy
+msgid "Property Deletion"
+msgstr "خاصیت حذف کاری"
+
+#: inc/menu/admin-settings-arr.php:1204
+#, fuzzy
+msgid "What to do when an agent deletes a property."
+msgstr "جب ایجنٹ کسی پراپرٹی کو خارج کرتا ہے تو کیا کرنا ہے."
+
+#: inc/menu/admin-settings-arr.php:1210
+#, fuzzy
+msgid "Keep"
+msgstr "رکھنے"
+
+#: inc/menu/admin-settings-arr.php:1211 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:90 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:90
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/menu/admin-settings-arr.php:1213
+#, fuzzy
+msgid "Attachments Deletion"
+msgstr "منسلکات حذف"
+
+#: inc/menu/admin-settings-arr.php:1214
+#, fuzzy
+msgid "What to do with gallery images after deleting property."
+msgstr "پراپرٹی کو حذف کرنے کے بعد گیلری تصاویر کے ساتھ کیا کرنا ہے."
+
+#: inc/menu/admin-settings-arr.php:1219
+#, fuzzy
+msgid "Agents Approval"
+msgstr "ایجنٹوں کی منظوری"
+
+#: inc/menu/admin-settings-arr.php:1221
+#, fuzzy
+msgid "Manual"
+msgstr "دستی"
+
+#: inc/menu/admin-settings-arr.php:1222
+#, fuzzy
+msgid "Automatic"
+msgstr "خودکار"
+
+#: inc/menu/admin-settings-arr.php:1224
+#, fuzzy
+msgid "We recommend you to use manual method"
+msgstr "ہم آپ کو دستی طریقہ استعمال کرنے کی سفارش کرتے ہیں"
+
+#: inc/menu/agent-profile-fields.php:3
+#, fuzzy
+msgid "Agent Details"
+msgstr "ایجنٹ کی تفصیلات"
+
+#: inc/menu/agent-profile-fields.php:25
+#, fuzzy
+msgid "Upload Image"
+msgstr "نقش اپ لوڈ کریں"
+
+#: inc/menu/agent/custom-fields-page.php:2
+#, fuzzy
+msgid "Agent Registration Fields"
+msgstr "ایجنٹ رجسٹریشن فیلڈز"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:68
+#, fuzzy
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr "براہ کرم بائیں پینل سے اوپر کے علاقے میں کھیتوں کو ڈریگ اور ڈراپیں"
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:76
+#, fuzzy
+msgid "Reset Fields"
+msgstr "قطعات پھر سیٹ کریں"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:77
+#: inc/menu/page-settings.php:43
+#, fuzzy
+msgid "Save Settings"
+msgstr "سیٹنگیں محفوظ کریں"
+
+#: inc/menu/agent/fields/checkbox.php:2
+#, fuzzy
+msgid "Checkbox"
+msgstr "چیک باکس"
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:441
+msgid "Label"
+msgstr "لیبل"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+#, fuzzy
+msgid "Data Name (lowercase without spaces)"
+msgstr "ڈیٹا کا نام (خالی جگہوں کے بغیر کم)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:36
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+#, fuzzy
+msgid "Help Text"
+msgstr "مدد متن"
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:50
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+#, fuzzy
+msgid "Display on"
+msgstr "ڈسپلے"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:54
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+#, fuzzy
+msgid "Registration Form"
+msgstr "رجسٹریشن فارم"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+#, fuzzy
+msgid "Tab"
+msgstr "جدول"
+
+#: inc/menu/agent/fields/email.php:2
+#, fuzzy
+msgid "Email Field"
+msgstr "ای میل میدان"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+#, fuzzy
+msgid "Admin Profile Edit"
+msgstr "ایڈمن پروفائل تدوین"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:63 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+#, fuzzy
+msgid "Frontend Edit"
+msgstr "فرنٹ اینڈ تدوین"
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:67 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+#, fuzzy
+msgid "Agent Card Icons"
+msgstr "ایجنٹ کارڈ شبیہیں"
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:71 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+#, fuzzy
+msgid "Agent Page"
+msgstr "ایجنٹ کا صفحہ"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+#, fuzzy
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr "آئکن کلاس (اگر ایجنٹ کارڈ شبیہیں منتخب کیا جاتا ہے)"
+
+#: inc/menu/agent/fields/image.php:2
+#, fuzzy
+msgid "Image Field"
+msgstr "تصویری میدان"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+#, fuzzy
+msgid "Number Field"
+msgstr "نمبر قطعہ"
+
+#: inc/menu/agent/fields/password.php:2
+#, fuzzy
+msgid "Password Field"
+msgstr "پاس ورڈ قطعہ"
+
+#: inc/menu/agent/fields/select.php:2
+msgid "Select Box"
+msgstr "خانہ منتخب کریں"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+#, fuzzy
+msgid "Default Selected"
+msgstr "طے شدہ منتخب"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+#, fuzzy
+msgid "Options (each per line)"
+msgstr "اختیارات (ہر فی سطر)"
+
+#: inc/menu/agent/fields/select.php:76
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+#, fuzzy
+msgid "Admin Settings Tab"
+msgstr "ایڈمن ترتیبات ٹیب"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+#, fuzzy
+msgid "Text Field"
+msgstr "متن قطعہ"
+
+#: inc/menu/agent/fields/textarea.php:2
+#, fuzzy
+msgid "Textarea Field"
+msgstr "ٹیاٹاریا میدان"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+#, fuzzy
+msgid "Custom Fields Builder"
+msgstr "کسٹم فیلڈز بلڈر"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+#, fuzzy
+msgid "DropDown Field"
+msgstr "ڈراپ ڈاؤن قطعہ"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+#, fuzzy
+msgid "Multi Select Field"
+msgstr "کثیر منتخب قطعہ"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+#, fuzzy
+msgid "Date Field"
+msgstr "تاریخ قطعہ"
+
+#: inc/menu/custom-fields/custom-fields-page.php:11
+#, fuzzy
+msgid "Multiple Files Upload"
+msgstr "کثیر مسلیں اپ لوڈ"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+#, fuzzy
+msgid "Text Area"
+msgstr "متن علاقہ"
+
+#: inc/menu/custom-fields/custom-fields-page.php:14
+#, fuzzy
+msgid "Shortcode"
+msgstr "مختصر"
+
+#: inc/menu/custom-fields/custom-fields-page.php:70
+#, fuzzy
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"اگر اعداد و شمار کا نام پورے لفظ \"علاقے\" پر مشتمل ہے تو ، منتخب شدہ علاقے "
+"یونٹ قیمت کے بعد دکھایا جائے گا."
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:134
+#, fuzzy
+msgid "Accessibility"
+msgstr "رسائی"
+
+#: inc/menu/custom-fields/fields/text.php:21
+#, fuzzy
+msgid "Default Value"
+msgstr "طے شدہ قدر"
+
+#: inc/menu/custom-fields/fields/text.php:67
+#, fuzzy
+msgid "Display as range slider on search form"
+msgstr "تلاش فارم پر رینج سلائیڈر کے طور پر دکھائیں"
+
+#: inc/menu/custom-fields/fields/text.php:75
+#, fuzzy
+msgid "Make range slider checkbox checked by default"
+msgstr "ڈیفالٹ کی طرف سے رینج سلائیڈر چیک باکس کو چیک کریں"
+
+#: inc/menu/page-agents.php:65
+#, fuzzy
+msgid "Pending Agents"
+msgstr "زیر التواء ایجنٹس"
+
+#: inc/menu/page-agents.php:76
+#, fuzzy
+msgid "Date of Registration"
+msgstr "رجسٹریشن کی تاریخ"
+
+#: inc/menu/page-agents.php:77
+msgid "Action"
+msgstr "عمل"
+
+#: inc/menu/page-agents.php:89
+msgid "Deny"
+msgstr "مسترد کریں"
+
+#: inc/menu/page-agents.php:90
+#, fuzzy
+msgid "Approve"
+msgstr "منظور"
+
+#: inc/menu/page-agents.php:99
+#, fuzzy
+msgid "You dont have any pending agents."
+msgstr "آپ کے پاس کسی بھی زیر التواء ایجنٹوں کی ضرورت نہیں ہے."
+
+#: inc/menu/page-agents.php:107
+#, fuzzy
+msgid "Registered Agents"
+msgstr "رجسٹرڈ ایجنٹس"
+
+#: inc/menu/page-agents.php:119
+#, fuzzy
+msgid "Profile"
+msgstr "پروفائل"
+
+#: inc/menu/page-agents.php:132
+msgid "View Profile"
+msgstr "تعارف دیکھیں"
+
+#: inc/menu/page-agents.php:141
+#, fuzzy
+msgid "You dont have any registered agents."
+msgstr "آپ کے پاس کوئی رجسٹرڈ ایجنٹ نہیں ہے."
+
+#: inc/menu/page-agents.php:147
+#, fuzzy
+msgid "Register New Agent"
+msgstr "نیا ایجنٹ رجسٹر کریں"
+
+#: inc/menu/page-settings.php:3
+#, fuzzy
+msgid "Real Estate Manager - Settings"
+msgstr "رئیل اسٹیٹ مینیجر-ترتیبات"
+
+#: inc/menu/page-settings.php:5
+#, fuzzy
+msgid "Not Registered!"
+msgstr "رجسٹرڈ نہیں!"
+
+#: inc/menu/page-settings.php:6
+msgid "Register"
+msgstr "رجسٹر"
+
+#: inc/menu/page-settings.php:8
+#, fuzzy
+msgid "Registered!"
+msgstr "رجسٹرڈ!"
+
+#: inc/menu/page-settings.php:9
+#, fuzzy
+msgid "De-register"
+msgstr "ڈی-اندراج"
+
+#: inc/menu/page-settings.php:42
+#, fuzzy
+msgid "Please Wait..."
+msgstr "براۓ مہربانی انتظار کريں..."
+
+#: inc/menu/render-admin-settings.php:50
+#, fuzzy
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+"ہم نے محسوس کیا کہ آپ اپنی مرضی کے شعبوں کا استعمال کر رہے ہیں ، لہذا براہ "
+"کرم مندرجہ بالا اختیارات مقرر کریں"
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+#, fuzzy
+msgid "Choose a currency&hellip;"
+msgstr "ایک کرنسی منتخب کریں &hellip;"
+
+#: inc/menu/render-admin-settings.php:217
+#, fuzzy
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "منتخب کریں"
+
+#: inc/menu/render-admin-settings.php:219
+#, fuzzy
+msgid "Media"
+msgstr "میڈیا"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+#, fuzzy
+msgid "View details"
+msgstr "تفاصیل منظر"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, fuzzy, php-format
+msgid "More information about %s"
+msgstr "مزید معلومات از %s"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+#, fuzzy
+msgid "Check for updates"
+msgstr "پڑتال برائے تازہ کاریوں"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "%s پلگ ان تازہ ترین ہے ۔"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "%s پلگ ان کا ایک نیا ورژن دستیاب ہے ۔"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "تعین نہیں کر سکا کہ کیا تازہ کاریاں دستیاب ہیں برائے %s ۔"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, fuzzy, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "نامعلوم تازہ کاری پڑتال حالت \" %s\""
+
+#: inc/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#, fuzzy
+msgid "There is no changelog available."
+msgstr "کوئی رکھا دستیاب نہیں ہے."
+
+#: inc/sidebar-agent-contact.php:18
+#, fuzzy
+msgid "Your Name"
+msgstr "آپکا نام"
+
+#: inc/sidebar-agent-contact.php:21
+msgid "Your Email"
+msgstr "آپ کا ای میل"
+
+#: inc/sidebar-agent-contact.php:24
+msgid "Phone"
+msgstr "فون"
+
+#: inc/sidebar-agent-contact.php:27
+msgid "Message"
+msgstr "پیغام"
+
+#: inc/sidebar-agent-contact.php:30
+msgid "Send Message"
+msgstr "بھیج دیں"
+
+#: shortcodes/agent-profile.php:92
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:89
+#, fuzzy
+msgid "My Properties"
+msgstr "میری خصوصیات"
+
+#: shortcodes/carousel/carousel.php:13
+#, fuzzy
+msgid "No Properties Found!"
+msgstr "کوئی خواص نہیں ملے!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+#, fuzzy
+msgid "Basic Information"
+msgstr "بنیادی معلومات"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+#, fuzzy
+msgid "Property Title"
+msgstr "خاصیت عنوان"
+
+#: shortcodes/create-property.php:16
+#, fuzzy
+msgid "Property Description"
+msgstr "پراپرٹی کی وضاحت"
+
+#: shortcodes/create-property.php:28 shortcodes/edit-property.php:33
+msgid "Images"
+msgstr "تصاویر"
+
+#: shortcodes/create-property.php:33 shortcodes/edit-property.php:38
+#, fuzzy
+msgid "Click here to Upload Images"
+msgstr "تصاویر اپ لوڈ کرنے کے لئے یہاں کلک کریں"
+
+#: shortcodes/create-property.php:84 shortcodes/edit-property.php:107
+#, fuzzy
+msgid "Each tag separated by comma"
+msgstr "کوما کی طرف سے علیحدہ ہر ٹیگ"
+
+#: shortcodes/create-property.php:92 shortcodes/edit-property.php:119
+#, fuzzy
+msgid "Place on Map"
+msgstr "نقشے پر جگہ"
+
+#: shortcodes/create-property.php:104
+#: shortcodes/page-builders/vc-settings.php:28
+#, fuzzy
+msgid "Create Property"
+msgstr "خاصیت بنائیں"
+
+#: shortcodes/create-property.php:111
+#, fuzzy
+msgid "Please wait..."
+msgstr "براۓ مہربانی انتظار کريں..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:142
+msgid "Save Changes"
+msgstr "تبدیلیاں محفوظ کرو"
+
+#: shortcodes/edit-agent.php:47
+#, fuzzy
+msgid "Saving Changes..."
+msgstr "تبدیلیاں محفوظ کر رہا ہے..."
+
+#: shortcodes/edit-property.php:135
+#, fuzzy
+msgid "Draft"
+msgstr "مسودہ"
+
+#: shortcodes/edit-property.php:136 shortcodes/manage-properties.php:29
+#, fuzzy
+msgid "Publish"
+msgstr "شائع"
+
+#: shortcodes/edit-property.php:149
+#, fuzzy
+msgid "Please wait! your porperty is being modified..."
+msgstr "براۓ مہربانی انتظار کريں! آپ porperty ترمیم کیا جا رہا ہے..."
+
+#: shortcodes/login.php:8
+#, fuzzy
+msgid "Username or email"
+msgstr "صارف نام یا ای میل"
+
+#: shortcodes/login.php:22
+#, fuzzy
+msgid "Keep me signed in"
+msgstr "مجھے سائن ان رکھیں"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:961
+msgid "Login"
+msgstr "لاگ ان"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+#, fuzzy
+msgid "Display All"
+msgstr "تمام دکھائیں"
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+#, fuzzy
+msgid "Only Published"
+msgstr "صرف شائع"
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+#, fuzzy
+msgid "Only Pending"
+msgstr "صرف زیر التواء"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+#, fuzzy
+msgid "Only Draft"
+msgstr "صرف ڈرافٹ"
+
+#: shortcodes/manage-properties.php:30
+#, fuzzy
+msgid "Unpublish"
+msgstr "کھولنا"
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+msgid "Thumbnail"
+msgstr "اظفورہ"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+#, fuzzy
+msgid "ID"
+msgstr "Id"
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+#, fuzzy
+msgid "Added"
+msgstr "اضافہ"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+#, fuzzy
+msgid "Actions"
+msgstr "اعمال"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+msgid "Edit"
+msgstr "ترمیم کریں"
+
+#: shortcodes/map/map.php:105 shortcodes/map/nearby.php:98
+#, fuzzy
+msgid "Found"
+msgstr "پایا"
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:948
+#, fuzzy
+msgid "Designates the ascending or descending order of the below option."
+msgstr "دیساگناٹیس مندرجہ ذیل آپشن کے صعودی یا نزولی ترتیب کو کم کرتے ہیں ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+#, fuzzy
+msgid "Choose option to sort properties by"
+msgstr "خواص کی چھانٹ کے لیے اختیار کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+#, fuzzy
+msgid "Property Price"
+msgstr "پراپرٹی کی قیمت"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:228
+#: shortcodes/page-builders/all-setting-fields.php:583
+#, fuzzy
+msgid "Random"
+msgstr "تصادفی"
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+#, fuzzy
+msgid "Order by custom meta"
+msgstr "اپنی مرضی کے مطابق میٹا کی طرف سے آرڈر"
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+#, fuzzy
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"اپنی مرضی کے مطابق فیلڈ کی طرف سے ترتیب دینے کے لئے مخصوص فیلڈ کلید فراہم "
+"کریں. مثال کے طور پر: property_status"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:234
+#, fuzzy
+msgid "Property Style"
+msgstr "خاصیت طرز"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:235
+#, fuzzy
+msgid "Choose properties display style"
+msgstr "خواص دکھائیں طرز کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:934
+#, fuzzy
+msgid "Columns"
+msgstr "کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+#, fuzzy
+msgid "Number of properties in a row"
+msgstr "ایک قطار میں پراپرٹیز کی تعداد"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:937
+#, fuzzy
+msgid "1 Columns"
+msgstr "1 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:488
+#: shortcodes/page-builders/all-setting-fields.php:938
+#, fuzzy
+msgid "2 Columns"
+msgstr "2 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:489
+#: shortcodes/page-builders/all-setting-fields.php:939
+#, fuzzy
+msgid "3 Columns"
+msgstr "3 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:490
+#: shortcodes/page-builders/all-setting-fields.php:940
+#, fuzzy
+msgid "4 Columns"
+msgstr "4 کالمز"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:491
+#: shortcodes/page-builders/all-setting-fields.php:941
+#, fuzzy
+msgid "5 Columns"
+msgstr "5 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+#, fuzzy
+msgid "Top Bar"
+msgstr "اوپر بار"
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+#, fuzzy
+msgid "Top bar to sort or change layout"
+msgstr "لے آؤٹ کو ترتیب دیں یا تبدیل کرنے کے لئے اوپر بار"
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+#, fuzzy
+msgid "Default Grid Style"
+msgstr "طے شدہ گرڈ طرز"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+#, fuzzy
+msgid "Default style of grid for top bar."
+msgstr "اوپر بار کے لئے گرڈ کی ڈیفالٹ طرز."
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+#, fuzzy
+msgid "Display properties having status Not Available or not"
+msgstr "نمایش دکھائیں حالت دستیاب نہیں یا نہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:643
+#, fuzzy
+msgid "Number of Properties"
+msgstr "پراپرٹیز کی تعداد"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+#, fuzzy
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"ظاہر کرنے کے لئے پراپرٹیز کی کل تعداد فراہم کریں ، اس کے بعد صفحہ دکھائے "
+"جائیں گے"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+#, fuzzy
+msgid "Tags Specific"
+msgstr "ٹیگ مخصوص"
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+#, fuzzy
+msgid "Comma separated list of tags to filter properties"
+msgstr "کوما کی خصوصیات کو فلٹر کرنے کے لئے ٹیگ کی علیحدہ فہرست"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+#, fuzzy
+msgid "Features Specific"
+msgstr "مخصوص خصوصیات"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+#, fuzzy
+msgid "Comma separated list of features to filter properties"
+msgstr "کما فلٹر کرنے کے لئے خصوصیات میں سے علیحدہ فہرست"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+#, fuzzy
+msgid "Agent Specific"
+msgstr "ایجنٹ مخصوص"
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:266
+#, fuzzy
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr "ایجنٹ ID یا کوما علیحدہ کردہ IDs ان کی خصوصیات کو ظاہر کرنے کے لئے"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:247
+#: shortcodes/page-builders/all-setting-fields.php:653
+#, fuzzy
+msgid "Filter Properties by Meta"
+msgstr "خواص فلٹر بذریعہ میٹا"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:248
+#: shortcodes/page-builders/all-setting-fields.php:654
+#, fuzzy
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"فلٹر کرنے کے لیے ہر سطر پر میٹا کلید اور قدر مہیا کریں ۔ مثال کے طور پر: "
+"property_status | عام"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:271
+#: shortcodes/page-builders/all-setting-fields.php:727
+#, fuzzy
+msgid "Prefer Nearest Properties"
+msgstr "قریب ترین خواص ترجیح دیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+#, fuzzy
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"یہ وزیٹر کے مقام کو ٹریک کرنے کے لئے جیو مقام کو فعال کرے گا اور ان کے قریب "
+"خصوصیات کو ظاہر کرے گا"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+#, fuzzy
+msgid "Justified Grid (Masonry)"
+msgstr "سطر بندی گرڈ (ماسونری)"
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+#, fuzzy
+msgid "It will enable masonry grid for properties"
+msgstr "یہ خصوصیات کے لئے ماسونری گرڈ کو فعال کرے گا"
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+#, fuzzy
+msgid "Pagination"
+msgstr "صفحہ"
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+#, fuzzy
+msgid "Enable or Disable Pagination"
+msgstr "صفحہ اہل یا نااہل بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:363
+#, fuzzy
+msgid "Redirect"
+msgstr "ری ڈائریکٹ"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+#, fuzzy
+msgid "Provide URL to redirect after successful registration"
+msgstr "کامیاب رجسٹریشن کی سمت میں URL فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#, fuzzy
+msgid "Required Text"
+msgstr "مطلوبہ متن"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+#, fuzzy
+msgid "Provide terms and conditions"
+msgstr "شرائط و ضوابط فراہم کرتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:168
+#: shortcodes/page-builders/all-setting-fields.php:369
+#, fuzzy
+msgid "Content for Logged In Users"
+msgstr "صارفین میں لاگ ان کرنے کیلئے مواد"
+
+#: shortcodes/page-builders/all-setting-fields.php:169
+#: shortcodes/page-builders/all-setting-fields.php:370
+#, fuzzy
+msgid "Provide contents for already logged in users"
+msgstr "صارفین میں پہلے سے لاگ ان کے لیے مشمولات مہیا کرتا ہے"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+#, fuzzy
+msgid "Placeholder"
+msgstr "پلیس ہولڈر"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+#, fuzzy
+msgid "Placeholder for search field"
+msgstr "تلاش قطعہ کے لیے جگہ دار"
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+#, fuzzy
+msgid "Field Width"
+msgstr "قطعہ چوڑائی"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+#, fuzzy
+msgid "Width with units. Eg: 450px"
+msgstr "اکائیوں کے ساتھ چوڑائی. مثلا: 450px"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+#, fuzzy
+msgid "Border Color"
+msgstr "بارڈر رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+#, fuzzy
+msgid "Choose color for border"
+msgstr "بارڈر کے لیے رنگ انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+#, fuzzy
+msgid "Results Page URL"
+msgstr "نتائج کا صفحہ URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+#, fuzzy
+msgid "Provide URL for the search results page"
+msgstr "تلاش کے نتائج کے صفحہ کے لیے URL مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:202
+#, fuzzy
+msgid "Search Icon"
+msgstr "تلاش شبیہ"
+
+#: shortcodes/page-builders/all-setting-fields.php:203
+#, fuzzy
+msgid "Provide fontawesome icon with markup."
+msgstr "نشان اصلاح کے ساتھ فونتویسومی شبیہ مہیا کرتا ہے ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:213
+#: shortcodes/page-builders/all-setting-fields.php:615
+#, fuzzy
+msgid "Choose order to display properties"
+msgstr "خواص دکھانے کے لیے حکم کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:223
+#: shortcodes/page-builders/all-setting-fields.php:629
+#, fuzzy
+msgid "Choose order by to display properties"
+msgstr "خواص دکھانے کے لیے حکم کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:227
+#: shortcodes/page-builders/all-setting-fields.php:582
+#: shortcodes/page-builders/all-setting-fields.php:633
+#, fuzzy
+msgid "Property Name"
+msgstr "پراپرٹی کا نام"
+
+#: shortcodes/page-builders/all-setting-fields.php:242
+#, fuzzy
+msgid "Provide total number of properties to show"
+msgstr "دکھانے کے لئے پراپرٹیز کی کل تعداد فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+#, fuzzy
+msgid "Provide tags each per line to display specific properties"
+msgstr "مخصوص خواص دکھانے کے لیے ٹیگ ہر سطر مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:604
+#, fuzzy
+msgid "Property IDs"
+msgstr "پراپرٹی IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:260
+#, fuzzy
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr "شناخت فراہم کریں اگر آپ مخصوص خصوصیات ظاہر کرنا چاہتے ہیں ، ہر سطر"
+
+#: shortcodes/page-builders/all-setting-fields.php:272
+#: shortcodes/page-builders/all-setting-fields.php:728
+#, fuzzy
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"یہ سیاحوں کے مقام کو ٹریک کرنے کے لئے جیو مقام ٹراککاور کو فعال کرے گا اور "
+"ان کے قریب خصوصیات کو ظاہر کرے گا"
+
+#: shortcodes/page-builders/all-setting-fields.php:282
+#, fuzzy
+msgid "Properties in Row"
+msgstr "صف میں پراپرٹیز"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+#, fuzzy
+msgid "Provide number of properties you want to show at a time"
+msgstr "آپ ایک وقت میں دکھانا چاہتے ہیں پراپرٹیز کی تعداد فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:289
+#, fuzzy
+msgid "Properties to Scroll"
+msgstr "خواص بطرف طومار"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+#, fuzzy
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "آپ کو ایک وقت میں سکرال کرنا چاہتے ہیں کی خصوصیات کی تعداد فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:296
+#, fuzzy
+msgid "Speed"
+msgstr "رفتار"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+#, fuzzy
+msgid "Speed in ms Eg: 2000"
+msgstr "Ms مثال کے طور پر رفتار: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:303
+#, fuzzy
+msgid "Auto Play"
+msgstr "خود فرمائش"
+
+#: shortcodes/page-builders/all-setting-fields.php:304
+#, fuzzy
+msgid "Enable to display auto rotation of properties"
+msgstr "خواص کی خود گردش دکھانے کے لیے اہل بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:314
+#, fuzzy
+msgid "Auto Play Speed"
+msgstr "آٹو کھیلیں رفتار"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+#, fuzzy
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Ms مثال کے طور پر آٹو کھیلیں رفتار: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:321
+#, fuzzy
+msgid "Arrows"
+msgstr "تیر"
+
+#: shortcodes/page-builders/all-setting-fields.php:322
+#, fuzzy
+msgid "Enable to display arrows for navigation"
+msgstr "گشت کے لیے تیر دکھانے کے لیے اہل بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:332
+#, fuzzy
+msgid "Dots"
+msgstr "نقاط"
+
+#: shortcodes/page-builders/all-setting-fields.php:333
+#, fuzzy
+msgid "Enable to display bottom dots for navigation"
+msgstr "گشت کے لیے پایان نقاط دکھانے کے لیے اہل بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:347
+#: shortcodes/page-builders/all-setting-fields.php:379
+#: shortcodes/page-builders/all-setting-fields.php:389
+#: shortcodes/page-builders/all-setting-fields.php:409
+#: shortcodes/page-builders/all-setting-fields.php:419
+#: shortcodes/page-builders/all-setting-fields.php:468
+#, fuzzy
+msgid "Content for Non Logged In Users"
+msgstr "صارفین میں غیر لاگ ان کے لئے مواد"
+
+#: shortcodes/page-builders/all-setting-fields.php:348
+#, fuzzy
+msgid "Provide contents for non logged in users"
+msgstr "صارفین میں غیر لاگ ان کے لیے مشمولات مہیا"
+
+#: shortcodes/page-builders/all-setting-fields.php:357
+#, fuzzy
+msgid "Heading"
+msgstr "سرخی"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+#, fuzzy
+msgid "Heading will appear above the login form"
+msgstr "سرخی لاگ ان فارم کے اوپر ظاہر ہوں گے"
+
+#: shortcodes/page-builders/all-setting-fields.php:364
+#, fuzzy
+msgid "Provide URL to redirect after successful login"
+msgstr "کامیاب لاگ ان کے بعد URL کو ری ڈائریکٹ کرنے کی فراہمی"
+
+#: shortcodes/page-builders/all-setting-fields.php:380
+#: shortcodes/page-builders/all-setting-fields.php:390
+#, fuzzy
+msgid "Provide contents to display if user is not logged in"
+msgstr "اگر صارف لاگ ان نہیں ہے تو دکھانے کے لیے مشمولات مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:400
+#, fuzzy
+msgid "Provide property id here"
+msgstr "یہاں خاصیت شناخت مہیا"
+
+#: shortcodes/page-builders/all-setting-fields.php:410
+#: shortcodes/page-builders/all-setting-fields.php:420
+#: shortcodes/page-builders/all-setting-fields.php:469
+#, fuzzy
+msgid "Provide content to display if user is not logged in"
+msgstr "اگر صارف لاگ ان نہیں ہے تو دکھانے کے لیے مشمول مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+#, fuzzy
+msgid "Redirect URL"
+msgstr "URL ری ڈائریکٹ"
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+#, fuzzy
+msgid "Provide URL to redirect after logout"
+msgstr "لاگ آؤٹ کے بعد ری ڈائریکٹ کرنے کے لیے URL مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:435
+#, fuzzy
+msgid "CSS Button"
+msgstr "CSS بٹن"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+#, fuzzy
+msgid "Provide css classes for button"
+msgstr "بٹن کے لئے css کلاسز فراہم"
+
+#: shortcodes/page-builders/all-setting-fields.php:442
+#, fuzzy
+msgid "Provide button label"
+msgstr "بٹن لیبل مہیا"
+
+#: shortcodes/page-builders/all-setting-fields.php:452
+#, fuzzy
+msgid "Choose agent to display his/her profile."
+msgstr "اپنی پروفائل دکھانے کے لیے ایجنٹ کا انتخاب کریں ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:462
+#, fuzzy
+msgid "Role"
+msgstr "کردار"
+
+#: shortcodes/page-builders/all-setting-fields.php:463
+#, fuzzy
+msgid "Provide role name who can manage properties from this page."
+msgstr "رول نام مہیا کریں جو اس صفحہ سے خواص کا انتظام کر سکتا ہے ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:478
+#, fuzzy
+msgid "Check Fields to Display"
+msgstr "دکھانے کے لیے قطعات پڑتال کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:479
+#, fuzzy
+msgid "Check the required fields for search menu"
+msgstr "تلاش مینیو کے لیے مطلوبہ قطعات پڑتال کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+#, fuzzy
+msgid "Choose number of fields in each row"
+msgstr "ہر صف میں قطعات کی تعداد انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:492
+#, fuzzy
+msgid "6 Columns"
+msgstr "6 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+#, fuzzy
+msgid "1 Column"
+msgstr "1 کالم"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+#, fuzzy
+msgid "Search Button Title"
+msgstr "تلاش بٹن عنوان"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+#, fuzzy
+msgid "Provide text for search button"
+msgstr "تلاش بٹن کے لیے متن مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+#, fuzzy
+msgid "Filter Button Title"
+msgstr "فلٹر بٹن عنوان"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+#, fuzzy
+msgid "Provide text for more filter button"
+msgstr "مزید فلٹر بٹن کے لیے متن مہیا کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+#, fuzzy
+msgid "Results Page"
+msgstr "نتائج کا صفحہ"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+#, fuzzy
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"Url فراہم کریں ، یہ ایجیکس تلاش کو غیر فعال کرے گا اور نتائج کو ظاہر کرنے کے "
+"لئے اس صفحہ کو کھولیں گے. نتائج دکھانے کے لیے مہیا کردہ صفحہ پر مختصر "
+"[rem_search_results] کو جوڑنے کے لیے یقینی بنائیں ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+#, fuzzy
+msgid "Result Selector"
+msgstr "نتیجہ انتخاب کار"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+#, fuzzy
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"HTML انتخاب کار اگر آپ حالیہ صفحہ پر کچھ دوسری جگہ میں نتائج ڈسپلے کرنا "
+"چاہتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+#, fuzzy
+msgid "Fixed Fields"
+msgstr "مقررہ قطعات"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+#, fuzzy
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"ہر سطر پر مقررہ قطعات کے لیے کوائف مہیا کرتا ہے ۔ مثال کے طور پر: "
+"property_status | عام"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+#, fuzzy
+msgid "Hard Coded Contents"
+msgstr "سخت کوڈت مواد"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+#, fuzzy
+msgid "You can paste shortcode here to list some default properties"
+msgstr "آپ کچھ طے شدہ خصوصیات کی فہرست میں مختصر پیسٹ کر سکتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#: shortcodes/page-builders/all-setting-fields.php:960
+#, fuzzy
+msgid "Agent ID"
+msgstr "ایجنٹ کی شناخت"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+#, fuzzy
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr "ایجنٹ کی شناخت یا کوما ایجنٹ مخصوص تلاش کے لئے علیحدہ IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+#, fuzzy
+msgid "More Filters Column Classes"
+msgstr "مزید فلٹر کالم کلاسز"
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+#, fuzzy
+msgid "CSS classes for more filters (features)."
+msgstr "مزید فلٹر کے لئے CSS کلاسز (خصوصیات)."
+
+#: shortcodes/page-builders/all-setting-fields.php:547
+#, fuzzy
+msgid "Auto Complete"
+msgstr "آٹو مکمل"
+
+#: shortcodes/page-builders/all-setting-fields.php:548
+#, fuzzy
+msgid "Enable or Disable auto suggestions"
+msgstr "خود کار تجاویز اہل یا نااہل بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:557
+#, fuzzy
+msgid "Auto Scroll"
+msgstr "آٹو سکرال"
+
+#: shortcodes/page-builders/all-setting-fields.php:558
+#, fuzzy
+msgid "Enable or Disable auto scroll to results"
+msgstr "نتائج کے لئے آٹو سکرال کو فعال یا غیر فعال کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:568
+#, fuzzy
+msgid "Choose order to display results"
+msgstr "نتائج دکھانے کے لیے حکم کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:578
+#, fuzzy
+msgid "Choose order by to display results"
+msgstr "نتائج دکھانے کے لیے حکم کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:594
+#, fuzzy
+msgid "Display By"
+msgstr "ڈسپلے"
+
+#: shortcodes/page-builders/all-setting-fields.php:595
+#, fuzzy
+msgid "How you want to display properties on map"
+msgstr "آپ نقشے پر پراپرٹیز کیسے ڈسپلے کرنا چاہتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:597
+#, fuzzy
+msgid "Properties by IDs"
+msgstr "بذریعہ شناختیں خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:598
+#, fuzzy
+msgid "Use Property Query"
+msgstr "پراپرٹی طلب استعمال کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:605
+#, fuzzy
+msgid "Property ID each per line to display on map"
+msgstr "نقشے پر ظاہر کرنے کے لئے پراپرٹی کا ہر سطر"
+
+#: shortcodes/page-builders/all-setting-fields.php:644
+#, fuzzy
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "دکھانے کے لیے خواص کی کل تعداد مہیا کریں ۔ -1 تمام کے لئے"
+
+#: shortcodes/page-builders/all-setting-fields.php:663
+#, fuzzy
+msgid "Property Type Filtering"
+msgstr "پراپرٹی کی قسم فلٹرنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:664
+#, fuzzy
+msgid "Enable to display property type buttons below maps to filter"
+msgstr ""
+"فلٹر کرنے کے لئے نقشے کے نیچے پراپرٹی کی قسم کے بٹن کو ظاہر کرنے کے قابل "
+"بنائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:673
+#, fuzzy
+msgid "Filter Key"
+msgstr "فلٹر کلید"
+
+#: shortcodes/page-builders/all-setting-fields.php:674
+#, fuzzy
+msgid "Field key to use for filter menu"
+msgstr "فلٹر مینیو کے لیے استعمال کرنے کے لیے قطعہ کلید"
+
+#: shortcodes/page-builders/all-setting-fields.php:683
+#: shortcodes/page-builders/all-setting-fields.php:843
+#: shortcodes/page-builders/all-setting-fields.php:854
+#: shortcodes/page-builders/all-setting-fields.php:865
+#: shortcodes/page-builders/all-setting-fields.php:876
+#: shortcodes/page-builders/all-setting-fields.php:887
+#, fuzzy
+msgid "Filter Options"
+msgstr "فلٹر اختیارات"
+
+#: shortcodes/page-builders/all-setting-fields.php:684
+#, fuzzy
+msgid "Provide comma-separated values to display on filter menu"
+msgstr "فلٹر مینو پر ڈسپلے کرنے کے لئے کوما علیحدہ اقدار فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:694
+#, fuzzy
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr ""
+"اگر آپ لیف لٹ کا نقشہ استعمال کررہے ہیں تو ڈیفالٹ طول و عرض فراہم کرتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:700
+#, fuzzy
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr ""
+"اگر آپ لیف لٹ کا نقشہ استعمال کررہے ہیں تو ڈیفالٹ طول البلد فراہم کرتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:706
+#, fuzzy
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr "اگر آپ لیف لٹ کا نقشہ استعمال کررہے ہوں تو زوم سطح فراہم کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:711
+#, fuzzy
+msgid "Map ID"
+msgstr "نقشہ شناخت"
+
+#: shortcodes/page-builders/all-setting-fields.php:712
+#, fuzzy
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+"ایک ہی صفحے پر ایک سے زیادہ نقشے کا استعمال کرنے کے لئے خالی جگہوں کے بغیر "
+"کم کراس."
+
+#: shortcodes/page-builders/all-setting-fields.php:717
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "ٹیگ کی طرف سے فلٹر"
+
+#: shortcodes/page-builders/all-setting-fields.php:718
+#, fuzzy
+msgid "Provide single tag on each line to filter."
+msgstr "فلٹر کرنے کے لیے ہر سطر پر واحد ٹیگ مہیا کریں ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:737
+#, fuzzy
+msgid "Map Height"
+msgstr "نقشہ اونچائی"
+
+#: shortcodes/page-builders/all-setting-fields.php:738
+#, fuzzy
+msgid "Provide map height Eg: 550px"
+msgstr "نقشہ کی اونچائی مثال کے طور پر فراہم کرتے ہیں: 550px"
+
+#: shortcodes/page-builders/all-setting-fields.php:744
+#, fuzzy
+msgid "Provide agent id for specific listings"
+msgstr "مخصوص لسٹنگ کے لئے ایجنٹ کی شناخت فراہم"
+
+#: shortcodes/page-builders/all-setting-fields.php:749
+#, fuzzy
+msgid "Loading Heading"
+msgstr "سرخی لوڈ کر رہا ہے"
+
+#: shortcodes/page-builders/all-setting-fields.php:750
+#, fuzzy
+msgid "Provide map loading text heading"
+msgstr "نقشہ متن سرخی لوڈ کرتے ہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:756
+#, fuzzy
+msgid "Loading Description"
+msgstr "تفصیل لوڈ کر رہا ہے"
+
+#: shortcodes/page-builders/all-setting-fields.php:757
+#, fuzzy
+msgid "Provide map loading text description"
+msgstr "نقشہ لوڈ کرنا متن کی وضاحت فراہم"
+
+#: shortcodes/page-builders/all-setting-fields.php:763
+#: shortcodes/page-builders/all-setting-fields.php:841
+#, fuzzy
+msgid "Buttons Background Color"
+msgstr "بٹن پس منظری رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:764
+#, fuzzy
+msgid "Choose background color for map buttons"
+msgstr "نقشہ بٹن کے لئے پس منظر کا رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:765
+#: shortcodes/page-builders/all-setting-fields.php:772
+#: shortcodes/page-builders/all-setting-fields.php:779
+#: shortcodes/page-builders/all-setting-fields.php:786
+#: shortcodes/page-builders/all-setting-fields.php:793
+#, fuzzy
+msgid "Colors"
+msgstr "رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:770
+#: shortcodes/page-builders/all-setting-fields.php:852
+#, fuzzy
+msgid "Buttons Text Color"
+msgstr "بٹن متن رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:771
+#, fuzzy
+msgid "Choose text color for map buttons"
+msgstr "نقشہ بٹن کے لئے ٹیکسٹ رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:777
+#: shortcodes/page-builders/all-setting-fields.php:863
+#, fuzzy
+msgid "Buttons Background Color - Hover"
+msgstr "بٹن پس منظری رنگ-ہوور"
+
+#: shortcodes/page-builders/all-setting-fields.php:778
+#, fuzzy
+msgid "Choose hover background color for map buttons"
+msgstr "نقشہ بٹن کے لئے ہوور پس منظر رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:784
+#: shortcodes/page-builders/all-setting-fields.php:874
+#, fuzzy
+msgid "Buttons Text Color - Hover"
+msgstr "بٹن متن رنگ ہوور"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+#, fuzzy
+msgid "Choose text hover color for map buttons"
+msgstr "نقشہ بٹن کے لئے متن ہوور رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:791
+#, fuzzy
+msgid "Loader Color"
+msgstr "لوڈر رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:792
+#, fuzzy
+msgid "Choose color for maps loader box"
+msgstr "نقشہ لوڈر باکس کے لئے رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:799
+#, fuzzy
+msgid "Water Color"
+msgstr "آبی رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:800
+#, fuzzy
+msgid "Choose water color in map"
+msgstr "نقشہ میں پانی کا رنگ منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:801
+#: shortcodes/page-builders/all-setting-fields.php:808
+#: shortcodes/page-builders/all-setting-fields.php:815
+#: shortcodes/page-builders/all-setting-fields.php:822
+#: shortcodes/page-builders/all-setting-fields.php:829
+#: shortcodes/page-builders/all-setting-fields.php:836
+#, fuzzy
+msgid "Map Colors"
+msgstr "نقشہ رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:806
+#, fuzzy
+msgid "Fill Color"
+msgstr "رنگ بھریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:807
+#, fuzzy
+msgid "Choose natural fill color in map"
+msgstr "نقشہ میں قدرتی بھرے رنگ کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:813
+#, fuzzy
+msgid "Points of Interest Color"
+msgstr "دلچسپی کا رنگ کے مقامات"
+
+#: shortcodes/page-builders/all-setting-fields.php:814
+#, fuzzy
+msgid "Choose poi color in map"
+msgstr "نقشہ میں poi رنگ کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:820
+#, fuzzy
+msgid "Points of Interest Hue Color"
+msgstr "دلچسپی کی رنگت رنگ کے مقامات"
+
+#: shortcodes/page-builders/all-setting-fields.php:821
+#, fuzzy
+msgid "Choose poi hue color in map"
+msgstr "نقشہ میں poi رنگ کا انتخاب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:827
+#, fuzzy
+msgid "Road Lightness"
+msgstr "روڈ دھیماپن"
+
+#: shortcodes/page-builders/all-setting-fields.php:828
+#, fuzzy
+msgid "Choose road lightness in map, Default: 100"
+msgstr "نقشہ میں سڑک دھیماپن کا انتخاب کریں ، پہلے سے طے شدہ: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:834
+#, fuzzy
+msgid "Lines Lightness"
+msgstr "لکیریں دھیماپن"
+
+#: shortcodes/page-builders/all-setting-fields.php:835
+#, fuzzy
+msgid "Choose line lightness in map, Default: 700"
+msgstr "نقشہ میں لائن دھیماپن کا انتخاب کریں ، ڈیفالٹ: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:842
+#, fuzzy
+msgid "Background color for bottom buttons"
+msgstr "پایان بٹن کے لیے پس منظری رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:853
+#, fuzzy
+msgid "Text color for bottom buttons"
+msgstr "پایان بٹن کے لیے متن رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:864
+#, fuzzy
+msgid "Background color for bottom buttons on hover"
+msgstr "ہوور پر پایان بٹن کے لئے پس منظر کا رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:875
+#, fuzzy
+msgid "Text color for bottom buttons on hover"
+msgstr "ہوور پر پایان بٹن کے لیے متن رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:885
+#, fuzzy
+msgid "Buttons Background Color - Active"
+msgstr "بٹن پس منظری رنگ زیر عمل"
+
+#: shortcodes/page-builders/all-setting-fields.php:886
+#, fuzzy
+msgid "Background color for bottom buttons on active"
+msgstr "فعال پر پایان بٹن کے لئے پس منظر کا رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:896
+#, fuzzy
+msgid "Field Name for Icons"
+msgstr "نام قطعہ شبیہ"
+
+#: shortcodes/page-builders/all-setting-fields.php:897
+#, fuzzy
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"کوائف کو فلٹر کرنے کے لیے نام قطعہ مہیا کریں ۔ مثال کے طور پر: property_type"
+
+#: shortcodes/page-builders/all-setting-fields.php:898
+#: shortcodes/page-builders/all-setting-fields.php:905
+#: shortcodes/page-builders/all-setting-fields.php:912
+#: shortcodes/page-builders/all-setting-fields.php:919
+#, fuzzy
+msgid "Custom Icons"
+msgstr "مخصوص شبیہیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:903
+#, fuzzy
+msgid "Icon URLs"
+msgstr "آئکن یو آر ایل"
+
+#: shortcodes/page-builders/all-setting-fields.php:904
+#, fuzzy
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"پائپ کے نشان کے ساتھ میٹا قدر ، جامد اور ہوور آئکن یو آر ایل سیاپراٹید فراہم "
+"کریں. مثال کے طور پر: گھر | some_image. png | some_image_hover ۔ png"
+
+#: shortcodes/page-builders/all-setting-fields.php:910
+#, fuzzy
+msgid "My Location Icon Url"
+msgstr "میرا محل وقوع شبیہ Url"
+
+#: shortcodes/page-builders/all-setting-fields.php:911
+#, fuzzy
+msgid "Provide icon url for my location pin"
+msgstr "میرے محل وقوع pin کے لیے شبیہ url مہیا"
+
+#: shortcodes/page-builders/all-setting-fields.php:917
+#, fuzzy
+msgid "Circle Icon Url"
+msgstr "سرکل شبیہ Url"
+
+#: shortcodes/page-builders/all-setting-fields.php:918
+#, fuzzy
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "کثیر خواص کے لیے شبیہ url مہیا کرتا ہے ۔ سائز 55x55"
+
+#: shortcodes/page-builders/all-setting-fields.php:928
+#, fuzzy
+msgid "Agent IDs"
+msgstr "ایجنٹ IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:929
+#, fuzzy
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "ایک مخصوص لسٹنگ کے لئے ایجنٹوں کی کوما علیحدہ شناخت"
+
+#: shortcodes/page-builders/all-setting-fields.php:935
+#, fuzzy
+msgid "Number of columns in a row"
+msgstr "قطار میں کالموں کی تعداد"
+
+#: shortcodes/page-builders/all-setting-fields.php:958
+#, fuzzy
+msgid "Choose option to sort agents by"
+msgstr "ایجنٹوں کو ترتیب دینے کا اختیار منتخب کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:962
+#, fuzzy
+msgid "Nice Name"
+msgstr "اچھا نام"
+
+#: shortcodes/page-builders/all-setting-fields.php:963
+msgid "Email Address"
+msgstr "ای میل اڈریس"
+
+#: shortcodes/page-builders/all-setting-fields.php:964
+msgid "URL"
+msgstr "یو آر ایل"
+
+#: shortcodes/page-builders/all-setting-fields.php:965
+#, fuzzy
+msgid "Registered"
+msgstr "رجسٹرڈ"
+
+#: shortcodes/page-builders/all-setting-fields.php:966
+#, fuzzy
+msgid "Display Name"
+msgstr "نام دکھائیں"
+
+#: shortcodes/page-builders/all-setting-fields.php:967
+#, fuzzy
+msgid "Properties Count"
+msgstr "پراپرٹیز شمار"
+
+#: shortcodes/page-builders/all-setting-fields.php:968
+#, fuzzy
+msgid "IDs Provided Above"
+msgstr "شناخت اوپر فراہم کی گئی"
+
+#: shortcodes/page-builders/all-setting-fields.php:969
+#, fuzzy
+msgid "Meta Value"
+msgstr "میٹا قیمت"
+
+#: shortcodes/page-builders/all-setting-fields.php:975
+#, fuzzy
+msgid "Custom Meta Key"
+msgstr "مخصوص میٹا کلید"
+
+#: shortcodes/page-builders/all-setting-fields.php:976
+#, fuzzy
+msgid "Provide field name here for specific agent listing."
+msgstr "اختصاصی ایجنٹ فہرست کے لیے یہاں قطعہ نام مہیا کرتا ہے ۔"
+
+#: shortcodes/page-builders/all-setting-fields.php:981
+#, fuzzy
+msgid "Custom Meta Value"
+msgstr "مخصوص میٹا قدر"
+
+#: shortcodes/page-builders/all-setting-fields.php:982
+#, fuzzy
+msgid "Provide field value here for specific agent listing."
+msgstr "مخصوص ایجنٹ کی فہرست کے لئے یہاں فیلڈ کی قیمت فراہم کرو."
+
+#: shortcodes/page-builders/all-setting-fields.php:987
+#, fuzzy
+msgid "Total Agents"
+msgstr "کل ایجنٹس"
+
+#: shortcodes/page-builders/all-setting-fields.php:988
+#, fuzzy
+msgid "Number of agents to display."
+msgstr "ایجنٹوں کی تعداد ظاہر کرنے کے لئے."
+
+#: shortcodes/page-builders/all-setting-fields.php:993
+#, fuzzy
+msgid "Masonry"
+msgstr "ماسونری"
+
+#: shortcodes/page-builders/all-setting-fields.php:994
+#, fuzzy
+msgid "Justified Layout"
+msgstr "جائز لے آؤٹ"
+
+#: shortcodes/page-builders/all-setting-fields.php:996
+#, fuzzy
+msgid "enable"
+msgstr "فعال کریں"
+
+#: shortcodes/page-builders/all-setting-fields.php:997
+#, fuzzy
+msgid "disable"
+msgstr "غیر فعال کریں"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+#, fuzzy
+msgid "List Properties"
+msgstr "خواص فہرست"
+
+#: shortcodes/page-builders/divi-settings.php:86
+#, fuzzy
+msgid "Edit Agent Form"
+msgstr "ایجنٹ فارم میں ترمیم کریں"
+
+#: shortcodes/page-builders/divi-settings.php:105
+#, fuzzy
+msgid "Login Agent Form"
+msgstr "لاگ ان ایجنٹ فارم"
+
+#: shortcodes/page-builders/divi-settings.php:124
+#, fuzzy
+msgid "Create Property Form"
+msgstr "خاصیت فارم بنائیں"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+#, fuzzy
+msgid "List Agents"
+msgstr "ایجنٹوں کی فہرست"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+#, fuzzy
+msgid "Single Property"
+msgstr "واحد پراپرٹی"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+#, fuzzy
+msgid "Agent Profile"
+msgstr "ایجنٹ پروفائل"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+msgid "My Profile"
+msgstr "میرا تعرف"
+
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+msgid "Search Results"
+msgstr "نتائج تلاش کریں"
+
+#: shortcodes/page-builders/divi-settings.php:276
+#, fuzzy
+msgid "Large Map"
+msgstr "بڑا نقشہ"
+
+#: shortcodes/page-builders/divi-settings.php:295
+#, fuzzy
+msgid "Search Property Form"
+msgstr "پراپرٹی فارم تلاش کریں"
+
+#: shortcodes/page-builders/divi-settings.php:324
+#, fuzzy
+msgid "Properties Slider"
+msgstr "خواص سلائیڈر"
+
+#: shortcodes/page-builders/divi-settings.php:343
+#, fuzzy
+msgid "Simple Search Properties"
+msgstr "سادہ تلاش خواص"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+#, fuzzy
+msgid "Manage Properties"
+msgstr "خواص بندوبست کریں"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+#, fuzzy
+msgid "Logout Button"
+msgstr "لاگ آؤٹ بٹن"
+
+#: shortcodes/page-builders/vc-settings.php:8
+#, fuzzy
+msgid "Renders a form to register new agent"
+msgstr "رانڈرس نئے ایجنٹ کو رجسٹر کرنے کے لئے ایک فارم"
+
+#: shortcodes/page-builders/vc-settings.php:12
+#, fuzzy
+msgid "Edit Agent Profile"
+msgstr "ایجنٹ پروفائل میں ترمیم کریں"
+
+#: shortcodes/page-builders/vc-settings.php:16
+#, fuzzy
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "رانڈرس میں لاگ ان کی پروفائل میں ترمیم کرنے کے لئے ایک فارم"
+
+#: shortcodes/page-builders/vc-settings.php:24
+#, fuzzy
+msgid "Renders an AJAX based login form"
+msgstr "رانڈرس ایک ایجیکس کی بنیاد پر لاگ ان فارم"
+
+#: shortcodes/page-builders/vc-settings.php:32
+#, fuzzy
+msgid "Renders a form to create property"
+msgstr "رانڈرس جائیداد بنانے کے لئے ایک فارم"
+
+#: shortcodes/page-builders/vc-settings.php:40
+#, fuzzy
+msgid "Displays list of agents"
+msgstr "ایجنٹوں کی فہرست دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:48
+#, fuzzy
+msgid "Renders a form to edit property"
+msgstr "رانڈرس پراپرٹی میں ترمیم کرنے کے لئے ایک فارم"
+
+#: shortcodes/page-builders/vc-settings.php:56
+#, fuzzy
+msgid "Display a single property"
+msgstr "واحد خاصیت دکھائیں"
+
+#: shortcodes/page-builders/vc-settings.php:64
+#, fuzzy
+msgid "Displays properties according to the settings"
+msgstr "سیٹنگوں کے مطابق خواص دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:72
+#, fuzzy
+msgid "Displays properties of current logged in agent"
+msgstr "حالیہ لاگ ان ایجنٹ کے خواص دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:80
+#, fuzzy
+msgid "Displays profile of specific agent"
+msgstr "مخصوص ایجنٹ کی پروفائل دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:88
+#, fuzzy
+msgid "Displays profile of logged in agent"
+msgstr "ایجنٹ میں لاگ ان کی پروفائل دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:96
+#, fuzzy
+msgid "Displays search results if searched from widget"
+msgstr "تلاش نتائج دکھاتا ہے اگر ویجیٹ سے تلاش"
+
+#: shortcodes/page-builders/vc-settings.php:100
+#, fuzzy
+msgid "Properties Map"
+msgstr "خواص نقشہ"
+
+#: shortcodes/page-builders/vc-settings.php:104
+#, fuzzy
+msgid "Displays properties on a large map"
+msgstr "ایک بڑے نقشے پر خواص دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:112
+#, fuzzy
+msgid "Renders a form to search properties via AJAX"
+msgstr "ایجیکس کے ذریعے پراپرٹیز تلاش کرنے کے لئے ایک فارم رانڈرس"
+
+#: shortcodes/page-builders/vc-settings.php:116
+#, fuzzy
+msgid "Carousel Slider"
+msgstr "کارسیل"
+
+#: shortcodes/page-builders/vc-settings.php:120
+#, fuzzy
+msgid "Renders responsive carousel of properties"
+msgstr "رانڈرس پراپرٹیز کی ذمہ دار کارسیل"
+
+#: shortcodes/page-builders/vc-settings.php:124
+#, fuzzy
+msgid "Inline Search Field"
+msgstr "ان لائن تلاش قطعہ"
+
+#: shortcodes/page-builders/vc-settings.php:128
+#, fuzzy
+msgid "Renders simple search form"
+msgstr "رانڈرس سادہ تلاش فارم"
+
+#: shortcodes/page-builders/vc-settings.php:136
+#, fuzzy
+msgid "Displays a logout button"
+msgstr "ایک لاگ آؤٹ بٹن دکھاتا ہے"
+
+#: shortcodes/page-builders/vc-settings.php:144
+#, fuzzy
+msgid "Manage all properties (for admins)"
+msgstr "تمام خواص بندوبست کریں (برائے منتظمین)"
+
+#: shortcodes/register-agent.php:54
+msgid "Sign up"
+msgstr "سائن اپ کریں"
+
+#: templates/agent/style2.php:40
+#, fuzzy
+msgid "More Info"
+msgstr "مزید معلومات"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Real Estate Manager Pro"
+msgstr "رئیل اسٹیٹ مینیجر پرو"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A complete solution for real estate management"
+msgstr "رئیل اسٹیٹ مینجمنٹ کے لئے ایک مکمل حل"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WebCodingPlace"
+msgstr "ویبکودانگپلاکا"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"

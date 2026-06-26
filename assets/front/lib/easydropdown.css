@@ -1,17 +1,3 @@
-.ich-settings-main-wrap {
-  /* --- EASYDROPDOWN DEFAULT THEME --- */
-  /* PREFIXED CSS */
-  /* WRAPPER */
-  /* CARAT */
-  /* OLD SELECT (HIDDEN) */
-  /* SELECTED FEEDBACK ITEM */
-  /* DROP DOWN WRAPPER */
-  /* Height is adjusted by JS on open */
-  /* FADE OVERLAY FOR SCROLLING LISTS */
-  /* DROP DOWN LIST */
-  /* DROP DOWN LIST ITEMS */
-  /* .focus class is also added on hover */
-}
 .ich-settings-main-wrap .dropdown,
 .ich-settings-main-wrap .dropdown div,
 .ich-settings-main-wrap .dropdown li,
@@ -31,32 +17,30 @@
 .ich-settings-main-wrap .dropdown {
   position: relative;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #EEE;
   cursor: pointer;
   background: #fff;
   height: 36px;
   z-index: 3;
-  box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
-  -webkit-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
-  -moz-box-shadow: 0 0 0 4px rgba(236, 236, 236, 0.3);
-  -webkit-border-radius: 1px;
-  -khtml-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -o-border-radius: 1px;
-  border-radius: 1px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-border-radius: none;
+  -khtml-border-radius: none;
+  -moz-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
 }
 .ich-settings-main-wrap .dropdown:hover {
-  border-color: #CCC;
+  box-shadow: 0 9px 17px 0 rgba(7,152,255,.09);
+  -moz-box-shadow: 0 9px 17px 0 rgba(7,152,255,.09);
+  -webkit-box-shadow: 0 9px 17px 0 rgba(7,152,255,.09);  
 }
 .ich-settings-main-wrap .dropdown.open {
   z-index: 11;
-  border-color: #4fcabc;
-  box-shadow: 0 0 0 4px rgba(79, 236, 188, 0.1);
-  -webkit-box-shadow: 0 0 0 4px rgba(79, 202, 188, 0.1);
-  -moz-box-shadow: 0 0 0 4px rgba(79, 202, 188, 0.1);
 }
 .ich-settings-main-wrap .dropdown .carat {
   border-left: 1px solid #e5e5e5;
@@ -84,7 +68,7 @@
   border-right: 6px solid transparent;
 }
 .ich-settings-main-wrap .dropdown.open .carat:after {
-  border-top-color: #FFF;
+  border-top-color: #FFF !important;
 }
 .ich-settings-main-wrap .dropdown.disabled .carat {
   border-top-color: #999;
@@ -215,3 +199,4 @@
   background: #50c8b4;
   color: #FFF;
 }
+.ich-settings-main-wrap .dropdown .carat { pointer-events: none; }

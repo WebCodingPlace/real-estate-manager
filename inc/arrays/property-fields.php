@@ -1,4 +1,5 @@
 <?php
+    $area_unit = rem_get_option('properties_area_unit', 'Sq Ft');
     $inputFields = array(
         array(
             'key' => 'property_price',
@@ -9,6 +10,16 @@
             'help' => __( 'Regular Price of Property', 'real-estate-manager' ),
             'editable' => false,
             'accessibility' => 'public',
+        ),
+        array(
+            'key' => 'before_price_text',
+            'type' => 'text',
+            'tab' => 'general_settings',
+            'default' => '',
+            'title' => __( 'Before Price', 'real-estate-manager' ),
+            'help' => __( 'Text to display before price, Eg: Starting From', 'real-estate-manager' ),
+            'editable' => false,
+            'accessibility' => 'agent',
         ),
         array(
             'key' => 'after_price_text',
@@ -25,8 +36,8 @@
             'type' => 'text',
             'tab' => 'general_settings',
             'default' => '',
-            'title' => __( 'Sale Price', 'real-estate-manager' ),
-            'help' => __( 'Sale Price of Property', 'real-estate-manager' ),
+            'title' => __( 'Discount Price', 'real-estate-manager' ),
+            'help' => __( 'Provide to set the listing in the discount mode', 'real-estate-manager' ),
             'editable' => false,
             'accessibility' => 'public',
         ),
@@ -52,13 +63,13 @@
         ),
         array(
             'key' => 'property_video',
-            'type' => 'text',
+            'type' => 'video',
             'tab' => 'property_video',
             'default' => '',
             'title' => __( 'Video URL', 'real-estate-manager' ),
             'help' => __( 'Provide video URL', 'real-estate-manager' ),
             'editable' => false,
-            'accessibility' => 'agent',
+            'accessibility' => 'public',
         ),
         array(
             'key' => 'file_attachments',
@@ -66,9 +77,12 @@
             'tab' => 'property_attachments',
             'default' => '',
             'title' => __( 'File Attachments', 'real-estate-manager' ),
-            'help' => __( 'One file ID per line', 'real-estate-manager' ),
+            'help' => __( 'Click on the button to upload and drag to sort', 'real-estate-manager' ),
             'editable' => false,
-            'accessibility' => 'agent',
+            'accessibility' => 'public',
+            'max_files' => '0',
+            'file_type' => '',
+            'max_files_msg' => __( 'Maximum Allowed Files: ', 'real-estate-manager' ),
         ),
 
         array(
@@ -139,34 +153,23 @@
         ),
 
         array(
-            'key' => 'property_address',
-            'type' => 'text',
+            'key' => 'property_country_iso',
+            'type' => 'countries',
             'tab' => 'general_settings',
             'default' => '',
-            'title' => __( 'Address', 'real-estate-manager' ),
-            'help' => __( 'If latitude and longitude fields are blank, this address will be used for rendering map', 'real-estate-manager' ),
+            'title' => __( 'Country', 'real-estate-manager' ),
+            'help' => __( 'Country', 'real-estate-manager' ),
             'editable' => true,
             'accessibility' => 'public',
         ),
 
         array(
-            'key' => 'property_state',
-            'type' => 'text',
+            'key' => 'property_state_iso',
+            'type' => 'states',
             'tab' => 'general_settings',
             'default' => '',
             'title' => __( 'State', 'real-estate-manager' ),
             'help' => __( 'State', 'real-estate-manager' ),
-            'editable' => true,
-            'accessibility' => 'public',
-        ),
-
-        array(
-            'key' => 'property_zipcode',
-            'type' => 'text',
-            'tab' => 'general_settings',
-            'default' => '',
-            'title' => __( 'Zip Code', 'real-estate-manager' ),
-            'help' => __( 'Zipcode', 'real-estate-manager' ),
             'editable' => true,
             'accessibility' => 'public',
         ),
@@ -183,12 +186,23 @@
         ),
 
         array(
-            'key' => 'property_country',
+            'key' => 'property_address',
             'type' => 'text',
             'tab' => 'general_settings',
             'default' => '',
-            'title' => __( 'Country', 'real-estate-manager' ),
-            'help' => __( 'Country', 'real-estate-manager' ),
+            'title' => __( 'Address', 'real-estate-manager' ),
+            'help' => __( 'If latitude and longitude fields are blank, this address will be used for rendering map', 'real-estate-manager' ),
+            'editable' => true,
+            'accessibility' => 'public',
+        ),
+
+        array(
+            'key' => 'property_zipcode',
+            'type' => 'text',
+            'tab' => 'general_settings',
+            'default' => '',
+            'title' => __( 'Zip Code', 'real-estate-manager' ),
+            'help' => __( 'Zipcode', 'real-estate-manager' ),
             'editable' => true,
             'accessibility' => 'public',
         ),
@@ -212,8 +226,8 @@
             'title' => __( 'Featured Property', 'real-estate-manager' ),
             'help' => __( 'Make it featured', 'real-estate-manager' ),
             'options' => array(
-                __( 'No', 'real-estate-manager' ),
-                __( 'Yes', 'real-estate-manager' ),
+                __( 'No', 'real-estate-manager' ) => __( 'No', 'real-estate-manager' ),
+                __( 'Yes', 'real-estate-manager' ) => __( 'Yes', 'real-estate-manager' ),
             ),
             'editable' => false,
             'accessibility' => 'agent',

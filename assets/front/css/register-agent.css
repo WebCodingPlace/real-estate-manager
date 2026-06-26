@@ -44,8 +44,9 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  /* > li */
-  /* &.create */
+}
+#rem-agent-page .profile li:last-child {
+  border-bottom: none;
 }
 #rem-agent-page .profile > li {
   position: relative;
@@ -62,8 +63,8 @@
 #rem-agent-page .profile > li .set-privacy,
 #rem-agent-page .profile > li .icon {
   position: absolute !important;
-  top: 16px;
-  right: 0;
+  top: 22px;
+  right: 15px;
   bottom: auto;
   left: auto;
   z-index: 1;
@@ -84,7 +85,7 @@
 }
 #rem-agent-page .profile > li > span {
   display: inline-block;
-  font-weight: 100;
+  font-weight: 500;
   color: #555 !important;
   font-size: 15px;
   position: absolute !important;
@@ -186,6 +187,9 @@
 #rem-agent-page ul li {
   margin: 0;
 }
+#rem-agent-page .profile li {
+  padding-right: 7px;
+}
 #agent-profile-form {
   padding: 0 !important;
   background-color: transparent !important;
@@ -215,4 +219,14 @@
     padding-left: 0;
   }  
 }
-#agent-profile-form ul li input {width: 100%;}
+#agent-profile-form ul li input, #agent-profile-form ul li select {width: 100%;}
+.agent-dp-prev {
+  max-width: 100px;
+  max-height: 100px;
+  text-align: right;
+  overflow: hidden;
+  float: right;
+}
+.agent-dp-prev img {
+  width: 100%;
+}

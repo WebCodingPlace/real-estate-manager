@@ -10,7 +10,7 @@
             'tab' => 'property_details',
             'default' => '',
             'accessibility' => 'public',
-            'title' => $cb,
+            'title' => rem_wpml_translate($cb, 'real-estate-manager-features'),
             'help' => __( 'Check if property have this option', 'real-estate-manager' ),
         );
         $inputFields[] = $field_option;

@@ -1,4 +1,4 @@
-#maps {
+.rem-maps .map {
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -9,8 +9,8 @@
   -webkit-transition: 0.3s all ease-in-out;
   /* .loading-container */
 }
-#maps .find-result,
-#maps .find-result:after {
+.rem-maps .find-result,
+.rem-maps .find-result:after {
   background-color: rgba(70, 70, 70, 0.8);
   z-index: 10;
   height: 44px;
@@ -20,7 +20,7 @@
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-#maps .find-result {
+.rem-maps .find-result {
   background-color: rgba(24, 139, 126, 0.8);
   color: #ffffff;
   display: block;
@@ -47,19 +47,20 @@
   -moz-opacity: 0;
   -khtml-opacity: 0;
 }
-#maps .find-result.active {
+.rem-maps .find-result.active {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity-ie)";
   opacity: 1;
   -moz-opacity: 1;
   -khtml-opacity: 1;
 }
-#maps .find-result:after {
+.rem-maps .find-result:after {
   background-color: rgba(16, 96, 87, 0.8);
   text-align: center;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   content: "\f002";
   font-size: 20px;
   padding-top: 5px;
+  font-weight: 600;
   width: 44px;
   position: absolute !important;
   top: 0;
@@ -73,11 +74,11 @@
   -o-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
-#maps .map {
+.rem-maps .map {
   width: 100%;
   height: 620px;
 }
-#maps .loading-container {
+.rem-maps .loading-container {
   background-color: rgba(255, 255, 255, 0.85);
   border: 1px solid #E5E5E5;
   display: block;
@@ -96,7 +97,7 @@
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-#maps .loading-container .text {
+.rem-maps .loading-container .text {
   position: absolute !important;
   top: 15px;
   right: auto;
@@ -105,7 +106,7 @@
   z-index: 1;
   font-size: 16px;
 }
-#maps .loading-container .text > span {
+.rem-maps .loading-container .text > span {
   border-bottom: 1px dotted #B5B5B5;
   color: #666;
   display: block;
@@ -113,7 +114,7 @@
   padding-bottom: 3px;
   width: 280px;
 }
-#maps .loading-container .spinner {
+.rem-maps .loading-container .spinner {
   background-color: #1fb7a6;
   height: 50px;
   width: 50px;
@@ -126,22 +127,22 @@
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out;
 }
-#maps .control-left-wrapper,
-#maps .control-right-wrapper {
+.rem-maps .control-left-wrapper,
+.rem-maps .control-right-wrapper {
   cursor: pointer;
   margin: 10px 10px 0 ;
   position: relative;
 }
-#maps .control-left-wrapper .zoom-in,
-#maps .control-right-wrapper .zoom-in,
-#maps .control-left-wrapper .zoom-out,
-#maps .control-right-wrapper .zoom-out,
-#maps .control-left-wrapper .set-position,
-#maps .control-right-wrapper .set-position,
-#maps .control-left-wrapper .next-ads,
-#maps .control-right-wrapper .next-ads,
-#maps .control-left-wrapper .prev-ads,
-#maps .control-right-wrapper .prev-ads {
+.rem-maps .control-left-wrapper .zoom-in,
+.rem-maps .control-right-wrapper .zoom-in,
+.rem-maps .control-left-wrapper .zoom-out,
+.rem-maps .control-right-wrapper .zoom-out,
+.rem-maps .control-left-wrapper .set-position,
+.rem-maps .control-right-wrapper .set-position,
+.rem-maps .control-left-wrapper .next-ads,
+.rem-maps .control-right-wrapper .next-ads,
+.rem-maps .control-left-wrapper .prev-ads,
+.rem-maps .control-right-wrapper .prev-ads {
   height: 46px;
   width: 42px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity-ie)";
@@ -154,51 +155,51 @@
   transition: 0.3s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
 }
-#maps .control-left-wrapper .zoom-in:hover,
-#maps .control-right-wrapper .zoom-in:hover,
-#maps .control-left-wrapper .zoom-out:hover,
-#maps .control-right-wrapper .zoom-out:hover,
-#maps .control-left-wrapper .set-position:hover,
-#maps .control-right-wrapper .set-position:hover,
-#maps .control-left-wrapper .next-ads:hover,
-#maps .control-right-wrapper .next-ads:hover,
-#maps .control-left-wrapper .prev-ads:hover,
-#maps .control-right-wrapper .prev-ads:hover {
+.rem-maps .control-left-wrapper .zoom-in:hover,
+.rem-maps .control-right-wrapper .zoom-in:hover,
+.rem-maps .control-left-wrapper .zoom-out:hover,
+.rem-maps .control-right-wrapper .zoom-out:hover,
+.rem-maps .control-left-wrapper .set-position:hover,
+.rem-maps .control-right-wrapper .set-position:hover,
+.rem-maps .control-left-wrapper .next-ads:hover,
+.rem-maps .control-right-wrapper .next-ads:hover,
+.rem-maps .control-left-wrapper .prev-ads:hover,
+.rem-maps .control-right-wrapper .prev-ads:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity-ie)";
   opacity: 1;
   -moz-opacity: 1;
   -khtml-opacity: 1;
 }
-#maps .control-left-wrapper .zoom-in:after,
-#maps .control-right-wrapper .zoom-in:after {
+.rem-maps .control-left-wrapper .zoom-in:after,
+.rem-maps .control-right-wrapper .zoom-in:after {
   content: '\f067';
 }
-#maps .control-left-wrapper .zoom-out:after,
-#maps .control-right-wrapper .zoom-out:after {
+.rem-maps .control-left-wrapper .zoom-out:after,
+.rem-maps .control-right-wrapper .zoom-out:after {
   content: '\f068';
   margin-top: 3px;
 }
-#maps .control-left-wrapper .set-position:after,
-#maps .control-right-wrapper .set-position:after {
+.rem-maps .control-left-wrapper .set-position:after,
+.rem-maps .control-right-wrapper .set-position:after {
   content: '\f124';
   margin-top: 3px;
 }
-#maps .control-left-wrapper .next-ads:after,
-#maps .control-right-wrapper .next-ads:after {
+.rem-maps .control-left-wrapper .next-ads:after,
+.rem-maps .control-right-wrapper .next-ads:after {
   content: '\f053';
   margin-top: 3px;
   float: left;
 }
-#maps .control-left-wrapper .prev-ads:after,
-#maps .control-right-wrapper .prev-ads:after {
+.rem-maps .control-left-wrapper .prev-ads:after,
+.rem-maps .control-right-wrapper .prev-ads:after {
   content: '\f054';
   margin-top: 3px;
   float: left;
 }
-#maps .control-left-wrapper div:after,
-#maps .control-right-wrapper div:after {
+.rem-maps .control-left-wrapper div:after,
+.rem-maps .control-right-wrapper div:after {
   padding: 0;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Free';
   display: block;
   width: 42px;
   height: 42px;
@@ -208,8 +209,9 @@
   bottom: 0;
   left: 0;
   color: #ffffff;
+  font-weight: 900;
 }
-/* #maps */
+/* .rem-maps */
 @-webkit-keyframes rotateplane {
   0% {
     -webkit-transform: perspective(120px);
@@ -256,6 +258,7 @@
   -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
   /* .img-container */
 }
 .rem-box-maps .img-container {
@@ -304,7 +307,7 @@
 }
 .rem-box-maps .img-container .title:after,
 .rem-box-maps .img-container .title:before {
-  font-family: 'FontAwesome';
+  font-family: "Font Awesome 5 Free";
   background-color: #188b7e;
   line-height: 1.15;
   text-align: center;
@@ -316,15 +319,16 @@
   z-index: 1;
 }
 .rem-box-maps .img-container .title:after {
-  content: '\f041';
+  content: "\f3c5";
   font-size: 20px;
   padding-top: 8px;
   left: 0;
   width: 30px;
-  font-weight: 100;
+  font-weight: 600;
 }
 .rem-box-maps .img-container .title:before {
   content: '\f105';
+  font-weight: 600;
   font-size: 32px;
   right: 0;
   width: 22px;
@@ -383,7 +387,7 @@
   -khtml-opacity: 0;
 }
 .rem-box-maps:hover .price {
-  top: 220px;
+  top: 160px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@opacity-ie)";
   opacity: 1;
   -moz-opacity: 1;
@@ -449,10 +453,35 @@
   -moz-opacity: 0.5;
   -khtml-opacity: 0.5;
 }
-.type-filtering button:focus {
-  outline: none !important;
-  border: none !important;
+.rem-maps {
+  position: relative;
 }
 .rem-box-maps .inline-property-icons {
   text-align: center;
+}
+.leaflet-popup-content .rem-box-maps {
+    overflow: hidden;
+}
+.ich-settings-main-wrap .marker-cluster-small div {
+  background-color: #FFF;
+}
+.rem-filters-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #eee;
+  padding: 5px  
+}
+.rem-filters-overlay label {
+  cursor: pointer;
+  display: block;
+}
+.rem-box-maps .rem-wishlist-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99999;
+}
+.map-agents-list .rem-box-maps .img-container:after {
+  display: none !important;
 }

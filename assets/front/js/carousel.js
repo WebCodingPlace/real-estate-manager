@@ -29,6 +29,10 @@ jQuery(document).ready(function($) {
 		      }
 		    }]			
 		};
+		if ($('body').hasClass('rtl')) {
+			slick_ob.rtl = true;	
+		}
+		
 		$(this).slick(slick_ob);
 	});
 

@@ -3,81 +3,147 @@ Contributors: Rameez_Iqbal
 Tags: real estate, property, listings,  wp property, realty, real estate manager, properties, listing, wpml, property management system, wordpress real estate, real estate CMS, wp real estate, wp agent, German, Spanish, Russian, Arabic, Czech, Persian, Greek, Danish
 Donate link: https://www.paypal.me/webcodingplace
 Requires at least: 3.5
-Requires PHP: 5.3
-Tested up to: 4.9
-Stable tag: 6.0
+Tested up to: 6.5
+Stable tag: 7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Full Featured Properties Listing Plugin for Real Estate website with Agent Management System. Responsive Properties Grid and Carousels are included.
+A comprehensive WordPress plugin designed to create feature-rich real estate websites and portals including Agent Management System.
 
-### Description
+== Description ==
+Real Estate Manager is a comprehensive WordPress plugin designed to create feature-rich real estate websites and portals. With its responsive design and clean property templates, Real Estate Manager offers a seamless integration of advanced features to enhance your real estate listings.
 
-**Real Estate Manager** is a responsive property listing WordPress plugin for full feature real estate website and portal. It has nice & clean designs for property templates and it adds special integration features like Property Types, Property Video, Gallery Slider, Advanced AJAX Search, Google Maps and Leaflet Maps with property location markers, Map Clusters,  Grid listings, Front End Property submission, Search Widget, Mortgage Calculator, easy to use settings and much more...
 
-- [Live Demo](http://rem.webcodingplace.com/)
-- [Basic Setup - Video](https://youtu.be/vsiqcN4sPOw)
-- [Register Agent - Video](https://www.youtube.com/watch?v=7wP2W1DZYEU)
-- [Documentation](https://webcodingplace.com/real-estate-manager-documentation/)
-- [How it Works](http://rem.webcodingplace.com/how-it-works/)
-- [WPML Compatible](https://wpml.org/plugin/properties-and-agents-real-estate-manager/)
-- [Feature Request / Help](https://webcodingplace.com/contact-us/)
-- [Source code on GitHub](https://github.com/WebCodingPlace/real-estate-manager)
+<ul>
+	<li><a href="https://wp-rem.com">Live Demos</a></li>
+	<li><a href="https://wp-rem.com/online-documentation/">Documentation</a></li>
+	<li><a href="https://wp-rem.com/online-documentation/category/shortcodes/">Shortcodes</a></li>
+	<li><a href="https://wpml.org/plugin/real-estate-manager-pro/">WPML Recommendation</a></li>
+	<li><a href="https://webcodingplace.com/contact-us/">Feature Request / Help</a></li>
+</ul>
 
-### Features
+<h3>Key Features:</h3>
+<ul>
+    <li><strong>Property Types:</strong> Categorize properties based on their types for easy navigation.</li>
+    <li><strong>Property Video:</strong> Showcase properties with engaging video content.</li>
+    <li><strong>Gallery Images:</strong> Display property images in an interactive slider, thumbnail slider or justified grid (like Google Images).</li>
+    <li><strong>Advanced AJAX Search:</strong> Enhance user experience with a fast and dynamic search functionality including advanced queries.</li>
+    <li><strong>Google Maps and Leaflet Maps:</strong> Integrate Google Maps or Leaflet Maps to display property locations with markers and clusters.</li>
+    <li><strong>Grid Listings:</strong> Display properties in a grid layout for a visually appealing presentation in more than 5 different styles.</li>
+    <li><strong>Frontend Management:</strong> Allow users to submit properties directly from the frontend and manage them.</li>
+    <li><strong>Agent Management System:</strong> Ability to create custom data fields for agents and option to display them on their profile as well.</li>
+    <li><strong>Responsive Properties Grid and Carousels:</strong> Ensure your property listings look great on all devices.</li>
+</ul>
 
-- **5+ Listing Styles:** Real Estate Manager comes with 5+ property listing styles including list and grid views.
-- **Responsive View:** Its fully responsive with all modern browsers and devices.
-- **Properties Map:** Display multiple properties on single large map with their locations.
-- **Nearby Properties:** Automatically display properties which are close to the visitor's location.
-- **Filter properties:**  Let the visitors to filter properties based on property types right from the map.
-- **Property Carousels:**  Integrated touch enabled carousel sliders for property listings.
-- **Unlimited Features:**  Add unlimited property features and options.
-- **Property Gallery:**  Lets you to add unlimited gallery photos for each property, that will display on single property page in touch friendly slider.
-- **Property CPT:**  Custom Post Type is used for managing properties with responsive frontend template. You can also customize property slug and template files by including them in your theme.
-- **WPML:**  Its compatible with WPML to let you create multi language real estate site.
-- **Visual Composer:**  15+ Visual Composer elements are added to easily insert and manage shortcodes.
-- **Optimized Code:**  Based on WP Codex Standards, only relevant scripts and styles loads to give you fast experience and avoiding conflicts.
-- **Email Alerts:**  Email alerts for property inquiry and on agent registration with customize email messages.
-- **Drag Drop Fields:**  Create custom property fields using drag drop fields builder.
-- **Price Range Slider:**  Let the users to choose range of their budget while searching properties using price range slider.
-- **Fast AJAX Search:**  AJAX based fast search for listings with advanced search queries.
-- **Agent Profile:**  Agent profile management with their social links and other settings that can be managed from profile settings.
-- **Widgets Included:**  Search Widget and Mortgage Calculator Widgets are available to add to the widget areas.
-- **Frontend Property Submission:**  Create properties from frontend without even going to WordPress dashboard by using just one shortcode.
-- **Frontend Agent Registration:**  Register agents using builtin register form, they should be approved after registration by site administrator.
-- **Agent Login:**  AJAX based login and custom redirection after successful login.
-- **My Properties:**  Display a list of current logged in agent's properties with actions to delete or edit them using just a single shortcode.
-- **Frontend Profile Editing:**  Let the registered agents to edit their profile from frontend.
-- **Developers Friendly:**  Real Estate Manager is based on actions and filter to let the developers easily modify or add new functionalities.
-- **Property Video:**  Separate section to display video of internal structure of properties with responsive video player.
-- **File Attachments:**  Easily attach all type of files with properties like floor plans, wire frames or documents.
-- **Translation Ready:**  You can easily change the English strings into your own language using any translation plugin, like Loco Translate. More than 15 languages are already translated in this plugin and POT file is also included to add your own language.
-- **Custom Map Icons:**  You can replace default map icons with your own images easily from settings by uploading them.
-- **Customize Colors:**  You can customize the color scheme based on your theme, you can choose colors from settings for each element individually.
-- **Custom Currency and Area Unit:**  Easily change currency by just selecting your country.
-- **Custom Labels:**  You can change all labels and headings into your own text easily.
-- **Map Types:**  You can choose map style from four styles. Road Map, Earth, Hybrid or Tarrain.
-- **Map Zoom Level:**  Customize map zoom level and default latitude and longitude easily.
-- **Disable Scripts:**  You can disable bootstrap and font awesome css to load from plugin if your theme is already loading them.
+<h3>Additional Features:</h3>
+<ul>
+    <li><strong>WooCommerce Compatibility:</strong> Manage paid subscriptions using the Woo Estato Addon.</li>
+    <li><strong>Nearby Properties:</strong> Automatically display properties close to the visitor's location.</li>
+    <li><strong>Filter Properties:</strong> Let visitors filter properties based on property types directly from the map.</li>
+    <li><strong>Unlimited Features:</strong> Add unlimited property features and options.</li>
+ 	<li><strong>Property Carousels:</strong> Integrated touch enabled carousel sliders for property listings.</li>
+ 	<li><strong>Unlimited Features:</strong> Add unlimited property features and options.</li>
+ 	<li><strong>Property Gallery:</strong> Lets you to add unlimited gallery photos for each property, that will display on single property page in touch friendly slider.</li>
+ 	<li><strong>Property CPT:</strong> Custom Post Type is used for managing properties with responsive frontend template. You can also customize property slug and template files by including them in your theme.</li>
+ 	<li><strong>WPML:</strong> Its compatible with WPML to let you create multi language real estate site.</li>
+ 	<li><strong>WPBakery Page Builder:</strong> 15+ Visual Composer elements are added to easily insert and manage shortcodes.</li>
+  <li><strong>Divi Modules:</strong> 15+ Divi Modules are available to easily use components in the pages.</li>
+  <li><strong>Divi Builder:</strong> Create custom listing design using Divi Builder.</li>
+ 	<li><strong>Elementor:</strong> Create Custom listing design using Elementor Theme Builder.</li>
+ 	<li><strong>Optimized Code:</strong> Based on WP Codex Standards, only relevant scripts and styles loads to give you fast experience and avoiding conflicts.</li>
+ 	<li><strong>Email Alerts:</strong> Email alerts for property inquiry and on agent registration with customize email messages.</li>
+ 	<li><strong>Drag Drop Fields:</strong> Create custom property fields using drag drop fields builder.</li>
+ 	<li><strong>Price Range Slider:</strong> Let the users to choose range of their budget while searching properties using price range slider.</li>
+ 	<li><strong>Fast AJAX Search:</strong> AJAX based fast search for listings with advanced search queries.</li>
+ 	<li><strong>Agent Profile:</strong> Agent profile management with their social links and other settings that can be managed from profile settings.</li>
+ 	<li><strong>Widgets Included:</strong> Search Widget, Tags Cloud and Mortgage Calculator Widgets are available to add to the widget areas.</li>
+ 	<li><strong>Frontend Property Submission:</strong> Create properties from frontend without even going to WordPress dashboard by using just one shortcode.</li>
+ 	<li><strong>Frontend Agent Registration:</strong> Register agents using builtin register form with the ability to be approved by site administrator.</li>
+ 	<li><strong>Agent Login:</strong> AJAX based login with captcha verification and custom redirection after successful login.</li>
+ 	<li><strong>My Properties:</strong> Display a list of current logged in agent's properties with actions to delete or edit them using just a single shortcode.</li>
+ 	<li><strong>Frontend Profile Editing:</strong> Let the registered agents to edit their profile from frontend.</li>
+ 	<li><strong>Developers Friendly:</strong> Real Estate Manager is based on actions and filter to let the developers easily modify or add new functionalities.</li>
+ 	<li><strong>Property Video:</strong> Separate section to display video of internal structure of properties with responsive video player.</li>
+ 	<li><strong>File Attachments:</strong> Easily attach all type of files with properties like floor plans, wire frames or documents.</li>
+ 	<li><strong>Translation Ready:</strong> You can easily change the English strings into your own language using any translation plugin, like Loco Translate. More than 15 languages are already translated in this plugin and POT file is also included to add your own language.</li>
+ 	<li><strong>Custom Map Icons:</strong> You can replace default map icons with your own images easily from settings by uploading them.</li>
+ 	<li><strong>Customize Colors:</strong> You can customize the color scheme based on your theme, you can choose colors from settings for each element individually.</li>
+ 	<li><strong>Custom Currency and Area Unit:</strong> Easily change currency by just selecting your country.</li>
+ 	<li><strong>Custom Labels:</strong> You can change all labels and headings into your own text easily.</li>
+ 	<li><strong>Map Types:</strong> You can choose map style from four styles. Road Map, Earth, Hybrid or Tarrain.</li>
+ 	<li><strong>Map Zoom Level:</strong> Customize map zoom level and default latitude and longitude easily.</li>
+ 	<li><strong>Disable Scripts:</strong> You can disable bootstrap and font awesome css to load from plugin if your theme is already loading them.</li>
+</ul>
 
-### Translations
 
-- English
-- German
-- Spanish
-- Russian
-- Arabic
-- Czech
-- Danish
-- Greek
-- Persian
-- Portuguese
-- Serbian
-- Chinese
-- Norwegian
-- Hebrew
-- Please contact support@webcodingplace.com to request your language.
+<h3>Addons</h3>
+<ul>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-xml-csv-importer/">REM - XML, CSV Importer:</a></strong>
+      Import or sync listings from files (XML, CSV) or external APIs.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-conditional-fields/">REM - Conditional Fields:</a></strong>
+      Dependable listing fields on search forms and creation/updation.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-conditional-fields/">REM - Currency Switcher:</a></strong>
+      Live currency converion for prices of listings.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-saved-searches-and-notify/">REM - Saved Searches and Notify:</a></strong>
+      Save the search criteria and notify when a matching listing is available.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-wish-list/">REM - Wishlist</a></strong>
+      Add listing to favourites and bulk contact their agents.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-export-and-import/">REM - Export Import</a></strong>
+      Export and Import the plugin settings.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-property-listing-styles/">REM - Property Listing Styles</a></strong>
+      Additional listing styles for property archives.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-social-share/">REM - Social Share</a></strong>
+      Social Share buttons for listings and print PDFs.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-google-map-filters/">REM - Google Map Filters</a></strong>
+      Search and filter listings directly on the map.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-filterable-grid/">REM - Filterable Properties Grid</a></strong>
+      Display listings in a filterable justified grid.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-woo-estato/">REM - Woo Estato</a></strong>
+      Paid subscriptions for listing submissions.
+   </li>
+</ul>
+
+
+<h3>Translations</h3>
+<ul>
+	<li>English</li>
+	<li>German</li>
+	<li>Spanish</li>
+	<li>Russian</li>
+	<li>Arabic</li>
+	<li>Czech</li>
+	<li>Danish</li>
+	<li>Greek</li>
+	<li>Persian</li>
+	<li>Portuguese</li>
+	<li>Greek</li>
+	<li>Serbian</li>
+	<li>Chinese</li>
+	<li>Norway</li>
+	<li>Israel</li>
+	<li>Please contact support@webcodingplace.com to request your language.</li>
+</ul>
 
 
 == Installation ==
@@ -99,6 +165,113 @@ A Full Featured Properties Listing Plugin for Real Estate website with Agent Man
 10. Easy to use Settings
 
 == Changelog ==
+
+= 7.3 - May, 30 2024 =
+* Bug Fixed: Map Box price is not appearing
+* Bug Fixed: Map CSS is displaying above the shortcode
+
+= 7.2 - April, 4 2024 =
+* Bug Fixed: WP Sanitizations and Escape
+
+= 6.7.1 - April, 7 2019 =
+* Bug Fixed: Property contents breaking when saving from frontend
+
+= 6.7 - April, 6 2019 =
+* Feature Added: scroll_results attribute for [rem_search_property] to disable auto scroll
+* Feature Added: A new filter added for price formatting rem_display_property_price
+* Feature Added: A new filter added for email headers rem_email_headers
+* Bug Fixed: Map box not displaying data when nearest properties enabled
+* Bug Fixed: Post status issue when approved by admin is selected
+
+= 6.6 - March, 28 2019 =
+* 1 New Addon: Custom Colors is released
+* Feature Added: Divi Modules Added
+* Feature Added: WPBakery Page Buider Addons updated
+* Feature Added: Override shortcode templates from theme (putting them in theme's root inside rem directory)
+* Feature Added: Total number of Agents in rem_list_agents
+* Feature Added: Option for agents to search their properties on my properties page
+* Feature Added: Agents can change the property status from frontend (Publish or Draft)
+* Feature Added: GDPR checkbox added in the contact form with custom text
+* Feature Added: POT is updated and language files including in the plugin are also updated
+* Bug Fixed: Max container width not applying is fixed
+* Bug Fixed: Login redirect 404 issue
+* Bug Fixed: Delete media button not appearing for agents
+* Many other fixes and enhancements.
+
+= 6.5 - February, 18 2019 =
+* 2 New Addons: Woo Estato and Conditional Fields are released
+* Feature Added: Compatible with Conditional fields and Woo Estato
+* Feature Added: First image will be featured image when editing/creating properties from frontend
+* Bug Fixed: Font Awesome icons not working for some themes
+* Bug Fixed: Edit Agent profile not updating from frontend
+* Bug Fixed: Edit property page bug fixed L.Control.geocoder is not a function
+* Bug Fixed: Agent contact form not working
+
+= 6.4 - January, 29 2019 =
+* Feature Added: 2 Ribbon styles to choose from settings
+* Feature Added: Geolocation service for the map to automatically get a location from address, on the large map
+* Feature Added: Single Property Page ribbons added
+* Feature Added: Help text added in create property form from frontend
+* Feature Added: Admin can manage properties from frontend using shortcode [rem_manage_properties]
+* Feature Added: Disable map on single property page
+* Feature Added: Blocks added for Gutenberg (Login, Register and Simple Search) more are coming...
+* Feature Added: Email address also added in Email Format options (Agent Contact Form)
+* Feature Added: While searching, leaving min or max price fields blank will take minimum and maximum respectively
+* Feature Added: Fields that have area word in data name will display area unit with value automatically
+* Feature Added: Fields that have price word in data name will display price unit with value automatically
+* Feature Added: Hooks added in create and edit property forms for checkbox validations
+* Feature Added: Property thumbnails are now clickable
+* Feature Added: Auto Approve agents is added, go to Settings -> Advanced Settings to configure
+* Feature Added: Display agents random by using orderby="rand" in the shortcode
+* Feature Added: Property ID is added on singly property page, you can also disable it from settings
+* Feature Added: All dropdown fields have first value empty to disable them
+* Feature Added: Date field format option is added under Single Property Page settings
+* Feature Added: Image Optimization, Now you can choose which sizes of images to use when displaying listings
+* Feature Added: Display properties based on Features attached, using shortcode attribute features. Eg: features="attic,balcony"
+* Bug Fixed: Polylang not working for Custom Features
+* Bug Fixed: Search form advanced features not displaying correctly
+* Bug Fixed: Google Map fa icons not displaying
+* Bug Fixed: Map not working on single property using shortcode [rem_property]
+* Bug Fixed: My properties page, properties are not editing/deleting
+* Bug Fixed: Deny agent email is not working
+* Bug Fixed: Property ID in email, fixed
+* Bug Fixed: $valid_tabs is not defined
+* Bug Fixed: Create property page, several bugs fixed for IE8 to IE 11
+
+= 6.3 - December, 4 2018 =
+* Feature Added: Wishlist addon released
+* Feature Added: Agent Contact Custom settings for email markup and subject
+* Bug Fixed: Agents unable to upload images
+* Bug Fixed: Google Map fa icons not displaying
+* Bug Fixed: Settings tabs not working for other languages
+* Bug Fixed: Pagination conflict with some themes
+* Bug Fixed: Some icons enhanced
+
+= 6.2.2 - October, 22 2018 =
+* Feature Added: Compatible and tested with WordPress 5.0-alpha-43776
+* Feature Added: Support added for Polylang
+* Feature Added: I18n Ribbons
+* Feature Added: Hide passwords in admin as per GDPR 
+* Feature Added: Extensions reference added
+* Feature Added: Not Available properties will not display publicly
+* Bug Fixed: Create property frontend image upload error with jQuery latest version
+* Bug Fixed: WPML translation issues for property features
+* Bug Fixed: Tabs with empty fields will not display on frontend
+* Many other small fixes and enhancements
+
+= 6.2.1 - September, 25 2018 =
+* Bug Fixed: Emails are not working
+
+= 6.2 - August, 16 2018 =
+* Bug Fixed: Property Submit for Review Issue
+* Bug Fixed: Images not displaying properly on listings
+* Bug Fixed: Screen options not working on property admin page
+* Bug Fixed: Settings tabs not opening for some languages
+* Bug Fixed: Top Bar not saving in WP Bakery Page Builder
+* Bug Fixed: XSS Security issues resolved
+
+= 6.1 - July, 11 2018 =
+* Bug Fixed: Disabled porperty types areas
 
 = 6.0 - July, 8 2018 =
 * Feature Added: Leaflet with OpenStreetMap Integrated (as Google Maps is no longer free)

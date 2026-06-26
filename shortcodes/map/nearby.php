@@ -1,4 +1,10 @@
 <?php
+
+// CFD Note: Nearby Properties is exclusive to Google Maps, so 'map_id' will never be 'Leaflet'.
+// Override internal $map_id with what might be in the $attrs, defaulting to map-canvas
+$mapID = isset( $attrs['map_id'] ) ? $attrs['map_id'] : 'map-canvas' ;
+$mapID = str_replace("-", "_", $map_id); // CFD Note: Preventing invalid IDs
+
 $current_latitude = $_GET['lat'];
 $current_longitude = $_GET['long'];
 $p_l_arr = array();
@@ -87,92 +93,86 @@ $mapsData = array(
 	'poi_color_hue' => $poi_color_hue,
 	'roads_lightness' => $roads_lightness,
 	'lines_lightness' => $lines_lightness,
+	'zoom_level' => rem_get_option('maps_zoom_level', '15'),
+	'def_lat' => rem_get_option('default_map_lat', '-33.890542'),
+    'def_long' => rem_get_option('default_map_long', '151.274856'),
 	'my_location_icon' => $my_location_icon,
-	'circle_icon' => $circle_icon,
 	'maps_styles' => stripcslashes(rem_get_option('maps_styles')),
 	'found_text' => __( 'Found', 'real-estate-manager' ),
 );
-wp_localize_script( 'rem-home-maps', 'mapsData', $mapsData );
-wp_localize_script( 'rem-markerclusterer', 'mapsData', $mapsData );
- 
-?>
-<style>
-	#maps {
-		height: <?php echo $map_height; ?> !important;
+
+if ($def_lat != '') {
+	$mapsData['def_lat'] = $def_lat;
+}
+if ($def_long != '') {
+	$mapsData['def_long'] = $def_long;
+}
+if ($map_zoom != '') {
+	$mapsData['zoom_level'] = $map_zoom;
+}
+$markerClusterData = array(
+	'theme_path' => REM_URL.'/assets/',
+	'circle_icon' => $circle_icon,
+);
+wp_localize_script( 'rem-home-maps', 'mapsData_'.$mapID, $mapsData );
+wp_localize_script( 'rem-markerclusterer', 'markerClusterData', $markerClusterData );
+
+$mapStyle = "<style>
+	#{$mapID}.rem-maps .map {
+		height: {$map_height};
 	}
-	#maps .find-result, #maps .find-result:after {
-		background-color: <?php echo $btn_bg_color; ?> !important;
-		color: <?php echo $btn_text_color; ?> !important;
+	#{$mapID}.rem-maps .find-result, #{$mapID}.rem-maps .find-result:after {
+		background-color: {$btn_bg_color} !important;
+		color: {$btn_text_color} !important;
 	}
-	#maps .control-left-wrapper div:after, #maps .control-right-wrapper div:after {
-		background-color: <?php echo $btn_bg_color; ?>;
+	#{$mapID}.rem-maps .control-left-wrapper div:after, #{$mapID}.rem-maps .control-right-wrapper div:after {
+		background-color: {$btn_bg_color};
 		border: none;
-		color: <?php echo $btn_text_color; ?>;
+		color: {$btn_text_color};
 		border-radius: 0;
-		padding-top: 10px;
 		font-size: 20px;
 	}
-	#maps .find-result, #maps .find-result:after, .ads-type a.item-type {
-		background-color: <?php echo $btn_bg_color; ?>;
-		color: <?php echo $btn_text_color; ?>;
+	#{$mapID}.rem-maps .find-result, #{$mapID}.rem-maps .find-result:after, #{$mapID} .ads-type a.item-type {
+		background-color: {$btn_bg_color};
+		color: {$btn_text_color};
 	}
-	#maps .control-left-wrapper div:hover:after,
-	#maps .control-right-wrapper div:hover:after,
-	.ads-type a.item-type.item-selected,
-	.ads-type a.item-type:hover {
-		background-color: <?php echo $btn_bg_color_hover; ?>;
-		color: <?php echo $btn_text_color_hover; ?>;
+	#{$mapID}.rem-maps .control-left-wrapper div:hover:after,
+	#{$mapID}.rem-maps .control-right-wrapper div:hover:after,
+	#{$mapID} .ads-type a.item-type.item-selected,
+	#{$mapID} .ads-type a.item-type:hover {
+		background-color: {$btn_bg_color_hover};
+		color: {$btn_text_color_hover};
 	}
-	.ads-type {
-		background-color: <?php echo $type_bar_bg_color; ?>;
+	#{$mapID} .ads-type {
+		background-color: {$type_bar_bg_color};
 	}
-	#maps .loading-container .spinner {
-		background-color: <?php echo $loader_color; ?> !important;
+	#{$mapID}.rem-maps .loading-container .spinner {
+		background-color: {$loader_color} !important;
 	}
-	.type-filtering .btn {
-		background-color: <?php echo $bottom_btn_bg_color; ?> !important;
-		color: <?php echo $bottom_btn_text_color; ?> !important;
-	}
-	.type-filtering .btn:hover {
-		background-color: <?php echo $bottom_btn_bg_color_hover; ?> !important;
-		color: <?php echo $bottom_btn_text_color_hover; ?> !important;
-	}
-	.type-filtering .btn.active {
-		background-color: <?php echo $bottom_btn_bg_color_active; ?> !important;
-	}
-</style>
+	#{$map_id}.rem-maps .rem-filters-overlay {
+		background-color: {$filter_bg};
+	}	
+</style>";
+ 
+echo $mapStyle;
+?>
 <div class="ich-settings-main-wrap">
-	<section id="maps">
+	<section id="<?php echo esc_attr($mapID); ?>" class="rem-maps">
 		<div class="loading-container">
 			<div class="spinner"></div>
 			<div class="text">
-				<span><?php echo $load_heading; ?></span>
-				<?php echo $load_desc; ?>
+				<span><?php echo esc_attr($load_heading); ?></span>
+				<?php echo esc_attr($load_desc); ?>
 			</div>
 		</div>
 		<div class="find-result"></div>
-		<div class="map map-home" id="map-canvas"></div>
-	</section>
-	<?php if ($type_filtering == 'enable') { 
-		global $rem_ob;
-		if ($filter_by_key == 'property_type') {
-			$all_types = $rem_ob->get_all_property_types();
-		} elseif ($filter_by_key == 'property_purpose') {
-			$all_types = $rem_ob->get_all_property_purpose();
-		} elseif ($filter_by_key == 'property_status') {
-			$all_types = $rem_ob->get_all_property_status();
-		} else {
-			$all_types = explode(",", $filter_options);
-		}
-	?>
-	<div class="type-filtering">
-		<div class="btn-group btn-group-justified" role="group">
-			<?php foreach ($all_types as $p_type) { ?>
-			<div class="btn-group" role="group">
-				<button type="button" class="item-type btn btn-default" data-type="<?php echo $p_type; ?>"><?php echo $p_type; ?></button>
+		<div class="map map-home"></div>
+		<?php if ($type_filtering == 'enable') { $all_types = explode(",", $filter_options); ?>
+			<div class="rem-filters-overlay" id="filtering-<?php echo esc_attr($map_id); ?>">
+				<?php foreach ($all_types as $p_type) { ?>
+					<label><input type="checkbox" name="filter_by" value="<?php echo esc_attr($p_type); ?>" data-type="<?php echo esc_attr($p_type); ?>"> <?php echo esc_attr($p_type); ?> </label>
+				<?php } ?>
 			</div>
-			<?php } ?>
-		</div>	
-	</div>
-	<?php } ?>
+		<?php } ?>		
+	</section>
 </div>

@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 		var login_wrap = jQuery('.login-alert');
 		login_wrap.removeClass('alert-danger').addClass('alert-info');
 		login_wrap.find('.icon').removeClass('fa-exclamation-triangle').addClass('fa-info');
-		login_wrap.find('.login-status').text('Logging In, Please Wait...');
+		login_wrap.find('.login-status').text(rem_login_data.wait_msg);
 		var login_wrap = jQuery('.login-alert').show();
 
 		var loginData = $(this).serialize();
@@ -19,11 +19,11 @@ jQuery(document).ready(function($) {
 			if (resp.status == 'success') {
 				login_wrap.removeClass('alert-info alert-danger').addClass('alert-success');
 				login_wrap.find('.icon').removeClass('fa-info fa-exclamation-triangle').addClass('fa-check');
-				login_wrap.find('.login-status').text('Successfull!');
+				login_wrap.find('.login-status').text(resp.message);
 				if (redirect_after_login != '' && redirect_after_login != undefined) {
 					window.location = redirect_after_login;
 				} else {
-					window.location = resp.message;
+					window.location.reload();
 				}
 			};
 

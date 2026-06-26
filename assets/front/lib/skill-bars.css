@@ -40,6 +40,10 @@
 	transition-property:width, background-color;
 }
 
+.skill-box .skillbar:last-child {
+	margin-bottom: 0;
+}
+
 .skillbar-title {
 	position: absolute;
 	top: 0;

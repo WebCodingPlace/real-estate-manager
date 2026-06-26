@@ -1,0 +1,170 @@
+.prop-compare-wrapper.ich-settings-main-wrap {
+    position: fixed;
+    top: 167px;
+    right: -301px;
+    width: 300px;
+    /*height: 50%;*/
+    background: #fff;
+    color: #222;
+    font-size: 14px;
+    box-shadow: 0 4px 16px -2px rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.02);
+    z-index: 99;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    min-height: 133px;
+    /*border: 2px solid #000;*/
+}
+.prop-compare-wrapper.ich-settings-main-wrap .prop-compare {
+	position: relative;
+    /*height: 100%;*/
+}
+.prop-compare-wrapper.ich-settings-main-wrap .compare_close,
+.prop-compare-wrapper.ich-settings-main-wrap .compare_open {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .title_compare {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #efefef;
+    border-bottom: 1px solid #d5d9dd;
+    color: #262624;    
+}
+.prop-compare-wrapper.ich-settings-main-wrap .rem-compare-table {
+    padding: 10px;
+    direction: rtl;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .property-box {
+    direction: ltr;
+    width: 100%;
+}
+.prop-compare-wrapper.ich-settings-main-wrap td {
+    vertical-align: top;
+}
+.items_compare > span {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+}
+.compare-price {
+    color: green;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .compare_prop_button,
+.prop-compare-wrapper.ich-settings-main-wrap .compare_clear_button {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    margin: 0;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .items_compare img {
+    max-width: 100px !important;
+    margin-right: 10px;
+    margin-bottom: 11px;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .property-title {
+	margin-left: 5px;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .property-price {
+	margin-left: 5px;
+}
+.prop-compare-wrapper.ich-settings-main-wrap .clear {
+	clear: both;
+}
+
+/* model css */
+.ich-settings-main-wrap .icon-close {
+    left: auto !important;
+    top: -14px !important;
+    right: -16px;
+    background-color: #000;
+    color: #fff;
+    border: #000;
+    font-size: 16px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3px 10px;
+}
+.prop-compare-wrapper .table-responsive .fixed-row {
+	position: absolute;
+	display: inline-block;
+	min-width: 150px!important;
+	width: auto;
+	left: 0;
+	background-color: #fff;
+}
+.prop-compare-wrapper .table-responsive tr td:nth-child(2),
+.prop-compare-wrapper .table-responsive tr th:nth-child(2) {
+	padding-left: 150px!important;
+}
+
+.prop-compare-wrapper .remove-from-compare-btn {
+    display: block;
+    color: #888;
+    font-size: 10px;
+    border-radius: 50%;
+    border: 1px solid #f2f2f2;
+    background: no-repeat;
+    margin-top: 16px;
+}
+
+.ich-settings-main-wrap .remove-from-compare-btn:hover {
+    color: #FF6464;
+    border-color: #FF6464;
+}
+@media(max-width:600px) {
+    .rem-compare-table {
+        max-height: 100px !important;   
+    }
+}
+/* beauty scroll css */
+/* width */
+.prop-compare-wrapper.ich-settings-main-wrap ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.prop-compare-wrapper.ich-settings-main-wrap ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.prop-compare-wrapper.ich-settings-main-wrap ::-webkit-scrollbar-thumb {
+  background: #4c4a4a; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.prop-compare-wrapper.ich-settings-main-wrap ::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
+.rem-compare-table td {
+    border: none;
+}
+.rem-compare-table {
+    max-height: 200px;
+    overflow-y: scroll;    
+}
+.compare-title {
+    margin: 0;
+    display: block;
+    font-size: 14px;
+}
+.compare-buttons {
+    margin: 0;
+    width: 100%;
+}

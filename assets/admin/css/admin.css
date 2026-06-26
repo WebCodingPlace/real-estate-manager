@@ -1,30 +1,52 @@
-.thumbs-prev div {
-	position: relative;
-	width: 60px;
-	height: 60px;
-    /*overflow: hidden;*/
-	float: left;
-    padding: 5px;
+.rem-preview-image {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: #FFF;
+    cursor: move;
+    margin-bottom: 30px;
+}
+.rem-preview-image img {
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100% !important;
+  width: auto;
+}
+.rem-image-wrap {
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+.rem-preview-image .rem-actions-wrap {
+  padding: 0.25rem;
+  text-align: center;
+}
+.rem-preview-image .rem-actions-wrap .remove-image {
+  background: #d30505;
+  color: #FFF;
+}
+.thumbs-prev .drag-placeholder, .attachments-prev .drag-placeholder {
+    background-color: #ededed;
+    height: 169px;
+    width: 178.88px; 
+    padding: 0 !important;
+    border: 5px dashed #555454;
+}
+.rem-preview-image .rem-actions-wrap a {
+    margin: 5px;
+}
+.attachment-icon {
+    display: block;
+    margin: 8px auto;
+    max-height: 70px;
+}
+.attachment-name a {
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;    
+}
+.ich-settings-main-wrap .wrap-file_attachments {
     margin-bottom: 0;
-    margin-top: 10px;
-    margin-right: 15px;
-    border: 1px solid #e3e3e3;
-    background: #f7f7f7;
-    -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;	
-	cursor: all-scroll;
-}
-.thumbs-prev div img {
-    width: 100%;
-}
-.thumbs-prev div span {
-	position: absolute;
-	top: -8px;
-	right: -8px;
-	color: red;
-	cursor: pointer;
 }
 .ui-accordion .ui-accordion-header {
   cursor: pointer;
@@ -95,22 +117,19 @@ button span {
     min-width: 300px;
     text-align: right;
 }
-.ui-state-highlight {
-    /* background-color: yellow;
-    height: 150px; */
-}
+
 #property_images_meta_box .button-secondary {
     display: block;
     margin: 0 auto;
-}
-#property_images_meta_box br {
-    display: none;
 }
 #rem-settings-form .ui-icon {
     display: inline-block;
     text-indent: initial;
     overflow: hidden;
     background-repeat: no-repeat;
+}
+#rem-settings-form .panel-heading .btn {
+    padding: 0 5px;
 }
 .ich-settings-main-wrap .panel {
     margin-bottom: 10px;
@@ -119,6 +138,10 @@ button span {
 .rem-settings-box .nav-tabs a:focus {
     outline: none;
     box-shadow: none;
+}
+
+.rem-settings-box li a {
+    color: #000;
 }
 
 .onoffswitch {
@@ -173,4 +196,39 @@ button span {
 
 .rem-settings-box label.col-sm-3.control-label {
     margin-top: 6px;
+}
+
+/*
+    for conditions css
+*/
+.rem-field-hide {
+    display: none;
+}
+.rem-field-show {
+    display: block;
+}
+
+#property_settings_meta_box .glyphicon-asterisk {
+    color: red;
+    font-size: 9px;
+    vertical-align: top;
+}
+
+#property_settings_meta_box select.input-sm {
+    line-height: 1.5;
+}
+
+#colors_css #custom_js {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #413e3e;
+    color: #FFF;
+}
+
+#colors_css #custom_css {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #E8F2FF;
+}
+
+.wrap_custom_js .help-block {
+    color: red;
 }

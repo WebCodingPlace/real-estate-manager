@@ -16,3 +16,6 @@
 	    position: relative !important;
 	}
 }
+.fotorama__nav-wrap *, .fotorama__nav-wrap:after, .fotorama__nav-wrap:before {
+     box-sizing: initial !important;
+}

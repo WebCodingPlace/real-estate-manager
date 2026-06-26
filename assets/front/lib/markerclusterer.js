@@ -191,7 +191,7 @@ function MarkerClusterer(map, opt_markers, opt_options) {
  * @type {string}
  * @private
  */
-MarkerClusterer.prototype.MARKER_CLUSTER_IMAGE_PATH_ = mapsData.theme_path+'/images/maps/m';
+MarkerClusterer.prototype.MARKER_CLUSTER_IMAGE_PATH_ = markerClusterData.theme_path+'/images/maps/m';
 
 
 /**
@@ -247,7 +247,7 @@ MarkerClusterer.prototype.setupStyles_ = function() {
 
   for (var i = 0, size; size = this.sizes[i]; i++) {
     this.styles_.push({
-      url: mapsData.circle_icon,
+      url: markerClusterData.circle_icon,
       height: size,
       width: size
     });

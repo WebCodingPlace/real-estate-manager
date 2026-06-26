@@ -1,17 +1,18 @@
 jQuery(document).ready(function($) {
     $('select').select2();
+    $('.wcp-progress').hide();
     var icons = {
         header: "dashicons dashicons-plus",
         activeHeader: "dashicons dashicons-minus"
     }
 
     // tabs relates
-    $("#rem-settings-form .panel-default").hide().first().show();
+    $("#rem-settings-form .panel-settings").hide().first().show();
     $(".wcp-tabs-menu a:first").addClass("active");
     $(".wcp-tabs-menu a").on('click', function (e) {
         e.preventDefault();
         $(this).addClass("active").siblings().removeClass("active");
-        $($(this).attr('href')).show().siblings('.panel-default').hide();
+        $($(this).attr('href')).show().siblings('.panel-settings').hide();
     });
     var hash = $.trim( window.location.hash );
     if (hash) $('.wcp-tabs-menu a[href$="'+hash+'"]').trigger('click');
@@ -20,13 +21,12 @@ jQuery(document).ready(function($) {
 	$('#rem-settings-form').submit(function(event) {
 		event.preventDefault();
         $('.wcp-progress').show();
-		$('.wcp-progress').html('Please Wait...');
         var data = $(this).serialize();
 
         $.post(ajaxurl, data, function(resp) {
-            $('.wcp-progress').html('');
-            swal(resp, "Settings saved in database successfully!", "success");
-		});
+            $('.wcp-progress').hide();
+            swal(resp.title, resp.message, resp.status);
+		}, 'json');
 	});
 
     $('.colorpicker').wpColorPicker();
@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
     // Media Uploader
     var ich_cpt_uploader;
      
-    jQuery('.upload_image_button').live('click', function( event ){
+    jQuery('.ich-settings-main-wrap').on('click', '.upload_image_button', function( event ){
      
         event.preventDefault();
 
@@ -60,16 +60,5 @@ jQuery(document).ready(function($) {
         ich_cpt_uploader.open();
     });
 
-    if ($('#use_map_from').val() == 'leaflet') {
-        $('.wrap_maps_api_key').hide();
-    }
-
-    $('#use_map_from').change(function(event) {
-        event.preventDefault();
-        if ($(this).val() == 'google_maps') {
-            $('.wrap_maps_api_key').show();
-        } else {
-            $('.wrap_maps_api_key').hide();
-        }
-    });
+    $('[data-cond-option]').conditionize();
 });

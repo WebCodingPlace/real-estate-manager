@@ -1,9 +1,10 @@
 .mortgage-calculator-box {
-  background-color: #fdfdfd;
-  border: 1px solid #f0f0f0;
   padding: 20px 20px 60px;
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 31px 0 rgba(7,152,255,.09);  
+  border: 1px solid #f1f8ff;
 }
 .mortgage-calculator-box .result-calc {
   height: 50px;

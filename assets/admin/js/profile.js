@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     var rem_agent_profile_pic;
      
-    jQuery('.upload_image_agent').live('click', function( event ){
+    jQuery('body').on('click', '.upload_image_agent', function( event ){
      
         event.preventDefault();
      

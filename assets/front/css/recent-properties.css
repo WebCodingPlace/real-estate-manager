@@ -1,0 +1,34 @@
+.rem-recent-properties {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 31px 0 rgba(7,152,255,.09);
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #f1f8ff;
+    margin-bottom: 30px;
+}
+.rem-widget-list {
+	margin-bottom: 10px;
+	display: flow-root;
+}
+.rem-recent-properties .rem-widget-list img {
+	max-width: 70px !important;
+	float: left;
+	margin-right: 10px;	
+}
+.rem-widget-list h2 {
+	font-size: 14px;
+	margin: 0;	
+}
+.rem-widget-list p {
+	margin: 0;
+	color: #4a4a4a;
+	margin-top: 2px;
+}
+.rem-widget-list a {
+	text-decoration: none;
+}
+.rem-widget-list a:hover {
+	text-decoration: none;
+}
+.rem-widget-list .rem-price-amount {
+	color: #047d04;
+}

@@ -1,23 +1,29 @@
 jQuery(document).ready(function($) {
+
+    if ($('.contact-agent-form input[type="tel"]').length) {
+        var intlTelInputVars = $('.contact-agent-form input[type="tel"]').data();
+        $('.contact-agent-form input[type="tel"]').intlTelInput(intlTelInputVars);
+    }
+    
 	// Contact Agent frontend
-	$('#contact-agent').submit(function(event) {
+	$('.contact-agent-form').submit(function(event) {
 		event.preventDefault();
-		$('.sending-email').show();
-		var ajaxurl = $(this).data('ajaxurl');
-		var data = $(this).serialize();
-		// console.log(data);
+        var c_form = $(this);
+		c_form.closest('div').find('.sending-email').show();
+		var ajaxurl = c_form.data('ajaxurl');
+		var data = c_form.serialize();
 
 		$.post(ajaxurl, data, function(resp) {
 			// console.log(resp);
 			if (resp.status == 'sent') {
-				$('.sending-email').removeClass('alert-info').addClass('alert-success');
-				$('.sending-email .msg').html(resp.msg);
+				c_form.closest('div').find('.sending-email').removeClass('alert-info').addClass('alert-success');
+				c_form.closest('div').find('.msg').html(resp.msg);
 			} else {
-				$('.sending-email').removeClass('alert-info').addClass('alert-danger');
-				$('.sending-email .msg').html(resp.msg);
+				c_form.closest('div').find('.sending-email').removeClass('alert-info').addClass('alert-danger');
+				c_form.closest('div').find('.msg').html(resp.msg);
 			}
 		}, 'json');
-	});	
+	});
 	// SkillsBars
 	setTimeout(function() {
 		$('.skillbar').each(function(){
@@ -43,12 +49,14 @@ jQuery(document).ready(function($) {
 		var slick_ob = {
 		  	infinite: true,
 			dots: false,		  
-			arrows: true,		  
+			arrows: true,
+			prevArrow: $('.my-listings-left'),
+			nextArrow: $('.my-listings-right'),
 			autoplay: true,
 			autoplaySpeed: 2000,
 			draggable: true,
-			speed: 2000,
-			slidesToShow: 4,
+			speed: 1000,
+			slidesToShow: 3,
 			slidesToScroll: 1,
 			slidesPerRow: 1,
 			rows: 1,
@@ -66,7 +74,10 @@ jQuery(document).ready(function($) {
 		        slidesToScroll: 1,
 		      }
 		    }]			
-		};
+		}
+		if ($('body').hasClass('rtl')) {
+			slick_ob.rtl = true;	
+		}		
 		$(this).slick(slick_ob);
 	});	
 
@@ -74,4 +85,5 @@ jQuery(document).ready(function($) {
 	jQuery('.ich-settings-main-wrap .image-fill').each(function(index, el) {
 		jQuery(this).imagefill();
 	});
+	
 });

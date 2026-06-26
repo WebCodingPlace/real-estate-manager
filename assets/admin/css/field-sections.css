@@ -1,0 +1,14 @@
+.form-group select {
+    max-width: 100%;
+    padding-top: 0 !important;
+}
+.panel-heading a {
+    margin-right: 10px;
+}
+.ui-state-highlight {
+    border: 2px dashed #000;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100% !important;
+}

@@ -19,6 +19,7 @@
 	}
 
 	ksort($p_l_arr, SORT_NUMERIC);
+	$total_properties = !empty($total_properties) ? $total_properties : count($p_l_arr);
 
 	echo '<div class="ich-settings-main-wrap">';
 	echo "<section class='wcp-slick' ".$data_attr.">";

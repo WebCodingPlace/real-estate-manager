@@ -26,9 +26,8 @@
   height: 48px;
   display: inline-block;
 }
-#user-profile .property-list table a {
+#user-profile .property-list table .property-title {
   font-size: 17px;
-  display: block;
   font-weight: 400;
 }
 #user-profile .property-list table thead tr td,
@@ -58,4 +57,7 @@
 }
 #user-profile .pagination-content {
   margin: 20px 0 0;
+}
+span.label.property-status {
+    text-transform: capitalize;
 }

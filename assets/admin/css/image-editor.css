@@ -1,0 +1,29 @@
+body #adminmenumain {
+	display: none;
+}
+body #wpcontent {
+	margin: 0;
+	margin-left: 0;
+}
+body #wpcontent .page-title-action {
+	display: none;
+}
+.postbox-container {
+	display: none;
+}
+
+#poststuff #post-body.columns-2 {
+	margin-right: 0;
+}
+
+.wp_attachment_details.edit-form-section {
+	display: none;
+}
+
+.media-types-required-info {
+	display: none;
+}
+
+.wrap > .notice, #screen-meta-links, #screen-meta, #titlediv {
+	display: none;
+}

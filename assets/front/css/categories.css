@@ -1,0 +1,118 @@
+.rem-cat {
+    overflow: hidden;
+}
+.rem-cat-inner {
+    position: relative;
+}
+.rem-cat-avatar {
+    margin: auto;
+}
+.rem-cat-avatar {
+    text-align: center;
+}
+a, a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #727272;
+}
+.rem-cat-avatar img {
+    width: 100%;
+    display: block;
+}
+.rem-cat-content {
+    left: 0;
+    right: 0;
+}
+.rem-cat-content {
+    padding: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    position: absolute;
+    bottom: 0;
+}
+.rem-cat-content {
+    text-align: center;
+}
+.rem-cat-info {
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 3px;
+}
+.rem-cat-info h2.rem-cat-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.rem-cat h2 {
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.rem-cat-info span {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #bababa;
+    font-weight: 400;
+    margin-top: 2px;
+    display: inline-block;
+}
+.rem-cat-description {
+    top: initial;
+    background-color: transparent;
+    margin: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    max-height: 0;
+}
+.rem-cat-description {
+    /*background: #fb6a19;*/
+    /*margin: 0 35px;*/
+    position: relative;
+    /*top: -17.5px;*/
+}
+.rem-cat-description a {
+    display: inline-block;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+a, a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #727272;
+}
+.rem-cat-description p {
+    color: #fff;
+}
+.rem-cat-description p {
+    font-size: 13px;
+    line-height: 35px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.rem-cat:hover .rem-cat-content a{
+	text-decoration: none;
+}
+.rem-cat:hover .rem-cat-info span {
+    color: #fff;
+}
+.rem-cat:hover .rem-cat-description {
+    max-height: 100px;
+}

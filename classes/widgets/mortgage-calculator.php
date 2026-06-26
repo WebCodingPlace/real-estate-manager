@@ -25,47 +25,43 @@ class REM_Mortgage_Calculator extends WP_Widget {
 
 		extract($instance);
 		$all_settings = get_option( 'rem_all_settings' );
-		$price_symbol = rem_get_currency_symbol();
-		echo $args['before_widget'];
-		
-		 ?>
+		$price_symbol = rem_get_currency_symbol(); ?>
 		 	
-		 	<?php
-				if ( isset($instance['title']) ) {
-					echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
-				}
-		 	?>
 			<div class="mortgage-calculator-box ich-settings-main-wrap">
+			 	<?php
+					if ( isset($instance['title']) ) {
+						echo wp_kses_post($args['before_title']) . apply_filters( 'widget_title', $instance['title'] ) . wp_kses_post($args['after_title']);
+					}
+			 	?>
 				<form method="post" role="form">
 					<div class="form-group">
-						<label><?php _e( 'Sale price', 'real-estate-manager' ); ?> (<?php echo $price_symbol; ?>)</label>
+						<label><?php esc_attr_e( 'Sale price', 'real-estate-manager' ); ?> (<?php echo esc_attr($price_symbol); ?>)</label>
 						<input type="text" id="mc-price" class="form-control" placeholder="eg: 200000" />
 					</div>
 					<div class="form-group">
-						<label><?php _e( 'Down payment', 'real-estate-manager' ); ?> (%)</label>
+						<label><?php esc_attr_e( 'Down payment', 'real-estate-manager' ); ?> (%)</label>
 						<input type="text" id="mc-down" class="form-control" placeholder="eg: 5" />
 					</div>
 					<div class="form-group">
-						<label><?php _e( 'Interest Rate', 'real-estate-manager' ); ?> (%)</label>
+						<label><?php esc_attr_e( 'Interest Rate', 'real-estate-manager' ); ?> (%)</label>
 						<input type="text" id="mc-rate" class="form-control" placeholder="eg: 6" />
 					</div>
 					<div class="form-group">
-						<label><?php _e( 'Term', 'real-estate-manager' ); ?> (<?php _e( 'years', 'real-estate-manager' ); ?>)</label>
+						<label><?php esc_attr_e( 'Term', 'real-estate-manager' ); ?> (<?php esc_attr_e( 'years', 'real-estate-manager' ); ?>)</label>
 						<input type="text" id="mc-term" class="form-control" placeholder="eg: 20" />
 					</div>
-					<button id="mortgage-calc" class="btn btn-default" type="button"><?php _e( 'Calculate', 'real-estate-manager' ); ?></button>
+					<button id="mortgage-calc" class="btn btn-default" type="button"><?php esc_attr_e( 'Calculate', 'real-estate-manager' ); ?></button>
 				</form>
-				<div class="result-calc" id="mc-payment"><?php echo $price_symbol; ?> 0,00</div>
+				<div class="result-calc" id="mc-payment"><?php echo esc_attr($price_symbol); ?> 0,00</div>
 			</div><!-- /.mortgage-calculator -->
-		 	<?php 
-			echo (isset($args['after_widget'])) ? $args['after_widget'] : '';
+		 	<?php
 	}
 
 	public function form( $instance ) {
 		extract($instance);
 		?>
 		<p>
-			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title','real-estate-manager' ); ?></label> 
+			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title','real-estate-manager' ); ?></label> 
 			<input
 				class="widefat"
 				id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"

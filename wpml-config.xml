@@ -1,10 +1,250 @@
 <wpml-config>
-  <admin-texts>
-    <key name="rem_all_settings">
-      <key name="*"/>
-    </key>
-    <key name="rem_property_fields">
-      <key name="*"/>
-    </key>
-  </admin-texts>
+  	<admin-texts>
+	    <key name="rem_all_settings">
+		    <key name="currency" />
+		    <key name="currency_position" />
+		    <key name="thousand_separator" />
+		    <key name="decimal_separator" />
+		    <key name="decimal_points" />
+		    <key name="properties_area_unit" />
+		    <key name="properties_excerpt_length" />
+		    <key name="admin_filtering" />
+		    <key name="properties_per_page_archive" />
+		    <key name="energy_eff" />
+		    <key name="single_property_layout" />
+		    <key name="archive_property_layout" />
+		    <key name="agent_page_layout" />
+		    <key name="agent_page" />
+		    <key name="templates_max_width" />
+		    <key name="agent_page_agent_card" />
+		    <key name="agent_card_style" />
+		    <key name="agent_page_display_cform" />
+		    <key name="agent_page_sidebar" />
+		    <key name="property_edit_page" />
+		    <key name="p_base_page" />
+		    <key name="dropdown_style" />
+		    <key name="property_fields_help_text" />
+		    <key name="single_property_map" />
+		    <key name="sections_display" />
+		    <key name="property_page_agent_card" />
+		    <key name="property_page_sidebar" />
+		    <key name="slider_width" />
+		    <key name="slider_height" />
+		    <key name="slider_fit" />
+		    <key name="slider_featured_image" />
+		    <key name="display_p_id" />
+		    <key name="gallery_images_limit" />
+		    <key name="load_video_as" />
+		    <key name="date_format" />
+		    <key name="property_settings_tabs" />
+		    <key name="archive_listing_style" />
+		    <key name="archive_page_cols" />
+		    <key name="inline_property_bar_fields" />
+		    <key name="display_listing_features" />
+		    <key name="custom_listing_features" />
+		    <key name="featured_image_size" />
+		    <key name="placeholder_image" />
+		    <key name="enable_compare" />
+		    <key name="property_compare_columns" />
+		    <key name="properties_per_page" />
+		    <key name="search_price_range" />
+		    <key name="search_results_style" />
+		    <key name="search_results_cols" />
+		    <key name="search_not_available" />
+		    <key name="search_area_options" />
+		    <key name="search_bedrooms_options" />
+		    <key name="search_bathrooms_options" />
+		    <key name="searched_properties_target" />
+		    <key name="simple_search_query" />
+		    <key name="prefill_search_fields" />
+		    <key name="range_thousand_separator" />
+		    <key name="range_decimal_separator" />
+		    <key name="range_decimal_points" />
+		    <key name="range_cb_text" />
+		    <key name="minimum_price" />
+		    <key name="maximum_price" />
+		    <key name="price_step" />
+		    <key name="default_minimum_price" />
+		    <key name="default_maximum_price" />
+		    <key name="email_admin_register_agent" />
+		    <key name="email_pending_agent" />
+		    <key name="email_approved_agent" />
+		    <key name="email_reject_agent" />
+		    <key name="email_property_submission" />
+		    <key name="email_property_submission_agent" />
+		    <key name="email_property_approved_agent" />
+		    <key name="email_br" />
+		    <key name="c_email_subject" />
+		    <key name="c_email_msg" />
+		    <key name="email_agent_contact" />
+		    <key name="gdpr_message" />
+		    <key name="captcha_site_key" />
+		    <key name="captcha_secret_key" />
+		    <key name="single_property_features_text" />
+		    <key name="single_property_maps_text" />
+		    <key name="single_property_tags_text" />
+		    <key name="category_title" />
+		    <key name="archive_title" />
+		    <key name="archive_title_properties" />
+		    <key name="s_results_h" />
+		    <key name="no_results_msg" />
+		    <key name="upload_images_inst" />
+		    <key name="use_map_from" />
+		    <key name="maps_api_key" />
+		    <key name="maps_type" />
+		    <key name="maps_zoom_level" />
+		    <key name="maps_drag_image" />
+		    <key name="maps_location_image" />
+		    <key name="maps_property_image" />
+		    <key name="leaflet_icons_size" />
+		    <key name="leaflet_icons_anchor" />
+		    <key name="maps_property_image_hover" />
+		    <key name="maps_circle_image" />
+		    <key name="maps_my_location_image" />
+		    <key name="default_map_lat" />
+		    <key name="default_map_long" />
+		    <key name="maps_styles" />
+		    <key name="leaflet_style" />
+		    <key name="property_map_location_style" />
+		    <key name="property_map_radius" />
+		    <key name="rem_main_color" />
+		    <key name="headings_underline_color_default" />
+		    <key name="headings_underline_color_active" />
+		    <key name="buttons_background_color" />
+		    <key name="buttons_text_color" />
+		    <key name="buttons_background_color_hover" />
+		    <key name="buttons_text_color_hover" />
+		    <key name="ribbon_bg" />
+		    <key name="badge_bg" />
+		    <key name="custom_css" />
+		    <key name="custom_js" />
+		    <key name="ribbon_style" />
+		    <key name="property_sale_ribbon_text" />
+		    <key name="property_rent_ribbon_text" />
+		    <key name="property_sell_ribbon_text" />
+		    <key name="property_sold_ribbon_text" />
+		    <key name="property_featured_ribbon_text" />
+		    <key name="listings_ribbon_type" />
+		    <key name="custom_ribbon_text" />
+		    <key name="wpbakery_addons" />
+		    <key name="divi_modules" />
+		    <key name="use_bootstrap" />
+		    <key name="disable_map_script" />
+		    <key name="use_fontawesome" />
+		    <key name="property_submission_mode" />
+		    <key name="property_submit_redirect" />
+		    <key name="property_edit_redirect" />
+		    <key name="property_deletion" />
+		    <key name="attachment_deletion" />
+		    <key name="auto_login" />
+		    <key name="grid_view_txt" />
+		    <key name="wl_added_tooltip" />
+		    <key name="wl_removing_tooltip" />
+		    <key name="wl_added_heading" />
+		    <key name="wl_added_description" />
+		    <key name="wl_removing_heading" />
+		    <key name="wl_removing_description" />
+		    <key name="wl_inquiry_heading" />
+		    <key name="wl_empty_heading" />
+		    <key name="wl_empty_description" />
+	    </key>
+  	</admin-texts>
+	<custom-fields>
+		<custom-field action="copy">rem_property_price</custom-field>
+		<custom-field action="copy">rem_before_price_text</custom-field>
+		<custom-field action="copy">rem_after_price_text</custom-field>
+		<custom-field action="copy">rem_property_sale_price</custom-field>
+		<custom-field action="copy">rem_property_latitude</custom-field>
+		<custom-field action="copy">rem_property_longitude</custom-field>
+		<custom-field action="copy">rem_property_type</custom-field>
+		<custom-field action="copy">rem_property_purpose</custom-field>
+		<custom-field action="copy">rem_property_status</custom-field>
+		<custom-field action="copy">rem_property_area</custom-field>
+		<custom-field action="copy">rem_property_detail_cbs</custom-field>
+		<custom-field action="translate">rem_property_address</custom-field>
+		<custom-field action="translate">rem_property_state</custom-field>
+		<custom-field action="copy">rem_property_zipcode</custom-field>
+		<custom-field action="translate">rem_property_city</custom-field>
+		<custom-field action="translate">rem_property_country</custom-field>
+		<custom-field action="copy">rem_property_featured</custom-field>
+		<custom-field action="copy">rem_property_featured</custom-field>
+		<custom-field action="copy">rem_property_bedrooms</custom-field>
+		<custom-field action="copy">rem_property_bathrooms</custom-field>
+		<custom-field action="copy">rem_property_rooms</custom-field>
+		<custom-field action="copy">rem_property_video</custom-field>
+		<custom-field action="copy">rem_property_images</custom-field>
+		<custom-field action="copy">rem_file_attachments</custom-field>
+		<custom-field action="copy">rem_regular_price</custom-field>
+		<custom-field action="copy">rem_property_multiple_agents</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">rem_property</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">rem_property_tag</taxonomy>
+		<taxonomy translate="1">rem_property_cat</taxonomy>
+	</taxonomies>
+	<shortcodes>
+	        <shortcode>
+	            <tag>rem_register_agent</tag>
+	            <attributes>
+	                <attribute>required_text</attribute>
+	                <attribute type="link">redirect</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_search_property</tag>
+	            <attributes>
+	                <attribute>search_btn_text</attribute>
+	                <attribute>filters_btn_text</attribute>
+	                <attribute>reset_btn_text</attribute>
+	                <attribute type="link">results_page</attribute>
+	                <attribute>tabs_all_text</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_search_property_inline</tag>
+	            <attributes>
+	                <attribute>search_btn_text</attribute>
+	                <attribute>filters_btn_text</attribute>
+	                <attribute>reset_btn_text</attribute>
+	                <attribute type="link">results_page</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_simple_search</tag>
+	            <attributes>
+	                <attribute>placeholder</attribute>
+	                <attribute type="link">results_page</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_edit_property</tag>
+	            <attributes>
+	                <attribute>waiting_message</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_maps</tag>
+	            <attributes>
+	                <attribute>load_heading</attribute>
+	                <attribute>load_desc</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_agent_logout</tag>
+	            <attributes>
+	                <attribute type="link">redirect</attribute>
+	                <attribute>label</attribute>
+	            </attributes>
+	        </shortcode>
+	        <shortcode>
+	            <tag>rem_change_password</tag>
+	            <attributes>
+	                <attribute>title</attribute>
+	                <attribute>subtitle</attribute>
+	                <attribute type="link">redirect</attribute>
+	            </attributes>
+	        </shortcode>
+	</shortcodes>
 </wpml-config>

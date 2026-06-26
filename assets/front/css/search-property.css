@@ -7,35 +7,12 @@
 #rem-search-box.no-margin {
   height: auto !important;
 }
-#rem-search-box .search-container {
+#rem-search-box .rem-search-1 {
   height: 1px;
   position: relative;
   height: 172px;
-  /* .search-options */
-  /* FIXED MAP */
-  /* &.fixed-map */
-  /* SIMPLE PAGE SERCHER */
-  /* &.sample-page {
-
-			.search-options {
-
-				.searcher {
-
-					.search-options {
-						bottom: -30px;
-					}
-
-					.footer {
-						background-color: @color-primary-dark;
-						border-top: 5px solid @color-primary-dark;
-						height: 94px;
-						margin: -1px;
-					}
-				}
-			}
-		} &.sample-page */
 }
-#rem-search-box .search-container .search-options {
+#rem-search-box .rem-search-1 .search-options {
   height: auto;
   /*overflow: hidden;*/
   min-height: 43px;
@@ -47,12 +24,12 @@
   z-index: 1;
   /* .searcher */
 }
-#rem-search-box .search-container .search-options.sample-page {
+#rem-search-box .rem-search-1 .search-options.sample-page {
   bottom: 4px;
   border: 1px solid #eee;
 }
-#rem-search-box .search-container .search-options .botton-options-inactive,
-#rem-search-box .search-container .search-options .botton-options {
+#rem-search-box .rem-search-1 .search-options .botton-options-inactive,
+#rem-search-box .rem-search-1 .search-options .botton-options {
   text-transform: uppercase;
   display: block;
   height: 43px;
@@ -78,12 +55,12 @@
   transition: 0.3s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
 }
-#rem-search-box .search-container .search-options .botton-options-inactive:hover,
-#rem-search-box .search-container .search-options .botton-options:hover {
+#rem-search-box .rem-search-1 .search-options .botton-options-inactive:hover,
+#rem-search-box .rem-search-1 .search-options .botton-options:hover {
   background-color: rgba(16, 96, 87, 0.9);
 }
-#rem-search-box .search-container .search-options .botton-options-inactive i,
-#rem-search-box .search-container .search-options .botton-options i {
+#rem-search-box .rem-search-1 .search-options .botton-options-inactive i,
+#rem-search-box .rem-search-1 .search-options .botton-options i {
   position: absolute !important;
   top: 15px;
   right: auto;
@@ -91,32 +68,31 @@
   left: 18px;
   z-index: 1;
 }
-#rem-search-box .search-container .search-options .searcher {
+#rem-search-box .rem-search-1 .search-options .searcher {
   padding-top: 36px;
   /* border: 1px solid #E5E5E5; */
   margin-bottom: 0;
   background-color: rgba(255, 255, 255, 0.96);
 }
-#rem-search-box .search-container .search-options .searcher .margin-div {
+#rem-search-box .rem-search-1 .search-options .searcher .margin-div {
   padding-left: 32px;
   padding-right: 32px;
 }
-#rem-search-box .search-container .search-options .searcher .footer {
+#rem-search-box .rem-search-1 .search-options .searcher .footer {
   background-color: rgba(220, 220, 220, 0.5);
   height: 84px;
   padding: 22px 32px 0;
   margin-bottom: 0;
 }
-#rem-search-box .search-container .search-options .searcher .price {
-  text-align: center;
+#rem-search-box .rem-search-1 .search-options .searcher .price {
   font-size: 13px;
 }
-#rem-search-box .search-container .search-options .searcher .price .more-button {
+#rem-search-box .rem-search-1 .search-options .searcher .price .more-button {
   width: 120px;
   padding-left: 32px;
   float: left;
 }
-#rem-search-box .search-container .search-options .searcher .price .more-button:after {
+#rem-search-box .rem-search-1 .search-options .searcher .price .more-button:after {
   font-family: 'FontAwesome';
   position: absolute !important;
   top: 4px;
@@ -127,37 +103,46 @@
   content: "\f107";
   font-size: 18px;
 }
-#rem-search-box .search-container .search-options .searcher .search-button {
+#rem-search-box .rem-search-1 .search-button {
   float: right;
   text-transform: uppercase;
   padding: 10px 14px;
 }
-#rem-search-box .search-container .search-options .searcher .sercher-margin-bottom {
+#rem-search-box .rem-search-1 .search-options .searcher .sercher-margin-bottom {
   padding-bottom: 4px;
   border-bottom: 1px solid #E5E5E5;
 }
-#rem-search-box .search-container .search-options .searcher .filter {
-  max-height: 800px;
+#rem-search-box .rem-search-1 .search-options .searcher .filter,
+#rem-search-box .rem-search-4 .filter {
+  max-height: 1800px;
   overflow: hidden;
-  padding: 0 32px 20px;
   -moz-transition: 0.4s all ease-in-out;
   -ms-transition: 0.4s all ease-in-out;
   -o-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
   -webkit-transition: 0.2s all ease-in-out;
 }
-#rem-search-box .search-container .search-options .searcher .filter.hide-filter {
+#rem-search-box .rem-search-1 .search-options .searcher .filter:not(.hide-filter),
+#rem-search-box .rem-search-4 .filter:not(.hide-filter) {
+  overflow: visible;
+}
+#rem-search-box .rem-search-1 .search-options .searcher .filter:not(.hide-filter) {
+  padding: 0 32px 20px;
+}
+#rem-search-box .rem-search-1 .search-options .searcher .filter.hide-filter,
+#rem-search-box .rem-search-4 .filter.hide-filter {
   border-bottom: none;
   max-height: 0;
 }
-#rem-search-box .search-container .search-options .searcher .filter label {
+#rem-search-box .rem-search-1 .search-options .searcher .filter label {
   margin: 20px 0 5px;
 }
-#rem-search-box .search-container .search-options .searcher .dropdown {
+#rem-search-box .rem-search-1 .search-options .searcher .dropdown {
   margin-bottom: 30px;
 }
-#rem-search-box .search-container.fixed-map {
+#rem-search-box .rem-search-1.fixed-map {
   height: auto;
+  margin-bottom: 15px;
 }
 /* #rem-search-box */
 .ads-type {
@@ -269,4 +254,130 @@
 }
 .search-box-page .space-div {
     padding-bottom: 20px;
+}
+/*
+    for conditions css
+*/
+.rem-field-hide {
+    display: none;
+}
+.rem-field-show {
+    display: block;
+}
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+.ui-autocomplete .ui-menu-item {
+  cursor: pointer;
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #555555;
+  white-space: nowrap;
+}
+.ui-autocomplete .ui-menu-item:hover, .ui-autocomplete .ui-menu-item:active {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-image: none;
+}
+.searcher .margin-div.footer br {
+    display: none;
+}
+.price-slider .any-check {
+  position: absolute;
+  left: 14px;
+  top: 20px;
+  cursor: pointer;
+}
+.rem-widget-search .any-check {
+    position: absolute;
+    top: 50px;
+}
+
+#rem-search-box .rem-search-2 .search-button {
+  float: none;
+  text-transform: uppercase;
+  padding: 0;
+  width: 100%;
+  height: 36px;
+}
+
+#rem-search-box .rem-search-2 .padding-none {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#rem-search-box .rem-search-2 .padding-none:first-child {
+  padding-left: 15px;
+}
+
+#rem-search-box .rem-search-2 .padding-none:last-child {
+  padding-right: 15px;
+}
+
+#rem-search-box .rem-search-2 .dropdown .carat {
+  border-left: 0;
+}
+
+#rem-search-box .rem-search-2 .dropdown.open .carat {
+  background: transparent;
+}
+
+@media (max-width: 991px){
+  #rem-search-box .rem-search-2 .padding-none:first-child {
+    padding-left: 0;
+  }
+
+  #rem-search-box .rem-search-2 .padding-none:last-child {
+    padding-right: 0;
+  }
+}
+
+.searcher .margin-bottom {
+  margin-bottom: 20px;
+}
+.rem-min-max-number-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.rem-title-number-field {
+  padding-right: 8px;
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }

@@ -66,7 +66,7 @@
         array(
             'key' => 'rem_agent_meta_image',
             'type' => 'image',
-            'display' => array('admin', 'edit'),
+            'display' => array('register','admin', 'edit'),
             'title' => __( 'Picture of Agent', 'real-estate-manager' ),
             'help' => __( 'Upload an additional image for your profile', 'real-estate-manager' ),
             'tab' => 'personal_info',
@@ -89,6 +89,14 @@
             'title' => __( 'Phone Number', 'real-estate-manager' ),
         ),
         array(
+            'key' => 'rem_whatsapp',
+            'type' => 'text',
+            'display' => array('card', 'register', 'edit', 'admin'),
+            'tab' => 'personal_info',
+            'icon_class' => 'fab fa-whatsapp',
+            'title' => __( 'WhatsApp Number', 'real-estate-manager' ),
+        ),
+        array(
             'key' => 'rem_facebook_url',
             'type' => 'text',
             'tab' => 'social_profiles',
@@ -103,14 +111,6 @@
             'display' => array('card', 'register', 'edit', 'admin'),
             'icon_class' => 'fab fa-twitter',
             'title' => __( 'Twitter Profile', 'real-estate-manager' ),
-        ),
-        array(
-            'key' => 'rem_googleplus_url',
-            'type' => 'text',
-            'tab' => 'social_profiles',
-            'display' => array('card', 'register', 'edit', 'admin'),
-            'icon_class' => 'fab fa-google-plus-g',
-            'title' => __( 'Google+ Profile', 'real-estate-manager' ),
         ),
         array(
             'key' => 'rem_linkedin_url',
@@ -166,6 +166,15 @@
             'display' => array('admin'),
             'title' => __( 'Contact Form Shortcode', 'real-estate-manager' ),
             'help' => __( 'Leave blank for default contact form', 'real-estate-manager' ),
+        ),
+        array(
+            'key' => 'rem_user_location',
+            'type' => 'select',
+            'options' => "enable \ndisable",
+            'display' => array('admin', 'edit'),
+            'title' => __( 'Show Location', 'real-estate-manager' ),
+            'tab' => 'personal_info',
+            'help' => __( 'Display your location on the profile page', 'real-estate-manager' ),
         ),
     );
 ?>
