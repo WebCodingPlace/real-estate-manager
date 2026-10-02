@@ -3,7 +3,7 @@
 * Plugin Name: Real Estate Manager - Property Listing and Agent Management
 * Plugin URI: https://wp-rem.com
 * Description: A Full Featured Property Listing Plugin for Real Estate website with Agents Management System
-* Version: 7.3
+* Version: 7.4
 * Author: WebCodingPlace
 * Author URI: https://webcodingplace.com/
 * License: GPLv2 or later

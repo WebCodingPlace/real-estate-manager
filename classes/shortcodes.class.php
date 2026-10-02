@@ -446,6 +446,7 @@ class REM_Shortcodes
 			wp_enqueue_script( 'rem-create-pro', REM_URL . '/assets/front/js/create-property.js', array('jquery', 'jquery-ui-sortable'));
 
             if (isset($localize_vars)) {
+                $localize_vars['rem_property_nonce'] = wp_create_nonce( 'rem-create-property' );
                 wp_localize_script( 'rem-create-pro', 'rem_property_vars', $localize_vars );
             } else {
                 $localize_vars = array(
@@ -456,6 +457,7 @@ class REM_Shortcodes
                     'videos_limit_message' => __( 'Maximum Videos limit is: ', 'real-estate-manager' ),
                     'success_message' => __( 'Successful', 'real-estate-manager' ),
                 );                
+                $localize_vars['rem_property_nonce'] = wp_create_nonce( 'rem-create-property' );
                 wp_localize_script( 'rem-create-pro', 'rem_property_vars', $localize_vars );
             }
 			ob_start();
@@ -549,6 +551,7 @@ class REM_Shortcodes
 
 			wp_enqueue_script( 'rem-create-pro', REM_URL . '/assets/front/js/create-property.js', array('jquery'));
             if (isset($localize_vars)) {
+                $localize_vars['rem_property_nonce'] = wp_create_nonce( 'rem-create-property' );
                 wp_localize_script( 'rem-create-pro', 'rem_property_vars', $localize_vars );
             } else {
                 $localize_vars = array(
@@ -559,6 +562,7 @@ class REM_Shortcodes
                     'videos_limit_message' => __( 'Maximum Videos limit is: ', 'real-estate-manager' ),
                     'success_message' => __( 'Successful', 'real-estate-manager' ),
                 );                
+                $localize_vars['rem_property_nonce'] = wp_create_nonce( 'rem-create-property' );
                 wp_localize_script( 'rem-create-pro', 'rem_property_vars', $localize_vars );
             }
 
@@ -1648,22 +1652,15 @@ class REM_Shortcodes
 
     function rem_user_login_check(){
         if (isset($_REQUEST)) {
-            if (isset($_REQUEST['g-recaptcha-response'])) {
-                if (!$_REQUEST['g-recaptcha-response']) {
+            if (rem_get_option('captcha_on_agent_login') == 'on' || isset($_REQUEST['g-recaptcha-response'])) {
+                if (empty($_REQUEST['g-recaptcha-response'])) {
                     $resp = array('status' => 'failed', 'message' => __( 'Please check the captcha form.', 'real-estate-manager' ));
                     echo json_encode($resp); exit;
-                } else {
-                    $captcha = $_REQUEST['g-recaptcha-response'];
-                    $secretKey = rem_get_option('captcha_secret_key', '6LcDhUQUAAAAAGKQ7gd1GsGAkEGooVISGEl3s7ZH');
-                    $ip = $_SERVER['REMOTE_ADDR'];
-                    $response = wp_remote_post("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-                    $responseKeys = json_decode($response['body'], true);
-                    if(intval($responseKeys["success"]) !== 1) {
-                        $resp = array('status' => 'failed', 'message' => __( 'There was an error. Please try again after reloading page', 'real-estate-manager' ));
-                        echo json_encode($resp); exit;
-                    }
+                } elseif (!rem_verify_recaptcha()) {
+                    $resp = array('status' => 'failed', 'message' => __( 'There was an error. Please try again after reloading page', 'real-estate-manager' ));
+                    echo json_encode($resp); exit;
                 }
-            }        	
+            }
             global $user;
             $creds = array();
             $creds['user_login'] = $_REQUEST['rem_username'];
@@ -1694,58 +1691,74 @@ class REM_Shortcodes
     }
 
     function create_property_frontend(){
-        if (isset($_REQUEST) && $_REQUEST != '') {
-        	$current_user_data = wp_get_current_user();
+        if ( ! check_ajax_referer( 'rem-create-property', 'rem_property_nonce', false ) ) {
+            wp_send_json_error( __( 'Security check failed, please reload the page and try again.', 'real-estate-manager' ), 403 );
+        }
 
-            // create a preview
-            if (isset($_REQUEST['preview_property'])) {
+        if ( ! apply_filters( 'rem_user_can_submit_property', current_user_can( 'edit_rem_properties' ) ) ) {
+            wp_send_json_error( __( 'Sorry, you are not allowed to submit listings.', 'real-estate-manager' ), 403 );
+        }
 
-            	// if already has preview, just update
-            	$previous_id = (isset($_REQUEST['property_preview_id']) && $_REQUEST['property_preview_id'] != '') ? $_REQUEST['property_preview_id'] : '' ;
-            	$property_id = $this->insert_property_in_db($previous_id, $_REQUEST, $current_user_data, 'draft');
-                $resp = array(
-                    'property_id' => $property_id,
-                    'preview_link' => get_preview_post_link($property_id),
-                );
-                wp_send_json($resp);
+        $current_user_data = wp_get_current_user();
+        $preview_id = (isset($_REQUEST['property_preview_id'])) ? absint( $_REQUEST['property_preview_id'] ) : 0 ;
+        $edit_id = (isset($_REQUEST['property_id'])) ? absint( $_REQUEST['property_id'] ) : 0 ;
 
-            // create from preview (already in draft)
-            } elseif (isset($_REQUEST['property_preview_id']) && get_post_field( 'post_author', $_REQUEST['property_preview_id'] ) == $current_user_data->ID) {
-        		if(rem_get_option('property_submission_mode') == 'approve'){
-        			$property_id = $this->insert_property_in_db($_REQUEST['property_preview_id'], $_REQUEST, $current_user_data, 'pending');
-        		} else {
-        			$property_id = $this->insert_property_in_db($_REQUEST['property_preview_id'], $_REQUEST, $current_user_data, 'publish');
-        		}
+        // create a preview
+        if (isset($_REQUEST['preview_property'])) {
 
-        		echo apply_filters( 'rem_redirect_after_property_submit', get_permalink( $property_id ), $_REQUEST );
+        	// if already has preview, just update
+        	$previous_id = ($preview_id && $this->user_can_edit_property($preview_id)) ? $preview_id : '' ;
+        	$property_id = $this->insert_property_in_db($previous_id, $_REQUEST, $current_user_data, 'draft');
+            $resp = array(
+                'property_id' => $property_id,
+                'preview_link' => get_preview_post_link($property_id),
+            );
+            wp_send_json($resp);
 
-        	// already created, just update data
-            } elseif (isset($_REQUEST['property_id']) && get_post_field( 'post_author', $_REQUEST['property_id'] ) == $current_user_data->ID) {
-        		$status = (isset($_REQUEST['accessibility']) && $_REQUEST['accessibility'] != '') ? $_REQUEST['accessibility'] : get_post_status( $_REQUEST['property_id'] ) ;
-        		if (isset($_REQUEST['accessibility']) && $_REQUEST['accessibility'] == 'publish') {
-        			if($this->property_can_be_published($_REQUEST['property_id'])){
-        				$property_id = $this->insert_property_in_db($_REQUEST['property_id'], $_REQUEST, $current_user_data, 'publish');
-        			} else {
-        				$property_id = $this->insert_property_in_db($_REQUEST['property_id'], $_REQUEST, $current_user_data, 'pending');
-        			}
-        		} else {
-        			$property_id = $this->insert_property_in_db($_REQUEST['property_id'], $_REQUEST, $current_user_data, $status);
-        		}
-        	    echo apply_filters( 'rem_redirect_after_property_edit', get_permalink( $property_id ), $_REQUEST );
+        // create from preview (already in draft)
+        } elseif ($preview_id && $this->user_can_edit_property($preview_id)) {
+    		if(rem_get_option('property_submission_mode') == 'approve'){
+    			$property_id = $this->insert_property_in_db($preview_id, $_REQUEST, $current_user_data, 'pending');
+    		} else {
+    			$property_id = $this->insert_property_in_db($preview_id, $_REQUEST, $current_user_data, 'publish');
+    		}
 
-        	// Create a new    
-            } else {
-            	if(rem_get_option('property_submission_mode') == 'approve'){
-            		$property_id = $this->insert_property_in_db('', $_REQUEST, $current_user_data, 'pending');
-            	} else {
-            		$property_id = $this->insert_property_in_db($_REQUEST['property_id'], $_REQUEST, $current_user_data, 'publish');
-            	}
-            	echo apply_filters( 'rem_redirect_after_property_submit', get_permalink( $property_id ), $_REQUEST );
-            }
+    		echo esc_url_raw( apply_filters( 'rem_redirect_after_property_submit', get_permalink( $property_id ), $_REQUEST ) );
 
+    	// already created, just update data
+        } elseif ($edit_id && $this->user_can_edit_property($edit_id)) {
+    		$allowed_statuses = array('draft', 'pending', 'private', 'publish');
+    		$accessibility = (isset($_REQUEST['accessibility'])) ? sanitize_key( $_REQUEST['accessibility'] ) : '' ;
+    		$status = (in_array($accessibility, $allowed_statuses)) ? $accessibility : get_post_status( $edit_id ) ;
+    		if ($accessibility == 'publish') {
+    			if($this->property_can_be_published($edit_id)){
+    				$property_id = $this->insert_property_in_db($edit_id, $_REQUEST, $current_user_data, 'publish');
+    			} else {
+    				$property_id = $this->insert_property_in_db($edit_id, $_REQUEST, $current_user_data, 'pending');
+    			}
+    		} else {
+    			$property_id = $this->insert_property_in_db($edit_id, $_REQUEST, $current_user_data, $status);
+    		}
+    	    echo esc_url_raw( apply_filters( 'rem_redirect_after_property_edit', get_permalink( $property_id ), $_REQUEST ) );
+
+    	// Create a new
+        } else {
+        	if(rem_get_option('property_submission_mode') == 'approve'){
+        		$property_id = $this->insert_property_in_db('', $_REQUEST, $current_user_data, 'pending');
+        	} else {
+        		$property_id = $this->insert_property_in_db('', $_REQUEST, $current_user_data, 'publish');
+        	}
+        	echo esc_url_raw( apply_filters( 'rem_redirect_after_property_submit', get_permalink( $property_id ), $_REQUEST ) );
         }
 
         die();
+    }
+
+    function user_can_edit_property($property_id){
+    	if (get_post_type( $property_id ) != 'rem_property') {
+    		return false;
+    	}
+    	return get_post_field( 'post_author', $property_id ) == get_current_user_id() || current_user_can( 'edit_post', $property_id );
     }
 
     function property_can_be_published($property_id){
@@ -1771,24 +1784,36 @@ class REM_Shortcodes
     	
     	$property_id = wp_insert_post( $property_data );
 
+        // request keys which are not property meta
+        $skip_keys = apply_filters( 'rem_frontend_property_skip_meta_keys', array(
+        	'action', 'rem_property_nonce', 'title', 'content', 'rem_property_data', 'tags',
+        	'preview_property', 'property_preview_id', 'property_id', 'accessibility',
+        ) );
+
         foreach ($data as $key => $meta) {
-            if ($key != 'title' || $key != 'content' || $key != 'rem_property_data' || $key != 'tags') {
-                update_post_meta( $property_id, 'rem_'.$key, $meta );
+            $key = sanitize_key( $key );
+
+            if (!in_array($key, $skip_keys)) {
+                update_post_meta( $property_id, 'rem_'.$key, wp_slash( rem_sanitize_submitted_value( wp_unslash( $meta ) ) ) );
             }
 
-            if ($key == 'rem_property_data') {
-                update_post_meta( $property_id, 'rem_property_images', $meta['property_images'] );
-                $img_ids = 0;
+            if ($key == 'rem_property_data' && isset($meta['property_images']) && is_array($meta['property_images'])) {
+                $property_images = array();
                 foreach ($meta['property_images'] as $imgID => $id) {
+                    $property_images[absint($imgID)] = absint($id);
+                }
+                update_post_meta( $property_id, 'rem_property_images', $property_images );
+                $img_ids = 0;
+                foreach ($property_images as $imgID => $id) {
                     if ($img_ids == 0) {
                         set_post_thumbnail( $property_id, $imgID );
-                    } else {
+                    } elseif (current_user_can( 'edit_post', $imgID )) {
                     	wp_update_post(
                     	    array(
-                    	        'ID' => $imgID, 
+                    	        'ID' => $imgID,
                     	        'post_parent' => $property_id
                     	    )
-                    	);                  	
+                    	);
                     }
                     $img_ids++;
                 }
@@ -1903,117 +1928,161 @@ class REM_Shortcodes
     }
 
     function rem_register_agent(){
-        if (isset($_REQUEST)) {
-            $resp = array();
+        $resp = array();
 
-        	// Checking for Spams
-            if (isset($_REQUEST['g-recaptcha-response'])) {
-            	if (!$_REQUEST['g-recaptcha-response']) {
-                	$resp = array('status' => 'already', 'msg' => __( 'Please check the captcha form.', 'real-estate-manager' ));
-                	echo json_encode($resp); exit;
-            	} else {
-            		$captcha = $_REQUEST['g-recaptcha-response'];
-					$secretKey = rem_get_option('captcha_secret_key', '6LcDhUQUAAAAAGKQ7gd1GsGAkEGooVISGEl3s7ZH');
-					$ip = $_SERVER['REMOTE_ADDR'];
-					$response = wp_remote_post("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-					$responseKeys = json_decode($response['body'], true);
-					if(intval($responseKeys["success"]) !== 1) {
-                		$resp = array('status' => 'error', 'msg' => __( 'There was an error. Please try again after reloading page.', 'real-estate-manager' ));
-                		echo json_encode($resp); exit;
-					}
-            	}
-            }
+    	// Checking for Spams
+        if (rem_get_option('captcha_on_registration') == 'on' || isset($_REQUEST['g-recaptcha-response'])) {
+        	if (empty($_REQUEST['g-recaptcha-response'])) {
+            	wp_send_json( array('status' => 'already', 'msg' => __( 'Please check the captcha form.', 'real-estate-manager' )) );
+        	} elseif (!rem_verify_recaptcha()) {
+            	wp_send_json( array('status' => 'error', 'msg' => __( 'There was an error. Please try again after reloading page.', 'real-estate-manager' )) );
+        	}
+        }
 
-            // Lets Check if username already exists
-            if (username_exists( $_REQUEST['username'] ) || email_exists( $_REQUEST['useremail'] )) {
-                $resp = array('status' => 'already', 'msg' => __( 'Username or Email already exists', 'real-estate-manager' ));
-            } else {
+        $agent_data = $this->sanitize_agent_registration_data($_REQUEST);
+        $username = (isset($agent_data['username'])) ? $agent_data['username'] : '' ;
+        $useremail = (isset($agent_data['useremail'])) ? $agent_data['useremail'] : '' ;
+        $password = (isset($agent_data['password'])) ? $agent_data['password'] : '' ;
 
-            	if (rem_get_option('agents_approval', 'manual') == 'auto') {
-            		extract($_REQUEST);
-		            $agent_id = wp_create_user( $username, $password, $useremail );
-	                if ($agent_id) {
-			            // WPML Language
-			            if (isset($_REQUEST['wpml_user_email_language'])) {
-			                update_user_meta( $agent_id, 'icl_admin_language', $_REQUEST['wpml_user_email_language']);
-			            }
-	                    do_action( 'rem_new_agent_register', $_REQUEST );
-	                    $resp = array('status' => 'success', 'msg' => __( 'Registered Successfully, please wait until admin approves.', 'real-estate-manager' ));
-	                } else {
-	                    $resp = array('status' => 'error', 'msg' => __( 'Error, please try later', 'real-estate-manager' ));
-	                }
+        if ($username == '' || $useremail == '' || !is_email($useremail) || $password == '') {
+            wp_send_json( array('status' => 'error', 'msg' => __( 'Please provide a valid username, email and password.', 'real-estate-manager' )) );
+        }
 
-		            do_action( 'rem_new_agent_approved', $_REQUEST );
+        // Lets Check if username already exists
+        if (username_exists( $username ) || email_exists( $useremail )) {
+            $resp = array('status' => 'already', 'msg' => __( 'Username or Email already exists', 'real-estate-manager' ));
+        } else {
 
-		            if ($agent_id) {
-		                wp_update_user( array( 'ID' => $agent_id, 'role' => 'rem_property_agent' ) );
-			            global $rem_ob;
-			            $agent_fields = $rem_ob->get_agent_fields();
-
-			            foreach ($agent_fields as $field) {
-			                if (isset($_REQUEST[$field['key']])) {
-			                    update_user_meta( $agent_id, $field['key'], $_REQUEST[$field['key']]);
-			                }
-			            }
-			            if (isset($_REQUEST['agent_longitude'])) {
-			            	update_user_meta( $agent_id, 'agent_longitude', $_REQUEST['agent_longitude']);
-			            }
-			            if (isset($_REQUEST['agent_latitude'])) {
-			            	update_user_meta( $agent_id, 'agent_latitude', $_REQUEST['agent_latitude']);
-			            }
-		                // if image uploaded
-			            if ( isset($_FILES["rem_agent_meta_image"]) ) { 
-			            	require_once( ABSPATH . 'wp-admin/includes/image.php' );
-			            	require_once( ABSPATH . 'wp-admin/includes/file.php' );
-			            	require_once( ABSPATH . 'wp-admin/includes/media.php' );
-			            	$attachment_id = media_handle_upload( 'rem_agent_meta_image', 0 );
-				            update_user_meta( $agent_id, 'rem_agent_meta_image', wp_get_attachment_url( $attachment_id ));
-				        }
-
-				        if (rem_get_option('auto_login') == 'enable') {
-					        wp_set_current_user($agent_id);
-					        wp_set_auth_cookie($agent_id);
-				        }
+        	if (rem_get_option('agents_approval', 'manual') == 'auto') {
+	            $agent_id = wp_create_user( $username, $password, $useremail );
+	            if (is_wp_error($agent_id)) {
+	            	$agent_id = 0;
+	            }
+                if ($agent_id) {
+		            // WPML Language
+		            if (isset($agent_data['wpml_user_email_language'])) {
+		                update_user_meta( $agent_id, 'icl_admin_language', $agent_data['wpml_user_email_language']);
 		            }
+                    do_action( 'rem_new_agent_register', $agent_data );
+                    $resp = array('status' => 'success', 'msg' => __( 'Registered Successfully, please wait until admin approves.', 'real-estate-manager' ));
+                } else {
+                    $resp = array('status' => 'error', 'msg' => __( 'Error, please try later', 'real-estate-manager' ));
+                }
 
-            		
-            	} else {
-	                $_REQUEST['time'] = current_time( 'mysql' );
+	            if ($agent_id) {
+		            do_action( 'rem_new_agent_approved', $agent_data );
 
-	                $previous_users = get_option( 'rem_pending_users' );
-	                
+	                wp_update_user( array( 'ID' => $agent_id, 'role' => 'rem_property_agent' ) );
+		            global $rem_ob;
+		            $agent_fields = $rem_ob->get_agent_fields();
+
+		            foreach ($agent_fields as $field) {
+		                if (isset($agent_data[$field['key']]) && $field['key'] != 'password' && $field['key'] != 'repassword') {
+		                    update_user_meta( $agent_id, $field['key'], $agent_data[$field['key']]);
+		                }
+		            }
+		            if (isset($agent_data['agent_longitude'])) {
+		            	update_user_meta( $agent_id, 'agent_longitude', $agent_data['agent_longitude']);
+		            }
+		            if (isset($agent_data['agent_latitude'])) {
+		            	update_user_meta( $agent_id, 'agent_latitude', $agent_data['agent_latitude']);
+		            }
 	                // if image uploaded
-		            if ( isset($_FILES["rem_agent_meta_image"]) ) { 
+		            if ( isset($_FILES["rem_agent_meta_image"]) ) {
 		            	require_once( ABSPATH . 'wp-admin/includes/image.php' );
 		            	require_once( ABSPATH . 'wp-admin/includes/file.php' );
 		            	require_once( ABSPATH . 'wp-admin/includes/media.php' );
 		            	$attachment_id = media_handle_upload( 'rem_agent_meta_image', 0 );
-			            $_REQUEST['rem_agent_meta_image'] = wp_get_attachment_url( $attachment_id );
+		            	if (!is_wp_error($attachment_id)) {
+			            	update_user_meta( $agent_id, 'rem_agent_meta_image', esc_url_raw( wp_get_attachment_url( $attachment_id ) ));
+		            	}
 			        }
-	                if ( $previous_users != '' && is_array($previous_users)) {
-	                   foreach ($previous_users as $single_user) {
-	                       if ($single_user['username'] == $_REQUEST['username'] || $single_user['useremail'] == $_REQUEST['useremail']) {
-	                            $resp = array('status' => 'already', 'msg' => __( 'Username or Email already exists', 'real-estate-manager' ));
-	                            echo json_encode($resp);
-	                            exit;
-	                       }
-	                   }
-	                   $previous_users[] = $_REQUEST;
-	                } else {
-	                   $previous_users = array($_REQUEST);
-	                }
 
-	                if (update_option( 'rem_pending_users', $previous_users )) {
-	                    do_action( 'rem_new_agent_register', $_REQUEST );
-	                    $resp = array('status' => 'success', 'msg' => __( 'Registered Successfully, please wait until admin approves.', 'real-estate-manager' ));
-	                } else {
-	                    $resp = array('status' => 'error', 'msg' => __( 'Error, please try later', 'real-estate-manager' ));
-	                }
-            	}
-            }
+			        if (rem_get_option('auto_login') == 'enable') {
+				        wp_set_current_user($agent_id);
+				        wp_set_auth_cookie($agent_id);
+			        }
+	            }
 
-            wp_send_json( $resp );
+
+        	} else {
+                $agent_data['time'] = current_time( 'mysql' );
+
+                $previous_users = get_option( 'rem_pending_users' );
+
+                // if image uploaded
+	            if ( isset($_FILES["rem_agent_meta_image"]) ) {
+	            	require_once( ABSPATH . 'wp-admin/includes/image.php' );
+	            	require_once( ABSPATH . 'wp-admin/includes/file.php' );
+	            	require_once( ABSPATH . 'wp-admin/includes/media.php' );
+	            	$attachment_id = media_handle_upload( 'rem_agent_meta_image', 0 );
+	            	if (!is_wp_error($attachment_id)) {
+		            	$agent_data['rem_agent_meta_image'] = esc_url_raw( wp_get_attachment_url( $attachment_id ) );
+	            	}
+		        }
+                if ( $previous_users != '' && is_array($previous_users)) {
+                   foreach ($previous_users as $single_user) {
+                       if ($single_user['username'] == $username || $single_user['useremail'] == $useremail) {
+                            wp_send_json( array('status' => 'already', 'msg' => __( 'Username or Email already exists', 'real-estate-manager' )) );
+                       }
+                   }
+                   $previous_users[] = $agent_data;
+                } else {
+                   $previous_users = array($agent_data);
+                }
+
+                if (update_option( 'rem_pending_users', $previous_users )) {
+                    do_action( 'rem_new_agent_register', $agent_data );
+                    $resp = array('status' => 'success', 'msg' => __( 'Registered Successfully, please wait until admin approves.', 'real-estate-manager' ));
+                } else {
+                    $resp = array('status' => 'error', 'msg' => __( 'Error, please try later', 'real-estate-manager' ));
+                }
+        	}
         }
+
+        wp_send_json( $resp );
+    }
+
+    /**
+     * Keep only the known agent fields from a registration request and sanitize them by field type
+     * @since  7.4
+     */
+    function sanitize_agent_registration_data($request){
+    	global $rem_ob;
+    	$request = wp_unslash( $request );
+    	$data = array();
+
+    	foreach ($rem_ob->get_agent_fields() as $field) {
+    		$key = $field['key'];
+    		if (!isset($request[$key])) {
+    			continue;
+    		}
+    		$value = $request[$key];
+    		$type = (isset($field['type'])) ? $field['type'] : 'text' ;
+
+    		if ($type == 'password') {
+    			// stored as entered, it is never output and wp_create_user() hashes it
+    			$data[$key] = (is_string($value)) ? $value : '' ;
+    		} elseif ($key == 'username') {
+    			$data[$key] = sanitize_user( $value, true );
+    		} elseif ($type == 'email') {
+    			$data[$key] = sanitize_email( $value );
+    		} elseif ($type == 'textarea') {
+    			$data[$key] = sanitize_textarea_field( $value );
+    		} elseif (is_array($value)) {
+    			$data[$key] = array_map( 'sanitize_text_field', $value );
+    		} else {
+    			$data[$key] = sanitize_text_field( $value );
+    		}
+    	}
+
+    	foreach (array('agent_longitude', 'agent_latitude', 'wpml_user_email_language') as $key) {
+    		if (isset($request[$key]) && is_string($request[$key])) {
+    			$data[$key] = sanitize_text_field( $request[$key] );
+    		}
+    	}
+
+    	return $data;
     }
 
     function delete_property(){

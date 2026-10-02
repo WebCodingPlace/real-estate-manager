@@ -162,7 +162,7 @@ jQuery(document).ready(function($) {
         }        
 
         var ajaxurl = $(this).data('ajaxurl');
-        var data = $(this).serialize()+"&content="+encodeURIComponent(content);
+        var data = $(this).serialize()+"&content="+encodeURIComponent(content)+"&rem_property_nonce="+encodeURIComponent(rem_property_vars.rem_property_nonce);
 
         $.post(ajaxurl, data , function(resp) {
             // console.log(resp);
@@ -189,6 +189,10 @@ jQuery(document).ready(function($) {
                 $('.creating-prop .msg').html(rem_property_vars.success_message);
                 window.location = resp;
             };
+        }).fail(function(xhr) {
+            $('.creating-prop').hide();
+            var msg = (xhr.responseJSON && xhr.responseJSON.data) ? xhr.responseJSON.data : xhr.statusText;
+            alert(msg);
         });
     });
     if ($('.rem-field-label .glyphicon-question-sign').length) {

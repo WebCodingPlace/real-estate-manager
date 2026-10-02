@@ -792,20 +792,13 @@ class WCP_Real_Estate_Management
         } else {
             if (isset($_REQUEST) && $_REQUEST != '') {
 
-                if (isset($_REQUEST['g-recaptcha-response'])) {
-                    if (!$_REQUEST['g-recaptcha-response']) {
+                if (rem_get_option('captcha_on_agent_contact') == 'on' || isset($_REQUEST['g-recaptcha-response'])) {
+                    if (empty($_REQUEST['g-recaptcha-response'])) {
                         $resp = array('fail' => 'already', 'msg' => __( 'Please check the captcha form.', 'real-estate-manager' ));
                         echo wp_json_encode($resp); exit;
-                    } else {
-                        $captcha = $_REQUEST['g-recaptcha-response'];
-                        $secretKey = rem_get_option('captcha_secret_key', '6LcDhUQUAAAAAGKQ7gd1GsGAkEGooVISGEl3s7ZH');
-                        $ip = $_SERVER['REMOTE_ADDR'];
-                        $response = wp_remote_post("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-                        $responseKeys = json_decode($response['body'], true);
-                        if(intval($responseKeys["success"]) !== 1) {
-                            $resp = array('fail' => 'error', 'msg' => __( 'There was an error. Please try again after reloading page', 'real-estate-manager' ));
-                            echo wp_json_encode($resp); exit;
-                        }
+                    } elseif (!rem_verify_recaptcha()) {
+                        $resp = array('fail' => 'error', 'msg' => __( 'There was an error. Please try again after reloading page', 'real-estate-manager' ));
+                        echo wp_json_encode($resp); exit;
                     }
                 }
 

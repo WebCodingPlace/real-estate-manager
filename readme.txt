@@ -3,8 +3,8 @@ Contributors: Rameez_Iqbal
 Tags: real estate, property, listings,  wp property, realty, real estate manager, properties, listing, wpml, property management system, wordpress real estate, real estate CMS, wp real estate, wp agent, German, Spanish, Russian, Arabic, Czech, Persian, Greek, Danish
 Donate link: https://www.paypal.me/webcodingplace
 Requires at least: 3.5
-Tested up to: 6.5
-Stable tag: 7.3
+Tested up to: 7.1
+Stable tag: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,27 +78,50 @@ Real Estate Manager is a comprehensive WordPress plugin designed to create featu
 
 <h3>Addons</h3>
 <ul>
-    <li><strong><a href="https://wp-rem.com/addons/rem-xml-csv-importer/">REM - XML, CSV Importer</a></strong> — Import or sync listings from XML, CSV files, or external APIs.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-conditional-fields/">REM - Conditional Fields</a></strong> — Show or hide listing fields dynamically.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-currency-switcher/">REM - Currency Switcher</a></strong> — Display listing prices in multiple currencies.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-saved-searches-and-notify/">REM - Saved Searches & Notify</a></strong> — Save searches and receive notifications for matching listings.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-wish-list/">REM - Wishlist</a></strong> — Save favorite listings and contact multiple agents.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-export-and-import/">REM - Export & Import</a></strong> — Export and import plugin settings.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-property-listing-styles/">REM - Property Listing Styles</a></strong> — Additional layouts for property archives.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-social-share/">REM - Social Share</a></strong> — Add social sharing buttons to listings.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-google-map-filters/">REM - Google Map Filters</a></strong> — Search and filter listings directly on Google Maps.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-filterable-grid/">REM - Filterable Properties Grid</a></strong> — Display listings in a filterable grid.</li>
-
-    <li><strong><a href="https://wp-rem.com/addons/rem-woo-estato/">REM - Woo Estato</a></strong> — Sell listing packages and subscriptions with WooCommerce.</li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-xml-csv-importer/">REM - XML, CSV Importer:</a></strong>
+      Import or sync listings from files (XML, CSV) or external APIs.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-conditional-fields/">REM - Conditional Fields:</a></strong>
+      Dependable listing fields on search forms and creation/updation.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-conditional-fields/">REM - Currency Switcher:</a></strong>
+      Live currency converion for prices of listings.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-saved-searches-and-notify/">REM - Saved Searches and Notify:</a></strong>
+      Save the search criteria and notify when a matching listing is available.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-wish-list/">REM - Wishlist</a></strong>
+      Add listing to favourites and bulk contact their agents.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-export-and-import/">REM - Export Import</a></strong>
+      Export and Import the plugin settings.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-property-listing-styles/">REM - Property Listing Styles</a></strong>
+      Additional listing styles for property archives.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-social-share/">REM - Social Share</a></strong>
+      Social Share buttons for listings and print PDFs.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-google-map-filters/">REM - Google Map Filters</a></strong>
+      Search and filter listings directly on the map.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-filterable-grid/">REM - Filterable Properties Grid</a></strong>
+      Display listings in a filterable justified grid.
+   </li>
+   <li>
+      <strong><a href="https://wp-rem.com/addons/rem-woo-estato/">REM - Woo Estato</a></strong>
+      Paid subscriptions for listing submissions.
+   </li>
 </ul>
 
 
@@ -142,6 +165,14 @@ Real Estate Manager is a comprehensive WordPress plugin designed to create featu
 10. Easy to use Settings
 
 == Changelog ==
+
+= 7.4 - September, 30 2026 =
+* Security Fix: Stored XSS via frontend property submission (added nonce and capability checks, sanitized property meta, escaped price text output)
+* Security Fix: Users could overwrite posts they do not own through the frontend property form
+* Security Fix: Stored XSS via agent registration fields (registration data is now sanitized and escaped on the Agents admin page)
+* Security Fix: reCAPTCHA could be bypassed on agent registration, login and contact forms by omitting the captcha response
+* Security Fix: Agent passwords are no longer stored as plain text user meta on auto approved registrations
+* New Filter: rem_user_can_submit_property to allow custom roles to submit properties from frontend
 
 = 7.3 - May, 30 2024 =
 * Bug Fixed: Map Box price is not appearing

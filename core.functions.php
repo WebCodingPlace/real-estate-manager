@@ -5,7 +5,7 @@
 
 define('REM_PATH', untrailingslashit(plugin_dir_path( __FILE__ )) );
 define('REM_URL', untrailingslashit(plugin_dir_url( __FILE__ )) );
-define('REM_VERSION', '7.3' );
+define('REM_VERSION', '7.4' );
 
 /**
  * Loads main css for rem.
@@ -146,12 +146,12 @@ function rem_display_property_price($property_id = '') {
 		    $max_price = $price_array[1];
 		    $min_display = rem_get_property_price($min_price);
 		    $max_display = rem_get_property_price($max_price);
-		    $after_price = get_post_meta($property_id, 'rem_after_price_text', true);
+		    $after_price = wp_kses_post( get_post_meta($property_id, 'rem_after_price_text', true) );
 			if ($after_price != '') {
 				$min_display = $min_display . $after_price;
 				$max_display = $max_display . $after_price;
 			}
-			$before_price = get_post_meta($property_id, 'rem_before_price_text', true);
+			$before_price = wp_kses_post( get_post_meta($property_id, 'rem_before_price_text', true) );
 			if ($before_price != '') {
 				$min_display = $before_price . $min_display ;
 				$max_display = $before_price . $max_display ;
@@ -169,19 +169,65 @@ function rem_display_property_price($property_id = '') {
 			if ($sale_price != '') {
 				$display = '<del>' . $display . '</del> <span class="sale-price">' .rem_get_property_price($sale_price). '</span>';
 			}
-			$after_price = get_post_meta($property_id, 'rem_after_price_text', true);
+			$after_price = wp_kses_post( get_post_meta($property_id, 'rem_after_price_text', true) );
 			if ($after_price != '') {
 				$display = $display . $after_price;
 			}
-			$before_price = get_post_meta($property_id, 'rem_before_price_text', true);
+			$before_price = wp_kses_post( get_post_meta($property_id, 'rem_before_price_text', true) );
 			if ($before_price != '') {
 				$display = $before_price . $display ;
-			}		
+			}
 			return apply_filters( 'rem_display_property_price', $display, $property_id, $price, $sale_price );
 		}
 	} else {
 		return '';
 	}
+}
+
+/**
+ * Verify the reCAPTCHA response sent with the current request
+ * @since  7.4
+ * @return bool true if Google confirms the response, false otherwise (including when it is missing)
+ */
+function rem_verify_recaptcha() {
+	$captcha = isset( $_REQUEST['g-recaptcha-response'] ) ? sanitize_text_field( wp_unslash( $_REQUEST['g-recaptcha-response'] ) ) : '';
+	if ( $captcha == '' ) {
+		return false;
+	}
+
+	$response = wp_remote_post( 'https://www.google.com/recaptcha/api/siteverify', array(
+		'body' => array(
+			'secret'   => rem_get_option('captcha_secret_key', '6LcDhUQUAAAAAGKQ7gd1GsGAkEGooVISGEl3s7ZH'),
+			'response' => $captcha,
+			'remoteip' => isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : '',
+		),
+	) );
+
+	if ( is_wp_error( $response ) ) {
+		return false;
+	}
+
+	$response_keys = json_decode( wp_remote_retrieve_body( $response ), true );
+	return isset( $response_keys['success'] ) && $response_keys['success'] === true;
+}
+
+/**
+ * Recursively sanitize user submitted data before storing it.
+ * Users with unfiltered_html keep their markup, same as WordPress core does for post content.
+ * @since  7.4
+ * @return mixed sanitized value
+ */
+function rem_sanitize_submitted_value( $value ) {
+	if ( is_array( $value ) ) {
+		return array_map( 'rem_sanitize_submitted_value', $value );
+	}
+	if ( ! is_scalar( $value ) ) {
+		return '';
+	}
+	if ( current_user_can( 'unfiltered_html' ) ) {
+		return $value;
+	}
+	return wp_kses_post( $value );
 }
 
 /**
